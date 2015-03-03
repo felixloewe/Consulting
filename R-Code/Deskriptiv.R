@@ -106,9 +106,6 @@ Top_Import[1:10,]
 # Verteilung durchschnittlicher In-Degree (Anzahl der Importe)
 
 
-
-par(mfrow= c(1,1))
-
 mean(table(degree(Gr, mode = "in")))
 table(degree(Gr, mode = "out"))
 
@@ -118,3 +115,7 @@ hist(degree(Gr, mode = "out"),plot = T, prob = T,  right = F)
 sort(table(Reporter_Name), decreasing= T, prob = T)[1:10]
 sort(table(Partner_Name), decreasing= T)[1:10]
 
+par(mfrow= c(1,1))
+
+plot(cut(degree(Gr, mode = "in")/20, 50), main = "In-Degree")
+plot(cut(degree(Gr, mode = "out")/20, 1:200), main = "Out-Degree")
