@@ -21,17 +21,56 @@ matplot(xAchse, t(in_degree_ts), type = "l", col = colors, ylim = yAchse,
         main = "In-Degree-Entwicklung 1992 - 2012",
         xlab = "Jahr",
         ylab = "Anzahl Länder")
-legend("topright", inset = 0, legend = legend_in, col = colors_in, 
+par(xpd = F)
+grid(lwd = 1)
+legend("topright", inset = 0, legend = legend_in, col = colors_out, 
        lty = 1:4,
        lwd = 3,
-       cex = 0.7)
+       cex = 0.7,
+       bg = "white")
 
 matplot(xAchse, t(out_degree_ts), type = "l", col = colors_out, ylim = yAchse,
         lwd = 3,
         main = "Out-Degree-Entwicklung 1992 - 2012",
         xlab = "Jahr",
         ylab = "Anzahl Länder")
+par(xpd = F)
+grid(lwd = 1)
 legend("topright", inset = 0, legend = legend_out, col = colors_out, 
        lty = 1:4,
        lwd = 3,
-       cex = 0.7)
+       cex = 0.7,
+       bg = "white")
+
+
+# Teilnehmer und Dichte-Zeitreihe
+par(mfrow = c(1,2), lwd = 1, xpd = F)
+col_neutral <- "#2c7fb8"
+col_points <- "grey"
+xlim <- c(1950,2015)
+
+plot(xAchse, vertices, type = "l", col = col_neutral, ylim = c(0,250),
+        lwd = 3,
+        main = "Teilnehmer-Entwicklung 1992 - 2012",
+        xlab = "Jahr",
+        ylab = "Anzahl")
+grid(lwd = 1)
+points(xAchse, vertices, pch = 21, col = col_points, bg = col_points)
+
+plot(xAchse, trans, type = "l", col = col_neutral, ylim = c(0,1),
+     lwd = 3,
+     main = "Dichte-Entwicklung 1992 - 2012",
+     xlab = "Jahr",
+     ylab = "Dichte")
+grid(lwd = 1)
+points(xAchse, trans, pch = 21, col = col_points, bg = col_points)
+
+
+# Einseitiger Handel
+adj_ts <- sapply(GraphYear, get.adjacency, type = c("both"), sparse = F, edges = F, names = F)
+adj_ts <- as.matrix(adj_ts)
+symmetric_ts <- sapply(adj_ts, FUN = function(matrix) sum(matrix == t(matrix)))
+
+get.tradecount <- function(Graph){
+  E(Graph)
+}
