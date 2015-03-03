@@ -1,10 +1,10 @@
 # Aufgaben
 
-# durchschnittliche In-Degree-Anzahl pro Jahr
+# durchschnittliche In-Degree-Anzahl pro Jahr (Felix)
     # schöne Achsen (Achsenbeschriftung)
     # Titel
 
-# durchschnittliche Out-Degree-Anzahl pro Jahr
+# durchschnittliche Out-Degree-Anzahl pro Jahr (Felix)
 
 # Zeitreihen
     # In-Degree: 0, 1-100, 100-1000, > 1000

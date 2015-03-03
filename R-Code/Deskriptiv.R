@@ -115,7 +115,11 @@ hist(degree(Gr, mode = "out"),plot = T, prob = T,  right = F)
 sort(table(Reporter_Name), decreasing= T, prob = T)[1:10]
 sort(table(Partner_Name), decreasing= T)[1:10]
 
-par(mfrow= c(1,1))
 
-plot(cut(degree(Gr, mode = "in")/20, 50), main = "Durchschnittlicher In-Degree")
-plot(cut(degree(Gr, mode = "out")/20, 1:200), main = "Out-Degree")
+######## Grafiken erstellen
+par(mfrow= c(1,1), mar = c(7,5,5,2))
+#In-Degree
+plot(cut(degree(Gr, mode = "in")/20, c(1,seq(from = 0, to = 100, by = 5), max(degree(Gr, mode = "in")/20)),right = F, dig.lab=4), main = "Durchschnittlicher In-Degree", las = 2)
+#Out-Degree
+plot(cut(degree(Gr, mode = "out")/20, c(1,seq(from = 0, to = 100, by = 5), max(degree(Gr, mode = "out")/20)),right = F, dig.lab=4), main = "Durchschnittlicher Out-Degree", las = 2)
+
