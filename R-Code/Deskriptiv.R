@@ -2,8 +2,6 @@
 
 
 
-setwd("C:/Users/TEMP/Desktop/Statistisches Consulting (1)")
-
 # Pakete
 install.packages("stringr")
 install.packages("igraph")
@@ -12,7 +10,7 @@ library(igraph)
 
 # Einlesen
 
-MADdata <- read.csv("C:/Users/s10370952/Dropbox/Statistisches Consulting/Exel/MAD Data 1992-2011 bearbeitet.csv")
+MADdata <- read.csv("Exel/MAD Data 1992-2011 bearbeitet.csv")
 MADdata$Reporter_Name <- str_trim(MADdata$Reporter_Name) # Leerzeichen entfernen
 MADdata$Partner_Name <- str_trim(MADdata$Partner_Name) # Leerzeichen entfernen
 
@@ -21,6 +19,13 @@ head(MADdata)
 Gr <- graph.data.frame(MADdata)
 MADdata$Value <- as.numeric(MADdata$Value)
 attach(MADdata)
+
+# Graph pro Jahr erstellen
+year <- 1992:2011
+GraphYear <- vector("list", 20)
+for(i in 1:20){
+  GraphYear[[i]] <- subgraph.edges(Gr, E(Gr)[Year==year[i]])
+}
 
 # Clean-Up
 
@@ -53,7 +58,7 @@ descriptives
 
 # relativ hohe Netzwerkdichte
 
-# Anzahl Lieferungen steigt, Anzahl Länder steigt: wird Datenqualität besser, oder wirklich mehr Lieferungen?
+# Anzahl Lieferungen steigt, Anzahl L?nder steigt: wird Datenqualit?t besser, oder wirklich mehr Lieferungen?
 
 # Gesamtwert in US-Dollar steigend: von 1.850 Milliarden bis hin zu 4.232 Milliarden
 
@@ -96,25 +101,20 @@ Top_Import[1:10,]
 
 
 # Verlauf einseitiger Handel
-# benötige Adjazenzmatrix pro Jahr
+# ben?tige Adjazenzmatrix pro Jahr
 
 # Verteilung durchschnittlicher In-Degree (Anzahl der Importe)
 
-# Graph pro Jahr erstellen
-year <- 1992:2011
-GraphYear <- vector("list", 20)
-for(i in 1:20){
-  GraphYear[[i]] <- subgraph.edges(Gr, E(Gr)[Year==year[i]])
-}
+
+
 par(mfrow= c(1,1))
 
 mean(table(degree(Gr, mode = "in")))
 table(degree(Gr, mode = "out"))
 
-is.directed(Gr)
+
 hist(degree(Gr, mode = "out"),plot = T, prob = T,  right = F)
-GraphYear
+
 sort(table(Reporter_Name), decreasing= T, prob = T)[1:10]
 sort(table(Partner_Name), decreasing= T)[1:10]
-V(Gr)
-table(MADdata$Reporter_Name)
+
