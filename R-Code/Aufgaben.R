@@ -7,8 +7,8 @@
 # durchschnittliche Out-Degree-Anzahl pro Jahr
 
 # Zeitreihen
-    # In-Degree: 0, > 1000
-    # Out-Degree: 0, > 1000
+    # In-Degree: 0, 1-100, 100-1000, > 1000
+    # Out-Degree: 0, 1-100, 100-1000, > 1000
 
 # Zeitreihen
     # Anzahl Knoten
