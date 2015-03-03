@@ -83,7 +83,7 @@ table(Year)
 table(PRIO_Weapons_Code)
 table(IsMirror)
 
-MADdata[Partner_Name == "Libya",]
+
 
 
 # Top-Tabellen
@@ -105,21 +105,20 @@ Top_Import[1:10,]
 
 # Verteilung durchschnittlicher In-Degree (Anzahl der Importe)
 
-
 mean(table(degree(Gr, mode = "in")))
 table(degree(Gr, mode = "out"))
-
-
 hist(degree(Gr, mode = "out"),plot = T, prob = T,  right = F)
-
 sort(table(Reporter_Name), decreasing= T, prob = T)[1:10]
 sort(table(Partner_Name), decreasing= T)[1:10]
-
-
 ######## Grafiken erstellen
 par(mfrow= c(1,1), mar = c(7,5,5,2))
 #In-Degree
-plot(cut(degree(Gr, mode = "in")/20, c(1,seq(from = 0, to = 100, by = 5), max(degree(Gr, mode = "in")/20)),right = F, dig.lab=4), main = "Durchschnittlicher In-Degree", las = 2)
+plot(cut(degree(Gr, mode = "in")/20, c(1,seq(from = 0, to = 100, by = 5), max(degree(Gr, mode = "in")/20)),right = F, dig.lab=4), main = "Durchschnittlicher In-Degree", las = 2, ylab = "durchschnittliche Häufigkeit" )
+#png(filename = "Grafiken/Durchschnittlicher In-Degree.png")
 #Out-Degree
-plot(cut(degree(Gr, mode = "out")/20, c(1,seq(from = 0, to = 100, by = 5), max(degree(Gr, mode = "out")/20)),right = F, dig.lab=4), main = "Durchschnittlicher Out-Degree", las = 2)
+plot(cut(degree(Gr, mode = "out")/20, c(1,seq(from = 0, to = 100, by = 5), max(degree(Gr, mode = "out")/20)),right = F, dig.lab=4), main = "Durchschnittlicher Out-Degree", las = 2, ylab = "durchschnittliche Häufigkeit")
+#png(filename = "Grafiken/Durchschnittlicher Out-Degree.png")
 
+# Zeitreihe Teilnehmer
+plot(year,vertices, main = "Teilnehmer", pch = 1, cex = 2, ylab = "#Teilnehmer", xlab = "Jahr") # Teilnehmer
+#png(filename = "Grafiken/Teilnehmer Zeitreihe.png")
