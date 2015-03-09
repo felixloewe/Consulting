@@ -110,24 +110,8 @@ table(degree(Gr, mode = "out"))
 hist(degree(Gr, mode = "out"),plot = T, prob = T,  right = F)
 sort(table(Reporter_Name), decreasing= T, prob = T)[1:10]
 sort(table(Partner_Name), decreasing= T)[1:10]
-<<<<<<< HEAD
-
-par(mfrow= c(1,1))
-
-plot(cut(degree(Gr, mode = "in")/20, 50), main = "Durchschnittlicher In-Degree")
-plot(cut(degree(Gr, mode = "out")/20, 1:200), main = "Out-Degree")
 
 
-
-
-## Multivariate
-z <- ts(matrix(rt(200 * 8, df = 3), 200, 8),
-        start = c(1961, 1), frequency = 12)
-plot(z, yax.flip = TRUE)
-plot(z, axes = FALSE, ann = FALSE, frame.plot = TRUE,
-     mar.multi = c(0,0,0,0), oma.multi = c(1,1,5,1))
-title("plot(ts(..), axes=FALSE, ann=FALSE, frame.plot=TRUE, mar..., oma...)")
-=======
 ######## Grafiken erstellen
 par(mfrow= c(1,1), mar = c(7,5,5,2))
 plot(table(cut(degree(Gr, mode = "in")/20, c(1,seq(from = 0, to = 100, by = 5), max(degree(Gr, mode = "in")/20)),right = F, dig.lab=4))/241,
@@ -142,12 +126,4 @@ plot(table(cut(degree(Gr, mode = "out")/20, c(1,seq(from = 0, to = 100, by = 5),
 grid(lwd = 1)
 
 
-# Zeitreihe Teilnehmer
-plot(year,vertices, main = "Teilnehmer", pch = 1, cex = 2, ylab = "#Teilnehmer", xlab = "Jahr") # Teilnehmer
-#png(filename = "Grafiken/Teilnehmer Zeitreihe.png")
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 56fe29289f178678fee42fe5248d31bc80bb80ec
->>>>>>> 3e1368d66b4dcaf959488b08f0be985129732dd0
