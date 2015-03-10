@@ -141,40 +141,63 @@ grid(lwd = 1)
 
 
 ######Top-Akteure Zeitreihe
-
+Top_Import <- aggregate(Value, list(Land = Partner_Name, Jahr = Year), sum)
 Top_Export_ <- aggregate(Value, list(Land = Reporter_Name, Jahr = Year), sum)
 
 
-par(mfrow = c(1,1))
-plot(ts(Top_Export[Top_Export$Land == "United States of America",]$x, start = 1992, end = 2011),
-     ylim = c(1000000, 1000000000), 
+windows(width = 10, height = 12)
+
+par(mfrow = c(3,1))
+plot(ts(Top_Export[Top_Export$Land == "United States of America",]$x, start = 1992, end = 2011)/1000000,
+     ylim = c(1, 1000), 
      col = 1,
      lty = 1,
      lwd = 2,
      xlab = "Year",
-     ylab = "Dollar",
+     ylab = "Mil. Dollar",
      main = "Export-Zeitreihe der 5 Top-Exporteure")
-lines(ts(Top_Export[Top_Export$Land == "Germany (Federal Republic)",]$x, start = 1992, end = 2011), col = 2, lty = 2, lwd = 2)
-lines(ts(Top_Export[Top_Export$Land == "Italy",]$x, start = 1992, end = 2011), col = 3, lty = 3, lwd = 2)
-lines(ts(Top_Export[Top_Export$Land == "Brazil",]$x, start = 1992, end = 2011), col = 4, lty = 4, lwd = 2)
-lines(ts(Top_Export[Top_Export$Land == "Austria",]$x, start = 1992, end = 2011), col = 5, lty = 5, lwd = 2)
+lines(ts(Top_Export[Top_Export$Land == "Germany (Federal Republic)",]$x, start = 1992, end = 2011)/1000000, col = 2, lty = 2, lwd = 2)
+lines(ts(Top_Export[Top_Export$Land == "Italy",]$x, start = 1992, end = 2011)/1000000, col = 3, lty = 3, lwd = 2)
+lines(ts(Top_Export[Top_Export$Land == "Brazil",]$x, start = 1992, end = 2011)/1000000, col = 4, lty = 4, lwd = 2)
+lines(ts(Top_Export[Top_Export$Land == "Austria",]$x, start = 1992, end = 2011)/1000000, col = 5, lty = 5, lwd = 2)
 grid(lwd = 1)
 legend("top", c("United States of America", "Germany", "Italy", "Brazil", "Austria"), col = 1:5, lty = 1:5, lwd = 2)
 
 
-Top_Import <- aggregate(Value, list(Land = Partner_Name, Jahr = Year), sum)
 
-plot(ts(Top_Import[Top_Import$Land == "United States of America",]$x, start = 1992, end = 2011),
-     ylim = c(1000000, 250000000), 
+plot(ts(Top_Import[Top_Import$Land == "United States of America",]$x, start = 1992, end = 2011)/1000000,
+     ylim = c(10, 1700), 
      col = 1,
      lty = 1,
      lwd = 2,
      xlab = "Year",
-     ylab = "Dollar",
+     ylab = "Mil. Dollar",
      main = "Import-Zeitreihe der 5 Top-Importeure")
-lines(ts(Top_Import[Top_Import$Land == "Germany (Federal Republic)",]$x, start = 1992, end = 2011), col = 2, lty = 2, lwd = 2)
-lines(ts(Top_Import[Top_Import$Land == "France",]$x, start = 1992, end = 2011), col = 3, lty = 3, lwd = 2)
-lines(ts(Top_Import[Top_Import$Land == "Canada",]$x, start = 1992, end = 2011), col = 4, lty = 4, lwd = 2)
-lines(ts(Top_Import[Top_Import$Land == "United Kingdom",]$x, start = 1992, end = 2011), col = 5, lty = 5, lwd = 2)
+lines(ts(Top_Import[Top_Import$Land == "Germany (Federal Republic)",]$x, start = 1992, end = 2011)/1000000, col = 2, lty = 2, lwd = 2)
+lines(ts(Top_Import[Top_Import$Land == "France",]$x, start = 1992, end = 2011)/1000000, col = 3, lty = 3, lwd = 2)
+lines(ts(Top_Import[Top_Import$Land == "Canada",]$x, start = 1992, end = 2011)/1000000, col = 4, lty = 4, lwd = 2)
+lines(ts(Top_Import[Top_Import$Land == "United Kingdom",]$x, start = 1992, end = 2011)/1000000, col = 5, lty = 5, lwd = 2)
+grid(lwd = 1)
+legend("top", c( "United States of America"," Germany", "France", "Canada", "United Kingdom"), col = 1:5, lty = 1:5, lwd = 2)
+
+
+
+
+
+
+
+plot(ts(Top_Import[Top_Import$Land == "United States of America",]$x, start = 1992, end = 2011)/1000000,
+     ylim = c(1, 300), 
+     col = 1,
+     lty = 1,
+     lwd = 2,
+     xlab = "Year",
+     ylab = "Mil. Dollar",
+     main = "Import-Zeitreihe der 5 Top-Importeure ohne USA")
+lines(ts(Top_Import[Top_Import$Land == "Germany (Federal Republic)",]$x, start = 1992, end = 2011)/1000000, col = 2, lty = 2, lwd = 2)
+lines(ts(Top_Import[Top_Import$Land == "France",]$x, start = 1992, end = 2011)/1000000, col = 3, lty = 3, lwd = 2)
+lines(ts(Top_Import[Top_Import$Land == "Canada",]$x, start = 1992, end = 2011)/1000000, col = 4, lty = 4, lwd = 2)
+lines(ts(Top_Import[Top_Import$Land == "United Kingdom",]$x, start = 1992, end = 2011)/1000000, col = 5, lty = 5, lwd = 2)
 grid(lwd = 1)
 legend("top", c( "Germany", "France", "Canada", "United Kingdom"), col = 2:5, lty = 2:5, lwd = 2)
+
