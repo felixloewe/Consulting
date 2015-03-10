@@ -71,7 +71,7 @@ barplot(trans, names.arg = year, main = "Dichte") # Dichte
 
 # Effekt 2001?
 
-table(Data_Source, Year) # neue Datenquellen ab 2003
+plot(table( Year, Data_Source)) # neue Datenquellen ab 2003, anscheinend ist der Datensatz gegen Ende des erhobenen Zeitraums nicht komplett.
 
 table(Data_Source, Reporter_Name) # ein Land von mehreren reported?
 
@@ -87,10 +87,16 @@ table(IsMirror)
 
 
 # Top-Tabellen
+#2011
+Top_Export2011 <- aggregate(MADdata[Year == 2011,]$Value, list(Land = MADdata[Year == 2011,]$Reporter_Name), sum)
+Top_Export2011 <- Top_Export2011[order(-Top_Export2011$x),]
+Top_Export2011[1:10,]
+#1992
+Top_Export1992 <- aggregate(MADdata[Year == 1992,]$Value, list(Land = MADdata[Year == 1992,]$Reporter_Name), sum)
+Top_Export1992 <- Top_Export1992[order(-Top_Export1992$x),]
+Top_Export1992[1:10,]
+#1992
 
-Top_Export <- aggregate(Value, list(Land = Reporter_Name), sum)
-Top_Export <- Top_Export[order(-Top_Export$x),]
-Top_Export[1:10,]
 Top_Import <- aggregate(Value, list(Land = Partner_Name), sum)
 Top_Import <- Top_Import[order(-Top_Import$x),]
 Top_Import[1:10,]
@@ -113,7 +119,7 @@ sort(table(Partner_Name), decreasing= T)[1:10]
 
 
 ######## Grafiken erstellen
-par(mfrow= c(1,1), mar = c(7,5,5,2))
+par(mfrow= c(2,1), mar = c(7,5,5,2))
 plot(table(cut(degree(Gr, mode = "in")/20, c(1,seq(from = 0, to = 100, by = 5), max(degree(Gr, mode = "in")/20)),right = F, dig.lab=4))/241,
      main = "Durchschnittlicher In-Degree pro Jahr", las = 2, ylab = " relative Häufigkeit" ,
      col = "blue", lwd = 10)
