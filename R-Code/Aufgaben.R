@@ -17,3 +17,16 @@
 # Einseitiger Handel
 
 
+
+
+
+# 09.03.2015
+# Es gibt Schleifen im Datensatz (Länder beliefern sich selbst). Eventuell Zusammenhang mit IsMirror-Variable?
+
+
+# ERGM-Modell
+
+
+
+
+

@@ -118,7 +118,7 @@ plot(cut(degree(Gr, mode = "in")/20, 50), main = "Durchschnittlicher In-Degree")
 plot(cut(degree(Gr, mode = "out")/20, 1:200), main = "Out-Degree")
 
 
-
+table(cut(degree(Gr, mode = "in"), c(1,seq(from = 0, to = 100, by = 5), max(degree(Gr, mode = "in")/20)),right = F, dig.lab=4))
 
 ## Multivariate
 z <- ts(matrix(rt(200 * 8, df = 3), 200, 8),

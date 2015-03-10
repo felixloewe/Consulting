@@ -1,0 +1,60 @@
+\documentclass{article}
+
+\usepackage[ngerman]{babel}
+\usepackage[latin1]{inputenc}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{rlr}
+  \hline
+ & Land & Mrd. Dollar \\ 
+  \hline
+1 & United States of America & 9.2 \\ 
+  2 & Italy & 7.9 \\ 
+  3 & Germany (Federal Republic) & 4.6 \\ 
+  4 & Brazil & 3.7 \\ 
+  5 & Austria & 2.7 \\ 
+  6 & United Kingdom & 2 \\ 
+  7 & Belgium & 1.8 \\ 
+  8 & Switzerland & 1.5 \\ 
+  9 & Russia / USSR (Former) & 1.4 \\ 
+  10 & Czech Republic & 1.4 \\ 
+   \hline
+\end{tabular}
+\caption{Top-Exporteure nach Waffenwert} 
+\end{table}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{rlr}
+  \hline
+ & Land & Mrd. Dollar\\ 
+  \hline
+1 & United States of America & 16\\ 
+  2 & Germany (Federal Republic) & 2.3 \\ 
+  3 & France & 2.3 \\ 
+  4 & Canada & 1.9 \\ 
+  5 & United Kingdom & 1.8 \\ 
+  6 & Saudi Arabia & 1.7 \\ 
+  7 & Belgium & 1.2 \\ 
+  8 & Spain & 1.2 \\ 
+  9 & Australia & 1.2 \\ 
+  10 & Turkey & 1 \\ 
+   \hline
+\end{tabular}
+\caption{Top-Importeure nach Waffenwert} 
+\end{table}
+
+
+
+
+\begin{itemize}
+\item USA größtes Import- und Exportland
+\item Deutschland zweitgrößtes Importland, drittgrößtes Exportland
+\item Frankreich drittgrößtes Importland
+\item Italien zweitgrößtes Exportland
+\end{itemize}
+\end{document}
