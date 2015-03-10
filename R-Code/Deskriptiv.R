@@ -95,7 +95,15 @@ Top_Export2011[1:10,]
 Top_Export1992 <- aggregate(MADdata[Year == 1992,]$Value, list(Land = MADdata[Year == 1992,]$Reporter_Name), sum)
 Top_Export1992 <- Top_Export1992[order(-Top_Export1992$x),]
 Top_Export1992[1:10,]
+
+#2011
+Top_Import2011 <- aggregate(MADdata[Year == 2011,]$Value, list(Land = MADdata[Year == 2011,]$Partner_Name), sum)
+Top_Import2011 <- Top_Import2011[order(-Top_Import2011$x),]
+Top_Import2011[1:10,]
 #1992
+Top_Import1992 <- aggregate(MADdata[Year == 1992,]$Value, list(Land = MADdata[Year == 1992,]$Partner_Name), sum)
+Top_Import1992 <- Top_Import1992[order(-Top_Import1992$x),]
+Top_Import1992[1:10,]
 
 Top_Import <- aggregate(Value, list(Land = Partner_Name), sum)
 Top_Import <- Top_Import[order(-Top_Import$x),]
