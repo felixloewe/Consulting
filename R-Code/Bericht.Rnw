@@ -12,4 +12,7 @@ Allgemiene Maßzahlen:
 \item steigende Dichte
 \item steigender gesamtwert
 \item steigende ANzahl Lieferungen
+
+
+
 \end{document}
