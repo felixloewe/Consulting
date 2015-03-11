@@ -1,0 +1,15 @@
+\documentclass{article}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+\section{Deskriptive Analyse}
+
+Allgemiene Maßzahlen:
+
+\begin{alignment}
+\item steigende teilnehmerzahl
+\item steigende Dichte
+\item steigender gesamtwert
+\item steigende ANzahl Lieferungen
+\end{document}
