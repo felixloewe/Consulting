@@ -83,31 +83,3 @@ get.tradecount <- function(Matrix){
 }
 
 symmetric_ts <- sapply(adj_ts, FUN = get.tradecount)
-
-symmetric_ts <- as.numeric(symmetric_ts)
-
-plot(xAchse, symmetric_ts, type = "l", col = col_neutral, ylim = c(0,1),
-     lwd = 3,
-     main = "Handelsarten 1992 - 2012",
-     xlab = "Jahr",
-     ylab = "Anteil")
-grid(lwd = 1)
-points(xAchse, trans, pch = 21, col = col_points, bg = col_points)
-
-
-
-# Es gibt Schleifen
-
-V(Gr)[8]
-
-E(induced.subgraph(GraphYear[[10]], 8))
-diag(adj_ts[[10]])
-symmetric_ts <- sapply(adj_ts, FUN = get.tradecount)
-
-A <- matrix(c(0,1,0,1), nrow = 2)
-
-symmetric_ts
-
-table(IsMirror)
-table(Data_Source)
-MADdata[as.character(Reporter_Name) == as.character(Partner_Name),]
