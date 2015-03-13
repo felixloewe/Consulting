@@ -87,13 +87,21 @@ table(IsMirror)
 
 
 # Top-Tabellen
+#2011
+Top_Export2011 <- aggregate(MADdata[Year == 2011,]$Value, list(Land = MADdata[Year == 2011,]$Reporter_Name), sum)
+Top_Export2011 <- Top_Export2011[order(-Top_Export2011$x),]
+Top_Export2011[1:10,]
+#1992
+Top_Export1992 <- aggregate(MADdata[Year == 1992,]$Value, list(Land = MADdata[Year == 1992,]$Reporter_Name), sum)
+Top_Export1992 <- Top_Export1992[order(-Top_Export1992$x),]
+Top_Export1992[1:10,]
+#1992
 
-Top_Export <- aggregate(Value, list(Land = Reporter_Name), sum)
-Top_Export <- Top_Export[order(-Top_Export$x),]
-Top_Export[1:10,]
-Top_Import <- aggregate(Value, list(Land = Partner_Name), sum)
+Top_Import <- aggregate(Value, list(Land = Partner_Name, Jahr = Year), sum)
 Top_Import <- Top_Import[order(-Top_Import$x),]
 Top_Import[1:10,]
+
+Top_Import[Top_Import$Land == "France",]
 
 # Variable IsMirror
 # Haben wir doppelte Zeilen? Dem Anschein nach nicht.
@@ -105,39 +113,28 @@ Top_Import[1:10,]
 
 # Verteilung durchschnittlicher In-Degree (Anzahl der Importe)
 
-mean(table(degree(Gr, mode = "in")))
+table(degree(Gr, mode = "in")/20)
 table(degree(Gr, mode = "out"))
 hist(degree(Gr, mode = "out"),plot = T, prob = T,  right = F)
 sort(table(Reporter_Name), decreasing= T, prob = T)[1:10]
 sort(table(Partner_Name), decreasing= T)[1:10]
-<<<<<<< HEAD
 
-par(mfrow= c(1,1))
 
-plot(cut(degree(Gr, mode = "in")/20, 50), main = "Durchschnittlicher In-Degree")
-plot(cut(degree(Gr, mode = "out")/20, 1:200), main = "Out-Degree")
+######## Grafiken erstellen
+par(mfrow= c(2,1), mar = c(7,5,5,2))
+plot(table(cut(degree(Gr, mode = "in")/20, c(1,seq(from = 0, to = 100, by = 5), max(degree(Gr, mode = "in")/20)),right = F, dig.lab=4))/241,
+     main = "Durchschnittlicher In-Degree pro Jahr", las = 2, ylab = " relative Häufigkeit" ,
+     col = "blue", lwd = 10)
+grid(lwd = 1)
 
 
 table(cut(degree(Gr, mode = "in"), c(1,seq(from = 0, to = 100, by = 5), max(degree(Gr, mode = "in")/20)),right = F, dig.lab=4))
-
-## Multivariate
-z <- ts(matrix(rt(200 * 8, df = 3), 200, 8),
-        start = c(1961, 1), frequency = 12)
-plot(z, yax.flip = TRUE)
-plot(z, axes = FALSE, ann = FALSE, frame.plot = TRUE,
-     mar.multi = c(0,0,0,0), oma.multi = c(1,1,5,1))
-title("plot(ts(..), axes=FALSE, ann=FALSE, frame.plot=TRUE, mar..., oma...)")
 =======
-######## Grafiken erstellen
-par(mfrow= c(1,1), mar = c(7,5,5,2))
-#In-Degree
-plot(cut(degree(Gr, mode = "in")/20, c(1,seq(from = 0, to = 100, by = 5), max(degree(Gr, mode = "in")/20)),right = F, dig.lab=4), main = "Durchschnittlicher In-Degree", las = 2, ylab = "durchschnittliche Häufigkeit" )
-#png(filename = "Grafiken/Durchschnittlicher In-Degree.png")
-#Out-Degree
-plot(cut(degree(Gr, mode = "out")/20, c(1,seq(from = 0, to = 100, by = 5), max(degree(Gr, mode = "out")/20)),right = F, dig.lab=4), main = "Durchschnittlicher Out-Degree", las = 2, ylab = "durchschnittliche Häufigkeit")
-#png(filename = "Grafiken/Durchschnittlicher Out-Degree.png")
+plot(table(cut(degree(Gr, mode = "out")/20, c(1,seq(from = 0, to = 100, by = 5), max(degree(Gr, mode = "out")/20)),right = F, dig.lab=4))/241,
+     main = "Durchschnittlicher Out-Degree pro Jahr", las = 2, ylab = " relative Häufigkeit" ,
+     col = "green", lwd = 10)
+grid(lwd = 1)
 
-# Zeitreihe Teilnehmer
-plot(year,vertices, main = "Teilnehmer", pch = 1, cex = 2, ylab = "#Teilnehmer", xlab = "Jahr") # Teilnehmer
-#png(filename = "Grafiken/Teilnehmer Zeitreihe.png")
->>>>>>> 56fe29289f178678fee42fe5248d31bc80bb80ec
+
+
+
