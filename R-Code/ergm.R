@@ -49,3 +49,5 @@ mcmc.diagnostics(Gr.ergm3.fit)
 gof.Gr.ergm3.fit <- gof(Gr.ergm3.fit)
 par(mfrow = c(2,2))
 plot(gof.Gr.ergm3.fit)
+
+

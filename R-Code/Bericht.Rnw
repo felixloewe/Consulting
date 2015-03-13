@@ -5,13 +5,13 @@
 
 \section{Deskriptive Analyse}
 
-Allgemiene Maßzahlen:
+Allgemeine Maßzahlen:
 
 \begin{alignment}
-\item steigende teilnehmerzahl
+\item steigende Teilnehmerzahl
 \item steigende Dichte
-\item steigender gesamtwert
-\item steigende ANzahl Lieferungen
+\item steigender Gesamtwert
+\item steigende Anzahl Lieferungen
 
 
 
