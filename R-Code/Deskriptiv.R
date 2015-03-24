@@ -83,11 +83,25 @@ table(Year)
 table(PRIO_Weapons_Code)
 table(IsMirror)
 
+#############Zusammenhang zwischen loops und IsMirror?
+MADdata$loop <- 0
+MADdata[as.character(Reporter_Name)==as.character(Partner_Name),]$loop <- 1
+MADdata[MADdata$loop==1,]
+table(MADdata$loop, MADdata$IsMirror, dnn = c("loop", "IsMirror"))
+table(MADdata$IsMirror)
 
 
 
 # Top-Tabellen
 #2011
+Top_Export <- function(year){
+  top_export <- aggregate(MADdata[MADdata$Year == year,]$Value, list(Land = MADdata[MADdata$Year == year,]$Reporter_Name), sum)
+  top_export <- top_export[order(-top_export$x),]
+  top_export
+}
+
+Top_Export(2001)
+
 Top_Export2011 <- aggregate(MADdata[Year == 2011,]$Value, list(Land = MADdata[Year == 2011,]$Reporter_Name), sum)
 Top_Export2011 <- Top_Export2011[order(-Top_Export2011$x),]
 Top_Export2011[1:10,]
@@ -201,3 +215,12 @@ lines(ts(Top_Import[Top_Import$Land == "United Kingdom",]$x, start = 1992, end =
 grid(lwd = 1)
 legend("top", c( "Germany", "France", "Canada", "United Kingdom"), col = 2:5, lty = 2:5, lwd = 2)
 
+
+
+
+
+write.csv(MADdata[MADdata$loop==1,], "loop.csv")
+
+Gr1992 <- GraphYear[[1]]
+
+Gr1992$
