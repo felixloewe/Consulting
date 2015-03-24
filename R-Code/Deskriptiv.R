@@ -71,7 +71,7 @@ barplot(trans, names.arg = year, main = "Dichte") # Dichte
 
 # Effekt 2001?
 
-plot(table( Year, Data_Source)) # neue Datenquellen ab 2003, anscheinend ist der Datensatz gegen Ende des erhobenen Zeitraums nicht komplett.
+table(Data_Source, Year) # neue Datenquellen ab 2003
 
 table(Data_Source, Reporter_Name) # ein Land von mehreren reported?
 
@@ -119,9 +119,11 @@ Top_Import1992 <- aggregate(MADdata[Year == 1992,]$Value, list(Land = MADdata[Ye
 Top_Import1992 <- Top_Import1992[order(-Top_Import1992$x),]
 Top_Import1992[1:10,]
 
-Top_Import <- aggregate(Value, list(Land = Partner_Name), sum)
+Top_Import <- aggregate(Value, list(Land = Partner_Name, Jahr = Year), sum)
 Top_Import <- Top_Import[order(-Top_Import$x),]
 Top_Import[1:10,]
+
+Top_Import[Top_Import$Land == "France",]
 
 # Variable IsMirror
 # Haben wir doppelte Zeilen? Dem Anschein nach nicht.
@@ -148,6 +150,8 @@ plot(table(cut(degree(Gr, mode = "in")/20, c(1,seq(from = 0, to = 100, by = 5), 
 grid(lwd = 1)
 
 
+table(cut(degree(Gr, mode = "in"), c(1,seq(from = 0, to = 100, by = 5), max(degree(Gr, mode = "in")/20)),right = F, dig.lab=4))
+=======
 plot(table(cut(degree(Gr, mode = "out")/20, c(1,seq(from = 0, to = 100, by = 5), max(degree(Gr, mode = "out")/20)),right = F, dig.lab=4))/241,
      main = "Durchschnittlicher Out-Degree pro Jahr", las = 2, ylab = " relative Häufigkeit" ,
      col = "green", lwd = 10)
@@ -216,6 +220,7 @@ grid(lwd = 1)
 legend("top", c( "Germany", "France", "Canada", "United Kingdom"), col = 2:5, lty = 2:5, lwd = 2)
 
 
+<<<<<<< HEAD
 
 
 
@@ -224,3 +229,5 @@ write.csv(MADdata[MADdata$loop==1,], "loop.csv")
 Gr1992 <- GraphYear[[1]]
 
 Gr1992$
+=======
+>>>>>>> e28141a73c85b15e1bafec6f07cb0edd633d4066
