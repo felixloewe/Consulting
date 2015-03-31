@@ -1,7 +1,7 @@
 #Funktion zum plotten eines teilnetzwerkes
 #Optionen: Jahr, Anzahl hervorgehobene Top-Staaten, Größe Knoten - Stichprobe
 
-topplot <- function(year, n_tops, N, seed){
+topplot <- function(year, n_tops, N, seed = 1){
     
   #jahr auswählen
   Gr <- GraphYear[[year-1991]]
@@ -11,8 +11,8 @@ topplot <- function(year, n_tops, N, seed){
   ind <- induced.subgraph(Gr, vids = as.character(top_export$Land[1:N]))
   
   #Knotenparameter einstellen
-  V(ind)$size <- 1
-  V(ind)[as.character(top_export$Land[1:n_tops])]$size <- 5
+  V(ind)$size <- degree(ind)*20/max(degree(ind))
+  #V(ind)[as.character(top_export$Land[1:n_tops])]$size <- 5
   V(ind)$label <- ""
   V(ind)[as.character(top_export$Land[1:n_tops])]$label <- as.character(top_export$Land[1:n_tops])
   
