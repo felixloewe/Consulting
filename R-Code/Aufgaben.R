@@ -1,4 +1,4 @@
-# Aufgaben
+## Aufgaben
 
 # durchschnittliche In-Degree-Anzahl pro Jahr (Felix)
     # schöne Achsen (Achsenbeschriftung)
@@ -14,18 +14,21 @@
     # Teilnehmer # passt
     # Dichte (Transitivität) (gemeinsame Handelsbeziehung (3 Partner)) # passt
 
-# Einseitiger Handel
-
-
-
-
+ Einseitiger Handel
 
 # 09.03.2015
 # Es gibt Schleifen im Datensatz (Länder beliefern sich selbst). Eventuell Zusammenhang mit IsMirror-Variable?
+# (done)
+ ERGM-Modell
 
+# 27.03.2015
+# Koninente hinzufügen (done)
+ neue 2011-Daten einlesen
+ Subgraphen-plotten 
+ ERGM-Kapitel lesen
 
-# ERGM-Modell
-
+ Code ordnen
+ eigenen Branch verfolgen, oder alles aufräumen?
 
 
 
