@@ -1,32 +1,304 @@
-\documentclass{article}
+\documentclass[a4paper,ngerman,oneside,titlepage,11pt]{scrreprt}
 
-\usepackage[latin1]{inputenc}
+%article 	
+%scrartcl 	
+%proc 
+%minimal 	
+%report 	
+%scrreprt 	
+%book
+%scrbook 	
+%amsbook
+
+
+\pagestyle{headings}
+
+\usepackage{geometry}
+\geometry{left=31mm, top=34mm, right=31mm, bottom=34mm}
+
+%\usepackage{charter} %font
+\renewcommand{\ttdefault}{lmtt}
+%\usepackage[sc]{mathpazo} %font
+\linespread{1.06} %font
+
+\usepackage[font=small,labelfont=bf]{caption} %caption, caption-font
+
+\usepackage{amsmath, amsthm, amssymb, amsbsy}
+\usepackage{mathtools}
+\usepackage{color}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{svg}
+
 \usepackage[ngerman]{babel}
-\usepackage{setspace}
-\usepackage{amssymb}
-\usepackage{amsmath}
+\usepackage[utf8]{inputenc} % für Umlaute (ansinew Editor, utf8 bei Texniccenter/Texmaker)
+\usepackage[T1]{fontenc} % korrekte Trennung von Umlauten
+
+\usepackage{color}
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\usepackage[hyphens]{url}
 \usepackage{hyperref}
-\usepackage{graphicx}
+\hypersetup{hidelinks}
 
-\usepackage{Sweave}
+\usepackage{listings} %für R-Code
+
+\lstset{ 
+  backgroundcolor=\color{white},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}
+  basicstyle=\ttfamily\footnotesize, % the size of the fonts that are used for the code
+  breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+  breaklines=true,                 % sets automatic line breaking
+  captionpos=b,                    % sets the caption-position to bottom
+  commentstyle=\color{mygreen},    % comment style
+  deletekeywords={...},            % if you want to delete keywords from the given language
+  escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+  extendedchars=false,             % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+  frame=single,                    % adds a frame around the code
+  keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+  keywordstyle=\color{blue},       % keyword style
+  language=R,					   % the language of the code
+  morekeywords={*,...},            % if you want to add more keywords to the set
+  numbers=none,                    % where to put the line-numbers; possible values are (none, left, right)
+  numbersep=5pt,                   % how far the line-numbers are from the code
+  numberstyle=\tiny\color{mygray}, % the style that is used for the line-numbers
+  rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+  showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+  showstringspaces=false,          % underline spaces within strings only
+  showtabs=false,                  % show tabs within strings adding particular underscores
+  stepnumber=2,                    % the step between two line-numbers. If it's 1, each line will be numbered
+  stringstyle=\color{mymauve},     % string literal style
+  tabsize=2,                       % sets default tabsize to 2 spaces
+  lineskip={-0.7pt}
+  %title=\caption                 % show the filename of files included with \lstinputlisting; also try caption instead of title
+}
+
+\newcommand\argmin{\operatornamewithlimits{argmin}} %argmin
+\newcommand\argmax{\operatornamewithlimits{argmax}} %argmax
+
+%definitonen und beispiele
+\newtheorem{defi}{Definition}
+\theoremstyle{remark}
+\newtheorem{exam}{Beispiel}
+
+%cusfloat
+\usepackage{float}
+\floatstyle{plain}
+\newfloat{cusfloat}{thp}{lop}
+\floatname{cusfloat}{Abbildung}
+
+%abstand bei fallunterscheidungen ändern
+\makeatletter
+\renewcommand*\env@cases[1][1.2]{%
+  \let\@ifnextchar\new@ifnextchar
+  \left\lbrace
+  \def\arraystretch{#1}%
+  \array{@{}l@{\quad}l@{}}%
+}
+\makeatother
+
+\hyphenation{Res-ponse-Prop-en-sity Res-ponse-Wahr-sch-ein-lich-keit Unit-Non-res-ponse down-loads chur-ch}
+
+
+\title{Regression Skalar-auf-Funktion}
+\date{Abgabetermin: 30.04.2015}
+\author{Roman Dieterle\\roman.dieterle@hotmail.de}
+
+\setkomafont{sectioning}{\rmfamily\bfseries} 
+
+
+\usepackage{etoolbox}
+\let\bbordermatrix\bordermatrix
+\patchcmd{\bbordermatrix}{8.75}{4.75}{}{}
+\patchcmd{\bbordermatrix}{\left(}{\left[}{}{}
+\patchcmd{\bbordermatrix}{\right)}{\right]}{}{}
+
+
 \begin{document}
-\input{Bericht-concordance}
 
-\section{Deskriptive Analyse}
 
-NA
+\begin{titlepage}
 
-\begin{figure}
-\centering
-\includegraphics[width = 1.00\textwidth]{Grafiken/Deskriptiv.png}
-\end{figure}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
 
-\begin{alignment}
-\item steigende Teilnehmerzahl
-\item steigende Dichte
-\item steigender Gesamtwert
-\item steigende Anzahl Lieferungen
-\end{alignment}
+\center % Center everything on the page
+ 
+%----------------------------------------------------------------------------------------
+%	HEADING SECTIONS
+%----------------------------------------------------------------------------------------
+
+\LARGE Ludwig-Maximilians-Universität München\\[0.2cm] % Name of your university/college
+\LARGE Institut für Statistik\\[5mm]% Major heading such as course name
+\large Projekt im Rahmen des statistischen Consultings\\[6mm]
+% Minor heading such as course title
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\HRule \\[0.4cm]
+{ \huge \bfseries Internationaler Waffenhandel:\\ Die Anwendung neuer Verfahren der\\ statistischen Netzwerkanalyse}\\[5mm]
+{ Eine Netzwerkanalyse des internationalen Kleinwaffenhandels 1992 - 2011}\\
+{ Kooperation mit dem Lehrstuhl für empirische Politikforschung}\\[0.4cm] % Title of your document
+\HRule \\[1.5cm]
+ 
+%----------------------------------------------------------------------------------------
+%	AUTHOR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Autoren:}\\[2mm]
+Roman Dieterle\\
+roman.dieterle@hotmail.de\\[5mm]
+
+Felix Loewe\\
+felixloewe@gmail.com\\% Your name
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}[t]{0.4\textwidth}
+\begin{flushright} \large
+\emph{Projektpartner:}\\[2mm]
+Prof. Dr. Paul W. Thurner\\[6mm]
+
+\emph{Betreuer:}\\[2mm]
+Prof. Dr. Göran Kauermann\\[6mm]
+\end{flushright}
+\end{minipage}\\[4.5cm]
+
+%{\emph{Modul:}\\[2mm]
+%Statistisches Consulting\\
+%Sommersemester 2015}\\[1cm]
+
+% If you don't want a supervisor, uncomment the two lines below and remove the section above
+%\Large \emph{Author:}\\
+%John \textsc{Smith}\\[3cm] % Your name
+
+%----------------------------------------------------------------------------------------
+%	DATE SECTION
+%----------------------------------------------------------------------------------------
+
+%{\large Abgabetermin: 13.04.2015}\\[0.5cm] % Date, change the \today to a set date if you want to be precise
+
+%----------------------------------------------------------------------------------------
+%	LOGO SECTION
+%----------------------------------------------------------------------------------------
+
+%\includegraphics[width=4cm]{logo.png}\\[1cm] % Include a department/university logo - this will require the graphicx package
+ 
+%----------------------------------------------------------------------------------------
+
+ % Fill the rest of the page with whitespace
+
+\end{titlepage}
+
+
+\begin{abstract}
+
+
+\begin{center}
+{\it \bf Abstract} 
+\end{center}
+Dieser Bericht behandelt die Analyse der \emph{NISAT database of transfers of small arms, light weapons, and their ammunition, parts and accessories}. Die Netzwerkdaten stellen das internationale Kleinwaffenhandelsnetzwerk im Zeitraum 1992 bis 2011 dar.
+
+Nachdem die Datengrundlage besprochen wird, erfolgt eine deskriptive Analyse des Handelsnetzwerkes anhand Zeitreihen von Netzwerkstatistiken. Im zweiten Teil wird der Querschnitt des Netzwerkes Jahr für Jahr anhand von ERGMs modelliert, um charakteristische Strukturen des Netzwerkes aufzudecken. Der Fokus liegt hierbei auf der Selektion interner Netzwerkstatistiken sowie externer Knotencharakteristika. Da dynamische Netzwerkdaten vorliegen, erfolgt im dritten Teil eine Analyse der Netzwerke anhand sogenannter \emph{Separable Temporal Exponential Graph Models} (STERGMs, Krivitsky and Handcock, 2010). Diese Modellklasse separiert zwischen Effekten zur Tie-Formation und Effekten zur Tie-Auflösung. Die Ergebnisse werden zusammengefasst.
+% \\
+% 
+% {\bf Schlagwörter}\quad {\it Fehler in Textdaten -- Non-Word Error Correction -- Edit-Distance --\\[0.5mm] Noisy Channel Modeling -- Rechtschreibkorrektur -- Approximate String Matching}
+
+
+\end{abstract}
+
+
+
+\tableofcontents
+
+
+
+
+\chapter{Einführung}
+
+Die funktionale Datenanalyse beschäftigt sich mit Daten, die eine Ansammlung an Kurven darstellen.
+
+\section{Historisches}
+
+Die Analyse funktionaler Daten ist historisch betrachtet auf zwei Wege einzuordnen: Erstens, kann man, und das ist die elegante, statistische Klassifizierungsweise, das neue Sachgebiet im Hinblick auf die auftretenden Daten (der Stichprobenraum $\chi$) und auf die interessierenden Größen (der Parameterraum $\Theta$) analysieren. Die zweite Herangehensweise ist die eines angewandten Statistikers oder die von Auftraggebern, die mit einem neuen Datenformat konfrontiert sind. Sie stellen die Frage, welche historische Entwicklung dazu führt, dass ein neues Datenformat auftritt, welches neue Analysemethoden benötigt.
+
+\chapter{Beispiel mit Spektrometrie-Kurven}
+
+\chapter{Zusammenfassung}
+
+Diese Arbeit 
+
+ 
+
+%\appendix
+
+%\chapter{Anhang}
+%\pagestyle{plain}
+%\addcontentsline{toc}{chapter}{Anhang}
+
+% \pagebreak
+% 
+% \section{Beschreibung des R-Codes}
+% 
+% \subsection{Hauptprogramm: ASMatching.r}
+% 
+% Wird der
+% 
+% \subsubsection*{R-Code}
+%\lstinputlisting[language=R]{E:/DiagnosisMatching/ASMatching.r}
+
+%\pagestyle{plain}
+%\listoftables
+%\addcontentsline{toc}{chapter}{Tabellenverzeichnis}
+
+\chapter*{Literaturverzeichnis}
+\addcontentsline{toc}{chapter}{Literaturverzeichnis}
+
+\noindent \hangindent=\parindent [Cue14] Cuevas, A. (2014): A partial overview of the theory of statistics with functional data. \textit{Journal of Statistical Planning and Inference}, 147, 1-23.\\
+
+\noindent \hangindent=\parindent [GBC+11] Goldsmith, J., Bobb, J., Crainiceanu, C.M., Caffo, B.S., Reich, D.S. (2011). Penalized Functional Regression. \textit{Journal of Computational and Graphical Statistics 20}, 830-851.\\
+
+\noindent \hangindent=\parindent [RS05] Ramsay, J.O. and Silverman, B.W. (2005). Functional Data Analysis. New York: Springer.\\
+
+\noindent \hangindent=\parindent [R14] R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria.
+\url{http://www.R-project.org/}\\
+
+
+
+
+
+
+\chapter*{Eidesstattliche Erklärung}
+%\addcontentsline{toc}{chapter}{Eidesstattliche Erklärung}
+
+Wir erklären hiermit, dass wir diese Arbeit ohne fremde Hilfe angefertigt und nur die im Literaturverzeichnis aufgeführten Quellen und Hilfsmittel benutzt haben. Diese Arbeit wurde noch nicht zu anderen prüfungsrelevanten Zwecken vorgelegt.\\[1.5cm]
+
+
+
+
+\noindent ................................................
+\qquad\qquad\qquad\qquad\qquad
+......................................................\\[0.5mm]
+\textit{Ort, Datum}
+\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad
+\textit{Roman Dieterle, Felix Loewe}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 \end{document}
+

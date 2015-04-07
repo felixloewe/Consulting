@@ -29,7 +29,11 @@
 
  Code ordnen
  eigenen Branch verfolgen, oder alles aufräumen?
-
+ 
+ ## 07.04.2015
+ Bericht schreiben
+ ERGM rechnen
+ 
 
 
 
