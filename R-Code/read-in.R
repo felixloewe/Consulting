@@ -10,6 +10,8 @@
 # Pakete laden
 #install.packages("stringr")
 #install.packages("igraph")
+#install.packages("countrycode")
+library(countrycode)
 library(stringr)
 library(igraph)
 
