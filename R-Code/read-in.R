@@ -22,10 +22,10 @@ MADdata$Partner_Name <- str_trim(MADdata$Partner_Name)
 MADdata$Value <- as.numeric(MADdata$Value)
 
 # Spalten vertauschen, sodass Exportland an erster Stelle steht
-MADdata <- cbind(Reporter_Name = MADdata$Reporter_Name, Partner_Name = MADdata$Partner_Name, MADdata[,-c(2,9)])
+MADdata <- cbind(Reporter_Code = MADdata$Reporter_Code, Partner_Code = MADdata$Partner_Code, MADdata[,-c(1,8)])
 
-# Kontinente der Import- und Exportl?nder hinzufügen
-source("R-Code/continents.R", local = T)
+# Kontinente der Import- und Exportlaender hinzufügen
+# source("R-Code/continents.R", local = T)
 
 # Waffenwert in Millionen umwandeln
 MADdata$ValueMil <- MADdata$Value/10^6
@@ -35,6 +35,14 @@ MADdata$ValueMil <- MADdata$Value/10^6
 
 # Gesamtgraph erstellen (iGraph-Objekt)
 Graph <- graph.data.frame(MADdata)
+
+# Vertex Attribute hinzufügen:
+# Ländername
+V(Graph)$Country_Name <- countrycode(V(Graph)$name, "cown", "country.name", warn = T)
+# Kontinent
+V(Graph)$Continent <- countrycode(V(Graph)$name, "cown", "continent", warn = T)
+# Region
+V(Graph)$Region <- countrycode(V(Graph)$name, "cown", "region", warn = T)
 
 # iGraph-Objekt pro Jahr erstellen (20 Jahre, 1992 - 2011)
 Year <- 1992:2011
