@@ -33,13 +33,8 @@ MADdata$Value <- as.numeric(MADdata$Value)
 # Spalten vertauschen, sodass Exportland an erster Stelle steht
 MADdata <- cbind(Reporter_Code = MADdata$Reporter_Code, Partner_Code = MADdata$Partner_Code, MADdata[,-c(1,8)])
 
-<<<<<<< HEAD
-# Kontinente der Import- und Exportländer hinzufügen
-source("R-Code/continents.R", local = T)
-=======
 # Kontinente der Import- und Exportlaender hinzufügen
 # source("R-Code/continents.R", local = T)
->>>>>>> a62c9d73e4422eb081da76850b4e7700fce2820b
 
 # Waffenwert in Millionen umwandeln
 MADdata$ValueMil <- MADdata$Value/10^6
