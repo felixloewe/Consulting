@@ -43,6 +43,11 @@
 \usepackage{hyperref}
 \hypersetup{hidelinks}
 
+%\usepackage{bibtex}
+
+\bibliographystyle{plain}
+
+
 \usepackage{listings} %für R-Code
 
 \lstset{ 
@@ -220,11 +225,37 @@ Nachdem die Datengrundlage besprochen wird, erfolgt eine deskriptive Analyse des
 
 \chapter{Einführung}
 
-Die funktionale Datenanalyse beschäftigt sich mit Daten, die eine Ansammlung an Kurven darstellen.
+Was ist das Besondere an der statistischen Analyse von Netzwerken? Erstens stellen sie durch ihre Abhängigkeitsstruktur relationale Daten dar. Gewöhnliche Datensätze mit $i = 1, ..., N$ Beobachtungen werden zumeist mit der Annahme analysiert, dass die $n$ Beobachtungen unabhängig voneinander beobachtet werden. Bei Netzwerkdaten ist das nicht der Fall. Hier stehen die Beobachtungen, oft genannt \emph{Akteure} des Netzwerkes, in Beziehung zu einander. Besteht eine Beziehung zwischen den Beobachtungen, können diese nicht mehr als unabhängig angesehen werden. In ähnlicher Sichtweise wird auch eine nicht-bestehende Beziehungen nicht ignoriert, sondern so angesehen, dass individuenspezifische oder netzwerkspezifische Effekte diese verursacht haben können.
 
-\section{Historisches}
+Das Bestehen- oder Nicht-Bestehen einer Beziehung ist die Netzwerkstruktur (\emph{Abhähngigkeitsstruktur}), die zusätzlich zu den Daten eines gewöhnlichen Datensatzes besteht. Die Abhängigkeitsstruktur wird durch die Adjazenzmatrix $Y_{ij} \in N \times N$ ausgedrückt.
 
-Die Analyse funktionaler Daten ist historisch betrachtet auf zwei Wege einzuordnen: Erstens, kann man, und das ist die elegante, statistische Klassifizierungsweise, das neue Sachgebiet im Hinblick auf die auftretenden Daten (der Stichprobenraum $\chi$) und auf die interessierenden Größen (der Parameterraum $\Theta$) analysieren. Die zweite Herangehensweise ist die eines angewandten Statistikers oder die von Auftraggebern, die mit einem neuen Datenformat konfrontiert sind. Sie stellen die Frage, welche historische Entwicklung dazu führt, dass ein neues Datenformat auftritt, welches neue Analysemethoden benötigt.
+Zweitens stellen Netzwerkdaten eine Verallgemeinerung von räumlichen Daten dar. Bei räumlichen Daten wird von der Nachbarschaftsstruktur gesprochen. Markov-Zufallsfelder können als Graph visualisiert werden, dessen Akteure räumliche Punkte oder zum Beispiel Länder sind.
+Sind diese benachbart, besteht eine Kante. Zwei Punkte $i, j$ sind benachbart ($i \sim j$), falls der entsprechende Eintrag in der Adjazenzmatrix eine Eins aufweist. Netzwerke verallgemeinern das Konzept des räumlichen Nachbarns auf beliebige Beziehungen. Bei der Analyse des Waffenhandels wird aus der Beziehung ein Handel und aus den Akteuren die liefernden und belieferten Länder.
+
+Die Arbeit ist wie folgt aufgebaut. Im ersten Kapitel wird die Theorie zu Graphen, Netzwerkstatistiken und Exponential Random Graph Models erklärt. Im zweiten Kapitel erfolgt eine Erläuterung der Datengrundlage der NISAT Datenbank. Im dritten Abschnitt wird der Datensatz deskriptiv analysiert. Im vierten Abschnitt erfolg die Modellierung per ERGMs.
+
+
+\chapter{Theorie}
+
+Die Notation der folgenden Kapitel orientiert sich an \cite{kolaczykR}.
+
+Ein Graph besteht aus einer Anzahl von Knoten und einer Anzahl von Kanten. Die Menge an Knoten $V$ ist eine endliche Menge. Eine Kante $e$ ist ein Element der Menge $E \in V \times V$. 
+
+Ein Graph ist vollständig bestimmt durch seine Adjazenzmatrix $A_{ij} \in |V| \times |V|$, wobei $a_{ij} = 1$ bedeutet, dass zwischen Knoten $i$ und Knoten $j$ eine Kante besteht.
+
+Bei gerichteten Graphen besteht ein Unterschied zwischen der Kante $(i,j)$ und der Kante $(j,i)$. Die Adjazenzmatrix ist dann nicht symmetrisch.
+
+
+
+
+
+\section{Datengrundlage}
+
+Die Datengrundlage für das Kleinwaffenhandelsnetzwerk ist die \emph{NISAT} (Norwegian Initiative on Small Arms Transfers) Datenbank. Das Peace Research Institute Oslo (PRIO) ist der Auftraggeber dieser Datenbank. Die Datenbank enthält Daten über den legalen und illegalen Handel von Kleinwaffen. Der abgedeckte Zeitraum beträgt die Jahre 1992 bis 2011.
+
+Es folgt eine genaue Beschreibung der Datenbank. Die Daten liegen in Form von einer Edge-List
+
+
 
 \chapter{Beispiel mit Spektrometrie-Kurven}
 
@@ -256,18 +287,19 @@ Diese Arbeit
 %\addcontentsline{toc}{chapter}{Tabellenverzeichnis}
 
 \chapter*{Literaturverzeichnis}
+
+\bibliography{literatur}
+
 \addcontentsline{toc}{chapter}{Literaturverzeichnis}
 
 \noindent \hangindent=\parindent [Cue14] Cuevas, A. (2014): A partial overview of the theory of statistics with functional data. \textit{Journal of Statistical Planning and Inference}, 147, 1-23.\\
 
 \noindent \hangindent=\parindent [GBC+11] Goldsmith, J., Bobb, J., Crainiceanu, C.M., Caffo, B.S., Reich, D.S. (2011). Penalized Functional Regression. \textit{Journal of Computational and Graphical Statistics 20}, 830-851.\\
 
-\noindent \hangindent=\parindent [RS05] Ramsay, J.O. and Silverman, B.W. (2005). Functional Data Analysis. New York: Springer.\\
+\noindent \hangindent=\parindent [KC14] Kolaczyk, E. and Csárdi, G. (2014). Statistical Analysis of Network Data with R. Springer\\
 
 \noindent \hangindent=\parindent [R14] R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria.
 \url{http://www.R-project.org/}\\
-
-
 
 
 

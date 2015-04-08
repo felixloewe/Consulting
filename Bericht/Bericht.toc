@@ -1,14 +1,7 @@
 \select@language {ngerman}
 \contentsline {chapter}{\numberline {1}Einf\IeC {\"u}hrung}{4}{chapter.1}
-\contentsline {section}{\numberline {1.1}Historisches}{4}{section.1.1}
-\contentsline {section}{\numberline {1.2}Datendesign}{4}{section.1.2}
-\contentsline {chapter}{\numberline {2}Das lineare funktionale Modell}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}Interpretation der Gewichtsfunktion}{5}{section.2.1}
-\contentsline {section}{\numberline {2.2}Diskrete Regression}{5}{section.2.2}
-\contentsline {chapter}{\numberline {3}Sch\IeC {\"a}tzung des linearen funktionalen Modells}{7}{chapter.3}
-\contentsline {section}{\numberline {3.1}Sch\IeC {\"a}tzung mit Least-Squares}{7}{section.3.1}
-\contentsline {section}{\numberline {3.2}Sch\IeC {\"a}tzung mit Penalisierung}{8}{section.3.2}
-\contentsline {chapter}{\numberline {4}Das generalisierte funktionale Modell}{9}{chapter.4}
-\contentsline {chapter}{\numberline {5}Beispiel mit Spektrometrie-Kurven}{10}{chapter.5}
-\contentsline {chapter}{\numberline {6}Zusammenfassung}{11}{chapter.6}
-\contentsline {chapter}{Literaturverzeichnis}{12}{chapter*.2}
+\contentsline {chapter}{\numberline {2}Theorie}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Datengrundlage}{5}{section.2.1}
+\contentsline {chapter}{\numberline {3}Beispiel mit Spektrometrie-Kurven}{6}{chapter.3}
+\contentsline {chapter}{\numberline {4}Zusammenfassung}{7}{chapter.4}
+\contentsline {chapter}{Literaturverzeichnis}{9}{chapter*.3}
