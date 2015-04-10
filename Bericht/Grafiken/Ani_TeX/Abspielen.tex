@@ -1,0 +1,80 @@
+
+\documentclass{scrartcl}
+\usepackage[left=2cm,right=3cm,top=2cm,bottom=2cm,includeheadfoot]{geometry}
+%\usepackage{bibgerm}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage[colorlinks, linkcolor=black, urlcolor=blue,citecolor=black ]{hyperref}
+\usepackage{tabularx}
+
+\usepackage{listings}
+\usepackage{amssymb,amsmath}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{transparent}
+\usepackage{setspace}
+\usepackage{subfig}
+\usepackage{multirow}
+\usepackage{here}
+\onehalfspacing
+
+\usepackage{colortbl}
+\usepackage[round]{natbib}
+%\usepackage[german]{babelbib}
+\usepackage{animate}
+\usepackage{media9}
+\usepackage{insdljs}
+
+
+
+% Hier JS-Code rein, der einfach so ausgeführt wird:
+%\begin{insDLJS}[test]{test}{JavaScript}
+%var index = 1000;
+%\end{insDLJS}
+
+%%% Wichtig:
+\usepackage{animate}
+
+
+\begin{document}
+
+% ---------------------------------------------------------------
+% ---------------------------------------------------------------
+
+%\section{Fragestellung}
+\normalsize
+
+\begin{center}
+Entwicklung der Handelsströme - Kontinente
+\end{center}
+
+\begin{figure}[!htb]
+\centering
+\animategraphics[scale=0.9, controls]{1}{../Cont_Ani/cont}{1}{20}
+\end{figure}
+Interpretation:
+\begin{itemize}
+\item Die Knotengröße spiegelt die Anzahl der Exporte und Importe wieder. Europa hat gleichbleibend am meisten Handelsaktivität. Auf zweiter und dritter Stelle stehen Asien und Amerika.
+
+\item Die Kantendicke ist proportional zum Handelswert gewählt. Der Handelswert zwischen den Kontinenten verändert sich von Jahr zu Jahr. Es gibt kein eindeutiges Länderpaar, das den teuersten Handel betreibt.
+\end{itemize}
+
+
+\pagebreak
+
+\begin{center}
+Entwicklung der Handelsströme - Regionen
+\end{center}
+
+\begin{figure}[!htb]
+\centering
+\animategraphics[scale=0.9, controls]{1}{../Reg_Ani/reg}{1}{20}
+\end{figure}
+
+
+
+
+
+
+\end{document}

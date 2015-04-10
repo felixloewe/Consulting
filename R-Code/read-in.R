@@ -52,6 +52,9 @@ V(Graph)$Country_Name <- countrycode(V(Graph)$name, "cown", "country.name", warn
 V(Graph)$Continent <- countrycode(V(Graph)$name, "cown", "continent", warn = T)
 # Region
 V(Graph)$Region <- countrycode(V(Graph)$name, "cown", "region", warn = T)
+# "Americas" in "America" abändern
+V(Graph)$Continent[V(Graph)$Continent == "Americas"] <- "America"
+
 
 # iGraph-Objekt pro Jahr erstellen (20 Jahre, 1992 - 2011)
 Year <- 1992:2011
