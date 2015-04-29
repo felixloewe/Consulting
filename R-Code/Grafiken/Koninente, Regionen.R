@@ -6,6 +6,8 @@
 # - seed
 # - Faktor für edge.width (ew)
 # - Faktor für vertex.size (vs)
+
+
 Continent.plot <- function(year, groups = "Region", seed = 1, ew = 0.5, vs = 0.5){
   #Jahr auswählen
   Gr <- GraphYear[[year-1991]]
@@ -41,4 +43,5 @@ Continent.plot <- function(year, groups = "Region", seed = 1, ew = 0.5, vs = 0.5
        edge.arrow.size = 0
   )
   title (paste(year))
+  
 }

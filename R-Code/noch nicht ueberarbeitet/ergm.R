@@ -1,5 +1,5 @@
 ## Erster Versuch Exponential-Random-Graph Modell
-#install.packages("statnet")
+install.packages("statnet")
 library(ergm) # ERGM-Paket
 library(sand) # SAND-Paket
 library(statnet)
@@ -19,9 +19,6 @@ network::set.edge.attribute(Graph1.s, "Value", e.attrs$Value)
 network::set.edge.attribute(Graph1.s, "Data_Source", e.attrs$Data_Source)
 network::set.edge.attribute(Graph1.s, "IsMirror", e.attrs$IsMirror)
 network::set.edge.attribute(Graph1.s, "PRIO_Weapons_Code", e.attrs$PRIO_Weapons_Code)
-
-
-
 
 
 #####################Modell nach Empfehlung aus Buch: ERGM for Social Networks (Robins)
@@ -234,3 +231,6 @@ par(mfrow = c(2,2))
 plot(gof.Gr.ergm3.fit)
 
 
+schmidt.ergm <- formula(Graph1.s ~ edges + gwodegree(1, fixed = F) + idegree(1) + dsp(0) + esp(0))
+summary.statistics(schmidt.ergm)
+schmidt.ergm.fit <- ergm(schmidt.ergm)
