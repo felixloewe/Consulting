@@ -17,4 +17,6 @@ directcont[[i]] <- as.matrix.network(directcont.short[[k]])
 i <- i+1
 }
 
-rm("directcont.short", "i", "k" , "ks")
+ADirectCont <- directcont 
+
+rm("directcont.short", "i", "k" , "ks", "directcont")

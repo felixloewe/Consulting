@@ -20,4 +20,10 @@ valmil_ts <- sapply(GraphYear, function(Graph) sum(E(Graph)$ValueMil))
 # To-Do: Grafiken gleich interpretieren (am besten LaTeX)
 
 # To-Do: inhaltlicher Vergleich mit Großwaffen-Handel
+
+par(mfrow = c(3,2))
 plot.ts(valmil_ts, ylim = c(0, 6000))
+
+
+
+

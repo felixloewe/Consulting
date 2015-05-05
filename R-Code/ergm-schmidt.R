@@ -1,5 +1,5 @@
 source("R-Code/read-in.R")
-source("R-Code/simplify.R")
+
 # Modell von Christian Schmidt
 
 # edges+ gwodegree(1, fixed=F)+idegree(1)+dsp(0)+esp(0)+

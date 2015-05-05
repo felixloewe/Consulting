@@ -9,3 +9,4 @@ GraphYearSimple <- list()
 for(i in 1:20) {
 GraphYearSimple[[i]] <- simplify(GraphYear[[i]], edge.attr.comb = list(Year = "first", Value = "sum", ValueMil = "sum", "ignore" ))
 }
+
