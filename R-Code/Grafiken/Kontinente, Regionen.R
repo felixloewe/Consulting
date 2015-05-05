@@ -4,8 +4,15 @@
 # - Jahr(year)
 # - Aufteilung nach "Region" oder "Continent" (groups)
 # - seed
+<<<<<<< HEAD:R-Code/Grafiken/Koninente, Regionen.R
+# - Faktor für edge.width (ew)
+# - Faktor für vertex.size (vs)
+
+
+=======
 # - Faktor f?r edge.width (ew)
 # - Faktor f?r vertex.size (vs)
+>>>>>>> 5a5dea7560d5cd029c904d36ba7b570287c1db88:R-Code/Grafiken/Kontinente, Regionen.R
 Continent.plot <- function(year, groups = "Region", seed = 1, ew = 0.5, vs = 0.5){
   #Jahr ausw?hlen
   Gr <- GraphYear[[year-1991]]
@@ -41,4 +48,5 @@ Continent.plot <- function(year, groups = "Region", seed = 1, ew = 0.5, vs = 0.5
        edge.arrow.size = 0
   )
   title (paste(year))
+  
 }

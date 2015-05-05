@@ -21,7 +21,7 @@ install.packages("countrycode")
 library(countrycode)
 library(stringr)
 library(igraph)
-
+library(network)
 # NISAT-Database MasterTableFinal einlesen (109.000 Zeilen = 109.000 Exporte)
 MADdata <- read.csv("Importdaten/MAD Data 1992-2011 bearbeitet.csv")
 
