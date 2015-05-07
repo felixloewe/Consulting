@@ -23,7 +23,10 @@ APolity <- list()
 
 for(y in 1:20){
   mat <- matrix(nrow = l, ncol = l)
+#  mat <- 0
   p1 <- PolityYear[[y]]
+  rownames(mat) <- ccode.names
+  colnames(mat) <- ccode.names
   for(i in 1:l){
     for(j in 1:i){
       v1 <- p1[p1$ccode == ccode.names[i],"polity"]

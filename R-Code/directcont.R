@@ -7,6 +7,7 @@
 # - directcont: Liste mit Adjajecny Matitzen von 1992-2011
 
 load("Importdaten/extern/directcont.short.RData")
+
 library(network)
 
 ks <- c(27:35, rep(35,11))
@@ -18,5 +19,5 @@ i <- i+1
 }
 
 ADirectCont <- directcont 
-
+ADirectCont[[1]]
 rm("directcont.short", "i", "k" , "ks", "directcont")

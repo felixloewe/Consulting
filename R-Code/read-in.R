@@ -15,10 +15,10 @@
 # - GraphYear (iGraph)
 
 # Pakete laden
+install.packages("network")
 install.packages("stringr")
 install.packages("igraph")
 install.packages("countrycode")
-install.packages("network")
 install.packages("ergm")
 library(countrycode)
 library(stringr)
@@ -46,7 +46,7 @@ MADdata$ValueMil <- MADdata$Value/10^6
 # attach(MADdata)
 
 # Gesamtgraph erstellen (iGraph-Objekt)
-Graph <- graph.data.frame(MADdata, vertices = KnotenAttr)
+Graph <- graph.data.frame(MADdata)
 
 # Vertex Attribute hinzufügen:
 # Ländername
@@ -63,12 +63,7 @@ V(Graph)$Continent[V(Graph)$Continent == "Americas"] <- "America"
 Year <- 1992:2011
 GraphYear <- lapply(Year, function(jahr) subgraph.edges(Graph, E(Graph)[Year==jahr]))
 
-# externe Kovariablen hinzufügen
-for(i in 1:20){
-  set.vertex.attribute(GraphYear[[i]], "GDP", #index = V(GraphYear[[i]]), 
-                       KnotenAttrYear[[i]]$GDP)
-}
-set.vertex.attribute()
+
                     
 
 
