@@ -58,24 +58,24 @@ source("R-Code/directcont.R")
 #   }
 # }
 # save(MADdata1, file = "MADdata1.RData")
-load("MADdata1.RData")
+# load("MADdata1.RData")
 # Gesamtgraph erstellen (iGraph-Objekt)
-Graph <- graph.data.frame(MADdata1)
-# Vertex Attribute hinzufügen:
-# Ländername
-V(Graph)$Country_Name <- countrycode(V(Graph)$name, "cown", "country.name", warn = F)
-# Kontinent
-V(Graph)$Continent <- countrycode(V(Graph)$name, "cown", "continent", warn = F)
-# Region
-V(Graph)$Region <- countrycode(V(Graph)$name, "cown", "region", warn = F)
-# "Americas" in "America" abändern
-V(Graph)$Continent[V(Graph)$Continent == "Americas"] <- "America"
-
-# iGraph-Objekt pro Jahr erstellen (20 Jahre, 1992 - 2011)
-Year <- 1992:2011
-GraphYear <- lapply(Year, function(jahr) subgraph.edges(Graph, E(Graph)[Year==jahr]))
-
-source("R-Code/simplify.R")
+# Graph <- graph.data.frame(MADdata1)
+# # Vertex Attribute hinzufügen:
+# # Ländername
+# V(Graph)$Country_Name <- countrycode(V(Graph)$name, "cown", "country.name", warn = F)
+# # Kontinent
+# V(Graph)$Continent <- countrycode(V(Graph)$name, "cown", "continent", warn = F)
+# # Region
+# V(Graph)$Region <- countrycode(V(Graph)$name, "cown", "region", warn = F)
+# # "Americas" in "America" abändern
+# V(Graph)$Continent[V(Graph)$Continent == "Americas"] <- "America"
+# 
+# # iGraph-Objekt pro Jahr erstellen (20 Jahre, 1992 - 2011)
+# Year <- 1992:2011
+# GraphYear <- lapply(Year, function(jahr) subgraph.edges(Graph, E(Graph)[Year==jahr]))
+# 
+ source("R-Code/simplify.R")
 
 # Vertex-Attribute
 
@@ -104,6 +104,14 @@ V(GraphYearSimple[[i]])$ext_polity <- KnotenAttrYear[[i]]$polity
 V(GraphYearSimple[[i]])$ext_gdp <- KnotenAttrYear[[i]]$gdp
 V(GraphYearSimple[[i]])$ext_cinc <- KnotenAttrYear[[i]]$cinc
 V(GraphYearSimple[[i]])$ext_mag <- KnotenAttrYear[[i]]$Mag
+nas <- which(is.na(V(GraphYearSimple[[i]])$ext_polity))
+V(GraphYearSimple[[i]])$ext_polity[nas] <- 0
+nas <- which(is.na(V(GraphYearSimple[[i]])$ext_gdp))
+V(GraphYearSimple[[i]])$ext_gdp[nas] <- 0
+nas <- which(is.na(V(GraphYearSimple[[i]])$ext_cinc))
+V(GraphYearSimple[[i]])$ext_cinc[nas] <- 0
+nas <- which(is.na(V(GraphYearSimple[[i]])$ext_mag))
+V(GraphYearSimple[[i]])$ext_mag[nas] <- 0
 }
 
 NetGraphYearSimple <- list()
@@ -123,11 +131,11 @@ for (i in 1:20){
   network::set.vertex.attribute(Graph1.s, "ext_cinc", v.attrs$ext_cinc)
   network::set.vertex.attribute(Graph1.s, "ext_conflict", v.attrs$ext_mag)
   
-  network::set.edge.attribute(Graph1.s, "Year", e.attrs$Year)
-  network::set.edge.attribute(Graph1.s, "Value", e.attrs$Value)
-  network::set.edge.attribute(Graph1.s, "ext_directcont", e.attrs$directcont)
-  network::set.edge.attribute(Graph1.s, "ext_polity", e.attrs$polity)
-  network::set.edge.attribute(Graph1.s, "ext_alliance", e.attrs$alliance)
+#   network::set.edge.attribute(Graph1.s, "Year", e.attrs$Year)
+#   network::set.edge.attribute(Graph1.s, "Value", e.attrs$Value)
+#   network::set.edge.attribute(Graph1.s, "ext_directcont", e.attrs$directcont)
+#   network::set.edge.attribute(Graph1.s, "ext_polity", e.attrs$polity)
+#   network::set.edge.attribute(Graph1.s, "ext_alliance", e.attrs$alliance)
  
   NetGraphYearSimple[[i]] <- Graph1.s
 }

@@ -42,7 +42,8 @@ GDP$gdp <- as.numeric(GDP$gdp)
 GDP$country.name <- as.character(GDP$country.name)
 GDP <- GDP[-which(GDP$country.name == c("F..USSR")),]
 GDP <- GDP[-which(GDP$country.name == c("F..Yugoslavia")),]
-
+nas <- which(is.na(GDP$gdp))
+GDP$gdp[nas] <- 0
 #nach Jahren trennen:
 Year <- 1992:2011
 GDPYear <- lapply(Year, function(jahr) subset(GDP, year==jahr))

@@ -43,7 +43,8 @@ names(Conflict)[3] <- "country.name"
 #cow code erstellen
 ccode <- countrycode(Conflict$country.name,origin = "country.name", destination = "cown")
 Conflict <- cbind(ccode,Conflict)
-
+nas <- which(is.na(Conflict$Mag))
+Conflict$Mag[nas] <- 0
 #Datensatz aufteilen in Jahre
 Year <- 1992:2011
 ConflictYear <- lapply(Year, function(jahr) subset(Conflict, year==jahr))
@@ -55,4 +56,4 @@ ConflictYear[[i]] <- aggregate(ConflictYear[[i]], by = list(ccode = ConflictYear
 ConflictYear[[i]] <- ConflictYear[[i]][,-1] 
 }
 
-rm("ccode", "i", "times", "year")
+rm("ccode", "i", "times", "year", nas)

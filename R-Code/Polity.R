@@ -22,11 +22,8 @@ l <- length(ccode.names)
 APolity <- list()
 
 for(y in 1:20){
-  mat <- matrix(nrow = l, ncol = l)
-#  mat <- 0
+  mat <- matrix(0,nrow = l, ncol = l)
   p1 <- PolityYear[[y]]
-  rownames(mat) <- ccode.names
-  colnames(mat) <- ccode.names
   for(i in 1:l){
     for(j in 1:i){
       v1 <- p1[p1$ccode == ccode.names[i],"polity"]
@@ -35,7 +32,11 @@ for(y in 1:20){
         mat[i,j] <- mat[j,i] <-  abs(v1 - v2)
     }
   }
+  rownames(mat) <- ccode.names
+  colnames(mat) <- ccode.names
+  nas <- which(is.na(mat))
+  mat[nas] <- 0
   APolity[[y]] <- mat
 }
 # Environment aufräumen:
-rm("ccode.names", "i", "j", "l", "mat", "p1", "v1", "v2", "y")
+rm("ccode.names", "i", "j", "l", "mat", "p1", "v1", "v2", "y", "nas")
