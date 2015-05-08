@@ -31,11 +31,24 @@ mcmc.diagnostics(erm.schmidt.endo.fit)
 
 
 G <- NetGraphYearSimple[[1]]
-ergm.schmidt.exo <- formula(G ~ edges + dsp(0) + esp(0) + edgecov(AAlliance[[1]]) + edgecov(ADirectCont[[1]])  + edgecov(APolity[[1]])
+ergm.schmidt.exo.0 <- formula(G ~ edges + edgecov(AAlliance[[1]]) + edgecov(ADirectCont[[1]])  + edgecov(APolity[[1]])
                                 + nodeicov("ext_gdp") + nodeocov("ext_gdp")+ nodeicov("ext_cinc")
                                 + nodeocov("ext_cinc") + nodeicov("ext_conflict"))
 
-summary.statistics(ergm.schmidt.exo)
+ergm.schmidt.exo.0.fit <- ergm(ergm.schmidt.exo.0)
+summary.ergm(ergm.schmidt.exo.0.fit)
+mcmc.diagnostics(ergm.schmidt.exo.0.fit)
+plot(gof.ergm(ergm.schmidt.exo.0.fit))
 
-ergm.schmidt.exo.fit <- ergm(ergm.schmidt.exo)
-summary.ergm(ergm.schmidt.exo.fit)
+
+ergm.schmidt.comb <- formula(G ~ edges + mutual + idegree(1) + esp(1) + dsp(1) 
+                             + edgecov(AAlliance[[1]]) + edgecov(ADirectCont[[1]])  + edgecov(APolity[[1]])
+                             + nodeicov("ext_gdp") + nodeocov("ext_gdp")+ nodeicov("ext_cinc") + nodeocov("ext_cinc") + nodeicov("ext_conflict"))
+
+summary.statistics(ergm.schmidt.comb)
+ergm.schmidt.comb.fit <- ergm(ergm.schmidt.comb)
+summary.ergm(ergm.schmidt.comb.fit)
+mcmc.diagnostics(ergm.schmidt.comb.fit)
+ergm.schmidt.comb.gof <- gof.ergm(ergm.schmidt.comb.fit)
+plot(ergm.schmidt.comb.gof)
+save.image(file = "schmdit.ergm.workspace.RData")
