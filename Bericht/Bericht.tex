@@ -1,14 +1,4 @@
-\documentclass[a4paper,ngerman,oneside,titlepage,11pt]{scrreprt}
-
-%article 	
-%scrartcl 	
-%proc 
-%minimal 	
-%report 	
-%scrreprt 	
-%book
-%scrbook 	
-%amsbook
+\documentclass[a4paper,ngerman,oneside,titlepage,bibliography=totoc,11pt]{scrreprt}
 
 
 \pagestyle{headings}
@@ -16,108 +6,28 @@
 \usepackage{geometry}
 \geometry{left=31mm, top=34mm, right=31mm, bottom=34mm}
 
-%\usepackage{charter} %font
 \renewcommand{\ttdefault}{lmtt}
-%\usepackage[sc]{mathpazo} %font
 \linespread{1.06} %font
 
 \usepackage[font=small,labelfont=bf]{caption} %caption, caption-font
+\usepackage{subcaption}
 
 \usepackage{amsmath, amsthm, amssymb, amsbsy}
 \usepackage{mathtools}
 \usepackage{color}
 \usepackage{booktabs}
-\usepackage{multirow}
 \usepackage{svg}
 
 \usepackage[ngerman]{babel}
 \usepackage[utf8]{inputenc} % für Umlaute (ansinew Editor, utf8 bei Texniccenter/Texmaker)
 \usepackage[T1]{fontenc} % korrekte Trennung von Umlauten
 
-\usepackage{color}
-\definecolor{mygreen}{rgb}{0,0.6,0}
-\definecolor{mygray}{rgb}{0.5,0.5,0.5}
-\definecolor{mymauve}{rgb}{0.58,0,0.82}
-
 \usepackage[hyphens]{url}
 \usepackage{hyperref}
-\hypersetup{hidelinks}
-
-%\usepackage{bibtex}
-
-\bibliographystyle{plain}
 
 
-\usepackage{listings} %für R-Code
-
-\lstset{ 
-  backgroundcolor=\color{white},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}
-  basicstyle=\ttfamily\footnotesize, % the size of the fonts that are used for the code
-  breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
-  breaklines=true,                 % sets automatic line breaking
-  captionpos=b,                    % sets the caption-position to bottom
-  commentstyle=\color{mygreen},    % comment style
-  deletekeywords={...},            % if you want to delete keywords from the given language
-  escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
-  extendedchars=false,             % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
-  frame=single,                    % adds a frame around the code
-  keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
-  keywordstyle=\color{blue},       % keyword style
-  language=R,					   % the language of the code
-  morekeywords={*,...},            % if you want to add more keywords to the set
-  numbers=none,                    % where to put the line-numbers; possible values are (none, left, right)
-  numbersep=5pt,                   % how far the line-numbers are from the code
-  numberstyle=\tiny\color{mygray}, % the style that is used for the line-numbers
-  rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
-  showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
-  showstringspaces=false,          % underline spaces within strings only
-  showtabs=false,                  % show tabs within strings adding particular underscores
-  stepnumber=2,                    % the step between two line-numbers. If it's 1, each line will be numbered
-  stringstyle=\color{mymauve},     % string literal style
-  tabsize=2,                       % sets default tabsize to 2 spaces
-  lineskip={-0.7pt}
-  %title=\caption                 % show the filename of files included with \lstinputlisting; also try caption instead of title
-}
-
-\newcommand\argmin{\operatornamewithlimits{argmin}} %argmin
-\newcommand\argmax{\operatornamewithlimits{argmax}} %argmax
-
-%definitonen und beispiele
-\newtheorem{defi}{Definition}
-\theoremstyle{remark}
-\newtheorem{exam}{Beispiel}
-
-%cusfloat
-\usepackage{float}
-\floatstyle{plain}
-\newfloat{cusfloat}{thp}{lop}
-\floatname{cusfloat}{Abbildung}
-
-%abstand bei fallunterscheidungen ändern
-\makeatletter
-\renewcommand*\env@cases[1][1.2]{%
-  \let\@ifnextchar\new@ifnextchar
-  \left\lbrace
-  \def\arraystretch{#1}%
-  \array{@{}l@{\quad}l@{}}%
-}
-\makeatother
-
-\hyphenation{Res-ponse-Prop-en-sity Res-ponse-Wahr-sch-ein-lich-keit Unit-Non-res-ponse down-loads chur-ch}
 
 
-\title{Regression Skalar-auf-Funktion}
-\date{Abgabetermin: 30.04.2015}
-\author{Roman Dieterle\\roman.dieterle@hotmail.de}
-
-\setkomafont{sectioning}{\rmfamily\bfseries} 
-
-
-\usepackage{etoolbox}
-\let\bbordermatrix\bordermatrix
-\patchcmd{\bbordermatrix}{8.75}{4.75}{}{}
-\patchcmd{\bbordermatrix}{\left(}{\left[}{}{}
-\patchcmd{\bbordermatrix}{\right)}{\right]}{}{}
 
 
 \begin{document}
@@ -143,7 +53,7 @@
 %----------------------------------------------------------------------------------------
 
 \HRule \\[0.4cm]
-{ \huge \bfseries Internationaler Waffenhandel:\\ Die Anwendung neuer Verfahren der\\ statistischen Netzwerkanalyse}\\[5mm]
+{ \huge \bfseries Internationaler Waffenhandel:\vspace{-1.5mm} Die Anwendung neuer Verfahren der\\[1mm] statistischen Netzwerkanalyse}\\[5mm]
 { Eine Netzwerkanalyse des internationalen Kleinwaffenhandels 1992 - 2011}\\
 { Kooperation mit dem Lehrstuhl für empirische Politikforschung}\\[0.4cm] % Title of your document
 \HRule \\[1.5cm]
@@ -173,31 +83,9 @@ Prof. Dr. Göran Kauermann\\[6mm]
 \end{flushright}
 \end{minipage}\\[4.5cm]
 
-%{\emph{Modul:}\\[2mm]
-%Statistisches Consulting\\
-%Sommersemester 2015}\\[1cm]
-
-% If you don't want a supervisor, uncomment the two lines below and remove the section above
-%\Large \emph{Author:}\\
-%John \textsc{Smith}\\[3cm] % Your name
-
-%----------------------------------------------------------------------------------------
-%	DATE SECTION
-%----------------------------------------------------------------------------------------
-
-%{\large Abgabetermin: 13.04.2015}\\[0.5cm] % Date, change the \today to a set date if you want to be precise
-
-%----------------------------------------------------------------------------------------
-%	LOGO SECTION
-%----------------------------------------------------------------------------------------
-
-%\includegraphics[width=4cm]{logo.png}\\[1cm] % Include a department/university logo - this will require the graphicx package
- 
-%----------------------------------------------------------------------------------------
-
- % Fill the rest of the page with whitespace
-
 \end{titlepage}
+
+
 
 
 \begin{abstract}
@@ -208,13 +96,13 @@ Prof. Dr. Göran Kauermann\\[6mm]
 \end{center}
 Dieser Bericht behandelt die Analyse der \emph{NISAT database of transfers of small arms, light weapons, and their ammunition, parts and accessories}. Die Netzwerkdaten stellen das internationale Kleinwaffenhandelsnetzwerk im Zeitraum 1992 bis 2011 dar.
 
-Nachdem die Datengrundlage besprochen wird, erfolgt eine deskriptive Analyse des Handelsnetzwerkes anhand Zeitreihen von Netzwerkstatistiken. Im zweiten Teil wird der Querschnitt des Netzwerkes Jahr für Jahr anhand von ERGMs modelliert, um charakteristische Strukturen des Netzwerkes aufzudecken. Der Fokus liegt hierbei auf der Selektion interner Netzwerkstatistiken sowie externer Knotencharakteristika. Da dynamische Netzwerkdaten vorliegen, erfolgt im dritten Teil eine Analyse der Netzwerke anhand sogenannter \emph{Separable Temporal Exponential Graph Models} (STERGMs, Krivitsky and Handcock, 2010). Diese Modellklasse separiert zwischen Effekten zur Tie-Formation und Effekten zur Tie-Auflösung. Die Ergebnisse werden zusammengefasst.
-% \\
-% 
-% {\bf Schlagwörter}\quad {\it Fehler in Textdaten -- Non-Word Error Correction -- Edit-Distance --\\[0.5mm] Noisy Channel Modeling -- Rechtschreibkorrektur -- Approximate String Matching}
-
+Nachdem die Datengrundlage besprochen wird, erfolgt eine deskriptive Analyse des Handelsnetzwerkes anhand Zeitreihen von Netzwerkstatistiken. Im zweiten Teil wird der Querschnitt des Netzwerkes Jahr für Jahr anhand von ERGMs modelliert, um charakteristische Strukturen des Netzwerkes aufzudecken. Der Fokus liegt hierbei auf der Selektion interner Netzwerkstatistiken sowie externer Kovariablen.
+ \\
+ 
+ {\bf Schlagwörter}\quad {\it Netzwerkanalyse -- Waffenhandel -- Kleinwaffen -- ERGMs}
 
 \end{abstract}
+
 
 
 
@@ -232,87 +120,143 @@ Das Bestehen- oder Nicht-Bestehen einer Beziehung ist die Netzwerkstruktur (\emp
 Zweitens stellen Netzwerkdaten eine Verallgemeinerung von räumlichen Daten dar. Bei räumlichen Daten wird von der Nachbarschaftsstruktur gesprochen. Markov-Zufallsfelder können als Graph visualisiert werden, dessen Akteure räumliche Punkte oder zum Beispiel Länder sind.
 Sind diese benachbart, besteht eine Kante. Zwei Punkte $i, j$ sind benachbart ($i \sim j$), falls der entsprechende Eintrag in der Adjazenzmatrix eine Eins aufweist. Netzwerke verallgemeinern das Konzept des räumlichen Nachbarns auf beliebige Beziehungen. Bei der Analyse des Waffenhandels wird aus der Beziehung ein Handel und aus den Akteuren die liefernden und belieferten Länder.
 
-Die Arbeit ist wie folgt aufgebaut. Im ersten Kapitel wird die Theorie zu Graphen, Netzwerkstatistiken und Exponential Random Graph Models erklärt. Im zweiten Kapitel erfolgt eine Erläuterung der Datengrundlage der NISAT Datenbank. Im dritten Abschnitt wird der Datensatz deskriptiv analysiert. Im vierten Abschnitt erfolg die Modellierung per ERGMs.
-
-
-\chapter{Theorie}
-
-Die Notation der folgenden Kapitel orientiert sich an \cite{kolaczykR}.
-
-Ein Graph besteht aus einer Anzahl von Knoten und einer Anzahl von Kanten. Die Menge an Knoten $V$ ist eine endliche Menge. Eine Kante $e$ ist ein Element der Menge $E \in V \times V$. 
-
-Ein Graph ist vollständig bestimmt durch seine Adjazenzmatrix $A_{ij} \in |V| \times |V|$, wobei $a_{ij} = 1$ bedeutet, dass zwischen Knoten $i$ und Knoten $j$ eine Kante besteht.
-
-Bei gerichteten Graphen besteht ein Unterschied zwischen der Kante $(i,j)$ und der Kante $(j,i)$. Die Adjazenzmatrix ist dann nicht symmetrisch.
+Die Arbeit ist wie folgt aufgebaut. Im ersten Kapitel erfolgt eine kurze Wiederholung der Begriffe aus der Graphentheorie. Diese Begriffe werden in den darauffolgenden Kapiteln verwendet, um weitere netzwerkstatistische Begriffe einführen zu können. Im zweiten Kapitel erfolgt eine Erläuterung der Datengrundlage der NISAT Datenbank. Im dritten Abschnitt wird der Datensatz deskriptiv analysiert. Im vierten Abschnitt erfolg die Modellierung per ERGMs.
 
 
 
+
+
+\section{Wiederholung der Graphentheorie}
+
+Um Netzwerkdaten statistisch analysieren zu können, muss die Abhängigkeitsstruktur der Daten adäquat modelliert werden. Eine grundlegende mathematische Theorie, die verwendet wird, um \emph{relationale Daten} zu beschreiben, ist die Graphentheorie. Die Notation der graphentheoretischen Begriffe orientiert sich an \cite{kc14}.
+
+\subsection{Graph}
+
+Ein Graph $G = (V,E)$ ist die mathematische Beschreibung eines Netzwerkes. 
+
+Er besteht aus einer Knotenmenge $V$ und einer Kantenmenge $E$. Ein Knoten $v$ ist ein Punkt eines Graphen. Eine Kante $e$ verbindet zwei Punkte. Mit diesen zwei Begriffen kann ein Graph graphisch dargestellt werden.
+
+Es wird eine Konvention getroffen, dass es nur eine endliche Zahl an Knoten in einem Graph gibt. Die Anzahl der Knoten wird mit $N_V = |V|$ bezeichnet. Üblicherweise sind die Knoten $v_i$ durchnummeriert mit dem Index $i = 1, ..., N_V$. 
+
+Eine Kante $e$ ist ein Element der Menge $E$. Eine Kante $e = \{i,j\}$ beschreibt die Verbindung zwischen Knoten $v_i$ und $v_j$. 
+
+Es gibt ungerichtete und ungerichtete Graphen. Sie unterscheiden sich darin, ob eine Kante, also die Beziehung zwischen den Akteuren, gerichtet oder ungerichtet ist. Ein Beispiel für ungerichtete Beziehungen ist eine Freundschaftsbeziehung. Ein Beispiel für eine gerichtete Beziehung ist der Kleinwaffenhandel: es gibt ein Export- und ein Importland. Das Kleinwaffenhandelsnetzwerk kann also durch einen gerichteten Graphen beschrieben werden.
+
+Mathematisch unterscheiden sich gerichtete und ungerichtete Graphen darin, ob eine Kante $e$ ein geordnetes Paar $(i,j)$ oder ein ungeordnetes Paar $\{i,j\}$ ist. Die Kantenmenge $E$ eines gerichteten Graphs kann als Teilmenge des kartesischen Produkts $V \times V$ dargestellt werden.
+
+Erweiterungen von Graphen stellen Graphen mit Schleifen und Multigraphen dar. Eine Schleife ist eine Kante der Form $(i,i)$. Multigraphen sind Graphen, die mehrere Kanten von einem Knoten zu einem anderen Knoten erlauben. Eine Multikante kann als Tupel $(e, r)$ definiert werden, wobei $e$ die gerichtete oder ungerichtete Kante bezeichnet, und $r$ die Anzahl der Multikanten. Um Graphen von Multigraphen zu unterscheiden, spricht man bei einem Graph ohne Multikanten von einem einfachen Graphen.
+
+Betrachtet man die Anzahl der möglichen Kanten eines Graphen, die später als Benchmark dafür auftaucht, wie dicht ein Graph sein kann, so wird ersichtlich, dass diese Anzahl für einen einfachen ungerichteten Graphen kleiner ist als die Anzahl der möglichen Kanten einer komplizierteren Graphenart. Für einen einfachen ungerichteten Graphen ist sie gegeben durch:
+
+$$V_H(V_H-1)/2$$
+
+Werden Schleifen $\{i,i\}$ erlaubt, sind mehr Kanten möglich. Dann wird der Zähler durch $V_H^2$ ersetzt. Werden gerichtete Kanten $(i,j)$ erlaubt, kommen erneut mehr mögliche Kanten hinzu. Der Zähler wird dann nicht mehr durch Zwei geteilt.
+
+
+\subsection{Adjazenzmatrix}
+
++Ein Graph ist vollständig bestimmt durch seine Adjazenzmatrix $A_{ij} \in |V| \times |V|$, wobei $a_{ij} = 1$ bedeutet, dass zwischen Knoten $i$ und Knoten $j$ eine Kante besteht.
+
++Bei gerichteten Graphen besteht ein Unterschied zwischen der Kante $(i,j)$ und der Kante $(j,i)$. Die Adjazenzmatrix ist dann nicht symmetrisch.
 
 
 \section{Datengrundlage}
 
 Die Datengrundlage für das Kleinwaffenhandelsnetzwerk ist die \emph{NISAT} (Norwegian Initiative on Small Arms Transfers) Datenbank. Das Peace Research Institute Oslo (PRIO) ist der Auftraggeber dieser Datenbank. Die Datenbank enthält Daten über den legalen und illegalen Handel von Kleinwaffen. Der abgedeckte Zeitraum beträgt die Jahre 1992 bis 2011.
 
-Es folgt eine genaue Beschreibung der Datenbank. Die Daten liegen in Form von einer Edge-List
+Es folgt eine genauere Beschreibung der Datenbank. Die Daten liegen in Form von einer Edge-List vor, das bedeutet, eine Zeile steht für die gerichtete Beziehung zwischen einem Exportland und einem Importland. Diese Exportliste hat eine Reihe weiterer Kovariablen. Somit steht zur Verfügung, in welchem Jahr der Handel stattfand, welcher Waffentypus gehandelt wurde, der Waffenwert in US-Dollar und die berichtende Quelle, von dem der Eintrag stammt.
+
+\chapter{Deskriptive Analyse}
+
+\section{Top-Akteure}
+
+Als erstes wird darauf eingegangen, welches die zentralen Akteure des Handelsnetzwerkes sind. Das bedeutet, es werden die Nationen aufgelistet, die über den Zeitraum von 20 Jahren das größte Import- und Exportvolumen, gemessen am Geldwert der gehandelten Waffen, aufweisen. Die Top-Exporteure sind in Tabelle \ref{top_exp} zu sehen.
+
+\begin{table}[h]
+\centering
+\footnotesize
+\begin{tabular}{rlr}
+  \hline
+ Platz & Land & Exportvolumen [Mrd.]\\ 
+  \hline
+1 & United States of America & 9.2\\ 
+  2 & Italy & 7.9 \\ 
+  3 & Germany (Federal Republic) & 4.6 \\ 
+  4 & Brazil & 3.7 \\ 
+  5 & Austria & 2.7 \\ 
+  6 & United Kingdom & 2 \\ 
+  7 & Belgium & 1.8 \\ 
+  8 & Switzerland & 1.5 \\ 
+  9 & Russia / USSR (Former) & 1.4 \\ 
+  10 & Czech Republic & 1.4 \\ 
+   \hline
+\end{tabular}
+\caption{Top-Exporteure des Netzwerks} 
+\label{top_exp}
+	\end{table}
+	
+Es ist ersichtlich, dass die Vereinigten Staaten von Amerika mit 10 Milliarden Dollar am meisten Waffen exportiert. Italien steht mit circa 8 Milliarden Dollar Exportvolumen an zweiter Stelle. Dies erscheint ungewöhnlich über den Zeitraum von 1992 -- 2011. Deutschland exportiert mit circa 5 Milliarden Dollar gehandelten Waffen am drittmeisten. Auf dem vierten und fünften Platz folgen die Länder Brasilien und Österreich mit exportierten Waffen, die circa 4 und 3 Milliarden Dollar wert sind. Ab dem sechsten Platz erfolgen nur noch unwesentliche Verringerungen des Exportvolumens im Bereich von 2 bis 1 Milliarde Dollar. Hierin befinden sich Nationen wie Großbritannien, Belgien, die Schweiz, Russland und die tschechische Republik. 
+
+Nun folgt eine Auflistung der Top-Importeure des Kleinwaffenhandelsnetzwerkes (siehe Tabelle \ref{top_imp}).
+
+\begin{table}[h]
+\centering
+\footnotesize
+\begin{tabular}{rlr}
+  \hline
+ Platz & Land & Importvolumen [Mrd.]\\ 
+  \hline
+1 & United States of America & 16\\ 
+  2 & Germany (Federal Republic) & 2.3\\ 
+  2 & France & 2.3\\ 
+  4 & Canada & 1.9 \\ 
+  5 & United Kingdom & 1.8\\ 
+  6 & Saudi Arabia & 1.7\\ 
+  7 & Belgium & 1.2\\ 
+  8 & Spain & 1.2\\ 
+  9 & Australia & 1.2\\ 
+  10 & Turkey & 1\\ 
+   \hline
+\end{tabular}
+\caption{Top-Importeure des Netzwerks} 
+\label{top_imp}
+	\end{table}
+		
+Erneut steht Nord-Amerika an erster Stelle. Die Nation gibt circa 16 Milliarden Dolar für den Import von Kleinwaffen aus. Deutschland und Frankreich teilen sich mit 2.3 Milliarden Dollar Importvolumen den zweiten Platz am Kleinwaffenimport. Auf der vierten Stelle befindet sich Kanda mit einem Importvolumen von circa 2 Milliarden Dollar. Großbritannien verwendet 1.8 Milliarden Dollar, um Waffen zu exportieren, und Saudi Arabien 1.7 Milliarden Dollar. Auf dem siebten, achten, neunten und zehnten Platz sehen wir ähnliche Exportausgaben von circa 1.2 bis 1 Milliarde Dollar. Dies sind die Länder Belgien, Spanien, Australien und Türkei.
+
+\section{Netzwerkmaßzahlen}
+
+Als zweites erfolgt eine Darstellung grundlegender deskriptiver Netzwerkmaßzahlen, um das Kleinwaffenhandelsnetzwerk zu beschreiben. Die Maßzahlen werden für jedes Jahr berechnet und als Zeitreihe dargestellt, um die zeitliche Entwicklung des Netzwerkes zu visualisieren. 
+
+\subsection{Anzahl der Knoten und Dichte}
+Die ersten beiden Maßzahlen, die betrachtet werden, sind die Anzahl der Knoten und die Dichte des Netzwerkes. Je höher die Anzahl der Knoten $N_V$ im Netzwerk, desto mehr Länder sind am Waffenhandel beteiligt. Die Entwicklung der Knotenanzahl (\ref{vert_ts}) zeigt,
+
+\begin{figure}[ht]
+	\centering
+  \includegraphics[scale = 1]{Grafiken/vert_ts.png}
+	\caption{Knoten-Entwicklung}
+	\label{vert_ts}
+\end{figure}
 
 
 
-\chapter{Animiertes Beispiel}
+%Die Dichte eines Netzwerkes ist die Anzahl der Kanten des Netzwerkes, geteilt durch die mögliche Anzahl an Kanten des Netzwerkes. Das Kleinwaffenhandelsnetzwerk $G_{NISAT}$ ist ein gerichteter Multigraph mit Schleifen. Da für Multigraphen keine Dichte definiert ist, wird der Graph mit dem Befehl \ttt{simplify(G_Nisat)} auf einen einfachen Graphen reduziert. Die Schleifen im Datensatz werden in der Berechnung der Dichte entfernt. Es ergibt sich der Term $den(G_{NISAT}) = \frac{E_V}{N_H(N_H-1)/2}$ für die Dichte.
 
 
 
-\chapter{Zusammenfassung}
 
-Diese Arbeit 
+
+
 
  
 
-%\appendix
-
-%\chapter{Anhang}
-%\pagestyle{plain}
-%\addcontentsline{toc}{chapter}{Anhang}
-
-% \pagebreak
-% 
-% \section{Beschreibung des R-Codes}
-% 
-% \subsection{Hauptprogramm: ASMatching.r}
-% 
-% Wird der
-% 
-% \subsubsection*{R-Code}
-%\lstinputlisting[language=R]{E:/DiagnosisMatching/ASMatching.r}
-
-%\pagestyle{plain}
-%\listoftables
-%\addcontentsline{toc}{chapter}{Tabellenverzeichnis}
-
-\chapter*{Literaturverzeichnis}
-
+\bibliographystyle{plain}
 \bibliography{literatur}
-
-\addcontentsline{toc}{chapter}{Literaturverzeichnis}
-
-\noindent \hangindent=\parindent [Cue14] Cuevas, A. (2014): A partial overview of the theory of statistics with functional data. \textit{Journal of Statistical Planning and Inference}, 147, 1-23.\\
-
-\noindent \hangindent=\parindent [GBC+11] Goldsmith, J., Bobb, J., Crainiceanu, C.M., Caffo, B.S., Reich, D.S. (2011). Penalized Functional Regression. \textit{Journal of Computational and Graphical Statistics 20}, 830-851.\\
-
-\noindent \hangindent=\parindent [KC14] Kolaczyk, E. and Csárdi, G. (2014). Statistical Analysis of Network Data with R. Springer\\
-
-\noindent \hangindent=\parindent [R14] R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria.
-\url{http://www.R-project.org/}\\
-
-
 
 
 \chapter*{Eidesstattliche Erklärung}
-%\addcontentsline{toc}{chapter}{Eidesstattliche Erklärung}
 
 Wir erklären hiermit, dass wir diese Arbeit ohne fremde Hilfe angefertigt und nur die im Literaturverzeichnis aufgeführten Quellen und Hilfsmittel benutzt haben. Diese Arbeit wurde noch nicht zu anderen prüfungsrelevanten Zwecken vorgelegt.\\[1.5cm]
-
-
-
 
 \noindent ................................................
 \qquad\qquad\qquad\qquad\qquad
@@ -335,4 +279,5 @@ Wir erklären hiermit, dass wir diese Arbeit ohne fremde Hilfe angefertigt und n
 
 
 \end{document}
+
 

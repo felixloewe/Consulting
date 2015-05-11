@@ -15,13 +15,16 @@
 # - GraphYear (iGraph)
 
 # Pakete laden
-#install.packages("stringr")
-#install.packages("igraph")
-#install.packages("countrycode")
+install.packages("network")
+install.packages("stringr")
+install.packages("igraph")
+install.packages("countrycode")
+install.packages("ergm")
 library(countrycode)
 library(stringr)
 library(igraph)
-
+library(network)
+library(ergm)
 # NISAT-Database MasterTableFinal einlesen (109.000 Zeilen = 109.000 Exporte)
 MADdata <- read.csv("Importdaten/MAD Data 1992-2011 bearbeitet.csv")
 
@@ -47,11 +50,11 @@ Graph <- graph.data.frame(MADdata)
 
 # Vertex Attribute hinzufügen:
 # Ländername
-V(Graph)$Country_Name <- countrycode(V(Graph)$name, "cown", "country.name", warn = T)
+V(Graph)$Country_Name <- countrycode(V(Graph)$name, "cown", "country.name", warn = F)
 # Kontinent
-V(Graph)$Continent <- countrycode(V(Graph)$name, "cown", "continent", warn = T)
+V(Graph)$Continent <- countrycode(V(Graph)$name, "cown", "continent", warn = F)
 # Region
-V(Graph)$Region <- countrycode(V(Graph)$name, "cown", "region", warn = T)
+V(Graph)$Region <- countrycode(V(Graph)$name, "cown", "region", warn = F)
 # "Americas" in "America" abändern
 V(Graph)$Continent[V(Graph)$Continent == "Americas"] <- "America"
 
@@ -59,7 +62,5 @@ V(Graph)$Continent[V(Graph)$Continent == "Americas"] <- "America"
 # iGraph-Objekt pro Jahr erstellen (20 Jahre, 1992 - 2011)
 Year <- 1992:2011
 GraphYear <- lapply(Year, function(jahr) subgraph.edges(Graph, E(Graph)[Year==jahr]))
-                    
 
 
-# Funktionen einlesen

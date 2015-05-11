@@ -5,7 +5,7 @@
 
 library("countrycode")
 # einlesen
-GDP <- read.csv("Importdaten/extern/GDPc.csv", skip = 2)
+GDP <- read.csv("Importdaten/extern/GDP.csv", skip = 2)
 
 # erste Spalte enthält Jahreszahlen
 names(GDP)[1] <- "year"
@@ -33,8 +33,17 @@ gdp.mat <- as.matrix(GDP[, - 1])
 gdp.vec <- as.vector(gdp.mat, mode = "any")
 
 # fertiges GDP Objekt erstellen
-GDP <- cbind(country.name, ccode, year, gdp.vec)
-
+GDP <- cbind(country.name, as.numeric(ccode), as.numeric(year), as.numeric(gdp.vec))
+GDP <- as.data.frame(GDP)
+names(GDP) <- c("country.name", "ccode", "year", "gdp")
+GDP$ccode <- as.numeric(as.character(GDP$ccode))
+GDP$year <- as.numeric(as.character(GDP$year))
+GDP$gdp <- as.numeric(GDP$gdp)
+GDP$country.name <- as.character(GDP$country.name)
+GDP <- GDP[-which(GDP$country.name == c("F..USSR")),]
+GDP <- GDP[-which(GDP$country.name == c("F..Yugoslavia")),]
+nas <- which(is.na(GDP$gdp))
+GDP$gdp[nas] <- 0
 #nach Jahren trennen:
 Year <- 1992:2011
 GDPYear <- lapply(Year, function(jahr) subset(GDP, year==jahr))
