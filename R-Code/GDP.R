@@ -1,4 +1,4 @@
-# Datensatz GDPc aufbereiten
+# Datensatz GDP aufbereiten
 #Ausgabe:
 # - GDP: GDP - Gesamtdatensaz
 # - GDPYear: Liste mit Datensatz pro Jahr (nur 1992 - 2010!) 

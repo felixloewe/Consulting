@@ -1,11 +1,11 @@
 # Liste externe Kovariablen
 source("R-Code/Alliance.R")
 source("R-Code/Conflict.R")
-source("R-Code/GDP.R")
+source("R-Code/GDP2.R")
 source("R-Code/CINC.R")
 source("R-Code/Polity.R")
 source("R-Code/directcont.R")
-
+source("R-Code/PathDependency.R")
 # Ausgabe: NetGraphYearSimple: Liste mit jährlichen Graphen mit externen Attributen (Kante und Knoten)
                                           
 
@@ -89,9 +89,9 @@ KnotenAttrYear <- list()
 
 # Kovariablen zusammenmergen (Vertex-Attributes)
 for(i in 1:20){
-KnotenAttr <- merge(V(GraphYearSimple[[i]])$name, PolityYear[[1]], all.x = T, all.y = F, by.x = 1, by.y = "ccode")
+KnotenAttr <- merge(V(GraphYearSimple[[i]])$name, PolityYear[[i]], all.x = T, all.y = F, by.x = 1, by.y = "ccode")
 names(KnotenAttr)[1] <- "ccode"
-KnotenAttr <- merge(KnotenAttr, GDPYear[[i]], all.x = T, all.y = F, by = "ccode")
+KnotenAttr <- merge(KnotenAttr, GDP2Year[[i]], all.x = T, all.y = F, by = "ccode")
 KnotenAttr <- merge(KnotenAttr, CINCYear[[i]], all.x = T, all.y = F, by = "ccode")
 KnotenAttr <- merge(KnotenAttr, ConflictYear[[i]], all.x = T, all.y = F, by = "ccode")
 KnotenAttr <- KnotenAttr[,c("ccode", "polity", "gdp", "cinc", "Mag")]
@@ -139,3 +139,5 @@ for (i in 1:20){
  
   NetGraphYearSimple[[i]] <- Graph1.s
 }
+
+rm("A", "v.attrs", "e.attrs", "ccode", "i", "nas", "year")

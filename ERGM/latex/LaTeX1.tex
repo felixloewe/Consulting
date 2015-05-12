@@ -12,71 +12,74 @@
 \usepackage{textcomp}
 \begin{document}
 
-These are our first tries to fit ERGM-models. First approach: Try to fit a model suggested for starting by Robins and Lusher (2011). Model does degenerate quickly. Thus we try to find statistics which are responsible for degeneration by extracting each term in a seperate model and check the perfomance via mcmc.diagnostics. This is repeated for every year in our data set (1992 - 2011).
-\begin{table}[h]
-	\centering
-	\caption{ERGM-Terms suggested by Robins and Lusher and the result of their mcmc.diagnostics}
-		\begin{tabular}{l|l}
-		
-		\hline
-		ergm-term 											& mcmc.diagnostics 								\\
-		\hline
-		edges														& converges												\\
-		mutual													& converges												\\
-		gwidegree(decay, fixed = TRUE)	& works only with decay near one	\\
-		gwodegree(decay, fixed = TRUE) 	& degenerates											\\
-		gwdsp(fixed = TRUE)							& works, long computation time		\\
-		gwesp(fixed = TRUE)							& works, long computation time		\\
-		ctriple													& degenerates											\\
-		
-		\hline
-						
-		\end{tabular}
-	
-	\label{tab:stats.robins}
-\end{table}
-
-Now we try to find some terms which can replace the terms wich are degenerating or have a long computational time. The idea is to combine all terms which are working fine in new model.
-
-
-\begin{table}[h]
-	\centering
-	\caption{Replacement for ERGM-Terms}
-		\begin{tabular}{l|l}
-		
-		\hline
-		ergm-term 											& mcmc.diagnostics	 								\\
-		\hline
-		ostar(2)												& degenerates											 	\\
-		dsp(1)													& converges in most years 					\\
-		esp(1)													& converges in most years	  				\\
-	
-		\hline
-						
-		\end{tabular}
-	
-	\label{tab:stats.replace}
-\end{table}
-
+Es stehen folgende zusätzliche Daten zu Verfügung:
 \begin{itemize}
-\item Combining statistics leads to long computing time
-\item Thats why we try to estimate parameters for single statistics 
-\item Estimation of four different models:
- 	\begin{itemize}
-	\item edge + mutual,
-	\item edge + gwindegree(decay = 0.9, fixed = T),
-	\item edge + esp(1),
-	\item edge + dsp(1)
-	\end{itemize}
-\item Time Series of Parameters:
-\end {itemize}
-\vspace{2.5cm}
+  \item Polity: Demokratiescore zwischen 0 und 10. Die Differenz zweier Länder wird als Kantenattribut verwendet.
+  \item GDP: Bruttoinlandsprodukt der Länder in internationaler Dollar
+  \item Conflict: Interne und externe Konflikte. Knotenattribut mit Score zwischen 0-10
+  \item CINC: (Composite Index of National Capability) statistisches Mas für nationale Macht zwischen 0 und 1.
+  \item Alliance: binäres Kantenattribut; Besteht ein militärisches Bündnis (1:Ja, 0:Nein)
+  \item DirectCont: binäres Kantenattribut; Besteht ein direkte Grenze (1:Ja, 0:Nein)
+\end{itemize}
 
-\begin{figure}[h]
+Modell von Schmidt: (Ergebnisse beispielhaft am Jahr 1991)
+\begin{itemize}
+  \item endogene Statistiken: edges + gwodegree(1, fixed=F) + idegree(1) + dsp(0) + esp(0)
+	\item exogene Kantenattribute: edgecov(Alliance) + edgecov(DirectCont)  + edgecov(Polity)
+  \item exogene Knotenattribute: nodeicov(GDP) + nodeocov(GDP) + nodeicov(CINC) + nodeocov(CINC) + nodeicov(Conflict))
+\end{itemize}
+
+Probleme:
+\begin{itemize}
+\item endogene statistiken: Modell mit den Statistiken von Schmidt degeneriert!
+\item exogene Attribute: 
+  \begin{itemize} 
+  \item ERGM kann mit fehlenden Werten nicht umgehen. Wir haben deswegen nach Absprache mit Christian alle fehlenden Werte auf 0 gesetzt.
+  \item Der Datensatz Conflict enthält teilweise mehrere Konflikte pro Jahr und Land. ERGM kann nur einen Wert verwenden. Nach Absprache mit Christian haben wir das Maximum ("schwerster Konflikt") genommen.
+  \end{itemize}
+\end{itemize}
+
+Wir habenn nun die exogenen Variablen wie Christian aufgenommen und zusätzlich alle endogenen Statistiken von denen wir wissen, dass sie funktionieren (letztes Treffen).
+Wir erhalten folgendes Modell:
+\begin{itemize}
+\item endogene Statistiken: edges + mutual + idegree(1) + esp(1) + dsp(1)
+\item Kantenattribute: edgecov(Alliance) + edgecov(DirectCont)  + edgecov(Polity)
+\item Knotenattribute: nodeicov(GDP) + nodeocov(GDP)+ nodeicov(CINC) + nodeocov(CINC) + nodeicov(Conflict))
+\end{itemize}
+
+
+
+
+
+\begin{table}[h]
 	\centering
-		\includegraphics[width=1.30\textwidth, angle = 90]{C:/Users/s10370952/Documents/Consulting/Grafiken/ts_ERGM_coef.png}
-	\label{fig:ts_ERGM_coef}
-\end{figure}
+	\caption{summary of model fit}
+		\begin{tabular}{l|l|l|l}
+		
+		\hline
+		ergm-term 						    & Estimate      & Std.Error   & p-Value 				\\
+		\hline
+    edges                     & -2.026e+00    & 7.044e-02   &    < 1e-04 ***  \\
+    mutual                    &  4.320e+00    & 9.790e-02   &    < 1e-04 ***  \\
+    idegree1                  &  4.906e+00    & 8.307e-01   &    < 1e-04 ***  \\
+    esp1                      & -4.767e-01    & 3.730e-01   &    0.20128      \\
+    dsp1                      & -1.922e-01    & 3.941e-02   &    < 1e-04 ***  \\
+    edgecov.AAlliance[[1]]    & -1.507e-02    & 1.882e-02   &    0.42315      \\
+    edgecov.ADirectCont[[1]]  &  3.943e-01    & 1.379e-01   &    0.00425 **   \\
+    edgecov.APolity[[1]]      & -3.201e-02    & 4.101e-03   &    < 1e-04 ***  \\
+    nodeicov.ext_gdp          & -2.683e-05    & 4.064e-05   &    0.50912      \\
+    nodeocov.ext_gdp          & -6.482e-05    & 4.159e-05   &    0.11915      \\
+    nodeicov.ext_cinc         & -2.677e+00    & 5.948e+00   &    0.65268      \\
+    nodeocov.ext_cinc         & -1.103e+01    & 5.956e+00   &    0.06406 .    \\
+    nodeicov.ext_conflict     & -2.008e-03    & 1.976e-02   &    0.91906      \\
+
+		\hline
+						
+		\end{tabular}
+	
+	
+\end{table}
+
 
 
 Interpretation of Time Series:

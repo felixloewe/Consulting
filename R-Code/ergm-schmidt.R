@@ -47,7 +47,7 @@ ergm.schmidt.comb <- formula(G ~ edges + mutual + idegree(1) + esp(1) + dsp(1)
 
 summary.statistics(ergm.schmidt.comb)
 ergm.schmidt.comb.fit <- ergm(ergm.schmidt.comb)
-summary.ergm(ergm.schmidt.comb.fit)
+xtable(summary.ergm(ergm.schmidt.comb.fit))
 mcmc.diagnostics(ergm.schmidt.comb.fit)
 ergm.schmidt.comb.gof <- gof.ergm(ergm.schmidt.comb.fit)
 plot(ergm.schmidt.comb.gof)
