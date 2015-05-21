@@ -2,7 +2,7 @@
 
 # Klassen
 breaks <- c(0,1,100,1000,max(degree(Graph)))
-xAchse <- year
+xAchse <- Year
 yAchse <- c(0,250)
 colors_in <- c("#b2e2e2", "#66c2a4", "#238b45", "#006d2c") # Import-Farben
 colors_out <- c("#b3cde3", "#8c96c6", "#8856a7", "#810f7c") # Export-Farben

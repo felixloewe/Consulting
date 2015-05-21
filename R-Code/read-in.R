@@ -15,8 +15,7 @@
 # - GraphYear (iGraph)
 
 # Pakete laden
-library("tools")
-makeLazyLoading(network)
+
 install.packages("network")
 install.packages("stringr")
 install.packages("igraph")

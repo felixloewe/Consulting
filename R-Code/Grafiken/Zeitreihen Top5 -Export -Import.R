@@ -87,3 +87,7 @@ matplot(import_ts5[,-1],
 axis(1, at = 1:20, labels = Year)    
 grid(lwd = 1)
 legend("top", top5imp_names[-1], col = 2:5, lty = 2:5, lwd = 2, bg = "white")
+
+savePlot("Bericht/Grafiken/ts_tops", type = "png")
+
+

@@ -1,5 +1,10 @@
 \begin{thebibliography}{1}
 
+\bibitem{countrycode}
+Vincent Arel-Bundock.
+\newblock {\em countrycode: Convert Country Names and Country Codes}, 2014.
+\newblock R package version 0.18.
+
 \bibitem{kc14}
 Eric~D Kolaczyk and Gabor Csardi.
 \newblock {\em Statistical Analysis of Network Data with R}.

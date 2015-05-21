@@ -21,9 +21,20 @@ valmil_ts <- sapply(GraphYear, function(Graph) sum(E(Graph)$ValueMil))
 
 # To-Do: inhaltlicher Vergleich mit Großwaffen-Handel
 
-par(mfrow = c(3,2))
-plot.ts(valmil_ts, ylim = c(0, 6000))
+windows(height = 8, width = 12)
 
+par(mfrow = c(2,2), oma = c(0,0,0,0))
+plot(ts(valmil_ts, start = 1992), type = "o", main = "Zeitreihe der Handelswerte in Mio. USD", ylab = "", xlab = "", cex.main = 0.8)
+grid(lwd = 1)
+plot(ts(vert_ts, start = 1992), type = "o", main = "Zeitreihe der Anzahl der am Waffenhandel beteiligten Nationen", ylab = "", xlab = "", cex.main = 0.8)
+grid(lwd = 1)
+plot(ts(edg_ts, start = 1992), type = "o", main = "Zeitreihe der Anzahl der vollzogenen Handel", ylab = "", xlab = "", cex.main = 0.8)
+grid(lwd = 1)
+#plot(ts(trans_ts,start = 1992), type = "o", main = "Zeitreihe der Transitivität", ylab = "", xlab = "")
+#grid(lwd = 1)
+plot(ts(dens_ts, start = 1992), type = "o", main = "Zeitreihe der Dichte des Handelsnetzwerkes", ylab = "", xlab = "", cex.main = 0.8)
+grid(lwd = 1)
+#plot(ts(diameter_ts, start = 1992), type = "o")
+#grid(lwd = 1)
 
-
-
+#savePlot("Bericht/Grafiken/ts_descripives", type = "png")

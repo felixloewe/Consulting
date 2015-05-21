@@ -5,7 +5,9 @@
 \contentsline {subsection}{\numberline {1.1.2}Adjazenzmatrix}{5}{subsection.1.1.2}
 \contentsline {section}{\numberline {1.2}Datengrundlage}{6}{section.1.2}
 \contentsline {chapter}{\numberline {2}Deskriptive Analyse}{7}{chapter.2}
-\contentsline {section}{\numberline {2.1}Top-Akteure}{7}{section.2.1}
-\contentsline {section}{\numberline {2.2}Netzwerkma\IeC {\ss }zahlen}{8}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Anzahl der Knoten und Dichte}{8}{subsection.2.2.1}
-\contentsline {chapter}{Literaturverzeichnis}{10}{chapter*.5}
+\contentsline {section}{\numberline {2.1}Degree Sequenz}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}Handelswerte}{8}{section.2.2}
+\contentsline {section}{\numberline {2.3}Top-Akteure}{9}{section.2.3}
+\contentsline {section}{\numberline {2.4}Netzwerkma\IeC {\ss }zahlen}{11}{section.2.4}
+\contentsline {section}{\numberline {2.5}Visualisierungen}{12}{section.2.5}
+\contentsline {chapter}{Literaturverzeichnis}{18}{chapter*.13}

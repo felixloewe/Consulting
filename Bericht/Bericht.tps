@@ -11,14 +11,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1562
-NormalPos.bottom=606
+NormalPos.right=940
+NormalPos.bottom=741
 Class=LaTeXView
-Document=..\..\..\Downloads\Seminararbeit\Functional.tex
+Document=Bericht.tex
 
 [Frame0_View0,0]
-TopLine=0
-Cursor=459
+TopLine=189
+Cursor=10404
 
 [Frame1]
 Flags=0
@@ -29,14 +29,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1562
-NormalPos.bottom=606
-Class=LaTeXView
-Document=Bericht.tex
+NormalPos.right=940
+NormalPos.bottom=741
+Class=BibTeXView
+Document=literatur.bib
 
 [Frame1_View0,0]
-TopLine=281
-Cursor=12444
+TopLine=0
+Cursor=1127
 
 [Frame2]
 Flags=0
@@ -47,34 +47,16 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1562
-NormalPos.bottom=606
-Class=BibTeXView
-Document=literatur.bib
-
-[Frame2_View0,0]
-TopLine=0
-Cursor=328
-
-[Frame3]
-Flags=0
-ShowCmd=1
-MinPos.x=-1
-MinPos.y=-1
-MaxPos.x=-1
-MaxPos.y=-1
-NormalPos.left=4
-NormalPos.top=26
-NormalPos.right=1562
-NormalPos.bottom=606
+NormalPos.right=940
+NormalPos.bottom=741
 Class=LaTeXView
 Document=..\LaTeX1.tex
 
-[Frame3_View0,0]
+[Frame2_View0,0]
 TopLine=0
 Cursor=120
 
 [SessionInfo]
-FrameCount=4
+FrameCount=3
 ActiveFrame=0
 

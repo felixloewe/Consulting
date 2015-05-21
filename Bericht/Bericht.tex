@@ -24,8 +24,8 @@
 
 \usepackage[hyphens]{url}
 \usepackage{hyperref}
-
-
+\usepackage{animate}
+\usepackage{rotating}
 
 
 
@@ -64,12 +64,11 @@
 
 \begin{minipage}[t]{0.4\textwidth}
 \begin{flushleft} \large
-\emph{Autoren:}\\[2mm]
-Roman Dieterle\\
-roman.dieterle@hotmail.de\\[5mm]
-
+\emph{Autor:}\\[2mm]
 Felix Loewe\\
-felixloewe@gmail.com\\% Your name
+loewe.felix@gmail.com\\[5mm]
+
+
 \end{flushleft}
 \end{minipage}
 ~
@@ -162,14 +161,48 @@ Werden Schleifen $\{i,i\}$ erlaubt, sind mehr Kanten möglich. Dann wird der Zä
 
 \section{Datengrundlage}
 
-Die Datengrundlage für das Kleinwaffenhandelsnetzwerk ist die \emph{NISAT} (Norwegian Initiative on Small Arms Transfers) Datenbank. Das Peace Research Institute Oslo (PRIO) ist der Auftraggeber dieser Datenbank. Die Datenbank enthält Daten über den legalen und illegalen Handel von Kleinwaffen. Der abgedeckte Zeitraum beträgt die Jahre 1992 bis 2011.
 
-Es folgt eine genauere Beschreibung der Datenbank. Die Daten liegen in Form von einer Edge-List vor, das bedeutet, eine Zeile steht für die gerichtete Beziehung zwischen einem Exportland und einem Importland. Diese Exportliste hat eine Reihe weiterer Kovariablen. Somit steht zur Verfügung, in welchem Jahr der Handel stattfand, welcher Waffentypus gehandelt wurde, der Waffenwert in US-Dollar und die berichtende Quelle, von dem der Eintrag stammt.
+
+Die Datengrundlage für das Kleinwaffenhandelsnetzwerk ist die \emph{NISAT} (Norwegian Initiative on Small Arms Transfers) Datenbank. Das Peace Research Institute Oslo (PRIO) ist der Auftraggeber dieser Datenbank. Die Datenbank enthält Daten über den legalen und illegalen Handel von Kleinwaffen. Der abgedeckte Zeitraum beträgt die Jahre 1992 bis 2011. Berichtet wird hierin von insgesamt 239 Ländern und 109522 Waffentransaktionen.
+
+Es folgt eine genauere Beschreibung der Datenbank. Die Daten liegen in Form von einer gerichteten Kanten-Liste vor. Das bedeutet jede zeile im Datensatz entspricht einem Handel zwischen einen exportierdenen und einem importierenden Land. Zusätzliche Attribute sind die Correlates of War Codes der jeweiligen Länder, der Monetäre Wert des Handels in US Dollar, der Waffentyp der gehandelt wurde, die Datenquelle die den Handel berichtet sowie das Jahr in dem der Handel stattgefunden hat.
+Bei der Netzwerkanalyse dieser Daten erkennt man schnell folgende Probleme:
+Da nach Waffentypen unterschieden wird, existieren in den einzelnen Jahren multiple Kanten. Das bedeutet zwischen 2 Ländern werden im gleichen Jahr mehrere Handel in der gleichen Richtung aufgeführt. Diese wurden für die weitere Analyse zusammengefasst indem der Wert der Lieferungen schlicht addiert wurde.
+Der Datensatz enthält Schleifen. Das heißt manche Länder liefern Waffen an sich selbst. Da es hierfür keine sinnvolle inhaltliche Erklärung gibt wurden die entsprechenden Beobachtungen gelöscht.
 
 \chapter{Deskriptive Analyse}
 
-\section{Top-Akteure}
+\section{Degree Sequenz}
 
+\begin{figure}[h]
+	\centering
+		\includegraphics[width=1.00\textwidth]{Grafiken/ts_degree.png}
+	\caption{Boxplot für In- und Out-Degree in den Jahren 1992-2011}
+	\label{fig:ts_degree}
+\end{figure}
+
+Eine erste nützliche Analyse um die Struktur des Netzwerkes zu erfassen, ist die Betrachtung der Knoten-Degrees. Im Falle eines gerichteten Netzwerkes unterschiedet man zwischen In-Degree und Out-Degree. Inhaltlich interpretiert entspricht dies den Anzahlen der Importe und Exporte der Länder pro Jahr. Hierzu betrachten wir Abbildung \ref{fig.ts_degree}. Sie zeigt zu jedem im Datensatz enthaltenen Jahr je einen Boxplot zum In-Degree und einem zum Out-Degree. innerhalb der farblich gekennzeichneten Box liegen jeweils die mittleren 50 Prozent der entsprechenden Daten. Der mittlere Schwarze Strich in jeder box kennzeichnet den Median, und damit den Wert, unter dem genau die Hälfte aller Werte liegt.
+
+Betrachtet man zuerst die Boxplots zum In-Degree, so stellt man fest, dass die breite der box über die Jahre zunimmt. Im Jahr 1992 reicht sie lediglcih von 2 bis 8, während sie sich im Jahr 2011 von 3 bis 21 erstreckt. Auch der Median steigt über diesen Zeitraum von  3 auf 10. Daraus lässt sich schließen, dass die mittlere ANzahl der Länder aus denen ein einzelnes Land Waffen exportiert größer geworden ist. Auffalend sind in allein Jahren einige mit Kreisen markierte Ausreißer
+die aus bis zu 67 verschiedenen Ländern im gleichen Jahr waffen beziehen.
+
+Bei den boxplots zum Out-Degree fallen sofort die sher kleinen Boxen auf. Übereinstimmend in allen Jahren exportieren mindestens 25 Prozent der Länder überhaupt keine Waffen, und 50 Prozent der Länder an höchstens 2 andere Staaten. Allerdings gibt auch in allen Jahren eine recht große Anzahl von Ausreißern mit hohem Out-Degree mit bis zu 150 belieferten Staaten. 
+
+Die Betrachtung der Degrees legt nahe, dass der Kleinwaffenhandel von einigen wenigen Akteuren dominiert wird, während die große Masse der restlichen Staaten eher einen geringen Einfluss auf die Geschehnisse hat. Diesen wichtigen Akteuren wenden wir uns in Abschnitt \ref{sec:top-akteure} zu.
+
+\section{Handelswerte}
+
+\begin{figure}[h]
+	\centering
+		\includegraphics[width=1.00\textwidth]{Grafiken/ts_value.png}
+	\caption{Vergleich der 1\% teuersten Waffenkäufe mit den 99\% billigsten}
+	\label{fig:ts_value}
+\end{figure}
+
+Betrachtet man sich die gewichte der Kanten, in diesem Fall die monetären Handelswerte so fällt einen ein deutliches Ungleichgewicht auf. Wie Abbildung \ref{fig:ts_value} zeigt ist die Summe der 1\% teuersten Waffenhandel über alle Jahre hinweg ähnlich der Summe der 99\% billligsten. Einige wenige große Waffentransaktionen wiegen also alle restlichen in ihrem monetären und damit wohl auch quantitativen Gewicht auf.
+
+\section{Top-Akteure}
+\label{sec:top-akteure}
 Als erstes wird darauf eingegangen, welches die zentralen Akteure des Handelsnetzwerkes sind. Das bedeutet, es werden die Nationen aufgelistet, die über den Zeitraum von 20 Jahren das größte Import- und Exportvolumen, gemessen am Geldwert der gehandelten Waffen, aufweisen. Die Top-Exporteure sind in Tabelle \ref{top_exp} zu sehen.
 
 \begin{table}[h]
@@ -195,7 +228,7 @@ Als erstes wird darauf eingegangen, welches die zentralen Akteure des Handelsnet
 \label{top_exp}
 	\end{table}
 	
-Es ist ersichtlich, dass die Vereinigten Staaten von Amerika mit 10 Milliarden Dollar am meisten Waffen exportiert. Italien steht mit circa 8 Milliarden Dollar Exportvolumen an zweiter Stelle. Dies erscheint ungewöhnlich über den Zeitraum von 1992 -- 2011. Deutschland exportiert mit circa 5 Milliarden Dollar gehandelten Waffen am drittmeisten. Auf dem vierten und fünften Platz folgen die Länder Brasilien und Österreich mit exportierten Waffen, die circa 4 und 3 Milliarden Dollar wert sind. Ab dem sechsten Platz erfolgen nur noch unwesentliche Verringerungen des Exportvolumens im Bereich von 2 bis 1 Milliarde Dollar. Hierin befinden sich Nationen wie Großbritannien, Belgien, die Schweiz, Russland und die tschechische Republik. 
+Es ist ersichtlich, dass die Vereinigten Staaten von Amerika mit 9.2 Milliarden Dollar am meisten Waffen exportiert. Italien steht mit circa 8 Milliarden Dollar Exportvolumen an zweiter Stelle. Dies erscheint ungewöhnlich über den Zeitraum von 1992 -- 2011. Deutschland exportiert mit circa 5 Milliarden Dollar gehandelten Waffen am drittmeisten. Auf dem vierten und fünften Platz folgen die Länder Brasilien und Österreich mit exportierten Waffen, die circa 4 und 3 Milliarden Dollar wert sind. Ab dem sechsten Platz erfolgen nur noch unwesentliche Verringerungen des Exportvolumens im Bereich von 2 bis 1 Milliarde Dollar. Hierin befinden sich Nationen wie Großbritannien, Belgien, die Schweiz, Russland und die tschechische Republik. 
 
 Nun folgt eine Auflistung der Top-Importeure des Kleinwaffenhandelsnetzwerkes (siehe Tabelle \ref{top_imp}).
 
@@ -224,29 +257,117 @@ Nun folgt eine Auflistung der Top-Importeure des Kleinwaffenhandelsnetzwerkes (s
 		
 Erneut steht Nord-Amerika an erster Stelle. Die Nation gibt circa 16 Milliarden Dolar für den Import von Kleinwaffen aus. Deutschland und Frankreich teilen sich mit 2.3 Milliarden Dollar Importvolumen den zweiten Platz am Kleinwaffenimport. Auf der vierten Stelle befindet sich Kanda mit einem Importvolumen von circa 2 Milliarden Dollar. Großbritannien verwendet 1.8 Milliarden Dollar, um Waffen zu exportieren, und Saudi Arabien 1.7 Milliarden Dollar. Auf dem siebten, achten, neunten und zehnten Platz sehen wir ähnliche Exportausgaben von circa 1.2 bis 1 Milliarde Dollar. Dies sind die Länder Belgien, Spanien, Australien und Türkei.
 
-\section{Netzwerkmaßzahlen}
+Anschließend interesiert, ob sich die Zusammensetzung der Top-Exporteure/Importeure über die Jahre verändert. Hierfür betrachten wir Abbildung \ref{fig:ts_tops}. 
+In der ersten Grafik sind die Handelsvolumen in Millionen US Dollar der fünf Top-Exporteure über den Zeitraum 1992-2011 dargestellt. Die USA ist in fast allen Jahren der Waffenexporteur mit den höchsten monetären Volumen. Sie wird nur in wenigen Jahren von Italien übertroffen. Deutschland, Brasilien und Österreich exportieren in allen Jahren deutlich weniger Waffenwert als die USA. Aufällig ist ein relativ konstanter Verlauf der Zeitreihen im Zeitraum von 1992 bis ca 2001, während danach bei allen Ländern ein kräftiger Anstieg der Handelswerte feststellbar ist. Deutschland, Brasilien und vor allem Italien zeigen allerdings ab ca 2008 widerum einen abfallenden Trend.
+Die zweite und die dritte Grafik aus Abbildung \ref{fig:ts_tops} zeigt die Handelsvolumen der Top-Importeure. Die USA ist hier unangefochten an der Spitze. Sie importiert Kleinwaffen im Wert zwischen circa 400 und 1600 Millionen US Dollar pro Jahr während die restlichen Akteure höchstens Kleinwaffen im Wert von circa 250 Millionen Dollar pro Jahr importieren. Ähnlich wie bei den Exportzeitreihen ist auch hier ein relativ konstanter Verlauf bis ca 2001 zu beobachten während die Ausgaben in den nachfolgenden Jahren kontinuierlich ansteigen. Die USA verringerte ihre Importausgaben ab dem Jahr 2007 jedoch wieder deutlich. 
 
-Als zweites erfolgt eine Darstellung grundlegender deskriptiver Netzwerkmaßzahlen, um das Kleinwaffenhandelsnetzwerk zu beschreiben. Die Maßzahlen werden für jedes Jahr berechnet und als Zeitreihe dargestellt, um die zeitliche Entwicklung des Netzwerkes zu visualisieren. 
-
-\subsection{Anzahl der Knoten und Dichte}
-Die ersten beiden Maßzahlen, die betrachtet werden, sind die Anzahl der Knoten und die Dichte des Netzwerkes. Je höher die Anzahl der Knoten $N_V$ im Netzwerk, desto mehr Länder sind am Waffenhandel beteiligt. Die Entwicklung der Knotenanzahl (\ref{vert_ts}) zeigt,
-
-\begin{figure}[ht]
+\begin{figure}[h]
 	\centering
-  \includegraphics[scale = 1]{Grafiken/vert_ts.png}
-	\caption{Knoten-Entwicklung}
-	\label{vert_ts}
+		\includegraphics[width=1.00\textwidth]{Grafiken/ts_tops.png}
+	\caption{Zeiteihen der Handelswerte der Top-Exporteure/Importeure}
+	\label{fig:ts_tops}
+\end{figure}
+Eine andere Methode, um zentrale Akteure des Netzwerkes zu identifizieren ist sich die Degree-Sequenz der Netzwerkknoten zu betrachten. Welche Knoten (Länder) besitzen sowohl einen hohen In-Degree als auch einen hohen Out-Degree und können somit als zentrale Importeure beziehungsweise Exporteure des Handelsnetzwerkes identifiziert werden?
+Abbildung \ref{fig:ts_network} zeigt hierzu das Gesamte Netzwerk in den Jahren 1992, 1996, 2000, 2004, 2008, und 2011. Jeder Punkt stellt ein am Waffenhandel beteiligtes Land dar. Ein Pfeil zwischen den beiden Ländern symbolisiert einen Handel. Länder die aus midestens 30 anderen Ländern Waffen beziehen sind grün, Länder die in midestens 30 andere Länder Waffen liefern sind blau, und Akteure die beide Bedingungen erfüllen sind rot eingefärbt. Man erkennt, dass die Anzahl der "`großen Akteure"' auf dem Kleinwaffenmarkt über die Zeit deutlich zugenommen hat.Die beiden Tabellen \ref{top_1991} und \ref{top_2011}listen diese für das Jahr 1991 und das Jahr 2011 auf:
+
+
+\begin{figure}[h]
+	\centering
+		\includegraphics[width=0.90\textwidth]{Grafiken/ts_network.png}
+	\caption{Netzwerk im Wandel der Zeit}
+	\label{fig:ts_network}
 \end{figure}
 
 
 
+\begin{table}[h]
+\centering
+\footnotesize
+\begin{tabular}{rlr}
+  \hline
+ Land 											& In-Degree & Out-Degree\\ 
+  \hline
+ Switzerland 								& 32				& 76\\ 
+ United States of America 	& 43				& 105\\ 
+ Germany (Federal Republic) & 47				& 118\\ 
+ Spain 											& 36				& 62\\ 
+ Sweden 										& 38 				& 33\\ 
+ 
+
+   \hline
+\end{tabular}
+\caption{Zentrale Akteure des Netzwerkes 1991} 
+\label{top_1991}
+	\end{table}
+	
+	\begin{table}[h]
+\centering
+\footnotesize
+\begin{tabular}{rlr}
+  \hline
+ Land 						& In-Degree & Out-Degree\\ 
+  \hline
+ Switzerland 			& 41				& 103\\ 
+ United States 		& 63				& 145\\ 
+ Finland 					& 34				& 70\\ 
+ Italy 						& 39 				& 114\\ 
+ France						& 41				& 82\\ 
+ Poland						& 32				& 34\\
+ Czech Republic		& 37				& 105\\
+ Germany					& 50				& 115\\
+ United Kongdom		& 44				& 95\\
+ Norway						& 32				& 39\\
+ Spain  					& 37				& 91\\
+ Canada						& 49				& 78\\
+ Austria					& 41				& 108\\
+ South Africa			& 34				& 32\\
+ Belgium					& 31				& 64\\
+ Australia				& 39				& 51\\
+   \hline
+\end{tabular}
+\caption{Zentrale Akteure des Netzwerkes 2011} 
+\label{top_2011}
+	\end{table}
+
+
+
+\section{Netzwerkmaßzahlen}
+
+Als zweites erfolgt eine Darstellung grundlegender deskriptiver Netzwerkmaßzahlen, um das Kleinwaffenhandelsnetzwerk zu beschreiben. Die Maßzahlen werden für jedes Jahr berechnet und als Zeitreihe dargestellt, um die zeitliche Entwicklung des Netzwerkes zu visualisieren. 
+Abbildung \ref{fig:ts_descriptives} zeigt die zeitliche Entwicklung  von Handelswert, Knotenanzahl, Kantenanzahl und Dichte des Netzwerkes. Betrachtet man zuerst die Zeitreihe der Handelswerte so stellt man fest, dass diese in den Jahren 1992 bis 2001 relativ kostant zwischen 1.5 und 2.5 Milliarden US Dollar verweilt, nach 2001 jedoch bis auf ca 4.5 Milliarden im Jahr 2008 ansteigt und anschließend auf diesem Level konstant bleibt.
+Die Zeitreihe der Anzahl der am Waffenhandel beteiligten Nationen steigt recht gleichmäßig zwischen Jahren 1992 und 2011. Lediglich zwischen 1993 und 1994 ist ein außergewöhnlich starker Anstieg von 170 auf 187 zu beobachten. Im Jahr 1997 ist die Anzahl der am Waffenhandel beteiligten Nationen auffallend von 186 auf 176 gesunken. Allerdings stellt sich gleich im Folgejahr wieder die ursprüngliche Anzahl ein. Das Maximum der zeitreihe liegt mit 212 Nationen im Jahr 2008.
+Auch die Anzahl der Netzwerkkanten die der Anzahl der vollzogenen Waffentransaktionen zeigt einen regelmäßig steigenden Trend von ca 3000 im Jahr 1992 bis ca 7000 im Jahr 2011. Auch hier erkennen wir einen sprunghaften Anstieg zwischen 1993 und 1994 sowie ein einknicken im Jahr 1996.
+Die Dichte des Netzwerkes steigt in den Jahren 1992-1997 rasch von ca 0.04 auf 0.065 und stagniert anschließend auf einem Level zwischen 0.065 und 0.055.
+\begin{figure}[h]
+	\centering
+		\includegraphics[width=1.00\textwidth]{Grafiken/ts_descriptives.png}
+	\caption{Deskripitve Maßzahlen des Kleinwaffenhandelsnetzwerkes 1992-2011}
+	\label{fig:ts_descriptives}
+\end{figure}
 %Die Dichte eines Netzwerkes ist die Anzahl der Kanten des Netzwerkes, geteilt durch die mögliche Anzahl an Kanten des Netzwerkes. Das Kleinwaffenhandelsnetzwerk $G_{NISAT}$ ist ein gerichteter Multigraph mit Schleifen. Da für Multigraphen keine Dichte definiert ist, wird der Graph mit dem Befehl \ttt{simplify(G_Nisat)} auf einen einfachen Graphen reduziert. Die Schleifen im Datensatz werden in der Berechnung der Dichte entfernt. Es ergibt sich der Term $den(G_{NISAT}) = \frac{E_V}{N_H(N_H-1)/2}$ für die Dichte.
 
+\newpage
+\section{Visualisierungen}
 
+In diesem Abschnitt wird versucht durch verschiedene Visualisierungen des Netzwerkes einen Überbick über mögliche Strukturen und Zusammenhänge des Kleinwaffenhandels zu erhalten. Da das Netzwerk recht groß ist erscheint es ratsam, die Länder in Gruppen aufzuteilen. Dies geschieht mit Hilfe des R-Pakets \emph{countrycode} \cite{countrycode}. Mit Hilfe der im Datensatz gegeben Correlates of War Country Codes und Zuordnungen der Vereinten Nationen weist dieses Paket jedem Land einen Kontinent bzw ein Jahr zu. In den beiden Grafiken \ref{fig:cont} und \ref{fig:reg} Ist die Größe der Knoten proportional zum jeweiligen Degree (In-Degree + Out-Degree) gewählt. Die Breite der kanten wiederum ist proportional zum monetären Wert der Handelsströme zwsichen zwei Kontinenten beziehungsweise Regionen gwählt. Die Positionierung der Knoten wurde zur besseren Vergleichbarkeit der Jahre untereinander fixiert.
 
+\begin{figure}[!h]
+\centering
+\animategraphics[scale=0.9, controls]{1}{Grafiken/Cont_Ani/cont}{1}{20}
+\caption{Handelsströme zwischen den Kontinenten von 1992-2011}
+\label{fig:cont}
+\end{figure}
 
+In Abbildung \ref{fig:cont} erkennt man, dass Europa durchgängig mit dem Größten Kreis markeiert ist, also an mehr Handelsaktionen als die anderen Kontinente beteiligt ist. Amerika und Asien folgen auf den nächsten beiden Plätzen. Die Dicke der Kanten und damit der Geldfluss zwischen den Kontinenten variiert stark zwischen den Jahren. Hier ist kein gleichbleibendes Muster zu erkennen.
 
+\begin{figure}[!h]
+\centering
+\animategraphics[scale=0.9, controls]{1}{Grafiken/Reg_Ani/reg}{1}{20}
+\caption{Handelsströme zwischen den Regionen von 1992-2011}
+\label{fig:reg}
+\end{figure}
 
+In Abbildung \ref{fig:reg} zeigt sich ein ähnliches Bild. Die europäischen Regionen und Nordamerika scheinen die aktivsten Handelspartner zu sein, während immer wieder auch zwischen eher weniger aktiven Regionen große Geldsummen fließen und hier auch wieder kein kostantes Muster zu erkennen ist.  
 
  
 
