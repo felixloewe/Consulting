@@ -25,7 +25,7 @@
 \usepackage{hyperref}
 \usepackage{animate}
 \usepackage{rotating}
-
+\usepackage{longtable}
 
 
 
@@ -111,14 +111,13 @@ Nachdem die Datengrundlage besprochen wird, erfolgt eine deskriptive Analyse des
 
 \chapter{Einführung}
 
-Was ist das Besondere an der statistischen Analyse von Netzwerken? Erstens stellen sie durch ihre Abhängigkeitsstruktur relationale Daten dar. Gewöhnliche Datensätze mit $i = 1, ..., N$ Beobachtungen werden zumeist mit der Annahme analysiert, dass die $n$ Beobachtungen unabhängig voneinander beobachtet werden. Bei Netzwerkdaten ist das nicht der Fall. Hier stehen die Beobachtungen, oft genannt \emph{Akteure} des Netzwerkes, in Beziehung zu einander. Besteht eine Beziehung zwischen den Beobachtungen, können diese nicht mehr als unabhängig angesehen werden. In ähnlicher Sichtweise wird auch eine nicht-bestehende Beziehungen nicht ignoriert, sondern so angesehen, dass individuenspezifische oder netzwerkspezifische Effekte diese verursacht haben können.
+Was ist das Besondere an der statistischen Analyse von Netzwerken? Erstens stellen sie durch ihre Abhängigkeitsstruktur relationale Daten dar. Gewöhnliche Datensätze mit $i = 1, ..., N$ Beobachtungen werden zumeist mit der Annahme analysiert, dass die $n$ Beobachtungen unabhängig voneinander beobachtet werden. Bei Netzwerkdaten ist das nicht der Fall. Hier stehen die Beobachtungen, oft genannt \emph{Akteure} des Netzwerkes, in Beziehung zueinander. Besteht eine Beziehung zwischen den Beobachtungen, können diese nicht mehr als unabhängig angesehen werden. In ähnlicher Sichtweise wird auch eine nicht-bestehende Beziehungen nicht ignoriert, sondern so angesehen, dass individuenspezifische oder netzwerkspezifische Effekte diese verursacht haben können.
 
-Das Bestehen- oder Nicht-Bestehen einer Beziehung ist die Netzwerkstruktur (\emph{Abhähngigkeitsstruktur}), die zusätzlich zu den Daten eines gewöhnlichen Datensatzes besteht. Die Abhängigkeitsstruktur wird durch die Adjazenzmatrix $Y_{ij} \in N \times N$ ausgedrückt.
+Das Bestehen oder Nicht-Bestehen einer Beziehung ist die Netzwerkstruktur (\emph{Abhängigkeitsstruktur}), die zusätzlich zu den Daten eines gewöhnlichen Datensatzes besteht. Die Abhängigkeitsstruktur wird durch die Adjazenzmatrix $Y_{ij} \in N \times N$ ausgedrückt.
 
-Zweitens stellen Netzwerkdaten eine Verallgemeinerung von räumlichen Daten dar. Bei räumlichen Daten wird von der Nachbarschaftsstruktur gesprochen. Markov-Zufallsfelder können als Graph visualisiert werden, dessen Akteure räumliche Punkte oder zum Beispiel Länder sind.
-Sind diese benachbart, besteht eine Kante. Zwei Punkte $i, j$ sind benachbart ($i \sim j$), falls der entsprechende Eintrag in der Adjazenzmatrix eine Eins aufweist. Netzwerke verallgemeinern das Konzept des räumlichen Nachbarns auf beliebige Beziehungen. Bei der Analyse des Waffenhandels wird aus der Beziehung ein Handel und aus den Akteuren die liefernden und belieferten Länder.
+Bei der Analyse des Waffenhandels wird aus der Beziehung ein Handel und aus den Akteuren die liefernden und belieferten Länder.
 
-Die Arbeit ist wie folgt aufgebaut. Im ersten Kapitel erfolgt eine kurze Wiederholung der Begriffe aus der Graphentheorie. Diese Begriffe werden in den darauffolgenden Kapiteln verwendet, um weitere netzwerkstatistische Begriffe einführen zu können. Im zweiten Kapitel erfolgt eine Erläuterung der Datengrundlage der NISAT Datenbank. Im dritten Abschnitt wird der Datensatz deskriptiv analysiert. Im vierten Abschnitt erfolg die Modellierung per ERGMs.
+Die Arbeit ist wie folgt aufgebaut. Im ersten Kapitel erfolgt eine kurze Wiederholung der Begriffe aus der Graphentheorie. Netzwerkspezifische Begriffe sowie deskriptive Maßzahlen werden theoretisch eingeführt. Darauf folgt eine Erläuterung der Datengrundlage der NISAT Datenbank mit den daraus resultierenden Möglichkeiten und Einschränkungen. Im dritten Abschnitt wird der Datensatz deskriptiv analysiert. Im vierten Abschnitt erfolgt die Modellierung per ERGMs.
 
 
 
@@ -132,28 +131,23 @@ Um Netzwerkdaten statistisch analysieren zu können, muss die Abhängigkeitsstru
 
 Ein Graph $G = (V,E)$ ist die mathematische Beschreibung eines Netzwerkes. 
 
-Er besteht aus einer Knotenmenge $V$ und einer Kantenmenge $E$. Ein Knoten $v$ ist ein Punkt eines Graphen. Eine Kante $e$ verbindet zwei Punkte. Mit diesen zwei Begriffen kann ein Graph graphisch dargestellt werden.
+Er besteht aus einer Knotenmenge $V$ und einer Kantenmenge $E$. Ein Knoten $v$ repräsentiert einen Akteur des Netzwerkes. Eine Kante $e$ verbindet zwei Akteure und kennzeichnet eine Beziehung zwischen ihnen.
 
-Es wird eine Konvention getroffen, dass es nur eine endliche Zahl an Knoten in einem Graph gibt. Die Anzahl der Knoten wird mit $N_V = |V|$ bezeichnet. Üblicherweise sind die Knoten $v_i$ durchnummeriert mit dem Index $i = 1, ..., N_V$. 
+Die Anzahl der Knoten $N_V = |V|$ wird üblicherweise als kleiner unendlich vorausgesetzt. Häufig benennt man die Knoten eines Netzwerkes einfach nach ihrem ihren Index $i = 1, ..., N_V$
 
-Eine Kante $e$ ist ein Element der Menge $E$. Eine Kante $e = \{i,j\}$ beschreibt die Verbindung zwischen Knoten $v_i$ und $v_j$. 
+Eine Kante ist ein Element der Menge $E$. Eine Kante $\{i,j\}$ beschreibt die Verbindung zwischen Knoten $i$ und $j$. 
 
-Es gibt ungerichtete und ungerichtete Graphen. Sie unterscheiden sich darin, ob eine Kante, also die Beziehung zwischen den Akteuren, gerichtet oder ungerichtet ist. Ein Beispiel für ungerichtete Beziehungen ist eine Freundschaftsbeziehung. Ein Beispiel für eine gerichtete Beziehung ist der Kleinwaffenhandel: es gibt ein Export- und ein Importland. Das Kleinwaffenhandelsnetzwerk kann also durch einen gerichteten Graphen beschrieben werden.
+Man unterschiedet zwischen gerichteten und ungerichteten Graphen. Ein ungerichteter Graph setzt eine symmetrische Beziehung zwischen den Akteuren voraus. Akteur $i$ steht also zu Akteur $j$ in der gleichen Beziehung wie $j$ zu $i$ (z.B. Arbeitskollege). Bei einem gerichteten Graphen hingegen ist die Richtung der Beziehung entscheidend. Dies ist in unserem Datensatz der Fall. Wir unterschieden zwischen Exporteur und Importeur eines Handels. Die Kante $\{i,j\}$ ist hier also von der Kante $\{j,i\}$ zu unterscheiden.
 
-Mathematisch unterscheiden sich gerichtete und ungerichtete Graphen darin, ob eine Kante $e$ ein geordnetes Paar $(i,j)$ oder ein ungeordnetes Paar $\{i,j\}$ ist. Die Kantenmenge $E$ eines gerichteten Graphs kann als Teilmenge des kartesischen Produkts $V \times V$ dargestellt werden.
+Per Definition enthält ein Graph weder Schleifen noch multiple Kanten. Von einer Schleife spricht man, wenn eine Kante $\{i,j\}$den Gleichen Anfangs- und Endpunkt besitzt ($i = j$). Von einer multiplen Kante spricht man, falls zwischen zwei Knoten mehrere Verbindungen bestehen. Enthält ein Netzwerk solche Eigenschaften spricht man von einem Multigraphen ansonsten von einem einfachen Graphen.
 
-Erweiterungen von Graphen stellen Graphen mit Schleifen und Multigraphen dar. Eine Schleife ist eine Kante der Form $(i,i)$. Multigraphen sind Graphen, die mehrere Kanten von einem Knoten zu einem anderen Knoten erlauben. Eine Multikante kann als Tupel $(e, r)$ definiert werden, wobei $e$ die gerichtete oder ungerichtete Kante bezeichnet, und $r$ die Anzahl der Multikanten. Um Graphen von Multigraphen zu unterscheiden, spricht man bei einem Graph ohne Multikanten von einem einfachen Graphen.
+Betrachtet man die Anzahl der möglichen Kanten eines Graphen, die später als Benchmark dafür auftaucht, wie dicht ein Graph sein kann, so wird ersichtlich, dass diese Anzahl für einen einfachen ungerichteten Graphen kleiner ist als die Anzahl der möglichen Kanten einer komplizierteren Graphenart. Für einen einfachen ungerichteten Graphen ist sie gegeben durch $V_H(V_H-1)/2$.
 
-Betrachtet man die Anzahl der möglichen Kanten eines Graphen, die später als Benchmark dafür auftaucht, wie dicht ein Graph sein kann, so wird ersichtlich, dass diese Anzahl für einen einfachen ungerichteten Graphen kleiner ist als die Anzahl der möglichen Kanten einer komplizierteren Graphenart. Für einen einfachen ungerichteten Graphen ist sie gegeben durch:
-
-$$V_H(V_H-1)/2$$
-
-Werden Schleifen $\{i,i\}$ erlaubt, sind mehr Kanten möglich. Dann wird der Zähler durch $V_H^2$ ersetzt. Werden gerichtete Kanten $(i,j)$ erlaubt, kommen erneut mehr mögliche Kanten hinzu. Der Zähler wird dann nicht mehr durch Zwei geteilt.
-
+Ein gerichteter Graph kann logischerweise maximal die doppelte Anzahl an Kanten enthalten.
 
 \subsection{Adjazenzmatrix}
 
-+Ein Graph ist vollständig bestimmt durch seine Adjazenzmatrix $A_{ij} \in |V| \times |V|$, wobei $a_{ij} = 1$ bedeutet, dass zwischen Knoten $i$ und Knoten $j$ eine Kante besteht.
++Ein Graph ist vollständig bestimmt durch seine Adjazenzmatrix $A_{ij} \in |V| \times |V|$, wobei $a_{ij} = 1$ falls zwischen Knoten $i$ und Knoten $j$ eine Kante besteht und Null sonst.
 
 +Bei gerichteten Graphen besteht ein Unterschied zwischen der Kante $(i,j)$ und der Kante $(j,i)$. Die Adjazenzmatrix ist dann nicht symmetrisch.
 
@@ -164,7 +158,7 @@ Werden Schleifen $\{i,i\}$ erlaubt, sind mehr Kanten möglich. Dann wird der Zä
 
 Die Datengrundlage für das Kleinwaffenhandelsnetzwerk ist die \emph{NISAT} (Norwegian Initiative on Small Arms Transfers) Datenbank. Das Peace Research Institute Oslo (PRIO) ist der Auftraggeber dieser Datenbank. Die Datenbank enthält Daten über den legalen und illegalen Handel von Kleinwaffen. Der abgedeckte Zeitraum beträgt die Jahre 1992 bis 2011. Berichtet wird hierin von insgesamt 239 Ländern und 109522 Waffentransaktionen.
 
-Es folgt eine genauere Beschreibung der Datenbank. Die Daten liegen in Form von einer gerichteten Kanten-Liste vor. Das bedeutet jede Zeile im Datensatz entspricht einem Handel zwischen einem exportierenden und einem importierenden Land. Zusätzliche Attribute sind die Correlates of War Codes der jeweiligen Länder, der monetäre Wert des Handels in US Dollar, der gehandelte Waffentyp , die berichtende Datenquelle sowie das Jahr in dem der Handel stattgefunden hat.
+Es folgt eine genauere Beschreibung der Datenbank. Die Daten liegen in der Form einer gerichteten Kanten-Liste vor. Das bedeutet jede Zeile im Datensatz entspricht einem Handel zwischen einem exportierenden und einem importierenden Land. Zusätzliche Attribute sind die Correlates of War Codes der jeweiligen Länder, der monetäre Wert des Handels in US Dollar, der gehandelte Waffentyp , die berichtende Datenquelle sowie das Jahr in dem der Handel stattgefunden hat.
 Bei der Analyse dieser Daten erkennt man schnell folgende Probleme:
 Da nach Waffentypen unterschieden wird, existieren in den einzelnen Jahren multiple Kanten. Das bedeutet zwischen 2 Ländern werden im gleichen Jahr mehrere Handel in der gleichen Richtung aufgeführt. Diese wurden für die weitere Analyse zusammengefasst indem der Wert der Lieferungen schlicht addiert wurde.
 Der Datensatz enthält Schleifen. Das heißt manche Länder liefern Waffen an sich selbst. Da es hierfür keine sinnvolle inhaltliche Erklärung gibt wurden die entsprechenden Beobachtungen gelöscht. Eine Liste der gelöschten Kanten befindet sich im Anhang.
@@ -172,7 +166,7 @@ Der Datensatz enthält Schleifen. Das heißt manche Länder liefern Waffen an si
 \chapter{Deskriptive Analyse}
 
 \section{Degree Sequenz}
-
+\label{sec:degree}
 \begin{figure}[h]
 	\centering
 		\includegraphics[width=1.00\textwidth]{Grafiken/ts_degree.png}
@@ -180,12 +174,12 @@ Der Datensatz enthält Schleifen. Das heißt manche Länder liefern Waffen an si
 	\label{fig:ts_degree}
 \end{figure}
 
-Eine erste nützliche Analyse um die Struktur des Netzwerkes zu erfassen, ist die Betrachtung der Knoten-Degrees. Im Falle eines gerichteten Netzwerkes unterschiedet man zwischen In-Degree und Out-Degree. Inhaltlich interpretiert entspricht dies den Anzahlen der Importe und Exporte der Länder pro Jahr. Hierzu betrachten wir Abbildung \ref{fig.ts_degree}. Sie zeigt zu jedem im Datensatz enthaltenen Jahr je einen Boxplot zum In-Degree und einem zum Out-Degree. innerhalb der farblich gekennzeichneten Box liegen jeweils die mittleren 50 Prozent der entsprechenden Daten. Der mittlere Schwarze Strich in jeder box kennzeichnet den Median, und damit den Wert, unter dem genau die Hälfte aller Werte liegt.
+Eine erste nützliche Analyse um die Struktur des Netzwerkes zu erfassen, ist die Betrachtung der Knoten-Degrees. Im Falle eines gerichteten Netzwerkes unterschiedet man zwischen In-Degree und Out-Degree. Inhaltlich interpretiert entspricht dies den Anzahlen der Importe und Exporte eines Landes pro Jahr. Hierzu betrachten wir Abbildung \ref{fig:ts_degree}. Sie zeigt zu jedem im Datensatz enthaltenen Jahr je einen Boxplot der In-Degrees und Out-Degrees aller Länder. Innerhalb der farblich gekennzeichneten Box liegen jeweils die mittleren 50 Prozent der entsprechenden Daten. Der mittlere schwarze Strich in jeder Box kennzeichnet den Median, und damit den Wert, unter dem genau die Hälfte aller Werte liegt.
 
-Betrachtet man zuerst die Boxplots zum In-Degree, so stellt man fest, dass die breite der box über die Jahre zunimmt. Im Jahr 1992 reicht sie lediglcih von 2 bis 8, während sie sich im Jahr 2011 von 3 bis 21 erstreckt. Auch der Median steigt über diesen Zeitraum von  3 auf 10. Daraus lässt sich schließen, dass die mittlere ANzahl der Länder aus denen ein einzelnes Land Waffen exportiert größer geworden ist. Auffalend sind in allein Jahren einige mit Kreisen markierte Ausreißer
-die aus bis zu 67 verschiedenen Ländern im gleichen Jahr waffen beziehen.
+Betrachtet man zuerst die Boxplots zum In-Degree, so stellt man fest, dass die breite der Box über die Jahre zunimmt. Im Jahr 1992 reicht sie lediglich von zwei bis acht, während sie sich im Jahr 2011 von drei bis 21 erstreckt. Auch der Median steigt über diesen Zeitraum von drei auf zehn. Daraus lässt sich schließen, dass die mittlere Anzahl Importpartner eines einzelnen Landes über die Zeit größer geworden ist. Auffallend sind in allein Jahren einige mit Kreisen markierte Ausreißer
+die aus bis zu 67 verschiedenen Ländern im gleichen Jahr Waffen beziehen.
 
-Bei den boxplots zum Out-Degree fallen sofort die sher kleinen Boxen auf. Übereinstimmend in allen Jahren exportieren mindestens 25 Prozent der Länder überhaupt keine Waffen, und 50 Prozent der Länder an höchstens 2 andere Staaten. Allerdings gibt auch in allen Jahren eine recht große Anzahl von Ausreißern mit hohem Out-Degree mit bis zu 150 belieferten Staaten. 
+Bei den Boxplots zum Out-Degree fallen sofort die eher kleinen Boxen auf. Übereinstimmend in allen Jahren exportieren mindestens 25 Prozent der Länder überhaupt keine Waffen, und 50 Prozent der Länder an höchstens 2 andere Staaten. Allerdings gibt auch in allen Jahren eine recht große Anzahl von Ausreißern mit hohem Out-Degree mit bis zu 150 belieferten Staaten. 
 
 Die Betrachtung der Degrees legt nahe, dass der Kleinwaffenhandel von einigen wenigen Akteuren dominiert wird, während die große Masse der restlichen Staaten eher einen geringen Einfluss auf die Geschehnisse hat. Diesen wichtigen Akteuren wenden wir uns in Abschnitt \ref{sec:top-akteure} zu.
 
@@ -198,11 +192,11 @@ Die Betrachtung der Degrees legt nahe, dass der Kleinwaffenhandel von einigen we
 	\label{fig:ts_value}
 \end{figure}
 
-Betrachtet man sich die gewichte der Kanten, in diesem Fall die monetären Handelswerte so fällt einen ein deutliches Ungleichgewicht auf. Wie Abbildung \ref{fig:ts_value} zeigt ist die Summe der 1\% teuersten Waffenhandel über alle Jahre hinweg ähnlich der Summe der 99\% billligsten. Einige wenige große Waffentransaktionen wiegen also alle restlichen in ihrem monetären und damit wohl auch quantitativen Gewicht auf.
+Betrachtet man die Gewichte der Kanten, in diesem Fall die monetären Handelswerte, so fällt einem ein deutliches Ungleichgewicht auf. Wie Abbildung \ref{fig:ts_value} zeigt ist die Summe der 1\% teuersten Waffenhandel über alle Jahre hinweg ähnlich der Summe der 99\% billigsten. Einige wenige große Waffentransaktionen wiegen also alle restlichen in ihrem monetären und damit wohl auch quantitativen Gewicht auf. Dies sollte bei einer späteren Modellierung des Netzwerkes berücksichtigt werden. Die Kanten unterscheiden sich stark in ihrem Gewicht und können nicht als homogen angesehen werden.
 
 \section{Top-Akteure}
 \label{sec:top-akteure}
-Als erstes wird darauf eingegangen, welches die zentralen Akteure des Handelsnetzwerkes sind. Das bedeutet, es werden die Nationen aufgelistet, die über den Zeitraum von 20 Jahren das größte Import- und Exportvolumen, gemessen am Geldwert der gehandelten Waffen, aufweisen. Die Top-Exporteure sind in Tabelle \ref{top_exp} zu sehen.
+In Abschnitt \ref{sec:degree} wurde anhand der Degree-Verteilungen gezeigt, dass der Kleinwaffenhandel von einigen wenigen Nationen dominiert wird, die sich deutlich von der großen Masse der restlichen Akteure abheben. Diese sollen in diesem Abschnitt ermittelt werden. Hierzu werden diejenigen Nationen aufgelistet, die über den Zeitraum von 20 Jahren das größte Import- und Exportvolumen, gemessen am Geldwert der gehandelten Waffen, aufweisen. Die Top-Exporteure sind in Tabelle \ref{top_exp} zu sehen.
 
 \begin{table}[h]
 \centering
@@ -254,20 +248,20 @@ Nun folgt eine Auflistung der Top-Importeure des Kleinwaffenhandelsnetzwerkes (s
 \label{top_imp}
 	\end{table}
 		
-Erneut steht Nord-Amerika an erster Stelle. Die Nation gibt circa 16 Milliarden Dolar für den Import von Kleinwaffen aus. Deutschland und Frankreich teilen sich mit 2.3 Milliarden Dollar Importvolumen den zweiten Platz am Kleinwaffenimport. Auf der vierten Stelle befindet sich Kanda mit einem Importvolumen von circa 2 Milliarden Dollar. Großbritannien verwendet 1.8 Milliarden Dollar, um Waffen zu exportieren, und Saudi Arabien 1.7 Milliarden Dollar. Auf dem siebten, achten, neunten und zehnten Platz sehen wir ähnliche Exportausgaben von circa 1.2 bis 1 Milliarde Dollar. Dies sind die Länder Belgien, Spanien, Australien und Türkei.
+Erneut steht Nord-Amerika an erster Stelle. Die Nation gibt circa 16 Milliarden Dollar für den Import von Kleinwaffen aus. Deutschland und Frankreich teilen sich mit 2.3 Milliarden Dollar Importvolumen den zweiten Platz am Kleinwaffenimport. Auf der vierten Stelle befindet sich Kanada mit einem Importvolumen von circa 2 Milliarden Dollar. Großbritannien verwendet 1.8 Milliarden Dollar, um Waffen zu exportieren, und Saudi Arabien 1.7 Milliarden Dollar. Auf dem siebten, achten, neunten und zehnten Platz sehen wir ähnliche Exportausgaben von circa 1.2 bis 1 Milliarde Dollar. Dies sind die Länder Belgien, Spanien, Australien und Türkei.
 
-Anschließend interesiert, ob sich die Zusammensetzung der Top-Exporteure/Importeure über die Jahre verändert. Hierfür betrachten wir Abbildung \ref{fig:ts_tops}. 
-In der ersten Grafik sind die Handelsvolumen in Millionen US Dollar der fünf Top-Exporteure über den Zeitraum 1992-2011 dargestellt. Die USA ist in fast allen Jahren der Waffenexporteur mit den höchsten monetären Volumen. Sie wird nur in wenigen Jahren von Italien übertroffen. Deutschland, Brasilien und Österreich exportieren in allen Jahren deutlich weniger Waffenwert als die USA. Aufällig ist ein relativ konstanter Verlauf der Zeitreihen im Zeitraum von 1992 bis ca 2001, während danach bei allen Ländern ein kräftiger Anstieg der Handelswerte feststellbar ist. Deutschland, Brasilien und vor allem Italien zeigen allerdings ab ca 2008 widerum einen abfallenden Trend.
-Die zweite und die dritte Grafik aus Abbildung \ref{fig:ts_tops} zeigt die Handelsvolumen der Top-Importeure. Die USA ist hier unangefochten an der Spitze. Sie importiert Kleinwaffen im Wert zwischen circa 400 und 1600 Millionen US Dollar pro Jahr während die restlichen Akteure höchstens Kleinwaffen im Wert von circa 250 Millionen Dollar pro Jahr importieren. Ähnlich wie bei den Exportzeitreihen ist auch hier ein relativ konstanter Verlauf bis ca 2001 zu beobachten während die Ausgaben in den nachfolgenden Jahren kontinuierlich ansteigen. Die USA verringerte ihre Importausgaben ab dem Jahr 2007 jedoch wieder deutlich. 
+Anschließend interessiert, ob sich die Zusammensetzung der Top-Exporteure/Importeure über die Jahre verändert. Hierfür betrachten wir Abbildung \ref{fig:ts_tops}. 
+In der ersten Grafik sind die Handelsvolumen in Millionen US Dollar der fünf Top-Exporteure über den Zeitraum 1992-2011 dargestellt. Die USA ist in fast allen Jahren der Waffenexporteur mit den höchsten monetären Volumen. Sie wird nur in wenigen Jahren von Italien übertroffen. Deutschland, Brasilien und Österreich exportieren in allen Jahren deutlich weniger Waffenwert als die USA. Auffällig ist ein relativ konstanter Verlauf der Zeitreihen im Zeitraum von 19ir2 bis ca 2001, während danach bei allen Ländern ein kräftiger Anstieg der Handelswerte feststellbar ist. Deutschland, Brasilien und vor allem Italien zeigen allerdings ab circa 2008 wiederum einen abfallenden Trend.
+Die zweite und die dritte Grafik aus Abbildung \ref{fig:ts_tops} zeigt die Handelsvolumen der Top-Importeure. Die USA ist hier unangefochten an der Spitze. Sie importiert Kleinwaffen im Wert zwischen circa 400 und 1600 Millionen US Dollar pro Jahr während die restlichen Akteure höchstens Kleinwaffen im Wert von circa 250 Millionen Dollar pro Jahr importieren. Ähnlich wie bei den Exportzeitreihen ist auch hier ein relativ konstanter Verlauf bis circa 2001 zu beobachten während die Ausgaben in den nachfolgenden Jahren kontinuierlich ansteigen. Die USA verringerte ihre Importausgaben ab dem Jahr 2007 jedoch wieder deutlich. 
 
 \begin{figure}[h]
 	\centering
 		\includegraphics[width=1.00\textwidth]{Grafiken/ts_tops.png}
-	\caption{Zeiteihen der Handelswerte der Top-Exporteure/Importeure}
+	\caption{Zeitreihen der Handelswerte der Top-Exporteure/Importeure}
 	\label{fig:ts_tops}
 \end{figure}
-Eine andere Methode, um zentrale Akteure des Netzwerkes zu identifizieren ist sich die Degree-Sequenz der Netzwerkknoten zu betrachten. Welche Knoten (Länder) besitzen sowohl einen hohen In-Degree als auch einen hohen Out-Degree und können somit als zentrale Importeure beziehungsweise Exporteure des Handelsnetzwerkes identifiziert werden?
-Abbildung \ref{fig:ts_network} zeigt hierzu das Gesamte Netzwerk in den Jahren 1992, 1996, 2000, 2004, 2008, und 2011. Jeder Punkt stellt ein am Waffenhandel beteiligtes Land dar. Ein Pfeil zwischen den beiden Ländern symbolisiert einen Handel. Länder die aus midestens 30 anderen Ländern Waffen beziehen sind grün, Länder die in midestens 30 andere Länder Waffen liefern sind blau, und Akteure die beide Bedingungen erfüllen sind rot eingefärbt. Man erkennt, dass die Anzahl der "`großen Akteure"' auf dem Kleinwaffenmarkt über die Zeit deutlich zugenommen hat.Die beiden Tabellen \ref{top_1991} und \ref{top_2011}listen diese für das Jahr 1991 und das Jahr 2011 auf:
+Eine andere Methode, um zentrale Akteure des Netzwerkes zu identifizieren ist sich die Degree-Sequenz der Netzwerkknoten zu betrachten. Welche Knoten (Länder) besitzen sowohl einen hohen In-Degree als auch einen hohen Out-Degree und können somit als zentrale Akteure des Handelsnetzwerkes identifiziert werden?
+Abbildung \ref{fig:ts_network} zeigt hierzu das Gesamte Netzwerk in den Jahren 1992 und 2011. Jeder Punkt stellt ein am Waffenhandel beteiligtes Land dar. Ein Pfeil zwischen den beiden Ländern symbolisiert einen Handel. Länder die aus mindestens 30 anderen Ländern Waffen beziehen sind grün, Länder die in mindestens 30 andere Länder Waffen liefern sind blau, und Akteure die beide Bedingungen erfüllen sind rot eingefärbt. Man erkennt, dass die Anzahl der "`großen Akteure"' auf dem Kleinwaffenmarkt über die Zeit deutlich zugenommen hat. Die beiden Tabellen \ref{top_1991} und \ref{top_2011}listen diese für das Jahr 1992 und das Jahr 2011 auf:
 
 
 \begin{figure}[h]
@@ -295,7 +289,7 @@ Abbildung \ref{fig:ts_network} zeigt hierzu das Gesamte Netzwerk in den Jahren 1
 
    \hline
 \end{tabular}
-\caption{Zentrale Akteure des Netzwerkes 1991} 
+\caption{Zentrale Akteure des Netzwerkes 1992} 
 \label{top_1991}
 	\end{table}
 	
@@ -333,14 +327,14 @@ Abbildung \ref{fig:ts_network} zeigt hierzu das Gesamte Netzwerk in den Jahren 1
 \section{Netzwerkmaßzahlen}
 
 Als zweites erfolgt eine Darstellung grundlegender deskriptiver Netzwerkmaßzahlen, um das Kleinwaffenhandelsnetzwerk zu beschreiben. Die Maßzahlen werden für jedes Jahr berechnet und als Zeitreihe dargestellt, um die zeitliche Entwicklung des Netzwerkes zu visualisieren. 
-Abbildung \ref{fig:ts_descriptives} zeigt die zeitliche Entwicklung  von Handelswert, Knotenanzahl, Kantenanzahl und Dichte des Netzwerkes. Betrachtet man zuerst die Zeitreihe der Handelswerte so stellt man fest, dass diese in den Jahren 1992 bis 2001 relativ kostant zwischen 1.5 und 2.5 Milliarden US Dollar verweilt, nach 2001 jedoch bis auf ca 4.5 Milliarden im Jahr 2008 ansteigt und anschließend auf diesem Level konstant bleibt.
-Die Zeitreihe der Anzahl der am Waffenhandel beteiligten Nationen steigt recht gleichmäßig zwischen Jahren 1992 und 2011. Lediglich zwischen 1993 und 1994 ist ein außergewöhnlich starker Anstieg von 170 auf 187 zu beobachten. Im Jahr 1997 ist die Anzahl der am Waffenhandel beteiligten Nationen auffallend von 186 auf 176 gesunken. Allerdings stellt sich gleich im Folgejahr wieder die ursprüngliche Anzahl ein. Das Maximum der zeitreihe liegt mit 212 Nationen im Jahr 2008.
+Abbildung \ref{fig:ts_descriptives} zeigt die zeitliche Entwicklung  von Handelswert, Knotenanzahl, Kantenanzahl und Dichte des Netzwerkes. Betrachtet man zuerst die Zeitreihe der Handelswerte so stellt man fest, dass diese in den Jahren 1992 bis 2001 relativ konstant zwischen 1.5 und 2.5 Milliarden US Dollar verweilt, nach 2001 jedoch bis auf ca 4.5 Milliarden im Jahr 2008 ansteigt und anschließend auf diesem Level konstant bleibt.
+Die Zeitreihe der Anzahl der am Waffenhandel beteiligten Nationen steigt recht gleichmäßig zwischen Jahren 1992 und 2011. Lediglich zwischen 1993 und 1994 ist ein außergewöhnlich starker Anstieg von 170 auf 187 zu beobachten. Im Jahr 1997 ist die Anzahl der am Waffenhandel beteiligten Nationen auffallend von 186 auf 176 gesunken. Allerdings stellt sich gleich im Folgejahr wieder die ursprüngliche Anzahl ein. Das Maximum der Zeitreihe liegt mit 212 Nationen im Jahr 2008.
 Auch die Anzahl der Netzwerkkanten die der Anzahl der vollzogenen Waffentransaktionen zeigt einen regelmäßig steigenden Trend von ca 3000 im Jahr 1992 bis ca 7000 im Jahr 2011. Auch hier erkennen wir einen sprunghaften Anstieg zwischen 1993 und 1994 sowie ein einknicken im Jahr 1996.
 Die Dichte des Netzwerkes steigt in den Jahren 1992-1997 rasch von ca 0.04 auf 0.065 und stagniert anschließend auf einem Level zwischen 0.065 und 0.055.
 \begin{figure}[h]
 	\centering
 		\includegraphics[width=1.00\textwidth]{Grafiken/ts_descriptives.png}
-	\caption{Deskripitve Maßzahlen des Kleinwaffenhandelsnetzwerkes 1992-2011}
+	\caption{Deskriptive Maßzahlen des Kleinwaffenhandelsnetzwerkes 1992-2011}
 	\label{fig:ts_descriptives}
 \end{figure}
 %Die Dichte eines Netzwerkes ist die Anzahl der Kanten des Netzwerkes, geteilt durch die mögliche Anzahl an Kanten des Netzwerkes. Das Kleinwaffenhandelsnetzwerk $G_{NISAT}$ ist ein gerichteter Multigraph mit Schleifen. Da für Multigraphen keine Dichte definiert ist, wird der Graph mit dem Befehl \ttt{simplify(G_Nisat)} auf einen einfachen Graphen reduziert. Die Schleifen im Datensatz werden in der Berechnung der Dichte entfernt. Es ergibt sich der Term $den(G_{NISAT}) = \frac{E_V}{N_H(N_H-1)/2}$ für die Dichte.
@@ -348,7 +342,7 @@ Die Dichte des Netzwerkes steigt in den Jahren 1992-1997 rasch von ca 0.04 auf 0
 \newpage
 \section{Visualisierungen}
 
-In diesem Abschnitt wird versucht durch verschiedene Visualisierungen des Netzwerkes einen Überbick über mögliche Strukturen und Zusammenhänge des Kleinwaffenhandels zu erhalten. Da das Netzwerk recht groß ist erscheint es ratsam, die Länder in Gruppen aufzuteilen. Dies geschieht mit Hilfe des R-Pakets \emph{countrycode} \cite{countrycode}. Mit Hilfe der im Datensatz gegeben Correlates of War Country Codes und Zuordnungen der Vereinten Nationen weist dieses Paket jedem Land einen Kontinent bzw ein Jahr zu. In den beiden Grafiken \ref{fig:cont} und \ref{fig:reg} Ist die Größe der Knoten proportional zum jeweiligen Degree (In-Degree + Out-Degree) gewählt. Die Breite der kanten wiederum ist proportional zum monetären Wert der Handelsströme zwsichen zwei Kontinenten beziehungsweise Regionen gwählt. Die Positionierung der Knoten wurde zur besseren Vergleichbarkeit der Jahre untereinander fixiert.
+In diesem Abschnitt wird versucht durch verschiedene Visualisierungen des Netzwerkes einen Überblick über mögliche Strukturen und Zusammenhänge des Kleinwaffenhandels zu erhalten. Da das Netzwerk recht groß ist erscheint es ratsam, die Länder in Gruppen aufzuteilen. Hierdurch erreicht man eine bessere Übersichtlichkeit der Grafiken. Dies geschieht mit Hilfe des R-Pakets \emph{countrycode} \cite{countrycode}. Mit Hilfe der im Datensatz gegeben Correlates of War Country Codes und Zuordnungen der Vereinten Nationen weist dieses Paket jedem Land einen Kontinent und eine Region zu. In den beiden Grafiken \ref{fig:cont} und \ref{fig:reg} ist die Größe der Knoten proportional zum jeweiligen Degree (In-Degree + Out-Degree) gewählt. Die Breite der Kanten wiederum ist proportional zum monetären Wert der Handelsströme zwischen zwei Kontinenten beziehungsweise Regionen gewählt. Die Positionierung der Knoten wurde zur besseren Vergleichbarkeit der Jahre untereinander fixiert.
 
 \begin{figure}[!h]
 \centering
@@ -357,7 +351,7 @@ In diesem Abschnitt wird versucht durch verschiedene Visualisierungen des Netzwe
 \label{fig:cont}
 \end{figure}
 
-In Abbildung \ref{fig:cont} erkennt man, dass Europa durchgängig mit dem Größten Kreis markeiert ist, also an mehr Handelsaktionen als die anderen Kontinente beteiligt ist. Amerika und Asien folgen auf den nächsten beiden Plätzen. Die Dicke der Kanten und damit der Geldfluss zwischen den Kontinenten variiert stark zwischen den Jahren. Hier ist kein gleichbleibendes Muster zu erkennen.
+In Abbildung \ref{fig:cont} erkennt man, dass Europa durchgängig mit dem größten Kreis markiert ist, also an mehr Handelsaktionen als die anderen Kontinente beteiligt ist. Amerika und Asien folgen auf den nächsten beiden Plätzen. Die Dicke der Kanten und damit der Geldfluss zwischen den Kontinenten variiert stark zwischen den Jahren. Hier ist kein gleichbleibendes Muster zu erkennen.
 
 \begin{figure}[!h]
 \centering
@@ -366,16 +360,134 @@ In Abbildung \ref{fig:cont} erkennt man, dass Europa durchgängig mit dem Größ
 \label{fig:reg}
 \end{figure}
 
-In Abbildung \ref{fig:reg} zeigt sich ein ähnliches Bild. Die europäischen Regionen und Nordamerika scheinen die aktivsten Handelspartner zu sein, während immer wieder auch zwischen eher weniger aktiven Regionen große Geldsummen fließen und hier auch wieder kein kostantes Muster zu erkennen ist.  
+In Abbildung \ref{fig:reg} zeigt sich ein ähnliches Bild. Die europäischen Regionen und Nordamerika scheinen die aktivsten Handelspartner zu sein, während immer wieder auch zwischen eher weniger aktiven Regionen große Geldsummen fließen und hier auch wieder kein konstantes Muster zu erkennen ist.  
 
-\section{Anhang}
-\begin{table}[ht]
-\centering
-\begin{tabular}{rllrrr}
+\chapter{ERGM}
+\section{Theorie}
+\section{exogene Kovariablen}
+Es stehen folgende zusätzliche Daten zu Verfügung:
+\begin{itemize}
+  \item Polity: Demokratiescore zwischen 0 und 10. Die Differenz zweier Länder wird als Kantenattribut verwendet.
+  \item GDP: Bruttoinlandsprodukt der Länder in internationaler Dollar
+  \item Conflict: Interne und externe Konflikte. Knotenattribut mit Score zwischen 0-10
+  \item CINC: (Composite Index of National Capability) statistisches Mas für nationale Macht zwischen 0 und 1.
+  \item Alliance: binäres Kantenattribut; Besteht ein militärisches Bündnis (1:Ja, 0:Nein)
+  \item DirectCont: binäres Kantenattribut; Besteht ein direkte Grenze (1:Ja, 0:Nein)
+\end{itemize}
+\section{endogene Statistiken}
+\section{geschätzte Modelle}
+Als erster Versuch habe ich ein Modell gefitten, dass in \ref{lkr12} als Basismodell vorgeschlagen wird. Dieses Modell hat degeneriert. Deswegen habe ich versucht die Statistiken die für das Degenerieren verantwortlich sind zu finden, indem ich jede Statistik in einem seperaten Modell einzeln geschätzt und die Performance via mcmc.diagnostics überprüft habe (Tabelle \ref{tab:ergmrobins}.
+
+
+\begin{table}[h]
+	\centering
+		\begin{tabular}{l|c}
+		\hline 
+		ERGM TERM 									& MCMC Diagnose\\
+		\hline
+		edges 											& konvergiert\\
+		mutual 											& konvergiert\\
+		gwidegree(decay, fixed = T)	& konvergiert nur mit decay nahe eins\\
+		gwidegree(decay, fixed = T)	& degeneriert\\
+		gwdsp(fixed = T)						& Konvergenz fraglich, lange Rechenzeit\\
+		gwesp(fixed = T)						& Konvergenz fraglich, lange Rechenzeit\\
+		ctriple 										& degeneriert\\
+		\hline
+		\end{tabular}
+	\caption{ERGM-Terms und ihre MCMC Diagnose}
+	\label{tab:ergmrobins}
+\end{table}
+
+Als Ersatz für die Statistiken deren Modell nicht konvergiert ist  habe ich die Statistiken aus Tabelle \ref{tab:ergmrobinsersatz} versucht:
+
+\begin{table}[h]
+	\centering
+		\begin{tabular}{l|c}
+		\hline 
+		ERGM TERM 									& MCMC Diagnose\\
+		\hline
+		ostar(2)										& degeneriert\\
+		dsp(1)											& konvergiert\\
+		esp(1)											& konvergiert\\
+			\hline
+		\end{tabular}
+	\caption{Ersatz für ERGM Terms}
+	\label{tab:ergmrobinsersatz}
+\end{table}
+ 
+Fasst man danach die Statistiken in ein Modell zusammen, so führt das zu extrem langer Rechenzeit. Deswegen schätze ich die Parameter der Statistiken wiederum in einzelnen Modellen der Form formular = (edge + ERGM TERM). Dies geschieht für alle im Datensatz vorhandenen Modelle und man erhält folgende Zeitreihen (Abbildung \ref{fig:ts_ERGM_coef}):
+
+
+\begin{figure}[h]
+	\centering
+		\includegraphics[width=1.00\textwidth]{Grafiken/ts_ERGM_coef.png}
+	\caption{Zeitreihen der Parameterwerte}
+	\label{fig:ts_ERGM_coef}
+\end{figure}
+
+Als nächstes schätze ich das Modell aus meiner Vorgängerarbeit von Christian Schmidt und Christoph Jansen \cite{js14}: (Ergebnisse beispielhaft am Jahr 1991)
+\begin{itemize}
+  \item endogene Statistiken: edges + gwodegree(1, fixed=F) + idegree(1) + dsp(0) + esp(0)
+	\item exogene Kantenattribute: edgecov(Alliance) + edgecov(DirectCont)  + edgecov(Polity)
+  \item exogene Knotenattribute: nodeicov(GDP) + nodeocov(GDP) + nodeicov(CINC) + nodeocov(CINC) + nodeicov(Conflict))
+\end{itemize}
+
+Probleme:
+\begin{itemize}
+\item endogene statistiken: Modell mit den Statistiken von Schmidt degeneriert!
+\item exogene Attribute: 
+  \begin{itemize} 
+  \item ERGM kann mit fehlenden Werten nicht umgehen. Wir haben deswegen nach Absprache mit Christian alle fehlenden Werte auf 0 gesetzt.
+  \item Der Datensatz Conflict enthält teilweise mehrere Konflikte pro Jahr und Land. ERGM kann nur einen Wert verwenden. Nach Absprache mit Christian haben wir das Maximum ("schwerster Konflikt") genommen.
+  \end{itemize}
+\end{itemize}
+
+Wir haben nun die exogenen Variablen wie Christian aufgenommen und zusätzlich alle endogenen Statistiken von denen wir wissen, dass sie funktionieren.
+Wir erhalten folgendes Modell:
+\begin{itemize}
+\item endogene Statistiken: edges + mutual + idegree(1) + esp(1) + dsp(1)
+\item Kantenattribute: edgecov(Alliance) + edgecov(DirectCont)  + edgecov(Polity)
+\item Knotenattribute: nodeicov(GDP) + nodeocov(GDP)+ nodeicov(CINC) + nodeocov(CINC) + nodeicov(Conflict))
+\end{itemize}
+\begin{table}[h]
+	\centering
+	\caption{summary of model fit}
+		\begin{tabular}{l|l|l|l}
+		
+		\hline
+		ergm-term 						    & Estimate      & Std.Error   & p-Value 				\\
+		\hline
+    edges                     & -2.026e+00    & 7.044e-02   &    < 1e-04 ***  \\
+    mutual                    &  4.320e+00    & 9.790e-02   &    < 1e-04 ***  \\
+    idegree1                  &  4.906e+00    & 8.307e-01   &    < 1e-04 ***  \\
+    esp1                      & -4.767e-01    & 3.730e-01   &    0.20128      \\
+    dsp1                      & -1.922e-01    & 3.941e-02   &    < 1e-04 ***  \\
+    edgecov.AAlliance[[1]]    & -1.507e-02    & 1.882e-02   &    0.42315      \\
+    edgecov.ADirectCont[[1]]  &  3.943e-01    & 1.379e-01   &    0.00425 **   \\
+    edgecov.APolity[[1]]      & -3.201e-02    & 4.101e-03   &    < 1e-04 ***  \\
+    nodeicov.ext\_gdp          & -2.683e-05    & 4.064e-05   &    0.50912      \\
+    nodeocov.ext\_gdp          & -6.482e-05    & 4.159e-05   &    0.11915      \\
+    nodeicov.ext\_cinc         & -2.677e+00    & 5.948e+00   &    0.65268      \\
+    nodeocov.ext\_cinc         & -1.103e+01    & 5.956e+00   &    0.06406 .    \\
+    nodeicov.ext\_conflict     & -2.008e-03    & 1.976e-02   &    0.91906      \\
+
+		\hline
+						
+		\end{tabular}
+	
+	
+\end{table}
+
+\chapter{Anhang}
+
+
+
+\begin{longtable}{rllrrr}
+
   \hline
- & Reporter\_Name & Partner\_Name & Year & Value & PRIO\_Weapons\_Code \\ 
+ row & Reporter\_Name & Partner\_Name & Year & Value & PRIO\_Weapons\_Code \\ 
   \hline
-328 & Albania & Albania & 2005 & 3366.00 & 223 \\ 
+  328 & Albania & Albania & 2005 & 3366.00 & 223 \\ 
   346 & Albania & Albania & 2006 & 13355.00 & 223 \\ 
   4143 & Australia & Australia & 2004 & 586143.00 & 210 \\ 
   4161 & Australia & Australia & 2004 & 13241.00 & 223 \\ 
@@ -527,24 +639,28 @@ In Abbildung \ref{fig:reg} zeigt sich ein ähnliches Bild. Die europäischen Reg
   102670 & United Kingdom & United Kingdom & 2011 & 1131532.00 & 227 \\ 
   102699 & United Kingdom & United Kingdom & 2011 & 25154.00 & 417 \\ 
    \hline
-\end{tabular}
-\end{table}
+	\caption{Auflistung der gelöschten Schleifen im Datensatz}
+\end{longtable}
+
  
 
 \bibliographystyle{plain}
 \bibliography{literatur}
-
+\newpage
+\listoffigures
+\newpage
+\listoftables
 
 \chapter*{Eidesstattliche Erklärung}
 
-Wir erklären hiermit, dass wir diese Arbeit ohne fremde Hilfe angefertigt und nur die im Literaturverzeichnis aufgeführten Quellen und Hilfsmittel benutzt haben. Diese Arbeit wurde noch nicht zu anderen prüfungsrelevanten Zwecken vorgelegt.\\[1.5cm]
+Ich erklären hiermit, dass ich diese Arbeit ohne fremde Hilfe angefertigt und nur die im Literaturverzeichnis aufgeführten Quellen und Hilfsmittel benutzt habe. Diese Arbeit wurde noch nicht zu anderen prüfungsrelevanten Zwecken vorgelegt.\\[1.5cm]
 
 \noindent ................................................
 \qquad\qquad\qquad\qquad\qquad
 ......................................................\\[0.5mm]
 \textit{Ort, Datum}
 \qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad
-\textit{Roman Dieterle, Felix Loewe}
+\textit{Felix Loewe}
 
 
 

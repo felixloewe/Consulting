@@ -5,6 +5,13 @@ Vincent Arel-Bundock.
 \newblock {\em countrycode: Convert Country Names and Country Codes}, 2014.
 \newblock R package version 0.18.
 
+\bibitem{js14}
+Christoph Jansen and Christian Schmid.
+\newblock {Eine statistische Analyse des Netzwerks des internationalen
+  Waffenhandels von 1950-2012}.
+\newblock Fakultät für Mathematik, Informatik und Statistik der
+  Ludwig-Maximilians-Universität München, 2014.
+
 \bibitem{kc14}
 Eric~D Kolaczyk and Gabor Csardi.
 \newblock {\em Statistical Analysis of Network Data with R}.
