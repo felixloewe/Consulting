@@ -10,4 +10,5 @@
 \contentsline {section}{\numberline {2.3}Top-Akteure}{9}{section.2.3}
 \contentsline {section}{\numberline {2.4}Netzwerkma\IeC {\ss }zahlen}{11}{section.2.4}
 \contentsline {section}{\numberline {2.5}Visualisierungen}{12}{section.2.5}
-\contentsline {chapter}{Literaturverzeichnis}{18}{chapter*.13}
+\contentsline {section}{\numberline {2.6}Anhang}{12}{section.2.6}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{19}{chapter*.14}

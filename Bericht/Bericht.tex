@@ -11,7 +11,6 @@
 
 \usepackage[font=small,labelfont=bf]{caption} %caption, caption-font
 \usepackage{subcaption}
-
 \usepackage{amsmath, amsthm, amssymb, amsbsy}
 \usepackage{mathtools}
 \usepackage{color}
@@ -165,10 +164,10 @@ Werden Schleifen $\{i,i\}$ erlaubt, sind mehr Kanten möglich. Dann wird der Zä
 
 Die Datengrundlage für das Kleinwaffenhandelsnetzwerk ist die \emph{NISAT} (Norwegian Initiative on Small Arms Transfers) Datenbank. Das Peace Research Institute Oslo (PRIO) ist der Auftraggeber dieser Datenbank. Die Datenbank enthält Daten über den legalen und illegalen Handel von Kleinwaffen. Der abgedeckte Zeitraum beträgt die Jahre 1992 bis 2011. Berichtet wird hierin von insgesamt 239 Ländern und 109522 Waffentransaktionen.
 
-Es folgt eine genauere Beschreibung der Datenbank. Die Daten liegen in Form von einer gerichteten Kanten-Liste vor. Das bedeutet jede zeile im Datensatz entspricht einem Handel zwischen einen exportierdenen und einem importierenden Land. Zusätzliche Attribute sind die Correlates of War Codes der jeweiligen Länder, der Monetäre Wert des Handels in US Dollar, der Waffentyp der gehandelt wurde, die Datenquelle die den Handel berichtet sowie das Jahr in dem der Handel stattgefunden hat.
-Bei der Netzwerkanalyse dieser Daten erkennt man schnell folgende Probleme:
+Es folgt eine genauere Beschreibung der Datenbank. Die Daten liegen in Form von einer gerichteten Kanten-Liste vor. Das bedeutet jede Zeile im Datensatz entspricht einem Handel zwischen einem exportierenden und einem importierenden Land. Zusätzliche Attribute sind die Correlates of War Codes der jeweiligen Länder, der monetäre Wert des Handels in US Dollar, der gehandelte Waffentyp , die berichtende Datenquelle sowie das Jahr in dem der Handel stattgefunden hat.
+Bei der Analyse dieser Daten erkennt man schnell folgende Probleme:
 Da nach Waffentypen unterschieden wird, existieren in den einzelnen Jahren multiple Kanten. Das bedeutet zwischen 2 Ländern werden im gleichen Jahr mehrere Handel in der gleichen Richtung aufgeführt. Diese wurden für die weitere Analyse zusammengefasst indem der Wert der Lieferungen schlicht addiert wurde.
-Der Datensatz enthält Schleifen. Das heißt manche Länder liefern Waffen an sich selbst. Da es hierfür keine sinnvolle inhaltliche Erklärung gibt wurden die entsprechenden Beobachtungen gelöscht.
+Der Datensatz enthält Schleifen. Das heißt manche Länder liefern Waffen an sich selbst. Da es hierfür keine sinnvolle inhaltliche Erklärung gibt wurden die entsprechenden Beobachtungen gelöscht. Eine Liste der gelöschten Kanten befindet sich im Anhang.
 
 \chapter{Deskriptive Analyse}
 
@@ -369,6 +368,167 @@ In Abbildung \ref{fig:cont} erkennt man, dass Europa durchgängig mit dem Größ
 
 In Abbildung \ref{fig:reg} zeigt sich ein ähnliches Bild. Die europäischen Regionen und Nordamerika scheinen die aktivsten Handelspartner zu sein, während immer wieder auch zwischen eher weniger aktiven Regionen große Geldsummen fließen und hier auch wieder kein kostantes Muster zu erkennen ist.  
 
+\section{Anhang}
+\begin{table}[ht]
+\centering
+\begin{tabular}{rllrrr}
+  \hline
+ & Reporter\_Name & Partner\_Name & Year & Value & PRIO\_Weapons\_Code \\ 
+  \hline
+328 & Albania & Albania & 2005 & 3366.00 & 223 \\ 
+  346 & Albania & Albania & 2006 & 13355.00 & 223 \\ 
+  4143 & Australia & Australia & 2004 & 586143.00 & 210 \\ 
+  4161 & Australia & Australia & 2004 & 13241.00 & 223 \\ 
+  4183 & Australia & Australia & 2004 & 721.00 & 227 \\ 
+  4211 & Australia & Australia & 2004 & 4693884.00 & 260 \\ 
+  4224 & Australia & Australia & 2004 & 48697.00 & 417 \\ 
+  4257 & Australia & Australia & 2005 & 15054.00 & 210 \\ 
+  4318 & Australia & Australia & 2005 & 3180066.00 & 260 \\ 
+  4329 & Australia & Australia & 2005 & 639.00 & 417 \\ 
+  4362 & Australia & Australia & 2006 & 42325.00 & 210 \\ 
+  4396 & Australia & Australia & 2006 & 31458.00 & 227 \\ 
+  4422 & Australia & Australia & 2006 & 2473903.00 & 260 \\ 
+  4435 & Australia & Australia & 2006 & 682288.00 & 417 \\ 
+  4466 & Australia & Australia & 2007 & 1431868.00 & 210 \\ 
+  4528 & Australia & Australia & 2007 & 4132772.00 & 260 \\ 
+  4579 & Australia & Australia & 2008 & 869812.00 & 210 \\ 
+  4641 & Australia & Australia & 2008 & 2870285.00 & 260 \\ 
+  4653 & Australia & Australia & 2008 & 6652.00 & 417 \\ 
+  4692 & Australia & Australia & 2009 & 37710.00 & 210 \\ 
+  4731 & Australia & Australia & 2009 & 8857.00 & 227 \\ 
+  4758 & Australia & Australia & 2009 & 857590.00 & 260 \\ 
+  4804 & Australia & Australia & 2010 & 19084.00 & 210 \\ 
+  4839 & Australia & Australia & 2010 & 13162.00 & 227 \\ 
+  4866 & Australia & Australia & 2010 & 580277.00 & 260 \\ 
+  4876 & Australia & Australia & 2010 & 1836.00 & 417 \\ 
+  4915 & Australia & Australia & 2011 & 283630.00 & 210 \\ 
+  4955 & Australia & Australia & 2011 & 33770.00 & 227 \\ 
+  4985 & Australia & Australia & 2011 & 4529308.00 & 260 \\ 
+  9934 & Belgium & Belgium & 2010 & 1056327.00 & 223 \\ 
+  9951 & Belgium & Belgium & 2010 & 27087.00 & 227 \\ 
+  11189 & Bosnia-Herzegovina & Bosnia-Herzegovina & 2003 & 94087.00 & 417 \\ 
+  13542 & Bulgaria & Bulgaria & 2011 & 472000.00 & 200 \\ 
+  15412 & Canada & Canada & 2002 & 2397.00 & 227 \\ 
+  15434 & Canada & Canada & 2002 & 823.00 & 260 \\ 
+  15455 & Canada & Canada & 2002 & 91030.00 & 417 \\ 
+  15567 & Canada & Canada & 2003 & 13484.00 & 260 \\ 
+  15586 & Canada & Canada & 2003 & 194230.00 & 417 \\ 
+  15626 & Canada & Canada & 2004 & 11122.00 & 210 \\ 
+  15698 & Canada & Canada & 2004 & 7179.00 & 260 \\ 
+  15721 & Canada & Canada & 2004 & 221463.00 & 417 \\ 
+  15848 & Canada & Canada & 2005 & 32756.00 & 417 \\ 
+  15937 & Canada & Canada & 2006 & 7181.00 & 227 \\ 
+  15967 & Canada & Canada & 2006 & 1616.00 & 260 \\ 
+  15997 & Canada & Canada & 2006 & 355640.00 & 417 \\ 
+  16085 & Canada & Canada & 2007 & 13454.00 & 227 \\ 
+  16146 & Canada & Canada & 2007 & 208218.00 & 417 \\ 
+  16178 & Canada & Canada & 2007 & 12.00 & 418 \\ 
+  16201 & Canada & Canada & 2008 & 1000.00 & 210 \\ 
+  16242 & Canada & Canada & 2008 & 60664.00 & 227 \\ 
+  16268 & Canada & Canada & 2008 & 250.00 & 260 \\ 
+  16292 & Canada & Canada & 2008 & 35525.00 & 417 \\ 
+  16383 & Canada & Canada & 2009 & 23435.00 & 227 \\ 
+  16408 & Canada & Canada & 2009 & 45762.00 & 260 \\ 
+  16428 & Canada & Canada & 2009 & 24582.00 & 417 \\ 
+  16509 & Canada & Canada & 2010 & 34898.00 & 223 \\ 
+  16532 & Canada & Canada & 2010 & 78136.00 & 227 \\ 
+  16566 & Canada & Canada & 2010 & 9716.00 & 260 \\ 
+  16593 & Canada & Canada & 2010 & 938822.00 & 417 \\ 
+  16691 & Canada & Canada & 2011 & 19734.00 & 227 \\ 
+  16722 & Canada & Canada & 2011 & 6694.00 & 260 \\ 
+  16745 & Canada & Canada & 2011 & 11456.00 & 417 \\ 
+  16780 & Canada & Canada & 2011 & 10.00 & 418 \\ 
+  21855 & Cyprus & Cyprus & 2001 & 157920.00 & 418 \\ 
+  21957 & Cyprus & Cyprus & 2003 & 606.00 & 418 \\ 
+  24043 & Czech Republic & Czech Republic & 2004 & 133060.00 & 200 \\ 
+  28760 & Estonia & Estonia & 2007 & 5085.00 & 417 \\ 
+  32299 & France & France & 2000 & 43412.00 & 223 \\ 
+  32350 & France & France & 2000 & 361290.00 & 417 \\ 
+  32375 & France & France & 2000 & 619970.00 & 418 \\ 
+  32398 & France & France & 2001 & 89525.00 & 223 \\ 
+  32424 & France & France & 2001 & 6714.00 & 227 \\ 
+  32453 & France & France & 2001 & 82811.00 & 417 \\ 
+  32473 & France & France & 2001 & 125337.00 & 418 \\ 
+  32501 & France & France & 2002 & 16244.00 & 223 \\ 
+  32525 & France & France & 2002 & 11601.00 & 227 \\ 
+  32557 & France & France & 2002 & 11601.00 & 417 \\ 
+  32577 & France & France & 2002 & 475712.00 & 418 \\ 
+  32606 & France & France & 2003 & 2723.00 & 223 \\ 
+  32632 & France & France & 2003 & 2723.00 & 227 \\ 
+  32662 & France & France & 2003 & 1078653.00 & 417 \\ 
+  32683 & France & France & 2003 & 1070481.00 & 418 \\ 
+  32703 & France & France & 2004 & 990720.00 & 223 \\ 
+  32728 & France & France & 2004 & 1937735.00 & 227 \\ 
+  32759 & France & France & 2004 & 748867.00 & 417 \\ 
+  32784 & France & France & 2004 & 1264627.00 & 418 \\ 
+  32898 & France & France & 2006 & 79966.00 & 223 \\ 
+  32925 & France & France & 2006 & 82722.00 & 227 \\ 
+  32957 & France & France & 2006 & 24817.00 & 417 \\ 
+  33016 & France & France & 2007 & 55657.00 & 223 \\ 
+  33039 & France & France & 2007 & 131821.00 & 227 \\ 
+  33080 & France & France & 2007 & 90809.00 & 417 \\ 
+  33106 & France & France & 2007 & 29292.00 & 418 \\ 
+  33130 & France & France & 2008 & 15382.00 & 223 \\ 
+  33154 & France & France & 2008 & 153832.00 & 227 \\ 
+  33183 & France & France & 2008 & 21535.00 & 417 \\ 
+  33208 & France & France & 2008 & 24613.00 & 418 \\ 
+  33237 & France & France & 2009 & 8619.00 & 223 \\ 
+  33261 & France & France & 2009 & 20111.00 & 227 \\ 
+  33293 & France & France & 2009 & 31603.00 & 417 \\ 
+  33320 & France & France & 2009 & 301662.00 & 418 \\ 
+  33406 & France & France & 2010 & 8121.00 & 417 \\ 
+  33425 & France & France & 2010 & 2706.00 & 418 \\ 
+  33472 & France & France & 2011 & 2782.00 & 227 \\ 
+  33501 & France & France & 2011 & 11132.00 & 417 \\ 
+  60737 & Malaysia & Malaysia & 2010 & 67114.00 & 418 \\ 
+  68357 & New Zealand & New Zealand & 2008 & 5021.00 & 223 \\ 
+  68378 & New Zealand & New Zealand & 2008 & 4422.00 & 227 \\ 
+  68708 & New Zealand & New Zealand & 2011 & 648.00 & 227 \\ 
+  84157 & Slovakia & Slovakia & 2002 & 115.00 & 260 \\ 
+  84174 & Slovakia & Slovakia & 2002 & 28790.00 & 417 \\ 
+  84230 & Slovakia & Slovakia & 2003 & 11114.00 & 260 \\ 
+  84249 & Slovakia & Slovakia & 2003 & 37417.00 & 417 \\ 
+  95974 & Thailand & Thailand & 2007 & 15078.00 & 210 \\ 
+  96004 & Thailand & Thailand & 2007 & 320.00 & 227 \\ 
+  96375 & Thailand & Thailand & 2011 & 11096.00 & 227 \\ 
+  101434 & United Kingdom & United Kingdom & 2000 & 2663869.00 & 223 \\ 
+  101462 & United Kingdom & United Kingdom & 2000 & 1450872.00 & 227 \\ 
+  101507 & United Kingdom & United Kingdom & 2000 & 216810.00 & 418 \\ 
+  101542 & United Kingdom & United Kingdom & 2001 & 3715829.00 & 223 \\ 
+  101569 & United Kingdom & United Kingdom & 2001 & 503356.00 & 227 \\ 
+  101646 & United Kingdom & United Kingdom & 2002 & 1602392.00 & 223 \\ 
+  101671 & United Kingdom & United Kingdom & 2002 & 1051572.00 & 227 \\ 
+  101702 & United Kingdom & United Kingdom & 2002 & 177831.00 & 417 \\ 
+  101718 & United Kingdom & United Kingdom & 2002 & 374054.00 & 418 \\ 
+  101752 & United Kingdom & United Kingdom & 2003 & 6230061.00 & 223 \\ 
+  101782 & United Kingdom & United Kingdom & 2003 & 1625580.00 & 227 \\ 
+  101811 & United Kingdom & United Kingdom & 2003 & 15105.00 & 417 \\ 
+  101859 & United Kingdom & United Kingdom & 2004 & 8316031.00 & 223 \\ 
+  101883 & United Kingdom & United Kingdom & 2004 & 2539407.00 & 227 \\ 
+  101932 & United Kingdom & United Kingdom & 2004 & 6603.00 & 418 \\ 
+  101967 & United Kingdom & United Kingdom & 2005 & 7487298.00 & 223 \\ 
+  101996 & United Kingdom & United Kingdom & 2005 & 2504286.00 & 227 \\ 
+  102027 & United Kingdom & United Kingdom & 2005 & 53655.00 & 417 \\ 
+  102045 & United Kingdom & United Kingdom & 2005 & 6252.00 & 418 \\ 
+  102085 & United Kingdom & United Kingdom & 2006 & 7520540.00 & 223 \\ 
+  102115 & United Kingdom & United Kingdom & 2006 & 3570588.00 & 227 \\ 
+  102148 & United Kingdom & United Kingdom & 2006 & 49884.00 & 417 \\ 
+  102193 & United Kingdom & United Kingdom & 2007 & 7235351.00 & 223 \\ 
+  102222 & United Kingdom & United Kingdom & 2007 & 3207893.00 & 227 \\ 
+  102255 & United Kingdom & United Kingdom & 2007 & 22582.00 & 417 \\ 
+  102305 & United Kingdom & United Kingdom & 2008 & 3432365.00 & 223 \\ 
+  102333 & United Kingdom & United Kingdom & 2008 & 983561.00 & 227 \\ 
+  102417 & United Kingdom & United Kingdom & 2009 & 3660097.00 & 223 \\ 
+  102442 & United Kingdom & United Kingdom & 2009 & 1124347.00 & 227 \\ 
+  102483 & United Kingdom & United Kingdom & 2009 & 22303.00 & 417 \\ 
+  102540 & United Kingdom & United Kingdom & 2010 & 4121609.00 & 223 \\ 
+  102564 & United Kingdom & United Kingdom & 2010 & 732804.00 & 227 \\ 
+  102647 & United Kingdom & United Kingdom & 2011 & 4910676.00 & 223 \\ 
+  102670 & United Kingdom & United Kingdom & 2011 & 1131532.00 & 227 \\ 
+  102699 & United Kingdom & United Kingdom & 2011 & 25154.00 & 417 \\ 
+   \hline
+\end{tabular}
+\end{table}
  
 
 \bibliographystyle{plain}
