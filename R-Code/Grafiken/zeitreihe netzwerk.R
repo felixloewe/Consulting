@@ -1,7 +1,7 @@
 windows(height = 36, width = 24)
-par(mfrow = c(3,2), oma = c(0,0,0,0))
+par(mfrow = c(2,1), oma = c(0,0,0,0))
 
-years<- c(1992, 1996, 2000, 2004, 2008, 2011)
+years<- c(1992, 2011)
 
 
 for(year in years){

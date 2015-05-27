@@ -12,9 +12,15 @@ Christoph Jansen and Christian Schmid.
 \newblock Fakultät für Mathematik, Informatik und Statistik der
   Ludwig-Maximilians-Universität München, 2014.
 
-\bibitem{kc14}
-Eric~D Kolaczyk and Gabor Csardi.
-\newblock {\em Statistical Analysis of Network Data with R}.
-\newblock Springer New York, 2014.
+\bibitem{kol09}
+Eric~D. Kolaczyk.
+\newblock {\em Statistical Analysis of Network Data}.
+\newblock Springer New York, 2009.
+
+\bibitem{lkr12}
+Dean Lusher, Johan Koskinen, and Garry Robins.
+\newblock {\em Exponential random graph models for social networks: Theory,
+  methods, and applications}, chapter 13.2.
+\newblock Cambridge University Press, 2012.
 
 \end{thebibliography}

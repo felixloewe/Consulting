@@ -123,39 +123,57 @@ Die Arbeit ist wie folgt aufgebaut. Im ersten Kapitel erfolgt eine kurze Wiederh
 
 
 
-\section{Wiederholung der Graphentheorie}
+\section{Zusammenfassung der Graphentheorie}
 
-Um Netzwerkdaten statistisch analysieren zu können, muss die Abhängigkeitsstruktur der Daten adäquat modelliert werden. Eine grundlegende mathematische Theorie, die verwendet wird, um \emph{relationale Daten} zu beschreiben, ist die Graphentheorie. Die Notation der graphentheoretischen Begriffe orientiert sich an \cite{kc14}.
+Um Netzwerkdaten statistisch analysieren zu können, muss die Abhängigkeitsstruktur der Daten adäquat modelliert werden. Eine grundlegende mathematische Theorie, die verwendet wird, um \emph{relationale Daten} zu beschreiben, ist die Graphentheorie. Im Rahmen dieses Kapitels wird nur auf die wichtigsten Aspekte der Graphentheorie eingegangen. Es handelt sich im Wesentlichen um eine Zusammenfassung der Kaptitels 2.1 und 4.2 aus \cite{kol09}.
 
 \subsection{Graph}
 
-Ein Graph $G = (V,E)$ ist die mathematische Beschreibung eines Netzwerkes. 
+Ein \emph{Graph} $G = (V,E)$ ist die mathematische Beschreibung eines Netzwerkes. 
 
-Er besteht aus einer Knotenmenge $V$ und einer Kantenmenge $E$. Ein Knoten $v$ repräsentiert einen Akteur des Netzwerkes. Eine Kante $e$ verbindet zwei Akteure und kennzeichnet eine Beziehung zwischen ihnen.
+Er besteht aus einer Knotenmenge $V$ und einer Kantenmenge $E$. Ein \emph{Knoten} $v$ repräsentiert einen Akteur des Netzwerkes. \emph{Eine Kante} $e$ verbindet zwei Akteure und kennzeichnet eine Beziehung zwischen ihnen.
 
 Die Anzahl der Knoten $N_V = |V|$ wird üblicherweise als kleiner unendlich vorausgesetzt. Häufig benennt man die Knoten eines Netzwerkes einfach nach ihrem ihren Index $i = 1, ..., N_V$
 
 Eine Kante ist ein Element der Menge $E$. Eine Kante $\{i,j\}$ beschreibt die Verbindung zwischen Knoten $i$ und $j$. 
 
-Man unterschiedet zwischen gerichteten und ungerichteten Graphen. Ein ungerichteter Graph setzt eine symmetrische Beziehung zwischen den Akteuren voraus. Akteur $i$ steht also zu Akteur $j$ in der gleichen Beziehung wie $j$ zu $i$ (z.B. Arbeitskollege). Bei einem gerichteten Graphen hingegen ist die Richtung der Beziehung entscheidend. Dies ist in unserem Datensatz der Fall. Wir unterschieden zwischen Exporteur und Importeur eines Handels. Die Kante $\{i,j\}$ ist hier also von der Kante $\{j,i\}$ zu unterscheiden.
+Man unterschiedet zwischen \emph{gerichteten} und \emph{ungerichteten} Graphen. Ein ungerichteter Graph setzt eine symmetrische Beziehung zwischen den Akteuren voraus. Akteur $i$ steht also zu Akteur $j$ in der gleichen Beziehung wie $j$ zu $i$ (z.B. Arbeitskollege). Bei einem gerichteten Graphen hingegen ist die Richtung der Beziehung entscheidend. Dies ist in unserem Datensatz der Fall. Wir unterschieden zwischen Exporteur und Importeur eines Handels. Die Kante $\{i,j\}$ ist hier also von der Kante $\{j,i\}$ zu unterscheiden. Einen gerichteten Graphen nennt man auch \emph{Digraph}.
 
-Per Definition enthält ein Graph weder Schleifen noch multiple Kanten. Von einer Schleife spricht man, wenn eine Kante $\{i,j\}$den Gleichen Anfangs- und Endpunkt besitzt ($i = j$). Von einer multiplen Kante spricht man, falls zwischen zwei Knoten mehrere Verbindungen bestehen. Enthält ein Netzwerk solche Eigenschaften spricht man von einem Multigraphen ansonsten von einem einfachen Graphen.
+Per Definition enthält ein Graph weder Schleifen noch multiple Kanten. Von einer \emph{Schleife} spricht man, wenn eine Kante $\{i,j\}$den Gleichen Anfangs- und Endpunkt besitzt ($i = j$). Von einer \emph{multiplen Kante} spricht man, falls zwischen zwei Knoten mehrere Verbindungen bestehen. Enthält ein Netzwerk solche Eigenschaften spricht man von einem \emph{Multigraphen} ansonsten von einem \emph{einfachen Graphen}.
 
-Betrachtet man die Anzahl der möglichen Kanten eines Graphen, die später als Benchmark dafür auftaucht, wie dicht ein Graph sein kann, so wird ersichtlich, dass diese Anzahl für einen einfachen ungerichteten Graphen kleiner ist als die Anzahl der möglichen Kanten einer komplizierteren Graphenart. Für einen einfachen ungerichteten Graphen ist sie gegeben durch $V_H(V_H-1)/2$.
+Betrachtet man die Anzahl der möglichen Kanten eines Graphen, die später als Benchmark dafür auftaucht, wie dicht ein Graph sein kann, so wird ersichtlich, dass diese Anzahl für einen einfachen ungerichteten Graphen kleiner ist als die Anzahl der möglichen Kanten einer komplizierteren Graphenart. Für einen einfachen ungerichteten Graphen ist sie gegeben durch $V_H(V_H-1)/2$. Ein gerichteter Graph kann logischerweise maximal die doppelte Anzahl an Kanten enthalten.
 
-Ein gerichteter Graph kann logischerweise maximal die doppelte Anzahl an Kanten enthalten.
+Notwendigerweise gibt es einige Begriffe um über die Konnektivität von Graphen zu reden. Am gebräuchlichsten ist das Prinzip der \emph{Nachbarschaft}. Zwei Knoten $ i,j \in V$ gelten als benachbart wenn sie von einer Kante $\{i,j\} \in E$ verbunden werden. Zwei Kanten wiederum gelten als benachbart, wenn sie durch einen gemeinsamen Knoten in $V$ verbunden werden.
 
-\subsection{Adjazenzmatrix}
+Ein sogenannter \emph{Weg} auf einem Graphen von $v_0$ nach $v_l$ bezeichnet die alternierende Sequenz $\{v_0, e_1, v_1, e_2, ..., v_{l-1}, e_l, v_l\}$. $l$ bezeichnet hierbei die Länge des Weges. Weiter beschreibt ein \emph{Pfad} einen Weg ohne wiederholte Knoten oder Kanten. Als \emph{Distanz} zwischen zwei Knoten eines Graphen definiert man die Länge des kürzesten Pfades der sie verbindet. Die Länge der längsten Distanz innerhalb eines Graphen nennt man \emph{Durchmesser} eines Graphen.
 
-+Ein Graph ist vollständig bestimmt durch seine Adjazenzmatrix $A_{ij} \in |V| \times |V|$, wobei $a_{ij} = 1$ falls zwischen Knoten $i$ und Knoten $j$ eine Kante besteht und Null sonst.
+\subsection{Degree-Verteilung}
+Ein weiterer Begriff ist der des \emph{Degree} eines Knoten $v$, $d_v$, definiert als die Anzahl der Kanten, die den Knoten $v$ enthalten. Die \emph{Degree-Sequenz} eines Graphen $G$ ist die Sequenz die entsteht, wenn man alle Knoten-Degrees in aufsteigender Reihenfolge sortiert. Nun definiert man $f_d$ als den Anteil der Knoten $v \in V$ mit Degree $d_v = d$. Die Reihe $\{f_d\}_{d \geq 0}$ heißt \emph{Degree-Verteilung} von $G$. 
 
-+Bei gerichteten Graphen besteht ein Unterschied zwischen der Kante $(i,j)$ und der Kante $(j,i)$. Die Adjazenzmatrix ist dann nicht symmetrisch.
+Bei einem gerichteten Graphen unterscheidet man zwischen \emph{In-Degree} ($d_v^{in}$) und \emph{Out-Degree} ($d_v^{out}$) und zählt die Kanten die zu einem Knoten hin, beziehungsweise von ihm weg laufen. Die oben genannten Begriffe lassen sich hierfür trivial erweitern.
 
+\subsection{Nachbarschaftsmatrix}
+
+Die Struktur eines Graphen ist vollständig bestimmt durch seine binäre und symmetrische\emph{ Nachbarschaftsmatrix} (auch \emph{Adjazenzmatrix}) $A \in |V| \times |V|$, wobei $a_{ij} = 1$ falls zwischen Knoten $i$ und Knoten $j$ eine Kante besteht und Null sonst. Diese Matrix hat einige nützliche Eigenschaften. Zum Beispiel ergibt die Zeilensumme $A_{i,} = \sum_j{A_{ij}}$ den Degree $d_i$ von Knoten $i$.  
+Bei gerichteten Graphen besteht ein Unterschied zwischen der Kante $(i,j)$ und der Kante $(j,i)$. Die Adjazenzmatrix ist hier nicht symmetrisch. Allerdings enthält sie immer noch ähnliche Informationen wie zum Beispiel $A_{i,} = d_i^{out}$ und $A_{,j} = d_j^{in}$
+
+\subsection{Zentralität}
+Viele Fragestellungen der Netzwerkanalyse drehen sich darum welche Akteure auf eine bestimmte Weise besonders wichtig für ihr Netzwerk sind. Maßzahlen der Zentralität sind dafür gedacht um diese Wichtigkeit der Knoten zu quantifizieren und dadurch die Beantwortungen solcher Fragestellungen zu vereinfachen. Das wichtigste Konzept in diesem Zusammenhang, den Degree haben wir bereits kennen gelernt. Zusätzlich beschäftigen führe ich nun kurz die Begriffen Closeness und Betweeness Zentralität ein.
+
+Bei der \emph{Closeness} Zentralität wird ein Knoten als "`zentral"' angesehen, falls er vielen anderen Knoten "`nahe"' ist.
+Man verwendet für dieses Maß die inverse der Summe der Distanz eines Knotens zu allen anderen,
+$$ c_{Cl}(v)=\frac{1}{\sum_{u \in V}{dist(v,u)}}, $$
+wobei $dist(v,u)$ die Distanz zwischen den Knoten $v$ und $u$ bezeichnet. Um eine Vergleichbarkeit mit anderen Graphen und Zentralitätsmaßen herzustellen normalisiert man die Maßzahl in das Intervall $[0,1]$ indem man mit dem Faktor $N_v - 1$ multipliziert.
+
+Ein anderes Konzept basiert auf dem Gedanken, dass die Wichtigkeit eines Knotens darauf beruht, in wie weit sich ein Knoten zwischen anderen Paaren von Knoten befindet. Knoten die auf vielen Pfaden eines Netzwerkes sitzen, werden als wichtig für die Kommunikation innerhalb des Netzwerkes angesehen. 
+Die \emph{Betweeness} Zentralität wird deswegen üblicherweise definiert als
+$$ c_{B}(v)= \sum_{s \neq t \neq v \in V} {\frac{\sigma(s,t|v)}{\sigma(s,t)}}, $$
+wobei $\sigma(s,t|v)$ die Anzahl der kürzesten Pfade zwischen $s$ und $t$ ist, die durch $v$ verlaufen und $\sigma(s,t) = \sum_v{\sigma(s,t|v)}$.
+
+\subsection{Dichte}
+Die \emph{Dichte} eines Netzwerkes ist die Anzahl der Kanten des Netzwerkes, geteilt durch die mögliche Anzahl an Kanten des Netzwerkes. Es ergibt sich der Term $$den(G) = \frac{|E_G|}{|V_G|(|V_G|-1)/2}$$ für die Dichte. Die Dichte liegt zwischen null und eins. Es sei angemerkt, dass die Dichte auch als Skalierung des durchschnittlichen Degrees $\bar{d}(G)$ angesehen werden kann, denn $den(G) = (|V_H| - 1) \bar{d}(G)$.
 
 \section{Datengrundlage}
-
-
-
 Die Datengrundlage für das Kleinwaffenhandelsnetzwerk ist die \emph{NISAT} (Norwegian Initiative on Small Arms Transfers) Datenbank. Das Peace Research Institute Oslo (PRIO) ist der Auftraggeber dieser Datenbank. Die Datenbank enthält Daten über den legalen und illegalen Handel von Kleinwaffen. Der abgedeckte Zeitraum beträgt die Jahre 1992 bis 2011. Berichtet wird hierin von insgesamt 239 Ländern und 109522 Waffentransaktionen.
 
 Es folgt eine genauere Beschreibung der Datenbank. Die Daten liegen in der Form einer gerichteten Kanten-Liste vor. Das bedeutet jede Zeile im Datensatz entspricht einem Handel zwischen einem exportierenden und einem importierenden Land. Zusätzliche Attribute sind die Correlates of War Codes der jeweiligen Länder, der monetäre Wert des Handels in US Dollar, der gehandelte Waffentyp , die berichtende Datenquelle sowie das Jahr in dem der Handel stattgefunden hat.
@@ -166,8 +184,9 @@ Der Datensatz enthält Schleifen. Das heißt manche Länder liefern Waffen an si
 \chapter{Deskriptive Analyse}
 
 \section{Degree Sequenz}
+
 \label{sec:degree}
-\begin{figure}[h]
+\begin{figure}[ht]
 	\centering
 		\includegraphics[width=1.00\textwidth]{Grafiken/ts_degree.png}
 	\caption{Boxplot für In- und Out-Degree in den Jahren 1992-2011}
@@ -183,9 +202,18 @@ Bei den Boxplots zum Out-Degree fallen sofort die eher kleinen Boxen auf. Übere
 
 Die Betrachtung der Degrees legt nahe, dass der Kleinwaffenhandel von einigen wenigen Akteuren dominiert wird, während die große Masse der restlichen Staaten eher einen geringen Einfluss auf die Geschehnisse hat. Diesen wichtigen Akteuren wenden wir uns in Abschnitt \ref{sec:top-akteure} zu.
 
+
+\begin{figure}[ht]
+	\centering
+		\includegraphics[width=1.00\textwidth]{Grafiken/and.png}
+	\caption{Average Neighbor Degree gegen Knoten Degree (Log Skala) für das Jahr 1998}
+	\label{fig:and}
+\end{figure}
+
+Interessante Einblicke in die Zusammenhänge innerhalb eines Netzwerkes lassen sich auch generieren, indem man den Degree eines Knoten mit dem seiner Nachbarn vergleicht. Zwei Netzwerke mit gleicher Degree-Sequenz können dennoch unterschiedliche Strukturen besitzen, falls sich die Knoten der Netzwerke darin unterscheiden mit welchen anderen Knoten sie sich bevorzugt verbinden. Hierzu betrachten wir Abbildung \ref{fig:and}. Dem logarithmierten Knoten Degree auf der X-Achse ist der logarithmierte durchschnittliche Degree der Nachbar auf der Y-Achse gegenübergestellt. Man erkennt, dass sich Knoten mit geringerem Degree tendenziell eher mit Knoten mit hohen Degree Verbinden und anders herum. Zentrale Akteure des Netzwerkes handeln also eher mit kleineren Akteuren des Netzwerkes als mit anderen zentralen Akteuren.
 \section{Handelswerte}
 
-\begin{figure}[h]
+\begin{figure}[ht]
 	\centering
 		\includegraphics[width=1.00\textwidth]{Grafiken/ts_value.png}
 	\caption{Vergleich der 1\% teuersten Waffenkäufe mit den 99\% billigsten}
@@ -254,7 +282,7 @@ Anschließend interessiert, ob sich die Zusammensetzung der Top-Exporteure/Impor
 In der ersten Grafik sind die Handelsvolumen in Millionen US Dollar der fünf Top-Exporteure über den Zeitraum 1992-2011 dargestellt. Die USA ist in fast allen Jahren der Waffenexporteur mit den höchsten monetären Volumen. Sie wird nur in wenigen Jahren von Italien übertroffen. Deutschland, Brasilien und Österreich exportieren in allen Jahren deutlich weniger Waffenwert als die USA. Auffällig ist ein relativ konstanter Verlauf der Zeitreihen im Zeitraum von 19ir2 bis ca 2001, während danach bei allen Ländern ein kräftiger Anstieg der Handelswerte feststellbar ist. Deutschland, Brasilien und vor allem Italien zeigen allerdings ab circa 2008 wiederum einen abfallenden Trend.
 Die zweite und die dritte Grafik aus Abbildung \ref{fig:ts_tops} zeigt die Handelsvolumen der Top-Importeure. Die USA ist hier unangefochten an der Spitze. Sie importiert Kleinwaffen im Wert zwischen circa 400 und 1600 Millionen US Dollar pro Jahr während die restlichen Akteure höchstens Kleinwaffen im Wert von circa 250 Millionen Dollar pro Jahr importieren. Ähnlich wie bei den Exportzeitreihen ist auch hier ein relativ konstanter Verlauf bis circa 2001 zu beobachten während die Ausgaben in den nachfolgenden Jahren kontinuierlich ansteigen. Die USA verringerte ihre Importausgaben ab dem Jahr 2007 jedoch wieder deutlich. 
 
-\begin{figure}[h]
+\begin{figure}[ht]
 	\centering
 		\includegraphics[width=1.00\textwidth]{Grafiken/ts_tops.png}
 	\caption{Zeitreihen der Handelswerte der Top-Exporteure/Importeure}
@@ -264,7 +292,7 @@ Eine andere Methode, um zentrale Akteure des Netzwerkes zu identifizieren ist si
 Abbildung \ref{fig:ts_network} zeigt hierzu das Gesamte Netzwerk in den Jahren 1992 und 2011. Jeder Punkt stellt ein am Waffenhandel beteiligtes Land dar. Ein Pfeil zwischen den beiden Ländern symbolisiert einen Handel. Länder die aus mindestens 30 anderen Ländern Waffen beziehen sind grün, Länder die in mindestens 30 andere Länder Waffen liefern sind blau, und Akteure die beide Bedingungen erfüllen sind rot eingefärbt. Man erkennt, dass die Anzahl der "`großen Akteure"' auf dem Kleinwaffenmarkt über die Zeit deutlich zugenommen hat. Die beiden Tabellen \ref{top_1991} und \ref{top_2011}listen diese für das Jahr 1992 und das Jahr 2011 auf:
 
 
-\begin{figure}[h]
+\begin{figure}[ht]
 	\centering
 		\includegraphics[width=0.90\textwidth]{Grafiken/ts_network.png}
 	\caption{Netzwerk im Wandel der Zeit}
@@ -325,18 +353,18 @@ Abbildung \ref{fig:ts_network} zeigt hierzu das Gesamte Netzwerk in den Jahren 1
 
 
 \section{Netzwerkmaßzahlen}
-
-Als zweites erfolgt eine Darstellung grundlegender deskriptiver Netzwerkmaßzahlen, um das Kleinwaffenhandelsnetzwerk zu beschreiben. Die Maßzahlen werden für jedes Jahr berechnet und als Zeitreihe dargestellt, um die zeitliche Entwicklung des Netzwerkes zu visualisieren. 
-Abbildung \ref{fig:ts_descriptives} zeigt die zeitliche Entwicklung  von Handelswert, Knotenanzahl, Kantenanzahl und Dichte des Netzwerkes. Betrachtet man zuerst die Zeitreihe der Handelswerte so stellt man fest, dass diese in den Jahren 1992 bis 2001 relativ konstant zwischen 1.5 und 2.5 Milliarden US Dollar verweilt, nach 2001 jedoch bis auf ca 4.5 Milliarden im Jahr 2008 ansteigt und anschließend auf diesem Level konstant bleibt.
-Die Zeitreihe der Anzahl der am Waffenhandel beteiligten Nationen steigt recht gleichmäßig zwischen Jahren 1992 und 2011. Lediglich zwischen 1993 und 1994 ist ein außergewöhnlich starker Anstieg von 170 auf 187 zu beobachten. Im Jahr 1997 ist die Anzahl der am Waffenhandel beteiligten Nationen auffallend von 186 auf 176 gesunken. Allerdings stellt sich gleich im Folgejahr wieder die ursprüngliche Anzahl ein. Das Maximum der Zeitreihe liegt mit 212 Nationen im Jahr 2008.
-Auch die Anzahl der Netzwerkkanten die der Anzahl der vollzogenen Waffentransaktionen zeigt einen regelmäßig steigenden Trend von ca 3000 im Jahr 1992 bis ca 7000 im Jahr 2011. Auch hier erkennen wir einen sprunghaften Anstieg zwischen 1993 und 1994 sowie ein einknicken im Jahr 1996.
-Die Dichte des Netzwerkes steigt in den Jahren 1992-1997 rasch von ca 0.04 auf 0.065 und stagniert anschließend auf einem Level zwischen 0.065 und 0.055.
-\begin{figure}[h]
+\begin{figure}[ht]
 	\centering
 		\includegraphics[width=1.00\textwidth]{Grafiken/ts_descriptives.png}
 	\caption{Deskriptive Maßzahlen des Kleinwaffenhandelsnetzwerkes 1992-2011}
 	\label{fig:ts_descriptives}
 \end{figure}
+Als zweites erfolgt eine Darstellung grundlegender deskriptiver Netzwerkmaßzahlen, um das Kleinwaffenhandelsnetzwerk zu beschreiben. Die Maßzahlen werden für jedes Jahr berechnet und als Zeitreihe dargestellt, um die zeitliche Entwicklung des Netzwerkes zu visualisieren. 
+Abbildung \ref{fig:ts_descriptives} zeigt die zeitliche Entwicklung  von Handelswert, Knotenanzahl, Kantenanzahl und Dichte des Netzwerkes. Betrachtet man zuerst die Zeitreihe der Handelswerte so stellt man fest, dass diese in den Jahren 1992 bis 2001 relativ konstant zwischen 1.5 und 2.5 Milliarden US Dollar verweilt, nach 2001 jedoch bis auf ca 4.5 Milliarden im Jahr 2008 ansteigt und anschließend auf diesem Level konstant bleibt.
+Die Zeitreihe der Anzahl der am Waffenhandel beteiligten Nationen steigt recht gleichmäßig zwischen Jahren 1992 und 2011. Lediglich zwischen 1993 und 1994 ist ein außergewöhnlich starker Anstieg von 170 auf 187 zu beobachten. Im Jahr 1997 ist die Anzahl der am Waffenhandel beteiligten Nationen auffallend von 186 auf 176 gesunken. Allerdings stellt sich gleich im Folgejahr wieder die ursprüngliche Anzahl ein. Das Maximum der Zeitreihe liegt mit 212 Nationen im Jahr 2008.
+Auch die Anzahl der Netzwerkkanten die der Anzahl der vollzogenen Waffentransaktionen zeigt einen regelmäßig steigenden Trend von ca 3000 im Jahr 1992 bis ca 7000 im Jahr 2011. Auch hier erkennen wir einen sprunghaften Anstieg zwischen 1993 und 1994 sowie ein einknicken im Jahr 1996.
+Die Dichte des Netzwerkes steigt in den Jahren 1992-1997 rasch von ca 0.04 auf 0.065 und stagniert anschließend auf einem Level zwischen 0.065 und 0.055.
+
 %Die Dichte eines Netzwerkes ist die Anzahl der Kanten des Netzwerkes, geteilt durch die mögliche Anzahl an Kanten des Netzwerkes. Das Kleinwaffenhandelsnetzwerk $G_{NISAT}$ ist ein gerichteter Multigraph mit Schleifen. Da für Multigraphen keine Dichte definiert ist, wird der Graph mit dem Befehl \ttt{simplify(G_Nisat)} auf einen einfachen Graphen reduziert. Die Schleifen im Datensatz werden in der Berechnung der Dichte entfernt. Es ergibt sich der Term $den(G_{NISAT}) = \frac{E_V}{N_H(N_H-1)/2}$ für die Dichte.
 
 \newpage
@@ -344,7 +372,7 @@ Die Dichte des Netzwerkes steigt in den Jahren 1992-1997 rasch von ca 0.04 auf 0
 
 In diesem Abschnitt wird versucht durch verschiedene Visualisierungen des Netzwerkes einen Überblick über mögliche Strukturen und Zusammenhänge des Kleinwaffenhandels zu erhalten. Da das Netzwerk recht groß ist erscheint es ratsam, die Länder in Gruppen aufzuteilen. Hierdurch erreicht man eine bessere Übersichtlichkeit der Grafiken. Dies geschieht mit Hilfe des R-Pakets \emph{countrycode} \cite{countrycode}. Mit Hilfe der im Datensatz gegeben Correlates of War Country Codes und Zuordnungen der Vereinten Nationen weist dieses Paket jedem Land einen Kontinent und eine Region zu. In den beiden Grafiken \ref{fig:cont} und \ref{fig:reg} ist die Größe der Knoten proportional zum jeweiligen Degree (In-Degree + Out-Degree) gewählt. Die Breite der Kanten wiederum ist proportional zum monetären Wert der Handelsströme zwischen zwei Kontinenten beziehungsweise Regionen gewählt. Die Positionierung der Knoten wurde zur besseren Vergleichbarkeit der Jahre untereinander fixiert.
 
-\begin{figure}[!h]
+\begin{figure}[ht]
 \centering
 \animategraphics[scale=0.9, controls]{1}{Grafiken/Cont_Ani/cont}{1}{20}
 \caption{Handelsströme zwischen den Kontinenten von 1992-2011}
@@ -353,7 +381,7 @@ In diesem Abschnitt wird versucht durch verschiedene Visualisierungen des Netzwe
 
 In Abbildung \ref{fig:cont} erkennt man, dass Europa durchgängig mit dem größten Kreis markiert ist, also an mehr Handelsaktionen als die anderen Kontinente beteiligt ist. Amerika und Asien folgen auf den nächsten beiden Plätzen. Die Dicke der Kanten und damit der Geldfluss zwischen den Kontinenten variiert stark zwischen den Jahren. Hier ist kein gleichbleibendes Muster zu erkennen.
 
-\begin{figure}[!h]
+\begin{figure}[ht]
 \centering
 \animategraphics[scale=0.9, controls]{1}{Grafiken/Reg_Ani/reg}{1}{20}
 \caption{Handelsströme zwischen den Regionen von 1992-2011}
@@ -376,7 +404,7 @@ Es stehen folgende zusätzliche Daten zu Verfügung:
 \end{itemize}
 \section{endogene Statistiken}
 \section{geschätzte Modelle}
-Als erster Versuch habe ich ein Modell gefitten, dass in \ref{lkr12} als Basismodell vorgeschlagen wird. Dieses Modell hat degeneriert. Deswegen habe ich versucht die Statistiken die für das Degenerieren verantwortlich sind zu finden, indem ich jede Statistik in einem seperaten Modell einzeln geschätzt und die Performance via mcmc.diagnostics überprüft habe (Tabelle \ref{tab:ergmrobins}.
+Als erster Versuch habe ich ein Modell gefitten, dass in \cite{lkr12} als Basismodell vorgeschlagen wird. Dieses Modell hat degeneriert. Deswegen habe ich versucht die Statistiken die für das Degenerieren verantwortlich sind zu finden, indem ich jede Statistik in einem seperaten Modell einzeln geschätzt und die Performance via mcmc.diagnostics überprüft habe (Tabelle \ref{tab:ergmrobins}.
 
 
 \begin{table}[h]
@@ -418,7 +446,7 @@ Als Ersatz für die Statistiken deren Modell nicht konvergiert ist  habe ich die
 Fasst man danach die Statistiken in ein Modell zusammen, so führt das zu extrem langer Rechenzeit. Deswegen schätze ich die Parameter der Statistiken wiederum in einzelnen Modellen der Form formular = (edge + ERGM TERM). Dies geschieht für alle im Datensatz vorhandenen Modelle und man erhält folgende Zeitreihen (Abbildung \ref{fig:ts_ERGM_coef}):
 
 
-\begin{figure}[h]
+\begin{figure}[ht]
 	\centering
 		\includegraphics[width=1.00\textwidth]{Grafiken/ts_ERGM_coef.png}
 	\caption{Zeitreihen der Parameterwerte}
