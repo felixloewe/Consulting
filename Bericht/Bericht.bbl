@@ -1,9 +1,20 @@
 \begin{thebibliography}{1}
 
+\bibitem{GDP}
+The maddison-project , 2013.
+\newblock \url{http://www.ggdc.net/maddison/maddison-project/home.htm}.
+\newblock Version 4.1.
+
 \bibitem{countrycode}
 Vincent Arel-Bundock.
 \newblock {\em countrycode: Convert Country Names and Country Codes}, 2014.
 \newblock R package version 0.18.
+
+\bibitem{alliance}
+Douglas~M. Gibler.
+\newblock International military alliances , 1648-2008.
+\newblock CQ Press.
+\newblock Version 4.1.
 
 \bibitem{js14}
 Christoph Jansen and Christian Schmid.
@@ -22,5 +33,23 @@ Dean Lusher, Johan Koskinen, and Garry Robins.
 \newblock {\em Exponential random graph models for social networks: Theory,
   methods, and applications}, chapter 13.2.
 \newblock Cambridge University Press, 2012.
+
+\bibitem{polity}
+Monty~G. Marshall.
+\newblock International military alliances , 1648-2008.
+\newblock Polity IV Project, Center for Systematic Peace.
+\newblock Version 4.1.
+
+\bibitem{conflict}
+Monty~G. Marshall.
+\newblock Major episodes of political violance , 1946-20013.
+\newblock Center for Systematic Peace.
+\newblock Version 4.1.
+
+\bibitem{CINC}
+J~David Singer.
+\newblock Reconstructing the correlates of war dataset on material capabilities
+  of states, 1816--1985.
+\newblock {\em International Interactions}, 14(2):115--132, 1988.
 
 \end{thebibliography}

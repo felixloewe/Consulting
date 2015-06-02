@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.13)  27 MAY 2015 11:15
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.13)  2 JUN 2015 15:09
 entering extended mode
 **Bericht.tex
 (C:\Users\s10370952\Documents\Consulting\Bericht\Bericht.tex
@@ -910,20 +910,20 @@ Kapitel 1.
 
 ] [5] [6] [7]
 Kapitel 2.
-<Grafiken/ts_degree.png, id=163, 1156.32pt x 770.88pt>
+<Grafiken/ts_degree.png, id=193, 1156.32pt x 770.88pt>
 File: Grafiken/ts_degree.png Graphic file (type png)
  <use Grafiken/ts_degree.png>
 Package pdftex.def Info: Grafiken/ts_degree.png used on input line 191.
 (pdftex.def)             Requested size: 421.1008pt x 280.7278pt.
  [8
 
- <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/ts_degree.png>] <Grafiken/and.png, id=174, 578.16pt x 578.16p
+ <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/ts_degree.png>] <Grafiken/and.png, id=204, 578.16pt x 578.16p
 t>
 File: Grafiken/and.png Graphic file (type png)
  <use Grafiken/and.png>
 Package pdftex.def Info: Grafiken/and.png used on input line 208.
 (pdftex.def)             Requested size: 421.1008pt x 421.10051pt.
- [9 <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/and.png>] <Grafiken/ts_value.png, id=182, 1156.32pt x 770.
+ [9 <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/and.png>] <Grafiken/ts_value.png, id=212, 1156.32pt x 770.
 88pt>
 File: Grafiken/ts_value.png Graphic file (type png)
 
@@ -935,13 +935,13 @@ Overfull \hbox (3.76172pt too wide) in paragraph at lines 281--284
 []\T1/cmr/m/n/10.95 Anschlieÿend in-ter-es-siert, ob sich die Zu-sam-men-set-zung der Top-Exporteure/Importeure
  []
 
-<Grafiken/ts_tops.png, id=202, 853.1875pt x 1023.825pt>
+<Grafiken/ts_tops.png, id=232, 853.1875pt x 1023.825pt>
 File: Grafiken/ts_tops.png Graphic file (type png)
  <use Grafiken/ts_tops.png>
 Package pdftex.def Info: Grafiken/ts_tops.png used on input line 287.
 (pdftex.def)             Requested size: 421.1008pt x 505.33426pt.
 
-<Grafiken/ts_network.png, id=206, 682.55pt x 1023.825pt>
+<Grafiken/ts_network.png, id=236, 682.55pt x 1023.825pt>
 File: Grafiken/ts_network.png Graphic file (type png)
  <use Grafiken/ts_network.png>
 Package pdftex.def Info: Grafiken/ts_network.png used on input line 297.
@@ -950,7 +950,7 @@ Package pdftex.def Info: Grafiken/ts_network.png used on input line 297.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Grafiken/ts_descriptives.png, id=207, 1156.32pt x 770.88pt>
+<Grafiken/ts_descriptives.png, id=237, 1156.32pt x 770.88pt>
 File: Grafiken/ts_descriptives.png Graphic file (type png)
  <use Grafiken/ts_descriptives.png>
 Package pdftex.def Info: Grafiken/ts_descriptives.png used on input line 358.
@@ -985,115 +985,127 @@ Bericht/Grafiken/Reg_Ani/reg19.pdf> <C:/Users/s10370952/Documents/Consulting/Ber
 ericht/Grafiken/ts_network.png>] [17 <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/ts_descriptives.png>] [18
 ] [19]
 Kapitel 3.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 398.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+[20
+
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 419.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 398.
- [20
-
-]
-<Grafiken/ts_ERGM_coef.png, id=834, 1047.915pt x 732.7375pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 419.
+ [21]
+<Grafiken/ts_ERGM_coef.png, id=878, 1047.915pt x 732.7375pt>
 File: Grafiken/ts_ERGM_coef.png Graphic file (type png)
  <use Grafiken/ts_ERGM_coef.png>
-Package pdftex.def Info: Grafiken/ts_ERGM_coef.png used on input line 451.
+Package pdftex.def Info: Grafiken/ts_ERGM_coef.png used on input line 472.
 (pdftex.def)             Requested size: 421.1008pt x 294.44267pt.
 
-Overfull \hbox (10.66153pt too wide) in paragraph at lines 459--460
+Overfull \hbox (10.66153pt too wide) in paragraph at lines 480--481
 []\T1/cmr/m/n/10.95 exogene Kan-te-nat-tri-bu-te: ed-ge-cov(Alliance) + ed-ge-cov(DirectCont) + ed-ge-cov(Polity) 
  []
 
-[21 <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/ts_ERGM_coef.png>] [22]
+[22 <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/ts_ERGM_coef.png>] [23]
 Kapitel 4.
 
-Overfull \hbox (56.02585pt too wide) in alignment at lines 513--537
+Overfull \hbox (56.02585pt too wide) in alignment at lines 534--558
  [] [] [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 537
+Underfull \vbox (badness 10000) detected at line 558
  []
 
 
-Overfull \hbox (56.02585pt too wide) in alignment at lines 537--557
+Overfull \hbox (56.02585pt too wide) in alignment at lines 558--578
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (56.02585pt too wide) in alignment at lines 557--577
+Overfull \hbox (56.02585pt too wide) in alignment at lines 578--598
  [] [] [] [] [] [] 
  []
 
-[23
+[24
 
 ]
-Overfull \hbox (56.02585pt too wide) in alignment at lines 577--597
+Overfull \hbox (56.02585pt too wide) in alignment at lines 598--618
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (56.02585pt too wide) in alignment at lines 597--617
+Overfull \hbox (56.02585pt too wide) in alignment at lines 618--638
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (56.02585pt too wide) in alignment at lines 617--637
+Overfull \hbox (56.02585pt too wide) in alignment at lines 638--658
  [] [] [] [] [] [] 
  []
 
-[24]
-Overfull \hbox (56.02585pt too wide) in alignment at lines 637--657
+[25]
+Overfull \hbox (56.02585pt too wide) in alignment at lines 658--678
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (56.02585pt too wide) in alignment at lines 657--671
+Overfull \hbox (56.02585pt too wide) in alignment at lines 678--692
  [] [] [] [] [] [] 
  []
 
-[25] (C:\Users\s10370952\Documents\Consulting\Bericht\Bericht.bbl [26]) [27
+[26] (C:\Users\s10370952\Documents\Consulting\Bericht\Bericht.bbl [27]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 5.
 
-]
-(C:\Users\s10370952\Documents\Consulting\Bericht\Bericht.lof)
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Underfull \hbox (badness 5091) in paragraph at lines 4--7
+[]\T1/cmr/m/n/10.95 The maddison-project , 2013.  []$\T1/lmtt/m/n/10.95 http : / / www . ggdc . net / maddison / maddiso
+n -[]
+ []
+
+) [28
+
+] (C:\Users\s10370952\Documents\Consulting\Bericht\Bericht.lof)
 \tf@lof=\write5
- [28
+ [29
 
 ]
 (C:\Users\s10370952\Documents\Consulting\Bericht\Bericht.lot)
 \tf@lot=\write6
- [29
+ [30
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 684--685
+Underfull \hbox (badness 10000) in paragraph at lines 705--706
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 706.
-[30
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 727.
+[31
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 706.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 727.
  (C:\Users\s10370952\Documents\Consulting\Bericht\Bericht.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 706.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 706.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 727.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 727.
 Package rerunfilecheck Info: File `Bericht.out' has not changed.
-(rerunfilecheck)             Checksum: 17994D34B422EEB30B12BE0E10FA8513;1293.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 706.
+(rerunfilecheck)             Checksum: 74F2EC1716B24F86044370AC0BCA272C;1747.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 727.
  ) 
 Here is how much of TeX's memory you used:
- 12031 strings out of 493921
- 180673 string characters out of 3147269
+ 12098 strings out of 493921
+ 181701 string characters out of 3147269
  338351 words of memory out of 3000000
- 14979 multiletter control sequences out of 15000+200000
- 23480 words of font info for 58 fonts, out of 3000000 for 9000
+ 15029 multiletter control sequences out of 15000+200000
+ 23799 words of font info for 59 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  40i,9n,83p,1023b,540s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-sup
+er-t1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/cm-super/sfbx1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx2074.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm0900.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
@@ -1103,9 +1115,9 @@ ogram Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx1095.pfb><C:/Program File
 /sfsx1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx1440.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/cm-super/sfsx2074.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfti1095.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on Bericht.pdf (30 pages, 2062063 bytes).
+Output written on Bericht.pdf (31 pages, 2097038 bytes).
 PDF statistics:
- 992 PDF objects out of 1000 (max. 8388607)
- 77 named destinations out of 1000 (max. 500000)
- 996 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1046 PDF objects out of 1200 (max. 8388607)
+ 89 named destinations out of 1000 (max. 500000)
+ 1044 words of extra memory for PDF output out of 10000 (max. 10000000)
 

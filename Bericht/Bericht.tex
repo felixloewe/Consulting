@@ -393,7 +393,28 @@ In Abbildung \ref{fig:reg} zeigt sich ein ähnliches Bild. Die europäischen Reg
 \chapter{ERGM}
 \section{Theorie}
 \section{exogene Kovariablen}
-Es stehen folgende zusätzliche Daten zu Verfügung:
+Es stehen einige exogene Datensätze zur Verfügung die im folgenden verwendet werden.
+
+\subsection{Formal Intersate Alliance Dataset}
+Ein Datensatz entspringt aus dem \emph{Formal Intersate Alliance Dataset} \cite{alliance} der vom Correlates of War Projekt zur Verfügung gestellt wird. Aufgeführt sind hierin Verteidigungsbündnisse, Nicht-Angriffspakte und militärische Bündnisse anderer Art . 
+Im Folgenden wird  eine Nachbarschaftsmatrix verwendet, wobei zwei verbündete Länder durch eine eins gekennzeichnet sind, während eine null bedeutet, dass kein Bündnis besteht. Diese Daten liegen nur bis zum Jahr 2008 vor.
+
+\subsection{Polity Score}
+Der nächste verwendete Datensatz entspringt dem \emph{Polity IV Project} welches vom \emph{Center for Systemic Peace} (CSP) \cite{polity} betrieben wird. Dieser Datensatz weißt jedem Land abhängig von seinem Demokratiestatus einen Wert zwischen $-10$ und $10$ zu. $-10$ kennzeichnet hierbei den schlechtest möglichen Wert, wobei $10$ für bestmögliche demokratische Standarts steht. Verwendet wird eine gewichtete Nachbarschaftsmatrix deren $ij$-ter Eintrag dem Unterschied im Demokratiescore zwischen Land $i$ und Land $j$ entspricht.
+
+\subsection{Direct Contiguity}
+Der Datensatz \emph{Direct COntiguity} enthält für jedes Jahr eine eine Nachbarschaftsmatrix. Eine eins als $ij$-ten Eintrag weist hier auf eine gemeinsame Grenze der beiden beider Länder $i$ und $j$ hin, eine null auf das Gegenteil. Hierbei werden sowohl Land- als auch Seegrenzen in Betracht gezogen.
+
+\subsection{Composite Index of National Capability}
+Der \emph{Composite Index of National Capability} aus der neusten Version des \emph{National Material Capabilities Dataset}(Version 4.1)  \cite{CINC} ist ein Maß der nationalen Macht, dass vom Correlates of War Projekt erstellt wurde. Der Index berücksichtigt die Gesamtbevölkerungsanzahl, die Anzahl urbaner Bevölkerung, die Eisen- und Stahlproduktion, den Energieverbrauch  sowie die Militärausgaben und Militärgröße eines Landes. Diese Daten liegen nur bis zum Jahr 2007 vor und dienen hier als Knotenattribut.
+
+\subsection{Intra-State Conflicts}
+Eine zustätzliche Kovariate in unserem Modell sammelt Informationen über internationale, civile, ethnische und (?genocidal) Gewalt und Kriege. Die Daten kommen vom \emph{Major Episodes of Political Violance} Projekt \cite{conflict}, dass wie auch das Polity IV Projekt von CSP bereitgestellt wird. Die Konflikte sind abhängig von der Stärke ihrer Auswirkung auf die betroffene Bevölkerung auf einer Skala von $1-10$ bewertet. Diese Informationen werden als Knotenattribut verwendet.
+
+\subsection{GDP}
+Zu guter letzt verwenden wir auch das Bruttoinlandsprodukt der Länder als Knotenattribut. Die Daten entstammen dem \emph{Maddison Project}\cite{GDP}. 
+
+
 \begin{itemize}
   \item Polity: Demokratiescore zwischen 0 und 10. Die Differenz zweier Länder wird als Kantenattribut verwendet.
   \item GDP: Bruttoinlandsprodukt der Länder in internationaler Dollar
