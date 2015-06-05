@@ -65,7 +65,7 @@ ergm.schmidt.path <- formula(G ~ edges +  edgecov(APathDependency[[10]]))
                              
 
 summary.statistics(ergm.schmidt.path)
-ergm.schmidt.exo.0.fit <- ergm(ergm.schmidt.path)
-summary.ergm(ergm.schmidt.path)
+ergm.schmidt.path.fit <- ergm(ergm.schmidt.path)
+summary.ergm(ergm.schmidt.path.fit)
 mcmc.diagnostics(ergm.schmidt.path)
 plot(gof.ergm(ergm.schmidt.path))

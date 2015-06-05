@@ -13,7 +13,7 @@ for(Year in 1992:2011){
   #Zeilennamen abgreifen
   row.names <- V(GraphYear[[Year-1991]])$name
   #Spaltennamen abgreifen
-  row.names <- V(GraphYear[[Year-1991]])$name
+  col.names <- V(GraphYear[[Year-1991]])$name
   #Zeilenanzahl abgreifen
   nrow <- length(row.names)
   #Spaltenanzahl abgreifen
@@ -22,7 +22,7 @@ for(Year in 1992:2011){
   mat <- matrix(nrow = nrow, ncol = ncol, dimnames = list(row.names, col.names))
   #Schleife für Zeilen
   for(i in row.names){
-    cat("Zeile",i,"\n")
+    
     #Schleife für Spalten
     for(j in col.names){
       
@@ -34,7 +34,7 @@ for(Year in 1992:2011){
   APathDependency[[Year - 1991]] <- mat
 }
 
-save(APathDependency, file = "APathDependency.Rdata")
+save(APathDependency, file = "APathDependency2.Rdata")
 load("APathDependency.Rdata")
 
 
