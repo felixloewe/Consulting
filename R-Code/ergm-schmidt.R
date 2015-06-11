@@ -12,7 +12,7 @@ library(statnet)
 # edgecov(path dependency)
 
 # Erster Versuch ohne externe Einflussfaktren
-G <- NetGraphYearSimple[[1]]
+G <- NetGraphYearSimple[[16]]
 ergm.schmidt.endo <- formula(G ~ edges+ gwodegree(1, fixed=F)+idegree(1)+dsp(0)+esp(0))
                         #+ edgecov(AAlliance[[1]]) + edgecov(ADirectCont[[1]])
                         #+ nodeicov("ext_mag"))
@@ -42,8 +42,8 @@ mcmc.diagnostics(ergm.schmidt.exo.0.fit)
 plot(gof.ergm(ergm.schmidt.exo.0.fit))
 
 
-ergm.schmidt.comb <- formula(G ~ edges + mutual + idegree(1) + esp(1) + dsp(1) 
-                             + edgecov(AAlliance[[1]]) + edgecov(ADirectCont[[1]])  + edgecov(APolity[[1]])
+ergm.schmidt.comb <- formula(G ~ edges + mutual + gwidegree(decay = 1,fixed = F) + gwesp(cutoff = 10) + gwdsp(cutoff = 10)
+                             + edgecov(AAlliance[[16]]) + edgecov(ADirectCont[[16]])  + edgecov(APolity[[16]]) + edgecov(APathDependency[[16]])
                              + nodeicov("ext_gdp") + nodeocov("ext_gdp")+ nodeicov("ext_cinc") + nodeocov("ext_cinc") + nodeicov("ext_conflict"))
 
 summary.statistics(ergm.schmidt.comb)
@@ -54,8 +54,19 @@ ergm.schmidt.comb.gof <- gof.ergm(ergm.schmidt.comb.fit)
 plot(ergm.schmidt.comb.gof)
 save.image(file = "schmdit.ergm.workspace.RData")
 
+ergm.schmidt.comb2 <- formula(G ~ edges + mutual + gwidegree(decay = 1,fixed = F) + gwesp(cutoff = 10) + gwdsp(cutoff = 10)
+                             + edgecov(AAlliance[[16]]) + edgecov(ADirectCont[[16]])  + edgecov(APolity[[16]]) #+ edgecov(APathDependency[[16]])
+                             + nodeicov("ext_gdp") + nodeocov("ext_gdp")+ nodeicov("ext_cinc") + nodeocov("ext_cinc") + nodeicov("ext_conflict"))
 
+summary.statistics(ergm.schmidt.comb2)
+ergm.schmidt.comb2.fit <- ergm(ergm.schmidt.comb2)
+#xtable(summary.ergm(ergm.schmidt.comb2.fit))
+mcmc.diagnostics(ergm.schmidt.comb2.fit)
+ergm.schmidt.comb2.gof <- gof.ergm(ergm.schmidt.comb2.fit)
+plot(ergm.schmidt.comb2.gof)
+save.image(file = "schmdit.ergm.workspace.RData")
 
+##############################################
 
 table(APathDependency[[10]])
 
@@ -65,7 +76,9 @@ ergm.schmidt.path <- formula(G ~ edges +  edgecov(APathDependency[[10]]))
                              
 
 summary.statistics(ergm.schmidt.path)
-ergm.schmidt.exo.0.fit <- ergm(ergm.schmidt.path)
-summary.ergm(ergm.schmidt.path)
+ergm.schmidt.path.fit <- ergm(ergm.schmidt.path)
+summary.ergm(ergm.schmidt.path.fit)
 mcmc.diagnostics(ergm.schmidt.path)
 plot(gof.ergm(ergm.schmidt.path))
+
+########################################
