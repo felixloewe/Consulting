@@ -392,6 +392,47 @@ In Abbildung \ref{fig:reg} zeigt sich ein ähnliches Bild. Die europäischen Reg
 
 \chapter{ERGM}
 \section{Theorie}
+\subsection{Simulation von Zufallsgraphen}
+Die Simulation von Zufallsgraphen aus einer Zielverteilung $P_\theta(x)$ basiert auf dem Makrov Chain Monte Carlo (MCMC) Algorithmus. Hierbei erstellt man eine Sequenz von M Graphen. Der letzte dieser Graphen entspringt dann der Zielverteilung, dem ERGM. Hierbei beginnt man mit einem beliebigen Netzwerk mit fester Knotenzahl $N$. Nun sucht man sich ein zufälliges Knotenpaar und fügt eine Verbindung hinzu, beziehungsweise entfernt eine bestehende Verbindung. Besitzt der so erhaltene Graph nun eine höhere Wahrscheinlichkeit als der vorherige wird er akzeptiert. Besitzt der Graph eine geringere Wahrscheinlichkeit, so wird er mit einer Wahrscheinlichkeit akzeptiert, die proportional zum Verhältnis aus den Wahrscheinlichkeiten von altem und neuem Graph ist. Wird dieser Vorgang häufig genug iteriert, so erhält man ein zufälliges Netzwerk, das aus der Zielverteilung gezogen wurde. Alle vorherigen Ziehungen nennt man \emph{Burn In}. Der Burn In wird benötigt, damit der Algorithmus den beliebig gewählten Anfangszustand "`vergessen"' kann. Bei ausreichend großem Burn In ist das gezogene Netzwerk unabhängig von Startpunkt und jedes nach ihm gezogene Netzwerk entspringt ebenfalls der Zielverteilung.
+Genauer gesagt benutzen wir einen Metropolis Algorithmus. Wir erstellen eine Sequenz von Graphen $X^{(0)}, X^{(1)}, ..., X^{(M-1)}, X^{(M)}$. Im $m$-ten Iterationsschritt wird hierbei folgendermaßen vorgegangen:
+
+\begin{enumerate}
+	\item Aus dem aktuellen Graphen $x^(m-1)$ wird ein zufälliges Knotenpaar $i,j$ ($i,j \in 1, ...,N$) ausgewählt.
+	\item Der vorgeschlagene Graph $x^* = x^{(m-1)}$ bis auf $x_{ij}^{(m-1)} = 1 - x_{ij}^{(m-1)}$.
+	\item Der vorgeschlagene Graph wird mit der Wahrscheinlichkeit $min\{1, \frac{P_{\theta}(x^*)}{P_{\theta}(x^{m-1})}\}$ akzeptiert.
+	\item Bei Akzeptanz entspricht der neue Graph $x^m = x^*$ und sonst $x^m = x^{m-1}$.
+\end{enumerate}
+
+Hierbei ist für das Verhältnis von $\frac{P_{\theta}(x^*)}{P_{\theta}(x^{m-1})}$ für die Berechnung der Change-Statistiken ausreichend, denn
+
+\begin{align*}
+log\{\frac{P_{\theta}(x^*)}{P_{\theta}(x^{m-1})}\} &= log\{P(X_{ij} = 1-x_{ij}^{m-1}|X_{-ij}=x_{ij}^{m-1}\} \\
+																										&= \theta_1(z_1(x^*) - z_1(x^{m-1})) + \theta_2(z_2(x^*) - z_2(x^{m-1}))\\   																									& + ... + \theta_p(z_p(x^*) - z_p(x^{m-1}))
+\end{align*}.
+
+Diese Methode kann computional optimiert werden, indem man zum Beispiel größere Update-Schritte oder Update-Schritte mit ungleichen Gewichten zulässt.
+
+Will man mehrere Graphen aus der selben Verteilung ziehen, so kann die gleiche Kette verwendet werden. Dafür lässt man zwischen den Beobachteten Graphen jeweils $k$ Iterationen aus. Den Wert von $k$ nennt man \emph{thinning.}Die gezogenen Graphen sind dann allerdings eine abhängige Stichprobe und man sollte sie auf Autokorrelation checken, die durch Erhöhen von $k$ reduziert werden kann.
+
+\subsection{Schätzung der Modell-Parameter}
+Ziel der Schätzung der Parameter ist es die Verteilung der Statistiken der Simulierten Netzwerke über denen des beobachteten Netzwerkes zu zentrieren, so dass
+\begin{equation}
+	E_\theta(z(X)) - z(x_{obs}) = 0
+	\label{eq:1}
+\end{equation}
+Das Auflösen von Gleichung \ref{eq:1} liefert die Parameterwerte die die Daten am besten beschreiben.
+Analog hierzu funktioniert die Maximum Likelihood Theorie. Hiernach wird derjenige Parametervektor $\theta$ gesucht, der die Wahrscheinlichkeit $P_\theta(x_{obs})$ optimiert. Dieses vorgehen liefert das den gleichen $\theta$ Vektor wie die Lösung von Gleichung \ref{eq:1}, denn die partielle Ableitung nach $\theta$ liefert
+\begin{align*}
+\frac{\partial}{\partial \theta} log(P_\theta(x_{obs})) &= z(x_{obs}) - \frac{\partial}{\partial \theta} log\{\sum_{x \in X}{exp(\theta_1z_1(x)+ ... + \theta_pz_p(x))}\}\\
+&=z(x_{obs}) - \sum_{x \in X}{z(x)P_\theta(x)}
+\end{align*}
+was Gleichung \ref{eq:1} entspricht.
+
+
+
+
+
+
 \section{exogene Kovariablen}
 Es stehen einige exogene Datensätze zur Verfügung die im folgenden verwendet werden.
 
