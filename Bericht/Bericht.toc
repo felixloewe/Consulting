@@ -14,17 +14,17 @@
 \contentsline {section}{\numberline {2.4}Netzwerkma\IeC {\ss }zahlen}{13}{section.2.4}
 \contentsline {section}{\numberline {2.5}Visualisierungen}{14}{section.2.5}
 \contentsline {chapter}{\numberline {3}ERGM}{20}{chapter.3}
-\contentsline {section}{\numberline {3.1}Theorie}{20}{section.3.1}
+\contentsline {section}{\numberline {3.1}Definition des Modells}{20}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Simulation von Zufallsgraphen}{20}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Sch\IeC {\"a}tzung der Modell-Parameter}{21}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}exogene Kovariablen}{21}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Formal Intersate Alliance Dataset}{21}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Polity Score}{21}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Direct Contiguity}{22}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Composite Index of National Capability}{22}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Intra-State Conflicts}{22}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3.2.6}GDP}{22}{subsection.3.2.6}
-\contentsline {section}{\numberline {3.3}endogene Statistiken}{23}{section.3.3}
-\contentsline {section}{\numberline {3.4}gesch\IeC {\"a}tzte Modelle}{23}{section.3.4}
-\contentsline {chapter}{\numberline {4}Anhang}{26}{chapter.4}
-\contentsline {chapter}{Literaturverzeichnis}{30}{chapter*.18}
+\contentsline {section}{\numberline {3.2}exogene Kovariablen}{23}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Formal Intersate Alliance Dataset}{23}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Polity Score}{23}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Direct Contiguity}{23}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Composite Index of National Capability}{23}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Intra-State Conflicts}{23}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}GDP}{24}{subsection.3.2.6}
+\contentsline {section}{\numberline {3.3}endogene Statistiken}{24}{section.3.3}
+\contentsline {section}{\numberline {3.4}gesch\IeC {\"a}tzte Modelle}{24}{section.3.4}
+\contentsline {chapter}{\numberline {4}Anhang}{27}{chapter.4}
+\contentsline {chapter}{Literaturverzeichnis}{31}{chapter*.18}

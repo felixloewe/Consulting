@@ -391,7 +391,22 @@ In Abbildung \ref{fig:cont} erkennt man, dass Europa durchgängig mit dem größ
 In Abbildung \ref{fig:reg} zeigt sich ein ähnliches Bild. Die europäischen Regionen und Nordamerika scheinen die aktivsten Handelspartner zu sein, während immer wieder auch zwischen eher weniger aktiven Regionen große Geldsummen fließen und hier auch wieder kein konstantes Muster zu erkennen ist.  
 
 \chapter{ERGM}
-\section{Theorie}
+\section{Definition des Modells}
+Sie $X$ eine Zufallsmatrix und repräsentiere die Nachbarschaftsmatrix eines Netzwerkes und $\mathcal{X}$ die Menge aller möglichen binären Netzwerke. Typischerweise fixiert man die Anzahl der Knoten auf einenstetern Wert $n$. Dann ist $\mathcal{X}$ die Menge aller $nxn$ Matritzen deren Einträge entweder eins oder null sind und die auf ihrer Diagonalen nur Nuller besitzen. Da das $ij$-te Element von $X$ eine Kante zwischen Knoten $i$ und $j$ entspricht, garantiert die letzte Eigenschaft, dass das Netzwerk frei von Schleifen ist. Bei einem ungerichteten Netzwerk ist $X$ eine symmetrische Matrix.
+Die Verteilung von $X$ lässt sich in folgender Form ausdrücken:
+\begin{equation}
+P_{\theta, \mathcal{X}}(X = x) = \frac{exp\left\{\theta^T g(x)\right\}}{\kappa(\theta, \mathcal{X})}
+\label{eq:ergm}
+\end{equation}
+mit
+
+\begin{itemize}
+	\item $x \in X$
+	\item $\theta \in \Omega \subset \mathbb{R}^q$ ... Vektor der Modellparameter
+	\item $g(x)$ ... q-Vektor aus Statistiken basierend auf der Nachbarschaftsmatrix x
+\end{itemize}
+Ersetzt man $g(x)$ aus Gleichung \ref{eq:ergm} durch $g(x,Y)$ so ermöglicht man die Aufnahme von zusätzlichen exogenen Informationen $Y$ über das Netzwerk (siehe Kapitel \ref{sec:exkov}). $\kappa(\theta, \mathcal{X}) = \sum_{z in \mathcal{X}}{exp\left\{\theta^T g(x)\right\}}$ ist ein Normalisierungsfaktor, der sicherste$\mathcal{X}$llt, dass es sich bei Gleichung \ref{eq:ergm} um eine Wahrscheinlichkeitsverteilung handelt. Die genaue Spezifikation von $\mathcal{X}$ ist problematisch, da $\mathcal{X}$ alle möglichen Netzwerke enthalten muss. Da aber bei $n$ Knoten bereits $2^{n(n-1)}$ verschiedene Netzwerke denkbar sind erhält mal schnell unvorstellbar große Anzahlen von möglichen Netzwerken die den Umgang mit  $\kappa(\theta, \mathcal{X})$ zum entscheidenden Problem dieses Modells werden lassen. Da eine analytische Lösung des Modells hierdurch oft unmöglich ist, benötigt man Methoden um durch simulationgestütze Verfahren geeignete Schätzer entwickeln zu können. Hiermit beschäftigen sich die nächsten beiden Kapitel.
+
 \subsection{Simulation von Zufallsgraphen}
 Die Simulation von Zufallsgraphen aus einer Zielverteilung $P_\theta(x)$ basiert auf dem Makrov Chain Monte Carlo (MCMC) Algorithmus. Hierbei erstellt man eine Sequenz von M Graphen. Der letzte dieser Graphen entspringt dann der Zielverteilung, dem ERGM. Hierbei beginnt man mit einem beliebigen Netzwerk mit fester Knotenzahl $N$. Nun sucht man sich ein zufälliges Knotenpaar und fügt eine Verbindung hinzu, beziehungsweise entfernt eine bestehende Verbindung. Besitzt der so erhaltene Graph nun eine höhere Wahrscheinlichkeit als der vorherige wird er akzeptiert. Besitzt der Graph eine geringere Wahrscheinlichkeit, so wird er mit einer Wahrscheinlichkeit akzeptiert, die proportional zum Verhältnis aus den Wahrscheinlichkeiten von altem und neuem Graph ist. Wird dieser Vorgang häufig genug iteriert, so erhält man ein zufälliges Netzwerk, das aus der Zielverteilung gezogen wurde. Alle vorherigen Ziehungen nennt man \emph{Burn In}. Der Burn In wird benötigt, damit der Algorithmus den beliebig gewählten Anfangszustand "`vergessen"' kann. Bei ausreichend großem Burn In ist das gezogene Netzwerk unabhängig von Startpunkt und jedes nach ihm gezogene Netzwerk entspringt ebenfalls der Zielverteilung.
 Genauer gesagt benutzen wir einen Metropolis Algorithmus. Wir erstellen eine Sequenz von Graphen $X^{(0)}, X^{(1)}, ..., X^{(M-1)}, X^{(M)}$. Im $m$-ten Iterationsschritt wird hierbei folgendermaßen vorgegangen:
@@ -426,14 +441,20 @@ Analog hierzu funktioniert die Maximum Likelihood Theorie. Hiernach wird derjeni
 \frac{\partial}{\partial \theta} log(P_\theta(x_{obs})) &= z(x_{obs}) - \frac{\partial}{\partial \theta} log\{\sum_{x \in X}{exp(\theta_1z_1(x)+ ... + \theta_pz_p(x))}\}\\
 &=z(x_{obs}) - \sum_{x \in X}{z(x)P_\theta(x)}
 \end{align*}
-was Gleichung \ref{eq:1} entspricht.
+was Gleichung \ref{eq:1} entspricht. 
 
-
+Eine analytische Lösung dieser Gleichung ist auf Grund der großen Anzahl an möglichen Netzwerken nicht möglich. Im Prinzip funktioniert die Lösung der Gleichung durch einfaches Ausprobieren. Das bedeutet man wählt einen beliebigen Parametervektor, simuliert mit diesem auf oben erklärte Art und Wiese eine große Anzahl an Graphen und checkt im Anschloss ob Gleichung \ref{eq:1} erfüllt ist. Dieses Vorgehen ist aber natürlich computional ineffizient. Eine Möglichkeit zur effizienteren Implementierung dieses Vorgehens bietet das \emph{Importance Sampling} nach Geyer-Thompson was im \texttt{statnet}-Paket in R standardmäßig verwendet wird. Der Geyer-Thompson Algorithmus zieht eine große Stichprobe von Graphen, für einen vorläufigen Parametervektor $\widetilde{\theta}$. Diese Stichprobe wird nun als repräsentativ für alle Graphen angesehen. Die Stichprobe wird im nun immer weiter verwendet, selbst wenn sich der Parametervektor im Laufe des Algorithmus verändert. Um zu berücksichtigen, dass es sich nur um eine Stichprobe und keine vollständige Sammlung aller möglichen Graphen handelt, muss ein gewichteter Durchschnitt der Statistiken verwendet werde um $\bar{z}_\theta$ zu berechnen. Genauer gesagt, falls die Stichprobe aus der Verteilung $P_\theta(x)$ generiert wurde ist der Stichprobendurchschnitt $\bar{f}_\theta = w^1 f(x^1) + w^2 f(x^2) + ... + w^M f(x^M)$ der Funktion $f$ mit den Gewichten $w^m = \frac{}{}$ %hier muss noch die Formel rein!!
+eine gute Approximation für den echten Erwartungswert $E_\theta(f(X))$ wenn M groß wird und $\widetilde{\theta}$ nahe am wahren $\theta$ liegt. umso näher $\widetilde{\theta}$ und $\theta$ zusammen liegen, desto näher kommen die Gewichte dem Wert $\frac{1}{M}$. Falls $\theta$ und $\widetilde{\theta}$ jedoch weiter auseinander liegen besitzen die Gewichte eine hohe Streuung und somit die Schätzung eine große Standartabweichung.
+Um die Likelihood nun zu lösen erzeugt man eine Sequenz von Parametern $\widetilde{\theta},\theta^{1}, \theta^{2},...,\theta^{G}$mit Hilfe eines Verfahrens wie \emph{Newton-Raphson} oder \emph{Fisher scoring}. Eine Aktualisierung der Sequenz erfolgt durch $\theta^{(g)} = \theta^{(g-1)} - {D(\theta^{(g-1)})}^{-1}\left\{\sum^{M}_{m = 1}{w^mz(x^m)} - z(x_{obs})\right\}$ Da $sum^{M}_{m = 1}{w^mz(x^m)}$ eine Approximation von $E_\theta(z(X))$ ist falls $\theta^{g-1}$ der wahre Parameter ist ergibt sich dann $E_\theta(z(X)) - z(x_{obs}) = 0$ und $\theta^{(g)}$ bleibt unverändert zu $\theta^{(g-1)}$. Die Skalierungsmatrix $D(\theta)$ skaliert die Unterschiede zwischen den beobachteten und simulierten erwarteten Werten der Statistiken, da die Statistiken sich in ihrer Sensitivität gegenüber Parameteränderungen unterscheiden können und die Parameterwerte nicht nur ihre eigenen sondern auch fremde Statistiken beeinflussen können. $D$ ist die gewichtete Stichproben Kovarianzmatrix 
+$\Sigma_m w^{(m)} z(x^{(m)}) z(x^{(m)})^T - \left[\Sigma_m w^{(m)} z(x^{(m)}\right] \left[\Sigma_m w^{(m)} z(x^{(m)}\right]^T$
+Typischer Weise startet man diesen Algorithmus einige Male und setzt den vorgeschlagenen Parameter $\widetilde{\theta}$ gleich $\theta^{(G)}$. Für diesen Algorithmus ist es sehr wichtig, dass man den Startpunkt $\widetilde{\theta}$ nicht zu weit entfernt vom richtigen ML-Schätzer wählt, was in der Praxis schwierig sein kann.
+%hier eventuell noch einen Abschnitt zu Stochastic Approximation?
 
 
 
 
 \section{exogene Kovariablen}
+\label{sec:exkov}
 Es stehen einige exogene Datensätze zur Verfügung die im folgenden verwendet werden.
 
 \subsection{Formal Intersate Alliance Dataset}
