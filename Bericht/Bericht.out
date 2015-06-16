@@ -12,18 +12,21 @@
 \BOOKMARK [1][-]{section.2.3}{Top-Akteure}{chapter.2}% 12
 \BOOKMARK [1][-]{section.2.4}{Netzwerkma\337zahlen}{chapter.2}% 13
 \BOOKMARK [1][-]{section.2.5}{Visualisierungen}{chapter.2}% 14
-\BOOKMARK [0][-]{chapter.3}{ERGM}{}% 15
+\BOOKMARK [0][-]{chapter.3}{Exponential Random Graph Model}{}% 15
 \BOOKMARK [1][-]{section.3.1}{Definition des Modells}{chapter.3}% 16
 \BOOKMARK [2][-]{subsection.3.1.1}{Simulation von Zufallsgraphen}{section.3.1}% 17
 \BOOKMARK [2][-]{subsection.3.1.2}{Sch\344tzung der Modell-Parameter}{section.3.1}% 18
-\BOOKMARK [1][-]{section.3.2}{exogene Kovariablen}{chapter.3}% 19
-\BOOKMARK [2][-]{subsection.3.2.1}{Formal Intersate Alliance Dataset}{section.3.2}% 20
-\BOOKMARK [2][-]{subsection.3.2.2}{Polity Score}{section.3.2}% 21
-\BOOKMARK [2][-]{subsection.3.2.3}{Direct Contiguity}{section.3.2}% 22
-\BOOKMARK [2][-]{subsection.3.2.4}{Composite Index of National Capability}{section.3.2}% 23
-\BOOKMARK [2][-]{subsection.3.2.5}{Intra-State Conflicts}{section.3.2}% 24
-\BOOKMARK [2][-]{subsection.3.2.6}{GDP}{section.3.2}% 25
-\BOOKMARK [1][-]{section.3.3}{endogene Statistiken}{chapter.3}% 26
-\BOOKMARK [1][-]{section.3.4}{gesch\344tzte Modelle}{chapter.3}% 27
-\BOOKMARK [0][-]{chapter.4}{Anhang}{}% 28
-\BOOKMARK [0][-]{chapter*.18}{Literaturverzeichnis}{}% 29
+\BOOKMARK [1][-]{section.3.2}{endogene Statistiken}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.3}{Degeneration und L\366sungsvorschl\344ge}{chapter.3}% 20
+\BOOKMARK [2][-]{subsection.3.3.1}{CEFM}{section.3.3}% 21
+\BOOKMARK [2][-]{subsection.3.3.2}{exogene Kovariablen}{section.3.3}% 22
+\BOOKMARK [1][-]{section.3.4}{exogene Kovariablen}{chapter.3}% 23
+\BOOKMARK [2][-]{subsection.3.4.1}{Formal Intersate Alliance Dataset}{section.3.4}% 24
+\BOOKMARK [2][-]{subsection.3.4.2}{Polity Score}{section.3.4}% 25
+\BOOKMARK [2][-]{subsection.3.4.3}{Direct Contiguity}{section.3.4}% 26
+\BOOKMARK [2][-]{subsection.3.4.4}{Composite Index of National Capability}{section.3.4}% 27
+\BOOKMARK [2][-]{subsection.3.4.5}{Intra-State Conflicts}{section.3.4}% 28
+\BOOKMARK [2][-]{subsection.3.4.6}{GDP}{section.3.4}% 29
+\BOOKMARK [1][-]{section.3.5}{gesch\344tzte Modelle}{chapter.3}% 30
+\BOOKMARK [0][-]{chapter.4}{Anhang}{}% 31
+\BOOKMARK [0][-]{chapter*.18}{Literaturverzeichnis}{}% 32

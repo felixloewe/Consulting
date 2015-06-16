@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{GDP}
 The maddison-project , 2013.
@@ -16,6 +16,25 @@ Douglas~M. Gibler.
 \newblock CQ Press.
 \newblock Version 4.1.
 
+\bibitem{handcock2008statnet}
+Mark~S Handcock, David~R Hunter, Carter~T Butts, Steven~M Goodreau, and Martina
+  Morris.
+\newblock statnet: Software tools for the representation, visualization,
+  analysis and simulation of network data.
+\newblock {\em Journal of statistical software}, 24(1), 2008.
+
+\bibitem{handcock2003assessing}
+Mark~S Handcock, Garry Robins, Tom~AB Snijders, Jim Moody, and Julian Besag.
+\newblock Assessing degeneracy in statistical models of social networks.
+\newblock Technical report, Citeseer, 2003.
+
+\bibitem{hunter2008ergm}
+David~R Hunter, Mark~S Handcock, Carter~T Butts, Steven~M Goodreau, and Martina
+  Morris.
+\newblock ergm: A package to fit, simulate and diagnose exponential-family
+  models for networks.
+\newblock {\em Journal of statistical software}, 24(3), 2008.
+
 \bibitem{js14}
 Christoph Jansen and Christian Schmid.
 \newblock {Eine statistische Analyse des Netzwerks des internationalen
@@ -31,7 +50,7 @@ Eric~D. Kolaczyk.
 \bibitem{lkr12}
 Dean Lusher, Johan Koskinen, and Garry Robins.
 \newblock {\em Exponential random graph models for social networks: Theory,
-  methods, and applications}, chapter 13.2.
+  methods, and applications}.
 \newblock Cambridge University Press, 2012.
 
 \bibitem{polity}
@@ -45,6 +64,12 @@ Monty~G. Marshall.
 \newblock Major episodes of political violance , 1946-20013.
 \newblock Center for Systematic Peace.
 \newblock Version 4.1.
+
+\bibitem{morris2008specification}
+Martina Morris, Mark~S Handcock, and David~R Hunter.
+\newblock Specification of exponential-family random graph models: terms and
+  computational aspects.
+\newblock {\em Journal of statistical software}, 24(4), 2008.
 
 \bibitem{CINC}
 J~David Singer.

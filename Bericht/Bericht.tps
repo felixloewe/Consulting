@@ -17,8 +17,8 @@ Class=LaTeXView
 Document=Bericht.tex
 
 [Frame0_View0,0]
-TopLine=546
-Cursor=29817
+TopLine=696
+Cursor=44778
 
 [Frame1]
 Flags=0
@@ -35,8 +35,8 @@ Class=BibTeXView
 Document=literatur.bib
 
 [Frame1_View0,0]
-TopLine=35
-Cursor=1388
+TopLine=72
+Cursor=2975
 
 [Frame2]
 Flags=0
