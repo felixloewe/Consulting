@@ -3,7 +3,7 @@ library("ggplot2")
 indegreeYear <- lapply(GraphYearSimple, degree, mode = "in")
 outdegreeYear <- lapply(GraphYearSimple, degree, mode = "out")
 
-windows(height = 8, width = 12)
+windows(height = 8, width = 8)
 par(mfrow = c(2,1))
 boxplot(indegreeYear,  names = 1992:2011, main = "In-Degree", col = "lightblue", las = 2)
 grid(lwd = 1)

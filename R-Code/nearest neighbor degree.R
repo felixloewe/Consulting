@@ -22,7 +22,7 @@ ann <- graph.knn(GraphYearSimple[[7]])$knn
 
 #plot aufruf
 plot(log(deg), log(ann), xlim = c(1,6), ylim = c(1,6), xlab = "Log Degree", ylab = "Log Average Neighbor Degree")
-title(paste( "Jahr",1998))
+
 
 
 savePlot(filename = "Bericht/Grafiken/and" , type = "png")

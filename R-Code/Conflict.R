@@ -42,7 +42,7 @@ names(Conflict)[3] <- "country.name"
 
 #cow code erstellen
 ccode <- countrycode(Conflict$country.name,origin = "country.name", destination = "cown")
-Conflict <- cbind(ccode,Conflict)
+Conflict <- cbind(ccode,Conflict[,-3])
 nas <- which(is.na(Conflict$Mag))
 Conflict$Mag[nas] <- 0
 #Datensatz aufteilen in Jahre

@@ -1,5 +1,5 @@
-windows(height = 36, width = 24)
-par(mfrow = c(2,1), oma = c(0,0,0,0))
+windows(height = 24, width = 36)
+par(mfrow = c(1,2), oma = c(0,0,0,0))
 
 years<- c(1992, 2011)
 
@@ -23,8 +23,7 @@ for(year in years){
        vertex.color = col,
        edge.width = 1,
        edge.arrow.size = 0,
-       vertex.label.color = "red",
-       main = year
+       vertex.label.color = "red"
   )
 }
 savePlot("Bericht/Grafiken/ts_network", type = "png")

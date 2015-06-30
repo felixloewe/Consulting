@@ -23,17 +23,46 @@ valmil_ts <- sapply(GraphYear, function(Graph) sum(E(Graph)$ValueMil))
 
 windows(height = 8, width = 12)
 
-par(mfrow = c(2,2), oma = c(0,0,0,0))
-plot(ts(valmil_ts, start = 1992), type = "o", main = "Handelswerte in Mio. USD", ylab = "", xlab = "", cex.main = 1.2)
+par(mfrow = c(2,2), oma = c(0,0,0,0), cex = 1.2)
+plot(ts(valmil_ts, start = 1992),
+     lwd = 2,
+     type = "o",
+     main = "Handelswerte in Mio. USD",
+     ylab = "",
+     xlab = "",
+     )
 grid(lwd = 1)
-plot(ts(vert_ts, start = 1992), type = "o", main = "Anzahl Knoten", ylab = "", xlab = "", cex.main = 1.2)
+
+plot(ts(vert_ts, start = 1992),
+     lwd = 2,
+     type = "o",
+     main = "Anzahl Knoten",
+     ylab = "",
+     xlab = "",
+     )
 grid(lwd = 1)
-plot(ts(edg_ts, start = 1992), type = "o", main = "Anzahl Kanten", ylab = "", xlab = "", cex.main = 1.2)
+
+plot(ts(edg_ts, start = 1992),
+     lwd = 2,
+     type = "o",
+     main = "Anzahl Kanten",
+     ylab = "",
+     xlab = "",
+     )
 grid(lwd = 1)
+
 #plot(ts(trans_ts,start = 1992), type = "o", main = "Zeitreihe der Transitivität", ylab = "", xlab = "")
 #grid(lwd = 1)
-plot(ts(dens_ts, start = 1992), type = "o", main = "Dichte", ylab = "", xlab = "", cex.main = 1.2)
+
+plot(ts(dens_ts, start = 1992),
+     lwd = 2,
+     type = "o",
+     main = "Dichte",
+     ylab = "",
+     xlab = "",
+     )
 grid(lwd = 1)
+
 #plot(ts(diameter_ts, start = 1992), type = "o")
 #grid(lwd = 1)
 
