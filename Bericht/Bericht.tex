@@ -30,7 +30,9 @@
 \onehalfspacing
 
 
+
 \begin{document}
+
 
 
 \begin{titlepage}
@@ -534,7 +536,7 @@ Zu guter letzt verwenden wir auch das Bruttoinlandsprodukt der Länder als Knote
   \item Polity: Demokratiescore zwischen 0 und 10. Die Differenz zweier Länder wird als Kantenattribut verwendet.
   \item GDP: Bruttoinlandsprodukt der Länder in internationaler Dollar
   \item Conflict: Interne und externe Konflikte. Knotenattribut mit Score zwischen 0-10
-  \item CINC: (Composite Index of National Capability) statistisches Mas für nationale Macht zwischen 0 und 1.
+  \item CINC: (Composite Index of National Capability) statistisches Maß für nationale Macht zwischen 0 und 1.
   \item Alliance: binäres Kantenattribut; Besteht ein militärisches Bündnis (1:Ja, 0:Nein)
   \item DirectCont: binäres Kantenattribut; Besteht ein direkte Grenze (1:Ja, 0:Nein)
 \end{itemize}
@@ -543,108 +545,79 @@ Zu guter letzt verwenden wir auch das Bruttoinlandsprodukt der Länder als Knote
 
 Aus den vorhergehenden theoretischen Überlegungen ergibt sich folgendes Modell:
 
-Netzwerkdaten ~ edges + mutual + gwidegree() + gwodegree() + gwesp() + gwdesp() + externe Kovariablen.
+\emph{	Modell1: ~ edges + mutual + gwidegree() + gwodegree() + gwesp() + gwdesp() + exogene Kovariablen}
 
 Zwar kann der Decay Parameter im Modell frei geschätzt werde, jedoch erhöht das die Rechenzeit dramatisch. Der Parameterwert wird daher in allen Statistiken auf 0.2 fixiert  um Rechenzeit zu verkürzen wie zum Beispiel auch in \citet{goodreau2008statnet, pack:ergm, hunter2008goodness, goodreau2007advances}.
 
-Eventuell noch Aufnahme einzelner endogener Statistiken nach Betrachtung der GOF. 
-
-\vspace{5cm}
-
-Nachfolgend sind die Modelle aufgeführt die ich anfangs des Projekts "`naiv"' ausprobiert habe.
+Das Ergebnis der Schätzung von Modell 1 ist in Tabelle \ref{model1} festgehalten. Nahezu alle Parameter im Modell sind signifikant auf einem Level von mindestens 0.1. Lediglich der Faktor Kontinent und die Variable Conflict scheinen für den Import von Waffen nicht entscheident zu sein. 
 
 
-
-
-
-Als erster Versuch habe ich ein Modell gefitten, dass in \citep{lkr12} als Basismodell vorgeschlagen wird. Dieses Modell hat degeneriert. Deswegen habe ich versucht die Statistiken die für das Degenerieren verantwortlich sind zu finden, indem ich jede Statistik in einem seperaten Modell einzeln geschätzt und die Performance via mcmc.diagnostics überprüft habe (Tabelle \ref{tab:ergmrobins}.
-
-
-\begin{table}[h]
+\begin{table}[ht]
 	\centering
-		\begin{tabular}{l|c}
-		\hline 
-		ERGM TERM 									& MCMC Diagnose\\
+	\caption{Summary von Modell 1 }
+		\begin{tabular}{l|l|l|l}
+		
 		\hline
-		edges 											& konvergiert\\
-		mutual 											& konvergiert\\
-		gwidegree(decay, fixed = T)	& konvergiert nur mit decay nahe eins\\
-		gwidegree(decay, fixed = T)	& degeneriert\\
-		gwdsp(fixed = T)						& Konvergenz fraglich, lange Rechenzeit\\
-		gwesp(fixed = T)						& Konvergenz fraglich, lange Rechenzeit\\
-		ctriple 										& degeneriert\\
+		ergm-term 						   				  & Estimate      & Std.Error   & p-Value 				\\
+		\hline
+    edges                     				& -6.111e+00  &2.281e-01      & < 1e-04 *** \\
+    mutual                   					&  2.120e+00  &9.507e-02      & < 1e-04  ***\\
+    gwidegree                  				&  1.895e+00  &4.818e-01      & < 1e-04  ***\\
+    gwodegree                     		& -1.311e+00  &3.307e-01      & < 1e-04  ***\\
+    gwesp.fixed.0.2                   &  2.641e+00  &1.778e-01      & < 1e-04  ***\\
+    gwdsp.fixed.0.2				    				& -5.686e-02  &6.008e-03      & < 1e-04  ***\\
+    nodeicov.ext\_cinc         				&  3.071e+00  &1.291e+00      & 0.01740  *\\
+    nodeocov.ext\_cinc         				& -5.967e+00  &1.361e+00      & < 1e-0  ***\\
+    nodeicov.ext\_gdp          				&  3.479e-06  &2.099e-06      & 0.09749  .\\
+    nodeocov.ext\_gdp          				&  4.392e-06  &1.586e-06      & 0.00562  **\\
+    nodeicov.ext\_conflict     				&  2.310e-02  &1.704e-02      & 0.17530  \\
+    nodeocov.ext\_conflict     				& -1.398e-01  &2.763e-02      & < 1e-04  ***\\
+    nodeifactor.Continent.America     &  6.645e-02  &6.799e-02      & 0.32839  \\
+		nodeifactor.Continent.Asien     	&  9.525e-02  &6.473e-02      & 0.14116  \\
+		nodeifactor.Continent.Europe     	&  5.353e-03  &7.312e-02      & 0.94164  \\
+		nodeifactor.Continent.Oceania     & -2.323e-02  &1.136e-01      & 0.83795  \\
+    nodeofactor.Continent.America     &  2.055e-01  &6.589e-02      & 0.00182  **\\
+		nodeofactor.Continent.Asien     	&  1.494e-01  &6.452e-02      & 0.02055  *\\
+		nodeofactor.Continent.Europe     	&  8.579e-01  &7.226e-02      & < 1e-04  ***\\
+		nodeofactor.Continent.Oceania     &  2.311e-01  &9.602e-02      & 0.01611  *\\
+		absdiff.ext\_polity            		& -9.360e-03  &3.249e-03      & 0.00397 **\\
 		\hline
 		\end{tabular}
-	\caption{ERGM-Terms und ihre MCMC Diagnose}
-	\label{tab:ergmrobins}
+		\label{model1}
 \end{table}
 
-Als Ersatz für die Statistiken deren Modell nicht konvergiert ist  habe ich die Statistiken aus Tabelle \ref{tab:ergmrobinsersatz} versucht:
+Die MCMC Diagnose von Modell 1 fällt durchgehend zufriedenstellend aus. Beispielhaft abgebildet sind in Abbildung \ref{fig:mcmc.diag.model1} nur die ersten 4 Statistiken. Alle anderen weisen eine ähnlich gute Form auf.
 
-\begin{table}[h]
-	\centering
-		\begin{tabular}{l|c}
-		\hline 
-		ERGM TERM 									& MCMC Diagnose\\
-		\hline
-		ostar(2)										& degeneriert\\
-		dsp(1)											& konvergiert\\
-		esp(1)											& konvergiert\\
-			\hline
-		\end{tabular}
-	\caption{Ersatz für ERGM Terms}
-	\label{tab:ergmrobinsersatz}
-\end{table}
- 
-Fasst man danach die Statistiken in ein Modell zusammen, so führt das zu extrem langer Rechenzeit. Deswegen schätze ich die Parameter der Statistiken wiederum in einzelnen Modellen der Form formular = (edge + ERGM TERM). Dies geschieht für alle im Datensatz vorhandenen Modelle und man erhält folgende Zeitreihen (Abbildung \ref{fig:ts_ERGM_coef}):
 
 
 \begin{figure}[ht]
 	\centering
-		\includegraphics[width=1.00\textwidth]{Grafiken/ts_ERGM_coef.png}
-	\caption{Zeitreihen der Parameterwerte}
-	\label{fig:ts_ERGM_coef}
+		\includegraphics[width=1\textwidth]{../ERGM/mcmcdiagergm3.png}
+	\caption{MCMC Diagnose von Modell 1}
+	\label{fig:mcmc.diag.model1}
 \end{figure}
 
 
-Wir haben nun die exogenen Variablen wie Christian aufgenommen und zusätzlich alle endogenen Statistiken von denen wir wissen, dass sie funktionieren.
-Wir erhalten folgendes Modell:
-\begin{itemize}
-\item endogene Statistiken: edges + mutual + idegree(1) + esp(1) + dsp(1)
-\item Kantenattribute: edgecov(Alliance) + edgecov(DirectCont)  + edgecov(Polity)
-\item Knotenattribute: nodeicov(GDP) + nodeocov(GDP)+ nodeicov(CINC) + nodeocov(CINC) + nodeicov(Conflict))
-\end{itemize}
-\begin{table}[ht]
+Bei den Goodness of Fit Plots in Abbildung \ref{fig:gof.model1} fällt auf: out degree und minimum geodesic distance sind sehr gut getroffen, aber die esp- Statistiken werden bei kleinen Werten stark überschätzt und danach unterschätzt. Der In-Degree wird vor allem bei den Werten 1 und 2 nicht getroffen. 
+Mögliche Lösung: Variation des decay-Parameters?
+
+\begin{figure}[ht]
 	\centering
-	\caption{summary of model fit}
-		\begin{tabular}{l|l|l|l}
-		
-		\hline
-		ergm-term 						    & Estimate      & Std.Error   & p-Value 				\\
-		\hline
-    edges                     & -2.026e+00    & 7.044e-02   &    < 1e-04 ***  \\
-    mutual                    &  4.320e+00    & 9.790e-02   &    < 1e-04 ***  \\
-    idegree1                  &  4.906e+00    & 8.307e-01   &    < 1e-04 ***  \\
-    esp1                      & -4.767e-01    & 3.730e-01   &    0.20128      \\
-    dsp1                      & -1.922e-01    & 3.941e-02   &    < 1e-04 ***  \\
-    edgecov.AAlliance[[1]]    & -1.507e-02    & 1.882e-02   &    0.42315      \\
-    edgecov.ADirectCont[[1]]  &  3.943e-01    & 1.379e-01   &    0.00425 **   \\
-    edgecov.APolity[[1]]      & -3.201e-02    & 4.101e-03   &    < 1e-04 ***  \\
-    nodeicov.ext\_gdp          & -2.683e-05    & 4.064e-05   &    0.50912      \\
-    nodeocov.ext\_gdp          & -6.482e-05    & 4.159e-05   &    0.11915      \\
-    nodeicov.ext\_cinc         & -2.677e+00    & 5.948e+00   &    0.65268      \\
-    nodeocov.ext\_cinc         & -1.103e+01    & 5.956e+00   &    0.06406 .    \\
-    nodeicov.ext\_conflict     & -2.008e-03    & 1.976e-02   &    0.91906      \\
-
-		\hline
-						
-		\end{tabular}
-	
-	
-\end{table}
+		\includegraphics[width=1\textwidth]{../ERGM/GOF3.png}
+	\caption{Goodness of Fit von Modell 1}
+	\label{fig:gof.model1}
+\end{figure}
 
 
-Bei diesem Modell ist der Fit allerdings sehr schlecht 
+
+
+
+\newpage
+
+
+
+
+
 
 
 \bibliographystyle{dcu}
