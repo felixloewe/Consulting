@@ -599,7 +599,7 @@ Die MCMC Diagnose von Modell 1 fällt durchgehend zufriedenstellend aus. Beispie
 
 
 Bei den Goodness of Fit Plots in Abbildung \ref{fig:gof.model1} fällt auf: out degree und minimum geodesic distance sind sehr gut getroffen, aber die esp- Statistiken werden bei kleinen Werten stark überschätzt und danach unterschätzt. Der In-Degree wird vor allem bei den Werten 1 und 2 nicht getroffen. 
-Mögliche Lösung: Variation des decay-Parameters?
+Mögliche Lösung: Variation des decay-Parameters? Leider tendeiert das Modell für größere decay Werte zur Degeneration wie auch in \citet{goodreau2008statnet} berichtet.
 
 \begin{figure}[ht]
 	\centering
@@ -609,8 +609,24 @@ Mögliche Lösung: Variation des decay-Parameters?
 \end{figure}
 
 
+\section{Interpretation der Parameter}
+
+Für den nachfolgenden wird der Begriff der \emph{Change Statistiken} benötigt: $\theta^T\delta_g(x)_{ij}$ ist der Vektor der sogenannten \emph{Change-Statistiken}
+ 
+$$ \theta^T\delta_g(x)_{ij} = g(x^+_{ij}) - g(x^-_{ij}) $$
+
+wobei $x^+_{ij}$ und $x^-_{ij}$ die jeweiligen Netzwerke sind, die man erhält, wenn man in einem bestimmten Netzwerk $x$ die Kannte $x_{ij}$ als gegeben ($x_{ij} = 1$) oder abwesend ($x_{ij}= 0$) festlegt. $\theta^T\delta_g(x)_{ij}$ misst also den Wert der Veränderung der Statistiken $g(x)$ zwischen dem ansonsten gleichen Netzwerken mit und ohne der Kante $x_{ij}$.
 
 
+Für eine einfache Interpretation der Modellparameter lässt sich Modellgleichung \ref{eq:ergm} nun umschreiben zu 
+\begin{equation}
+	logit\left[P_{\theta, \mathcal{X}}(X_{ij} = 1 | X^c_{ij} = x^c_{ij})\right] = \theta^T\delta_g(x)_{ij}.
+	\label{eq:change}
+\end{equation}
+Die logit Funktion ist definiert als $logit(p) = log\left[p/(1-p)\right]$ und $X^c_{ij}$ repräsentiert das restliche Netzwerk ohne die einzelnen Variable $X_{ij}$. 
+
+Die Wahrscheinlichkeit auf der linken Seite von Gleichung \ref{eq:change} hängt nun nur noch von den Change Statistiken $\theta^T\delta_g(x)_{ij}$ ab und nicht mehr von den Netzwerkstatistiken $g(x^+_{ij})$ und $g(x^-_{ij})$ selbst.
+Hierdurch ergibt sich eine einfache Interpretation der Modellparameter $\theta$. Jedes Element aus $\theta$ lässt sich nun interpretieren als der Anstieg der bedingten log-odds des Netzwerkes, pro Anstieg des entsprechenden Elements aus $g(x)$, der aus dem Wechsel von $X_{ij}$ von $0$ zu $1$ resultiert \citep{hunter2008ergm}.
 
 \newpage
 

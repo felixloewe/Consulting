@@ -59,9 +59,9 @@ V(Graph)$Region <- countrycode(V(Graph)$name, "cown", "region", warn = F)
 # "Americas" in "America" abändern
 V(Graph)$Continent[V(Graph)$Continent == "Americas"] <- "America"
 
+#Edge Attribute hinzufügen:
+E(Graph)$Value <- MADdata$Value
 
 # iGraph-Objekt pro Jahr erstellen (20 Jahre, 1992 - 2011)
 Year <- 1992:2011
 GraphYear <- lapply(Year, function(jahr) subgraph.edges(Graph, E(Graph)[Year==jahr]))
-
-

@@ -27,4 +27,5 @@
 \contentsline {subsection}{\numberline {3.4.5}Intra-State Conflicts}{24}{subsection.3.4.5}
 \contentsline {subsection}{\numberline {3.4.6}GDP}{25}{subsection.3.4.6}
 \contentsline {section}{\numberline {3.5}gesch\IeC {\"a}tzte Modelle}{25}{section.3.5}
+\contentsline {section}{\numberline {3.6}Interpretation der Parameter}{26}{section.3.6}
 \contentsline {chapter}{Literaturverzeichnis}{29}{chapter*.15}
