@@ -41,3 +41,4 @@ plot(outDeg,
      col = "green",
      lwd = 10)
 grid(lwd = 1)
+

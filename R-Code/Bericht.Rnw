@@ -1,0 +1,18 @@
+\documentclass{article}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+\section{Deskriptive Analyse}
+
+Allgemeine Maßzahlen:
+
+\begin{alignment}
+\item steigende Teilnehmerzahl
+\item steigende Dichte
+\item steigender Gesamtwert
+\item steigende Anzahl Lieferungen
+
+
+
+\end{document}

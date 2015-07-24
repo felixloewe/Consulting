@@ -45,45 +45,57 @@ for (i in 1:5) {
 windows(width = 10, height = 12)
 
 par(mfrow = c(3,1))
+
 matplot(export_ts5,
-    type = "l",
-     ylim = c(1, 1000), 
-     col = 1:5,
-     lty = 1:5,
-     lwd = 2,
-     xlab = "Year",
-     ylab = "Mil. Dollar",
-     main = "Export-Zeitreihe der 5 Top-Exporteure",
-    xaxt = "n"    )
-axis(1, at = 1:20, labels = Year)    
+        type = "l",
+        ylim = c(1, 1000), 
+        col = 1:5,
+        lty = 1:5,
+        lwd = 3,
+        cex.axis = 1.5,
+        cex.lab = 1.5,
+        ylab = "Mil. Dollar",
+        main = "Export-Zeitreihe der 5 Top-Importeure",
+        cex.main = 1.5,
+        xaxt = "n"    )        
+axis(1, at = 1:20, labels = Year, las = 2, cex.axis = 1.5)    
 grid(lwd = 1)
-legend("top", top5exp_names, col = 1:5, lty = 1:5, lwd = 2, bg = "white")
+legend("top", top5exp_names, col = 1:5, lty = 1:5, lwd = 3, bg = "white", cex = 1.4)
 
 matplot(import_ts5,
         type = "l",
         ylim = c(1, 2000), 
         col = 1:5,
         lty = 1:5,
-        lwd = 2,
-        xlab = "Year",
+        lwd = 3,
+        cex.axis = 1.5,
+        cex.lab = 1.5,
         ylab = "Mil. Dollar",
         main = "Import-Zeitreihe der 5 Top-Importeure",
+        cex.main = 1.5,
         xaxt = "n"    )
-axis(1, at = 1:20, labels = Year)    
+axis(1, at = 1:20, labels = Year, las = 2, cex.axis = 1.5)    
 grid(lwd = 1)
-legend("top", top5imp_names, col = 1:5, lty = 1:5, lwd = 2, bg = "white")
+legend("top", top5imp_names, col = 1:5, lty = 1:5, lwd = 3, bg = "white", cex = 1.4)
 
 
 matplot(import_ts5[,-1],
         type = "l",
-        ylim = c(1, 300), 
+        ylim = c(1, 300),
         col = 2:5,
         lty = 2:5,
-        lwd = 2,
-        xlab = "Year",
+        lwd = 3,
+        cex.axis = 1.5,
+        cex.lab = 1.5,
+        cex.main = 1.5,
         ylab = "Mil. Dollar",
         main = "Import-Zeitreihe der 5 Top-Importeure ohne USA",
-        xaxt = "n"    )
-axis(1, at = 1:20, labels = Year)    
+        
+        xaxt = "n" )
+axis(1, at = 1:20, labels = Year, las = 2, cex.axis = 1.5)    
 grid(lwd = 1)
-legend("top", top5imp_names[-1], col = 2:5, lty = 2:5, lwd = 2, bg = "white")
+legend("top", top5imp_names[-1], col = 2:5, lty = 2:5, lwd = 3, bg = "white", cex = 1.4)
+
+savePlot("Bericht/Grafiken/ts_tops", type = "png")
+
+

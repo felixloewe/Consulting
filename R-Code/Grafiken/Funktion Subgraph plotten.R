@@ -1,5 +1,5 @@
 # Funktion zum plotten eines Teilnetzwerkes
-
+source("R-Code/Funktionen/Top.R")
 # Optionen: 
 # - Jahr (year), 
 # - Anzahl hervorgehobene Top-Staaten (n_tops),
@@ -21,21 +21,21 @@ topplot <- function(year, n_tops = 5, N = 10, seed = 1, trade = "e", simplify = 
   if(trade == "i")
     top_tabelle <- Top_Import(year)
   #inducierter Subgraph ziehen
-  ind <- induced.subgraph(Gr, vids = as.character(top_tabelle$Land[1:N]))
+  ind <- induced.subgraph(Gr, vids = as.character(top_tabelle$ccode[1:N]))
   if (simplify) {ind <- simplify(ind)}
   #Knotenparameter einstellen
-  V(ind)$size <- 1
-  V(ind)[as.character(top_tabelle$Land[1:n_tops])]$size <- 5
+  V(ind)$size <- 2
+  V(ind)[as.character(top_tabelle$ccode[1:n_tops])]$size <- 5
   V(ind)$label <- ""
-  V(ind)[as.character(top_tabelle$Land[1:n_tops])]$label <- as.character(top_tabelle$Land[1:n_tops])
+  V(ind)[as.character(top_tabelle$ccode[1:n_tops])]$label <- as.character(top_tabelle$Land[1:n_tops])
   
   #Kanten Klassifizieren
-  top <- V(ind)[as.character(top_tabelle$Land[1:n_tops])]
+  top <- V(ind)[as.character(top_tabelle$ccode[1:n_tops])]
   if (n_tops == N){
    flop <- c() 
   }
   else{
-  flop <- V(ind)[as.character(top_tabelle$Land[(n_tops+1):N])]
+  flop <- V(ind)[as.character(top_tabelle$ccode[(n_tops+1):N])]
   }
   #Kantenparameter einstellen
   E(ind)[ flop %--% flop]$color <- "yellow"
@@ -70,3 +70,4 @@ topplot <- function(year, n_tops = 5, N = 10, seed = 1, trade = "e", simplify = 
           )
   }
 }
+

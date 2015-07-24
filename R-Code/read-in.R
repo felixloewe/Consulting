@@ -1,5 +1,12 @@
+## Statistisches Consulting, SoSe 2015
+## Internationaler Waffenhandel: Die Anwendung neuer Verfahren der statistischen Netzwerkanalyse
+## Kooperation mit dem Lehrstuhl für empirische Politikforschung, LMU
+## Felix Loewe, loewe.felix@gmail.com
+## Roman Dieterle, roman.dieterle@hotmail.de
+
+## Eine Analyse des internationalen Kleinwaffen-Handels, 1992 - 2011
+
 ## Einlesen und Vorbereitung der Analyse
-## Roman's Code
 ## Was bedeuted MAD?
 
 ## Ausgabe:
@@ -8,13 +15,17 @@
 # - GraphYear (iGraph)
 
 # Pakete laden
-#install.packages("stringr")
-#install.packages("igraph")
-#install.packages("countrycode")
+
+install.packages("network")
+install.packages("stringr")
+install.packages("igraph")
+install.packages("countrycode")
+install.packages("ergm")
 library(countrycode)
 library(stringr)
 library(igraph)
-
+library(network)
+library(ergm)
 # NISAT-Database MasterTableFinal einlesen (109.000 Zeilen = 109.000 Exporte)
 MADdata <- read.csv("Importdaten/MAD Data 1992-2011 bearbeitet.csv")
 
@@ -40,16 +51,17 @@ Graph <- graph.data.frame(MADdata)
 
 # Vertex Attribute hinzufügen:
 # Ländername
-V(Graph)$Country_Name <- countrycode(V(Graph)$name, "cown", "country.name", warn = T)
+V(Graph)$Country_Name <- countrycode(V(Graph)$name, "cown", "country.name", warn = F)
 # Kontinent
-V(Graph)$Continent <- countrycode(V(Graph)$name, "cown", "continent", warn = T)
+V(Graph)$Continent <- countrycode(V(Graph)$name, "cown", "continent", warn = F)
 # Region
-V(Graph)$Region <- countrycode(V(Graph)$name, "cown", "region", warn = T)
+V(Graph)$Region <- countrycode(V(Graph)$name, "cown", "region", warn = F)
+# "Americas" in "America" abändern
+V(Graph)$Continent[V(Graph)$Continent == "Americas"] <- "America"
+
+#Edge Attribute hinzufügen:
+E(Graph)$Value <- MADdata$Value
 
 # iGraph-Objekt pro Jahr erstellen (20 Jahre, 1992 - 2011)
 Year <- 1992:2011
 GraphYear <- lapply(Year, function(jahr) subgraph.edges(Graph, E(Graph)[Year==jahr]))
-                    
-
-
-# Funktionen einlesen
