@@ -1,0 +1,533 @@
+Deal ID;Seller;Buyer;Designation;Description;Armament category;Order date;Order date is estimate;Numbers delivered;Numbers delivered is estimate;Delivery year;Delivery year is estimate;Status;SIPRI estimate;TIV deal unit;TIV delivery values;Local production
+36164;Ukraine;Armenia;L-39C Albatros;Trainer aircraft;Aircraft;2003;Yes;2;No;2004;No;Second hand;4.4100;1.764;3.528;No
+53618;Ukraine;Armenia;L-39C Albatros;Trainer aircraft;Aircraft;2009;Yes;2;No;2010;No;Second hand;4.4100;1.764;3.528;No
+53618;Ukraine;Armenia;L-39C Albatros;Trainer aircraft;Aircraft;2009;Yes;2;No;2011;No;Second hand;4.4100;1.764;3.528;No
+39082;Ukraine;Azerbaijan;BMP-1;IFV;Armoured vehicles;2004;Yes;2;No;2005;No;Second hand;0.9000;0.36;0.72;No
+39081;Ukraine;Azerbaijan;M-43 120mm;Mortar;Artillery;2004;Yes;13;No;2006;No;Second hand;0.0500;0.02;0.26;No
+39081;Ukraine;Azerbaijan;M-43 120mm;Mortar;Artillery;2004;Yes;72;No;2005;No;Second hand;0.0500;0.02;1.44;No
+35354;Ukraine;Azerbaijan;T-72M1;Tank;Armoured vehicles;2002;Yes;17;No;2006;No;Second hand;2.6000;1.04;17.68;No
+35354;Ukraine;Azerbaijan;T-72M1;Tank;Armoured vehicles;2002;Yes;25;No;2005;No;Second hand;2.6000;1.04;26;No
+35354;Ukraine;Azerbaijan;T-72M1;Tank;Armoured vehicles;2002;Yes;3;No;2004;No;Second hand;2.6000;1.04;3.12;No
+34633;Ukraine;Azerbaijan;T-12 100mm/2A19;Towed gun;Artillery;2002;Yes;72;No;2002;No;Second hand;0.3300;0.132;9.504;No
+23280;Ukraine;Azerbaijan;T-55;Tank;Armoured vehicles;1993;Yes;50;No;1994;No;Second hand;1.2500;0.5;25;No
+23280;Ukraine;Azerbaijan;T-55;Tank;Armoured vehicles;1993;Yes;100;No;1993;No;Second hand;1.2500;0.5;50;No
+56399;Ukraine;Azerbaijan;80K6M;Air search radar;Sensors;2012;Yes;1;Yes;2013;No;New;13.0000;13.0000;13;No
+52145;Ukraine;Azerbaijan;Mi-24P/Hind-F;Combat helicopter;Aircraft;2007;No;1;No;2010;No;Second hand but modernized;9.5300;6.2898;6.2898;No
+52145;Ukraine;Azerbaijan;Mi-24P/Hind-F;Combat helicopter;Aircraft;2007;No;11;No;2009;No;Second hand but modernized;9.5300;6.2898;69.1878;No
+36162;Ukraine;Azerbaijan;BM-9A52 Smerch;Self-propelled MRL;Artillery;2003;Yes;11;No;2005;No;Second hand;1.2000;0.48;5.28;No
+36162;Ukraine;Azerbaijan;BM-9A52 Smerch;Self-propelled MRL;Artillery;2003;Yes;1;No;2004;No;Second hand;1.2000;0.48;0.48;No
+52140;Ukraine;Azerbaijan;R-2;Anti-tank missile;Missiles;2008;Yes;200;Yes;2009;Yes;New;0.0400;0.0400;8;No
+52140;Ukraine;Azerbaijan;R-2;Anti-tank missile;Missiles;2008;Yes;200;Yes;2010;Yes;New;0.0400;0.0400;8;No
+52079;Ukraine;Azerbaijan;2S3 152mm;Self-propelled gun;Artillery;2008;Yes;10;No;2010;No;Second hand;1.0000;0.4;4;No
+52079;Ukraine;Azerbaijan;2S3 152mm;Self-propelled gun;Artillery;2008;Yes;6;No;2009;No;Second hand;1.0000;0.4;2.4;No
+51677;Ukraine;Azerbaijan;2S7 Pion 203mm;Self-propelled gun;Artillery;2007;Yes;3;No;2008;No;Second hand;1.1000;0.44;1.32;No
+51676;Ukraine;Azerbaijan;Strela-3/SA-14 Gremlin;Portable SAM;Missiles;2007;Yes;18;Yes;2008;No;New;0.0600;0.0600;1.08;No
+51674;Ukraine;Azerbaijan;2S1 122mm;Self-propelled gun;Artillery;2007;Yes;7;No;2010;No;Second hand;0.9000;0.36;2.52;No
+51674;Ukraine;Azerbaijan;2S1 122mm;Self-propelled gun;Artillery;2007;Yes;29;No;2009;No;Second hand;0.9000;0.36;10.44;No
+51674;Ukraine;Azerbaijan;2S1 122mm;Self-propelled gun;Artillery;2007;Yes;18;No;2008;No;Second hand;0.9000;0.36;6.48;No
+50430;Ukraine;Azerbaijan;R-27/AA-10 Alamo;BVRAAM;Missiles;2006;Yes;43;No;2007;No;New;0.1900;0.1900;8.17;No
+50425;Ukraine;Azerbaijan;D-30 122mm;Towed gun;Artillery;2006;Yes;55;No;2007;No;Second hand;0.3500;0.14;7.7;No
+50424;Ukraine;Azerbaijan;BTS;ARV;Armoured vehicles;2006;Yes;4;No;2007;No;Second hand;1.0000;0.4;1.6;No
+39945;Ukraine;Azerbaijan;L-39C Albatros;Trainer aircraft;Aircraft;2005;Yes;12;No;2006;No;Second hand;4.4100;1.764;21.168;No
+39838;Ukraine;Azerbaijan;MiG-29/Fulcrum-A;Fighter aircraft;Aircraft;2005;No;1;No;2009;No;Second hand but modernized;20.6500;13.629;13.629;No
+39838;Ukraine;Azerbaijan;MiG-29/Fulcrum-A;Fighter aircraft;Aircraft;2005;No;5;No;2006;No;Second hand but modernized;20.6500;13.629;68.145;No
+39838;Ukraine;Azerbaijan;MiG-29/Fulcrum-A;Fighter aircraft;Aircraft;2005;No;1;No;2011;No;Second hand but modernized;20.6500;13.629;13.629;No
+39838;Ukraine;Azerbaijan;MiG-29/Fulcrum-A;Fighter aircraft;Aircraft;2005;No;9;Yes;2007;No;Second hand but modernized;20.6500;13.629;122.661;No
+50423;Ukraine;Azerbaijan;BTR-80;APC;Armoured vehicles;2006;Yes;18;No;2007;No;Second hand;0.3500;0.14;2.52;No
+39943;Ukraine;Azerbaijan;BTR-3U Guardian;IFV;Armoured vehicles;2005;Yes;3;No;2006;No;New;0.9000;0.9000;2.7;No
+37624;Ukraine;Bangladesh;AI-25;Turbofan;Engines;1995;No;8;No;1995;No;New;0.6000;0.6000;4.8;No
+23360;Ukraine;Bangladesh;An-32/Cline;Transport aircraft;Aircraft;1995;Yes;1;No;1995;No;New;11.0000;11.0000;11;No
+52986;Ukraine;Bangladesh;6TD;Diesel engine;Engines;2011;Yes;34;Yes;2013;No;New;0.1900;0.1900;6.46;No
+52986;Ukraine;Bangladesh;6TD;Diesel engine;Engines;2011;Yes;13;Yes;2012;No;New;0.1900;0.1900;2.47;No
+54970;Ukraine;Bangladesh;R-27/AA-10 Alamo;BVRAAM;Missiles;2011;Yes;12;No;2011;No;New;0.1900;0.1900;2.28;No
+30474;Ukraine;Belarus;L-39C Albatros;Trainer aircraft;Aircraft;2005;No;8;No;2006;No;Second hand but modernized;4.4100;2.9106;23.2848;No
+30474;Ukraine;Belarus;L-39C Albatros;Trainer aircraft;Aircraft;2005;No;2;No;2005;No;Second hand but modernized;4.4100;2.9106;5.8212;No
+52669;Ukraine;Belarus;R-27/AA-10 Alamo;BVRAAM;Missiles;2008;Yes;18;No;2009;No;New;0.1900;0.1900;3.42;No
+52152;Ukraine;Burkina Faso;Strela-3/SA-14 Gremlin;Portable SAM;Missiles;1998;Yes;10;Yes;1999;No;Second hand;0.0600;0.024;0.24;No
+33970;Ukraine;Burundi;BTR-80;APC;Armoured vehicles;2001;Yes;10;No;2001;No;Second hand;0.3500;0.14;1.4;No
+19662;Ukraine;Burundi;Mi-24V/Hind-E;Combat helicopter;Aircraft;2002;Yes;1;No;2002;No;Second hand;9.5000;3.8;3.8;No
+54514;Ukraine;Central African Republic;Mi-24V/Hind-E;Combat helicopter;Aircraft;2011;Yes;2;No;2011;No;Second hand;9.5000;3.8;7.6;No
+33967;Ukraine;Chad;BTR-80;APC;Armoured vehicles;2001;Yes;24;No;2001;No;Second hand;0.3500;0.14;3.36;No
+32067;Ukraine;Chad;Mi-8MT/Mi-17/Hip-H;Helicopter;Aircraft;2000;Yes;2;Yes;2001;Yes;Second hand;6.7500;2.7;5.4;No
+50446;Ukraine;Chad;Mi-24V/Hind-E;Combat helicopter;Aircraft;2008;Yes;2;No;2008;No;Second hand;9.5000;3.8;7.6;No
+50428;Ukraine;Chad;Mi-24V/Hind-E;Combat helicopter;Aircraft;2006;Yes;2;No;2007;No;Second hand;9.5000;3.8;7.6;No
+32069;Ukraine;Chad;Mi-24V/Hind-E;Combat helicopter;Aircraft;2000;Yes;2;No;2001;No;Second hand;9.5000;3.8;7.6;No
+54983;Ukraine;Chad;Igla-1/SA-16 Gimlet;Portable SAM;Missiles;2011;Yes;50;No;2011;No;Second hand;0.0700;0.028;1.4;No
+52641;Ukraine;Chad;BMP-1;IFV;Armoured vehicles;2008;No;3;No;2010;No;Second hand but modernized;0.9000;0.594;1.782;No
+52641;Ukraine;Chad;BMP-1;IFV;Armoured vehicles;2008;No;39;No;2009;No;Second hand but modernized;0.9000;0.594;23.166;No
+51166;Ukraine;Chad;BMP-1;IFV;Armoured vehicles;2008;Yes;80;No;2008;No;Second hand;0.9000;0.36;28.8;No
+50597;Ukraine;Chad;BTR-3U Guardian;IFV;Armoured vehicles;2008;Yes;4;No;2009;No;New;0.9000;0.9000;3.6;No
+50597;Ukraine;Chad;BTR-3U Guardian;IFV;Armoured vehicles;2008;Yes;8;No;2008;No;New;0.9000;0.9000;7.2;No
+50445;Ukraine;Chad;Su-25/Frogfoot-A;Ground attack ac;Aircraft;2008;Yes;2;No;2010;No;Second hand;12.0000;4.8;9.6;No
+50445;Ukraine;Chad;Su-25/Frogfoot-A;Ground attack ac;Aircraft;2008;Yes;1;No;2009;No;Second hand;12.0000;4.8;4.8;No
+50445;Ukraine;Chad;Su-25/Frogfoot-A;Ground attack ac;Aircraft;2008;Yes;3;No;2008;No;Second hand;12.0000;4.8;14.4;No
+50268;Ukraine;Comoros;Mi-14PS/Haze-C;Helicopter;Aircraft;2007;Yes;2;No;2008;No;Second hand;7.0000;2.8;5.6;No
+24267;Ukraine;Congo;Mi-8T/Hip-C;Helicopter;Aircraft;1996;No;6;Yes;1997;No;Second hand;6.0000;2.4;14.4;No
+39101;Ukraine;Congo;Mi-24P/Hind-F;Combat helicopter;Aircraft;2004;Yes;1;No;2005;No;Second hand;9.5300;3.812;3.812;No
+33371;Ukraine;DR Congo;2S1 122mm;Self-propelled gun;Artillery;2000;Yes;6;No;2000;No;Second hand;0.9000;0.36;2.16;No
+33368;Ukraine;DR Congo;MT-LB;APC;Armoured vehicles;2000;Yes;6;No;2000;No;Second hand;0.2200;0.088;0.528;No
+33367;Ukraine;DR Congo;BTR-60PB;APC;Armoured vehicles;2000;Yes;30;No;2000;No;Second hand;0.2500;0.1;3;No
+55638;Ukraine;DR Congo;Su-25/Frogfoot-A;Ground attack ac;Aircraft;2012;No;2;No;2012;No;Second hand;12.0000;4.8;9.6;No
+53632;Ukraine;DR Congo;Mi-24V/Hind-E;Combat helicopter;Aircraft;2009;Yes;4;No;2010;No;Second hand;9.5000;3.8;15.2;No
+33377;Ukraine;DR Congo;Mi-24V/Hind-E;Combat helicopter;Aircraft;2000;Yes;4;No;2000;No;Second hand;9.5000;3.8;15.2;No
+53631;Ukraine;DR Congo;2S3 152mm;Self-propelled gun;Artillery;2009;No;12;No;2010;No;Second hand;1.0000;0.4;4.8;No
+53630;Ukraine;DR Congo;2S1 122mm;Self-propelled gun;Artillery;2009;No;12;No;2010;No;Second hand;0.9000;0.36;4.32;No
+53086;Ukraine;DR Congo;D-30 122mm;Towed gun;Artillery;2009;No;36;Yes;2010;No;Second hand;0.3500;0.14;5.04;No
+52524;Ukraine;DR Congo;T-72M1;Tank;Armoured vehicles;2009;No;100;No;2010;No;Second hand;2.6000;1.04;104;No
+52523;Ukraine;DR Congo;T-55;Tank;Armoured vehicles;2009;No;30;No;2010;No;Second hand;1.2500;0.5;15;No
+52496;Ukraine;DR Congo;BM-21 Grad 122mm;Self-propelled MRL;Artillery;2009;Yes;12;Yes;2010;No;Second hand but modernized;0.4500;0.297;3.564;No
+52427;Ukraine;DR Congo;M-43 120mm;Mortar;Artillery;2009;Yes;36;Yes;2010;No;Second hand;0.0500;0.02;0.72;No
+39509;Ukraine;DR Congo;BMP-1;IFV;Armoured vehicles;2004;Yes;20;No;2006;No;Second hand;0.9000;0.36;7.2;No
+39507;Ukraine;DR Congo;T-55;Tank;Armoured vehicles;2004;Yes;20;No;2006;No;Second hand;1.2500;0.5;10;No
+27125;Ukraine;DR Congo;Mi-24V/Hind-E;Combat helicopter;Aircraft;1996;Yes;3;No;1996;No;Second hand;9.5000;3.8;11.4;No
+31050;Ukraine;Ecuador;9M33/SA-8 Gecko;SAM;Missiles;1997;Yes;50;Yes;2001;Yes;New;0.1000;0.1000;5;No
+39854;Ukraine;Ecuador;9K33 Osa/SA-8;Mobile SAM system;Air defence systems;1997;Yes;2;Yes;2001;Yes;Second hand;10.0000;4;8;No
+35358;Ukraine;Angola;BTR-80;APC;Armoured vehicles;2002;Yes;11;Yes;2003;Yes;New;0.3500;0.3500;3.85;No
+34068;Ukraine;Angola;Il-76M/Candid-B;Transport aircraft;Aircraft;2002;Yes;1;No;2003;No;Second hand;85.0000;34;34;No
+34068;Ukraine;Angola;Il-76M/Candid-B;Transport aircraft;Aircraft;2002;Yes;1;No;2002;No;Second hand;85.0000;34;34;No
+33977;Ukraine;Angola;Mi-24V/Hind-E;Combat helicopter;Aircraft;2001;Yes;2;No;2001;No;Second hand;9.5000;3.8;7.6;No
+33355;Ukraine;Angola;Mi-24P/Hind-F;Combat helicopter;Aircraft;1999;Yes;3;No;1999;No;Second hand;9.5300;3.812;11.436;No
+33353;Ukraine;Angola;BMP-2;IFV;Armoured vehicles;1999;Yes;31;No;1999;No;Second hand;0.9000;0.36;11.16;No
+31188;Ukraine;Angola;Il-76M/Candid-B;Transport aircraft;Aircraft;1995;Yes;1;No;1998;No;Second hand;85.0000;34;34;No
+31188;Ukraine;Angola;Il-76M/Candid-B;Transport aircraft;Aircraft;1995;Yes;1;No;1996;No;Second hand;85.0000;34;34;No
+25777;Ukraine;Angola;Mi-24V/Hind-E;Combat helicopter;Aircraft;1995;Yes;2;No;1996;No;Second hand;9.5000;3.8;7.6;No
+53350;Ukraine;Bolivia;AI-25;Turbofan;Engines;2009;Yes;6;Yes;2011;Yes;New;0.6000;0.6000;3.6;No
+28180;Ukraine;Cambodia;L-39C Albatros;Trainer aircraft;Aircraft;1995;Yes;4;No;1997;No;Second hand;4.4100;1.764;7.056;No
+24953;Ukraine;Cambodia;Mi-26/Halo;Helicopter;Aircraft;1996;Yes;2;No;1996;No;Second hand;35.7300;14.292;28.584;No
+23310;Ukraine;Cambodia;Mi-8MT/Mi-17/Hip-H;Helicopter;Aircraft;1994;Yes;4;Yes;1994;Yes;Second hand;6.7500;2.7;10.8;No
+53057;Ukraine;Cambodia;BTR-60PB;APC;Armoured vehicles;2010;Yes;40;Yes;2012;No;Second hand;0.2500;0.1;4;No
+29885;Ukraine;Cambodia;Mi-8MT/Mi-17/Hip-H;Helicopter;Aircraft;1997;No;2;No;1997;No;Second hand;6.7500;2.7;5.4;No
+53056;Ukraine;Cambodia;T-55;Tank;Armoured vehicles;2010;Yes;100;Yes;2012;No;Second hand;1.2500;0.5;50;No
+35359;Ukraine;Cote dIvoire;BMP-2;IFV;Armoured vehicles;2003;Yes;1;Yes;2003;Yes;Second hand;0.9000;0.36;0.36;No
+39506;Ukraine;Cyprus;VK-2500;Turboshaft;Engines;2004;Yes;6;Yes;2006;Yes;New;0.9000;0.9000;5.4;No
+31503;Ukraine;Czech Republic;9M114/AT-6 Spiral;Anti-tank missile;Missiles;1998;No;20;Yes;2000;Yes;Second hand;0.0200;0.008;0.16;No
+31503;Ukraine;Czech Republic;9M114/AT-6 Spiral;Anti-tank missile;Missiles;1998;No;20;Yes;1999;Yes;Second hand;0.0200;0.008;0.16;No
+31505;Ukraine;Czech Republic;9M114/AT-6 Spiral;Anti-tank missile;Missiles;2000;No;10;Yes;2000;Yes;Second hand;0.0200;0.008;0.08;No
+50429;Ukraine;Equatorial Guinea;Mi-24V/Hind-E;Combat helicopter;Aircraft;2006;Yes;2;No;2007;No;Second hand;9.5000;3.8;7.6;No
+36167;Ukraine;Equatorial Guinea;Mi-24P/Hind-F;Combat helicopter;Aircraft;2003;Yes;2;No;2004;No;Second hand;9.5300;3.812;7.624;No
+33978;Ukraine;Equatorial Guinea;Mi-24V/Hind-E;Combat helicopter;Aircraft;2001;Yes;2;No;2001;No;Second hand;9.5000;3.8;7.6;No
+55396;Ukraine;Equatorial Guinea;Katran-M;CIWS;Other;2008;Yes;2;No;2009;No;New;0.5500;0.5500;1.1;No
+55393;Ukraine;Equatorial Guinea;AK-176M 76mm;Naval gun;Artillery;2008;Yes;1;No;2009;No;Second hand;2.5000;1;1;No
+54473;Ukraine;Equatorial Guinea;OPV-88;OPV;Ships;2009;Yes;1;No;2012;No;New;60.0000;60.0000;60;No
+52923;Ukraine;Equatorial Guinea;Mi-26/Halo;Helicopter;Aircraft;2009;No;1;No;2011;No;Second hand;35.7300;14.292;14.292;No
+51458;Ukraine;Equatorial Guinea;An-72A/Coaler-C;Transport aircraft;Aircraft;2008;Yes;2;No;2009;No;Second hand;25.0000;10;20;No
+51424;Ukraine;Equatorial Guinea;PV-50M;Patrol craft;Ships;2006;Yes;1;Yes;2008;Yes;New;18.5000;18.5000;18.5;No
+50853;Ukraine;Equatorial Guinea;An-32/Cline;Transport aircraft;Aircraft;2007;No;1;No;2008;No;New;11.0000;11.0000;11;No
+50014;Ukraine;Equatorial Guinea;L-39C Albatros;Trainer aircraft;Aircraft;2006;Yes;2;No;2007;No;Second hand;4.4100;1.764;3.528;No
+40280;Ukraine;Equatorial Guinea;Su-25/Frogfoot-A;Ground attack ac;Aircraft;2006;Yes;2;No;2007;No;Second hand;12.0000;4.8;9.6;No
+40280;Ukraine;Equatorial Guinea;Su-25/Frogfoot-A;Ground attack ac;Aircraft;2006;Yes;2;No;2009;No;Second hand;12.0000;4.8;9.6;No
+35361;Ukraine;Eritrea;Su-27S/Flanker-B;FGA aircraft;Aircraft;2002;Yes;1;No;2003;No;Second hand;42.5000;17;17;No
+35361;Ukraine;Eritrea;Su-27S/Flanker-B;FGA aircraft;Aircraft;2002;Yes;1;No;2002;No;Second hand;42.5000;17;17;No
+35369;Ukraine;Eritrea;R-73/AA-11 Archer;SRAAM;Missiles;2002;Yes;5;No;2002;No;New;0.1500;0.1500;0.75;No
+35368;Ukraine;Eritrea;R-27/AA-10 Alamo;BVRAAM;Missiles;2002;Yes;5;No;2002;No;New;0.1900;0.1900;0.95;No
+56390;Ukraine;Estonia;L-39C Albatros;Trainer aircraft;Aircraft;2013;No;2;No;2013;No;Second hand;4.4100;1.764;3.528;No
+37631;Ukraine;Ethiopia;AI-25;Turbofan;Engines;1997;Yes;2;Yes;1998;Yes;New;0.6000;0.6000;1.2;No
+37631;Ukraine;Ethiopia;AI-25;Turbofan;Engines;1997;Yes;2;No;1997;No;New;0.6000;0.6000;1.2;No
+33526;Ukraine;Ethiopia;Kolchuga;Air search system;Sensors;2000;Yes;3;No;2000;No;New;9.0000;9.0000;27;No
+55377;Ukraine;Ethiopia;T-72B;Tank;Armoured vehicles;2011;No;72;No;2011;No;Second hand;2.6000;1.04;74.88;No
+54476;Ukraine;Ethiopia;Combat;Anti-tank missile;Missiles;2011;No;625;Yes;2013;Yes;New;0.0200;0.0200;12.5;No
+54476;Ukraine;Ethiopia;Combat;Anti-tank missile;Missiles;2011;No;625;Yes;2012;Yes;New;0.0200;0.0200;12.5;No
+53649;Ukraine;Ethiopia;T-72B;Tank;Armoured vehicles;2011;No;29;Yes;2013;No;Second hand but modernized;2.6000;1.716;49.764;No
+53649;Ukraine;Ethiopia;T-72B;Tank;Armoured vehicles;2011;No;99;No;2012;No;Second hand but modernized;2.6000;1.716;169.884;No
+54982;Ukraine;Ethiopia;BTS;ARV;Armoured vehicles;2011;No;4;No;2011;No;Second hand;1.0000;0.4;1.6;No
+39100;Ukraine;Georgia;Mi-8MT/Mi-17/Hip-H;Helicopter;Aircraft;2004;Yes;2;No;2005;No;Second hand;6.7500;2.7;5.4;No
+39084;Ukraine;Georgia;T-72M1;Tank;Armoured vehicles;2004;Yes;16;No;2005;No;Second hand;2.6000;1.04;16.64;No
+39084;Ukraine;Georgia;T-72M1;Tank;Armoured vehicles;2004;Yes;74;No;2007;No;Second hand;2.6000;1.04;76.96;No
+36163;Ukraine;Georgia;2S3 152mm;Self-propelled gun;Artillery;2004;No;6;Yes;2005;Yes;Second hand;1.0000;0.4;2.4;No
+36163;Ukraine;Georgia;2S3 152mm;Self-propelled gun;Artillery;2004;No;6;No;2004;No;Second hand;1.0000;0.4;2.4;No
+36160;Ukraine;Georgia;BMP-2;IFV;Armoured vehicles;2004;No;12;No;2005;No;Second hand;0.9000;0.36;4.32;No
+36160;Ukraine;Georgia;BMP-2;IFV;Armoured vehicles;2004;No;28;No;2004;No;Second hand;0.9000;0.36;10.08;No
+36042;Ukraine;Georgia;BTR-80;APC;Armoured vehicles;2004;No;13;Yes;2005;No;Second hand;0.3500;0.14;1.82;No
+36042;Ukraine;Georgia;BTR-80;APC;Armoured vehicles;2004;No;10;Yes;2004;Yes;Second hand;0.3500;0.14;1.4;No
+31891;Ukraine;Georgia;Porject-206MR/Matka;FAC;Ships;1999;No;1;No;1999;No;Second hand;50.0000;20;20;No
+30360;Ukraine;Georgia;Project-205P/Stenka;Patrol craft;Ships;1998;No;2;Yes;1998;No;Second hand;22.5000;9;18;No
+28153;Ukraine;Georgia;L-29 Delfin;Trainer aircraft;Aircraft;1997;Yes;10;No;1997;No;Second hand;1.0000;0.4;4;No
+22655;Ukraine;Georgia;P-15M/SS-N-2C Styx;Anti-ship missile;Missiles;1999;Yes;5;Yes;1999;Yes;New;0.7500;0.7500;3.75;No
+56731;Ukraine;Georgia;Mi-24V/Hind-E;Combat helicopter;Aircraft;2004;Yes;3;No;2005;No;Second hand;9.5000;3.8;11.4;No
+39099;Ukraine;Georgia;Mi-24P/Hind-F;Combat helicopter;Aircraft;2004;Yes;3;No;2005;No;Second hand;9.5300;3.812;11.436;No
+50802;Ukraine;Georgia;BMP-1U;IFV;Armoured vehicles;2007;Yes;15;No;2008;No;New;1.1000;1.1000;16.5;No
+50801;Ukraine;Georgia;BTR-70;APC;Armoured vehicles;2006;No;5;No;2009;No;Second hand but modernized;0.3000;0.198;0.99;No
+50801;Ukraine;Georgia;BTR-70;APC;Armoured vehicles;2006;No;25;No;2008;No;Second hand but modernized;0.3000;0.198;4.95;No
+50759;Ukraine;Georgia;Kolchuga;Air search system;Sensors;2007;Yes;2;Yes;2008;Yes;Second hand;9.0000;3.6;7.2;No
+50404;Ukraine;Georgia;Combat;Anti-tank missile;Missiles;2006;Yes;400;Yes;2007;Yes;New;0.0200;0.0200;8;No
+50403;Ukraine;Georgia;9M38/SA-11 Gadfly;SAM;Missiles;2006;Yes;48;Yes;2008;Yes;New;0.1500;0.1500;7.2;No
+50403;Ukraine;Georgia;9M38/SA-11 Gadfly;SAM;Missiles;2006;Yes;48;No;2007;No;New;0.1500;0.1500;7.2;No
+50402;Ukraine;Georgia;9K37 Gang/SA-11;SAM system;Air defence systems;2006;No;1;Yes;2008;Yes;Second hand;35.0000;14;14;No
+50402;Ukraine;Georgia;9K37 Gang/SA-11;SAM system;Air defence systems;2006;No;1;Yes;2007;No;Second hand;35.0000;14;14;No
+50401;Ukraine;Georgia;L-39C Albatros;Trainer aircraft;Aircraft;2006;No;8;Yes;2007;No;Second hand;4.4100;1.764;14.112;No
+50399;Ukraine;Georgia;2S7 Pion 203mm;Self-propelled gun;Artillery;2006;Yes;5;Yes;2007;Yes;Second hand;1.1000;0.44;2.2;No
+50398;Ukraine;Georgia;BREM-1;ARV;Armoured vehicles;2006;Yes;6;No;2007;No;Second hand;1.4000;0.56;3.36;No
+39696;Ukraine;Georgia;9M33/SA-8 Gecko;SAM;Missiles;2005;Yes;48;No;2006;No;Second hand;0.1000;0.04;1.92;No
+39695;Ukraine;Georgia;9K33 Osa/SA-8;Mobile SAM system;Air defence systems;2005;Yes;4;Yes;2006;No;Second hand;10.0000;4;16;No
+39695;Ukraine;Georgia;9K33 Osa/SA-8;Mobile SAM system;Air defence systems;2005;Yes;2;Yes;2008;Yes;Second hand;10.0000;4;8;No
+39234;Ukraine;Georgia;ST-68/Tin Shield;Air search radar;Sensors;2005;No;2;Yes;2006;No;New;12.5000;12.5000;25;No
+27136;Ukraine;Greece;Zubr/Pomornik;ACV/landing craft;Ships;2000;No;1;No;2001;No;New;63.3000;63.3000;63.3;No
+33979;Ukraine;Guinea;Mi-8MT/Mi-17/Hip-H;Helicopter;Aircraft;2001;Yes;2;No;2001;No;Second hand;6.7500;2.7;5.4;No
+29861;Ukraine;Guinea;BRDM-2;Reconnaissance AV;Armoured vehicles;1998;Yes;4;No;1998;No;Second hand;0.1500;0.06;0.24;No
+32060;Ukraine;Guinea;Mi-24V/Hind-E;Combat helicopter;Aircraft;2000;Yes;3;No;2000;No;Second hand;9.5000;3.8;11.4;No
+29864;Ukraine;Guinea;Mi-24V/Hind-E;Combat helicopter;Aircraft;1998;Yes;1;No;1998;No;Second hand;9.5000;3.8;3.8;No
+35171;Ukraine;Hungary;An-26/Curl;Transport aircraft;Aircraft;2004;Yes;1;No;2004;No;Second hand;8.5000;3.4;3.4;No
+37958;Ukraine;India;DR-76;Gas turbine;Engines;1990;No;4;No;2002;No;New;0.7500;0.7500;3;No
+37958;Ukraine;India;DR-76;Gas turbine;Engines;1990;No;2;No;1997;No;New;0.7500;0.7500;1.5;No
+37958;Ukraine;India;DR-76;Gas turbine;Engines;1990;No;2;No;1995;No;New;0.7500;0.7500;1.5;No
+37958;Ukraine;India;DR-76;Gas turbine;Engines;1990;No;2;No;1994;No;New;0.7500;0.7500;1.5;No
+37958;Ukraine;India;DR-76;Gas turbine;Engines;1990;No;2;No;1993;No;New;0.7500;0.7500;1.5;No
+37958;Ukraine;India;DR-76;Gas turbine;Engines;1990;No;2;No;1992;No;New;0.7500;0.7500;1.5;No
+37957;Ukraine;India;DR-77;Gas turbine;Engines;1990;No;2;No;2002;No;New;2.5000;2.5000;5;No
+37957;Ukraine;India;DR-77;Gas turbine;Engines;1990;No;2;No;1997;No;New;2.5000;2.5000;5;No
+37957;Ukraine;India;DR-77;Gas turbine;Engines;1990;No;2;No;1995;No;New;2.5000;2.5000;5;No
+37957;Ukraine;India;DR-77;Gas turbine;Engines;1990;No;2;No;1994;No;New;2.5000;2.5000;5;No
+37957;Ukraine;India;DR-77;Gas turbine;Engines;1990;No;2;No;1993;No;New;2.5000;2.5000;5;No
+37957;Ukraine;India;DR-77;Gas turbine;Engines;1990;No;2;No;1992;No;New;2.5000;2.5000;5;No
+35498;Ukraine;India;MiG-23MS/Flogger-E;Fighter aircraft;Aircraft;2002;No;6;No;2004;No;Second hand;13.0000;5.2;31.2;No
+35042;Ukraine;India;DT-59;Gas turbine;Engines;1986;Yes;4;No;2001;No;New;5.0000;5.0000;20;No
+35042;Ukraine;India;DT-59;Gas turbine;Engines;1986;Yes;4;No;1999;No;New;5.0000;5.0000;20;No
+35042;Ukraine;India;DT-59;Gas turbine;Engines;1986;Yes;4;No;1997;No;New;5.0000;5.0000;20;No
+34885;Ukraine;India;DT-59;Gas turbine;Engines;1997;No;2;No;2004;No;New;5.0000;5.0000;10;No
+34885;Ukraine;India;DT-59;Gas turbine;Engines;1997;No;4;No;2003;No;New;5.0000;5.0000;20;No
+34884;Ukraine;India;DS-71;Gas turbine;Engines;1997;No;2;No;2004;No;New;2.7500;2.7500;5.5;No
+34884;Ukraine;India;DS-71;Gas turbine;Engines;1997;No;4;No;2003;No;New;2.7500;2.7500;11;No
+34884;Ukraine;India;DS-71;Gas turbine;Engines;1997;No;2;No;2002;No;New;2.7500;2.7500;5.5;No
+34400;Ukraine;India;MiG-21PFM/Fishbed-F;Fighter aircraft;Aircraft;2003;No;8;Yes;2003;Yes;Second hand;10.0000;4;32;No
+28435;Ukraine;India;ST-68/Tin Shield;Air search radar;Sensors;1994;Yes;1;Yes;1995;Yes;New;12.5000;12.5000;12.5;No
+28422;Ukraine;India;R-27/AA-10 Alamo;BVRAAM;Missiles;1996;Yes;104;Yes;1997;Yes;New;0.1900;0.1900;19.76;No
+28422;Ukraine;India;R-27/AA-10 Alamo;BVRAAM;Missiles;1996;Yes;144;No;2004;No;New;0.1900;0.1900;27.36;No
+28422;Ukraine;India;R-27/AA-10 Alamo;BVRAAM;Missiles;1996;Yes;72;No;2003;No;New;0.1900;0.1900;13.68;No
+28422;Ukraine;India;R-27/AA-10 Alamo;BVRAAM;Missiles;1996;Yes;40;No;2000;No;New;0.1900;0.1900;7.6;No
+28422;Ukraine;India;R-27/AA-10 Alamo;BVRAAM;Missiles;1996;Yes;76;No;1999;No;New;0.1900;0.1900;14.44;No
+28334;Ukraine;India;MiG-21PFM/Fishbed-F;Fighter aircraft;Aircraft;1996;Yes;3;No;2000;No;Second hand;10.0000;4;12;No
+28334;Ukraine;India;MiG-21PFM/Fishbed-F;Fighter aircraft;Aircraft;1996;Yes;5;No;1997;No;Second hand;10.0000;4;20;No
+55067;Ukraine;India;R-27/AA-10 Alamo;BVRAAM;Missiles;2012;No;250;Yes;2013;No;New;0.1900;0.1900;47.5;No
+53496;Ukraine;India;AI-20;Turboprop;Engines;2009;No;20;Yes;2013;No;New;1.4000;1.4000;28;No
+53496;Ukraine;India;AI-20;Turboprop;Engines;2009;No;20;Yes;2012;No;New;1.4000;1.4000;28;No
+53496;Ukraine;India;AI-20;Turboprop;Engines;2009;No;20;Yes;2011;No;New;1.4000;1.4000;28;No
+39389;Ukraine;India;DS-71;Gas turbine;Engines;2006;No;2;No;2013;No;New;2.7500;2.7500;5.5;No
+39389;Ukraine;India;DS-71;Gas turbine;Engines;2006;No;4;No;2012;No;New;2.7500;2.7500;11;No
+39388;Ukraine;India;DT-59;Gas turbine;Engines;2006;No;2;No;2013;No;New;5.0000;5.0000;10;No
+39388;Ukraine;India;DT-59;Gas turbine;Engines;2006;No;4;No;2012;No;New;5.0000;5.0000;20;No
+29851;Ukraine;Indonesia;BMP-2;IFV;Armoured vehicles;1998;Yes;2;Yes;1998;Yes;Second hand;0.9000;0.36;0.72;No
+28420;Ukraine;Indonesia;BREM-2;ARV;Armoured vehicles;1996;Yes;3;No;1997;No;Second hand;0.2800;0.112;0.336;No
+27370;Ukraine;Indonesia;BTR-50;APC;Armoured vehicles;1997;No;25;No;1999;No;Second hand;0.2500;0.1;2.5;No
+27370;Ukraine;Indonesia;BTR-50;APC;Armoured vehicles;1997;No;9;No;1997;No;Second hand;0.2500;0.1;0.9;No
+21571;Ukraine;Iran;S-200/SA-5 Gammon;SAM;Missiles;1992;No;10;Yes;1993;No;New;0.5000;0.5000;5;No
+27381;Ukraine;Iran;An-74/Coaler-B;Transport aircraft;Aircraft;1997;No;5;Yes;2002;No;New;26.0000;26.0000;130;No
+27381;Ukraine;Iran;An-74/Coaler-B;Transport aircraft;Aircraft;1997;No;5;Yes;2001;No;New;26.0000;26.0000;130;No
+27381;Ukraine;Iran;An-74/Coaler-B;Transport aircraft;Aircraft;1997;No;2;Yes;1998;Yes;New;26.0000;26.0000;52;No
+35890;Ukraine;Iran;Kh-55/AS-15 Kent;ALCM;Missiles;2000;Yes;6;Yes;2001;No;New;2.0000;2.0000;12;No
+35971;Ukraine;Iraq;BTR-80;APC;Armoured vehicles;2005;No;29;Yes;2007;No;New;0.3500;0.3500;10.15;No
+35971;Ukraine;Iraq;BTR-80;APC;Armoured vehicles;2005;No;3;No;2006;No;New;0.3500;0.3500;1.05;No
+57095;Ukraine;Iraq;AI-20;Turboprop;Engines;2009;No;2;No;2012;No;New;1.4000;1.4000;2.8;No
+53351;Ukraine;Iraq;BTR-4K;APC;Armoured vehicles;2009;No;22;No;2012;No;New;0.4000;0.4000;8.8;No
+53351;Ukraine;Iraq;BTR-4K;APC;Armoured vehicles;2009;No;6;Yes;2011;No;New;0.4000;0.4000;2.4;No
+53352;Ukraine;Iraq;R-2;Anti-tank missile;Missiles;2009;Yes;700;Yes;2012;Yes;New;0.0400;0.0400;28;No
+53352;Ukraine;Iraq;R-2;Anti-tank missile;Missiles;2009;Yes;95;Yes;2011;Yes;New;0.0400;0.0400;3.8;No
+40058;Ukraine;Iraq;BTR-4;IFV;Armoured vehicles;2009;No;40;No;2012;No;New;1.0000;1.0000;40;No
+40058;Ukraine;Iraq;BTR-4;IFV;Armoured vehicles;2009;No;20;Yes;2011;No;New;1.0000;1.0000;20;No
+52665;Ukraine;Iraq;BREM-1;ARV;Armoured vehicles;2006;No;22;Yes;2010;Yes;Second hand;1.4000;0.56;12.32;No
+50421;Ukraine;Iraq;BMP-1;IFV;Armoured vehicles;2006;Yes;110;No;2007;No;Second hand;0.9000;0.36;39.6;No
+40062;Ukraine;Iraq;BREM-1;ARV;Armoured vehicles;2005;No;2;Yes;2010;Yes;Second hand;1.4000;0.56;1.12;No
+40062;Ukraine;Iraq;BREM-1;ARV;Armoured vehicles;2005;No;34;No;2006;No;Second hand;1.4000;0.56;19.04;No
+40062;Ukraine;Iraq;BREM-1;ARV;Armoured vehicles;2005;No;26;No;2009;No;Second hand;1.4000;0.56;14.56;No
+40062;Ukraine;Iraq;BREM-1;ARV;Armoured vehicles;2005;No;4;No;2008;No;Second hand;1.4000;0.56;2.24;No
+39801;Ukraine;Iraq;BRDM-2;Reconnaissance AV;Armoured vehicles;2005;Yes;13;No;2006;No;Second hand;0.1500;0.06;0.78;No
+51405;Ukraine;Iraq;An-32/Cline;Transport aircraft;Aircraft;2009;No;4;No;2012;No;New;11.0000;11.0000;44;No
+51405;Ukraine;Iraq;An-32/Cline;Transport aircraft;Aircraft;2009;No;2;No;2011;No;New;11.0000;11.0000;22;No
+30837;Ukraine;Jordan;BTR-94;IFV;Armoured vehicles;1999;No;25;Yes;2000;No;New;0.8000;0.8000;20;No
+30837;Ukraine;Jordan;BTR-94;IFV;Armoured vehicles;1999;No;25;Yes;1999;No;New;0.8000;0.8000;20;No
+40284;Ukraine;Jordan;An-32/Cline;Transport aircraft;Aircraft;2006;Yes;3;Yes;2008;No;New;11.0000;11.0000;33;No
+36676;Ukraine;Laos;An-74/Coaler-B;Transport aircraft;Aircraft;2006;Yes;1;No;2009;No;New;26.0000;26.0000;26;No
+30868;Ukraine;Laos;An-74/Coaler-B;Transport aircraft;Aircraft;1998;No;1;No;1999;No;New;26.0000;26.0000;26;No
+22480;Ukraine;Malaysia;R-27/AA-10 Alamo;BVRAAM;Missiles;1994;No;131;No;1995;No;New;0.1900;0.1900;24.89;No
+55171;Ukraine;Mali;BTR-70;APC;Armoured vehicles;2011;Yes;9;No;2012;No;Second hand;0.3000;0.12;1.08;No
+55170;Ukraine;Mali;BTR-60PB;APC;Armoured vehicles;2011;Yes;10;No;2012;No;Second hand;0.2500;0.1;1;No
+29865;Ukraine;Mexico;Mi-8MT/Mi-17/Hip-H;Helicopter;Aircraft;1997;Yes;6;Yes;1998;No;Second hand;6.7500;2.7;16.2;No
+28952;Ukraine;Mexico;An-32/Cline;Transport aircraft;Aircraft;2000;Yes;4;Yes;2000;Yes;Second hand;11.0000;4.4;17.6;No
+28782;Ukraine;Mexico;An-32/Cline;Transport aircraft;Aircraft;1996;Yes;2;Yes;1997;No;New;11.0000;11.0000;22;No
+28782;Ukraine;Mexico;An-32/Cline;Transport aircraft;Aircraft;1996;Yes;1;Yes;1999;Yes;New;11.0000;11.0000;11;No
+28782;Ukraine;Mexico;An-32/Cline;Transport aircraft;Aircraft;1996;Yes;1;Yes;1998;Yes;New;11.0000;11.0000;11;No
+56421;Ukraine;Mozambique;An-26/Curl;Transport aircraft;Aircraft;2013;No;2;Yes;2013;Yes;Second hand;8.5000;3.4;6.8;No
+37060;Ukraine;Namibia;AI-25;Turbofan;Engines;2000;No;4;Yes;2001;No;New;0.6000;0.6000;2.4;No
+55977;Ukraine;Niger;Su-25/Frogfoot-A;Ground attack ac;Aircraft;2012;No;2;No;2013;No;Second hand;12.0000;4.8;9.6;No
+53650;Ukraine;Nigeria;BTR-3;APC;Armoured vehicles;2005;No;7;No;2007;No;New;0.3000;0.3000;2.1;No
+39944;Ukraine;Nigeria;BTR-3U Guardian;IFV;Armoured vehicles;2005;Yes;30;No;2007;No;New;0.9000;0.9000;27;No
+39944;Ukraine;Nigeria;BTR-3U Guardian;IFV;Armoured vehicles;2005;Yes;10;No;2006;No;New;0.9000;0.9000;9;No
+57011;Ukraine;Nigeria;BTR-3;APC;Armoured vehicles;2012;Yes;4;Yes;2013;No;New;0.3000;0.3000;1.2;No
+50592;Ukraine;Nigeria;Mi-24V/Hind-E;Combat helicopter;Aircraft;2008;Yes;1;No;2008;No;Second hand;9.5000;3.8;3.8;No
+53988;Ukraine;Nigeria;Mi-24P/Hind-F;Combat helicopter;Aircraft;2007;Yes;2;No;2008;No;Second hand;9.5300;3.812;7.624;No
+50432;Ukraine;Russia;Kh-59M/AS-18 Kazoo;ASM;Missiles;2006;Yes;100;No;2007;No;New;1.0000;1.0000;100;No
+56837;Ukraine;Russia;An-148;Transport aircraft;Aircraft;2013;No;1;No;2013;No;New;26.0000;26.0000;26;Yes
+53770;Ukraine;Russia;An-140;Transport aircraft;Aircraft;2011;No;6;Yes;2012;No;New;9.5000;9.5000;57;Yes
+53770;Ukraine;Russia;An-140;Transport aircraft;Aircraft;2011;No;7;Yes;2013;No;New;9.5000;9.5000;66.5;Yes
+39788;Ukraine;Russia;AI-222;Turbofan;Engines;2006;No;40;Yes;2013;No;New;1.2000;1.2000;48;Yes
+39788;Ukraine;Russia;AI-222;Turbofan;Engines;2006;No;20;Yes;2012;No;New;1.2000;1.2000;24;Yes
+39788;Ukraine;Russia;AI-222;Turbofan;Engines;2006;No;18;Yes;2010;No;New;1.2000;1.2000;21.6;Yes
+39788;Ukraine;Russia;AI-222;Turbofan;Engines;2006;No;6;Yes;2009;No;New;1.2000;1.2000;7.2;Yes
+56623;Ukraine;Rwanda;BAU-32x2;IFV turret;Other;2012;Yes;5;Yes;2013;Yes;New;0.4000;0.4000;2;No
+33354;Ukraine;Sierra Leone;Mi-24V/Hind-E;Combat helicopter;Aircraft;1999;Yes;2;No;1999;No;Second hand;9.5000;3.8;7.6;No
+29417;Ukraine;Sierra Leone;Mi-8MT/Mi-17/Hip-H;Helicopter;Aircraft;1994;Yes;2;Yes;1994;Yes;Second hand;6.7500;2.7;5.4;No
+29416;Ukraine;Sierra Leone;Mi-8MT/Mi-17/Hip-H;Helicopter;Aircraft;1997;Yes;2;No;1999;No;Second hand;6.7500;2.7;5.4;No
+24299;Ukraine;Sierra Leone;T-72;Tank;Armoured vehicles;1994;No;2;No;1995;No;Second hand;2.1400;0.856;1.712;No
+39133;Ukraine;Slovakia;R-27/AA-10 Alamo;BVRAAM;Missiles;2005;Yes;3;No;2005;No;New;0.1900;0.1900;0.57;No
+39098;Ukraine;Slovakia;L-39C Albatros;Trainer aircraft;Aircraft;2004;Yes;2;No;2005;No;Second hand;4.4100;1.764;3.528;No
+33361;Ukraine;Slovakia;RVV-AE/AA-12 Adder;BVRAAM;Missiles;2000;Yes;3;No;2000;No;New;0.4000;0.4000;1.2;No
+24301;Ukraine;Slovakia;R-27/AA-10 Alamo;BVRAAM;Missiles;1995;No;14;No;1995;No;New;0.1900;0.1900;2.66;No
+24300;Ukraine;Slovakia;BMP-2;IFV;Armoured vehicles;1994;No;6;No;1995;No;New;0.9000;0.9000;5.4;No
+50431;Ukraine;Slovakia;R-73/AA-11 Archer;SRAAM;Missiles;2006;Yes;6;No;2007;No;New;0.1500;0.1500;0.9;No
+21170;Ukraine;South Africa;Juvent;Supply ship;Ships;1992;No;1;No;1992;No;New;140.0000;140.0000;140;No
+50426;Ukraine;South Sudan;BM-21 Grad 122mm;Self-propelled MRL;Artillery;2006;Yes;3;No;2007;Yes;Second hand;0.4500;0.18;0.54;No
+50426;Ukraine;South Sudan;BM-21 Grad 122mm;Self-propelled MRL;Artillery;2006;Yes;2;No;2008;Yes;Second hand;0.4500;0.18;0.36;No
+50426;Ukraine;South Sudan;BM-21 Grad 122mm;Self-propelled MRL;Artillery;2006;Yes;6;No;2009;Yes;Second hand;0.4500;0.18;1.08;No
+50419;Ukraine;South Sudan;T-72M1;Tank;Armoured vehicles;2006;Yes;35;Yes;2007;Yes;Second hand;2.6000;1.04;36.4;No
+50419;Ukraine;South Sudan;T-72M1;Tank;Armoured vehicles;2006;Yes;42;Yes;2008;Yes;Second hand;2.6000;1.04;43.68;No
+25750;Ukraine;Sudan;BMP-2;IFV;Armoured vehicles;1995;Yes;6;No;1996;No;Second hand;0.9000;0.36;2.16;No
+54985;Ukraine;Sudan;9M14M/AT-3 Sagger;Anti-tank missile;Missiles;2011;Yes;42;Yes;2011;No;Second hand;0.0100;0.004;0.168;No
+53638;Ukraine;Sudan;T-72M1;Tank;Armoured vehicles;2009;Yes;10;No;2012;No;Second hand;2.6000;1.04;10.4;No
+53638;Ukraine;Sudan;T-72M1;Tank;Armoured vehicles;2009;Yes;40;No;2011;No;Second hand;2.6000;1.04;41.6;No
+53638;Ukraine;Sudan;T-72M1;Tank;Armoured vehicles;2009;Yes;60;No;2010;No;Second hand;2.6000;1.04;62.4;No
+50461;Ukraine;Sudan;An-32/Cline;Transport aircraft;Aircraft;2005;Yes;3;Yes;2009;No;New;11.0000;11.0000;33;No
+50461;Ukraine;Sudan;An-32/Cline;Transport aircraft;Aircraft;2005;Yes;2;Yes;2008;Yes;New;11.0000;11.0000;22;No
+54980;Ukraine;Sudan;BMP-1;IFV;Armoured vehicles;2011;Yes;14;No;2012;No;Second hand;0.9000;0.36;5.04;No
+54980;Ukraine;Sudan;BMP-1;IFV;Armoured vehicles;2011;Yes;16;No;2011;No;Second hand;0.9000;0.36;5.76;No
+54976;Ukraine;Sudan;2S1 122mm;Self-propelled gun;Artillery;2011;Yes;11;No;2012;No;Second hand;0.9000;0.36;3.96;No
+54976;Ukraine;Sudan;2S1 122mm;Self-propelled gun;Artillery;2011;Yes;30;No;2011;No;Second hand;0.9000;0.36;10.8;No
+53639;Ukraine;Sudan;T-55;Tank;Armoured vehicles;2009;Yes;5;No;2011;No;Second hand;1.2500;0.5;2.5;No
+53639;Ukraine;Sudan;T-55;Tank;Armoured vehicles;2009;Yes;55;No;2010;No;Second hand;1.2500;0.5;27.5;No
+54981;Ukraine;Sudan;BRDM-2;Reconnaissance AV;Armoured vehicles;2011;Yes;10;No;2011;No;Second hand;0.1500;0.06;0.6;No
+54971;Ukraine;Sudan;MiG-29/Fulcrum-A;Fighter aircraft;Aircraft;2011;Yes;1;No;2011;No;Second hand;20.6500;8.26;8.26;No
+54975;Ukraine;Sudan;BM-21 Grad 122mm;Self-propelled MRL;Artillery;2011;Yes;30;No;2011;No;Second hand;0.4500;0.18;5.4;No
+53641;Ukraine;Sudan;BTR-3U Guardian;IFV;Armoured vehicles;2009;Yes;8;No;2011;No;New;0.9000;0.9000;7.2;No
+53641;Ukraine;Sudan;BTR-3U Guardian;IFV;Armoured vehicles;2009;Yes;2;No;2010;No;New;0.9000;0.9000;1.8;No
+39551;Ukraine;Sudan;AI-25;Turbofan;Engines;2004;Yes;6;Yes;2008;Yes;New;0.6000;0.6000;3.6;No
+39551;Ukraine;Sudan;AI-25;Turbofan;Engines;2004;Yes;6;Yes;2006;Yes;New;0.6000;0.6000;3.6;No
+55631;Ukraine;Tanzania;AI-25;Turbofan;Engines;2010;Yes;3;Yes;2012;Yes;New;0.6000;0.6000;1.8;No
+55631;Ukraine;Tanzania;AI-25;Turbofan;Engines;2010;Yes;3;Yes;2011;Yes;New;0.6000;0.6000;1.8;No
+34597;Ukraine;Turkmenistan;Kolchuga;Air search system;Sensors;2003;No;2;Yes;2003;No;New;9.0000;9.0000;18;No
+34597;Ukraine;Turkmenistan;Kolchuga;Air search system;Sensors;2003;No;1;Yes;2004;Yes;New;9.0000;9.0000;9;No
+57161;Ukraine;Turkmenistan;2A36 Hyacinth 152mm;Towed gun;Artillery;2011;Yes;6;No;2012;No;Second hand;1.0000;0.4;2.4;No
+54973;Ukraine;Turkmenistan;2A65 MSTA-B 152mm;Towed gun;Artillery;2011;Yes;6;No;2011;No;Second hand;1.0000;0.4;2.4;No
+54974;Ukraine;Turkmenistan;M-46 130mm;Towed gun;Artillery;2011;Yes;6;No;2011;No;Second hand;0.6500;0.26;1.56;No
+54352;Ukraine;Turkmenistan;BMP-1U;IFV;Armoured vehicles;2008;Yes;4;Yes;2008;Yes;New;1.1000;1.1000;4.4;No
+54350;Ukraine;Turkmenistan;Grom;AV turret;Other;2008;Yes;4;Yes;2008;Yes;New;0.6000;0.6000;2.4;No
+53075;Ukraine;Turkmenistan;DR-76;Gas turbine;Engines;2008;Yes;4;No;2011;No;New;0.7500;0.7500;3;No
+53074;Ukraine;Turkmenistan;DR-77;Gas turbine;Engines;2008;Yes;4;No;2011;No;New;2.5000;2.5000;10;No
+37059;Ukraine;Myanmar;AI-25;Turbofan;Engines;1997;Yes;12;Yes;1999;No;New;0.6000;0.6000;7.2;No
+35098;Ukraine;Myanmar;ST-68/Tin Shield;Air search radar;Sensors;2002;No;1;Yes;2003;Yes;New;12.5000;12.5000;12.5;No
+32310;Ukraine;Myanmar;R-27/AA-10 Alamo;BVRAAM;Missiles;2002;Yes;10;No;2003;No;New;0.1900;0.1900;1.9;No
+52409;Ukraine;Myanmar;AI-25;Turbofan;Engines;2009;No;10;Yes;2013;Yes;New;0.6000;0.6000;6;No
+52409;Ukraine;Myanmar;AI-25;Turbofan;Engines;2009;No;20;Yes;2012;Yes;New;0.6000;0.6000;12;No
+52409;Ukraine;Myanmar;AI-25;Turbofan;Engines;2009;No;20;Yes;2011;No;New;0.6000;0.6000;12;No
+35097;Ukraine;Myanmar;BTR-3U Guardian;IFV;Armoured vehicles;2003;Yes;10;No;2003;No;New;0.9000;0.9000;9;No
+34298;Ukraine;Myanmar;T-72B;Tank;Armoured vehicles;2002;Yes;14;No;2002;No;Second hand;2.6000;1.04;14.56;No
+50422;Ukraine;Myanmar;MT-LB;APC;Armoured vehicles;2006;Yes;16;No;2009;No;Second hand;0.2200;0.088;1.408;No
+50422;Ukraine;Myanmar;MT-LB;APC;Armoured vehicles;2006;Yes;10;No;2007;No;Second hand;0.2200;0.088;0.88;No
+33744;Ukraine;Nepal;Mi-8MT/Mi-17/Hip-H;Helicopter;Aircraft;2002;Yes;2;Yes;2002;Yes;Second hand;6.7500;2.7;5.4;No
+24304;Ukraine;Peru;An-32/Cline;Transport aircraft;Aircraft;1993;No;5;No;1994;No;New;11.0000;11.0000;55;No
+23122;Ukraine;Peru;An-72A/Coaler-C;Transport aircraft;Aircraft;1993;Yes;4;Yes;1994;No;New;25.0000;25.0000;100;No
+34679;Ukraine;Serbia;T-72;Tank;Armoured vehicles;2001;Yes;31;No;2001;No;Second hand;2.1400;0.856;26.536;No
+34416;Ukraine;Serbia;Mi-8MT/Mi-17/Hip-H;Helicopter;Aircraft;1998;No;2;No;1998;No;Second hand;6.7500;2.7;5.4;No
+27096;Ukraine;Serbia;Mi-24V/Hind-E;Combat helicopter;Aircraft;1997;Yes;2;No;1997;No;Second hand;9.5000;3.8;7.6;No
+53681;Ukraine;Thailand;BTR-3U Guardian;IFV;Armoured vehicles;2010;Yes;6;No;2012;No;New;0.9000;0.9000;5.4;No
+53683;Ukraine;Thailand;R-2;Anti-tank missile;Missiles;2011;Yes;350;Yes;2013;Yes;New;0.0400;0.0400;14;No
+53683;Ukraine;Thailand;R-2;Anti-tank missile;Missiles;2011;Yes;150;Yes;2012;Yes;New;0.0400;0.0400;6;No
+39948;Ukraine;Thailand;BTR-3U Guardian;IFV;Armoured vehicles;2008;No;14;No;2010;No;New;0.8200;0.8200;11.48;No
+39948;Ukraine;Thailand;BTR-3U Guardian;IFV;Armoured vehicles;2008;No;24;No;2011;No;New;0.8200;0.8200;19.68;No
+39948;Ukraine;Thailand;BTR-3U Guardian;IFV;Armoured vehicles;2008;No;58;No;2012;No;New;0.8200;0.8200;47.56;No
+37629;Ukraine;Thailand;AI-25;Turbofan;Engines;1996;No;2;Yes;1997;No;New;0.6000;0.6000;1.2;No
+37629;Ukraine;Thailand;AI-25;Turbofan;Engines;1996;No;2;Yes;1996;No;New;0.6000;0.6000;1.2;No
+37628;Ukraine;Thailand;AI-25;Turbofan;Engines;1992;No;28;Yes;1994;No;New;0.6000;0.6000;16.8;No
+37628;Ukraine;Thailand;AI-25;Turbofan;Engines;1992;No;8;Yes;1993;No;New;0.6000;0.6000;4.8;No
+37300;Ukraine;Thailand;BTR-3U Guardian;IFV;Armoured vehicles;2011;No;35;Yes;2013;No;New;0.8200;0.8200;28.7;No
+37300;Ukraine;Thailand;BTR-3U Guardian;IFV;Armoured vehicles;2011;No;16;Yes;2012;No;New;0.8200;0.8200;13.12;No
+51398;Ukraine;Thailand;R-2;Anti-tank missile;Missiles;2008;Yes;850;Yes;2012;Yes;New;0.0400;0.0400;34;No
+51398;Ukraine;Thailand;R-2;Anti-tank missile;Missiles;2008;Yes;50;Yes;2010;Yes;New;0.0400;0.0400;2;No
+51398;Ukraine;Thailand;R-2;Anti-tank missile;Missiles;2008;Yes;100;Yes;2011;Yes;New;0.0400;0.0400;4;No
+32177;Ukraine;UAE;BTR-3U Guardian;IFV;Armoured vehicles;2002;No;24;Yes;2003;No;New;0.9000;0.9000;21.6;Yes
+36161;Ukraine;Uganda;BMP-2;IFV;Armoured vehicles;2003;Yes;12;No;2005;No;Second hand;0.9000;0.36;4.32;No
+36161;Ukraine;Uganda;BMP-2;IFV;Armoured vehicles;2003;Yes;19;No;2004;No;Second hand;0.9000;0.36;6.84;No
+32288;Ukraine;Uganda;Mi-24P/Hind-F;Combat helicopter;Aircraft;1999;No;1;No;1999;No;Second hand;9.5300;3.812;3.812;No
+28656;Ukraine;Uganda;T-55;Tank;Armoured vehicles;1998;Yes;62;No;1998;No;Second hand;1.2500;0.5;31;No
+24373;Ukraine;Uganda;T-55;Tank;Armoured vehicles;1994;Yes;60;No;1995;No;Second hand;1.2500;0.5;30;No
+24371;Ukraine;Uganda;BTS;ARV;Armoured vehicles;1994;Yes;2;No;1995;No;Second hand;1.0000;0.4;0.8;No
+52583;Ukraine;Uganda;5V27/SA-3B Goa;SAM;Missiles;2008;No;150;Yes;2012;Yes;Second hand;0.1200;0.048;7.2;No
+52583;Ukraine;Uganda;5V27/SA-3B Goa;SAM;Missiles;2008;No;75;Yes;2011;Yes;Second hand;0.1200;0.048;3.6;No
+52583;Ukraine;Uganda;5V27/SA-3B Goa;SAM;Missiles;2008;No;75;Yes;2010;No;Second hand;0.1200;0.048;3.6;No
+52582;Ukraine;Uganda;S-125-2D/SA-3;SAM system;Air defence systems;2008;No;2;Yes;2012;Yes;New;25.0000;25.0000;50;No
+52582;Ukraine;Uganda;S-125-2D/SA-3;SAM system;Air defence systems;2008;No;1;Yes;2011;Yes;New;25.0000;25.0000;25;No
+52582;Ukraine;Uganda;S-125-2D/SA-3;SAM system;Air defence systems;2008;No;1;No;2010;No;New;25.0000;25.0000;25;No
+54984;Ukraine;Uganda;9M111/AT-4 Spigot;Anti-tank missile;Missiles;2011;Yes;15;Yes;2011;No;Second hand;0.0100;0.004;0.06;No
+39947;Ukraine;Uganda;MiG-21bis/Fishbed-N;Fighter aircraft;Aircraft;2005;Yes;1;No;2006;No;Second hand;12.5000;5;5;No
+53515;Ukraine;Venezuela;DSL-5612;Landing craft;Ships;2009;No;2;Yes;2013;No;New;14.0000;14.0000;28;No
+53515;Ukraine;Venezuela;DSL-5612;Landing craft;Ships;2009;No;2;No;2012;No;New;14.0000;14.0000;28;No
+51434;Ukraine;Venezuela;AI-25;Turbofan;Engines;2008;No;18;No;2010;No;New;0.6000;0.6000;10.8;No
+39094;Ukraine;Viet Nam;Su-22/Fitter-H/J/K;FGA aircraft;Aircraft;2004;Yes;5;Yes;2006;Yes;Second hand;13.0000;5.2;26;No
+39094;Ukraine;Viet Nam;Su-22/Fitter-H/J/K;FGA aircraft;Aircraft;2004;Yes;3;Yes;2005;Yes;Second hand;13.0000;5.2;15.6;No
+37963;Ukraine;Viet Nam;DR-76;Gas turbine;Engines;2004;Yes;4;No;2008;No;New;0.7500;0.7500;3;No
+37962;Ukraine;Viet Nam;DR-77;Gas turbine;Engines;1998;Yes;4;No;1999;No;New;2.5000;2.5000;10;No
+37961;Ukraine;Viet Nam;DR-77;Gas turbine;Engines;1994;No;4;No;1996;No;New;2.5000;2.5000;10;No
+37960;Ukraine;Viet Nam;DR-76;Gas turbine;Engines;1998;Yes;4;No;1999;No;New;0.7500;0.7500;3;No
+37959;Ukraine;Viet Nam;DR-76;Gas turbine;Engines;1994;No;4;No;1996;No;New;0.7500;0.7500;3;No
+34883;Ukraine;Viet Nam;DR-77;Gas turbine;Engines;2004;Yes;4;No;2008;No;New;2.5000;2.5000;10;No
+25713;Ukraine;Viet Nam;MiG-21PFM/Fishbed-F;Fighter aircraft;Aircraft;1995;Yes;6;No;1996;No;Second hand;10.0000;4;24;No
+23431;Ukraine;Viet Nam;R-27/AA-10 Alamo;BVRAAM;Missiles;1994;Yes;27;Yes;2000;No;New;0.1900;0.1900;5.13;No
+23431;Ukraine;Viet Nam;R-27/AA-10 Alamo;BVRAAM;Missiles;1994;Yes;27;Yes;1999;No;New;0.1900;0.1900;5.13;No
+23431;Ukraine;Viet Nam;R-27/AA-10 Alamo;BVRAAM;Missiles;1994;Yes;27;Yes;1998;Yes;New;0.1900;0.1900;5.13;No
+23431;Ukraine;Viet Nam;R-27/AA-10 Alamo;BVRAAM;Missiles;1994;Yes;28;Yes;1997;Yes;New;0.1900;0.1900;5.32;No
+23431;Ukraine;Viet Nam;R-27/AA-10 Alamo;BVRAAM;Missiles;1994;Yes;27;Yes;1996;Yes;New;0.1900;0.1900;5.13;No
+23431;Ukraine;Viet Nam;R-27/AA-10 Alamo;BVRAAM;Missiles;1994;Yes;14;Yes;1995;Yes;New;0.1900;0.1900;2.66;No
+51028;Ukraine;Viet Nam;Kolchuga;Air search system;Sensors;2009;Yes;2;Yes;2013;Yes;New;9.0000;9.0000;18;No
+51028;Ukraine;Viet Nam;Kolchuga;Air search system;Sensors;2009;Yes;2;Yes;2012;Yes;New;9.0000;9.0000;18;No
+40021;Ukraine;Viet Nam;DT-59;Gas turbine;Engines;2006;Yes;4;No;2011;No;New;5.0000;5.0000;20;No
+33980;Ukraine;NATO**;An-124/Condor;Transport aircraft;Aircraft;2006;No;1;No;2006;No;Second hand;145.0000;58;58;No
+39111;Ukraine;Algeria;R-40/AA-6 Acrid;BVRAAM;Missiles;2005;Yes;12;No;2006;No;Second hand;0.1500;0.06;0.72;No
+39111;Ukraine;Algeria;R-40/AA-6 Acrid;BVRAAM;Missiles;2005;Yes;2;No;2005;No;Second hand;0.1500;0.06;0.12;No
+39083;Ukraine;Algeria;T-72;Tank;Armoured vehicles;2004;Yes;21;No;2005;No;Second hand;2.1400;0.856;17.976;No
+37968;Ukraine;Algeria;AI-25;Turbofan;Engines;2001;No;9;Yes;2003;No;New;0.6000;0.6000;5.4;No
+37968;Ukraine;Algeria;AI-25;Turbofan;Engines;2001;No;8;Yes;2002;No;New;0.6000;0.6000;4.8;No
+37967;Ukraine;Algeria;AI-25;Turbofan;Engines;1995;Yes;7;No;1996;No;New;0.6000;0.6000;4.2;No
+36170;Ukraine;Algeria;R-27/AA-10 Alamo;BVRAAM;Missiles;2003;Yes;14;No;2010;No;New;0.1900;0.1900;2.66;No
+36170;Ukraine;Algeria;R-27/AA-10 Alamo;BVRAAM;Missiles;2003;Yes;40;No;2009;No;New;0.1900;0.1900;7.6;No
+36170;Ukraine;Algeria;R-27/AA-10 Alamo;BVRAAM;Missiles;2003;Yes;20;No;2006;No;New;0.1900;0.1900;3.8;No
+36170;Ukraine;Algeria;R-27/AA-10 Alamo;BVRAAM;Missiles;2003;Yes;22;No;2004;No;New;0.1900;0.1900;4.18;No
+36170;Ukraine;Algeria;R-27/AA-10 Alamo;BVRAAM;Missiles;2003;Yes;20;No;2007;No;New;0.1900;0.1900;3.8;No
+36169;Ukraine;Algeria;R-73/AA-11 Archer;SRAAM;Missiles;2003;Yes;16;Yes;2004;Yes;New;0.1500;0.1500;2.4;No
+33976;Ukraine;Algeria;Mi-24V/Hind-E;Combat helicopter;Aircraft;2001;Yes;4;No;2002;No;Second hand;9.5000;3.8;15.2;No
+33976;Ukraine;Algeria;Mi-24V/Hind-E;Combat helicopter;Aircraft;2001;Yes;12;No;2001;No;Second hand;9.5000;3.8;45.6;No
+33358;Ukraine;Algeria;R-73/AA-11 Archer;SRAAM;Missiles;1999;Yes;189;Yes;1999;No;New;0.1500;0.1500;28.35;No
+33357;Ukraine;Algeria;R-23R/T/AA-7 Apex;BVRAAM;Missiles;1999;Yes;100;Yes;1999;No;New;0.1200;0.1200;12;No
+33356;Ukraine;Algeria;R-27/AA-10 Alamo;BVRAAM;Missiles;1999;Yes;42;No;2000;No;New;0.1900;0.1900;7.98;No
+29863;Ukraine;Algeria;Mi-24V/Hind-E;Combat helicopter;Aircraft;1997;Yes;14;No;1999;No;Second hand;9.5000;3.8;53.2;No
+29863;Ukraine;Algeria;Mi-24V/Hind-E;Combat helicopter;Aircraft;1997;Yes;14;No;1998;No;Second hand;9.5000;3.8;53.2;No
+29860;Ukraine;Algeria;BMP-2;IFV;Armoured vehicles;1998;Yes;32;No;1999;No;Second hand;0.9000;0.36;11.52;No
+29860;Ukraine;Algeria;BMP-2;IFV;Armoured vehicles;1998;Yes;32;No;1998;No;Second hand;0.9000;0.36;11.52;No
+29859;Ukraine;Algeria;T-72M1;Tank;Armoured vehicles;1997;Yes;13;No;2000;No;Second hand;2.6000;1.04;13.52;No
+29859;Ukraine;Algeria;T-72M1;Tank;Armoured vehicles;1997;Yes;27;No;1999;No;Second hand;2.6000;1.04;28.08;No
+29859;Ukraine;Algeria;T-72M1;Tank;Armoured vehicles;1997;Yes;27;No;1998;No;Second hand;2.6000;1.04;28.08;No
+29644;Ukraine;Algeria;MiG-29/Fulcrum-A;Fighter aircraft;Aircraft;1998;Yes;5;No;2000;No;Second hand;20.6500;8.26;41.3;No
+57160;Ukraine;Algeria;R-27/AA-10 Alamo;BVRAAM;Missiles;2011;Yes;37;No;2012;No;New;0.1900;0.1900;7.03;No
+51311;Ukraine;Algeria;AI-222;Turbofan;Engines;2006;No;32;Yes;2011;No;New;1.2000;1.2000;38.4;No
+35375;Ukraine;China;AI-25;Turbofan;Engines;1997;No;5;Yes;2003;No;New;0.6000;0.6000;3;No
+35375;Ukraine;China;AI-25;Turbofan;Engines;1997;No;14;Yes;1999;No;New;0.6000;0.6000;8.4;No
+35375;Ukraine;China;AI-25;Turbofan;Engines;1997;No;14;Yes;1998;No;New;0.6000;0.6000;8.4;No
+35375;Ukraine;China;AI-25;Turbofan;Engines;1997;No;5;Yes;2004;Yes;New;0.6000;0.6000;3;No
+35375;Ukraine;China;AI-25;Turbofan;Engines;1997;No;5;Yes;2002;Yes;New;0.6000;0.6000;3;No
+35375;Ukraine;China;AI-25;Turbofan;Engines;1997;No;5;Yes;2001;Yes;New;0.6000;0.6000;3;No
+35375;Ukraine;China;AI-25;Turbofan;Engines;1997;No;5;Yes;2000;Yes;New;0.6000;0.6000;3;No
+35375;Ukraine;China;AI-25;Turbofan;Engines;1997;No;5;Yes;1997;Yes;New;0.6000;0.6000;3;No
+35374;Ukraine;China;AI-25;Turbofan;Engines;2004;Yes;7;Yes;2009;Yes;New;0.6000;0.6000;4.2;No
+35374;Ukraine;China;AI-25;Turbofan;Engines;2004;Yes;5;Yes;2005;Yes;New;0.6000;0.6000;3;No
+35374;Ukraine;China;AI-25;Turbofan;Engines;2004;Yes;10;Yes;2008;Yes;New;0.6000;0.6000;6;No
+35374;Ukraine;China;AI-25;Turbofan;Engines;2004;Yes;10;Yes;2006;No;New;0.6000;0.6000;6;No
+35374;Ukraine;China;AI-25;Turbofan;Engines;2004;Yes;10;Yes;2007;Yes;New;0.6000;0.6000;6;No
+33593;Ukraine;China;Kolchuga;Air search system;Sensors;2000;Yes;4;Yes;2002;No;New;9.0000;9.0000;36;No
+33370;Ukraine;China;2S9 120mm;Self-propelled gun;Artillery;1999;Yes;3;No;2000;No;Second hand;0.7500;0.3;0.9;No
+33362;Ukraine;China;R-73/AA-11 Archer;SRAAM;Missiles;1999;Yes;24;Yes;2000;No;New;0.1500;0.1500;3.6;No
+26964;Ukraine;China;Kuznetsov;Aircraft carrier;Ships;1998;No;1;No;2012;No;Second hand;1579.0000;631.6;631.6;No
+23225;Ukraine;China;R-27/AA-10 Alamo;BVRAAM;Missiles;1995;Yes;123;Yes;2009;Yes;New;0.1900;0.1900;23.37;No
+23225;Ukraine;China;R-27/AA-10 Alamo;BVRAAM;Missiles;1995;Yes;250;Yes;2007;Yes;New;0.1900;0.1900;47.5;No
+23225;Ukraine;China;R-27/AA-10 Alamo;BVRAAM;Missiles;1995;Yes;590;Yes;2006;No;New;0.1900;0.1900;112.1;No
+23225;Ukraine;China;R-27/AA-10 Alamo;BVRAAM;Missiles;1995;Yes;363;No;2005;No;New;0.1900;0.1900;68.97;No
+23225;Ukraine;China;R-27/AA-10 Alamo;BVRAAM;Missiles;1995;Yes;100;No;2002;No;New;0.1900;0.1900;19;No
+23225;Ukraine;China;R-27/AA-10 Alamo;BVRAAM;Missiles;1995;Yes;200;No;2001;No;New;0.1900;0.1900;38;No
+23225;Ukraine;China;R-27/AA-10 Alamo;BVRAAM;Missiles;1995;Yes;124;No;2000;No;New;0.1900;0.1900;23.56;No
+23225;Ukraine;China;R-27/AA-10 Alamo;BVRAAM;Missiles;1995;Yes;250;Yes;2008;Yes;New;0.1900;0.1900;47.5;No
+20905;Ukraine;China;R-27/AA-10 Alamo;BVRAAM;Missiles;1991;Yes;56;No;1994;No;New;0.1900;0.1900;10.64;No
+20905;Ukraine;China;R-27/AA-10 Alamo;BVRAAM;Missiles;1991;Yes;97;Yes;1993;Yes;New;0.1900;0.1900;18.43;No
+20905;Ukraine;China;R-27/AA-10 Alamo;BVRAAM;Missiles;1991;Yes;97;Yes;1992;Yes;New;0.1900;0.1900;18.43;No
+53750;Ukraine;China;6TD;Diesel engine;Engines;2011;No;25;Yes;2013;Yes;New;0.1900;0.1900;4.75;No
+36087;Ukraine;China;DT-59;Gas turbine;Engines;2001;Yes;2;No;2005;No;New;5.0000;5.0000;10;No
+36087;Ukraine;China;DT-59;Gas turbine;Engines;2001;Yes;6;No;2004;No;New;5.0000;5.0000;30;No
+35051;Ukraine;China;DT-59;Gas turbine;Engines;1992;Yes;2;No;1999;No;New;5.0000;5.0000;10;No
+35051;Ukraine;China;DT-59;Gas turbine;Engines;1992;Yes;2;No;1996;No;New;5.0000;5.0000;10;No
+51174;Ukraine;China;Zubr/Pomornik;ACV/landing craft;Ships;2009;No;1;No;2013;No;New;58.8000;58.8000;58.8;Yes
+24945;Ukraine;China;Fedko;Tanker;Ships;1992;No;1;No;1996;No;New;55.0000;55.0000;55;Yes
+52530;Ukraine;Egypt;R-2;Anti-tank missile;Missiles;2009;Yes;250;Yes;2013;Yes;New;0.0400;0.0400;10;No
+52530;Ukraine;Egypt;R-2;Anti-tank missile;Missiles;2009;Yes;50;Yes;2011;Yes;New;0.0400;0.0400;2;No
+52530;Ukraine;Egypt;R-2;Anti-tank missile;Missiles;2009;Yes;250;Yes;2012;Yes;New;0.0400;0.0400;10;No
+55420;Ukraine;Egypt;OT-62;IFV;Armoured vehicles;2009;Yes;25;Yes;2013;Yes;New;0.9000;0.9000;22.5;Yes
+55420;Ukraine;Egypt;OT-62;IFV;Armoured vehicles;2009;Yes;25;Yes;2012;Yes;New;0.9000;0.9000;22.5;Yes
+55420;Ukraine;Egypt;OT-62;IFV;Armoured vehicles;2009;Yes;3;No;2011;No;New;0.9000;0.9000;2.7;Yes
+32688;Ukraine;Egypt;An-74/Coaler-B;Transport aircraft;Aircraft;2004;No;1;No;2009;No;New;26.0000;26.0000;26;No
+32688;Ukraine;Egypt;An-74/Coaler-B;Transport aircraft;Aircraft;2004;No;1;No;2005;No;New;26.0000;26.0000;26;No
+32688;Ukraine;Egypt;An-74/Coaler-B;Transport aircraft;Aircraft;2004;No;1;No;2010;No;New;26.0000;26.0000;26;No
+39085;Ukraine;Kazakhstan;BTR-3U Guardian;IFV;Armoured vehicles;2005;Yes;2;No;2005;No;New;0.9000;0.9000;1.8;No
+33364;Ukraine;Kazakhstan;Kh-29/AS-14 Kedge;ASM;Missiles;1999;Yes;3;Yes;1999;No;New;0.2000;0.2000;0.6;No
+33363;Ukraine;Kazakhstan;R-73/AA-11 Archer;SRAAM;Missiles;1999;Yes;4;Yes;1999;No;New;0.1500;0.1500;0.6;No
+33360;Ukraine;Kazakhstan;R-23R/T/AA-7 Apex;BVRAAM;Missiles;1999;Yes;4;Yes;1999;No;New;0.1200;0.1200;0.48;No
+57156;Ukraine;Kazakhstan;R-27/AA-10 Alamo;BVRAAM;Missiles;2011;Yes;6;No;2012;No;New;0.1900;0.1900;1.14;No
+51860;Ukraine;Kazakhstan;An-74/Coaler-B;Transport aircraft;Aircraft;2012;No;2;Yes;2013;Yes;New;26.0000;26.0000;52;No
+39138;Ukraine;Kazakhstan;R-27/AA-10 Alamo;BVRAAM;Missiles;2005;Yes;12;No;2006;No;New;0.1900;0.1900;2.28;No
+39138;Ukraine;Kazakhstan;R-27/AA-10 Alamo;BVRAAM;Missiles;2005;Yes;12;No;2005;No;New;0.1900;0.1900;2.28;No
+39138;Ukraine;Kazakhstan;R-27/AA-10 Alamo;BVRAAM;Missiles;2005;Yes;26;No;2007;No;New;0.1900;0.1900;4.94;No
+54884;Ukraine;Kazakhstan;BTR-4K;APC;Armoured vehicles;2012;No;10;Yes;2012;Yes;New;0.4000;0.4000;4;Yes
+33966;Ukraine;Macedonia (FYROM);BTR-80;APC;Armoured vehicles;2001;Yes;22;No;2001;No;Second hand;0.3500;0.14;3.08;No
+32709;Ukraine;Macedonia (FYROM);BMP-2;IFV;Armoured vehicles;2001;Yes;11;No;2001;No;Second hand;0.9000;0.36;3.96;No
+32670;Ukraine;Macedonia (FYROM);T-72;Tank;Armoured vehicles;2001;Yes;31;No;2001;No;Second hand;2.1400;0.856;26.536;No
+32144;Ukraine;Macedonia (FYROM);BM-21 Grad 122mm;Self-propelled MRL;Artillery;2001;No;6;No;2001;No;Second hand;0.4500;0.18;1.08;No
+32000;Ukraine;Macedonia (FYROM);Strela-10/SA-13;Mobile SAM system;Air defence systems;2001;Yes;4;Yes;2001;No;Second hand;1.2500;0.5;2;No
+31999;Ukraine;Macedonia (FYROM);Strela-10/SA-13 Gopher;SAM;Missiles;2001;Yes;100;Yes;2001;No;New;0.0600;0.0600;6;No
+31993;Ukraine;Macedonia (FYROM);Su-25/Frogfoot-A;Ground attack ac;Aircraft;2001;No;4;No;2001;No;Second hand;12.0000;4.8;19.2;No
+31810;Ukraine;Macedonia (FYROM);Mi-24V/Hind-E;Combat helicopter;Aircraft;2000;Yes;12;No;2001;No;Second hand;9.5000;3.8;45.6;No
+30753;Ukraine;Macedonia (FYROM);Mi-8MT/Mi-17/Hip-H;Helicopter;Aircraft;2000;Yes;4;No;2001;No;Second hand;6.7500;2.7;10.8;No
+55191;Ukraine;Morocco;6TD;Diesel engine;Engines;2009;Yes;54;Yes;2010;No;New;0.1900;0.1900;10.26;No
+35585;Ukraine;Pakistan;5TDF;Diesel engine;Engines;2000;Yes;80;Yes;2007;No;New;0.1700;0.1700;13.6;No
+35585;Ukraine;Pakistan;5TDF;Diesel engine;Engines;2000;Yes;80;Yes;2004;No;New;0.1700;0.1700;13.6;No
+35585;Ukraine;Pakistan;5TDF;Diesel engine;Engines;2000;Yes;80;Yes;2006;No;New;0.1700;0.1700;13.6;No
+35585;Ukraine;Pakistan;5TDF;Diesel engine;Engines;2000;Yes;80;Yes;2005;No;New;0.1700;0.1700;13.6;No
+35584;Ukraine;Pakistan;6TD;Diesel engine;Engines;2002;No;20;Yes;2013;Yes;New;0.1900;0.1900;3.8;No
+35584;Ukraine;Pakistan;6TD;Diesel engine;Engines;2002;No;50;Yes;2011;No;New;0.1900;0.1900;9.5;No
+35584;Ukraine;Pakistan;6TD;Diesel engine;Engines;2002;No;50;Yes;2010;No;New;0.1900;0.1900;9.5;No
+35584;Ukraine;Pakistan;6TD;Diesel engine;Engines;2002;No;40;Yes;2008;No;New;0.1900;0.1900;7.6;No
+35584;Ukraine;Pakistan;6TD;Diesel engine;Engines;2002;No;50;Yes;2009;No;New;0.1900;0.1900;9.5;No
+35584;Ukraine;Pakistan;6TD;Diesel engine;Engines;2002;No;25;Yes;2007;No;New;0.1900;0.1900;4.75;No
+35584;Ukraine;Pakistan;6TD;Diesel engine;Engines;2002;No;10;Yes;2006;No;New;0.1900;0.1900;1.9;No
+35584;Ukraine;Pakistan;6TD;Diesel engine;Engines;2002;No;10;Yes;2005;Yes;New;0.1900;0.1900;1.9;No
+35584;Ukraine;Pakistan;6TD;Diesel engine;Engines;2002;No;10;Yes;2004;Yes;New;0.1900;0.1900;1.9;No
+35584;Ukraine;Pakistan;6TD;Diesel engine;Engines;2002;No;50;Yes;2012;No;New;0.1900;0.1900;9.5;No
+34655;Ukraine;Pakistan;Il-78M/Midas;Tanker/transport ac;Aircraft;2006;Yes;2;Yes;2011;No;Second hand but modernized;85.0000;56.1;112.2;No
+34655;Ukraine;Pakistan;Il-78M/Midas;Tanker/transport ac;Aircraft;2006;Yes;1;No;2010;No;Second hand but modernized;85.0000;56.1;56.1;No
+34655;Ukraine;Pakistan;Il-78M/Midas;Tanker/transport ac;Aircraft;2006;Yes;1;No;2009;No;Second hand but modernized;85.0000;56.1;56.1;No
+24136;Ukraine;Pakistan;T-80U;Tank;Armoured vehicles;1996;No;105;No;1999;No;New;4.0000;4.0000;420;No
+24136;Ukraine;Pakistan;T-80U;Tank;Armoured vehicles;1996;No;110;No;1998;No;New;4.0000;4.0000;440;No
+24136;Ukraine;Pakistan;T-80U;Tank;Armoured vehicles;1996;No;105;No;1997;No;New;4.0000;4.0000;420;No
+56384;Ukraine;Pakistan;6TD;Diesel engine;Engines;2013;No;30;Yes;2013;Yes;New;0.1900;0.1900;5.7;No
+37062;Ukraine;Sri Lanka;AI-25;Turbofan;Engines;2000;Yes;6;No;2001;No;New;0.6000;0.6000;3.6;No
+31529;Ukraine;Sri Lanka;MiG-27K/Flogger-J;FGA aircraft;Aircraft;2000;No;3;No;2000;No;Second hand;13.0000;5.2;15.6;No
+31078;Ukraine;Sri Lanka;MiG-27K/Flogger-J;FGA aircraft;Aircraft;2000;No;4;No;2000;No;Second hand;13.0000;5.2;20.8;No
+23844;Ukraine;Sri Lanka;An-32/Cline;Transport aircraft;Aircraft;1995;Yes;4;No;1996;No;New;11.0000;11.0000;44;No
+23376;Ukraine;Sri Lanka;Mi-8MT/Mi-17/Hip-H;Helicopter;Aircraft;1995;Yes;3;No;1996;No;Second hand;6.7500;2.7;8.1;No
+23094;Ukraine;Sri Lanka;BMP-2;IFV;Armoured vehicles;1994;Yes;4;No;1994;No;Second hand;0.9000;0.36;1.44;No
+23093;Ukraine;Sri Lanka;BMP-1;IFV;Armoured vehicles;1994;Yes;12;No;1994;No;Second hand;0.9000;0.36;4.32;No
+23092;Ukraine;Sri Lanka;An-32/Cline;Transport aircraft;Aircraft;1995;No;3;No;1995;No;New;11.0000;11.0000;33;No
+56735;Ukraine;Sri Lanka;Mi-24P/Hind-F;Combat helicopter;Aircraft;1996;Yes;1;No;1996;No;Second hand;9.5300;3.812;3.812;No
+56734;Ukraine;Sri Lanka;Mi-24V/Hind-E;Combat helicopter;Aircraft;1996;Yes;2;No;1996;No;Second hand;9.5000;3.8;7.6;No
+31528;Ukraine;Sri Lanka;Mi-24P/Hind-F;Combat helicopter;Aircraft;2000;No;3;No;2000;No;Second hand;9.5300;3.812;11.436;No
+31528;Ukraine;Sri Lanka;Mi-24P/Hind-F;Combat helicopter;Aircraft;2000;No;4;No;2001;No;Second hand;9.5300;3.812;15.248;No
+31231;Ukraine;Sri Lanka;Mi-24V/Hind-E;Combat helicopter;Aircraft;2000;Yes;2;No;2000;No;Second hand;9.5000;3.8;7.6;No
+27188;Ukraine;Sri Lanka;Mi-24V/Hind-E;Combat helicopter;Aircraft;1997;Yes;3;No;1998;No;Second hand;9.5000;3.8;11.4;No
+39425;Ukraine;Sri Lanka;MiG-27K/Flogger-J;FGA aircraft;Aircraft;2006;No;4;No;2006;No;Second hand;13.0000;5.2;20.8;No
+24073;Ukraine;Sri Lanka;Mi-24V/Hind-E;Combat helicopter;Aircraft;1995;No;3;No;1995;No;Second hand;9.5000;3.8;11.4;No
+35365;Ukraine;United States;Igla/SA-18 Grouse;Portable SAM;Missiles;2003;Yes;29;No;2003;No;New;0.0800;0.0800;2.32;No
+33274;Ukraine;United States;Igla/SA-18 Grouse;Portable SAM;Missiles;2004;Yes;99;No;2006;No;New;0.0800;0.0800;7.92;No
+33274;Ukraine;United States;Igla/SA-18 Grouse;Portable SAM;Missiles;2004;Yes;29;No;2005;No;New;0.0800;0.0800;2.32;No
+24096;Ukraine;United States;9P117/Scud-B TEL;Mobile SSM launcher;Artillery;2005;Yes;4;No;2005;No;Second hand;1.0000;0.4;1.6;No
+27469;Ukraine;United States;Vaslayayev;Cargo ship;Ships;1997;No;1;No;2003;No;Second hand;125.0000;50;50;No
+40088;Ukraine;United States;Strela-3/SA-14 Gremlin;Portable SAM;Missiles;2005;Yes;33;No;2006;No;New;0.0600;0.0600;1.98;No
+39949;Ukraine;United States;Igla-1/SA-16 Gimlet;Portable SAM;Missiles;2006;No;295;Yes;2006;Yes;Second hand;0.0700;0.028;8.26;No
+39097;Ukraine;Yemen;L-39C Albatros;Trainer aircraft;Aircraft;2004;Yes;2;Yes;2006;No;Second hand;4.4100;1.764;3.528;No
+39097;Ukraine;Yemen;L-39C Albatros;Trainer aircraft;Aircraft;2004;Yes;12;Yes;2005;No;Second hand;4.4100;1.764;21.168;No
+37632;Ukraine;Yemen;AI-25;Turbofan;Engines;1999;No;12;Yes;1999;No;New;0.6000;0.6000;7.2;No
+35357;Ukraine;Yemen;BMP-2;IFV;Armoured vehicles;2002;Yes;64;No;2004;No;Second hand;0.9000;0.36;23.04;No
+35357;Ukraine;Yemen;BMP-2;IFV;Armoured vehicles;2002;Yes;36;No;2003;No;Second hand;0.9000;0.36;12.96;No
+35356;Ukraine;Yemen;T-72;Tank;Armoured vehicles;2002;Yes;32;Yes;2003;Yes;Second hand;2.1400;0.856;27.392;No
+54977;Ukraine;Yemen;D-30 122mm;Towed gun;Artillery;2011;Yes;6;No;2011;No;Second hand;0.3500;0.14;0.84;No
+40087;Ukraine;Yemen;Su-22/Fitter-H/J/K;FGA aircraft;Aircraft;2005;Yes;6;No;2006;No;Second hand;13.0000;5.2;31.2;No
+40087;Ukraine;Yemen;Su-22/Fitter-H/J/K;FGA aircraft;Aircraft;2005;Yes;6;No;2007;No;Second hand;13.0000;5.2;31.2;No
+24358;Ukraine;Yemen;Su-22/Fitter-H/J/K;FGA aircraft;Aircraft;1994;No;4;No;1995;No;Second hand;13.0000;5.2;20.8;No
+37063;Ukraine;Zambia;AI-25;Turbofan;Engines;1998;Yes;8;Yes;2000;No;New;0.6000;0.6000;4.8;No
+34632;Ukraine;Zambia;BTR-70;APC;Armoured vehicles;2002;Yes;20;Yes;2002;Yes;Second hand;0.3000;0.12;2.4;No
+54915;Ukraine;Zambia;AI-25;Turbofan;Engines;2010;Yes;8;Yes;2012;No;New;0.6000;0.6000;4.8;No
+38989;Ukraine;Zimbabwe;AI-25;Turbofan;Engines;2006;No;6;No;2006;No;New;0.6000;0.6000;3.6;No
+37064;Ukraine;Zimbabwe;AI-25;Turbofan;Engines;2005;No;6;No;2005;No;New;0.6000;0.6000;3.6;No
+31719;Ukraine;Zimbabwe;An-12/Cub;Transport aircraft;Aircraft;2000;Yes;1;Yes;2001;Yes;Second hand;23.0000;9.2;9.2;No
+39998;Ukraine;RUF (Sierra Leone)*;9M115/AT-7 Saxhorn;Anti-tank missile;Missiles;1999;Yes;5;Yes;1999;No;New;0.0100;0.0100;0.05;No
+39997;Ukraine;RUF (Sierra Leone)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;1999;Yes;5;Yes;1999;Yes;New;0.0400;0.0400;0.2;No

@@ -1,0 +1,26 @@
+Deal ID;Seller;Buyer;Designation;Description;Armament category;Order date;Order date is estimate;Numbers delivered;Numbers delivered is estimate;Delivery year;Delivery year is estimate;Status;SIPRI estimate;TIV deal unit;TIV delivery values;Local production
+24971;Hungary;Czechoslovakia;PSZH-D-944;APC;Armoured vehicles;1971;Yes;50;Yes;1974;Yes;New;0.1500;0.1500;7.5;No
+24971;Hungary;Czechoslovakia;PSZH-D-944;APC;Armoured vehicles;1971;Yes;50;Yes;1973;Yes;New;0.1500;0.1500;7.5;No
+24971;Hungary;Czechoslovakia;PSZH-D-944;APC;Armoured vehicles;1971;Yes;50;Yes;1972;Yes;New;0.1500;0.1500;7.5;No
+24970;Hungary;Czechoslovakia;D-442 FUG;Reconnaissance AV;Armoured vehicles;1965;Yes;100;Yes;1967;No;New;0.1200;0.1200;12;No
+24970;Hungary;Czechoslovakia;D-442 FUG;Reconnaissance AV;Armoured vehicles;1965;Yes;100;Yes;1966;No;New;0.1200;0.1200;12;No
+24970;Hungary;Czechoslovakia;D-442 FUG;Reconnaissance AV;Armoured vehicles;1965;Yes;75;Yes;1968;Yes;New;0.1200;0.1200;9;No
+18843;Hungary;Czechoslovakia;Yak-18A/Max;Trainer aircraft;Aircraft;1957;No;12;Yes;1957;No;New;0.1900;0.1900;2.28;No
+22457;Hungary;Angola;BMP-2;IFV;Armoured vehicles;1993;Yes;7;No;1993;No;Second hand;0.9000;0.36;2.52;No
+50677;Hungary;Angola;Il-76M/Candid-B;Transport aircraft;Aircraft;2001;Yes;1;No;2002;No;Second hand;85.0000;34;34;No
+27869;Hungary;Ethiopia;Mi-8T/Hip-C;Helicopter;Aircraft;1997;No;4;No;1997;No;New;6.0000;6.0000;24;No
+25486;Hungary;German Democratic Republic;PSZH-D-944;APC;Armoured vehicles;1982;Yes;25;Yes;1983;Yes;New;0.1500;0.1500;3.75;No
+25486;Hungary;German Democratic Republic;PSZH-D-944;APC;Armoured vehicles;1982;Yes;25;Yes;1982;Yes;New;0.1500;0.1500;3.75;No
+35970;Hungary;Iraq;BTR-80;APC;Armoured vehicles;2005;No;66;Yes;2007;No;Second hand;0.3500;0.14;9.24;No
+15422;Hungary;Iraq;PSZH-D-944;APC;Armoured vehicles;1980;Yes;200;Yes;1981;Yes;New;0.1500;0.1500;30;No
+35954;Hungary;Iraq;VT-55A;ARV;Armoured vehicles;2005;Yes;4;Yes;2005;No;Second hand;1.1500;0.46;1.84;No
+28629;Hungary;Iraq;T-72M1;Tank;Armoured vehicles;2004;No;77;No;2005;No;Second hand;2.6000;1.04;80.08;No
+25828;Hungary;Peru;Mi-8T/Hip-C;Helicopter;Aircraft;1992;Yes;1;No;1995;No;New;6.0000;6.0000;6;No
+25828;Hungary;Peru;Mi-8T/Hip-C;Helicopter;Aircraft;1992;Yes;3;No;1993;No;New;6.0000;6.0000;18;No
+18842;Hungary;Poland;Yak-18A/Max;Trainer aircraft;Aircraft;1957;No;12;Yes;1957;No;New;0.1900;0.1900;2.28;No
+8295;Hungary;Poland;D-442 FUG;Reconnaissance AV;Armoured vehicles;1965;Yes;50;Yes;1967;Yes;New;0.1200;0.1200;6;No
+8295;Hungary;Poland;D-442 FUG;Reconnaissance AV;Armoured vehicles;1965;Yes;50;Yes;1966;Yes;New;0.1200;0.1200;6;No
+29195;Hungary;Syria;MiG-21F-13/Fishbed-C;Fighter aircraft;Aircraft;1973;Yes;10;No;1973;No;Second hand;9.0000;3.6;36;No
+18837;Hungary;Viet Nam;MiG-17/Fresco;Fighter aircraft;Aircraft;1968;Yes;20;Yes;1969;Yes;Second hand;3.5000;1.4;28;No
+18837;Hungary;Viet Nam;MiG-17/Fresco;Fighter aircraft;Aircraft;1968;Yes;20;Yes;1968;Yes;Second hand;3.5000;1.4;28;No
+26641;Hungary;PLO (Israel)*;T-34/85;Tank;Armoured vehicles;1980;Yes;10;Yes;1980;Yes;Second hand;0.9000;0.36;3.6;No

@@ -1,0 +1,964 @@
+Deal ID;Seller;Buyer;Designation;Description;Armament category;Order date;Order date is estimate;Numbers delivered;Numbers delivered is estimate;Delivery year;Delivery year is estimate;Status;SIPRI estimate;TIV deal unit;TIV delivery values;Local production
+37462;Israel;Australia;Litening;Aircraft EO system;Sensors;2005;No;18;Yes;2006;No;New;1.0000;1.0000;18;No
+30542;Israel;Australia;EL/M-2022;MP aircraft radar;Sensors;1995;No;2;Yes;2005;No;New;2.5000;2.5000;5;No
+30542;Israel;Australia;EL/M-2022;MP aircraft radar;Sensors;1995;No;5;Yes;2004;No;New;2.5000;2.5000;12.5;No
+30542;Israel;Australia;EL/M-2022;MP aircraft radar;Sensors;1995;No;5;Yes;2003;No;New;2.5000;2.5000;12.5;No
+30542;Israel;Australia;EL/M-2022;MP aircraft radar;Sensors;1995;No;6;No;2002;No;New;2.5000;2.5000;15;No
+20637;Israel;Australia;Air refuel system;Air refuel system;Other;1988;No;2;Yes;1992;No;New;10.0000;10.0000;20;No
+20637;Israel;Australia;Air refuel system;Air refuel system;Other;1988;No;2;Yes;1991;No;New;10.0000;10.0000;20;No
+36377;Israel;Australia;Heron;UAV;Aircraft;2009;No;10;Yes;2009;No;New;3.0000;3.0000;30;No
+36705;Israel;Azerbaijan;Lynx;Self-propelled MRL;Artillery;2005;Yes;6;Yes;2006;Yes;New;0.9500;0.9500;5.7;No
+53823;Israel;Azerbaijan;Heron;UAV;Aircraft;2011;Yes;5;Yes;2013;Yes;New;3.0000;3.0000;15;No
+53822;Israel;Azerbaijan;Searcher;UAV;Aircraft;2011;Yes;5;Yes;2013;Yes;New;0.3000;0.3000;1.5;No
+53084;Israel;Azerbaijan;CARDOM 120mm;Self-propelled mortar;Artillery;2008;No;5;Yes;2011;Yes;New;0.2000;0.2000;1;No
+53084;Israel;Azerbaijan;CARDOM 120mm;Self-propelled mortar;Artillery;2008;No;5;Yes;2010;Yes;New;0.2000;0.2000;1;No
+52149;Israel;Azerbaijan;Spike-MR/LR;Anti-tank missile;Missiles;2008;No;50;Yes;2010;Yes;New;0.0300;0.0300;1.5;No
+52149;Israel;Azerbaijan;Spike-MR/LR;Anti-tank missile;Missiles;2008;No;50;Yes;2009;Yes;New;0.0300;0.0300;1.5;No
+52142;Israel;Azerbaijan;Sufa;APV;Armoured vehicles;2008;No;5;Yes;2010;Yes;New;0.1200;0.1200;0.6;No
+52142;Israel;Azerbaijan;Sufa;APV;Armoured vehicles;2008;No;5;Yes;2009;Yes;New;0.1200;0.1200;0.6;No
+50712;Israel;Azerbaijan;ATMOS-2000 155mm;Self-propelled gun;Artillery;2008;No;5;Yes;2010;Yes;New;1.2500;1.2500;6.25;No
+50460;Israel;Azerbaijan;Hermes-450;UAV;Aircraft;2008;No;4;Yes;2012;Yes;New;2.0000;2.0000;8;No
+50460;Israel;Azerbaijan;Hermes-450;UAV;Aircraft;2008;No;2;Yes;2011;Yes;New;2.0000;2.0000;4;No
+50460;Israel;Azerbaijan;Hermes-450;UAV;Aircraft;2008;No;4;Yes;2013;Yes;New;2.0000;2.0000;8;No
+50330;Israel;Azerbaijan;Aerostar;UAV;Aircraft;2007;No;4;No;2008;No;New;0.1000;0.1000;0.4;No
+50329;Israel;Azerbaijan;EXTRA;SSM;Missiles;2005;Yes;40;Yes;2009;Yes;New;0.1500;0.1500;6;No
+50329;Israel;Azerbaijan;EXTRA;SSM;Missiles;2005;Yes;10;Yes;2008;No;New;0.1500;0.1500;1.5;No
+52992;Israel;Azerbaijan;Aerostar;UAV;Aircraft;2010;No;8;Yes;2012;Yes;New;0.1000;0.1000;0.8;Yes
+52992;Israel;Azerbaijan;Aerostar;UAV;Aircraft;2010;No;2;Yes;2011;Yes;New;0.1000;0.1000;0.2;Yes
+51270;Israel;Bulgaria;SandCat;APV;Armoured vehicles;2008;No;3;Yes;2010;Yes;New;0.1400;0.1400;0.42;No
+51270;Israel;Bulgaria;SandCat;APV;Armoured vehicles;2008;No;20;No;2009;No;New;0.1400;0.1400;2.8;No
+51270;Israel;Bulgaria;SandCat;APV;Armoured vehicles;2008;No;2;No;2008;No;New;0.1400;0.1400;0.28;No
+33233;Israel;Canada;Heron;UAV;Aircraft;2008;No;3;Yes;2008;No;New;3.0000;3.0000;9;No
+51472;Israel;Chad;RAM;APV;Armoured vehicles;2007;No;31;No;2008;No;New;0.1200;0.1200;3.72;No
+40341;Israel;Chad;RAM;APV;Armoured vehicles;2006;Yes;6;No;2006;No;New;0.1200;0.1200;0.72;No
+12161;Israel;DR Congo;M-4 Sherman;Tank;Armoured vehicles;1963;Yes;10;No;1964;Yes;Second hand;0.8400;0.336;3.36;No
+33244;Israel;Ecuador;Python-3;SRAAM;Missiles;1995;Yes;60;Yes;1996;Yes;New;0.1100;0.1100;6.6;No
+28147;Israel;Ecuador;Kfir C-2;FGA aircraft;Aircraft;1998;No;2;No;1999;No;Second hand but modernized;12.5000;8.25;16.5;No
+27958;Israel;Ecuador;Python-4;BVRAAM;Missiles;2001;Yes;50;Yes;2004;Yes;New;0.1700;0.1700;8.5;No
+26724;Israel;Ecuador;M-65 120mm;Mortar;Artillery;1975;Yes;12;No;1975;No;New;0.0500;0.0500;0.6;No
+22378;Israel;Ecuador;M-58 160mm;Mortar;Artillery;1986;Yes;12;No;1986;Yes;New;0.1500;0.1500;1.8;No
+13931;Israel;Ecuador;Arava;Transport aircraft;Aircraft;1975;No;1;No;1977;No;New;3.5000;3.5000;3.5;No
+3039;Israel;Ecuador;Kfir C-2;FGA aircraft;Aircraft;1982;Yes;6;Yes;1984;No;New;10.8000;10.8000;64.8;No
+3039;Israel;Ecuador;Kfir C-2;FGA aircraft;Aircraft;1982;Yes;6;Yes;1983;No;New;10.8000;10.8000;64.8;No
+1274;Israel;Ecuador;Arava;Transport aircraft;Aircraft;1974;No;3;Yes;1975;No;New;3.5000;3.5000;10.5;No
+1274;Israel;Ecuador;Arava;Transport aircraft;Aircraft;1974;No;3;Yes;1974;No;New;3.5000;3.5000;10.5;No
+2221;Israel;Ecuador;Gabriel-2;Anti-ship missile;Missiles;1978;No;25;Yes;1980;Yes;New;0.7000;0.7000;17.5;No
+17904;Israel;Ecuador;Shafrir-2;SRAAM;Missiles;1982;No;38;Yes;1984;Yes;New;0.0400;0.0400;1.52;No
+17904;Israel;Ecuador;Shafrir-2;SRAAM;Missiles;1982;No;37;Yes;1983;Yes;New;0.0400;0.0400;1.48;No
+51610;Israel;Ecuador;MAPATS;Anti-tank missile;Missiles;2004;Yes;300;Yes;2005;No;New;0.0100;0.0100;3;No
+50520;Israel;Ecuador;Searcher;UAV;Aircraft;2008;No;4;No;2009;No;New;0.3000;0.3000;1.2;No
+50519;Israel;Ecuador;Heron;UAV;Aircraft;2008;No;2;No;2009;No;New;3.0000;3.0000;6;No
+39853;Israel;Ecuador;EL/M-2032;Combat ac radar;Sensors;2000;Yes;4;Yes;2005;Yes;New;2.0000;2.0000;8;No
+39853;Israel;Ecuador;EL/M-2032;Combat ac radar;Sensors;2000;Yes;3;Yes;2004;Yes;New;2.0000;2.0000;6;No
+23329;Israel;Ecuador;Kfir C-2;FGA aircraft;Aircraft;1995;No;4;No;1996;No;Second hand;12.5000;5;20;No
+36233;Israel;Angola;Bell-212/UH-1N;Helicopter;Aircraft;2004;Yes;2;Yes;2004;No;Second hand;3.7000;1.48;2.96;No
+36233;Israel;Angola;Bell-212/UH-1N;Helicopter;Aircraft;2004;Yes;6;Yes;2005;Yes;Second hand;3.7000;1.48;8.88;No
+51203;Israel;Austria;ORCWS;AV turret;Other;2009;No;30;Yes;2013;No;New;0.0500;0.0500;1.5;Yes
+51203;Israel;Austria;ORCWS;AV turret;Other;2009;No;40;Yes;2012;No;New;0.0500;0.0500;2;Yes
+51203;Israel;Austria;ORCWS;AV turret;Other;2009;No;40;Yes;2011;No;New;0.0500;0.0500;2;Yes
+51203;Israel;Austria;ORCWS;AV turret;Other;2009;No;35;Yes;2010;No;New;0.0500;0.0500;1.75;Yes
+51203;Israel;Austria;ORCWS;AV turret;Other;2009;No;5;Yes;2009;No;New;0.0500;0.0500;0.25;Yes
+38153;Israel;Belgium;UT-25/UT-30;IFV turret;Other;2006;No;6;Yes;2013;Yes;New;0.6000;0.6000;3.6;No
+38153;Israel;Belgium;UT-25/UT-30;IFV turret;Other;2006;No;6;Yes;2011;Yes;New;0.6000;0.6000;3.6;No
+38153;Israel;Belgium;UT-25/UT-30;IFV turret;Other;2006;No;12;No;2010;No;New;0.6000;0.6000;7.2;No
+38153;Israel;Belgium;UT-25/UT-30;IFV turret;Other;2006;No;6;Yes;2012;Yes;New;0.6000;0.6000;3.6;No
+28784;Israel;Belgium;Hunter;UAV;Aircraft;1998;No;12;Yes;2002;No;New;0.3000;0.3000;3.6;No
+28784;Israel;Belgium;Hunter;UAV;Aircraft;1998;No;6;Yes;2001;No;New;0.3000;0.3000;1.8;No
+25620;Israel;Belgium;El/M-2130;Ground surv radar;Sensors;1989;Yes;7;Yes;1990;No;New;0.1500;0.1500;1.05;Yes
+25620;Israel;Belgium;El/M-2130;Ground surv radar;Sensors;1989;Yes;7;Yes;1992;Yes;New;0.1500;0.1500;1.05;Yes
+25620;Israel;Belgium;El/M-2130;Ground surv radar;Sensors;1989;Yes;7;Yes;1991;Yes;New;0.1500;0.1500;1.05;Yes
+23355;Israel;Botswana;RAM;APV;Armoured vehicles;1991;Yes;4;Yes;1991;Yes;New;0.1200;0.1200;0.48;No
+23355;Israel;Botswana;RAM;APV;Armoured vehicles;1991;Yes;4;No;1992;No;New;0.1200;0.1200;0.48;No
+33895;Israel;Brazil;EL/M-2022;MP aircraft radar;Sensors;2005;Yes;1;Yes;2013;No;New;2.5000;2.5000;2.5;No
+33895;Israel;Brazil;EL/M-2022;MP aircraft radar;Sensors;2005;Yes;2;No;2011;No;New;2.5000;2.5000;5;No
+33895;Israel;Brazil;EL/M-2022;MP aircraft radar;Sensors;2005;Yes;4;Yes;2012;No;New;2.5000;2.5000;10;No
+33396;Israel;Brazil;Python-4;BVRAAM;Missiles;2002;Yes;40;Yes;2013;Yes;New;0.1700;0.1700;6.8;No
+33396;Israel;Brazil;Python-4;BVRAAM;Missiles;2002;Yes;40;Yes;2011;Yes;New;0.1700;0.1700;6.8;No
+33396;Israel;Brazil;Python-4;BVRAAM;Missiles;2002;Yes;40;Yes;2012;Yes;New;0.1700;0.1700;6.8;No
+33396;Israel;Brazil;Python-4;BVRAAM;Missiles;2002;Yes;20;No;2010;No;New;0.1700;0.1700;3.4;No
+32095;Israel;Brazil;Derby;BVRAAM;Missiles;2006;Yes;7;Yes;2009;No;New;0.4000;0.4000;2.8;No
+32095;Israel;Brazil;Derby;BVRAAM;Missiles;2006;Yes;43;Yes;2010;Yes;New;0.4000;0.4000;17.2;No
+32095;Israel;Brazil;Derby;BVRAAM;Missiles;2006;Yes;50;Yes;2006;No;New;0.4000;0.4000;20;No
+32095;Israel;Brazil;Derby;BVRAAM;Missiles;2006;Yes;50;Yes;2008;Yes;New;0.4000;0.4000;20;No
+32095;Israel;Brazil;Derby;BVRAAM;Missiles;2006;Yes;50;Yes;2007;Yes;New;0.4000;0.4000;20;No
+27726;Israel;Brazil;Python-3;SRAAM;Missiles;1996;Yes;100;Yes;2001;Yes;New;0.1100;0.1100;11;No
+27726;Israel;Brazil;Python-3;SRAAM;Missiles;1996;Yes;100;Yes;1999;Yes;New;0.1100;0.1100;11;No
+27726;Israel;Brazil;Python-3;SRAAM;Missiles;1996;Yes;100;Yes;1998;Yes;New;0.1100;0.1100;11;No
+27726;Israel;Brazil;Python-3;SRAAM;Missiles;1996;Yes;100;Yes;2000;No;New;0.1100;0.1100;11;No
+24482;Israel;Brazil;K-6 120mm;Mortar;Artillery;1994;Yes;8;No;1995;No;New;0.0500;0.0500;0.4;No
+3657;Israel;Brazil;Bell-205/UH-1H;Helicopter;Aircraft;1982;Yes;8;No;1982;No;Second hand;2.6200;1.048;8.384;No
+39443;Israel;Brazil;Litening;Aircraft EO system;Sensors;2006;Yes;5;Yes;2013;Yes;New;1.0000;1.0000;5;No
+39443;Israel;Brazil;Litening;Aircraft EO system;Sensors;2006;Yes;5;Yes;2012;Yes;New;1.0000;1.0000;5;No
+39443;Israel;Brazil;Litening;Aircraft EO system;Sensors;2006;Yes;5;Yes;2011;Yes;New;1.0000;1.0000;5;No
+53720;Israel;Brazil;Hermes-450;UAV;Aircraft;2012;Yes;2;No;2013;No;New;2.0000;2.0000;4;No
+51363;Israel;Brazil;Hermes-450;UAV;Aircraft;2010;No;2;Yes;2011;Yes;New;2.0000;2.0000;4;No
+28171;Israel;Cameroon;Model-839 155mm;Towed gun;Artillery;1996;Yes;4;No;1999;No;New;1.0000;1.0000;4;No
+28171;Israel;Cameroon;Model-839 155mm;Towed gun;Artillery;1996;Yes;4;No;1998;No;New;1.0000;1.0000;4;No
+28171;Israel;Cameroon;Model-839 155mm;Towed gun;Artillery;1996;Yes;4;No;1997;No;New;1.0000;1.0000;4;No
+17447;Israel;Cameroon;Arava;Transport aircraft;Aircraft;1985;No;1;No;1985;No;New;3.5000;3.5000;3.5;No
+52175;Israel;Cameroon;Model-839 155mm;Towed gun;Artillery;2000;No;6;No;2001;No;New;1.0000;1.0000;6;No
+51428;Israel;Cameroon;RAM;APV;Armoured vehicles;2008;Yes;5;Yes;2008;Yes;New;0.1200;0.1200;0.6;No
+39719;Israel;Cameroon;CARDOM 120mm;Self-propelled mortar;Artillery;2006;Yes;8;No;2006;No;New;0.2000;0.2000;1.6;No
+37502;Israel;Chile;Litening;Aircraft EO system;Sensors;2000;Yes;5;Yes;2004;Yes;New;1.0000;1.0000;5;No
+35144;Israel;Chile;Python-4;BVRAAM;Missiles;2003;No;40;Yes;2010;Yes;New;0.1700;0.1700;6.8;No
+35144;Israel;Chile;Python-4;BVRAAM;Missiles;2003;No;40;Yes;2007;Yes;New;0.1700;0.1700;6.8;No
+35144;Israel;Chile;Python-4;BVRAAM;Missiles;2003;No;40;Yes;2008;Yes;New;0.1700;0.1700;6.8;No
+35144;Israel;Chile;Python-4;BVRAAM;Missiles;2003;No;20;No;2006;No;New;0.1700;0.1700;3.4;No
+35144;Israel;Chile;Python-4;BVRAAM;Missiles;2003;No;40;Yes;2009;Yes;New;0.1700;0.1700;6.8;No
+35144;Israel;Chile;Python-4;BVRAAM;Missiles;2003;No;20;Yes;2011;Yes;New;0.1700;0.1700;3.4;No
+32850;Israel;Chile;Air refuel system;Air refuel system;Other;1989;Yes;2;No;1996;No;New;10.0000;10.0000;20;No
+32204;Israel;Chile;K-6 120mm;Mortar;Artillery;1999;Yes;24;No;2000;No;New;0.0500;0.0500;1.2;No
+31819;Israel;Chile;Derby;BVRAAM;Missiles;2001;Yes;30;Yes;2003;No;New;0.4000;0.4000;12;No
+31819;Israel;Chile;Derby;BVRAAM;Missiles;2001;Yes;30;Yes;2002;No;New;0.4000;0.4000;12;No
+31430;Israel;Chile;Python-4;BVRAAM;Missiles;2001;Yes;40;Yes;2001;No;New;0.1700;0.1700;6.8;No
+31430;Israel;Chile;Python-4;BVRAAM;Missiles;2001;Yes;40;Yes;2002;No;New;0.1700;0.1700;6.8;No
+30863;Israel;Chile;Spike-MR/LR;Anti-tank missile;Missiles;2003;Yes;250;Yes;2007;Yes;New;0.0300;0.0300;7.5;No
+30863;Israel;Chile;Spike-MR/LR;Anti-tank missile;Missiles;2003;Yes;250;Yes;2006;Yes;New;0.0300;0.0300;7.5;No
+30863;Israel;Chile;Spike-MR/LR;Anti-tank missile;Missiles;2003;Yes;250;Yes;2005;Yes;New;0.0300;0.0300;7.5;No
+30863;Israel;Chile;Spike-MR/LR;Anti-tank missile;Missiles;2003;Yes;250;Yes;2004;Yes;New;0.0300;0.0300;7.5;No
+30807;Israel;Chile;EL/M-2032;Combat ac radar;Sensors;1990;No;3;Yes;1997;No;New;2.0000;2.0000;6;No
+30807;Israel;Chile;EL/M-2032;Combat ac radar;Sensors;1990;No;4;Yes;1996;No;New;2.0000;2.0000;8;No
+30807;Israel;Chile;EL/M-2032;Combat ac radar;Sensors;1990;No;3;Yes;1995;No;New;2.0000;2.0000;6;No
+30807;Israel;Chile;EL/M-2032;Combat ac radar;Sensors;1990;No;2;Yes;1994;No;New;2.0000;2.0000;4;No
+30807;Israel;Chile;EL/M-2032;Combat ac radar;Sensors;1990;No;2;No;1993;No;New;2.0000;2.0000;4;No
+24568;Israel;Chile;Gabriel-2;Anti-ship missile;Missiles;1996;Yes;10;No;1997;No;New;0.7000;0.7000;7;No
+24564;Israel;Chile;Reshef/Saar-4;FAC;Ships;1996;No;1;No;1997;No;Second hand;70.0000;28;28;No
+22992;Israel;Chile;LAR-160;Self-propelled MRL;Artillery;1993;Yes;10;Yes;1994;Yes;New;0.7500;0.7500;7.5;No
+22395;Israel;Chile;MAPATS;Anti-tank missile;Missiles;1988;Yes;100;Yes;1993;Yes;New;0.0100;0.0100;1;No
+22395;Israel;Chile;MAPATS;Anti-tank missile;Missiles;1988;Yes;100;Yes;1992;Yes;New;0.0100;0.0100;1;No
+22395;Israel;Chile;MAPATS;Anti-tank missile;Missiles;1988;Yes;100;Yes;1991;Yes;New;0.0100;0.0100;1;No
+22395;Israel;Chile;MAPATS;Anti-tank missile;Missiles;1988;Yes;100;Yes;1990;Yes;New;0.0100;0.0100;1;No
+21669;Israel;Chile;M-68/M-71 155mm;Towed gun;Artillery;1983;Yes;12;Yes;1984;Yes;New;0.8500;0.8500;10.2;No
+21668;Israel;Chile;Python-3;SRAAM;Missiles;1988;Yes;20;Yes;1996;No;New;0.1100;0.1100;2.2;No
+21668;Israel;Chile;Python-3;SRAAM;Missiles;1988;Yes;20;Yes;1997;Yes;New;0.1100;0.1100;2.2;No
+21668;Israel;Chile;Python-3;SRAAM;Missiles;1988;Yes;20;Yes;1995;Yes;New;0.1100;0.1100;2.2;No
+21668;Israel;Chile;Python-3;SRAAM;Missiles;1988;Yes;20;Yes;1994;Yes;New;0.1100;0.1100;2.2;No
+21668;Israel;Chile;Python-3;SRAAM;Missiles;1988;Yes;20;Yes;1993;Yes;New;0.1100;0.1100;2.2;No
+21668;Israel;Chile;Python-3;SRAAM;Missiles;1988;Yes;20;Yes;1992;Yes;New;0.1100;0.1100;2.2;No
+21667;Israel;Chile;EL/M-2221 STGR;Fire control radar;Sensors;1989;Yes;2;Yes;1996;Yes;New;4.7500;4.7500;9.5;No
+21667;Israel;Chile;EL/M-2221 STGR;Fire control radar;Sensors;1989;Yes;2;Yes;1995;Yes;New;4.7500;4.7500;9.5;No
+21667;Israel;Chile;EL/M-2221 STGR;Fire control radar;Sensors;1989;Yes;2;Yes;1994;Yes;New;4.7500;4.7500;9.5;No
+21667;Israel;Chile;EL/M-2221 STGR;Fire control radar;Sensors;1989;Yes;2;Yes;1993;Yes;New;4.7500;4.7500;9.5;No
+21666;Israel;Chile;EL/M-2228;Air search radar;Sensors;1989;Yes;1;Yes;1996;Yes;New;4.7500;4.7500;4.75;No
+21666;Israel;Chile;EL/M-2228;Air search radar;Sensors;1989;Yes;1;Yes;1995;Yes;New;4.7500;4.7500;4.75;No
+21666;Israel;Chile;EL/M-2228;Air search radar;Sensors;1989;Yes;1;Yes;1994;Yes;New;4.7500;4.7500;4.75;No
+21666;Israel;Chile;EL/M-2228;Air search radar;Sensors;1989;Yes;1;Yes;1993;Yes;New;4.7500;4.7500;4.75;No
+19821;Israel;Chile;EL/M-2075 Phalcon;AEW&C system;Sensors;1989;Yes;1;No;1995;No;New;50.0000;50.0000;50;No
+19695;Israel;Chile;Barak-1;SAM;Missiles;1989;No;25;Yes;1994;Yes;New;0.2500;0.2500;6.25;No
+19695;Israel;Chile;Barak-1;SAM;Missiles;1989;No;25;Yes;1995;Yes;New;0.2500;0.2500;6.25;No
+19695;Israel;Chile;Barak-1;SAM;Missiles;1989;No;25;Yes;1996;Yes;New;0.2500;0.2500;6.25;No
+19695;Israel;Chile;Barak-1;SAM;Missiles;1989;No;25;Yes;1993;No;New;0.2500;0.2500;6.25;No
+19461;Israel;Chile;Gabriel-2;Anti-ship missile;Missiles;1988;Yes;24;Yes;1989;Yes;New;0.7000;0.7000;16.8;No
+19460;Israel;Chile;Saar;FAC;Ships;1988;No;2;No;1989;No;Second hand;55.0000;22;44;No
+4374;Israel;Chile;Gabriel-1;Anti-ship missile;Missiles;1979;Yes;8;Yes;1981;Yes;New;0.4000;0.4000;3.2;No
+4374;Israel;Chile;Gabriel-1;Anti-ship missile;Missiles;1979;Yes;8;Yes;1979;Yes;New;0.4000;0.4000;3.2;No
+3992;Israel;Chile;M-51 Sherman;Tank;Armoured vehicles;1978;Yes;39;Yes;1980;Yes;Second hand;1.1500;0.46;17.94;No
+3992;Israel;Chile;M-51 Sherman;Tank;Armoured vehicles;1978;Yes;39;Yes;1979;Yes;Second hand;1.1500;0.46;17.94;No
+3992;Israel;Chile;M-51 Sherman;Tank;Armoured vehicles;1978;Yes;39;Yes;1978;Yes;Second hand;1.1500;0.46;17.94;No
+48;Israel;Chile;Shafrir-2;SRAAM;Missiles;1976;No;25;Yes;1978;Yes;New;0.0400;0.0400;1;No
+48;Israel;Chile;Shafrir-2;SRAAM;Missiles;1976;No;25;Yes;1977;Yes;New;0.0400;0.0400;1;No
+53408;Israel;Chile;Hermes-900;UAV;Aircraft;2011;No;3;Yes;2013;Yes;New;3.0000;3.0000;9;No
+51641;Israel;Chile;Spike-MR/LR;Anti-tank missile;Missiles;2008;No;100;Yes;2012;Yes;New;0.0300;0.0300;3;No
+51641;Israel;Chile;Spike-MR/LR;Anti-tank missile;Missiles;2008;No;500;Yes;2011;Yes;New;0.0300;0.0300;15;No
+51641;Israel;Chile;Spike-MR/LR;Anti-tank missile;Missiles;2008;No;500;Yes;2010;Yes;New;0.0300;0.0300;15;No
+51641;Israel;Chile;Spike-MR/LR;Anti-tank missile;Missiles;2008;No;100;Yes;2009;Yes;New;0.0300;0.0300;3;No
+40146;Israel;Chile;M-2001;Combat ac radar;Sensors;1985;Yes;2;Yes;1993;Yes;New;1.0000;1.0000;2;No
+40146;Israel;Chile;M-2001;Combat ac radar;Sensors;1985;Yes;3;Yes;1992;Yes;New;1.0000;1.0000;3;No
+40146;Israel;Chile;M-2001;Combat ac radar;Sensors;1985;Yes;3;Yes;1991;Yes;New;1.0000;1.0000;3;No
+40146;Israel;Chile;M-2001;Combat ac radar;Sensors;1985;Yes;3;Yes;1990;Yes;New;1.0000;1.0000;3;No
+40146;Israel;Chile;M-2001;Combat ac radar;Sensors;1985;Yes;3;Yes;1989;Yes;New;1.0000;1.0000;3;No
+40146;Israel;Chile;M-2001;Combat ac radar;Sensors;1985;Yes;2;Yes;1988;Yes;New;1.0000;1.0000;2;No
+20908;Israel;Chile;IAI-1124 Westwind;Light transport ac;Aircraft;1986;Yes;1;Yes;1986;No;New;4.8500;4.8500;4.85;No
+18079;Israel;Chile;M-50 Super Sherman;Tank;Armoured vehicles;1983;No;50;Yes;1984;No;Second hand but modernized;1.0000;0.66;33;No
+2773;Israel;Chile;Reshef/Saar-4;FAC;Ships;1979;No;1;No;1981;No;Second hand;70.0000;28;28;No
+2773;Israel;Chile;Reshef/Saar-4;FAC;Ships;1979;No;1;No;1979;No;Second hand;70.0000;28;28;No
+36150;Israel;Colombia;Python-4;BVRAAM;Missiles;2002;Yes;25;Yes;2003;Yes;New;0.1700;0.1700;4.25;No
+36150;Israel;Colombia;Python-4;BVRAAM;Missiles;2002;Yes;25;Yes;2004;Yes;New;0.1700;0.1700;4.25;No
+36150;Israel;Colombia;Python-4;BVRAAM;Missiles;2002;Yes;25;Yes;2005;Yes;New;0.1700;0.1700;4.25;No
+16962;Israel;Colombia;Shafrir-2;SRAAM;Missiles;1988;No;80;Yes;1989;Yes;New;0.0400;0.0400;3.2;No
+2079;Israel;Colombia;Arava;Transport aircraft;Aircraft;1979;Yes;3;No;1980;No;New;3.5000;3.5000;10.5;No
+51057;Israel;Colombia;Kfir C-7;FGA aircraft;Aircraft;2007;No;3;Yes;2010;Yes;Second hand but modernized;18.5000;12.21;36.63;No
+50916;Israel;Colombia;Griffin;Guided bomb;Missiles;2007;No;100;Yes;2013;No;New;0.0200;0.0200;2;No
+40352;Israel;Colombia;Kfir C-7;FGA aircraft;Aircraft;2007;Yes;6;No;2010;No;Second hand but modernized;18.5000;12.21;73.26;No
+40352;Israel;Colombia;Kfir C-7;FGA aircraft;Aircraft;2007;Yes;4;No;2009;No;Second hand but modernized;18.5000;12.21;48.84;No
+39851;Israel;Colombia;Griffin;Guided bomb;Missiles;2001;Yes;100;Yes;2003;No;New;0.0200;0.0200;2;No
+39851;Israel;Colombia;Griffin;Guided bomb;Missiles;2001;Yes;100;Yes;2002;No;New;0.0200;0.0200;2;No
+55015;Israel;Colombia;Hermes-900;UAV;Aircraft;2012;No;1;Yes;2013;Yes;New;3.0000;3.0000;3;No
+55014;Israel;Colombia;Hermes-450;UAV;Aircraft;2012;No;1;Yes;2013;Yes;New;2.0000;2.0000;2;No
+53907;Israel;Colombia;EL/I-3120 CMM;SIGINT system;Sensors;2010;Yes;1;No;2011;No;New;7.5000;7.5000;7.5;No
+53906;Israel;Colombia;EL/I-3120 CMM;SIGINT system;Sensors;2006;Yes;2;No;2007;No;New;7.5000;7.5000;15;No
+53243;Israel;Colombia;RecceLite;Aircraft recce system;Sensors;2007;Yes;2;Yes;2011;Yes;New;4.0000;4.0000;8;No
+53243;Israel;Colombia;RecceLite;Aircraft recce system;Sensors;2007;Yes;3;Yes;2010;Yes;New;4.0000;4.0000;12;No
+52899;Israel;Colombia;Air refuel system;Air refuel system;Other;1991;No;1;No;1991;No;New;10.0000;10.0000;10;No
+52896;Israel;Colombia;Air refuel system;Air refuel system;Other;2007;No;1;No;2010;No;New;10.0000;10.0000;10;No
+52555;Israel;Colombia;Spike-ER;Anti-tank missile;Missiles;2009;Yes;15;No;2009;No;New;0.0600;0.0600;0.9;No
+50918;Israel;Colombia;Python-5;BVRAAM;Missiles;2009;Yes;50;Yes;2011;Yes;New;0.2500;0.2500;12.5;No
+50918;Israel;Colombia;Python-5;BVRAAM;Missiles;2009;Yes;50;Yes;2010;Yes;New;0.2500;0.2500;12.5;No
+50917;Israel;Colombia;Derby;BVRAAM;Missiles;2009;Yes;40;Yes;2010;Yes;New;0.4000;0.4000;16;No
+50626;Israel;Colombia;Litening;Aircraft EO system;Sensors;2007;Yes;5;Yes;2011;Yes;New;1.0000;1.0000;5;No
+50626;Israel;Colombia;Litening;Aircraft EO system;Sensors;2007;Yes;5;Yes;2010;Yes;New;1.0000;1.0000;5;No
+40231;Israel;Colombia;EL/M-2032;Combat ac radar;Sensors;2007;No;11;Yes;2011;Yes;New;2.0000;2.0000;22;No
+39917;Israel;Colombia;Python-3;SRAAM;Missiles;2002;Yes;25;Yes;2005;Yes;New;0.1100;0.1100;2.75;No
+39917;Israel;Colombia;Python-3;SRAAM;Missiles;2002;Yes;25;Yes;2004;Yes;New;0.1100;0.1100;2.75;No
+39917;Israel;Colombia;Python-3;SRAAM;Missiles;2002;Yes;25;Yes;2003;Yes;New;0.1100;0.1100;2.75;No
+18635;Israel;Colombia;Kfir C-2;FGA aircraft;Aircraft;1988;No;13;No;1989;No;Second hand but modernized;12.5000;8.25;107.25;No
+35461;Israel;Côte d'Ivoire;Aerostar;UAV;Aircraft;2003;Yes;2;No;2004;No;New;0.1000;0.1000;0.2;No
+33166;Israel;Cyprus;Searcher;UAV;Aircraft;2002;Yes;2;Yes;2002;Yes;New;0.3000;0.3000;0.6;No
+27767;Israel;Czech Republic;EL/M-2140;Ground surv radar;Sensors;1994;No;3;Yes;1995;No;New;0.1500;0.1500;0.45;Yes
+27767;Israel;Czech Republic;EL/M-2140;Ground surv radar;Sensors;1994;No;3;Yes;1997;Yes;New;0.1500;0.1500;0.45;Yes
+27767;Israel;Czech Republic;EL/M-2140;Ground surv radar;Sensors;1994;No;4;Yes;1996;Yes;New;0.1500;0.1500;0.6;Yes
+55042;Israel;Denmark;Litening;Aircraft EO system;Sensors;2012;No;10;Yes;2013;No;New;1.0000;1.0000;10;No
+52529;Israel;Denmark;K-6 120mm;Mortar;Artillery;2010;No;20;No;2010;No;New;0.0500;0.0500;1;No
+52910;Israel;Dominican Republic;EL/M-2082;Air search radar;Sensors;2010;Yes;1;Yes;2010;Yes;New;15.0000;15.0000;15;No
+51425;Israel;Dominican Republic;EL/M-2106NG;Air search radar;Sensors;2010;Yes;1;Yes;2010;No;New;6.0000;6.0000;6;No
+51425;Israel;Dominican Republic;EL/M-2106NG;Air search radar;Sensors;2010;Yes;2;Yes;2011;Yes;New;6.0000;6.0000;12;No
+50659;Israel;Equatorial Guinea;Saar-4;Patrol craft;Ships;2008;No;2;No;2011;No;New;35.0000;35.0000;70;No
+50657;Israel;Equatorial Guinea;Shaldag;Patrol craft;Ships;2004;Yes;2;No;2005;No;New;6.0000;6.0000;12;No
+53018;Israel;Eritrea;Super Dvora;Patrol craft;Ships;1992;Yes;4;No;1993;No;New;5.2500;5.2500;21;No
+24490;Israel;Estonia;MAPATS;Anti-tank missile;Missiles;1993;No;100;Yes;1996;No;New;0.0100;0.0100;1;No
+24490;Israel;Estonia;MAPATS;Anti-tank missile;Missiles;1993;No;30;Yes;1994;No;New;0.0100;0.0100;0.3;No
+36305;Israel;Finland;Spike-ER;Anti-tank missile;Missiles;2002;No;100;Yes;2006;Yes;New;0.0600;0.0600;6;No
+36305;Israel;Finland;Spike-ER;Anti-tank missile;Missiles;2002;No;100;Yes;2005;Yes;New;0.0600;0.0600;6;No
+34578;Israel;Finland;Ranger;UAV;Aircraft;2003;No;6;Yes;2005;No;New;0.2000;0.2000;1.2;No
+30473;Israel;Finland;Spike-MR/LR;Anti-tank missile;Missiles;2000;No;150;Yes;2005;No;New;0.0300;0.0300;4.5;No
+30473;Israel;Finland;Spike-MR/LR;Anti-tank missile;Missiles;2000;No;150;Yes;2006;Yes;New;0.0300;0.0300;4.5;No
+29830;Israel;Finland;Ranger;UAV;Aircraft;1999;No;6;No;2001;No;New;0.2000;0.2000;1.2;No
+50177;Israel;Finland;Spike-ER;Anti-tank missile;Missiles;2006;Yes;100;Yes;2009;Yes;New;0.0600;0.0600;6;No
+50177;Israel;Finland;Spike-ER;Anti-tank missile;Missiles;2006;Yes;100;Yes;2008;No;New;0.0600;0.0600;6;No
+40354;Israel;Finland;Litening;Aircraft EO system;Sensors;2008;No;3;Yes;2008;No;New;1.0000;1.0000;3;No
+40354;Israel;Finland;Litening;Aircraft EO system;Sensors;2008;No;7;Yes;2009;No;New;1.0000;1.0000;7;No
+50400;Israel;Georgia;LAR-160;Self-propelled MRL;Artillery;2006;Yes;4;Yes;2007;No;New;0.7500;0.7500;3;No
+50111;Israel;Georgia;Hermes-450;UAV;Aircraft;2007;No;5;Yes;2007;No;New;2.0000;2.0000;10;No
+39295;Israel;Georgia;Aerostar;UAV;Aircraft;2004;Yes;2;Yes;2005;No;New;0.1000;0.1000;0.2;No
+30803;Israel;Germany (FRG);A-4M Skyhawk-2;FGA aircraft;Aircraft;2000;No;4;Yes;2001;No;Second hand but modernized;10.0000;6.6;26.4;No
+26228;Israel;Germany (FRG);M-65 120mm;Mortar;Artillery;1965;Yes;60;Yes;1970;Yes;New;0.0500;0.0500;3;No
+26228;Israel;Germany (FRG);M-65 120mm;Mortar;Artillery;1965;Yes;100;Yes;1969;Yes;New;0.0500;0.0500;5;No
+26228;Israel;Germany (FRG);M-65 120mm;Mortar;Artillery;1965;Yes;100;Yes;1968;Yes;New;0.0500;0.0500;5;No
+26228;Israel;Germany (FRG);M-65 120mm;Mortar;Artillery;1965;Yes;100;Yes;1967;Yes;New;0.0500;0.0500;5;No
+26228;Israel;Germany (FRG);M-65 120mm;Mortar;Artillery;1965;Yes;100;Yes;1966;Yes;New;0.0500;0.0500;5;No
+26228;Israel;Germany (FRG);M-65 120mm;Mortar;Artillery;1965;Yes;55;Yes;1965;Yes;New;0.0500;0.0500;2.75;No
+2442;Israel;Germany (FRG);IAI-1124 Westwind;Light transport ac;Aircraft;1980;No;2;Yes;1983;No;New;4.8500;4.8500;9.7;No
+2442;Israel;Germany (FRG);IAI-1124 Westwind;Light transport ac;Aircraft;1980;No;2;Yes;1982;No;New;4.8500;4.8500;9.7;No
+52578;Israel;Germany (FRG);RecceLite;Aircraft recce system;Sensors;2009;No;1;Yes;2009;No;New;4.0000;4.0000;4;No
+50942;Israel;Germany (FRG);Spike-MR/LR;Anti-tank missile;Missiles;2009;Yes;500;Yes;2013;No;New;0.0300;0.0300;15;Yes
+50942;Israel;Germany (FRG);Spike-MR/LR;Anti-tank missile;Missiles;2009;Yes;500;Yes;2012;No;New;0.0300;0.0300;15;Yes
+50942;Israel;Germany (FRG);Spike-MR/LR;Anti-tank missile;Missiles;2009;Yes;100;Yes;2011;No;New;0.0300;0.0300;3;Yes
+50942;Israel;Germany (FRG);Spike-MR/LR;Anti-tank missile;Missiles;2009;Yes;20;Yes;2010;Yes;New;0.0300;0.0300;0.6;Yes
+37457;Israel;Germany (FRG);Litening;Aircraft EO system;Sensors;2000;Yes;5;Yes;2006;Yes;New;1.0000;1.0000;5;Yes
+37457;Israel;Germany (FRG);Litening;Aircraft EO system;Sensors;2000;Yes;5;Yes;2005;Yes;New;1.0000;1.0000;5;Yes
+37457;Israel;Germany (FRG);Litening;Aircraft EO system;Sensors;2000;Yes;5;Yes;2004;Yes;New;1.0000;1.0000;5;Yes
+37457;Israel;Germany (FRG);Litening;Aircraft EO system;Sensors;2000;Yes;5;Yes;2003;Yes;New;1.0000;1.0000;5;Yes
+35479;Israel;Germany (FRG);Heron;UAV;Aircraft;2009;No;1;Yes;2011;Yes;New;3.0000;3.0000;3;No
+35479;Israel;Germany (FRG);Heron;UAV;Aircraft;2009;No;4;Yes;2010;No;New;3.0000;3.0000;12;No
+26540;Israel;Ghana;M-65 120mm;Mortar;Artillery;1972;Yes;28;Yes;1973;Yes;New;0.0500;0.0500;1.4;No
+10067;Israel;Ghana;PA-18/L-18/L-21;Light aircraft;Aircraft;1959;Yes;1;No;1959;No;Second hand;0.0600;0.024;0.024;No
+37501;Israel;Greece;Litening;Aircraft EO system;Sensors;2000;Yes;8;Yes;2005;Yes;New;1.0000;1.0000;8;No
+37501;Israel;Greece;Litening;Aircraft EO system;Sensors;2000;Yes;7;Yes;2004;Yes;New;1.0000;1.0000;7;No
+23686;Israel;Greece;Saar-4;Patrol craft;Ships;2002;No;2;No;2004;No;New;35.0000;35.0000;70;Yes
+23686;Israel;Greece;Saar-4;Patrol craft;Ships;2002;No;1;No;2003;No;New;35.0000;35.0000;35;Yes
+10145;Israel;Guatemala;Arava;Transport aircraft;Aircraft;1982;Yes;1;No;1983;No;Second hand;3.5000;1.4;1.4;No
+3432;Israel;Guatemala;RBY-1;APV;Armoured vehicles;1976;Yes;5;Yes;1978;No;New;0.1200;0.1200;0.6;No
+3432;Israel;Guatemala;RBY-1;APV;Armoured vehicles;1976;Yes;5;Yes;1977;No;New;0.1200;0.1200;0.6;No
+599;Israel;Guatemala;Arava;Transport aircraft;Aircraft;1974;No;3;No;1976;No;New;3.5000;3.5000;10.5;No
+599;Israel;Guatemala;Arava;Transport aircraft;Aircraft;1974;No;7;No;1975;No;New;3.5000;3.5000;24.5;No
+50297;Israel;Guinea;Hughes-500D/MD;Light helicopter;Aircraft;2000;No;2;No;2001;No;Second hand;0.7100;0.284;0.568;No
+17779;Israel;Haiti;Arava;Transport aircraft;Aircraft;1980;Yes;1;No;1981;Yes;New;3.5000;3.5000;3.5;No
+40362;Israel;Hungary;Litening;Aircraft EO system;Sensors;2005;No;5;Yes;2008;Yes;New;1.0000;1.0000;5;No
+36480;Israel;India;EL/M-2238 STAR;Air search radar;Sensors;1999;Yes;1;No;2012;No;New;12.5000;12.5000;12.5;No
+36480;Israel;India;EL/M-2238 STAR;Air search radar;Sensors;1999;Yes;1;No;2011;No;New;12.5000;12.5000;12.5;No
+36480;Israel;India;EL/M-2238 STAR;Air search radar;Sensors;1999;Yes;1;No;2010;No;New;12.5000;12.5000;12.5;No
+35224;Israel;India;LAHAT;Anti-tank missile;Missiles;2006;Yes;100;Yes;2013;Yes;New;0.0400;0.0400;4;No
+34617;Israel;India;EL/M-2221 STGR;Fire control radar;Sensors;2002;Yes;2;Yes;2003;Yes;New;4.7500;4.7500;9.5;No
+34617;Israel;India;EL/M-2221 STGR;Fire control radar;Sensors;2002;Yes;2;Yes;2004;Yes;New;4.7500;4.7500;9.5;No
+34617;Israel;India;EL/M-2221 STGR;Fire control radar;Sensors;2002;Yes;2;Yes;2011;Yes;New;4.7500;4.7500;9.5;No
+34320;Israel;India;Python-4;BVRAAM;Missiles;2005;Yes;100;Yes;2007;Yes;New;0.1700;0.1700;17;No
+33780;Israel;India;Searcher;UAV;Aircraft;2002;No;8;Yes;2003;Yes;New;0.3000;0.3000;2.4;No
+32351;Israel;India;EL/M-2032;Combat ac radar;Sensors;2005;No;3;Yes;2011;Yes;New;2.0000;2.0000;6;No
+32351;Israel;India;EL/M-2032;Combat ac radar;Sensors;2005;No;4;Yes;2010;Yes;New;2.0000;2.0000;8;No
+32351;Israel;India;EL/M-2032;Combat ac radar;Sensors;2005;No;1;No;2009;No;New;2.0000;2.0000;2;No
+32351;Israel;India;EL/M-2032;Combat ac radar;Sensors;2005;No;1;No;2008;No;New;2.0000;2.0000;2;No
+32205;Israel;India;M-58 160mm;Mortar;Artillery;2000;Yes;7;No;2000;No;New;0.1500;0.1500;1.05;No
+32129;Israel;India;Derby;BVRAAM;Missiles;2005;No;5;Yes;2011;Yes;New;0.4000;0.4000;2;No
+32129;Israel;India;Derby;BVRAAM;Missiles;2005;No;5;Yes;2008;Yes;New;0.4000;0.4000;2;No
+32129;Israel;India;Derby;BVRAAM;Missiles;2005;No;5;Yes;2010;Yes;New;0.4000;0.4000;2;No
+32129;Israel;India;Derby;BVRAAM;Missiles;2005;No;5;Yes;2009;Yes;New;0.4000;0.4000;2;No
+31805;Israel;India;EL/M-2022;MP aircraft radar;Sensors;2000;Yes;1;Yes;2011;No;New;2.5000;2.5000;2.5;No
+31805;Israel;India;EL/M-2022;MP aircraft radar;Sensors;2000;Yes;3;Yes;2009;Yes;New;2.5000;2.5000;7.5;No
+31805;Israel;India;EL/M-2022;MP aircraft radar;Sensors;2000;Yes;4;Yes;2010;Yes;New;2.5000;2.5000;10;No
+31805;Israel;India;EL/M-2022;MP aircraft radar;Sensors;2000;Yes;2;Yes;2006;No;New;2.5000;2.5000;5;No
+31805;Israel;India;EL/M-2022;MP aircraft radar;Sensors;2000;Yes;3;Yes;2001;No;New;2.5000;2.5000;7.5;No
+31805;Israel;India;EL/M-2022;MP aircraft radar;Sensors;2000;Yes;4;Yes;2002;No;New;2.5000;2.5000;10;No
+31805;Israel;India;EL/M-2022;MP aircraft radar;Sensors;2000;Yes;4;Yes;2008;No;New;2.5000;2.5000;10;No
+31805;Israel;India;EL/M-2022;MP aircraft radar;Sensors;2000;Yes;4;Yes;2007;No;New;2.5000;2.5000;10;No
+31549;Israel;India;Barak-1;SAM;Missiles;2000;No;100;Yes;2004;Yes;New;0.2500;0.2500;25;No
+31549;Israel;India;Barak-1;SAM;Missiles;2000;No;100;Yes;2003;Yes;New;0.2500;0.2500;25;No
+30928;Israel;India;EL/M-2032;Combat ac radar;Sensors;1999;No;1;Yes;1999;No;New;2.0000;2.0000;2;No
+30928;Israel;India;EL/M-2032;Combat ac radar;Sensors;1999;No;2;Yes;2005;Yes;New;2.0000;2.0000;4;No
+30928;Israel;India;EL/M-2032;Combat ac radar;Sensors;1999;No;2;Yes;2004;Yes;New;2.0000;2.0000;4;No
+30928;Israel;India;EL/M-2032;Combat ac radar;Sensors;1999;No;2;Yes;2003;Yes;New;2.0000;2.0000;4;No
+30928;Israel;India;EL/M-2032;Combat ac radar;Sensors;1999;No;1;Yes;2002;Yes;New;2.0000;2.0000;2;No
+30928;Israel;India;EL/M-2032;Combat ac radar;Sensors;1999;No;1;Yes;2001;Yes;New;2.0000;2.0000;2;No
+30928;Israel;India;EL/M-2032;Combat ac radar;Sensors;1999;No;1;Yes;2000;Yes;New;2.0000;2.0000;2;No
+30411;Israel;India;Searcher;UAV;Aircraft;1996;Yes;12;Yes;1999;Yes;New;0.3000;0.3000;3.6;No
+30411;Israel;India;Searcher;UAV;Aircraft;1996;Yes;12;Yes;2000;Yes;New;0.3000;0.3000;3.6;No
+30411;Israel;India;Searcher;UAV;Aircraft;1996;Yes;12;Yes;1998;Yes;New;0.3000;0.3000;3.6;No
+30272;Israel;India;EL/M-2080 Green Pine;Air search radar;Sensors;2001;No;2;No;2002;No;New;17.5000;17.5000;35;No
+29832;Israel;India;EL/M-2075 Phalcon;AEW&C system;Sensors;2004;No;1;No;2011;No;New;50.0000;50.0000;50;No
+29832;Israel;India;EL/M-2075 Phalcon;AEW&C system;Sensors;2004;No;1;No;2010;No;New;50.0000;50.0000;50;No
+29832;Israel;India;EL/M-2075 Phalcon;AEW&C system;Sensors;2004;No;1;No;2009;No;New;50.0000;50.0000;50;No
+29043;Israel;India;EL/M-2140;Ground surv radar;Sensors;1998;No;100;Yes;2001;No;New;0.1500;0.1500;15;No
+29043;Israel;India;EL/M-2140;Ground surv radar;Sensors;1998;No;70;Yes;2000;No;New;0.1500;0.1500;10.5;No
+28801;Israel;India;Searcher;UAV;Aircraft;1999;Yes;32;Yes;2001;No;New;0.3000;0.3000;9.6;No
+28427;Israel;India;Harpy;ARM;Missiles;1997;No;20;Yes;2000;Yes;New;0.4000;0.4000;8;No
+28427;Israel;India;Harpy;ARM;Missiles;1997;No;20;Yes;1999;Yes;New;0.4000;0.4000;8;No
+27450;Israel;India;M-58 160mm;Mortar;Artillery;1965;Yes;50;Yes;1968;Yes;New;0.1500;0.1500;7.5;No
+27450;Israel;India;M-58 160mm;Mortar;Artillery;1965;Yes;50;Yes;1967;Yes;New;0.1500;0.1500;7.5;No
+27450;Israel;India;M-58 160mm;Mortar;Artillery;1965;Yes;50;Yes;1966;Yes;New;0.1500;0.1500;7.5;No
+27450;Israel;India;M-58 160mm;Mortar;Artillery;1965;Yes;50;Yes;1965;Yes;New;0.1500;0.1500;7.5;No
+27340;Israel;India;Astra-SPX;SIGINT aircraft;Aircraft;1997;No;4;Yes;1998;Yes;New;12.5000;12.5000;50;No
+27340;Israel;India;Astra-SPX;SIGINT aircraft;Aircraft;1997;No;3;Yes;1997;Yes;New;12.5000;12.5000;37.5;No
+26696;Israel;India;AGM-142E/Popeye-2;ASM;Missiles;2001;No;26;Yes;2006;No;New;1.0000;1.0000;26;No
+26696;Israel;India;AGM-142E/Popeye-2;ASM;Missiles;2001;No;3;Yes;2005;No;New;1.0000;1.0000;3;No
+26696;Israel;India;AGM-142E/Popeye-2;ASM;Missiles;2001;No;1;No;2004;No;New;1.0000;1.0000;1;No
+19683;Israel;India;EL/M-2221 STGR;Fire control radar;Sensors;2001;Yes;1;No;2004;No;New;4.7500;4.7500;4.75;No
+1245;Israel;India;EL/M-2032;Combat ac radar;Sensors;1999;Yes;1;Yes;2005;Yes;New;2.0000;2.0000;2;No
+1245;Israel;India;EL/M-2032;Combat ac radar;Sensors;1999;Yes;1;Yes;2004;Yes;New;2.0000;2.0000;2;No
+55833;Israel;India;Heron;UAV;Aircraft;2000;No;6;Yes;2002;Yes;New;3.0000;3.0000;18;No
+55833;Israel;India;Heron;UAV;Aircraft;2000;No;6;Yes;2001;No;New;3.0000;3.0000;18;No
+52265;Israel;India;Heron;UAV;Aircraft;2009;Yes;8;Yes;2013;Yes;New;3.0000;3.0000;24;No
+52265;Israel;India;Heron;UAV;Aircraft;2009;Yes;8;Yes;2012;Yes;New;3.0000;3.0000;24;No
+51252;Israel;India;Harop;SSM;Missiles;2009;Yes;25;Yes;2013;Yes;New;0.6000;0.6000;15;No
+40005;Israel;India;Heron;MP UAV;Aircraft;2010;No;2;Yes;2011;Yes;New;7.5000;7.5000;15;No
+39241;Israel;India;Derby;BVRAAM;Missiles;2008;Yes;250;Yes;2013;Yes;New;0.4000;0.4000;100;No
+39241;Israel;India;Derby;BVRAAM;Missiles;2008;Yes;50;Yes;2012;Yes;New;0.4000;0.4000;20;No
+37665;Israel;India;Heron;MP UAV;Aircraft;2003;No;4;Yes;2005;Yes;New;7.5000;7.5000;30;No
+35465;Israel;India;Heron;UAV;Aircraft;2006;No;11;Yes;2007;No;New;3.0000;3.0000;33;No
+35465;Israel;India;Heron;UAV;Aircraft;2006;No;5;Yes;2006;Yes;New;3.0000;3.0000;15;No
+34618;Israel;India;EL/M-2221 STGR;Fire control radar;Sensors;2001;Yes;3;Yes;2004;No;New;4.7500;4.7500;14.25;No
+34618;Israel;India;EL/M-2221 STGR;Fire control radar;Sensors;2001;Yes;2;Yes;2005;No;New;4.7500;4.7500;9.5;No
+34618;Israel;India;EL/M-2221 STGR;Fire control radar;Sensors;2001;Yes;2;Yes;2007;Yes;New;4.7500;4.7500;9.5;No
+34618;Israel;India;EL/M-2221 STGR;Fire control radar;Sensors;2001;Yes;2;Yes;2006;Yes;New;4.7500;4.7500;9.5;No
+34618;Israel;India;EL/M-2221 STGR;Fire control radar;Sensors;2001;Yes;1;Yes;2003;Yes;New;4.7500;4.7500;4.75;No
+34616;Israel;India;Barak-1;SAM;Missiles;2003;Yes;30;Yes;2005;Yes;New;0.2500;0.2500;7.5;No
+34616;Israel;India;Barak-1;SAM;Missiles;2003;Yes;30;Yes;2004;Yes;New;0.2500;0.2500;7.5;No
+34615;Israel;India;Barak-1;SAM;Missiles;2002;Yes;40;Yes;2013;Yes;New;0.2500;0.2500;10;No
+34615;Israel;India;Barak-1;SAM;Missiles;2002;Yes;40;Yes;2011;Yes;New;0.2500;0.2500;10;No
+34615;Israel;India;Barak-1;SAM;Missiles;2002;Yes;40;Yes;2010;No;New;0.2500;0.2500;10;No
+34615;Israel;India;Barak-1;SAM;Missiles;2002;Yes;40;Yes;2005;Yes;New;0.2500;0.2500;10;No
+34615;Israel;India;Barak-1;SAM;Missiles;2002;Yes;40;Yes;2006;Yes;New;0.2500;0.2500;10;No
+34615;Israel;India;Barak-1;SAM;Missiles;2002;Yes;40;Yes;2009;Yes;New;0.2500;0.2500;10;No
+34615;Israel;India;Barak-1;SAM;Missiles;2002;Yes;40;Yes;2012;Yes;New;0.2500;0.2500;10;No
+31059;Israel;India;Heron;UAV;Aircraft;2003;No;9;Yes;2006;Yes;New;3.0000;3.0000;27;No
+31059;Israel;India;Heron;UAV;Aircraft;2003;No;9;Yes;2005;Yes;New;3.0000;3.0000;27;No
+55832;Israel;India;Searcher;UAV;Aircraft;2010;Yes;2;Yes;2011;Yes;New;0.3000;0.3000;0.6;No
+55508;Israel;India;Searcher;UAV;Aircraft;2001;Yes;15;Yes;2003;Yes;New;0.3000;0.3000;4.5;No
+55508;Israel;India;Searcher;UAV;Aircraft;2001;Yes;15;Yes;2002;Yes;New;0.3000;0.3000;4.5;No
+53035;Israel;India;Air refuel system;Air refuel system;Other;2001;No;2;Yes;2004;No;New;10.0000;10.0000;20;No
+53035;Israel;India;Air refuel system;Air refuel system;Other;2001;No;4;Yes;2003;No;New;10.0000;10.0000;40;No
+50945;Israel;India;EL/M-2070;AGS radar;Sensors;2007;Yes;1;No;2009;No;New;7.5000;7.5000;7.5;No
+50866;Israel;India;Griffin;Guided bomb;Missiles;2009;No;125;Yes;2013;Yes;New;0.0200;0.0200;2.5;No
+50866;Israel;India;Griffin;Guided bomb;Missiles;2009;No;125;Yes;2012;Yes;New;0.0200;0.0200;2.5;No
+50838;Israel;India;EL/M-2083 APR;Air search radar;Sensors;2009;No;2;Yes;2012;Yes;New;15.0000;15.0000;30;No
+52688;Israel;India;SPICE;Guided bomb;Missiles;2008;Yes;100;Yes;2009;Yes;New;0.0200;0.0200;2;No
+40357;Israel;India;Griffin;Guided bomb;Missiles;2002;Yes;50;Yes;2004;Yes;New;0.0200;0.0200;1;No
+40357;Israel;India;Griffin;Guided bomb;Missiles;2002;Yes;50;Yes;2002;No;New;0.0200;0.0200;1;No
+40357;Israel;India;Griffin;Guided bomb;Missiles;2002;Yes;50;Yes;2003;Yes;New;0.0200;0.0200;1;No
+40357;Israel;India;Griffin;Guided bomb;Missiles;2002;Yes;50;Yes;2006;Yes;New;0.0200;0.0200;1;No
+40357;Israel;India;Griffin;Guided bomb;Missiles;2002;Yes;50;Yes;2005;Yes;New;0.0200;0.0200;1;No
+40236;Israel;India;EL/M-2238 STAR;Air search radar;Sensors;2002;Yes;1;Yes;2006;Yes;New;12.5000;12.5000;12.5;No
+40236;Israel;India;EL/M-2238 STAR;Air search radar;Sensors;2002;Yes;1;Yes;2007;Yes;New;12.5000;12.5000;12.5;No
+40193;Israel;India;Litening;Aircraft EO system;Sensors;2004;No;2;Yes;2007;No;New;1.0000;1.0000;2;No
+40193;Israel;India;Litening;Aircraft EO system;Sensors;2004;No;2;Yes;2009;No;New;1.0000;1.0000;2;No
+40193;Israel;India;Litening;Aircraft EO system;Sensors;2004;No;4;Yes;2008;No;New;1.0000;1.0000;4;No
+40142;Israel;India;EL/M-2022;MP aircraft radar;Sensors;2004;No;2;Yes;2005;Yes;New;2.5000;2.5000;5;No
+40142;Israel;India;EL/M-2022;MP aircraft radar;Sensors;2004;No;2;Yes;2006;Yes;New;2.5000;2.5000;5;No
+40142;Israel;India;EL/M-2022;MP aircraft radar;Sensors;2004;No;2;Yes;2007;Yes;New;2.5000;2.5000;5;No
+40142;Israel;India;EL/M-2022;MP aircraft radar;Sensors;2004;No;1;Yes;2008;Yes;New;2.5000;2.5000;2.5;No
+40142;Israel;India;EL/M-2022;MP aircraft radar;Sensors;2004;No;1;Yes;2004;No;New;2.5000;2.5000;2.5;No
+55039;Israel;India;EL/M-2084;Air search radar;Sensors;2009;No;5;Yes;2013;No;New;16.0000;16.0000;80;Yes
+55039;Israel;India;EL/M-2084;Air search radar;Sensors;2009;No;3;Yes;2011;No;New;16.0000;16.0000;48;Yes
+55039;Israel;India;EL/M-2084;Air search radar;Sensors;2009;No;5;Yes;2012;No;New;16.0000;16.0000;80;Yes
+53016;Israel;India;Super Dvora;Patrol craft;Ships;2003;Yes;1;No;2006;No;New;5.2500;5.2500;5.25;Yes
+53016;Israel;India;Super Dvora;Patrol craft;Ships;2003;Yes;1;No;2003;No;New;5.2500;5.2500;5.25;Yes
+53016;Israel;India;Super Dvora;Patrol craft;Ships;2003;Yes;2;No;2004;No;New;5.2500;5.2500;10.5;Yes
+53016;Israel;India;Super Dvora;Patrol craft;Ships;2003;Yes;2;No;2005;No;New;5.2500;5.2500;10.5;Yes
+53015;Israel;India;Super Dvora;Patrol craft;Ships;1997;No;1;No;1999;No;New;5.2500;5.2500;5.25;Yes
+53015;Israel;India;Super Dvora;Patrol craft;Ships;1997;No;1;No;1998;No;New;5.2500;5.2500;5.25;Yes
+32354;Israel;India;SPYDER-MR;SAM system;Air defence systems;2008;No;5;Yes;2013;Yes;New;35.0000;35.0000;175;Yes
+32354;Israel;India;SPYDER-MR;SAM system;Air defence systems;2008;No;1;Yes;2012;Yes;New;35.0000;35.0000;35;Yes
+39339;Israel;India;EL/M-2083 APR;Air search radar;Sensors;2002;No;1;No;2008;No;New;15.0000;15.0000;15;No
+39339;Israel;India;EL/M-2083 APR;Air search radar;Sensors;2002;No;1;No;2007;No;New;15.0000;15.0000;15;No
+39240;Israel;India;Python-5;BVRAAM;Missiles;2008;No;250;Yes;2013;Yes;New;0.2500;0.2500;62.5;No
+39240;Israel;India;Python-5;BVRAAM;Missiles;2008;No;50;Yes;2012;Yes;New;0.2500;0.2500;12.5;No
+32161;Israel;India;M-46S 155mm;Towed gun;Artillery;2000;No;56;Yes;2005;No;New;1.0000;1.0000;56;No
+32161;Israel;India;M-46S 155mm;Towed gun;Artillery;2000;No;50;Yes;2006;Yes;New;1.0000;1.0000;50;No
+32161;Israel;India;M-46S 155mm;Towed gun;Artillery;2000;No;12;Yes;2003;Yes;New;1.0000;1.0000;12;No
+32161;Israel;India;M-46S 155mm;Towed gun;Artillery;2000;No;56;No;2004;No;New;1.0000;1.0000;56;No
+32161;Israel;India;M-46S 155mm;Towed gun;Artillery;2000;No;6;No;2001;No;New;1.0000;1.0000;6;No
+2459;Israel;Indonesia;A-4E Skyhawk;FGA aircraft;Aircraft;1981;No;8;Yes;1982;No;Second hand;8.0000;3.2;25.6;No
+2459;Israel;Indonesia;A-4E Skyhawk;FGA aircraft;Aircraft;1981;No;8;Yes;1983;Yes;Second hand;8.0000;3.2;25.6;No
+1924;Israel;Indonesia;A-4E Skyhawk;FGA aircraft;Aircraft;1979;No;12;Yes;1980;No;Second hand;8.0000;3.2;38.4;No
+1924;Israel;Indonesia;A-4E Skyhawk;FGA aircraft;Aircraft;1979;No;4;Yes;1979;Yes;Second hand;8.0000;3.2;12.8;No
+39372;Israel;Indonesia;Searcher;UAV;Aircraft;2006;No;4;Yes;2012;Yes;New;0.3000;0.3000;1.2;No
+17973;Israel;Iran;BGM-71 TOW;Anti-tank missile;Missiles;1985;No;508;No;1985;No;New;0.0100;0.0100;5.08;No
+17815;Israel;Iran;BGM-71 TOW;Anti-tank missile;Missiles;1986;No;500;No;1986;No;New;0.0100;0.0100;5;No
+17790;Israel;Iran;AIM-9L/M Sidewinder;SRAAM;Missiles;1985;Yes;150;Yes;1986;Yes;New;0.1100;0.1100;16.5;No
+17790;Israel;Iran;AIM-9L/M Sidewinder;SRAAM;Missiles;1985;Yes;150;Yes;1985;Yes;New;0.1100;0.1100;16.5;No
+38216;Israel;Italy;Spike-MR/LR;Anti-tank missile;Missiles;2005;Yes;165;No;2006;No;New;0.0300;0.0300;4.95;No
+37456;Israel;Italy;Litening;Aircraft EO system;Sensors;2000;No;4;Yes;2000;Yes;New;1.0000;1.0000;4;No
+36416;Israel;Italy;OPHER;Guided bomb;Missiles;1997;No;250;Yes;1999;No;New;0.0200;0.0200;5;No
+36416;Israel;Italy;OPHER;Guided bomb;Missiles;1997;No;250;Yes;1998;No;New;0.0200;0.0200;5;No
+36140;Israel;Italy;Griffin;Guided bomb;Missiles;1993;No;425;Yes;1993;Yes;New;0.0200;0.0200;8.5;No
+36140;Israel;Italy;Griffin;Guided bomb;Missiles;1993;No;425;Yes;1994;Yes;New;0.0200;0.0200;8.5;No
+36140;Israel;Italy;Griffin;Guided bomb;Missiles;1993;No;425;No;1995;Yes;New;0.0200;0.0200;8.5;No
+36140;Israel;Italy;Griffin;Guided bomb;Missiles;1993;No;425;Yes;1996;Yes;New;0.0200;0.0200;8.5;No
+32274;Israel;Italy;Spike-ER;Anti-tank missile;Missiles;2010;No;100;Yes;2013;Yes;New;0.0600;0.0600;6;No
+52886;Israel;Italy;Lizard;Guided bomb;Missiles;2006;No;100;Yes;2007;No;New;0.0200;0.0200;2;No
+52885;Israel;Italy;Lizard;Guided bomb;Missiles;2001;No;100;Yes;2001;No;New;0.0200;0.0200;2;No
+52885;Israel;Italy;Lizard;Guided bomb;Missiles;2001;No;100;Yes;2003;No;New;0.0200;0.0200;2;No
+52885;Israel;Italy;Lizard;Guided bomb;Missiles;2001;No;100;Yes;2002;No;New;0.0200;0.0200;2;No
+52577;Israel;Italy;RecceLite;Aircraft recce system;Sensors;2005;Yes;5;Yes;2008;Yes;New;4.0000;4.0000;20;No
+52577;Israel;Italy;RecceLite;Aircraft recce system;Sensors;2005;Yes;5;Yes;2007;Yes;New;4.0000;4.0000;20;No
+52575;Israel;Italy;Litening;Aircraft EO system;Sensors;2005;Yes;15;Yes;2011;No;New;1.0000;1.0000;15;No
+52575;Israel;Italy;Litening;Aircraft EO system;Sensors;2005;Yes;10;Yes;2012;Yes;New;1.0000;1.0000;10;No
+38255;Israel;Italy;Spike-MR/LR;Anti-tank missile;Missiles;2009;No;200;Yes;2013;No;New;0.0300;0.0300;6;Yes
+38255;Israel;Italy;Spike-MR/LR;Anti-tank missile;Missiles;2009;No;200;Yes;2012;No;New;0.0300;0.0300;6;Yes
+38255;Israel;Italy;Spike-MR/LR;Anti-tank missile;Missiles;2009;No;200;Yes;2011;No;New;0.0300;0.0300;6;Yes
+38255;Israel;Italy;Spike-MR/LR;Anti-tank missile;Missiles;2009;No;10;Yes;2009;Yes;New;0.0300;0.0300;0.3;Yes
+38255;Israel;Italy;Spike-MR/LR;Anti-tank missile;Missiles;2009;No;200;Yes;2010;No;New;0.0300;0.0300;6;Yes
+3603;Israel;Kenya;Gabriel-2;Anti-ship missile;Missiles;1981;Yes;10;Yes;1983;Yes;New;0.7000;0.7000;7;No
+3603;Israel;Kenya;Gabriel-2;Anti-ship missile;Missiles;1981;Yes;20;Yes;1982;Yes;New;0.7000;0.7000;14;No
+25431;Israel;South Korea (ROK);Harpy;ARM;Missiles;1997;No;30;Yes;1999;Yes;New;0.4000;0.4000;12;No
+25431;Israel;South Korea (ROK);Harpy;ARM;Missiles;1997;No;22;Yes;1998;Yes;New;0.4000;0.4000;8.8;No
+25431;Israel;South Korea (ROK);Harpy;ARM;Missiles;1997;No;48;No;2000;No;New;0.4000;0.4000;19.2;No
+24855;Israel;South Korea (ROK);AGM-142A/Popeye-1;ASM;Missiles;1997;Yes;100;Yes;2002;Yes;New;1.0000;1.0000;100;No
+57082;Israel;South Korea (ROK);SandCat Spike-NLOS;SSM launcher;Artillery;2011;No;6;Yes;2013;No;New;0.4000;0.4000;2.4;No
+53155;Israel;South Korea (ROK);Spike-NLOS;SSM/ASM;Missiles;2011;No;67;No;2013;No;New;0.1500;0.1500;10.05;No
+50819;Israel;South Korea (ROK);EL/M-2032;Combat ac radar;Sensors;2009;No;8;Yes;2013;No;New;2.0000;2.0000;16;No
+51216;Israel;South Korea (ROK);EL/M-2080 Green Pine;Air search radar;Sensors;2009;No;2;No;2012;No;New;17.5000;17.5000;35;No
+25289;Israel;Lesotho;RBY-1;APV;Armoured vehicles;1976;Yes;10;Yes;1977;Yes;New;0.1200;0.1200;1.2;No
+39717;Israel;Lesotho;RAM;APV;Armoured vehicles;2006;Yes;6;No;2006;No;New;0.1200;0.1200;0.72;No
+50644;Israel;Mauritius;EL/M-2022;MP aircraft radar;Sensors;2004;No;1;No;2004;No;New;2.5000;2.5000;2.5;No
+34893;Israel;Mexico;S-65/Yasur-2000;Helicopter;Aircraft;2004;No;4;No;2005;No;Second hand;14.0000;5.6;22.4;No
+34419;Israel;Mexico;Aliya/Saar-4.5;FAC;Ships;2003;No;2;No;2004;No;Second hand;77.0000;30.8;61.6;No
+33551;Israel;Mexico;E-2C Hawkeye;AEW&C aircraft;Aircraft;2002;No;3;No;2004;No;Second hand;73.6500;29.46;88.38;No
+32870;Israel;Mexico;C-130E Hercules;Transport aircraft;Aircraft;2001;Yes;2;Yes;2002;Yes;Second hand;24.0000;9.6;19.2;No
+28212;Israel;Mexico;Arava;Transport aircraft;Aircraft;1987;Yes;1;Yes;1993;Yes;New;3.5000;3.5000;3.5;No
+28212;Israel;Mexico;Arava;Transport aircraft;Aircraft;1987;Yes;1;Yes;1992;Yes;New;3.5000;3.5000;3.5;No
+28212;Israel;Mexico;Arava;Transport aircraft;Aircraft;1987;Yes;1;Yes;1991;Yes;New;3.5000;3.5000;3.5;No
+28212;Israel;Mexico;Arava;Transport aircraft;Aircraft;1987;Yes;1;Yes;1994;No;New;3.5000;3.5000;3.5;No
+26204;Israel;Mexico;M-65 120mm;Mortar;Artillery;1977;Yes;30;Yes;1979;Yes;New;0.0500;0.0500;1.5;No
+26204;Israel;Mexico;M-65 120mm;Mortar;Artillery;1977;Yes;30;Yes;1978;Yes;New;0.0500;0.0500;1.5;No
+16210;Israel;Mexico;Arava;Transport aircraft;Aircraft;1972;Yes;3;Yes;1974;No;New;3.5000;3.5000;10.5;No
+16210;Israel;Mexico;Arava;Transport aircraft;Aircraft;1972;Yes;2;Yes;1973;No;New;3.5000;3.5000;7;No
+334;Israel;Mexico;Arava;Transport aircraft;Aircraft;1974;Yes;5;No;1976;No;New;3.5000;3.5000;17.5;No
+50529;Israel;Mexico;Hermes-450;UAV;Aircraft;2008;No;2;No;2009;No;New;2.0000;2.0000;4;No
+40144;Israel;Mexico;Gabriel-2;Anti-ship missile;Missiles;2003;No;20;Yes;2004;No;New;0.7000;0.7000;14;No
+38995;Israel;Nigeria;Aerostar;UAV;Aircraft;2006;No;9;Yes;2007;Yes;New;0.1000;0.1000;0.9;No
+55475;Israel;Nigeria;Shaldag;Patrol craft;Ships;2012;No;2;No;2013;No;New;6.0000;6.0000;12;No
+51306;Israel;Nigeria;Shaldag;Patrol craft;Ships;2008;Yes;1;No;2011;Yes;New;6.0000;6.0000;6;No
+51306;Israel;Nigeria;Shaldag;Patrol craft;Ships;2008;Yes;1;No;2009;No;New;6.0000;6.0000;6;No
+38169;Israel;Portugal;EL/M-2022;MP aircraft radar;Sensors;2006;No;3;Yes;2010;No;New;2.5000;2.5000;7.5;No
+38154;Israel;Portugal;Spike-MR/LR;Anti-tank missile;Missiles;2006;No;20;Yes;2011;Yes;New;0.0300;0.0300;0.6;No
+17785;Israel;Portugal;CARDOM 120mm;Mortar;Artillery;2006;No;6;Yes;2011;Yes;New;0.0500;0.0500;0.3;No
+17785;Israel;Portugal;CARDOM 120mm;Mortar;Artillery;2006;No;4;Yes;2008;No;New;0.0500;0.0500;0.2;No
+17785;Israel;Portugal;CARDOM 120mm;Mortar;Artillery;2006;No;6;Yes;2009;No;New;0.0500;0.0500;0.3;No
+17785;Israel;Portugal;CARDOM 120mm;Mortar;Artillery;2006;No;6;Yes;2010;Yes;New;0.0500;0.0500;0.3;No
+52377;Israel;Portugal;EL/M-2022;MP aircraft radar;Sensors;2007;No;1;Yes;2012;Yes;New;2.5000;2.5000;2.5;No
+52377;Israel;Portugal;EL/M-2022;MP aircraft radar;Sensors;2007;No;3;Yes;2011;No;New;2.5000;2.5000;7.5;No
+52377;Israel;Portugal;EL/M-2022;MP aircraft radar;Sensors;2007;No;1;No;2010;No;New;2.5000;2.5000;2.5;No
+50440;Israel;Portugal;Litening;Aircraft EO system;Sensors;2008;No;12;Yes;2009;No;New;1.0000;1.0000;12;No
+50440;Israel;Portugal;Litening;Aircraft EO system;Sensors;2008;No;2;Yes;2008;Yes;New;1.0000;1.0000;2;No
+53868;Israel;Russia;Searcher;UAV;Aircraft;2010;No;6;Yes;2013;Yes;New;0.3000;0.3000;1.8;No
+51075;Israel;Russia;I-View-150;UAV;Aircraft;2009;No;4;Yes;2010;Yes;New;0.1000;0.1000;0.4;No
+51075;Israel;Russia;I-View-150;UAV;Aircraft;2009;No;4;Yes;2009;Yes;New;0.1000;0.1000;0.4;No
+50783;Israel;Russia;Searcher;UAV;Aircraft;2009;No;1;Yes;2010;Yes;New;0.3000;0.3000;0.3;No
+50783;Israel;Russia;Searcher;UAV;Aircraft;2009;No;1;Yes;2009;Yes;New;0.3000;0.3000;0.3;No
+56547;Israel;Rwanda;Ti-67S;Tank;Armoured vehicles;2012;Yes;10;Yes;2013;Yes;Second hand;2.2500;0.9;9;No
+51473;Israel;Rwanda;Lynx;Self-propelled MRL;Artillery;2007;Yes;5;No;2008;No;New;0.9500;0.9500;4.75;No
+53003;Israel;Seychelles;EL/M-2022;MP aircraft radar;Sensors;2012;Yes;1;No;2013;No;New;2.5000;2.5000;2.5;No
+38025;Israel;South Africa;EL/M-2208;Air/sea search radar;Sensors;1996;Yes;2;Yes;2000;Yes;New;3.0000;3.0000;6;No
+38025;Israel;South Africa;EL/M-2208;Air/sea search radar;Sensors;1996;Yes;1;Yes;1999;Yes;New;3.0000;3.0000;3;No
+37459;Israel;South Africa;Litening;Aircraft EO system;Sensors;2009;Yes;3;Yes;2011;Yes;New;1.0000;1.0000;3;No
+37459;Israel;South Africa;Litening;Aircraft EO system;Sensors;2009;Yes;2;Yes;2010;No;New;1.0000;1.0000;2;No
+37459;Israel;South Africa;Litening;Aircraft EO system;Sensors;2009;Yes;5;Yes;2012;Yes;New;1.0000;1.0000;5;No
+28533;Israel;South Africa;Python-3;SRAAM;Missiles;1985;Yes;10;Yes;1987;Yes;New;0.1100;0.1100;1.1;No
+28376;Israel;South Africa;Kfir C-7;FGA aircraft;Aircraft;1982;Yes;12;Yes;1992;No;New;16.8000;16.8000;201.6;No
+28376;Israel;South Africa;Kfir C-7;FGA aircraft;Aircraft;1982;Yes;13;Yes;1993;No;New;16.8000;16.8000;218.4;No
+28376;Israel;South Africa;Kfir C-7;FGA aircraft;Aircraft;1982;Yes;12;Yes;1994;No;New;16.8000;16.8000;201.6;No
+21970;Israel;South Africa;M-68/M-71 155mm;Towed gun;Artillery;1976;Yes;24;Yes;1977;Yes;New;0.8500;0.8500;20.4;No
+17840;Israel;South Africa;Boeing-707;Transport aircraft;Aircraft;1985;Yes;4;Yes;1986;No;Second hand but modernized;44.5000;29.37;117.48;No
+4479;Israel;South Africa;Mooney-201;Light aircraft;Aircraft;1983;No;6;No;1983;No;Second hand;0.1900;0.076;0.456;No
+26967;Israel;South Africa;Scout;UAV;Aircraft;1979;Yes;10;Yes;1986;No;New;0.1000;0.1000;1;Yes
+26967;Israel;South Africa;Scout;UAV;Aircraft;1979;Yes;10;Yes;1985;No;New;0.1000;0.1000;1;Yes
+26967;Israel;South Africa;Scout;UAV;Aircraft;1979;Yes;10;Yes;1984;No;New;0.1000;0.1000;1;Yes
+26967;Israel;South Africa;Scout;UAV;Aircraft;1979;Yes;10;Yes;1983;No;New;0.1000;0.1000;1;Yes
+26967;Israel;South Africa;Scout;UAV;Aircraft;1979;Yes;10;Yes;1982;Yes;New;0.1000;0.1000;1;Yes
+26967;Israel;South Africa;Scout;UAV;Aircraft;1979;Yes;10;Yes;1981;Yes;New;0.1000;0.1000;1;Yes
+26967;Israel;South Africa;Scout;UAV;Aircraft;1979;Yes;4;Yes;1980;Yes;New;0.1000;0.1000;0.4;Yes
+422;Israel;South Africa;Gabriel-2;Anti-ship missile;Missiles;1974;No;15;Yes;1986;Yes;New;0.7000;0.7000;10.5;Yes
+422;Israel;South Africa;Gabriel-2;Anti-ship missile;Missiles;1974;No;15;Yes;1985;Yes;New;0.7000;0.7000;10.5;Yes
+422;Israel;South Africa;Gabriel-2;Anti-ship missile;Missiles;1974;No;20;Yes;1984;Yes;New;0.7000;0.7000;14;Yes
+422;Israel;South Africa;Gabriel-2;Anti-ship missile;Missiles;1974;No;20;Yes;1983;Yes;New;0.7000;0.7000;14;Yes
+422;Israel;South Africa;Gabriel-2;Anti-ship missile;Missiles;1974;No;20;Yes;1982;Yes;New;0.7000;0.7000;14;Yes
+422;Israel;South Africa;Gabriel-2;Anti-ship missile;Missiles;1974;No;20;Yes;1981;Yes;New;0.7000;0.7000;14;Yes
+422;Israel;South Africa;Gabriel-2;Anti-ship missile;Missiles;1974;No;20;Yes;1980;Yes;New;0.7000;0.7000;14;Yes
+422;Israel;South Africa;Gabriel-2;Anti-ship missile;Missiles;1974;No;15;Yes;1979;Yes;New;0.7000;0.7000;10.5;Yes
+422;Israel;South Africa;Gabriel-2;Anti-ship missile;Missiles;1974;No;15;Yes;1978;Yes;New;0.7000;0.7000;10.5;Yes
+422;Israel;South Africa;Gabriel-2;Anti-ship missile;Missiles;1974;No;15;Yes;1977;Yes;New;0.7000;0.7000;10.5;Yes
+421;Israel;South Africa;Reshef/Saar-4;FAC;Ships;1974;No;1;No;1986;No;New;56.8500;56.8500;56.85;Yes
+421;Israel;South Africa;Reshef/Saar-4;FAC;Ships;1974;No;2;No;1983;No;New;56.8500;56.8500;113.7;Yes
+421;Israel;South Africa;Reshef/Saar-4;FAC;Ships;1974;No;1;No;1980;No;New;56.8500;56.8500;56.85;Yes
+421;Israel;South Africa;Reshef/Saar-4;FAC;Ships;1974;No;1;No;1979;No;New;56.8500;56.8500;56.85;Yes
+421;Israel;South Africa;Reshef/Saar-4;FAC;Ships;1974;No;2;No;1978;No;New;56.8500;56.8500;113.7;Yes
+421;Israel;South Africa;Reshef/Saar-4;FAC;Ships;1974;No;2;No;1977;No;New;56.8500;56.8500;113.7;Yes
+1826;Israel;Swaziland;Arava;Transport aircraft;Aircraft;1979;Yes;2;Yes;1979;Yes;New;3.5000;3.5000;7;No
+37466;Israel;Sweden;Litening;Aircraft EO system;Sensors;2002;Yes;3;Yes;2006;No;New;1.0000;1.0000;3;No
+37466;Israel;Sweden;Litening;Aircraft EO system;Sensors;2002;Yes;2;Yes;2007;Yes;New;1.0000;1.0000;2;No
+37466;Israel;Sweden;Litening;Aircraft EO system;Sensors;2002;Yes;2;Yes;2008;Yes;New;1.0000;1.0000;2;No
+37466;Israel;Sweden;Litening;Aircraft EO system;Sensors;2002;Yes;7;No;2009;No;New;1.0000;1.0000;7;No
+26101;Israel;El Salvador;CM-170 Magister;Trainer aircraft;Aircraft;1971;Yes;3;No;1973;No;Second hand;1.0000;0.4;1.2;No
+14010;Israel;El Salvador;CM-170 Magister;Trainer aircraft;Aircraft;1974;Yes;6;No;1975;No;Second hand;1.0000;0.4;2.4;No
+11446;Israel;El Salvador;MD-450 Ouragan;FGA aircraft;Aircraft;1973;No;12;Yes;1975;No;Second hand but modernized;3.2000;2.112;25.344;No
+11446;Israel;El Salvador;MD-450 Ouragan;FGA aircraft;Aircraft;1973;No;6;Yes;1974;No;Second hand but modernized;3.2000;2.112;12.672;No
+290;Israel;El Salvador;Arava;Transport aircraft;Aircraft;1973;No;2;No;1975;No;New;3.5000;3.5000;7;No
+290;Israel;El Salvador;Arava;Transport aircraft;Aircraft;1973;No;2;No;1974;No;New;3.5000;3.5000;7;No
+50739;Israel;El Salvador;Arava;Transport aircraft;Aircraft;2008;Yes;3;No;2008;No;Second hand;3.5000;1.4;4.2;No
+2368;Israel;Myanmar;Spitfire;Fighter aircraft;Aircraft;1954;No;6;No;1954;No;Second hand but modernized;2.0000;1.32;7.92;No
+2368;Israel;Myanmar;Spitfire;Fighter aircraft;Aircraft;1954;No;23;No;1955;No;Second hand but modernized;2.0000;1.32;30.36;No
+30893;Israel;Myanmar;M-68/M-71 155mm;Towed gun;Artillery;1998;Yes;16;Yes;2000;Yes;Second hand but modernized;0.8500;0.561;8.976;No
+11158;Israel;Nepal;AMX-13/75;Light tank;Armoured vehicles;1969;Yes;16;Yes;1970;Yes;Second hand;0.9000;0.36;5.76;No
+53875;Israel;Netherlands;Meteor;Petrol engine;Engines;1973;No;10;Yes;1973;No;Second hand;0.1000;0.04;0.4;No
+52579;Israel;Netherlands;RecceLite;Aircraft recce system;Sensors;2005;No;6;Yes;2007;Yes;New;4.0000;4.0000;24;No
+31291;Israel;Netherlands;Spike-MR/LR;Anti-tank missile;Missiles;2001;No;385;Yes;2011;No;New;0.0300;0.0300;11.55;Yes
+31291;Israel;Netherlands;Spike-MR/LR;Anti-tank missile;Missiles;2001;No;500;Yes;2010;No;New;0.0300;0.0300;15;Yes
+31291;Israel;Netherlands;Spike-MR/LR;Anti-tank missile;Missiles;2001;No;500;Yes;2009;No;New;0.0300;0.0300;15;Yes
+31291;Israel;Netherlands;Spike-MR/LR;Anti-tank missile;Missiles;2001;No;500;Yes;2008;No;New;0.0300;0.0300;15;Yes
+31291;Israel;Netherlands;Spike-MR/LR;Anti-tank missile;Missiles;2001;No;500;Yes;2007;No;New;0.0300;0.0300;15;Yes
+31291;Israel;Netherlands;Spike-MR/LR;Anti-tank missile;Missiles;2001;No;15;Yes;2006;No;New;0.0300;0.0300;0.45;Yes
+39452;Israel;Netherlands;Litening;Aircraft EO system;Sensors;2006;No;15;No;2007;No;New;1.0000;1.0000;15;No
+39452;Israel;Netherlands;Litening;Aircraft EO system;Sensors;2006;No;7;Yes;2008;Yes;New;1.0000;1.0000;7;No
+50831;Israel;Netherlands;Aerostar;UAV;Aircraft;2009;No;5;Yes;2009;No;New;0.1000;0.1000;0.5;No
+34056;Israel;New Zealand;EL/M-2022;MP aircraft radar;Sensors;2005;No;2;Yes;2013;No;New;2.5000;2.5000;5;No
+34056;Israel;New Zealand;EL/M-2022;MP aircraft radar;Sensors;2005;No;2;No;2012;No;New;2.5000;2.5000;5;No
+34056;Israel;New Zealand;EL/M-2022;MP aircraft radar;Sensors;2005;No;1;No;2011;No;New;2.5000;2.5000;2.5;No
+11154;Israel;Nicaragua;Arava;Transport aircraft;Aircraft;1973;Yes;2;Yes;1973;No;New;3.5000;3.5000;7;No
+6230;Israel;Nicaragua;T-17E1 Staghound;Armoured car;Armoured vehicles;1957;Yes;45;Yes;1957;No;Second hand;0.2400;0.096;4.32;No
+4637;Israel;Papua New Guinea;Arava;Transport aircraft;Aircraft;1984;No;3;No;1986;No;New;3.5000;3.5000;10.5;No
+53238;Israel;Paraguay;EL/M-2106NG;Air search radar;Sensors;2011;No;1;No;2012;Yes;New;6.0000;6.0000;6;No
+53238;Israel;Paraguay;EL/M-2106NG;Air search radar;Sensors;2011;No;1;No;2011;No;New;6.0000;6.0000;6;No
+36149;Israel;Peru;OPHER;Guided bomb;Missiles;1996;Yes;50;Yes;1998;Yes;New;0.0200;0.0200;1;No
+50811;Israel;Peru;Spike-MR/LR;Anti-tank missile;Missiles;2009;Yes;516;Yes;2009;Yes;New;0.0300;0.0300;15.48;No
+32081;Israel;Philippines;Blue Horizon;UAV;Aircraft;2001;No;2;No;2001;No;New;0.1500;0.1500;0.3;No
+15530;Israel;Philippines;M-68/M-71 155mm;Towed gun;Artillery;1983;Yes;7;Yes;1983;Yes;New;0.8500;0.8500;5.95;No
+32432;Israel;Poland;Spike-MR/LR;Anti-tank missile;Missiles;2003;No;295;Yes;2013;Yes;New;0.0300;0.0300;8.85;Yes
+32432;Israel;Poland;Spike-MR/LR;Anti-tank missile;Missiles;2003;No;350;Yes;2012;No;New;0.0300;0.0300;10.5;Yes
+32432;Israel;Poland;Spike-MR/LR;Anti-tank missile;Missiles;2003;No;350;Yes;2011;No;New;0.0300;0.0300;10.5;Yes
+32432;Israel;Poland;Spike-MR/LR;Anti-tank missile;Missiles;2003;No;350;Yes;2009;No;New;0.0300;0.0300;10.5;Yes
+32432;Israel;Poland;Spike-MR/LR;Anti-tank missile;Missiles;2003;No;350;Yes;2008;No;New;0.0300;0.0300;10.5;Yes
+32432;Israel;Poland;Spike-MR/LR;Anti-tank missile;Missiles;2003;No;350;Yes;2007;No;New;0.0300;0.0300;10.5;Yes
+32432;Israel;Poland;Spike-MR/LR;Anti-tank missile;Missiles;2003;No;60;Yes;2005;No;New;0.0300;0.0300;1.8;Yes
+32432;Israel;Poland;Spike-MR/LR;Anti-tank missile;Missiles;2003;No;200;No;2006;No;New;0.0300;0.0300;6;Yes
+32432;Israel;Poland;Spike-MR/LR;Anti-tank missile;Missiles;2003;No;20;No;2004;No;New;0.0300;0.0300;0.6;Yes
+32432;Israel;Poland;Spike-MR/LR;Anti-tank missile;Missiles;2003;No;350;Yes;2010;No;New;0.0300;0.0300;10.5;Yes
+38810;Israel;Singapore;EL/W-2085;AEW&C system;Sensors;2007;No;1;No;2011;No;New;35.0000;35.0000;35;No
+38810;Israel;Singapore;EL/W-2085;AEW&C system;Sensors;2007;No;2;No;2010;No;New;35.0000;35.0000;70;No
+38810;Israel;Singapore;EL/W-2085;AEW&C system;Sensors;2007;No;1;No;2009;No;New;35.0000;35.0000;35;No
+37182;Israel;Singapore;Hermes-450;UAV;Aircraft;2005;Yes;2;Yes;2007;Yes;New;2.0000;2.0000;4;No
+37182;Israel;Singapore;Hermes-450;UAV;Aircraft;2005;Yes;3;Yes;2006;Yes;New;2.0000;2.0000;6;No
+36808;Israel;Singapore;OWS-25;IFV turret;Other;2005;Yes;25;Yes;2006;Yes;New;0.6000;0.6000;15;No
+36808;Israel;Singapore;OWS-25;IFV turret;Other;2005;Yes;25;Yes;2007;Yes;New;0.6000;0.6000;15;No
+33964;Israel;Singapore;EL/M-2238 STAR;Air search radar;Sensors;1996;Yes;2;No;2001;No;New;12.5000;12.5000;25;No
+33964;Israel;Singapore;EL/M-2238 STAR;Air search radar;Sensors;1996;Yes;2;No;2000;No;New;12.5000;12.5000;25;No
+32304;Israel;Singapore;SPYDER-SR;SAM system;Air defence systems;2008;Yes;1;Yes;2011;No;New;16.0000;16.0000;16;No
+32304;Israel;Singapore;SPYDER-SR;SAM system;Air defence systems;2008;Yes;1;Yes;2012;Yes;New;16.0000;16.0000;16;No
+29914;Israel;Singapore;M-58 160mm;Mortar;Artillery;1970;Yes;6;Yes;1972;Yes;New;0.1500;0.1500;0.9;No
+29914;Israel;Singapore;M-58 160mm;Mortar;Artillery;1970;Yes;6;Yes;1971;Yes;New;0.1500;0.1500;0.9;No
+29913;Israel;Singapore;M-65 120mm;Mortar;Artillery;1970;Yes;25;Yes;1972;Yes;New;0.0500;0.0500;1.25;No
+29913;Israel;Singapore;M-65 120mm;Mortar;Artillery;1970;Yes;25;Yes;1971;Yes;New;0.0500;0.0500;1.25;No
+28802;Israel;Singapore;Searcher;UAV;Aircraft;1993;Yes;20;Yes;1995;Yes;New;0.3000;0.3000;6;No
+28802;Israel;Singapore;Searcher;UAV;Aircraft;1993;Yes;20;Yes;1994;No;New;0.3000;0.3000;6;No
+28368;Israel;Singapore;Scout;UAV;Aircraft;1988;Yes;20;Yes;1989;No;New;0.1000;0.1000;2;No
+28368;Israel;Singapore;Scout;UAV;Aircraft;1988;Yes;20;Yes;1991;Yes;New;0.1000;0.1000;2;No
+28368;Israel;Singapore;Scout;UAV;Aircraft;1988;Yes;20;Yes;1990;Yes;New;0.1000;0.1000;2;No
+25727;Israel;Singapore;Python-4;BVRAAM;Missiles;1997;Yes;40;Yes;2004;Yes;New;0.1700;0.1700;6.8;No
+25727;Israel;Singapore;Python-4;BVRAAM;Missiles;1997;Yes;100;Yes;2003;Yes;New;0.1700;0.1700;17;No
+25727;Israel;Singapore;Python-4;BVRAAM;Missiles;1997;Yes;100;Yes;2002;Yes;New;0.1700;0.1700;17;No
+25727;Israel;Singapore;Python-4;BVRAAM;Missiles;1997;Yes;100;Yes;2001;Yes;New;0.1700;0.1700;17;No
+25727;Israel;Singapore;Python-4;BVRAAM;Missiles;1997;Yes;100;Yes;2000;Yes;New;0.1700;0.1700;17;No
+25727;Israel;Singapore;Python-4;BVRAAM;Missiles;1997;Yes;100;Yes;1999;Yes;New;0.1700;0.1700;17;No
+25727;Israel;Singapore;Python-4;BVRAAM;Missiles;1997;Yes;50;Yes;1998;Yes;New;0.1700;0.1700;8.5;No
+25727;Israel;Singapore;Python-4;BVRAAM;Missiles;1997;Yes;10;Yes;1997;Yes;New;0.1700;0.1700;1.7;No
+24068;Israel;Singapore;EL/M-2221 STGR;Fire control radar;Sensors;1992;No;3;Yes;1997;Yes;New;4.7500;4.7500;14.25;No
+24068;Israel;Singapore;EL/M-2221 STGR;Fire control radar;Sensors;1992;No;3;Yes;1996;Yes;New;4.7500;4.7500;14.25;No
+24067;Israel;Singapore;EL/M-2228;Air search radar;Sensors;1993;Yes;6;No;1998;No;New;4.7500;4.7500;28.5;No
+24067;Israel;Singapore;EL/M-2228;Air search radar;Sensors;1993;Yes;3;No;1997;No;New;4.7500;4.7500;14.25;No
+24067;Israel;Singapore;EL/M-2228;Air search radar;Sensors;1993;Yes;3;No;1996;No;New;4.7500;4.7500;14.25;No
+24041;Israel;Singapore;EL/M-2221 STGR;Fire control radar;Sensors;1986;Yes;3;Yes;1991;No;New;4.7500;4.7500;14.25;No
+24041;Israel;Singapore;EL/M-2221 STGR;Fire control radar;Sensors;1986;Yes;3;No;1990;No;New;4.7500;4.7500;14.25;No
+21392;Israel;Singapore;Barak-1;SAM;Missiles;1992;Yes;75;Yes;1997;Yes;New;0.2500;0.2500;18.75;No
+21392;Israel;Singapore;Barak-1;SAM;Missiles;1992;Yes;75;Yes;1996;No;New;0.2500;0.2500;18.75;No
+14012;Israel;Singapore;M-68/M-71 155mm;Towed gun;Artillery;1971;Yes;23;Yes;1972;Yes;New;0.8500;0.8500;19.55;No
+14012;Israel;Singapore;M-68/M-71 155mm;Towed gun;Artillery;1971;Yes;22;Yes;1971;Yes;New;0.8500;0.8500;18.7;No
+14011;Israel;Singapore;M-68/M-71 155mm;Towed gun;Artillery;1976;No;38;Yes;1977;Yes;New;0.8500;0.8500;32.3;No
+13361;Israel;Singapore;Gabriel-1;Anti-ship missile;Missiles;1970;Yes;22;Yes;1976;Yes;New;0.4000;0.4000;8.8;No
+13361;Israel;Singapore;Gabriel-1;Anti-ship missile;Missiles;1970;Yes;23;Yes;1975;Yes;New;0.4000;0.4000;9.2;No
+13361;Israel;Singapore;Gabriel-1;Anti-ship missile;Missiles;1970;Yes;23;Yes;1974;Yes;New;0.4000;0.4000;9.2;No
+13361;Israel;Singapore;Gabriel-1;Anti-ship missile;Missiles;1970;Yes;22;Yes;1972;Yes;New;0.4000;0.4000;8.8;No
+53666;Israel;Singapore;Derby;BVRAAM;Missiles;2008;Yes;40;Yes;2012;Yes;New;0.4000;0.4000;16;No
+53666;Israel;Singapore;Derby;BVRAAM;Missiles;2008;Yes;35;Yes;2011;No;New;0.4000;0.4000;14;No
+53667;Israel;Singapore;Heron;UAV;Aircraft;2010;Yes;5;Yes;2012;No;New;3.0000;3.0000;15;No
+53665;Israel;Singapore;Python-5;BVRAAM;Missiles;2008;Yes;40;Yes;2012;Yes;New;0.2500;0.2500;10;No
+53665;Israel;Singapore;Python-5;BVRAAM;Missiles;2008;Yes;35;Yes;2011;No;New;0.2500;0.2500;8.75;No
+52687;Israel;Singapore;SPICE;Guided bomb;Missiles;2006;Yes;100;Yes;2007;Yes;New;0.0200;0.0200;2;No
+50270;Israel;Singapore;Litening;Aircraft EO system;Sensors;2005;Yes;5;Yes;2007;Yes;New;1.0000;1.0000;5;No
+50270;Israel;Singapore;Litening;Aircraft EO system;Sensors;2005;Yes;5;Yes;2006;Yes;New;1.0000;1.0000;5;No
+30601;Israel;Singapore;Spike-MR/LR;Anti-tank missile;Missiles;1999;No;100;Yes;2006;Yes;New;0.0300;0.0300;3;Yes
+30601;Israel;Singapore;Spike-MR/LR;Anti-tank missile;Missiles;1999;No;200;Yes;2005;Yes;New;0.0300;0.0300;6;Yes
+30601;Israel;Singapore;Spike-MR/LR;Anti-tank missile;Missiles;1999;No;200;Yes;2004;Yes;New;0.0300;0.0300;6;Yes
+30601;Israel;Singapore;Spike-MR/LR;Anti-tank missile;Missiles;1999;No;200;Yes;2003;Yes;New;0.0300;0.0300;6;Yes
+30601;Israel;Singapore;Spike-MR/LR;Anti-tank missile;Missiles;1999;No;200;Yes;2002;Yes;New;0.0300;0.0300;6;Yes
+30601;Israel;Singapore;Spike-MR/LR;Anti-tank missile;Missiles;1999;No;100;Yes;2001;Yes;New;0.0300;0.0300;3;Yes
+11509;Israel;Singapore;AMX-13/75;Light tank;Armoured vehicles;1968;No;40;Yes;1969;No;Second hand;0.9000;0.36;14.4;No
+25508;Israel;Slovenia;K-6 120mm;Mortar;Artillery;1995;Yes;56;No;1996;No;New;0.0500;0.0500;2.8;No
+24597;Israel;Slovenia;Model-839 155mm;Towed gun;Artillery;1996;No;8;No;1997;No;New;1.0000;1.0000;8;No
+24597;Israel;Slovenia;Model-839 155mm;Towed gun;Artillery;1996;No;10;No;1996;No;New;1.0000;1.0000;10;No
+53017;Israel;Slovenia;Super Dvora;Patrol craft;Ships;1996;Yes;1;No;1996;No;New;5.2500;5.2500;5.25;No
+37470;Israel;Spain;Litening;Aircraft EO system;Sensors;2001;Yes;13;Yes;2004;Yes;New;1.0000;1.0000;13;No
+37470;Israel;Spain;Litening;Aircraft EO system;Sensors;2001;Yes;12;Yes;2003;Yes;New;1.0000;1.0000;12;No
+37455;Israel;Spain;Litening;Aircraft EO system;Sensors;2000;No;2;Yes;2000;Yes;New;1.0000;1.0000;2;No
+33729;Israel;Spain;Searcher;UAV;Aircraft;2007;No;3;No;2008;No;New;0.3000;0.3000;0.9;No
+33729;Israel;Spain;Searcher;UAV;Aircraft;2007;No;1;No;2007;No;New;0.3000;0.3000;0.3;No
+52580;Israel;Spain;RecceLite;Aircraft recce system;Sensors;2004;No;5;Yes;2005;Yes;New;4.0000;4.0000;20;No
+40253;Israel;Spain;Spike-ER;Anti-tank missile;Missiles;2007;No;75;Yes;2012;Yes;New;0.0600;0.0600;4.5;Yes
+40253;Israel;Spain;Spike-ER;Anti-tank missile;Missiles;2007;No;50;Yes;2011;Yes;New;0.0600;0.0600;3;Yes
+40253;Israel;Spain;Spike-ER;Anti-tank missile;Missiles;2007;No;25;Yes;2009;Yes;New;0.0600;0.0600;1.5;Yes
+40253;Israel;Spain;Spike-ER;Anti-tank missile;Missiles;2007;No;50;Yes;2010;Yes;New;0.0600;0.0600;3;Yes
+22166;Israel;Spain;Spike-MR/LR;Anti-tank missile;Missiles;2006;No;750;Yes;2013;No;New;0.0300;0.0300;22.5;Yes
+22166;Israel;Spain;Spike-MR/LR;Anti-tank missile;Missiles;2006;No;750;Yes;2012;No;New;0.0300;0.0300;22.5;Yes
+22166;Israel;Spain;Spike-MR/LR;Anti-tank missile;Missiles;2006;No;500;Yes;2011;No;New;0.0300;0.0300;15;Yes
+22166;Israel;Spain;Spike-MR/LR;Anti-tank missile;Missiles;2006;No;500;Yes;2010;No;New;0.0300;0.0300;15;Yes
+30995;Israel;Taiwan (ROC);Astra-SPX;Light transport ac;Aircraft;1999;No;1;No;2000;No;New;8.0000;8.0000;8;No
+11656;Israel;Taiwan (ROC);Shafrir-2;SRAAM;Missiles;1974;Yes;41;Yes;1975;Yes;New;0.0400;0.0400;1.64;No
+3970;Israel;Taiwan (ROC);Dvora;FAC;Ships;1979;Yes;9;Yes;1986;Yes;New;10.0000;10.0000;90;Yes
+3970;Israel;Taiwan (ROC);Dvora;FAC;Ships;1979;Yes;8;Yes;1985;No;New;10.0000;10.0000;80;Yes
+3970;Israel;Taiwan (ROC);Dvora;FAC;Ships;1979;Yes;8;Yes;1984;No;New;10.0000;10.0000;80;Yes
+3970;Israel;Taiwan (ROC);Dvora;FAC;Ships;1979;Yes;8;Yes;1983;No;New;10.0000;10.0000;80;Yes
+3970;Israel;Taiwan (ROC);Dvora;FAC;Ships;1979;Yes;8;Yes;1982;No;New;10.0000;10.0000;80;Yes
+3970;Israel;Taiwan (ROC);Dvora;FAC;Ships;1979;Yes;8;Yes;1981;No;New;10.0000;10.0000;80;Yes
+3970;Israel;Taiwan (ROC);Dvora;FAC;Ships;1979;Yes;1;Yes;1980;No;New;10.0000;10.0000;10;Yes
+626;Israel;Taiwan (ROC);Gabriel-2;Anti-ship missile;Missiles;1978;Yes;20;Yes;1992;No;New;0.7000;0.7000;14;Yes
+626;Israel;Taiwan (ROC);Gabriel-2;Anti-ship missile;Missiles;1978;Yes;40;Yes;1991;No;New;0.7000;0.7000;28;Yes
+626;Israel;Taiwan (ROC);Gabriel-2;Anti-ship missile;Missiles;1978;Yes;40;Yes;1990;No;New;0.7000;0.7000;28;Yes
+626;Israel;Taiwan (ROC);Gabriel-2;Anti-ship missile;Missiles;1978;Yes;40;Yes;1989;No;New;0.7000;0.7000;28;Yes
+626;Israel;Taiwan (ROC);Gabriel-2;Anti-ship missile;Missiles;1978;Yes;40;Yes;1988;No;New;0.7000;0.7000;28;Yes
+626;Israel;Taiwan (ROC);Gabriel-2;Anti-ship missile;Missiles;1978;Yes;40;Yes;1987;No;New;0.7000;0.7000;28;Yes
+626;Israel;Taiwan (ROC);Gabriel-2;Anti-ship missile;Missiles;1978;Yes;40;Yes;1986;No;New;0.7000;0.7000;28;Yes
+626;Israel;Taiwan (ROC);Gabriel-2;Anti-ship missile;Missiles;1978;Yes;40;Yes;1985;No;New;0.7000;0.7000;28;Yes
+626;Israel;Taiwan (ROC);Gabriel-2;Anti-ship missile;Missiles;1978;Yes;40;Yes;1984;No;New;0.7000;0.7000;28;Yes
+626;Israel;Taiwan (ROC);Gabriel-2;Anti-ship missile;Missiles;1978;Yes;40;Yes;1983;No;New;0.7000;0.7000;28;Yes
+626;Israel;Taiwan (ROC);Gabriel-2;Anti-ship missile;Missiles;1978;Yes;40;Yes;1982;No;New;0.7000;0.7000;28;Yes
+626;Israel;Taiwan (ROC);Gabriel-2;Anti-ship missile;Missiles;1978;Yes;40;Yes;1981;No;New;0.7000;0.7000;28;Yes
+626;Israel;Taiwan (ROC);Gabriel-2;Anti-ship missile;Missiles;1978;Yes;40;Yes;1980;No;New;0.7000;0.7000;28;Yes
+31943;Israel;Thailand;EL/M-2032;Combat ac radar;Sensors;1997;Yes;1;No;1998;Yes;New;2.0000;2.0000;2;No
+28777;Israel;Thailand;Searcher;UAV;Aircraft;2000;Yes;4;Yes;2001;Yes;New;0.3000;0.3000;1.2;No
+27589;Israel;Thailand;Python-4;BVRAAM;Missiles;2003;Yes;40;Yes;2005;Yes;New;0.1700;0.1700;6.8;No
+27589;Israel;Thailand;Python-4;BVRAAM;Missiles;2003;Yes;40;Yes;2004;Yes;New;0.1700;0.1700;6.8;No
+23085;Israel;Thailand;M-68/M-71 155mm;Towed gun;Artillery;1974;Yes;24;Yes;1975;Yes;New;0.8500;0.8500;20.4;No
+23084;Israel;Thailand;M-68/M-71 155mm;Towed gun;Artillery;1988;Yes;32;Yes;1988;Yes;New;0.8500;0.8500;27.2;No
+19722;Israel;Thailand;Python-3;SRAAM;Missiles;1989;Yes;40;Yes;1990;Yes;New;0.1100;0.1100;4.4;No
+14017;Israel;Thailand;M-68/M-71 155mm;Towed gun;Artillery;1974;Yes;20;Yes;1975;Yes;New;0.8500;0.8500;17;No
+3585;Israel;Thailand;Arava;Transport aircraft;Aircraft;1980;No;1;No;1982;No;New;3.5000;3.5000;3.5;No
+3585;Israel;Thailand;Arava;Transport aircraft;Aircraft;1980;No;1;No;1981;No;New;3.5000;3.5000;3.5;No
+3585;Israel;Thailand;Arava;Transport aircraft;Aircraft;1980;No;1;No;1980;No;New;3.5000;3.5000;3.5;No
+486;Israel;Thailand;Gabriel-1;Anti-ship missile;Missiles;1973;Yes;10;Yes;1977;Yes;New;0.4000;0.4000;4;No
+486;Israel;Thailand;Gabriel-1;Anti-ship missile;Missiles;1973;Yes;20;Yes;1976;Yes;New;0.4000;0.4000;8;No
+52975;Israel;Thailand;Aerostar;UAV;Aircraft;2010;Yes;4;Yes;2011;Yes;New;0.1000;0.1000;0.4;No
+40070;Israel;Thailand;Litening;Aircraft EO system;Sensors;1995;Yes;5;Yes;1996;Yes;New;1.0000;1.0000;5;No
+30859;Israel;Turkey;Sabra-3;Tank;Armoured vehicles;2002;Yes;30;Yes;2008;No;New;3.2000;3.2000;96;No
+30859;Israel;Turkey;Sabra-3;Tank;Armoured vehicles;2002;Yes;30;Yes;2007;No;New;3.2000;3.2000;96;No
+30859;Israel;Turkey;Sabra-3;Tank;Armoured vehicles;2002;Yes;2;Yes;2006;No;New;3.2000;3.2000;6.4;No
+30859;Israel;Turkey;Sabra-3;Tank;Armoured vehicles;2002;Yes;7;Yes;2010;No;New;3.2000;3.2000;22.4;No
+30859;Israel;Turkey;Sabra-3;Tank;Armoured vehicles;2002;Yes;1;Yes;2005;No;New;3.2000;3.2000;3.2;No
+30859;Israel;Turkey;Sabra-3;Tank;Armoured vehicles;2002;Yes;100;Yes;2009;No;New;3.2000;3.2000;320;No
+30762;Israel;Turkey;EL/M-2032;Combat ac radar;Sensors;1997;No;18;Yes;2003;No;New;2.0000;2.0000;36;No
+30762;Israel;Turkey;EL/M-2032;Combat ac radar;Sensors;1997;No;18;Yes;2002;No;New;2.0000;2.0000;36;No
+30762;Israel;Turkey;EL/M-2032;Combat ac radar;Sensors;1997;No;18;Yes;2001;No;New;2.0000;2.0000;36;No
+27244;Israel;Turkey;Harpy;ARM;Missiles;1999;No;24;Yes;2004;No;New;0.4000;0.4000;9.6;No
+27244;Israel;Turkey;Harpy;ARM;Missiles;1999;No;30;Yes;2002;No;New;0.4000;0.4000;12;No
+27244;Israel;Turkey;Harpy;ARM;Missiles;1999;No;30;Yes;2003;Yes;New;0.4000;0.4000;12;No
+27244;Israel;Turkey;Harpy;ARM;Missiles;1999;No;24;Yes;2001;Yes;New;0.4000;0.4000;9.6;No
+25747;Israel;Turkey;AGM-142A/Popeye-1;ASM;Missiles;1998;Yes;46;Yes;2002;No;New;1.0000;1.0000;46;No
+50668;Israel;Turkey;Searcher;UAV;Aircraft;2008;No;1;Yes;2008;Yes;New;0.3000;0.3000;0.3;No
+39714;Israel;Turkey;Aerostar;UAV;Aircraft;2007;No;3;Yes;2008;Yes;New;0.1000;0.1000;0.3;No
+50667;Israel;Turkey;Heron;UAV;Aircraft;2007;No;1;No;2007;No;New;3.0000;3.0000;3;No
+33855;Israel;Turkey;Heron;UAV;Aircraft;2005;No;10;Yes;2010;No;New;3.0000;3.0000;30;No
+52818;Israel;Turkey;Navigator;APC;Armoured vehicles;2009;No;15;Yes;2013;Yes;New;0.1700;0.1700;2.55;Yes
+52818;Israel;Turkey;Navigator;APC;Armoured vehicles;2009;No;128;Yes;2011;No;New;0.1700;0.1700;21.76;Yes
+52818;Israel;Turkey;Navigator;APC;Armoured vehicles;2009;No;50;Yes;2012;No;New;0.1700;0.1700;8.5;Yes
+52818;Israel;Turkey;Navigator;APC;Armoured vehicles;2009;No;100;Yes;2010;No;New;0.1700;0.1700;17;Yes
+34498;Israel;Uganda;Model-839 155mm;Towed gun;Artillery;2002;Yes;18;No;2002;No;New;1.0000;1.0000;18;No
+34279;Israel;Uganda;ATMOS-2000 155mm;Self-propelled gun;Artillery;2003;No;3;No;2005;No;New;1.2500;1.2500;3.75;No
+13467;Israel;Uganda;DC-3/C-47 Skytrain;Transport aircraft;Aircraft;1967;Yes;5;Yes;1969;No;Second hand;2.5000;1;5;No
+11881;Israel;Uganda;CM-170 Magister;Trainer aircraft;Aircraft;1964;Yes;10;No;1968;No;New;1.0000;1.0000;10;No
+11880;Israel;Uganda;CM-170 Magister;Trainer aircraft;Aircraft;1964;Yes;2;No;1964;No;New;1.0000;1.0000;2;No
+11872;Israel;Uganda;M-4 Sherman;Tank;Armoured vehicles;1969;Yes;12;Yes;1970;No;Second hand;0.8400;0.336;4.032;No
+11861;Israel;Uganda;PA-18/L-18/L-21;Light aircraft;Aircraft;1966;Yes;16;No;1967;No;Second hand;0.0600;0.024;0.384;No
+6857;Israel;Uganda;DC-3/C-47 Skytrain;Transport aircraft;Aircraft;1965;Yes;1;No;1966;No;Second hand;2.5000;1;1;No
+52431;Israel;Uganda;ATMOS-2000 155mm;Self-propelled gun;Artillery;2008;No;3;No;2009;No;New;1.2500;1.2500;3.75;No
+52430;Israel;Uganda;CARDOM 120mm;Self-propelled mortar;Artillery;2008;No;18;No;2009;No;New;0.2000;0.2000;3.6;No
+37473;Israel;United Kingdom;Litening;Aircraft EO system;Sensors;2006;No;10;Yes;2007;Yes;New;1.0000;1.0000;10;No
+37473;Israel;United Kingdom;Litening;Aircraft EO system;Sensors;2006;No;10;Yes;2008;No;New;1.0000;1.0000;10;No
+57081;Israel;United Kingdom;Spike-NLOS;SSM/ASM;Missiles;2009;Yes;100;Yes;2012;Yes;New;0.1500;0.1500;15;No
+57081;Israel;United Kingdom;Spike-NLOS;SSM/ASM;Missiles;2009;Yes;100;Yes;2011;Yes;New;0.1500;0.1500;15;No
+57080;Israel;United Kingdom;Spike-NLOS;SSM/ASM;Missiles;2007;Yes;200;Yes;2007;No;Second hand;0.1500;0.06;12;No
+54246;Israel;United Kingdom;Spike-NLOS;SSM/ASM;Missiles;2007;Yes;100;Yes;2008;Yes;Second hand;0.1500;0.06;6;No
+54246;Israel;United Kingdom;Spike-NLOS;SSM/ASM;Missiles;2007;Yes;100;Yes;2007;No;Second hand;0.1500;0.06;6;No
+51956;Israel;United Kingdom;Litening;Aircraft EO system;Sensors;2006;No;2;Yes;2006;No;New;1.0000;1.0000;2;No
+51956;Israel;United Kingdom;Litening;Aircraft EO system;Sensors;2006;No;5;No;2007;No;New;1.0000;1.0000;5;No
+57079;Israel;United Kingdom;M-113 Spike-NLOS;SSM launcher;Artillery;2007;No;14;Yes;2007;No;Second hand;0.4000;0.16;2.24;No
+54603;Israel;United Kingdom;Hermes-450;UAV;Aircraft;2012;No;5;No;2012;No;New;2.0000;2.0000;10;No
+39400;Israel;United Kingdom;Hermes-450;UAV;Aircraft;2007;No;20;Yes;2007;No;New;2.0000;2.0000;40;No
+22548;Israel;United Kingdom;Hermes-450;UAV;Aircraft;2005;No;21;Yes;2013;No;New;2.0000;2.0000;42;Yes
+22548;Israel;United Kingdom;Hermes-450;UAV;Aircraft;2005;No;5;Yes;2012;No;New;2.0000;2.0000;10;Yes
+25723;Israel;Uruguay;Ti-67S;Tank;Armoured vehicles;1997;Yes;15;No;1997;No;Second hand;2.2500;0.9;13.5;No
+37458;Israel;Venezuela;Litening;Aircraft EO system;Sensors;1997;Yes;4;Yes;1997;No;New;1.0000;1.0000;4;No
+29958;Israel;Venezuela;EL/M-2238 STAR;Air search radar;Sensors;1999;No;2;No;2002;No;New;12.5000;12.5000;25;No
+29595;Israel;Venezuela;MAPATS;Anti-tank missile;Missiles;1990;Yes;250;Yes;1990;Yes;New;0.0100;0.0100;2.5;No
+28467;Israel;Venezuela;Barak-1;SAM;Missiles;1999;No;20;Yes;2006;No;New;0.2500;0.2500;5;No
+28467;Israel;Venezuela;Barak-1;SAM;Missiles;1999;No;20;Yes;2005;Yes;New;0.2500;0.2500;5;No
+19444;Israel;Venezuela;Arava;Transport aircraft;Aircraft;1987;No;2;No;1989;No;New;3.5000;3.5000;7;No
+17067;Israel;Venezuela;Arava;Transport aircraft;Aircraft;1978;Yes;4;No;1980;Yes;New;3.5000;3.5000;14;No
+16606;Israel;Venezuela;LAR-160;Self-propelled MRL;Artillery;1982;Yes;25;No;1984;No;New;0.7500;0.7500;18.75;No
+8488;Israel;Venezuela;Python-4;BVRAAM;Missiles;2003;No;54;Yes;2004;No;New;0.1700;0.1700;9.18;No
+3154;Israel;Venezuela;Arava;Transport aircraft;Aircraft;1980;Yes;1;Yes;1981;No;New;3.5000;3.5000;3.5;No
+2554;Israel;Venezuela;Arava;Transport aircraft;Aircraft;1979;No;3;No;1980;No;New;3.5000;3.5000;10.5;No
+55001;Israel;Venezuela;RBY-1;APV;Armoured vehicles;1974;Yes;10;Yes;1975;Yes;New;0.1200;0.1200;1.2;No
+52903;Israel;Venezuela;Air refuel system;Air refuel system;Other;1988;No;2;No;1991;No;New;10.0000;10.0000;20;No
+57142;Israel;Viet Nam;EL/M-2088 AD-STAR;Air search radar;Sensors;2012;No;1;Yes;2013;No;New;13.0000;13.0000;13;No
+39718;Israel;Viet Nam;RAM;APV;Armoured vehicles;2006;Yes;50;Yes;2009;Yes;New;0.1200;0.1200;6;No
+39718;Israel;Viet Nam;RAM;APV;Armoured vehicles;2006;Yes;50;Yes;2008;Yes;New;0.1200;0.1200;6;No
+39718;Israel;Viet Nam;RAM;APV;Armoured vehicles;2006;Yes;47;Yes;2007;Yes;New;0.1200;0.1200;5.64;No
+39718;Israel;Viet Nam;RAM;APV;Armoured vehicles;2006;Yes;2;Yes;2006;No;New;0.1200;0.1200;0.24;No
+18320;Israel;LF (Lebanon)*;BTR-60P;APC;Armoured vehicles;1987;No;18;Yes;1987;No;Second hand;0.2200;0.088;1.584;No
+18317;Israel;LF (Lebanon)*;T-54;Tank;Armoured vehicles;1987;No;18;Yes;1987;No;Second hand;1.1000;0.44;7.92;No
+26634;Israel;LF (Lebanon)*;M-51 Sherman;Tank;Armoured vehicles;1984;Yes;20;Yes;1984;Yes;Second hand;1.1500;0.46;9.2;No
+18318;Israel;LF (Lebanon)*;BS-3 100mm;Towed gun;Artillery;1987;No;18;Yes;1987;No;Second hand;0.3500;0.14;2.52;No
+26667;Israel;SLA (Lebanon)*;M-113;APC;Armoured vehicles;1985;Yes;10;Yes;1986;Yes;Second hand;0.2500;0.1;1;No
+26667;Israel;SLA (Lebanon)*;M-113;APC;Armoured vehicles;1985;Yes;10;Yes;1985;Yes;Second hand;0.2500;0.1;1;No
+26666;Israel;SLA (Lebanon)*;D-30 122mm;Towed gun;Artillery;1986;Yes;10;Yes;1986;Yes;Second hand;0.3500;0.14;1.4;No
+26665;Israel;SLA (Lebanon)*;M-46 130mm;Towed gun;Artillery;1988;Yes;5;Yes;1988;Yes;Second hand;0.6500;0.26;1.3;No
+26664;Israel;SLA (Lebanon)*;Model-50 155mm;Towed gun;Artillery;1987;Yes;5;Yes;1987;Yes;Second hand;0.7500;0.3;1.5;No
+26652;Israel;SLA (Lebanon)*;BTR-50;APC;Armoured vehicles;1985;Yes;10;Yes;1986;Yes;Second hand;0.2500;0.1;1;No
+26652;Israel;SLA (Lebanon)*;BTR-50;APC;Armoured vehicles;1985;Yes;10;Yes;1985;Yes;Second hand;0.2500;0.1;1;No
+26651;Israel;SLA (Lebanon)*;M-51 Sherman;Tank;Armoured vehicles;1984;Yes;10;Yes;1985;Yes;Second hand;1.1500;0.46;4.6;No
+26651;Israel;SLA (Lebanon)*;M-51 Sherman;Tank;Armoured vehicles;1984;Yes;10;Yes;1984;Yes;Second hand;1.1500;0.46;4.6;No
+26650;Israel;SLA (Lebanon)*;Tiran;Tank;Armoured vehicles;1987;No;24;Yes;1987;Yes;Second hand;1.6000;0.64;15.36;No
+26624;Israel;SLA (Lebanon)*;Tiran;Tank;Armoured vehicles;1986;No;10;Yes;1986;No;Second hand;1.6000;0.64;6.4;No
+24434;Israel;SLA (Lebanon)*;M-66 160mm SP;Self-propelled mortar;Artillery;1994;Yes;20;No;1996;No;Second hand;0.6000;0.24;4.8;No
+31165;Israel;Argentina;EL/M-2022;MP aircraft radar;Sensors;1989;No;1;No;2002;No;New;2.5000;2.5000;2.5;No
+31165;Israel;Argentina;EL/M-2022;MP aircraft radar;Sensors;1989;No;1;No;2000;No;New;2.5000;2.5000;2.5;No
+31165;Israel;Argentina;EL/M-2022;MP aircraft radar;Sensors;1989;No;1;Yes;1999;Yes;New;2.5000;2.5000;2.5;No
+31165;Israel;Argentina;EL/M-2022;MP aircraft radar;Sensors;1989;No;1;Yes;1997;Yes;New;2.5000;2.5000;2.5;No
+31165;Israel;Argentina;EL/M-2022;MP aircraft radar;Sensors;1989;No;1;Yes;1995;Yes;New;2.5000;2.5000;2.5;No
+19382;Israel;Argentina;Shafrir-2;SRAAM;Missiles;1981;No;65;Yes;1983;Yes;New;0.0400;0.0400;2.6;No
+19382;Israel;Argentina;Shafrir-2;SRAAM;Missiles;1981;No;65;Yes;1981;Yes;New;0.0400;0.0400;2.6;No
+19382;Israel;Argentina;Shafrir-2;SRAAM;Missiles;1981;No;70;Yes;1982;Yes;New;0.0400;0.0400;2.8;No
+16957;Israel;Argentina;Nesher;FGA aircraft;Aircraft;1980;Yes;3;Yes;1982;No;Second hand;12.0000;4.8;14.4;No
+16957;Israel;Argentina;Nesher;FGA aircraft;Aircraft;1980;Yes;10;Yes;1981;No;Second hand;12.0000;4.8;48;No
+16014;Israel;Argentina;Shafrir-2;SRAAM;Missiles;1977;Yes;50;Yes;1979;Yes;New;0.0400;0.0400;2;No
+16014;Israel;Argentina;Shafrir-2;SRAAM;Missiles;1977;Yes;50;Yes;1980;Yes;New;0.0400;0.0400;2;No
+16014;Israel;Argentina;Shafrir-2;SRAAM;Missiles;1977;Yes;50;Yes;1978;Yes;New;0.0400;0.0400;2;No
+14026;Israel;Argentina;Nesher;FGA aircraft;Aircraft;1978;No;10;Yes;1980;No;Second hand;12.0000;4.8;48;No
+14026;Israel;Argentina;Nesher;FGA aircraft;Aircraft;1978;No;10;Yes;1979;No;Second hand;12.0000;4.8;48;No
+14026;Israel;Argentina;Nesher;FGA aircraft;Aircraft;1978;No;6;Yes;1978;No;Second hand;12.0000;4.8;28.8;No
+3160;Israel;Argentina;Mirage-3C;Fighter aircraft;Aircraft;1982;No;10;Yes;1983;No;Second hand;10.5000;4.2;42;No
+3160;Israel;Argentina;Mirage-3C;Fighter aircraft;Aircraft;1982;No;12;Yes;1982;No;Second hand;10.5000;4.2;50.4;No
+29022;Israel;Argentina;Bell-212/UH-1N;Helicopter;Aircraft;1998;Yes;1;No;1998;Yes;Second hand;3.7000;1.48;1.48;No
+29022;Israel;Argentina;Bell-212/UH-1N;Helicopter;Aircraft;1998;Yes;1;No;1999;No;Second hand;3.7000;1.48;1.48;No
+33797;Israel;China;Harpy;ARM;Missiles;1998;Yes;25;Yes;1999;Yes;New;0.4000;0.4000;10;No
+33797;Israel;China;Harpy;ARM;Missiles;1998;Yes;25;Yes;1998;Yes;New;0.4000;0.4000;10;No
+21138;Israel;China;Python-3;SRAAM;Missiles;1990;No;250;Yes;1997;No;New;0.1100;0.1100;27.5;Yes
+21138;Israel;China;Python-3;SRAAM;Missiles;1990;No;250;Yes;1996;No;New;0.1100;0.1100;27.5;Yes
+21138;Israel;China;Python-3;SRAAM;Missiles;1990;No;250;Yes;1995;No;New;0.1100;0.1100;27.5;Yes
+21138;Israel;China;Python-3;SRAAM;Missiles;1990;No;250;Yes;1994;No;New;0.1100;0.1100;27.5;Yes
+21138;Israel;China;Python-3;SRAAM;Missiles;1990;No;250;Yes;1993;No;New;0.1100;0.1100;27.5;Yes
+21138;Israel;China;Python-3;SRAAM;Missiles;1990;No;250;Yes;1992;No;New;0.1100;0.1100;27.5;Yes
+21138;Israel;China;Python-3;SRAAM;Missiles;1990;No;250;Yes;1991;No;New;0.1100;0.1100;27.5;Yes
+21138;Israel;China;Python-3;SRAAM;Missiles;1990;No;250;Yes;1990;No;New;0.1100;0.1100;27.5;Yes
+21138;Israel;China;Python-3;SRAAM;Missiles;1990;No;250;Yes;2001;Yes;New;0.1100;0.1100;27.5;Yes
+21138;Israel;China;Python-3;SRAAM;Missiles;1990;No;250;Yes;2000;Yes;New;0.1100;0.1100;27.5;Yes
+21138;Israel;China;Python-3;SRAAM;Missiles;1990;No;250;Yes;1999;Yes;New;0.1100;0.1100;27.5;Yes
+21138;Israel;China;Python-3;SRAAM;Missiles;1990;No;250;Yes;1998;Yes;New;0.1100;0.1100;27.5;Yes
+37716;Israel;France;Heron;UAV;Aircraft;2005;No;3;No;2009;No;New;3.0000;3.0000;9;No
+31842;Israel;France;Eagle;UAV;Aircraft;2001;No;3;Yes;2007;Yes;New;1.5000;1.5000;4.5;No
+28940;Israel;France;Hunter;UAV;Aircraft;1995;Yes;6;Yes;1997;Yes;New;0.3000;0.3000;1.8;No
+51547;Israel;France;Heron;UAV;Aircraft;2009;No;1;No;2010;No;New;3.0000;3.0000;3;No
+25933;Israel;Honduras;M-65 120mm;Mortar;Artillery;1976;Yes;30;Yes;1977;Yes;New;0.0500;0.0500;1.5;No
+22968;Israel;Honduras;M-58 160mm;Mortar;Artillery;1976;Yes;15;Yes;1978;Yes;New;0.1500;0.1500;2.25;No
+22968;Israel;Honduras;M-58 160mm;Mortar;Artillery;1976;Yes;15;Yes;1977;Yes;New;0.1500;0.1500;2.25;No
+16024;Israel;Honduras;Shafrir-2;SRAAM;Missiles;1976;Yes;33;Yes;1978;Yes;New;0.0400;0.0400;1.32;No
+16024;Israel;Honduras;Shafrir-2;SRAAM;Missiles;1976;Yes;34;Yes;1977;Yes;New;0.0400;0.0400;1.36;No
+16024;Israel;Honduras;Shafrir-2;SRAAM;Missiles;1976;Yes;33;Yes;1976;Yes;New;0.0400;0.0400;1.32;No
+10185;Israel;Honduras;Arava;Transport aircraft;Aircraft;1976;No;2;No;1976;No;New;3.5000;3.5000;7;No
+4867;Israel;Honduras;Super Mystere/Saar;FGA aircraft;Aircraft;1976;No;3;Yes;1978;No;Second hand;5.5000;2.2;6.6;No
+4867;Israel;Honduras;Super Mystere/Saar;FGA aircraft;Aircraft;1976;No;3;Yes;1977;No;Second hand;5.5000;2.2;6.6;No
+4867;Israel;Honduras;Super Mystere/Saar;FGA aircraft;Aircraft;1976;No;4;Yes;1976;No;Second hand;5.5000;2.2;8.8;No
+3694;Israel;Honduras;RBY-1;APV;Armoured vehicles;1976;Yes;16;Yes;1977;No;New;0.1200;0.1200;1.92;No
+93;Israel;Honduras;Super Mystere/Saar;FGA aircraft;Aircraft;1977;No;6;Yes;1978;Yes;Second hand;5.5000;2.2;13.2;No
+52111;Israel;Kazakhstan;Litening;Aircraft EO system;Sensors;2007;Yes;8;Yes;2010;No;New;1.0000;1.0000;8;No
+52111;Israel;Kazakhstan;Litening;Aircraft EO system;Sensors;2007;Yes;2;Yes;2009;Yes;New;1.0000;1.0000;2;No
+51008;Israel;Kazakhstan;EXTRA;SSM;Missiles;2007;Yes;25;Yes;2008;Yes;New;0.1500;0.1500;3.75;No
+51008;Israel;Kazakhstan;EXTRA;SSM;Missiles;2007;Yes;25;Yes;2009;Yes;New;0.1500;0.1500;3.75;No
+50321;Israel;Kazakhstan;CARDOM 120mm;Mortar;Artillery;2007;Yes;9;Yes;2008;No;New;0.0500;0.0500;0.45;Yes
+50321;Israel;Kazakhstan;CARDOM 120mm;Mortar;Artillery;2007;Yes;9;Yes;2009;No;New;0.0500;0.0500;0.45;Yes
+50328;Israel;Kazakhstan;Lynx;Self-propelled MRL;Artillery;2006;Yes;9;Yes;2009;No;New;0.9500;0.9500;8.55;Yes
+50328;Israel;Kazakhstan;Lynx;Self-propelled MRL;Artillery;2006;Yes;9;Yes;2008;No;New;0.9500;0.9500;8.55;Yes
+51007;Israel;Kazakhstan;Semser 122mm;Self-propelled gun;Artillery;2006;Yes;3;Yes;2009;No;New;0.7000;0.7000;2.1;Yes
+51007;Israel;Kazakhstan;Semser 122mm;Self-propelled gun;Artillery;2006;Yes;3;Yes;2008;No;New;0.7000;0.7000;2.1;Yes
+15122;Israel;Morocco;RAM;APV;Armoured vehicles;1983;No;120;Yes;1984;No;New;0.1200;0.1200;14.4;No
+15122;Israel;Morocco;RAM;APV;Armoured vehicles;1983;No;120;Yes;1983;Yes;New;0.1200;0.1200;14.4;No
+34339;Israel;Romania;Spike-MR/LR;Anti-tank missile;Missiles;2005;Yes;225;Yes;2010;No;New;0.0300;0.0300;6.75;No
+34339;Israel;Romania;Spike-MR/LR;Anti-tank missile;Missiles;2005;Yes;200;Yes;2008;Yes;New;0.0300;0.0300;6;No
+34339;Israel;Romania;Spike-MR/LR;Anti-tank missile;Missiles;2005;Yes;200;Yes;2007;Yes;New;0.0300;0.0300;6;No
+34339;Israel;Romania;Spike-MR/LR;Anti-tank missile;Missiles;2005;Yes;225;Yes;2009;No;New;0.0300;0.0300;6.75;No
+34339;Israel;Romania;Spike-MR/LR;Anti-tank missile;Missiles;2005;Yes;100;Yes;2006;Yes;New;0.0300;0.0300;3;No
+34339;Israel;Romania;Spike-MR/LR;Anti-tank missile;Missiles;2005;Yes;50;Yes;2005;Yes;New;0.0300;0.0300;1.5;No
+32844;Israel;Romania;EL/M-2032;Combat ac radar;Sensors;1993;No;4;Yes;2001;No;New;2.0000;2.0000;8;No
+32844;Israel;Romania;EL/M-2032;Combat ac radar;Sensors;1993;No;4;Yes;2000;No;New;2.0000;2.0000;8;No
+32844;Israel;Romania;EL/M-2032;Combat ac radar;Sensors;1993;No;4;Yes;1999;No;New;2.0000;2.0000;8;No
+32844;Israel;Romania;EL/M-2032;Combat ac radar;Sensors;1993;No;4;Yes;1998;No;New;2.0000;2.0000;8;No
+32844;Israel;Romania;EL/M-2032;Combat ac radar;Sensors;1993;No;4;Yes;1997;No;New;2.0000;2.0000;8;No
+32844;Israel;Romania;EL/M-2032;Combat ac radar;Sensors;1993;No;3;Yes;1996;No;New;2.0000;2.0000;6;No
+32844;Israel;Romania;EL/M-2032;Combat ac radar;Sensors;1993;No;2;Yes;2002;Yes;New;2.0000;2.0000;4;No
+28267;Israel;Romania;Spike-ER;Anti-tank missile;Missiles;1998;Yes;100;Yes;2005;Yes;New;0.0600;0.0600;6;No
+28267;Israel;Romania;Spike-ER;Anti-tank missile;Missiles;1998;Yes;180;Yes;2004;Yes;New;0.0600;0.0600;10.8;No
+28267;Israel;Romania;Spike-ER;Anti-tank missile;Missiles;1998;Yes;180;Yes;2003;Yes;New;0.0600;0.0600;10.8;No
+28267;Israel;Romania;Spike-ER;Anti-tank missile;Missiles;1998;Yes;180;Yes;2002;Yes;New;0.0600;0.0600;10.8;No
+28267;Israel;Romania;Spike-ER;Anti-tank missile;Missiles;1998;Yes;180;Yes;2001;Yes;New;0.0600;0.0600;10.8;No
+28267;Israel;Romania;Spike-ER;Anti-tank missile;Missiles;1998;Yes;150;Yes;2000;Yes;New;0.0600;0.0600;9;No
+28267;Israel;Romania;Spike-ER;Anti-tank missile;Missiles;1998;Yes;30;Yes;1999;Yes;New;0.0600;0.0600;1.8;No
+52884;Israel;Romania;OPHER;Guided bomb;Missiles;1995;Yes;100;Yes;1997;Yes;New;0.0200;0.0200;2;No
+35975;Israel;Romania;OWS-25;IFV turret;Other;1997;Yes;20;Yes;2008;No;New;0.6000;0.6000;12;Yes
+35975;Israel;Romania;OWS-25;IFV turret;Other;1997;Yes;20;Yes;2007;No;New;0.6000;0.6000;12;Yes
+35975;Israel;Romania;OWS-25;IFV turret;Other;1997;Yes;20;Yes;2006;No;New;0.6000;0.6000;12;Yes
+35975;Israel;Romania;OWS-25;IFV turret;Other;1997;Yes;20;Yes;2005;No;New;0.6000;0.6000;12;Yes
+35975;Israel;Romania;OWS-25;IFV turret;Other;1997;Yes;19;Yes;2009;Yes;New;0.6000;0.6000;11.4;Yes
+34091;Israel;Sri Lanka;Scout;UAV;Aircraft;2000;Yes;2;Yes;2001;Yes;New;0.1000;0.1000;0.2;No
+34038;Israel;Sri Lanka;Kfir C-7;FGA aircraft;Aircraft;2004;Yes;1;No;2005;No;Second hand but modernized;18.5000;12.21;12.21;No
+32403;Israel;Sri Lanka;Kfir C-7;FGA aircraft;Aircraft;2000;No;4;No;2000;No;Second hand;18.5000;7.4;29.6;No
+31911;Israel;Sri Lanka;Gabriel-2;Anti-ship missile;Missiles;1999;Yes;20;Yes;2000;Yes;New;0.7000;0.7000;14;No
+31910;Israel;Sri Lanka;Searcher;UAV;Aircraft;2000;Yes;2;Yes;2001;Yes;New;0.3000;0.3000;0.6;No
+30723;Israel;Sri Lanka;Kfir C-2;FGA aircraft;Aircraft;2000;No;2;No;2001;No;Second hand;12.5000;5;10;No
+30723;Israel;Sri Lanka;Kfir C-2;FGA aircraft;Aircraft;2000;No;2;Yes;2000;No;Second hand;12.5000;5;10;No
+30357;Israel;Sri Lanka;Reshef/Saar-4;FAC;Ships;1999;Yes;2;No;2000;No;Second hand;70.0000;28;56;No
+23365;Israel;Sri Lanka;Kfir C-2;FGA aircraft;Aircraft;1995;Yes;3;No;1996;No;Second hand;12.5000;5;15;No
+16169;Israel;Sri Lanka;River;Frigate;Ships;1958;No;2;No;1959;No;Second hand;28.7500;11.5;23;No
+53011;Israel;Sri Lanka;Shaldag;Patrol craft;Ships;1999;Yes;2;Yes;2002;Yes;New;6.0000;6.0000;12;No
+53011;Israel;Sri Lanka;Shaldag;Patrol craft;Ships;1999;Yes;2;Yes;2001;Yes;New;6.0000;6.0000;12;No
+53011;Israel;Sri Lanka;Shaldag;Patrol craft;Ships;1999;Yes;1;Yes;2000;No;New;6.0000;6.0000;6;No
+53010;Israel;Sri Lanka;Shaldag;Patrol craft;Ships;1995;Yes;2;No;1996;No;New;6.0000;6.0000;12;No
+52761;Israel;Sri Lanka;Super Dvora;Patrol craft;Ships;1986;No;3;Yes;1987;No;New;5.2500;5.2500;15.75;No
+52761;Israel;Sri Lanka;Super Dvora;Patrol craft;Ships;1986;No;3;Yes;1988;No;New;5.2500;5.2500;15.75;No
+51760;Israel;Sri Lanka;Super Dvora;Patrol craft;Ships;2009;No;2;No;2011;No;New;5.2500;5.2500;10.5;No
+51760;Israel;Sri Lanka;Super Dvora;Patrol craft;Ships;2009;No;4;No;1999;No;New;5.2500;5.2500;21;No
+53014;Israel;Sri Lanka;Super Dvora;Patrol craft;Ships;1998;Yes;2;No;1999;No;New;5.2500;5.2500;10.5;No
+53013;Israel;Sri Lanka;Super Dvora;Patrol craft;Ships;1995;No;1;No;1995;No;New;5.2500;5.2500;5.25;No
+53013;Israel;Sri Lanka;Super Dvora;Patrol craft;Ships;1995;No;3;No;1996;No;New;5.2500;5.2500;15.75;No
+40186;Israel;Sri Lanka;Scout;UAV;Aircraft;2006;Yes;3;Yes;2007;Yes;New;0.1000;0.1000;0.3;No
+39880;Israel;Sri Lanka;Blue Horizon;UAV;Aircraft;2007;Yes;4;Yes;2007;No;New;0.1500;0.1500;0.6;No
+53772;Israel;Sri Lanka;Shaldag;Patrol craft;Ships;1995;Yes;3;Yes;2007;No;New;6.0000;6.0000;18;Yes
+53772;Israel;Sri Lanka;Shaldag;Patrol craft;Ships;1995;Yes;3;Yes;2006;No;New;6.0000;6.0000;18;Yes
+53772;Israel;Sri Lanka;Shaldag;Patrol craft;Ships;1995;Yes;3;Yes;2003;No;New;6.0000;6.0000;18;Yes
+53772;Israel;Sri Lanka;Shaldag;Patrol craft;Ships;1995;Yes;3;Yes;2002;No;New;6.0000;6.0000;18;Yes
+53772;Israel;Sri Lanka;Shaldag;Patrol craft;Ships;1995;Yes;3;Yes;2000;No;New;6.0000;6.0000;18;Yes
+53772;Israel;Sri Lanka;Shaldag;Patrol craft;Ships;1995;Yes;3;Yes;1999;No;New;6.0000;6.0000;18;Yes
+53772;Israel;Sri Lanka;Shaldag;Patrol craft;Ships;1995;Yes;2;Yes;1996;No;New;6.0000;6.0000;12;Yes
+53772;Israel;Sri Lanka;Shaldag;Patrol craft;Ships;1995;Yes;2;Yes;2001;No;New;6.0000;6.0000;12;Yes
+53772;Israel;Sri Lanka;Shaldag;Patrol craft;Ships;1995;Yes;2;Yes;1997;No;New;6.0000;6.0000;12;Yes
+53772;Israel;Sri Lanka;Shaldag;Patrol craft;Ships;1995;Yes;2;Yes;1998;No;New;6.0000;6.0000;12;Yes
+53772;Israel;Sri Lanka;Shaldag;Patrol craft;Ships;1995;Yes;3;Yes;2005;No;New;6.0000;6.0000;18;Yes
+53772;Israel;Sri Lanka;Shaldag;Patrol craft;Ships;1995;Yes;3;Yes;2004;No;New;6.0000;6.0000;18;Yes
+29124;Israel;Sri Lanka;Scout;UAV;Aircraft;1995;Yes;6;Yes;1998;Yes;Second hand but modernized;0.1000;0.066;0.396;No
+24074;Israel;Sri Lanka;Kfir C-2;FGA aircraft;Aircraft;1995;Yes;4;Yes;1996;No;Second hand;12.5000;5;20;No
+28674;Israel;Switzerland;Ranger;UAV;Aircraft;1996;No;7;Yes;2001;No;New;0.2000;0.2000;1.4;Yes
+28674;Israel;Switzerland;Ranger;UAV;Aircraft;1996;No;7;Yes;2000;No;New;0.2000;0.2000;1.4;Yes
+28674;Israel;Switzerland;Ranger;UAV;Aircraft;1996;No;7;Yes;1999;No;New;0.2000;0.2000;1.4;Yes
+28674;Israel;Switzerland;Ranger;UAV;Aircraft;1996;No;7;Yes;1998;Yes;New;0.2000;0.2000;1.4;Yes
+34053;Israel;United States;Kfir C-2;FGA aircraft;Aircraft;2002;No;2;No;2004;No;Second hand but modernized;12.5000;8.25;16.5;No
+34053;Israel;United States;Kfir C-2;FGA aircraft;Aircraft;2002;No;2;No;2002;Yes;Second hand but modernized;12.5000;8.25;16.5;No
+33187;Israel;United States;CARDOM 120mm;Mortar;Artillery;2002;Yes;80;Yes;2010;No;New;0.0500;0.0500;4;No
+33187;Israel;United States;CARDOM 120mm;Mortar;Artillery;2002;Yes;73;Yes;2007;No;New;0.0500;0.0500;3.65;No
+33187;Israel;United States;CARDOM 120mm;Mortar;Artillery;2002;Yes;114;Yes;2006;No;New;0.0500;0.0500;5.7;No
+33187;Israel;United States;CARDOM 120mm;Mortar;Artillery;2002;Yes;59;Yes;2005;No;New;0.0500;0.0500;2.95;No
+33187;Israel;United States;CARDOM 120mm;Mortar;Artillery;2002;Yes;4;Yes;2002;No;New;0.0500;0.0500;0.2;No
+33187;Israel;United States;CARDOM 120mm;Mortar;Artillery;2002;Yes;66;Yes;2004;No;New;0.0500;0.0500;3.3;No
+33187;Israel;United States;CARDOM 120mm;Mortar;Artillery;2002;Yes;57;Yes;2009;No;New;0.0500;0.0500;2.85;No
+32206;Israel;United States;AGM-142A/Popeye-1;ASM;Missiles;1998;Yes;42;Yes;2000;No;New;1.0000;1.0000;42;No
+31799;Israel;United States;A-4M Skyhawk-2;FGA aircraft;Aircraft;2000;No;10;No;2001;No;Second hand;10.0000;4;40;No
+24397;Israel;United States;Astra-SPX;Light transport ac;Aircraft;1996;No;2;No;1998;No;New;8.0000;8.0000;16;No
+24359;Israel;United States;AGM-142A/Popeye-1;ASM;Missiles;1996;No;25;Yes;1998;Yes;New;1.0000;1.0000;25;No
+24359;Israel;United States;AGM-142A/Popeye-1;ASM;Missiles;1996;No;25;Yes;1997;Yes;New;1.0000;1.0000;25;No
+22251;Israel;United States;AGM-142A/Popeye-1;ASM;Missiles;1993;Yes;20;No;1995;No;New;1.0000;1.0000;20;No
+22251;Israel;United States;AGM-142A/Popeye-1;ASM;Missiles;1993;Yes;30;No;1993;No;New;1.0000;1.0000;30;No
+18406;Israel;United States;AGM-142A/Popeye-1;ASM;Missiles;1988;No;30;No;1993;No;New;1.0000;1.0000;30;No
+18406;Israel;United States;AGM-142A/Popeye-1;ASM;Missiles;1988;No;40;No;1992;No;New;1.0000;1.0000;40;No
+18406;Israel;United States;AGM-142A/Popeye-1;ASM;Missiles;1988;No;16;No;1991;No;New;1.0000;1.0000;16;No
+56363;Israel;United States;TA-4J Skyhawk;Trainer aircraft;Aircraft;2000;No;1;No;2001;No;Second hand;7.0000;2.8;2.8;No
+56362;Israel;United States;A-4E Skyhawk;FGA aircraft;Aircraft;2000;No;2;No;2001;No;Second hand;8.0000;3.2;6.4;No
+29077;Israel;United States;Pioneer;UAV;Aircraft;1986;Yes;12;Yes;1990;Yes;New;0.1000;0.1000;1.2;No
+29077;Israel;United States;Pioneer;UAV;Aircraft;1986;Yes;12;Yes;1989;Yes;New;0.1000;0.1000;1.2;No
+29077;Israel;United States;Pioneer;UAV;Aircraft;1986;Yes;12;Yes;1988;Yes;New;0.1000;0.1000;1.2;No
+29077;Israel;United States;Pioneer;UAV;Aircraft;1986;Yes;12;Yes;1987;Yes;New;0.1000;0.1000;1.2;No
+28785;Israel;United States;Hunter;UAV;Aircraft;1992;No;15;Yes;1996;No;New;0.3000;0.3000;4.5;No
+28785;Israel;United States;Hunter;UAV;Aircraft;1992;No;16;Yes;1995;No;New;0.3000;0.3000;4.8;No
+28785;Israel;United States;Hunter;UAV;Aircraft;1992;No;16;Yes;1994;Yes;New;0.3000;0.3000;4.8;No
+28785;Israel;United States;Hunter;UAV;Aircraft;1992;No;15;Yes;1993;Yes;New;0.3000;0.3000;4.5;No
+52522;Israel;United States;Litening;Aircraft EO system;Sensors;2010;No;35;Yes;2013;No;New;1.0000;1.0000;35;Yes
+52522;Israel;United States;Litening;Aircraft EO system;Sensors;2010;No;15;Yes;2011;Yes;New;1.0000;1.0000;15;Yes
+52522;Israel;United States;Litening;Aircraft EO system;Sensors;2010;No;25;Yes;2012;No;New;1.0000;1.0000;25;Yes
+51640;Israel;United States;EL/M-2022;MP aircraft radar;Sensors;2006;No;2;Yes;2010;No;New;2.5000;2.5000;5;Yes
+51640;Israel;United States;EL/M-2022;MP aircraft radar;Sensors;2006;No;2;Yes;2009;No;New;2.5000;2.5000;5;Yes
+51640;Israel;United States;EL/M-2022;MP aircraft radar;Sensors;2006;No;2;Yes;2008;No;New;2.5000;2.5000;5;Yes
+39843;Israel;United States;Golan;APC;Armoured vehicles;2007;No;60;Yes;2007;Yes;New;0.2100;0.2100;12.6;Yes
+37472;Israel;United States;Litening;Aircraft EO system;Sensors;2004;No;8;Yes;2004;Yes;New;1.0000;1.0000;8;Yes
+37471;Israel;United States;Litening;Aircraft EO system;Sensors;2001;No;24;Yes;2002;Yes;New;1.0000;1.0000;24;Yes
+37471;Israel;United States;Litening;Aircraft EO system;Sensors;2001;No;23;Yes;2001;Yes;New;1.0000;1.0000;23;Yes
+37469;Israel;United States;Litening;Aircraft EO system;Sensors;2000;No;9;Yes;2000;No;New;1.0000;1.0000;9;Yes
+37468;Israel;United States;Litening;Aircraft EO system;Sensors;1999;No;16;Yes;2001;Yes;New;1.0000;1.0000;16;Yes
+37468;Israel;United States;Litening;Aircraft EO system;Sensors;1999;No;16;Yes;2000;No;New;1.0000;1.0000;16;Yes
+37465;Israel;United States;Litening;Aircraft EO system;Sensors;2005;No;24;Yes;2006;No;New;1.0000;1.0000;24;Yes
+37464;Israel;United States;Litening;Aircraft EO system;Sensors;2003;No;24;Yes;2003;Yes;New;1.0000;1.0000;24;Yes
+37463;Israel;United States;Litening;Aircraft EO system;Sensors;2002;No;8;Yes;2003;Yes;New;1.0000;1.0000;8;Yes
+37463;Israel;United States;Litening;Aircraft EO system;Sensors;2002;No;8;Yes;2002;Yes;New;1.0000;1.0000;8;Yes
+37454;Israel;United States;Litening;Aircraft EO system;Sensors;2001;Yes;10;Yes;2005;Yes;New;1.0000;1.0000;10;Yes
+37454;Israel;United States;Litening;Aircraft EO system;Sensors;2001;Yes;10;Yes;2004;Yes;New;1.0000;1.0000;10;Yes
+37454;Israel;United States;Litening;Aircraft EO system;Sensors;2001;Yes;10;Yes;2003;Yes;New;1.0000;1.0000;10;Yes
+37454;Israel;United States;Litening;Aircraft EO system;Sensors;2001;Yes;10;Yes;2001;Yes;New;1.0000;1.0000;10;Yes
+35459;Israel;United States;Aerostar;UAV;Aircraft;2004;No;2;Yes;2004;No;New;0.1000;0.1000;0.2;Yes
+28462;Israel;United States;AGM-142A/Popeye-1;ASM;Missiles;1998;No;50;Yes;2004;No;New;1.0000;1.0000;50;Yes
+28462;Israel;United States;AGM-142A/Popeye-1;ASM;Missiles;1998;No;50;Yes;2003;No;New;1.0000;1.0000;50;Yes
+28462;Israel;United States;AGM-142A/Popeye-1;ASM;Missiles;1998;No;50;Yes;2002;No;New;1.0000;1.0000;50;Yes
+28462;Israel;United States;AGM-142A/Popeye-1;ASM;Missiles;1998;No;50;Yes;2001;No;New;1.0000;1.0000;50;Yes
+28462;Israel;United States;AGM-142A/Popeye-1;ASM;Missiles;1998;No;10;Yes;2000;No;New;1.0000;1.0000;10;Yes
+28462;Israel;United States;AGM-142A/Popeye-1;ASM;Missiles;1998;No;40;Yes;2005;Yes;New;1.0000;1.0000;40;Yes
+22901;Israel;United States;K-6 120mm;Mortar;Artillery;1990;No;154;Yes;1997;No;New;0.0500;0.0500;7.7;Yes
+22901;Israel;United States;K-6 120mm;Mortar;Artillery;1990;No;200;Yes;1996;No;New;0.0500;0.0500;10;Yes
+22901;Israel;United States;K-6 120mm;Mortar;Artillery;1990;No;200;Yes;1995;No;New;0.0500;0.0500;10;Yes
+22901;Israel;United States;K-6 120mm;Mortar;Artillery;1990;No;200;Yes;1994;No;New;0.0500;0.0500;10;Yes
+22901;Israel;United States;K-6 120mm;Mortar;Artillery;1990;No;200;Yes;1993;No;New;0.0500;0.0500;10;Yes
+22901;Israel;United States;K-6 120mm;Mortar;Artillery;1990;No;200;Yes;1992;No;New;0.0500;0.0500;10;Yes
+22901;Israel;United States;K-6 120mm;Mortar;Artillery;1990;No;100;Yes;1991;No;New;0.0500;0.0500;5;Yes
+33485;Israel;United States;Kfir C-2;FGA aircraft;Aircraft;2001;Yes;2;No;2002;No;Second hand;12.5000;5;10;No
+4498;Israel;United States;Kfir C-1;FGA aircraft;Aircraft;1984;No;12;Yes;1985;Yes;Second hand;12.0000;4.8;57.6;No
+14580;Israel;United States;Kfir C-1;FGA aircraft;Aircraft;1986;No;13;No;1987;No;Second hand;12.0000;4.8;62.4;No
+1195;Israel;Zimbabwe;Bell-205/UH-1H;Helicopter;Aircraft;1978;Yes;11;Yes;1978;No;Second hand;2.6200;1.048;11.528;No
+35463;Israel;Unknown country;Aerostar;UAV;Aircraft;2003;Yes;2;Yes;2003;Yes;New;0.1000;0.1000;0.2;No
+35462;Israel;Unknown country;Aerostar;UAV;Aircraft;2003;Yes;2;Yes;2003;Yes;New;0.1000;0.1000;0.2;No
+29652;Israel;Unknown country;Rhino;APC;Armoured vehicles;1994;Yes;10;Yes;1995;No;New;0.1400;0.1400;1.4;No
+51995;Israel;Unknown country;EL/M-2022;MP aircraft radar;Sensors;2010;Yes;1;Yes;2013;Yes;New;2.5000;2.5000;2.5;No
+53637;Israel;Unknown country;ATMOS-2000 155mm;Self-propelled gun;Artillery;2011;No;3;Yes;2013;Yes;New;1.2500;1.2500;3.75;No
+52911;Israel;Unknown country;EL/M-2106NG;Air search radar;Sensors;2007;No;2;Yes;2008;Yes;New;6.0000;6.0000;12;No
+50661;Israel;Unknown country;EL/M-2055;AGS radar;Sensors;2008;No;2;Yes;2013;Yes;New;5.0000;5.0000;10;No
+39888;Israel;Unknown country;CoMPASS;EO system;Sensors;2007;No;2;Yes;2010;Yes;New;2.5000;2.5000;5;No
+39888;Israel;Unknown country;CoMPASS;EO system;Sensors;2007;No;2;Yes;2011;Yes;New;2.5000;2.5000;5;No

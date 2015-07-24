@@ -1,0 +1,613 @@
+Deal ID;Seller;Buyer;Designation;Description;Armament category;Order date;Order date is estimate;Numbers delivered;Numbers delivered is estimate;Delivery year;Delivery year is estimate;Status;SIPRI estimate;TIV deal unit;TIV delivery values;Local production
+7242;Switzerland;Australia;PC-6 Porter;Light transport ac;Aircraft;1967;No;4;No;1971;No;New;0.4500;0.4500;1.8;No
+7242;Switzerland;Australia;PC-6 Porter;Light transport ac;Aircraft;1967;No;5;No;1969;No;New;0.4500;0.4500;2.25;No
+7242;Switzerland;Australia;PC-6 Porter;Light transport ac;Aircraft;1967;No;10;No;1968;No;New;0.4500;0.4500;4.5;No
+16013;Switzerland;Australia;PC-9;Trainer aircraft;Aircraft;1986;No;24;No;1991;No;New;1.4000;1.4000;33.6;Yes
+16013;Switzerland;Australia;PC-9;Trainer aircraft;Aircraft;1986;No;18;No;1990;No;New;1.4000;1.4000;25.2;Yes
+16013;Switzerland;Australia;PC-9;Trainer aircraft;Aircraft;1986;No;12;No;1989;No;New;1.4000;1.4000;16.8;Yes
+16013;Switzerland;Australia;PC-9;Trainer aircraft;Aircraft;1986;No;8;No;1988;No;New;1.4000;1.4000;11.2;Yes
+16013;Switzerland;Australia;PC-9;Trainer aircraft;Aircraft;1986;No;5;No;1987;No;New;1.4000;1.4000;7;Yes
+30652;Switzerland;Bulgaria;PC-9;Trainer aircraft;Aircraft;2003;No;6;No;2004;No;New;1.4000;1.4000;8.4;No
+30651;Switzerland;Bulgaria;PC-12;Light transport ac;Aircraft;2003;No;1;No;2003;No;New;1.8500;1.8500;1.85;No
+38603;Switzerland;Canada;GDF 35mm;AA gun;Air defence systems;1986;Yes;5;Yes;1991;No;New;0.7500;0.7500;3.75;No
+38603;Switzerland;Canada;GDF 35mm;AA gun;Air defence systems;1986;Yes;5;Yes;1990;No;New;0.7500;0.7500;3.75;No
+38603;Switzerland;Canada;GDF 35mm;AA gun;Air defence systems;1986;Yes;5;Yes;1989;No;New;0.7500;0.7500;3.75;No
+38603;Switzerland;Canada;GDF 35mm;AA gun;Air defence systems;1986;Yes;5;Yes;1988;No;New;0.7500;0.7500;3.75;No
+21096;Switzerland;Canada;ADATS LOS-FH;SAM;Missiles;1986;No;100;Yes;1993;No;New;0.1500;0.1500;15;No
+21096;Switzerland;Canada;ADATS LOS-FH;SAM;Missiles;1986;No;200;Yes;1992;No;New;0.1500;0.1500;30;No
+21096;Switzerland;Canada;ADATS LOS-FH;SAM;Missiles;1986;No;200;Yes;1991;No;New;0.1500;0.1500;30;No
+21096;Switzerland;Canada;ADATS LOS-FH;SAM;Missiles;1986;No;200;Yes;1990;No;New;0.1500;0.1500;30;No
+21096;Switzerland;Canada;ADATS LOS-FH;SAM;Missiles;1986;No;100;Yes;1988;No;New;0.1500;0.1500;15;No
+17441;Switzerland;Canada;Skyguard;Fire control radar;Sensors;1986;No;3;Yes;1991;No;New;5.0000;5.0000;15;No
+17441;Switzerland;Canada;Skyguard;Fire control radar;Sensors;1986;No;3;Yes;1990;No;New;5.0000;5.0000;15;No
+17441;Switzerland;Canada;Skyguard;Fire control radar;Sensors;1986;No;3;Yes;1989;No;New;5.0000;5.0000;15;No
+17441;Switzerland;Canada;Skyguard;Fire control radar;Sensors;1986;No;1;Yes;1988;No;New;5.0000;5.0000;5;No
+27233;Switzerland;Canada;Piranha-3;APC;Armoured vehicles;1999;Yes;11;Yes;2007;No;New;0.2700;0.2700;2.97;Yes
+27233;Switzerland;Canada;Piranha-3;APC;Armoured vehicles;1999;Yes;40;Yes;2006;No;New;0.2700;0.2700;10.8;Yes
+27233;Switzerland;Canada;Piranha-3;APC;Armoured vehicles;1999;Yes;40;Yes;2005;No;New;0.2700;0.2700;10.8;Yes
+27233;Switzerland;Canada;Piranha-3;APC;Armoured vehicles;1999;Yes;40;Yes;2004;No;New;0.2700;0.2700;10.8;Yes
+27233;Switzerland;Canada;Piranha-3;APC;Armoured vehicles;1999;Yes;40;Yes;2003;No;New;0.2700;0.2700;10.8;Yes
+27232;Switzerland;Canada;Piranha-3;APC;Armoured vehicles;1999;No;60;Yes;2002;No;New;0.2700;0.2700;16.2;Yes
+27232;Switzerland;Canada;Piranha-3;APC;Armoured vehicles;1999;No;60;Yes;2001;Yes;New;0.2700;0.2700;16.2;Yes
+27231;Switzerland;Canada;Piranha-3;APC;Armoured vehicles;1998;No;120;Yes;2000;No;New;0.2700;0.2700;32.4;Yes
+21653;Switzerland;Canada;Piranha;APC;Armoured vehicles;1989;No;24;Yes;1993;No;New;0.2600;0.2600;6.24;Yes
+21653;Switzerland;Canada;Piranha;APC;Armoured vehicles;1989;No;50;Yes;1992;No;New;0.2600;0.2600;13;Yes
+21653;Switzerland;Canada;Piranha;APC;Armoured vehicles;1989;No;50;Yes;1991;No;New;0.2600;0.2600;13;Yes
+21653;Switzerland;Canada;Piranha;APC;Armoured vehicles;1989;No;50;Yes;1990;No;New;0.2600;0.2600;13;Yes
+21653;Switzerland;Canada;Piranha;APC;Armoured vehicles;1989;No;25;Yes;1989;No;New;0.2600;0.2600;6.5;Yes
+20314;Switzerland;Canada;Piranha;APC;Armoured vehicles;1977;No;116;Yes;1982;No;New;0.2600;0.2600;30.16;Yes
+20314;Switzerland;Canada;Piranha;APC;Armoured vehicles;1977;No;125;Yes;1981;No;New;0.2600;0.2600;32.5;Yes
+20314;Switzerland;Canada;Piranha;APC;Armoured vehicles;1977;No;125;Yes;1980;No;New;0.2600;0.2600;32.5;Yes
+20314;Switzerland;Canada;Piranha;APC;Armoured vehicles;1977;No;125;Yes;1979;No;New;0.2600;0.2600;32.5;Yes
+23398;Switzerland;Canada;Piranha;APC;Armoured vehicles;1993;No;78;Yes;1997;No;New;0.2600;0.2600;20.28;Yes
+23398;Switzerland;Canada;Piranha;APC;Armoured vehicles;1993;No;78;Yes;1996;No;New;0.2600;0.2600;20.28;Yes
+23398;Switzerland;Canada;Piranha;APC;Armoured vehicles;1993;No;47;No;1998;No;New;0.2600;0.2600;12.22;Yes
+23261;Switzerland;Canada;Piranha-3;APC;Armoured vehicles;1997;No;60;Yes;2000;No;New;0.2700;0.2700;16.2;Yes
+23261;Switzerland;Canada;Piranha-3;APC;Armoured vehicles;1997;No;160;Yes;1999;No;New;0.2700;0.2700;43.2;Yes
+23261;Switzerland;Canada;Piranha-3;APC;Armoured vehicles;1997;No;20;Yes;1998;Yes;New;0.2700;0.2700;5.4;Yes
+17440;Switzerland;Canada;ADATS;Mobile SAM system;Air defence systems;1986;No;14;Yes;1992;No;New;10.0000;10.0000;140;Yes
+17440;Switzerland;Canada;ADATS;Mobile SAM system;Air defence systems;1986;No;2;Yes;1993;Yes;New;10.0000;10.0000;20;Yes
+17440;Switzerland;Canada;ADATS;Mobile SAM system;Air defence systems;1986;No;14;No;1991;No;New;10.0000;10.0000;140;Yes
+17440;Switzerland;Canada;ADATS;Mobile SAM system;Air defence systems;1986;No;5;No;1990;No;New;10.0000;10.0000;50;Yes
+17440;Switzerland;Canada;ADATS;Mobile SAM system;Air defence systems;1986;No;1;No;1988;No;New;10.0000;10.0000;10;Yes
+7423;Switzerland;Chad;PC-6 Turbo Porter;Light transport ac;Aircraft;1976;No;2;No;1976;No;New;0.8000;0.8000;1.6;No
+39441;Switzerland;Chad;PC-9;Trainer aircraft;Aircraft;2006;No;1;No;2006;No;New;1.4000;1.4000;1.4;No
+24813;Switzerland;Croatia;PC-9;Trainer aircraft;Aircraft;1996;No;3;Yes;1996;No;New;1.4000;1.4000;4.2;No
+24813;Switzerland;Croatia;PC-9;Trainer aircraft;Aircraft;1996;No;17;No;1997;No;New;1.4000;1.4000;23.8;No
+38579;Switzerland;Ecuador;GDM 35mm;Naval gun;Artillery;1974;Yes;2;No;1977;No;New;2.5000;2.5000;5;No
+38579;Switzerland;Ecuador;GDM 35mm;Naval gun;Artillery;1974;Yes;1;No;1976;No;New;2.5000;2.5000;2.5;No
+26717;Switzerland;Ecuador;Skyguard;Fire control radar;Sensors;1980;Yes;2;Yes;1981;Yes;New;5.0000;5.0000;10;No
+22405;Switzerland;Ecuador;PC-6 Turbo Porter;Light transport ac;Aircraft;1988;Yes;1;No;1988;No;New;0.8000;0.8000;0.8;No
+19023;Switzerland;Ecuador;PC-6 Turbo Porter;Light transport ac;Aircraft;1988;No;1;No;1988;No;New;0.8000;0.8000;0.8;No
+17265;Switzerland;Ecuador;PC-6 Turbo Porter;Light transport ac;Aircraft;1974;Yes;3;No;1975;No;New;0.8000;0.8000;2.4;No
+20138;Switzerland;Angola;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1986;Yes;8;Yes;1990;No;New;1.0000;1.0000;8;No
+17802;Switzerland;Angola;PC-9;Trainer aircraft;Aircraft;1986;No;4;No;1987;No;New;1.4000;1.4000;5.6;No
+3639;Switzerland;Angola;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1981;No;12;No;1982;No;New;1.0000;1.0000;12;No
+3638;Switzerland;Angola;PC-6 Porter;Light transport ac;Aircraft;1976;No;4;No;1976;No;New;0.4500;0.4500;1.8;No
+36820;Switzerland;Austria;GAD-AOA;IFV turret;Other;1959;Yes;10;Yes;1966;No;New;0.1000;0.1000;1;No
+36820;Switzerland;Austria;GAD-AOA;IFV turret;Other;1959;Yes;10;Yes;1965;No;New;0.1000;0.1000;1;No
+36820;Switzerland;Austria;GAD-AOA;IFV turret;Other;1959;Yes;10;Yes;1964;Yes;New;0.1000;0.1000;1;No
+36820;Switzerland;Austria;GAD-AOA;IFV turret;Other;1959;Yes;9;Yes;1963;Yes;New;0.1000;0.1000;0.9;No
+36820;Switzerland;Austria;GAD-AOA;IFV turret;Other;1959;Yes;9;Yes;1968;Yes;New;0.1000;0.1000;0.9;No
+36820;Switzerland;Austria;GAD-AOA;IFV turret;Other;1959;Yes;9;Yes;1962;Yes;New;0.1000;0.1000;0.9;No
+36820;Switzerland;Austria;GAD-AOA;IFV turret;Other;1959;Yes;9;Yes;1969;Yes;New;0.1000;0.1000;0.9;No
+36820;Switzerland;Austria;GAD-AOA;IFV turret;Other;1959;Yes;10;Yes;1967;No;New;0.1000;0.1000;1;No
+36552;Switzerland;Austria;GDF 35mm;AA gun;Air defence systems;1979;Yes;30;Yes;1980;Yes;New;0.7500;0.7500;22.5;No
+36552;Switzerland;Austria;GDF 35mm;AA gun;Air defence systems;1979;Yes;31;Yes;1981;Yes;New;0.7500;0.7500;23.25;No
+36552;Switzerland;Austria;GDF 35mm;AA gun;Air defence systems;1979;Yes;31;Yes;1982;Yes;New;0.7500;0.7500;23.25;No
+24551;Switzerland;Austria;Super-Fledermaus;Fire control radar;Sensors;1963;Yes;14;Yes;1966;Yes;New;3.5000;3.5000;49;No
+24551;Switzerland;Austria;Super-Fledermaus;Fire control radar;Sensors;1963;Yes;14;Yes;1965;Yes;New;3.5000;3.5000;49;No
+24551;Switzerland;Austria;Super-Fledermaus;Fire control radar;Sensors;1963;Yes;13;Yes;1964;Yes;New;3.5000;3.5000;45.5;No
+21464;Switzerland;Austria;PC-6 Turbo Porter;Light transport ac;Aircraft;1987;Yes;1;No;1987;No;New;0.8000;0.8000;0.8;No
+21463;Switzerland;Austria;PC-6 Turbo Porter;Light transport ac;Aircraft;1975;No;12;Yes;1976;No;New;0.8000;0.8000;9.6;No
+18770;Switzerland;Austria;Skyguard;Fire control radar;Sensors;1979;Yes;12;Yes;1982;Yes;New;5.0000;5.0000;60;No
+18770;Switzerland;Austria;Skyguard;Fire control radar;Sensors;1979;Yes;13;Yes;1981;Yes;New;5.0000;5.0000;65;No
+18770;Switzerland;Austria;Skyguard;Fire control radar;Sensors;1979;Yes;12;Yes;1980;Yes;New;5.0000;5.0000;60;No
+14477;Switzerland;Austria;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1985;No;6;No;1985;No;New;1.0000;1.0000;6;No
+4353;Switzerland;Austria;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1982;Yes;4;No;1984;No;New;1.0000;1.0000;4;No
+3865;Switzerland;Austria;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1981;No;2;Yes;1983;No;New;1.0000;1.0000;2;No
+3865;Switzerland;Austria;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1981;No;4;Yes;1984;No;New;1.0000;1.0000;4;No
+34972;Switzerland;Austria;F-5E Tiger-2;FGA aircraft;Aircraft;2004;No;4;Yes;2005;No;Second hand;10.0000;4;16;No
+34972;Switzerland;Austria;F-5E Tiger-2;FGA aircraft;Aircraft;2004;No;8;Yes;2004;No;Second hand;10.0000;4;32;No
+36601;Switzerland;Bahrain;Skyguard;Fire control radar;Sensors;1985;Yes;6;Yes;1986;Yes;New;5.0000;5.0000;30;No
+30700;Switzerland;Belgium;Piranha-3;APC;Armoured vehicles;2006;No;30;Yes;2013;No;New;0.2700;0.2700;8.1;Yes
+30700;Switzerland;Belgium;Piranha-3;APC;Armoured vehicles;2006;No;37;No;2010;No;New;0.2700;0.2700;9.99;Yes
+30700;Switzerland;Belgium;Piranha-3;APC;Armoured vehicles;2006;No;30;Yes;2011;No;New;0.2700;0.2700;8.1;Yes
+30700;Switzerland;Belgium;Piranha-3;APC;Armoured vehicles;2006;No;30;Yes;2012;No;New;0.2700;0.2700;8.1;Yes
+30700;Switzerland;Belgium;Piranha-3;APC;Armoured vehicles;2006;No;32;Yes;2009;No;New;0.2700;0.2700;8.64;Yes
+30700;Switzerland;Belgium;Piranha-3;APC;Armoured vehicles;2006;No;24;Yes;2008;No;New;0.2700;0.2700;6.48;Yes
+17357;Switzerland;Bolivia;Roland;APC;Armoured vehicles;1965;Yes;24;Yes;1968;Yes;New;0.1200;0.1200;2.88;No
+26;Switzerland;Bolivia;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1977;No;12;No;1981;No;New;1.0000;1.0000;12;No
+26;Switzerland;Bolivia;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1977;No;12;No;1980;No;New;1.0000;1.0000;12;No
+34031;Switzerland;Botswana;Piranha-3;APC;Armoured vehicles;2002;Yes;29;No;2004;No;New;0.2700;0.2700;7.83;No
+34031;Switzerland;Botswana;Piranha-3;APC;Armoured vehicles;2002;Yes;16;No;2003;No;New;0.2700;0.2700;4.32;No
+20133;Switzerland;Botswana;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1989;No;7;No;1990;No;New;1.0000;1.0000;7;No
+53257;Switzerland;Botswana;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;2011;No;5;No;2013;No;New;1.0000;1.0000;5;No
+24531;Switzerland;Brazil;Super-Fledermaus;Fire control radar;Sensors;1976;Yes;6;Yes;1977;No;New;3.5000;3.5000;21;No
+24531;Switzerland;Brazil;Super-Fledermaus;Fire control radar;Sensors;1976;Yes;6;Yes;1979;Yes;New;3.5000;3.5000;21;No
+24531;Switzerland;Brazil;Super-Fledermaus;Fire control radar;Sensors;1976;Yes;7;Yes;1978;Yes;New;3.5000;3.5000;24.5;No
+20706;Switzerland;Brazil;Skyguard;Fire control radar;Sensors;1983;Yes;2;Yes;1991;Yes;New;5.0000;5.0000;10;No
+20706;Switzerland;Brazil;Skyguard;Fire control radar;Sensors;1983;Yes;2;Yes;1992;Yes;New;5.0000;5.0000;10;No
+20706;Switzerland;Brazil;Skyguard;Fire control radar;Sensors;1983;Yes;1;Yes;1985;No;New;5.0000;5.0000;5;No
+20706;Switzerland;Brazil;Skyguard;Fire control radar;Sensors;1983;Yes;1;Yes;1995;Yes;New;5.0000;5.0000;5;No
+20706;Switzerland;Brazil;Skyguard;Fire control radar;Sensors;1983;Yes;1;Yes;1994;Yes;New;5.0000;5.0000;5;No
+20706;Switzerland;Brazil;Skyguard;Fire control radar;Sensors;1983;Yes;1;Yes;1993;Yes;New;5.0000;5.0000;5;No
+20706;Switzerland;Brazil;Skyguard;Fire control radar;Sensors;1983;Yes;1;Yes;1990;Yes;New;5.0000;5.0000;5;No
+20706;Switzerland;Brazil;Skyguard;Fire control radar;Sensors;1983;Yes;1;Yes;1989;Yes;New;5.0000;5.0000;5;No
+20706;Switzerland;Brazil;Skyguard;Fire control radar;Sensors;1983;Yes;1;Yes;1988;Yes;New;5.0000;5.0000;5;No
+20706;Switzerland;Brazil;Skyguard;Fire control radar;Sensors;1983;Yes;1;Yes;1987;Yes;New;5.0000;5.0000;5;No
+20706;Switzerland;Brazil;Skyguard;Fire control radar;Sensors;1983;Yes;1;Yes;1986;Yes;New;5.0000;5.0000;5;No
+2071;Switzerland;Brazil;P-3;Trainer aircraft;Aircraft;1962;Yes;6;No;1963;No;New;0.4000;0.4000;2.4;No
+50692;Switzerland;Brazil;Piranha-3;APC;Armoured vehicles;2008;No;4;Yes;2013;No;New;0.2700;0.2700;1.08;No
+50692;Switzerland;Brazil;Piranha-3;APC;Armoured vehicles;2008;No;4;Yes;2012;No;New;0.2700;0.2700;1.08;No
+50692;Switzerland;Brazil;Piranha-3;APC;Armoured vehicles;2008;No;3;No;2010;No;New;0.2700;0.2700;0.81;No
+50692;Switzerland;Brazil;Piranha-3;APC;Armoured vehicles;2008;No;3;Yes;2011;No;New;0.2700;0.2700;0.81;No
+36558;Switzerland;Brazil;GDF 35mm;AA gun;Air defence systems;1970;Yes;19;Yes;1972;Yes;New;0.7500;0.7500;14.25;No
+36558;Switzerland;Brazil;GDF 35mm;AA gun;Air defence systems;1970;Yes;19;Yes;1971;Yes;New;0.7500;0.7500;14.25;No
+50501;Switzerland;Brazil;Piranha-3;APC;Armoured vehicles;2007;No;5;No;2009;No;New;0.2700;0.2700;1.35;No
+39835;Switzerland;Brazil;Piranha-3;APC;Armoured vehicles;2006;No;5;Yes;2007;No;New;0.2700;0.2700;1.35;No
+39835;Switzerland;Brazil;Piranha-3;APC;Armoured vehicles;2006;No;2;Yes;2008;No;New;0.2700;0.2700;0.54;No
+24762;Switzerland;Brunei;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1996;Yes;4;No;1997;No;New;1.0000;1.0000;4;No
+36562;Switzerland;Cameroon;GDF 35mm;AA gun;Air defence systems;1981;Yes;18;Yes;1982;Yes;New;0.7500;0.7500;13.5;No
+24546;Switzerland;Cameroon;Super-Fledermaus;Fire control radar;Sensors;1981;No;9;Yes;1982;No;New;3.5000;3.5000;31.5;No
+35514;Switzerland;Chile;M-109A1 155mm;Self-propelled gun;Artillery;2004;No;24;Yes;2006;Yes;Second hand but modernized;1.1000;0.726;17.424;No
+31849;Switzerland;Chile;Grenadier;APC;Armoured vehicles;1969;No;10;No;1969;No;New;0.1500;0.1500;1.5;No
+23871;Switzerland;Chile;Skyguard;Fire control radar;Sensors;1991;Yes;2;Yes;1992;No;New;5.0000;5.0000;10;No
+7485;Switzerland;Chile;Roland;APC;Armoured vehicles;1970;Yes;40;Yes;1971;No;New;0.1200;0.1200;4.8;No
+2575;Switzerland;Chile;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1979;No;10;No;1980;No;New;1.0000;1.0000;10;No
+21671;Switzerland;Chile;Piranha;APC;Armoured vehicles;1991;Yes;5;Yes;1997;No;New;0.2600;0.2600;1.3;Yes
+21671;Switzerland;Chile;Piranha;APC;Armoured vehicles;1991;Yes;5;Yes;1996;No;New;0.2600;0.2600;1.3;Yes
+21671;Switzerland;Chile;Piranha;APC;Armoured vehicles;1991;Yes;5;Yes;1995;No;New;0.2600;0.2600;1.3;Yes
+21671;Switzerland;Chile;Piranha;APC;Armoured vehicles;1991;Yes;3;Yes;1994;No;New;0.2600;0.2600;0.78;Yes
+21671;Switzerland;Chile;Piranha;APC;Armoured vehicles;1991;Yes;2;Yes;2000;Yes;New;0.2600;0.2600;0.52;Yes
+21671;Switzerland;Chile;Piranha;APC;Armoured vehicles;1991;Yes;5;Yes;1999;Yes;New;0.2600;0.2600;1.3;Yes
+21671;Switzerland;Chile;Piranha;APC;Armoured vehicles;1991;Yes;5;Yes;1998;Yes;New;0.2600;0.2600;1.3;Yes
+3035;Switzerland;Chile;Piranha;APC;Armoured vehicles;1980;Yes;5;Yes;1992;No;New;0.2600;0.2600;1.3;Yes
+3035;Switzerland;Chile;Piranha;APC;Armoured vehicles;1980;Yes;17;Yes;1991;No;New;0.2600;0.2600;4.42;Yes
+3035;Switzerland;Chile;Piranha;APC;Armoured vehicles;1980;Yes;20;Yes;1990;No;New;0.2600;0.2600;5.2;Yes
+3035;Switzerland;Chile;Piranha;APC;Armoured vehicles;1980;Yes;22;Yes;1989;No;New;0.2600;0.2600;5.72;Yes
+3035;Switzerland;Chile;Piranha;APC;Armoured vehicles;1980;Yes;23;Yes;1988;No;New;0.2600;0.2600;5.98;Yes
+3035;Switzerland;Chile;Piranha;APC;Armoured vehicles;1980;Yes;23;Yes;1987;No;New;0.2600;0.2600;5.98;Yes
+3035;Switzerland;Chile;Piranha;APC;Armoured vehicles;1980;Yes;23;Yes;1986;No;New;0.2600;0.2600;5.98;Yes
+3035;Switzerland;Chile;Piranha;APC;Armoured vehicles;1980;Yes;23;Yes;1985;No;New;0.2600;0.2600;5.98;Yes
+3035;Switzerland;Chile;Piranha;APC;Armoured vehicles;1980;Yes;23;Yes;1984;No;New;0.2600;0.2600;5.98;Yes
+3035;Switzerland;Chile;Piranha;APC;Armoured vehicles;1980;Yes;21;Yes;1983;No;New;0.2600;0.2600;5.46;Yes
+3035;Switzerland;Chile;Piranha;APC;Armoured vehicles;1980;Yes;20;Yes;1982;No;New;0.2600;0.2600;5.2;Yes
+3035;Switzerland;Chile;Piranha;APC;Armoured vehicles;1980;Yes;5;Yes;1981;No;New;0.2600;0.2600;1.3;Yes
+17193;Switzerland;Chile;Roland;APC;Armoured vehicles;1966;Yes;15;No;1967;Yes;New;0.1200;0.1200;1.8;No
+4380;Switzerland;Colombia;Skyguard;Fire control radar;Sensors;1982;No;2;Yes;1984;No;New;5.0000;5.0000;10;No
+4380;Switzerland;Colombia;Skyguard;Fire control radar;Sensors;1982;No;1;Yes;1983;No;New;5.0000;5.0000;5;No
+25915;Switzerland;Colombia;PC-6 Porter;Light transport ac;Aircraft;1963;No;1;No;1963;No;New;0.4500;0.4500;0.45;No
+38604;Switzerland;Cyprus;GDF 35mm;AA gun;Air defence systems;1987;No;10;Yes;1990;Yes;New;0.7500;0.7500;7.5;No
+38604;Switzerland;Cyprus;GDF 35mm;AA gun;Air defence systems;1987;No;10;Yes;1989;Yes;New;0.7500;0.7500;7.5;No
+38604;Switzerland;Cyprus;GDF 35mm;AA gun;Air defence systems;1987;No;10;Yes;1988;No;New;0.7500;0.7500;7.5;No
+19763;Switzerland;Cyprus;PC-9;Trainer aircraft;Aircraft;1987;No;1;No;1990;No;New;1.4000;1.4000;1.4;No
+19763;Switzerland;Cyprus;PC-9;Trainer aircraft;Aircraft;1987;No;1;No;1989;No;New;1.4000;1.4000;1.4;No
+18762;Switzerland;Cyprus;Skyguard;Fire control radar;Sensors;1987;No;1;Yes;1988;No;New;5.0000;5.0000;5;No
+18762;Switzerland;Cyprus;Skyguard;Fire control radar;Sensors;1987;No;1;Yes;1990;Yes;New;5.0000;5.0000;5;No
+18762;Switzerland;Cyprus;Skyguard;Fire control radar;Sensors;1987;No;2;Yes;1989;Yes;New;5.0000;5.0000;10;No
+36027;Switzerland;Denmark;Eagle;APV;Armoured vehicles;2005;No;30;Yes;2007;No;New;0.1400;0.1400;4.2;No
+36027;Switzerland;Denmark;Eagle;APV;Armoured vehicles;2005;No;10;Yes;2006;No;New;0.1400;0.1400;1.4;No
+36027;Switzerland;Denmark;Eagle;APV;Armoured vehicles;2005;No;50;No;2008;No;New;0.1400;0.1400;7;No
+25658;Switzerland;Denmark;Eagle;APV;Armoured vehicles;1996;No;16;No;1997;No;New;0.1400;0.1400;2.24;No
+25658;Switzerland;Denmark;Eagle;APV;Armoured vehicles;1996;No;10;No;1996;No;New;0.1400;0.1400;1.4;No
+24534;Switzerland;Denmark;Super-Fledermaus;Fire control radar;Sensors;1963;Yes;30;Yes;1965;Yes;New;3.5000;3.5000;105;No
+24534;Switzerland;Denmark;Super-Fledermaus;Fire control radar;Sensors;1963;Yes;30;Yes;1964;Yes;New;3.5000;3.5000;105;No
+23224;Switzerland;Denmark;Eagle;APV;Armoured vehicles;1995;No;10;No;1995;No;New;0.1400;0.1400;1.4;No
+40272;Switzerland;Denmark;GDM-008 35mm;CIWS;Air defence systems;2005;Yes;1;No;2012;No;New;4.0000;4.0000;4;No
+40272;Switzerland;Denmark;GDM-008 35mm;CIWS;Air defence systems;2005;Yes;4;Yes;2007;No;New;4.0000;4.0000;16;No
+39457;Switzerland;Denmark;DURO-3;APC;Armoured vehicles;2006;No;11;Yes;2008;Yes;New;0.2400;0.2400;2.64;Yes
+39457;Switzerland;Denmark;DURO-3;APC;Armoured vehicles;2006;No;13;Yes;2009;No;New;0.2400;0.2400;3.12;Yes
+39457;Switzerland;Denmark;DURO-3;APC;Armoured vehicles;2006;No;5;Yes;2007;No;New;0.2400;0.2400;1.2;Yes
+35415;Switzerland;Denmark;Piranha-3;APC;Armoured vehicles;2004;No;20;Yes;2008;No;New;0.2700;0.2700;5.4;Yes
+35415;Switzerland;Denmark;Piranha-3;APC;Armoured vehicles;2004;No;11;Yes;2007;No;New;0.2700;0.2700;2.97;Yes
+35415;Switzerland;Denmark;Piranha-3;APC;Armoured vehicles;2004;No;38;No;2006;No;New;0.2700;0.2700;10.26;Yes
+34240;Switzerland;Denmark;Piranha-3;APC;Armoured vehicles;2003;No;22;Yes;2005;No;New;0.2700;0.2700;5.94;Yes
+25794;Switzerland;Denmark;Piranha-3;APC;Armoured vehicles;1997;No;20;Yes;2000;No;New;0.2700;0.2700;5.4;Yes
+25794;Switzerland;Denmark;Piranha-3;APC;Armoured vehicles;1997;No;2;Yes;1999;No;New;0.2700;0.2700;0.54;Yes
+33437;Switzerland;Finland;Super-Fledermaus;Fire control radar;Sensors;1975;Yes;5;Yes;1977;Yes;New;3.5000;3.5000;17.5;No
+33437;Switzerland;Finland;Super-Fledermaus;Fire control radar;Sensors;1975;Yes;5;Yes;1976;Yes;New;3.5000;3.5000;17.5;No
+32835;Switzerland;Finland;PC-12;Light transport ac;Aircraft;2009;No;6;No;2010;No;New;1.8500;1.8500;11.1;No
+39745;Switzerland;Finland;Hawk-60;Trainer/combat ac;Aircraft;2007;No;18;No;2008;No;Second hand;10.0000;4;72;No
+3691;Switzerland;Gambia;BN-2 Islander;Light transport ac;Aircraft;1980;Yes;1;No;1981;Yes;New;0.6000;0.6000;0.6;No
+24686;Switzerland;Germany (FRG);MR-8-01;APC;Armoured vehicles;1958;Yes;10;Yes;1960;No;New;0.1600;0.1600;1.6;No
+24686;Switzerland;Germany (FRG);MR-8-01;APC;Armoured vehicles;1958;Yes;10;Yes;1959;No;New;0.1600;0.1600;1.6;No
+20244;Switzerland;Germany (FRG);PC-9;Trainer aircraft;Aircraft;1989;No;5;Yes;1990;No;New;1.4000;1.4000;7;No
+20244;Switzerland;Germany (FRG);PC-9;Trainer aircraft;Aircraft;1989;No;5;No;1991;No;New;1.4000;1.4000;7;No
+583;Switzerland;Germany (FRG);Fieldguard;Fire control radar;Sensors;1977;No;15;Yes;1983;Yes;New;4.7600;4.7600;71.4;No
+583;Switzerland;Germany (FRG);Fieldguard;Fire control radar;Sensors;1977;No;20;Yes;1982;No;New;4.7600;4.7600;95.2;No
+583;Switzerland;Germany (FRG);Fieldguard;Fire control radar;Sensors;1977;No;20;Yes;1981;No;New;4.7600;4.7600;95.2;No
+583;Switzerland;Germany (FRG);Fieldguard;Fire control radar;Sensors;1977;No;15;Yes;1980;No;New;4.7600;4.7600;71.4;No
+52949;Switzerland;Germany (FRG);Eagle;APV;Armoured vehicles;2010;No;100;Yes;2011;No;New;0.1400;0.1400;14;Yes
+52949;Switzerland;Germany (FRG);Eagle;APV;Armoured vehicles;2010;No;95;Yes;2012;No;New;0.1400;0.1400;13.3;Yes
+52277;Switzerland;Germany (FRG);Eagle;APV;Armoured vehicles;2010;No;60;No;2011;No;New;0.1400;0.1400;8.4;Yes
+51496;Switzerland;Germany (FRG);Eagle;APV;Armoured vehicles;2009;No;10;Yes;2011;No;New;0.1400;0.1400;1.4;Yes
+51496;Switzerland;Germany (FRG);Eagle;APV;Armoured vehicles;2009;No;10;Yes;2010;No;New;0.1400;0.1400;1.4;Yes
+50686;Switzerland;Germany (FRG);Eagle;APV;Armoured vehicles;2008;No;93;Yes;2010;No;New;0.1400;0.1400;13.02;Yes
+50686;Switzerland;Germany (FRG);Eagle;APV;Armoured vehicles;2008;No;80;Yes;2009;No;New;0.1400;0.1400;11.2;Yes
+50332;Switzerland;Germany (FRG);Eagle;APV;Armoured vehicles;2008;No;20;No;2009;No;New;0.1400;0.1400;2.8;Yes
+50332;Switzerland;Germany (FRG);Eagle;APV;Armoured vehicles;2008;No;5;No;2008;No;New;0.1400;0.1400;0.7;Yes
+39608;Switzerland;Germany (FRG);Skyshield;Fire control radar;Sensors;2009;No;2;No;2012;No;New;5.5000;5.5000;11;No
+24687;Switzerland;Germany (FRG);MR-8-01;APC;Armoured vehicles;1960;Yes;150;Yes;1965;No;New;0.1600;0.1600;24;Yes
+24687;Switzerland;Germany (FRG);MR-8-01;APC;Armoured vehicles;1960;Yes;150;Yes;1964;No;New;0.1600;0.1600;24;Yes
+24687;Switzerland;Germany (FRG);MR-8-01;APC;Armoured vehicles;1960;Yes;150;Yes;1963;No;New;0.1600;0.1600;24;Yes
+24687;Switzerland;Germany (FRG);MR-8-01;APC;Armoured vehicles;1960;Yes;150;Yes;1962;No;New;0.1600;0.1600;24;Yes
+26441;Switzerland;Germany (FRG);Super-Fledermaus;Fire control radar;Sensors;1961;Yes;25;Yes;1967;Yes;New;3.5000;3.5000;87.5;Yes
+26441;Switzerland;Germany (FRG);Super-Fledermaus;Fire control radar;Sensors;1961;Yes;50;Yes;1966;Yes;New;3.5000;3.5000;175;Yes
+26441;Switzerland;Germany (FRG);Super-Fledermaus;Fire control radar;Sensors;1961;Yes;50;Yes;1965;Yes;New;3.5000;3.5000;175;Yes
+26441;Switzerland;Germany (FRG);Super-Fledermaus;Fire control radar;Sensors;1961;Yes;50;Yes;1964;Yes;New;3.5000;3.5000;175;Yes
+26441;Switzerland;Germany (FRG);Super-Fledermaus;Fire control radar;Sensors;1961;Yes;50;Yes;1963;Yes;New;3.5000;3.5000;175;Yes
+26441;Switzerland;Germany (FRG);Super-Fledermaus;Fire control radar;Sensors;1961;Yes;25;Yes;1962;Yes;New;3.5000;3.5000;87.5;Yes
+23212;Switzerland;Germany (FRG);HS-30;IFV;Armoured vehicles;1958;No;576;Yes;1962;No;New;0.4800;0.4800;276.48;Yes
+23212;Switzerland;Germany (FRG);HS-30;IFV;Armoured vehicles;1958;No;750;Yes;1960;No;New;0.4800;0.4800;360;Yes
+23212;Switzerland;Germany (FRG);HS-30;IFV;Armoured vehicles;1958;No;750;Yes;1961;No;New;0.4800;0.4800;360;Yes
+23212;Switzerland;Germany (FRG);HS-30;IFV;Armoured vehicles;1958;No;100;Yes;1959;No;New;0.4800;0.4800;48;Yes
+30898;Switzerland;Ghana;Piranha;APC;Armoured vehicles;1998;Yes;3;Yes;1999;No;New;0.2600;0.2600;0.78;No
+29252;Switzerland;Ghana;Piranha;APC;Armoured vehicles;1979;Yes;10;Yes;1979;Yes;New;0.1100;0.1100;1.1;No
+15072;Switzerland;Ghana;Piranha;APC;Armoured vehicles;1979;Yes;27;Yes;1980;Yes;New;0.2600;0.2600;7.02;No
+15072;Switzerland;Ghana;Piranha;APC;Armoured vehicles;1979;Yes;17;Yes;1979;Yes;New;0.2600;0.2600;4.42;No
+4398;Switzerland;Greece;Skyguard;AD system;Air defence systems;1983;No;7;Yes;1985;No;New;10.0000;10.0000;70;No
+4398;Switzerland;Greece;Skyguard;AD system;Air defence systems;1983;No;6;Yes;1984;No;New;10.0000;10.0000;60;No
+4398;Switzerland;Greece;Skyguard;AD system;Air defence systems;1983;No;7;Yes;1986;Yes;New;10.0000;10.0000;70;No
+1415;Switzerland;Guatemala;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1978;No;5;Yes;1981;No;New;1.0000;1.0000;5;No
+1415;Switzerland;Guatemala;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1978;No;4;Yes;1980;No;New;1.0000;1.0000;4;No
+1415;Switzerland;Guatemala;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1978;No;3;Yes;1979;No;New;1.0000;1.0000;3;No
+51229;Switzerland;India;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;2012;No;30;Yes;2013;No;New;1.0000;1.0000;30;No
+16857;Switzerland;India;Super-Fledermaus;Fire control radar;Sensors;1975;Yes;50;Yes;1981;No;New;3.5000;3.5000;175;Yes
+16857;Switzerland;India;Super-Fledermaus;Fire control radar;Sensors;1975;Yes;50;Yes;1982;Yes;New;3.5000;3.5000;175;Yes
+16857;Switzerland;India;Super-Fledermaus;Fire control radar;Sensors;1975;Yes;50;Yes;1985;Yes;New;3.5000;3.5000;175;Yes
+16857;Switzerland;India;Super-Fledermaus;Fire control radar;Sensors;1975;Yes;50;Yes;1983;Yes;New;3.5000;3.5000;175;Yes
+16857;Switzerland;India;Super-Fledermaus;Fire control radar;Sensors;1975;Yes;50;Yes;1984;Yes;New;3.5000;3.5000;175;Yes
+16857;Switzerland;India;Super-Fledermaus;Fire control radar;Sensors;1975;Yes;50;Yes;1977;Yes;New;3.5000;3.5000;175;Yes
+16857;Switzerland;India;Super-Fledermaus;Fire control radar;Sensors;1975;Yes;50;Yes;1980;No;New;3.5000;3.5000;175;Yes
+16857;Switzerland;India;Super-Fledermaus;Fire control radar;Sensors;1975;Yes;50;Yes;1979;Yes;New;3.5000;3.5000;175;Yes
+16857;Switzerland;India;Super-Fledermaus;Fire control radar;Sensors;1975;Yes;50;Yes;1978;Yes;New;3.5000;3.5000;175;Yes
+29430;Switzerland;Indonesia;AS-202 Bravo;Trainer aircraft;Aircraft;1983;Yes;20;No;1984;No;New;0.1500;0.1500;3;No
+2468;Switzerland;Indonesia;AS-202 Bravo;Trainer aircraft;Aircraft;1980;No;20;No;1981;No;New;0.1500;0.1500;3;No
+22563;Switzerland;Iran;GDF 35mm;AA gun;Air defence systems;1974;Yes;50;Yes;1976;No;New;0.7500;0.7500;37.5;No
+22563;Switzerland;Iran;GDF 35mm;AA gun;Air defence systems;1974;Yes;50;Yes;1975;No;New;0.7500;0.7500;37.5;No
+14527;Switzerland;Iran;PC-6 Turbo Porter;Light transport ac;Aircraft;1983;Yes;13;Yes;1984;Yes;New;0.8000;0.8000;10.4;No
+14527;Switzerland;Iran;PC-6 Turbo Porter;Light transport ac;Aircraft;1983;Yes;2;Yes;1983;Yes;New;0.8000;0.8000;1.6;No
+4173;Switzerland;Iran;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1983;Yes;35;Yes;1984;No;New;1.0000;1.0000;35;No
+39199;Switzerland;Iran;Super-Fledermaus;Fire control radar;Sensors;1974;Yes;25;Yes;1976;No;New;3.5000;3.5000;87.5;No
+39199;Switzerland;Iran;Super-Fledermaus;Fire control radar;Sensors;1974;Yes;25;Yes;1975;No;New;3.5000;3.5000;87.5;No
+25890;Switzerland;Iraq;PC-6 Turbo Porter;Light transport ac;Aircraft;1989;Yes;2;Yes;1989;Yes;New;0.8000;0.8000;1.6;No
+17979;Switzerland;Iraq;PC-9;Trainer aircraft;Aircraft;1986;No;3;No;1990;No;New;1.4000;1.4000;4.2;No
+17979;Switzerland;Iraq;PC-9;Trainer aircraft;Aircraft;1986;No;8;No;1988;No;New;1.4000;1.4000;11.2;No
+17979;Switzerland;Iraq;PC-9;Trainer aircraft;Aircraft;1986;No;9;No;1987;No;New;1.4000;1.4000;12.6;No
+1736;Switzerland;Iraq;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1979;Yes;7;Yes;1982;No;New;1.0000;1.0000;7;No
+1736;Switzerland;Iraq;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1979;Yes;5;Yes;1981;Yes;New;1.0000;1.0000;5;No
+1736;Switzerland;Iraq;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1979;Yes;5;Yes;1980;Yes;New;1.0000;1.0000;5;No
+1736;Switzerland;Iraq;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1979;Yes;35;No;1983;No;New;1.0000;1.0000;35;No
+1069;Switzerland;Iraq;AS-202 Bravo;Trainer aircraft;Aircraft;1978;No;20;Yes;1980;No;New;0.1500;0.1500;3;No
+1069;Switzerland;Iraq;AS-202 Bravo;Trainer aircraft;Aircraft;1978;No;20;Yes;1979;No;New;0.1500;0.1500;3;No
+38177;Switzerland;Ireland;M-87 120mm;Mortar;Artillery;2008;No;95;No;2008;No;Second hand but modernized;0.0500;0.033;3.135;No
+31000;Switzerland;Ireland;PC-9;Trainer aircraft;Aircraft;2003;No;8;No;2004;No;New;1.4000;1.4000;11.2;No
+30976;Switzerland;Ireland;Piranha-3;APC;Armoured vehicles;2002;Yes;10;Yes;2008;No;New;0.2700;0.2700;2.7;No
+30976;Switzerland;Ireland;Piranha-3;APC;Armoured vehicles;2002;Yes;15;No;2007;No;New;0.2700;0.2700;4.05;No
+30034;Switzerland;Ireland;Piranha-3;APC;Armoured vehicles;1999;No;15;No;2002;No;New;0.2700;0.2700;4.05;No
+30034;Switzerland;Ireland;Piranha-3;APC;Armoured vehicles;1999;No;25;No;2001;No;New;0.2700;0.2700;6.75;No
+25898;Switzerland;Israel;PC-6 Turbo Porter;Light transport ac;Aircraft;1967;No;1;No;1967;No;New;0.8000;0.8000;0.8;No
+5572;Switzerland;Israel;PC-6 Porter;Light transport ac;Aircraft;1963;No;1;No;1963;No;Second hand;0.4500;0.18;0.18;No
+28997;Switzerland;Italy;Super-Fledermaus;Fire control radar;Sensors;1960;Yes;26;Yes;1963;Yes;New;3.5000;3.5000;91;No
+28997;Switzerland;Italy;Super-Fledermaus;Fire control radar;Sensors;1960;Yes;40;Yes;1962;Yes;New;3.5000;3.5000;140;No
+28997;Switzerland;Italy;Super-Fledermaus;Fire control radar;Sensors;1960;Yes;40;Yes;1961;Yes;New;3.5000;3.5000;140;No
+28997;Switzerland;Italy;Super-Fledermaus;Fire control radar;Sensors;1960;Yes;20;Yes;1960;Yes;New;3.5000;3.5000;70;No
+37386;Switzerland;Japan;GDM 35mm;Naval gun;Artillery;1990;Yes;2;No;1992;No;New;2.5000;2.5000;5;No
+16854;Switzerland;Japan;Super-Fledermaus;Fire control radar;Sensors;1965;No;2;Yes;1973;Yes;New;3.5000;3.5000;7;No
+16854;Switzerland;Japan;Super-Fledermaus;Fire control radar;Sensors;1965;No;2;Yes;1977;Yes;New;3.5000;3.5000;7;No
+16854;Switzerland;Japan;Super-Fledermaus;Fire control radar;Sensors;1965;No;2;Yes;1972;Yes;New;3.5000;3.5000;7;No
+16854;Switzerland;Japan;Super-Fledermaus;Fire control radar;Sensors;1965;No;2;Yes;1978;Yes;New;3.5000;3.5000;7;No
+16854;Switzerland;Japan;Super-Fledermaus;Fire control radar;Sensors;1965;No;2;Yes;1971;Yes;New;3.5000;3.5000;7;No
+16854;Switzerland;Japan;Super-Fledermaus;Fire control radar;Sensors;1965;No;2;Yes;1975;Yes;New;3.5000;3.5000;7;No
+16854;Switzerland;Japan;Super-Fledermaus;Fire control radar;Sensors;1965;No;2;Yes;1974;Yes;New;3.5000;3.5000;7;No
+16854;Switzerland;Japan;Super-Fledermaus;Fire control radar;Sensors;1965;No;2;Yes;1976;Yes;New;3.5000;3.5000;7;No
+16854;Switzerland;Japan;Super-Fledermaus;Fire control radar;Sensors;1965;No;3;Yes;1970;Yes;New;3.5000;3.5000;10.5;No
+16854;Switzerland;Japan;Super-Fledermaus;Fire control radar;Sensors;1965;No;5;Yes;1969;Yes;New;3.5000;3.5000;17.5;No
+16854;Switzerland;Japan;Super-Fledermaus;Fire control radar;Sensors;1965;No;5;Yes;1968;Yes;New;3.5000;3.5000;17.5;No
+16854;Switzerland;Japan;Super-Fledermaus;Fire control radar;Sensors;1965;No;3;Yes;1967;Yes;New;3.5000;3.5000;10.5;No
+16854;Switzerland;Japan;Super-Fledermaus;Fire control radar;Sensors;1965;No;3;Yes;1966;Yes;New;3.5000;3.5000;10.5;No
+36519;Switzerland;Japan;GDF 35mm;AA gun;Air defence systems;1974;Yes;15;Yes;1975;Yes;New;0.7500;0.7500;11.25;Yes
+36519;Switzerland;Japan;GDF 35mm;AA gun;Air defence systems;1974;Yes;20;Yes;1976;Yes;New;0.7500;0.7500;15;Yes
+36519;Switzerland;Japan;GDF 35mm;AA gun;Air defence systems;1974;Yes;20;Yes;1977;Yes;New;0.7500;0.7500;15;Yes
+36519;Switzerland;Japan;GDF 35mm;AA gun;Air defence systems;1974;Yes;15;Yes;1978;Yes;New;0.7500;0.7500;11.25;Yes
+36572;Switzerland;South Korea (ROK);GDF 35mm;AA gun;Air defence systems;1974;Yes;18;Yes;1975;No;New;0.7500;0.7500;13.5;No
+32033;Switzerland;Kuwait;Skyguard;AD system;Air defence systems;2001;No;5;Yes;2001;Yes;New;10.0000;10.0000;50;No
+20664;Switzerland;Kuwait;Skyguard;AD system;Air defence systems;1988;Yes;1;Yes;1996;Yes;New;10.0000;10.0000;10;No
+20664;Switzerland;Kuwait;Skyguard;AD system;Air defence systems;1988;Yes;5;Yes;1990;No;New;10.0000;10.0000;50;No
+20664;Switzerland;Kuwait;Skyguard;AD system;Air defence systems;1988;Yes;5;Yes;1989;No;New;10.0000;10.0000;50;No
+19029;Switzerland;Liberia;Piranha;APC;Armoured vehicles;1985;Yes;10;Yes;1986;Yes;New;0.2600;0.2600;2.6;No
+38602;Switzerland;Malaysia;GDF 35mm;AA gun;Air defence systems;1986;Yes;16;No;1988;No;New;0.7500;0.7500;12;No
+37554;Switzerland;Malaysia;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;2006;No;10;No;2007;No;New;1.0000;1.0000;10;No
+30265;Switzerland;Malaysia;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;2000;No;9;Yes;2001;No;New;1.0000;1.0000;9;No
+19635;Switzerland;Malaysia;Skyguard;Fire control radar;Sensors;1988;No;4;Yes;1989;No;New;5.0000;5.0000;20;No
+2651;Switzerland;Malaysia;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1981;No;20;Yes;1984;No;New;1.0000;1.0000;20;No
+2651;Switzerland;Malaysia;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1981;No;22;Yes;1983;No;New;1.0000;1.0000;22;No
+2651;Switzerland;Malaysia;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1981;No;2;Yes;1982;No;New;1.0000;1.0000;2;No
+22354;Switzerland;Malaysia;MD-3-160;Trainer aircraft;Aircraft;1993;No;4;Yes;1999;No;New;0.1100;0.1100;0.44;Yes
+22354;Switzerland;Malaysia;MD-3-160;Trainer aircraft;Aircraft;1993;No;4;Yes;1998;No;New;0.1100;0.1100;0.44;Yes
+22354;Switzerland;Malaysia;MD-3-160;Trainer aircraft;Aircraft;1993;No;4;Yes;1997;No;New;0.1100;0.1100;0.44;Yes
+22354;Switzerland;Malaysia;MD-3-160;Trainer aircraft;Aircraft;1993;No;4;Yes;1996;No;New;0.1100;0.1100;0.44;Yes
+22354;Switzerland;Malaysia;MD-3-160;Trainer aircraft;Aircraft;1993;No;4;Yes;1995;No;New;0.1100;0.1100;0.44;Yes
+39036;Switzerland;Mexico;PC-9;Trainer aircraft;Aircraft;2006;No;2;No;2006;No;New;1.4000;1.4000;2.8;No
+25870;Switzerland;Mexico;PC-6 Turbo Porter;Light transport ac;Aircraft;1985;No;7;No;1986;No;New;0.8000;0.8000;5.6;No
+25866;Switzerland;Mexico;PC-6 Turbo Porter;Light transport ac;Aircraft;1991;Yes;4;No;1992;No;New;0.8000;0.8000;3.2;No
+23694;Switzerland;Mexico;Roland;APC;Armoured vehicles;1976;Yes;15;Yes;1978;No;New;0.1200;0.1200;1.8;No
+23694;Switzerland;Mexico;Roland;APC;Armoured vehicles;1976;Yes;10;Yes;1977;No;New;0.1200;0.1200;1.2;No
+22821;Switzerland;Mexico;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1981;Yes;9;Yes;1982;No;New;1.0000;1.0000;9;No
+22821;Switzerland;Mexico;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1981;Yes;8;Yes;1983;Yes;New;1.0000;1.0000;8;No
+22820;Switzerland;Mexico;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1978;No;18;Yes;1981;No;New;1.0000;1.0000;18;No
+22820;Switzerland;Mexico;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1978;No;18;Yes;1980;No;New;1.0000;1.0000;18;No
+22820;Switzerland;Mexico;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1978;No;2;Yes;1979;No;New;1.0000;1.0000;2;No
+15902;Switzerland;Mexico;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1985;No;2;Yes;1992;No;New;1.0000;1.0000;2;No
+15902;Switzerland;Mexico;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1985;No;5;Yes;1986;No;New;1.0000;1.0000;5;No
+15902;Switzerland;Mexico;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1985;No;4;Yes;1991;Yes;New;1.0000;1.0000;4;No
+15902;Switzerland;Mexico;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1985;No;5;Yes;1990;Yes;New;1.0000;1.0000;5;No
+15902;Switzerland;Mexico;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1985;No;6;Yes;1989;Yes;New;1.0000;1.0000;6;No
+15902;Switzerland;Mexico;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1985;No;6;Yes;1988;Yes;New;1.0000;1.0000;6;No
+15902;Switzerland;Mexico;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1985;No;5;Yes;1987;Yes;New;1.0000;1.0000;5;No
+3217;Switzerland;Nigeria;Piranha;APC;Armoured vehicles;1980;Yes;35;Yes;1981;Yes;New;0.2600;0.2600;9.1;No
+3217;Switzerland;Nigeria;Piranha;APC;Armoured vehicles;1980;Yes;35;Yes;1980;Yes;New;0.2600;0.2600;9.1;No
+26440;Switzerland;Norway;Super-Fledermaus;Fire control radar;Sensors;1964;Yes;16;Yes;1967;Yes;New;3.5000;3.5000;56;No
+26440;Switzerland;Norway;Super-Fledermaus;Fire control radar;Sensors;1964;Yes;16;Yes;1966;Yes;New;3.5000;3.5000;56;No
+26440;Switzerland;Norway;Super-Fledermaus;Fire control radar;Sensors;1964;Yes;16;Yes;1965;Yes;New;3.5000;3.5000;56;No
+15034;Switzerland;Sierra Leone;Piranha;APC;Armoured vehicles;1978;Yes;10;Yes;1978;Yes;New;0.1100;0.1100;1.1;No
+25738;Switzerland;Somalia;PC-6 Turbo Porter;Light transport ac;Aircraft;1967;Yes;1;No;1968;Yes;New;0.8000;0.8000;0.8;No
+36589;Switzerland;South Africa;GDF 35mm;AA gun;Air defence systems;1963;No;6;No;1964;No;New;0.7500;0.7500;4.5;No
+36589;Switzerland;South Africa;GDF 35mm;AA gun;Air defence systems;1963;No;30;No;1965;No;New;0.7500;0.7500;22.5;No
+25931;Switzerland;South Africa;PC-6 Turbo Porter;Light transport ac;Aircraft;1992;Yes;7;No;1993;No;New;0.8000;0.8000;5.6;No
+25873;Switzerland;South Africa;PC-6 Turbo Porter;Light transport ac;Aircraft;1990;Yes;1;No;1990;No;New;0.8000;0.8000;0.8;No
+25647;Switzerland;South Africa;PC-12;Light transport ac;Aircraft;1997;No;1;No;1997;No;New;1.8500;1.8500;1.85;No
+20080;Switzerland;South Africa;PC-6 Turbo Porter;Light transport ac;Aircraft;1989;No;1;No;1990;No;New;0.8000;0.8000;0.8;No
+19891;Switzerland;South Africa;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1989;Yes;6;No;1991;No;New;1.0000;1.0000;6;No
+19891;Switzerland;South Africa;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1989;Yes;1;No;1990;No;New;1.0000;1.0000;1;No
+19205;Switzerland;South Africa;Super-Fledermaus;Fire control radar;Sensors;1963;Yes;14;Yes;1965;No;New;3.5000;3.5000;49;No
+19205;Switzerland;South Africa;Super-Fledermaus;Fire control radar;Sensors;1963;Yes;4;Yes;1964;No;New;3.5000;3.5000;14;No
+19204;Switzerland;South Africa;Super-Fledermaus;Fire control radar;Sensors;1965;No;15;Yes;1967;No;New;3.5000;3.5000;52.5;No
+19204;Switzerland;South Africa;Super-Fledermaus;Fire control radar;Sensors;1965;No;10;Yes;1966;No;New;3.5000;3.5000;35;No
+19204;Switzerland;South Africa;Super-Fledermaus;Fire control radar;Sensors;1965;No;10;Yes;1968;No;New;3.5000;3.5000;35;No
+19204;Switzerland;South Africa;Super-Fledermaus;Fire control radar;Sensors;1965;No;10;Yes;1969;No;New;3.5000;3.5000;35;No
+21171;Switzerland;South Africa;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1993;No;24;Yes;1996;No;New;1.0000;1.0000;24;No
+21171;Switzerland;South Africa;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1993;No;24;Yes;1995;No;New;1.0000;1.0000;24;No
+21171;Switzerland;South Africa;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1993;No;12;No;1994;No;New;1.0000;1.0000;12;No
+51370;Switzerland;South Africa;GDF 35mm;AA gun;Air defence systems;1965;No;15;Yes;1969;No;New;0.7500;0.7500;11.25;No
+51370;Switzerland;South Africa;GDF 35mm;AA gun;Air defence systems;1965;No;15;Yes;1966;No;New;0.7500;0.7500;11.25;No
+51370;Switzerland;South Africa;GDF 35mm;AA gun;Air defence systems;1965;No;30;Yes;1967;No;New;0.7500;0.7500;22.5;No
+51370;Switzerland;South Africa;GDF 35mm;AA gun;Air defence systems;1965;No;30;Yes;1968;No;New;0.7500;0.7500;22.5;No
+6576;Switzerland;Sudan;PC-6 Porter;Light transport ac;Aircraft;1967;No;7;No;1968;No;New;0.4500;0.4500;3.15;No
+6576;Switzerland;Sudan;PC-6 Porter;Light transport ac;Aircraft;1967;No;1;No;1967;No;New;0.4500;0.4500;0.45;No
+33440;Switzerland;Sweden;Super-Fledermaus;Fire control radar;Sensors;1965;Yes;5;Yes;1967;Yes;New;3.5000;3.5000;17.5;No
+33440;Switzerland;Sweden;Super-Fledermaus;Fire control radar;Sensors;1965;Yes;5;Yes;1966;Yes;New;3.5000;3.5000;17.5;No
+31304;Switzerland;Sweden;Piranha-3;APC;Armoured vehicles;2000;No;5;No;2002;No;New;0.3400;0.3400;1.7;No
+26054;Switzerland;Sweden;Piranha-3;APC;Armoured vehicles;1998;No;4;Yes;1999;Yes;New;0.3400;0.3400;1.36;No
+26054;Switzerland;Sweden;Piranha-3;APC;Armoured vehicles;1998;No;1;Yes;1998;Yes;New;0.3400;0.3400;0.34;No
+25409;Switzerland;Sweden;Piranha-3;APC;Armoured vehicles;1996;No;2;No;1998;No;New;0.3400;0.3400;0.68;No
+25409;Switzerland;Sweden;Piranha-3;APC;Armoured vehicles;1996;No;1;No;1997;No;New;0.3400;0.3400;0.34;No
+53486;Switzerland;Mauritania;PC-6 Turbo Porter;Light transport ac;Aircraft;2011;No;1;No;2012;No;New;0.8000;0.8000;0.8;No
+20410;Switzerland;Myanmar;PC-9;Trainer aircraft;Aircraft;1990;No;3;No;1990;No;New;1.4000;1.4000;4.2;No
+15836;Switzerland;Myanmar;PC-9;Trainer aircraft;Aircraft;1985;No;4;No;1986;No;New;1.4000;1.4000;5.6;No
+15318;Switzerland;Myanmar;PC-6 Turbo Porter;Light transport ac;Aircraft;1975;Yes;3;No;1978;No;New;0.8000;0.8000;2.4;No
+15318;Switzerland;Myanmar;PC-6 Turbo Porter;Light transport ac;Aircraft;1975;Yes;2;No;1977;No;New;0.8000;0.8000;1.6;No
+15318;Switzerland;Myanmar;PC-6 Turbo Porter;Light transport ac;Aircraft;1975;Yes;2;No;1976;No;New;0.8000;0.8000;1.6;No
+1492;Switzerland;Myanmar;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1979;No;4;No;1979;No;New;1.0000;1.0000;4;No
+1492;Switzerland;Myanmar;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1979;No;4;No;1980;No;New;1.0000;1.0000;4;No
+826;Switzerland;Myanmar;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1977;No;8;No;1979;No;New;1.0000;1.0000;8;No
+28297;Switzerland;Netherlands;Super-Fledermaus;Fire control radar;Sensors;1962;Yes;10;Yes;1963;Yes;New;3.5000;3.5000;35;No
+24703;Switzerland;Netherlands;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1997;No;3;No;1997;No;New;1.0000;1.0000;3;No
+19130;Switzerland;Netherlands;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1988;No;10;No;1989;No;New;1.0000;1.0000;10;No
+17165;Switzerland;Peru;DC-8-62;Transport aircraft;Aircraft;1980;Yes;1;No;1982;No;Second hand;52.0000;20.8;20.8;No
+17165;Switzerland;Peru;DC-8-62;Transport aircraft;Aircraft;1980;Yes;1;No;1981;No;Second hand;52.0000;20.8;20.8;No
+17143;Switzerland;Peru;PC-6 Turbo Porter;Light transport ac;Aircraft;1970;Yes;6;Yes;1973;No;New;0.8000;0.8000;4.8;No
+17143;Switzerland;Peru;PC-6 Turbo Porter;Light transport ac;Aircraft;1970;Yes;6;Yes;1972;No;New;0.8000;0.8000;4.8;No
+17143;Switzerland;Peru;PC-6 Turbo Porter;Light transport ac;Aircraft;1970;Yes;6;Yes;1971;No;New;0.8000;0.8000;4.8;No
+17122;Switzerland;Peru;Roland;APC;Armoured vehicles;1968;Yes;45;Yes;1970;Yes;New;0.1200;0.1200;5.4;No
+17122;Switzerland;Peru;Roland;APC;Armoured vehicles;1968;Yes;45;Yes;1969;Yes;New;0.1200;0.1200;5.4;No
+36588;Switzerland;Singapore;GDF 35mm;AA gun;Air defence systems;1978;Yes;17;Yes;1980;Yes;New;0.7500;0.7500;12.75;No
+36588;Switzerland;Singapore;GDF 35mm;AA gun;Air defence systems;1978;Yes;17;Yes;1979;No;New;0.7500;0.7500;12.75;No
+34230;Switzerland;Singapore;PC-21;Trainer aircraft;Aircraft;2006;No;19;No;2008;No;New;4.9000;4.9000;93.1;No
+24599;Switzerland;Singapore;Super-Fledermaus;Fire control radar;Sensors;1973;Yes;8;Yes;1974;Yes;New;3.5000;3.5000;28;No
+21606;Switzerland;Singapore;Skyguard;Fire control radar;Sensors;1991;No;6;Yes;1992;Yes;New;5.0000;5.0000;30;No
+21606;Switzerland;Singapore;Skyguard;Fire control radar;Sensors;1991;No;6;Yes;1991;Yes;New;5.0000;5.0000;30;No
+1516;Switzerland;Singapore;AMX-13/75;Light tank;Armoured vehicles;1979;Yes;150;Yes;1981;Yes;Second hand;0.9000;0.36;54;No
+51367;Switzerland;Singapore;Super-Fledermaus;Fire control radar;Sensors;1978;Yes;8;Yes;1980;No;New;3.5000;3.5000;28;No
+51367;Switzerland;Singapore;Super-Fledermaus;Fire control radar;Sensors;1978;Yes;9;Yes;1979;No;New;3.5000;3.5000;31.5;No
+28611;Switzerland;Slovenia;PC-9;Trainer aircraft;Aircraft;1997;No;8;No;1999;No;New;1.4000;1.4000;11.2;No
+28611;Switzerland;Slovenia;PC-9;Trainer aircraft;Aircraft;1997;No;1;No;1998;No;New;1.4000;1.4000;1.4;No
+25997;Switzerland;Slovenia;PC-6 Turbo Porter;Light transport ac;Aircraft;1997;No;2;No;1998;No;New;0.8000;0.8000;1.6;No
+24142;Switzerland;Slovenia;PC-9;Trainer aircraft;Aircraft;1995;Yes;3;No;1995;No;New;2.2500;2.2500;6.75;No
+35851;Switzerland;Spain;Skyshield;Fire control radar;Sensors;2004;Yes;8;Yes;2008;Yes;New;5.5000;5.5000;44;No
+35851;Switzerland;Spain;Skyshield;Fire control radar;Sensors;2004;Yes;8;Yes;2007;Yes;New;5.5000;5.5000;44;No
+35851;Switzerland;Spain;Skyshield;Fire control radar;Sensors;2004;Yes;8;Yes;2006;Yes;New;5.5000;5.5000;44;No
+32895;Switzerland;Spain;Piranha-3;APC;Armoured vehicles;2001;No;9;Yes;2004;No;New;0.2700;0.2700;2.43;No
+32895;Switzerland;Spain;Piranha-3;APC;Armoured vehicles;2001;No;9;Yes;2003;No;New;0.2700;0.2700;2.43;No
+31052;Switzerland;Spain;GDF 35mm;AA gun;Air defence systems;1974;No;46;Yes;1976;No;New;0.7500;0.7500;34.5;No
+31052;Switzerland;Spain;GDF 35mm;AA gun;Air defence systems;1974;No;46;Yes;1975;No;New;0.7500;0.7500;34.5;No
+24598;Switzerland;Spain;Super-Fledermaus;Fire control radar;Sensors;1974;Yes;23;Yes;1976;No;New;3.5000;3.5000;80.5;No
+24598;Switzerland;Spain;Super-Fledermaus;Fire control radar;Sensors;1974;Yes;23;Yes;1975;No;New;3.5000;3.5000;80.5;No
+15931;Switzerland;Spain;Skyguard;Fire control radar;Sensors;1978;No;3;Yes;1980;No;New;5.0000;5.0000;15;No
+15931;Switzerland;Spain;Skyguard;Fire control radar;Sensors;1978;No;4;Yes;1979;No;New;5.0000;5.0000;20;No
+40332;Switzerland;Spain;Piranha-3;APC;Armoured vehicles;2007;No;6;Yes;2013;No;New;0.2700;0.2700;1.62;No
+40332;Switzerland;Spain;Piranha-3;APC;Armoured vehicles;2007;No;4;No;2010;No;New;0.2700;0.2700;1.08;No
+40332;Switzerland;Spain;Piranha-3;APC;Armoured vehicles;2007;No;4;No;2012;No;New;0.2700;0.2700;1.08;No
+40332;Switzerland;Spain;Piranha-3;APC;Armoured vehicles;2007;No;4;Yes;2011;No;New;0.2700;0.2700;1.08;No
+17855;Switzerland;Suriname;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1985;Yes;3;No;1986;No;New;1.0000;1.0000;3;No
+35825;Switzerland;Taiwan (ROC);GDF 35mm;AA gun;Air defence systems;1983;Yes;16;Yes;1986;Yes;New;0.7500;0.7500;12;No
+35825;Switzerland;Taiwan (ROC);GDF 35mm;AA gun;Air defence systems;1983;Yes;17;Yes;1987;Yes;New;0.7500;0.7500;12.75;No
+35825;Switzerland;Taiwan (ROC);GDF 35mm;AA gun;Air defence systems;1983;Yes;17;Yes;1988;Yes;New;0.7500;0.7500;12.75;No
+22305;Switzerland;Taiwan (ROC);Skyguard;AD system;Air defence systems;1983;Yes;8;Yes;1986;Yes;New;10.0000;10.0000;80;Yes
+22305;Switzerland;Taiwan (ROC);Skyguard;AD system;Air defence systems;1983;Yes;8;Yes;1988;No;New;10.0000;10.0000;80;Yes
+22305;Switzerland;Taiwan (ROC);Skyguard;AD system;Air defence systems;1983;Yes;8;Yes;1987;Yes;New;10.0000;10.0000;80;Yes
+30678;Switzerland;Thailand;PC-6 Turbo Porter;Light transport ac;Aircraft;1973;Yes;9;Yes;1973;No;New;0.8000;0.8000;7.2;No
+28830;Switzerland;Thailand;PC-9;Trainer aircraft;Aircraft;1997;Yes;10;Yes;1998;No;New;1.4000;1.4000;14;No
+28830;Switzerland;Thailand;PC-9;Trainer aircraft;Aircraft;1997;Yes;6;Yes;1999;Yes;New;1.4000;1.4000;8.4;No
+20069;Switzerland;Thailand;PC-9;Trainer aircraft;Aircraft;1990;No;10;No;1992;No;New;1.4000;1.4000;14;No
+20069;Switzerland;Thailand;PC-9;Trainer aircraft;Aircraft;1990;No;10;No;1991;No;New;1.4000;1.4000;14;No
+18060;Switzerland;Thailand;Skyguard;Fire control radar;Sensors;1987;No;1;Yes;1989;Yes;New;5.0000;5.0000;5;No
+18060;Switzerland;Thailand;Skyguard;Fire control radar;Sensors;1987;No;1;Yes;1988;Yes;New;5.0000;5.0000;5;No
+18059;Switzerland;Thailand;Fieldguard;Fire control radar;Sensors;1987;Yes;12;Yes;1987;Yes;New;4.7600;4.7600;57.12;No
+18059;Switzerland;Thailand;Fieldguard;Fire control radar;Sensors;1987;Yes;12;Yes;1988;Yes;New;4.7600;4.7600;57.12;No
+38946;Switzerland;Turkey;GDM 35mm;Naval gun;Artillery;1973;Yes;1;No;1980;No;New;2.5000;2.5000;2.5;No
+38946;Switzerland;Turkey;GDM 35mm;Naval gun;Artillery;1973;Yes;1;No;1979;No;New;2.5000;2.5000;2.5;No
+38946;Switzerland;Turkey;GDM 35mm;Naval gun;Artillery;1973;Yes;1;No;1978;No;New;2.5000;2.5000;2.5;No
+38946;Switzerland;Turkey;GDM 35mm;Naval gun;Artillery;1973;Yes;1;No;1977;No;New;2.5000;2.5000;2.5;No
+27591;Switzerland;Turkey;GDM 35mm;Naval gun;Artillery;1991;Yes;2;No;1996;No;New;2.5000;2.5000;5;No
+36590;Switzerland;Turkey;GDF 35mm;AA gun;Air defence systems;1995;Yes;30;Yes;1997;Yes;New;0.7500;0.7500;22.5;Yes
+36590;Switzerland;Turkey;GDF 35mm;AA gun;Air defence systems;1995;Yes;30;Yes;2000;No;New;0.7500;0.7500;22.5;Yes
+36590;Switzerland;Turkey;GDF 35mm;AA gun;Air defence systems;1995;Yes;30;Yes;1998;Yes;New;0.7500;0.7500;22.5;Yes
+36590;Switzerland;Turkey;GDF 35mm;AA gun;Air defence systems;1995;Yes;30;Yes;1999;No;New;0.7500;0.7500;22.5;Yes
+36579;Switzerland;UAE;GDF 35mm;AA gun;Air defence systems;1983;No;30;Yes;1984;Yes;New;0.7500;0.7500;22.5;No
+21895;Switzerland;UAE;Skyguard;Fire control radar;Sensors;1983;No;15;Yes;1984;Yes;New;5.0000;5.0000;75;No
+19959;Switzerland;UAE;PC-6 Turbo Porter;Light transport ac;Aircraft;1989;No;2;No;1989;No;New;0.8000;0.8000;1.6;No
+15955;Switzerland;UAE;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1984;No;8;Yes;1986;No;New;1.0000;1.0000;8;No
+15955;Switzerland;UAE;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1984;No;2;Yes;1985;No;New;1.0000;1.0000;2;No
+3150;Switzerland;UAE;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1981;Yes;14;No;1982;No;New;1.0000;1.0000;14;No
+36051;Switzerland;UAE;PC-21;Trainer aircraft;Aircraft;2009;No;9;No;2012;No;New;4.9000;4.9000;44.1;No
+36051;Switzerland;UAE;PC-21;Trainer aircraft;Aircraft;2009;No;16;No;2011;No;New;4.9000;4.9000;78.4;No
+499;Switzerland;Uganda;AS-202 Bravo;Trainer aircraft;Aircraft;1977;No;6;No;1977;No;New;0.1500;0.1500;0.9;No
+20796;Switzerland;Uruguay;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1992;No;6;No;1992;No;New;1.0000;1.0000;6;No
+37475;Switzerland;Venezuela;Fieldguard;Fire control radar;Sensors;1982;Yes;4;Yes;1984;Yes;New;4.7600;4.7600;19.04;No
+50832;Switzerland;Venezuela;GDM-008 35mm;CIWS;Air defence systems;2006;Yes;1;No;2012;No;New;4.0000;4.0000;4;No
+50832;Switzerland;Venezuela;GDM-008 35mm;CIWS;Air defence systems;2006;Yes;1;No;2010;No;New;4.0000;4.0000;4;No
+50832;Switzerland;Venezuela;GDM-008 35mm;CIWS;Air defence systems;2006;Yes;1;No;2009;No;New;4.0000;4.0000;4;No
+50832;Switzerland;Venezuela;GDM-008 35mm;CIWS;Air defence systems;2006;Yes;4;No;2011;No;New;4.0000;4.0000;16;No
+36599;Switzerland;Argentina;GDF 35mm;AA gun;Air defence systems;1968;Yes;12;Yes;1969;No;New;0.7500;0.7500;9;No
+26497;Switzerland;Argentina;GDF 35mm;AA gun;Air defence systems;1978;Yes;25;Yes;1981;Yes;New;0.7500;0.7500;18.75;No
+26497;Switzerland;Argentina;GDF 35mm;AA gun;Air defence systems;1978;Yes;30;Yes;1980;Yes;New;0.7500;0.7500;22.5;No
+26497;Switzerland;Argentina;GDF 35mm;AA gun;Air defence systems;1978;Yes;25;Yes;1979;Yes;New;0.7500;0.7500;18.75;No
+24532;Switzerland;Argentina;Super-Fledermaus;Fire control radar;Sensors;1968;Yes;6;Yes;1969;No;New;3.5000;3.5000;21;No
+22233;Switzerland;Argentina;Skyguard;Fire control radar;Sensors;1978;Yes;18;Yes;1981;Yes;New;5.0000;5.0000;90;No
+22233;Switzerland;Argentina;Skyguard;Fire control radar;Sensors;1978;Yes;18;Yes;1980;Yes;New;5.0000;5.0000;90;No
+22233;Switzerland;Argentina;Skyguard;Fire control radar;Sensors;1978;Yes;18;Yes;1979;Yes;New;5.0000;5.0000;90;No
+1554;Switzerland;Argentina;Roland;APC;Armoured vehicles;1970;No;20;Yes;1979;No;New;0.1200;0.1200;2.4;Yes
+1554;Switzerland;Argentina;Roland;APC;Armoured vehicles;1970;No;20;Yes;1978;No;New;0.1200;0.1200;2.4;Yes
+1554;Switzerland;Argentina;Roland;APC;Armoured vehicles;1970;No;20;Yes;1977;No;New;0.1200;0.1200;2.4;Yes
+1554;Switzerland;Argentina;Roland;APC;Armoured vehicles;1970;No;20;Yes;1976;No;New;0.1200;0.1200;2.4;Yes
+1554;Switzerland;Argentina;Roland;APC;Armoured vehicles;1970;No;20;Yes;1975;No;New;0.1200;0.1200;2.4;Yes
+1554;Switzerland;Argentina;Roland;APC;Armoured vehicles;1970;No;11;Yes;1974;No;New;0.1200;0.1200;1.32;Yes
+33142;Switzerland;China;Skyguard;Fire control radar;Sensors;1995;Yes;10;Yes;2012;Yes;New;5.0000;5.0000;50;Yes
+33142;Switzerland;China;Skyguard;Fire control radar;Sensors;1995;Yes;10;Yes;2011;Yes;New;5.0000;5.0000;50;Yes
+33142;Switzerland;China;Skyguard;Fire control radar;Sensors;1995;Yes;10;Yes;2010;Yes;New;5.0000;5.0000;50;Yes
+33142;Switzerland;China;Skyguard;Fire control radar;Sensors;1995;Yes;10;Yes;2008;Yes;New;5.0000;5.0000;50;Yes
+33142;Switzerland;China;Skyguard;Fire control radar;Sensors;1995;Yes;10;Yes;2007;Yes;New;5.0000;5.0000;50;Yes
+33142;Switzerland;China;Skyguard;Fire control radar;Sensors;1995;Yes;10;Yes;2002;No;New;5.0000;5.0000;50;Yes
+33142;Switzerland;China;Skyguard;Fire control radar;Sensors;1995;Yes;10;Yes;2005;Yes;New;5.0000;5.0000;50;Yes
+33142;Switzerland;China;Skyguard;Fire control radar;Sensors;1995;Yes;10;Yes;2001;No;New;5.0000;5.0000;50;Yes
+33142;Switzerland;China;Skyguard;Fire control radar;Sensors;1995;Yes;10;Yes;2006;Yes;New;5.0000;5.0000;50;Yes
+33142;Switzerland;China;Skyguard;Fire control radar;Sensors;1995;Yes;10;Yes;2013;Yes;New;5.0000;5.0000;50;Yes
+33142;Switzerland;China;Skyguard;Fire control radar;Sensors;1995;Yes;10;Yes;2000;No;New;5.0000;5.0000;50;Yes
+33142;Switzerland;China;Skyguard;Fire control radar;Sensors;1995;Yes;10;Yes;1999;No;New;5.0000;5.0000;50;Yes
+33142;Switzerland;China;Skyguard;Fire control radar;Sensors;1995;Yes;5;Yes;1998;No;New;5.0000;5.0000;25;Yes
+33142;Switzerland;China;Skyguard;Fire control radar;Sensors;1995;Yes;5;Yes;1997;Yes;New;5.0000;5.0000;25;Yes
+33142;Switzerland;China;Skyguard;Fire control radar;Sensors;1995;Yes;10;Yes;2009;Yes;New;5.0000;5.0000;50;Yes
+33142;Switzerland;China;Skyguard;Fire control radar;Sensors;1995;Yes;10;Yes;2003;No;New;5.0000;5.0000;50;Yes
+33142;Switzerland;China;Skyguard;Fire control radar;Sensors;1995;Yes;10;Yes;2004;No;New;5.0000;5.0000;50;Yes
+38599;Switzerland;China;GDF 35mm;AA gun;Air defence systems;1995;Yes;20;Yes;2011;Yes;New;0.7500;0.7500;15;Yes
+38599;Switzerland;China;GDF 35mm;AA gun;Air defence systems;1995;Yes;20;Yes;2012;Yes;New;0.7500;0.7500;15;Yes
+38599;Switzerland;China;GDF 35mm;AA gun;Air defence systems;1995;Yes;20;Yes;2010;Yes;New;0.7500;0.7500;15;Yes
+38599;Switzerland;China;GDF 35mm;AA gun;Air defence systems;1995;Yes;20;Yes;2006;Yes;New;0.7500;0.7500;15;Yes
+38599;Switzerland;China;GDF 35mm;AA gun;Air defence systems;1995;Yes;10;Yes;1998;No;New;0.7500;0.7500;7.5;Yes
+38599;Switzerland;China;GDF 35mm;AA gun;Air defence systems;1995;Yes;20;Yes;1999;No;New;0.7500;0.7500;15;Yes
+38599;Switzerland;China;GDF 35mm;AA gun;Air defence systems;1995;Yes;20;Yes;2000;No;New;0.7500;0.7500;15;Yes
+38599;Switzerland;China;GDF 35mm;AA gun;Air defence systems;1995;Yes;20;Yes;2003;No;New;0.7500;0.7500;15;Yes
+38599;Switzerland;China;GDF 35mm;AA gun;Air defence systems;1995;Yes;20;Yes;2007;Yes;New;0.7500;0.7500;15;Yes
+38599;Switzerland;China;GDF 35mm;AA gun;Air defence systems;1995;Yes;20;Yes;2008;Yes;New;0.7500;0.7500;15;Yes
+38599;Switzerland;China;GDF 35mm;AA gun;Air defence systems;1995;Yes;20;Yes;2005;Yes;New;0.7500;0.7500;15;Yes
+38599;Switzerland;China;GDF 35mm;AA gun;Air defence systems;1995;Yes;20;Yes;2004;No;New;0.7500;0.7500;15;Yes
+38599;Switzerland;China;GDF 35mm;AA gun;Air defence systems;1995;Yes;20;Yes;2001;No;New;0.7500;0.7500;15;Yes
+38599;Switzerland;China;GDF 35mm;AA gun;Air defence systems;1995;Yes;20;Yes;2002;No;New;0.7500;0.7500;15;Yes
+38599;Switzerland;China;GDF 35mm;AA gun;Air defence systems;1995;Yes;20;Yes;2013;Yes;New;0.7500;0.7500;15;Yes
+38599;Switzerland;China;GDF 35mm;AA gun;Air defence systems;1995;Yes;10;Yes;1997;Yes;New;0.7500;0.7500;7.5;Yes
+38599;Switzerland;China;GDF 35mm;AA gun;Air defence systems;1995;Yes;20;Yes;2009;Yes;New;0.7500;0.7500;15;Yes
+36569;Switzerland;Egypt;GDF 35mm;AA gun;Air defence systems;1984;Yes;12;Yes;1987;No;New;0.7500;0.7500;9;No
+36569;Switzerland;Egypt;GDF 35mm;AA gun;Air defence systems;1984;Yes;12;Yes;1986;No;New;0.7500;0.7500;9;No
+36569;Switzerland;Egypt;GDF 35mm;AA gun;Air defence systems;1984;Yes;12;Yes;1985;Yes;New;0.7500;0.7500;9;No
+4139;Switzerland;Egypt;Skyguard;AD system;Air defence systems;1982;No;6;No;1987;No;New;10.0000;10.0000;60;No
+4139;Switzerland;Egypt;Skyguard;AD system;Air defence systems;1982;No;6;No;1986;No;New;10.0000;10.0000;60;No
+4139;Switzerland;Egypt;Skyguard;AD system;Air defence systems;1982;No;5;No;1985;No;New;10.0000;10.0000;50;No
+4139;Switzerland;Egypt;Skyguard;AD system;Air defence systems;1982;No;1;No;1984;No;New;10.0000;10.0000;10;No
+53695;Switzerland;Egypt;GCM-AO3 30mm;Naval gun;Artillery;1980;No;6;Yes;1980;Yes;New;1.0000;1.0000;6;No
+20887;Switzerland;France;PC-6 Turbo Porter;Light transport ac;Aircraft;1990;No;5;No;1992;No;New;0.8000;0.8000;4;No
+20243;Switzerland;France;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1990;No;5;No;1991;No;New;1.0000;1.0000;5;No
+339;Switzerland;Morocco;AS-202 Bravo;Trainer aircraft;Aircraft;1977;No;10;No;1978;No;New;0.1500;0.1500;1.5;No
+39429;Switzerland;Morocco;M-109A1 155mm;Self-propelled gun;Artillery;2004;Yes;40;No;2005;No;Second hand;1.1000;0.44;17.6;No
+36585;Switzerland;Oman;GDF 35mm;AA gun;Air defence systems;1994;Yes;10;No;1995;No;New;0.7500;0.7500;7.5;No
+29382;Switzerland;Oman;PC-9;Trainer aircraft;Aircraft;1999;No;2;Yes;2001;No;New;1.4000;1.4000;2.8;No
+29382;Switzerland;Oman;PC-9;Trainer aircraft;Aircraft;1999;No;10;Yes;2000;No;New;1.4000;1.4000;14;No
+23306;Switzerland;Oman;Skyguard;Fire control radar;Sensors;1995;No;5;Yes;1996;No;New;5.0000;5.0000;25;No
+19652;Switzerland;Oman;AS-202 Bravo;Trainer aircraft;Aircraft;1988;No;2;No;1989;No;New;0.1500;0.1500;0.3;No
+9654;Switzerland;Oman;AS-202 Bravo;Trainer aircraft;Aircraft;1975;Yes;2;No;1975;No;New;0.1500;0.1500;0.3;No
+9653;Switzerland;Oman;PC-6 Porter;Light transport ac;Aircraft;1973;Yes;1;No;1975;No;New;0.4500;0.4500;0.45;No
+9653;Switzerland;Oman;PC-6 Porter;Light transport ac;Aircraft;1973;Yes;1;No;1974;No;New;0.4500;0.4500;0.45;No
+26499;Switzerland;Pakistan;GDF 35mm;AA gun;Air defence systems;1981;Yes;40;Yes;1988;Yes;New;0.7500;0.7500;30;No
+26499;Switzerland;Pakistan;GDF 35mm;AA gun;Air defence systems;1981;Yes;40;Yes;1987;Yes;New;0.7500;0.7500;30;No
+26499;Switzerland;Pakistan;GDF 35mm;AA gun;Air defence systems;1981;Yes;40;Yes;1985;Yes;New;0.7500;0.7500;30;No
+26499;Switzerland;Pakistan;GDF 35mm;AA gun;Air defence systems;1981;Yes;40;Yes;1984;Yes;New;0.7500;0.7500;30;No
+26499;Switzerland;Pakistan;GDF 35mm;AA gun;Air defence systems;1981;Yes;40;Yes;1983;Yes;New;0.7500;0.7500;30;No
+18757;Switzerland;Pakistan;Skyguard;Fire control radar;Sensors;1981;No;5;Yes;1983;No;New;5.0000;5.0000;25;No
+18757;Switzerland;Pakistan;Skyguard;Fire control radar;Sensors;1981;No;5;Yes;1984;Yes;New;5.0000;5.0000;25;No
+19628;Switzerland;Pakistan;Skyguard;Fire control radar;Sensors;1988;Yes;10;Yes;1996;No;New;5.0000;5.0000;50;No
+19628;Switzerland;Pakistan;Skyguard;Fire control radar;Sensors;1988;Yes;11;Yes;1995;No;New;5.0000;5.0000;55;No
+19628;Switzerland;Pakistan;Skyguard;Fire control radar;Sensors;1988;Yes;15;Yes;1990;No;New;5.0000;5.0000;75;No
+19628;Switzerland;Pakistan;Skyguard;Fire control radar;Sensors;1988;Yes;15;Yes;1994;Yes;New;5.0000;5.0000;75;No
+19628;Switzerland;Pakistan;Skyguard;Fire control radar;Sensors;1988;Yes;15;Yes;1993;Yes;New;5.0000;5.0000;75;No
+19628;Switzerland;Pakistan;Skyguard;Fire control radar;Sensors;1988;Yes;15;Yes;1992;Yes;New;5.0000;5.0000;75;No
+19628;Switzerland;Pakistan;Skyguard;Fire control radar;Sensors;1988;Yes;15;Yes;1991;Yes;New;5.0000;5.0000;75;No
+19628;Switzerland;Pakistan;Skyguard;Fire control radar;Sensors;1988;Yes;4;No;1989;No;New;5.0000;5.0000;20;No
+40176;Switzerland;Pakistan;GDF 35mm;AA gun;Air defence systems;2006;No;12;Yes;2009;Yes;New;0.7500;0.7500;9;No
+40176;Switzerland;Pakistan;GDF 35mm;AA gun;Air defence systems;2006;No;12;Yes;2007;No;New;0.7500;0.7500;9;No
+40176;Switzerland;Pakistan;GDF 35mm;AA gun;Air defence systems;2006;No;24;No;2008;No;New;0.7500;0.7500;18;No
+39562;Switzerland;Pakistan;Skyguard;Fire control radar;Sensors;2006;No;6;Yes;2007;No;New;5.0000;5.0000;30;No
+39562;Switzerland;Pakistan;Skyguard;Fire control radar;Sensors;2006;No;11;No;2008;No;New;5.0000;5.0000;55;No
+39562;Switzerland;Pakistan;Skyguard;Fire control radar;Sensors;2006;No;7;Yes;2009;Yes;New;5.0000;5.0000;35;No
+36586;Switzerland;Romania;GDF 35mm;AA gun;Air defence systems;1997;No;36;Yes;1999;No;New;0.7500;0.7500;27;No
+36586;Switzerland;Romania;GDF 35mm;AA gun;Air defence systems;1997;No;36;Yes;1998;No;New;0.7500;0.7500;27;No
+40119;Switzerland;Romania;Piranha-3;APC;Armoured vehicles;2007;No;7;Yes;2013;Yes;New;0.2700;0.2700;1.89;No
+40119;Switzerland;Romania;Piranha-3;APC;Armoured vehicles;2007;No;7;No;2012;No;New;0.2700;0.2700;1.89;No
+40119;Switzerland;Romania;Piranha-3;APC;Armoured vehicles;2007;No;16;Yes;2008;No;New;0.2700;0.2700;4.32;No
+40119;Switzerland;Romania;Piranha-3;APC;Armoured vehicles;2007;No;1;Yes;2007;No;New;0.2700;0.2700;0.27;No
+51372;Switzerland;Romania;Skyguard;Fire control radar;Sensors;1998;No;18;Yes;1998;No;New;5.0000;5.0000;90;No
+51372;Switzerland;Romania;Skyguard;Fire control radar;Sensors;1998;No;18;Yes;1999;No;New;5.0000;5.0000;90;No
+36587;Switzerland;Saudi Arabia;GDF 35mm;AA gun;Air defence systems;1973;Yes;40;Yes;1975;Yes;New;0.7500;0.7500;30;No
+36587;Switzerland;Saudi Arabia;GDF 35mm;AA gun;Air defence systems;1973;Yes;48;Yes;1976;No;New;0.7500;0.7500;36;No
+36587;Switzerland;Saudi Arabia;GDF 35mm;AA gun;Air defence systems;1973;Yes;40;Yes;1977;No;New;0.7500;0.7500;30;No
+23847;Switzerland;Saudi Arabia;Skyguard;Fire control radar;Sensors;1988;No;8;Yes;1994;Yes;New;5.0000;5.0000;40;No
+23847;Switzerland;Saudi Arabia;Skyguard;Fire control radar;Sensors;1988;No;8;Yes;1990;Yes;New;5.0000;5.0000;40;No
+23847;Switzerland;Saudi Arabia;Skyguard;Fire control radar;Sensors;1988;No;8;Yes;1991;Yes;New;5.0000;5.0000;40;No
+23847;Switzerland;Saudi Arabia;Skyguard;Fire control radar;Sensors;1988;No;8;Yes;1993;Yes;New;5.0000;5.0000;40;No
+23847;Switzerland;Saudi Arabia;Skyguard;Fire control radar;Sensors;1988;No;8;Yes;1992;Yes;New;5.0000;5.0000;40;No
+23847;Switzerland;Saudi Arabia;Skyguard;Fire control radar;Sensors;1988;No;5;Yes;1988;Yes;New;5.0000;5.0000;25;No
+23847;Switzerland;Saudi Arabia;Skyguard;Fire control radar;Sensors;1988;No;5;Yes;1996;No;New;5.0000;5.0000;25;No
+23847;Switzerland;Saudi Arabia;Skyguard;Fire control radar;Sensors;1988;No;7;Yes;1995;No;New;5.0000;5.0000;35;No
+23847;Switzerland;Saudi Arabia;Skyguard;Fire control radar;Sensors;1988;No;7;Yes;1989;Yes;New;5.0000;5.0000;35;No
+22509;Switzerland;Saudi Arabia;PC-9;Trainer aircraft;Aircraft;1994;No;4;No;1997;No;New;1.4000;1.4000;5.6;No
+22509;Switzerland;Saudi Arabia;PC-9;Trainer aircraft;Aircraft;1994;No;14;No;1996;No;New;1.4000;1.4000;19.6;No
+22509;Switzerland;Saudi Arabia;PC-9;Trainer aircraft;Aircraft;1994;No;2;No;1995;No;New;1.4000;1.4000;2.8;No
+19980;Switzerland;Saudi Arabia;Piranha;APC;Armoured vehicles;1990;No;65;Yes;1993;No;New;0.2600;0.2600;16.9;No
+19980;Switzerland;Saudi Arabia;Piranha;APC;Armoured vehicles;1990;No;49;Yes;1992;No;New;0.2600;0.2600;12.74;No
+19980;Switzerland;Saudi Arabia;Piranha;APC;Armoured vehicles;1990;No;6;Yes;1991;Yes;New;0.2600;0.2600;1.56;No
+15597;Switzerland;Saudi Arabia;PC-9;Trainer aircraft;Aircraft;1986;No;6;Yes;1988;No;New;1.4000;1.4000;8.4;No
+15597;Switzerland;Saudi Arabia;PC-9;Trainer aircraft;Aircraft;1986;No;12;Yes;1987;No;New;1.4000;1.4000;16.8;No
+15597;Switzerland;Saudi Arabia;PC-9;Trainer aircraft;Aircraft;1986;No;12;Yes;1986;No;New;1.4000;1.4000;16.8;No
+54805;Switzerland;Saudi Arabia;PC-21;Trainer aircraft;Aircraft;2012;No;2;Yes;2013;Yes;New;4.9000;4.9000;9.8;No
+53093;Switzerland;Saudi Arabia;Skyguard;Fire control radar;Sensors;2006;Yes;8;No;2011;No;New;5.0000;5.0000;40;No
+53093;Switzerland;Saudi Arabia;Skyguard;Fire control radar;Sensors;2006;Yes;8;No;2010;No;New;5.0000;5.0000;40;No
+53093;Switzerland;Saudi Arabia;Skyguard;Fire control radar;Sensors;2006;Yes;2;No;2009;No;New;5.0000;5.0000;10;No
+30407;Switzerland;United States;F-5E Tiger-2;FGA aircraft;Aircraft;2003;No;14;Yes;2006;No;Second hand;10.0000;4;56;No
+30407;Switzerland;United States;F-5E Tiger-2;FGA aircraft;Aircraft;2003;No;11;Yes;2005;No;Second hand;10.0000;4;44;No
+30407;Switzerland;United States;F-5E Tiger-2;FGA aircraft;Aircraft;2003;No;7;Yes;2004;No;Second hand;10.0000;4;28;No
+30407;Switzerland;United States;F-5E Tiger-2;FGA aircraft;Aircraft;2003;No;5;No;2003;No;Second hand;10.0000;4;20;No
+30407;Switzerland;United States;F-5E Tiger-2;FGA aircraft;Aircraft;2003;No;6;Yes;2007;No;Second hand;10.0000;4;24;No
+25717;Switzerland;United States;PC-6 Turbo Porter;Light transport ac;Aircraft;1978;Yes;2;Yes;1978;Yes;New;0.8000;0.8000;1.6;No
+25716;Switzerland;United States;PC-6 Turbo Porter;Light transport ac;Aircraft;1971;No;2;Yes;1972;No;New;0.8000;0.8000;1.6;No
+25716;Switzerland;United States;PC-6 Turbo Porter;Light transport ac;Aircraft;1971;No;3;Yes;1971;No;New;0.8000;0.8000;2.4;No
+25715;Switzerland;United States;PC-6 Porter;Light transport ac;Aircraft;1962;Yes;5;Yes;1967;No;New;0.4500;0.4500;2.25;No
+25715;Switzerland;United States;PC-6 Porter;Light transport ac;Aircraft;1962;Yes;8;Yes;1966;No;New;0.4500;0.4500;3.6;No
+25715;Switzerland;United States;PC-6 Porter;Light transport ac;Aircraft;1962;Yes;5;Yes;1965;No;New;0.4500;0.4500;2.25;No
+25715;Switzerland;United States;PC-6 Porter;Light transport ac;Aircraft;1962;Yes;5;Yes;1964;No;New;0.4500;0.4500;2.25;No
+25715;Switzerland;United States;PC-6 Porter;Light transport ac;Aircraft;1962;Yes;1;No;1963;No;New;0.4500;0.4500;0.45;No
+25715;Switzerland;United States;PC-6 Porter;Light transport ac;Aircraft;1962;Yes;2;No;1962;No;New;0.4500;0.4500;0.9;No
+21742;Switzerland;United States;ADATS;Mobile SAM system;Air defence systems;1987;No;4;Yes;1990;Yes;New;10.0000;10.0000;40;No
+21742;Switzerland;United States;ADATS;Mobile SAM system;Air defence systems;1987;No;4;No;1989;No;New;10.0000;10.0000;40;No
+21304;Switzerland;United States;PC-12;Light transport ac;Aircraft;2004;Yes;6;No;2005;No;New;1.8500;1.8500;11.1;No
+1468;Switzerland;United States;PC-7 Turbo Trainer;Trainer aircraft;Aircraft;1978;Yes;2;No;1979;No;New;1.0000;1.0000;2;No
+39613;Switzerland;United States;Hunter;FGA aircraft;Aircraft;2004;No;9;Yes;2010;Yes;Second hand;4.0000;1.6;14.4;No
+39613;Switzerland;United States;Hunter;FGA aircraft;Aircraft;2004;No;4;Yes;2004;No;Second hand;4.0000;1.6;6.4;No
+39613;Switzerland;United States;Hunter;FGA aircraft;Aircraft;2004;No;2;Yes;2007;No;Second hand;4.0000;1.6;3.2;No
+22851;Switzerland;United States;PC-9;Trainer aircraft;Aircraft;1996;No;55;Yes;2013;No;New;1.4000;1.4000;77;Yes
+22851;Switzerland;United States;PC-9;Trainer aircraft;Aircraft;1996;No;55;Yes;2012;No;New;1.4000;1.4000;77;Yes
+22851;Switzerland;United States;PC-9;Trainer aircraft;Aircraft;1996;No;55;Yes;2010;No;New;1.4000;1.4000;77;Yes
+22851;Switzerland;United States;PC-9;Trainer aircraft;Aircraft;1996;No;55;Yes;2006;No;New;1.4000;1.4000;77;Yes
+22851;Switzerland;United States;PC-9;Trainer aircraft;Aircraft;1996;No;55;Yes;2005;No;New;1.4000;1.4000;77;Yes
+22851;Switzerland;United States;PC-9;Trainer aircraft;Aircraft;1996;No;50;Yes;2002;No;New;1.4000;1.4000;70;Yes
+22851;Switzerland;United States;PC-9;Trainer aircraft;Aircraft;1996;No;40;Yes;2001;No;New;1.4000;1.4000;56;Yes
+22851;Switzerland;United States;PC-9;Trainer aircraft;Aircraft;1996;No;13;Yes;2000;No;New;1.4000;1.4000;18.2;Yes
+22851;Switzerland;United States;PC-9;Trainer aircraft;Aircraft;1996;No;1;No;1999;No;New;1.4000;1.4000;1.4;Yes
+22851;Switzerland;United States;PC-9;Trainer aircraft;Aircraft;1996;No;55;Yes;2004;No;New;1.4000;1.4000;77;Yes
+22851;Switzerland;United States;PC-9;Trainer aircraft;Aircraft;1996;No;55;Yes;2003;No;New;1.4000;1.4000;77;Yes
+22851;Switzerland;United States;PC-9;Trainer aircraft;Aircraft;1996;No;55;Yes;2009;No;New;1.4000;1.4000;77;Yes
+22851;Switzerland;United States;PC-9;Trainer aircraft;Aircraft;1996;No;55;Yes;2008;No;New;1.4000;1.4000;77;Yes
+22851;Switzerland;United States;PC-9;Trainer aircraft;Aircraft;1996;No;55;Yes;2007;No;New;1.4000;1.4000;77;Yes
+22851;Switzerland;United States;PC-9;Trainer aircraft;Aircraft;1996;No;55;Yes;2011;No;New;1.4000;1.4000;77;Yes
+1256;Switzerland;United States;PC-6 Turbo Porter;Light transport ac;Aircraft;1969;Yes;2;Yes;1972;Yes;New;0.8000;0.8000;1.6;Yes
+1256;Switzerland;United States;PC-6 Turbo Porter;Light transport ac;Aircraft;1969;Yes;3;Yes;1971;Yes;New;0.8000;0.8000;2.4;Yes
+1256;Switzerland;United States;PC-6 Turbo Porter;Light transport ac;Aircraft;1969;Yes;3;Yes;1970;Yes;New;0.8000;0.8000;2.4;Yes

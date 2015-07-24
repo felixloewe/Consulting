@@ -1,0 +1,775 @@
+Deal ID;Seller;Buyer;Designation;Description;Armament category;Order date;Order date is estimate;Numbers delivered;Numbers delivered is estimate;Delivery year;Delivery year is estimate;Status;SIPRI estimate;TIV deal unit;TIV delivery values;Local production
+32112;Sweden;Australia;RBS-70 Mk-3 Bolide;Portable SAM;Missiles;2003;No;30;Yes;2005;No;New;0.1200;0.1200;3.6;No
+32112;Sweden;Australia;RBS-70 Mk-3 Bolide;Portable SAM;Missiles;2003;No;30;Yes;2004;No;New;0.1200;0.1200;3.6;No
+32112;Sweden;Australia;RBS-70 Mk-3 Bolide;Portable SAM;Missiles;2003;No;30;Yes;2006;No;New;0.1200;0.1200;3.6;No
+32112;Sweden;Australia;RBS-70 Mk-3 Bolide;Portable SAM;Missiles;2003;No;30;Yes;2003;No;New;0.1200;0.1200;3.6;No
+20946;Sweden;Australia;CEROS-200;Fire control radar;Sensors;1991;Yes;1;No;2006;No;New;2.5000;2.5000;2.5;No
+20946;Sweden;Australia;CEROS-200;Fire control radar;Sensors;1991;Yes;1;No;2005;No;New;2.5000;2.5000;2.5;No
+20946;Sweden;Australia;CEROS-200;Fire control radar;Sensors;1991;Yes;1;No;2004;No;New;2.5000;2.5000;2.5;No
+20946;Sweden;Australia;CEROS-200;Fire control radar;Sensors;1991;Yes;1;No;2003;No;New;2.5000;2.5000;2.5;No
+20946;Sweden;Australia;CEROS-200;Fire control radar;Sensors;1991;Yes;1;No;2002;No;New;2.5000;2.5000;2.5;No
+20946;Sweden;Australia;CEROS-200;Fire control radar;Sensors;1991;Yes;1;No;2001;No;New;2.5000;2.5000;2.5;No
+20946;Sweden;Australia;CEROS-200;Fire control radar;Sensors;1991;Yes;1;No;1998;No;New;2.5000;2.5000;2.5;No
+20946;Sweden;Australia;CEROS-200;Fire control radar;Sensors;1991;Yes;1;No;1996;No;New;2.5000;2.5000;2.5;No
+20220;Sweden;Australia;Sea Giraffe-150;Air search radar;Sensors;1991;No;1;No;2006;No;New;5.0000;5.0000;5;No
+20220;Sweden;Australia;Sea Giraffe-150;Air search radar;Sensors;1991;No;1;No;2005;No;New;5.0000;5.0000;5;No
+20220;Sweden;Australia;Sea Giraffe-150;Air search radar;Sensors;1991;No;1;No;2004;No;New;5.0000;5.0000;5;No
+20220;Sweden;Australia;Sea Giraffe-150;Air search radar;Sensors;1991;No;1;No;2003;No;New;5.0000;5.0000;5;No
+20220;Sweden;Australia;Sea Giraffe-150;Air search radar;Sensors;1991;No;1;No;2002;No;New;5.0000;5.0000;5;No
+20220;Sweden;Australia;Sea Giraffe-150;Air search radar;Sensors;1991;No;1;No;2001;No;New;5.0000;5.0000;5;No
+20220;Sweden;Australia;Sea Giraffe-150;Air search radar;Sensors;1991;No;1;No;1998;No;New;5.0000;5.0000;5;No
+20220;Sweden;Australia;Sea Giraffe-150;Air search radar;Sensors;1991;No;1;No;1996;No;New;5.0000;5.0000;5;No
+52452;Sweden;Australia;Giraffe AMB;Air search radar;Sensors;2010;No;1;No;2013;No;New;7.5000;7.5000;7.5;No
+52452;Sweden;Australia;Giraffe AMB;Air search radar;Sensors;2010;No;2;No;2012;No;New;7.5000;7.5000;15;No
+17867;Sweden;Australia;Collins;Submarine;Ships;1987;No;1;No;2003;No;New;245.0000;245.0000;245;Yes
+17867;Sweden;Australia;Collins;Submarine;Ships;1987;No;2;No;2001;No;New;245.0000;245.0000;490;Yes
+17867;Sweden;Australia;Collins;Submarine;Ships;1987;No;1;No;1999;No;New;245.0000;245.0000;245;Yes
+17867;Sweden;Australia;Collins;Submarine;Ships;1987;No;1;No;1998;No;New;245.0000;245.0000;245;Yes
+17867;Sweden;Australia;Collins;Submarine;Ships;1987;No;1;No;1996;No;New;245.0000;245.0000;245;Yes
+14479;Sweden;Australia;RBS-70;Portable SAM;Missiles;1985;No;100;Yes;1987;No;New;0.1000;0.1000;10;No
+37170;Sweden;Canada;SAK-70 Mk-2 57mm;Naval gun;Artillery;1986;Yes;2;Yes;1992;No;New;2.5000;2.5000;5;No
+37170;Sweden;Canada;SAK-70 Mk-2 57mm;Naval gun;Artillery;1986;Yes;3;Yes;1996;No;New;2.5000;2.5000;7.5;No
+37170;Sweden;Canada;SAK-70 Mk-2 57mm;Naval gun;Artillery;1986;Yes;3;No;1995;No;New;2.5000;2.5000;7.5;No
+37170;Sweden;Canada;SAK-70 Mk-2 57mm;Naval gun;Artillery;1986;Yes;4;No;1994;No;New;2.5000;2.5000;10;No
+37170;Sweden;Canada;SAK-70 Mk-2 57mm;Naval gun;Artillery;1986;Yes;2;No;1993;No;New;2.5000;2.5000;5;No
+18161;Sweden;Canada;Sea Giraffe-150;Air search radar;Sensors;1985;Yes;2;Yes;1996;No;New;5.0000;5.0000;10;No
+18161;Sweden;Canada;Sea Giraffe-150;Air search radar;Sensors;1985;Yes;2;Yes;1995;Yes;New;5.0000;5.0000;10;No
+18161;Sweden;Canada;Sea Giraffe-150;Air search radar;Sensors;1985;Yes;5;Yes;1994;Yes;New;5.0000;5.0000;25;No
+18161;Sweden;Canada;Sea Giraffe-150;Air search radar;Sensors;1985;Yes;2;Yes;1993;Yes;New;5.0000;5.0000;10;No
+18161;Sweden;Canada;Sea Giraffe-150;Air search radar;Sensors;1985;Yes;1;Yes;1992;Yes;New;5.0000;5.0000;5;No
+55447;Sweden;Chad;MD5;Diesel engine;Engines;2012;No;22;Yes;2012;Yes;New;0.0200;0.0200;0.44;No
+52595;Sweden;Croatia;DI-12;Diesel engine (AV);Engines;2008;No;42;Yes;2012;No;New;0.0600;0.0600;2.52;No
+52594;Sweden;Croatia;DI-12;Diesel engine (AV);Engines;2007;No;45;Yes;2011;No;New;0.0600;0.0600;2.7;No
+52594;Sweden;Croatia;DI-12;Diesel engine (AV);Engines;2007;No;10;Yes;2009;No;New;0.0600;0.0600;0.6;No
+52594;Sweden;Croatia;DI-12;Diesel engine (AV);Engines;2007;No;25;Yes;2010;No;New;0.0600;0.0600;1.5;No
+52594;Sweden;Croatia;DI-12;Diesel engine (AV);Engines;2007;No;2;Yes;2012;No;New;0.0600;0.0600;0.12;No
+52594;Sweden;Croatia;DI-12;Diesel engine (AV);Engines;2007;No;2;Yes;2008;No;New;0.0600;0.0600;0.12;No
+32781;Sweden;Austria;B-17A;Bomber aircraft;Aircraft;1960;Yes;1;Yes;1960;Yes;Second hand;1.3000;0.52;0.52;No
+31883;Sweden;Austria;Saab-105XT;Trainer/combat ac;Aircraft;1969;No;7;Yes;1971;No;New;6.9600;6.9600;48.72;No
+31883;Sweden;Austria;Saab-105XT;Trainer/combat ac;Aircraft;1969;No;13;No;1972;No;New;6.9600;6.9600;90.48;No
+24980;Sweden;Austria;RBS-56B Bill-2;Anti-tank missile;Missiles;1996;No;500;Yes;2001;Yes;New;0.0300;0.0300;15;No
+24980;Sweden;Austria;RBS-56B Bill-2;Anti-tank missile;Missiles;1996;No;500;Yes;2000;Yes;New;0.0300;0.0300;15;No
+24980;Sweden;Austria;RBS-56B Bill-2;Anti-tank missile;Missiles;1996;No;500;Yes;1999;Yes;New;0.0300;0.0300;15;No
+24980;Sweden;Austria;RBS-56B Bill-2;Anti-tank missile;Missiles;1996;No;290;Yes;1998;Yes;New;0.0300;0.0300;8.7;No
+21466;Sweden;Austria;Saab-91 Safir;Trainer aircraft;Aircraft;1963;Yes;12;Yes;1965;No;New;0.1700;0.1700;2.04;No
+21466;Sweden;Austria;Saab-91 Safir;Trainer aircraft;Aircraft;1963;Yes;12;Yes;1964;No;New;0.1700;0.1700;2.04;No
+19822;Sweden;Austria;J-29F;Fighter aircraft;Aircraft;1961;No;7;Yes;1964;No;Second hand;3.1300;1.252;8.764;No
+19822;Sweden;Austria;J-29F;Fighter aircraft;Aircraft;1961;No;8;Yes;1963;No;Second hand;3.1300;1.252;10.016;No
+19822;Sweden;Austria;J-29F;Fighter aircraft;Aircraft;1961;No;8;Yes;1962;No;Second hand;3.1300;1.252;10.016;No
+19822;Sweden;Austria;J-29F;Fighter aircraft;Aircraft;1961;No;7;Yes;1961;No;Second hand;3.1300;1.252;8.764;No
+19383;Sweden;Austria;RBS-56 Bill;Anti-tank missile;Missiles;1989;No;100;Yes;1993;No;New;0.0200;0.0200;2;No
+19383;Sweden;Austria;RBS-56 Bill;Anti-tank missile;Missiles;1989;No;300;Yes;1991;No;New;0.0200;0.0200;6;No
+19383;Sweden;Austria;RBS-56 Bill;Anti-tank missile;Missiles;1989;No;100;Yes;1989;No;New;0.0200;0.0200;2;No
+19383;Sweden;Austria;RBS-56 Bill;Anti-tank missile;Missiles;1989;No;250;Yes;1992;No;New;0.0200;0.0200;5;No
+19383;Sweden;Austria;RBS-56 Bill;Anti-tank missile;Missiles;1989;No;250;Yes;1990;No;New;0.0200;0.0200;5;No
+1644;Sweden;Austria;Saab-105XT;Trainer/combat ac;Aircraft;1968;No;10;No;1971;No;New;6.9600;6.9600;69.6;No
+1644;Sweden;Austria;Saab-105XT;Trainer/combat ac;Aircraft;1968;No;10;No;1970;No;New;6.9600;6.9600;69.6;No
+14105;Sweden;Austria;J-35 Draken;Fighter aircraft;Aircraft;1985;No;10;No;1989;No;Second hand but modernized;10.5000;6.93;69.3;No
+14105;Sweden;Austria;J-35 Draken;Fighter aircraft;Aircraft;1985;No;14;No;1988;No;Second hand but modernized;10.5000;6.93;97.02;No
+32559;Sweden;Bahrain;Giraffe-75;Air search radar;Sensors;1979;Yes;2;No;1984;No;New;4.0000;4.0000;8;No
+21696;Sweden;Bahrain;9LV;Fire control radar;Sensors;1979;Yes;2;No;1984;No;New;2.5000;2.5000;5;No
+20925;Sweden;Bahrain;Giraffe-75;Air search radar;Sensors;1985;No;1;No;1989;No;New;4.0000;4.0000;4;No
+20925;Sweden;Bahrain;Giraffe-75;Air search radar;Sensors;1985;No;1;No;1988;No;New;4.0000;4.0000;4;No
+20925;Sweden;Bahrain;Giraffe-75;Air search radar;Sensors;1985;No;1;No;1987;No;New;4.0000;4.0000;4;No
+20925;Sweden;Bahrain;Giraffe-75;Air search radar;Sensors;1985;No;1;No;1986;No;New;4.0000;4.0000;4;No
+19121;Sweden;Bahrain;9GR-600;Sea search radar;Sensors;1979;No;2;No;1982;No;New;2.0000;2.0000;4;No
+18488;Sweden;Bahrain;9LV;Fire control radar;Sensors;1984;Yes;1;No;1989;No;New;2.5000;2.5000;2.5;No
+18488;Sweden;Bahrain;9LV;Fire control radar;Sensors;1984;Yes;1;No;1988;No;New;2.5000;2.5000;2.5;No
+18488;Sweden;Bahrain;9LV;Fire control radar;Sensors;1984;Yes;1;No;1987;No;New;2.5000;2.5000;2.5;No
+18488;Sweden;Bahrain;9LV;Fire control radar;Sensors;1984;Yes;1;No;1986;No;New;2.5000;2.5000;2.5;No
+2066;Sweden;Bahrain;RBS-70;Portable SAM;Missiles;1979;No;81;Yes;1981;No;New;0.1000;0.1000;8.1;No
+2066;Sweden;Bahrain;RBS-70;Portable SAM;Missiles;1979;No;80;Yes;1980;No;New;0.1000;0.1000;8;No
+28172;Sweden;Belgium;KBV-171;Patrol craft;Ships;1998;No;1;No;1998;No;Second hand;12.4000;4.96;4.96;No
+25230;Sweden;Biafra;MFI-9;Trainer aircraft;Aircraft;1969;Yes;5;Yes;1969;No;New;0.1000;0.1000;0.5;No
+24218;Sweden;Brazil;Giraffe-40;Air search radar;Sensors;1994;Yes;1;Yes;1996;Yes;New;3.2500;3.2500;3.25;No
+24218;Sweden;Brazil;Giraffe-40;Air search radar;Sensors;1994;Yes;1;Yes;1995;Yes;New;3.2500;3.2500;3.25;No
+23887;Sweden;Brazil;RBS-56 Bill;Anti-tank missile;Missiles;1995;No;50;Yes;1997;Yes;New;0.0200;0.0200;1;No
+23887;Sweden;Brazil;RBS-56 Bill;Anti-tank missile;Missiles;1995;No;50;Yes;1996;No;New;0.0200;0.0200;1;No
+23002;Sweden;Brazil;Sea Cat;SAM;Missiles;1982;No;12;Yes;1982;No;Second hand;0.0400;0.016;0.192;No
+22264;Sweden;Brazil;PS-890 Erieye;AEW&C system;Sensors;1997;No;2;Yes;2003;No;New;30.0000;30.0000;60;No
+22264;Sweden;Brazil;PS-890 Erieye;AEW&C system;Sensors;1997;No;3;Yes;2002;No;New;30.0000;30.0000;90;No
+21693;Sweden;Brazil;375mm Twin;ASW MRL;ASW weapons;1970;Yes;1;No;1980;No;New;3.5000;3.5000;3.5;No
+21693;Sweden;Brazil;375mm Twin;ASW MRL;ASW weapons;1970;Yes;1;No;1979;No;New;3.5000;3.5000;3.5;No
+21693;Sweden;Brazil;375mm Twin;ASW MRL;ASW weapons;1970;Yes;2;No;1978;No;New;3.5000;3.5000;7;No
+21693;Sweden;Brazil;375mm Twin;ASW MRL;ASW weapons;1970;Yes;1;No;1977;No;New;3.5000;3.5000;3.5;No
+21693;Sweden;Brazil;375mm Twin;ASW MRL;ASW weapons;1970;Yes;1;No;1976;No;New;3.5000;3.5000;3.5;No
+21266;Sweden;Brazil;BOFI-AWGS;Fire control radar;Sensors;1985;No;12;Yes;1987;No;New;1.5000;1.5000;18;No
+21266;Sweden;Brazil;BOFI-AWGS;Fire control radar;Sensors;1985;No;13;Yes;1986;No;New;1.5000;1.5000;19.5;No
+52483;Sweden;Brazil;DS-14;Diesel engine;Engines;1978;Yes;75;Yes;1981;Yes;New;0.0800;0.0800;6;Yes
+52483;Sweden;Brazil;DS-14;Diesel engine;Engines;1978;Yes;10;Yes;1986;Yes;New;0.0800;0.0800;0.8;Yes
+52483;Sweden;Brazil;DS-14;Diesel engine;Engines;1978;Yes;16;Yes;1980;Yes;New;0.0800;0.0800;1.28;Yes
+52483;Sweden;Brazil;DS-14;Diesel engine;Engines;1978;Yes;75;Yes;1982;No;New;0.0800;0.0800;6;Yes
+52483;Sweden;Brazil;DS-14;Diesel engine;Engines;1978;Yes;5;Yes;1989;Yes;New;0.0800;0.0800;0.4;Yes
+52483;Sweden;Brazil;DS-14;Diesel engine;Engines;1978;Yes;5;Yes;1990;No;New;0.0800;0.0800;0.4;Yes
+52483;Sweden;Brazil;DS-14;Diesel engine;Engines;1978;Yes;75;Yes;1983;No;New;0.0800;0.0800;6;Yes
+52483;Sweden;Brazil;DS-14;Diesel engine;Engines;1978;Yes;75;Yes;1984;No;New;0.0800;0.0800;6;Yes
+52483;Sweden;Brazil;DS-14;Diesel engine;Engines;1978;Yes;75;Yes;1985;No;New;0.0800;0.0800;6;Yes
+52483;Sweden;Brazil;DS-14;Diesel engine;Engines;1978;Yes;5;Yes;1988;Yes;New;0.0800;0.0800;0.4;Yes
+52483;Sweden;Brazil;DS-14;Diesel engine;Engines;1978;Yes;5;Yes;1987;Yes;New;0.0800;0.0800;0.4;Yes
+52294;Sweden;Brunei;SAK-70 Mk-2 57mm;Naval gun;Artillery;2007;Yes;3;No;2011;No;New;2.5000;2.5000;7.5;No
+24617;Sweden;Chile;Alvsborg;Minelayer;Ships;1996;No;1;No;1996;No;Second hand;86.3600;34.544;34.544;No
+14187;Sweden;Chile;Tre Kronor;Cruiser;Ships;1971;No;1;No;1971;No;Second hand;300.0000;120;120;No
+17121;Sweden;Colombia;20 de Julio;Destroyer;Ships;1954;No;2;No;1958;No;New;123.0000;123.0000;246;No
+35831;Sweden;Czech Republic;ARTHUR;Arty locating radar;Sensors;2004;No;2;No;2007;No;New;5.0000;5.0000;10;No
+35831;Sweden;Czech Republic;ARTHUR;Arty locating radar;Sensors;2004;No;1;No;2006;No;New;5.0000;5.0000;5;No
+35665;Sweden;Czech Republic;RBS-70;Portable SAM;Missiles;2004;No;30;Yes;2007;No;New;0.1000;0.1000;3;No
+35665;Sweden;Czech Republic;RBS-70;Portable SAM;Missiles;2004;No;35;Yes;2006;No;New;0.1000;0.1000;3.5;No
+35665;Sweden;Czech Republic;RBS-70;Portable SAM;Missiles;2004;No;25;Yes;2005;No;New;0.1000;0.1000;2.5;No
+33781;Sweden;Czech Republic;JAS-39C Gripen;FGA aircraft;Aircraft;2004;No;14;No;2005;No;New;26.3000;26.3000;368.2;No
+37946;Sweden;Denmark;CTS-36/39;ASW sonar;Sensors;1985;Yes;3;Yes;1992;No;New;1.5000;1.5000;4.5;No
+37946;Sweden;Denmark;CTS-36/39;ASW sonar;Sensors;1985;Yes;4;Yes;1991;No;New;1.5000;1.5000;6;No
+37946;Sweden;Denmark;CTS-36/39;ASW sonar;Sensors;1985;Yes;2;No;1996;No;New;1.5000;1.5000;3;No
+37946;Sweden;Denmark;CTS-36/39;ASW sonar;Sensors;1985;Yes;1;No;1995;No;New;1.5000;1.5000;1.5;No
+37946;Sweden;Denmark;CTS-36/39;ASW sonar;Sensors;1985;Yes;2;No;1994;No;New;1.5000;1.5000;3;No
+37946;Sweden;Denmark;CTS-36/39;ASW sonar;Sensors;1985;Yes;3;No;1993;No;New;1.5000;1.5000;4.5;No
+37946;Sweden;Denmark;CTS-36/39;ASW sonar;Sensors;1985;Yes;2;No;1990;No;New;1.5000;1.5000;3;No
+37946;Sweden;Denmark;CTS-36/39;ASW sonar;Sensors;1985;Yes;1;No;1989;No;New;1.5000;1.5000;1.5;No
+35168;Sweden;Denmark;CEROS-200;Fire control radar;Sensors;2004;Yes;1;Yes;2005;No;New;2.5000;2.5000;2.5;No
+35168;Sweden;Denmark;CEROS-200;Fire control radar;Sensors;2004;Yes;1;Yes;2004;Yes;New;2.5000;2.5000;2.5;No
+32393;Sweden;Denmark;9GR-600;Sea search radar;Sensors;1975;Yes;1;No;1982;No;New;2.0000;2.0000;2;No
+32393;Sweden;Denmark;9GR-600;Sea search radar;Sensors;1975;Yes;1;No;1981;No;New;2.0000;2.0000;2;No
+32393;Sweden;Denmark;9GR-600;Sea search radar;Sensors;1975;Yes;1;No;1980;No;New;2.0000;2.0000;2;No
+32392;Sweden;Denmark;9LV;Fire control radar;Sensors;1985;Yes;1;Yes;1987;Yes;New;2.5000;2.5000;2.5;No
+32392;Sweden;Denmark;9LV;Fire control radar;Sensors;1985;Yes;1;Yes;1986;Yes;New;2.5000;2.5000;2.5;No
+32392;Sweden;Denmark;9LV;Fire control radar;Sensors;1985;Yes;1;Yes;1985;Yes;New;2.5000;2.5000;2.5;No
+29414;Sweden;Denmark;Nacken;Submarine;Ships;2001;No;1;No;2001;No;Second hand;110.0000;44;44;No
+27007;Sweden;Denmark;ARTHUR;Arty locating radar;Sensors;1997;No;3;Yes;2001;No;New;5.0000;5.0000;15;No
+27007;Sweden;Denmark;ARTHUR;Arty locating radar;Sensors;1997;No;4;Yes;2000;No;New;5.0000;5.0000;20;No
+27007;Sweden;Denmark;ARTHUR;Arty locating radar;Sensors;1997;No;1;Yes;1999;No;New;5.0000;5.0000;5;No
+25058;Sweden;Denmark;9GA-208;Air search radar;Sensors;1972;Yes;3;Yes;1978;Yes;New;2.3800;2.3800;7.14;No
+25058;Sweden;Denmark;9GA-208;Air search radar;Sensors;1972;Yes;5;Yes;1977;Yes;New;2.3800;2.3800;11.9;No
+25058;Sweden;Denmark;9GA-208;Air search radar;Sensors;1972;Yes;2;Yes;1976;Yes;New;2.3800;2.3800;4.76;No
+24954;Sweden;Denmark;9LV;Fire control radar;Sensors;1972;Yes;3;Yes;1978;Yes;New;2.5000;2.5000;7.5;No
+24954;Sweden;Denmark;9LV;Fire control radar;Sensors;1972;Yes;5;Yes;1977;Yes;New;2.5000;2.5000;12.5;No
+24954;Sweden;Denmark;9LV;Fire control radar;Sensors;1972;Yes;2;Yes;1976;Yes;New;2.5000;2.5000;5;No
+20900;Sweden;Denmark;9LV;Fire control radar;Sensors;1988;Yes;2;Yes;1996;Yes;New;2.5000;2.5000;5;No
+20900;Sweden;Denmark;9LV;Fire control radar;Sensors;1988;Yes;1;Yes;1995;Yes;New;2.5000;2.5000;2.5;No
+20900;Sweden;Denmark;9LV;Fire control radar;Sensors;1988;Yes;2;Yes;1994;Yes;New;2.5000;2.5000;5;No
+20900;Sweden;Denmark;9LV;Fire control radar;Sensors;1988;Yes;3;Yes;1993;Yes;New;2.5000;2.5000;7.5;No
+20900;Sweden;Denmark;9LV;Fire control radar;Sensors;1988;Yes;3;Yes;1992;Yes;New;2.5000;2.5000;7.5;No
+20900;Sweden;Denmark;9LV;Fire control radar;Sensors;1988;Yes;4;Yes;1991;Yes;New;2.5000;2.5000;10;No
+20900;Sweden;Denmark;9LV;Fire control radar;Sensors;1988;Yes;2;Yes;1990;Yes;New;2.5000;2.5000;5;No
+20900;Sweden;Denmark;9LV;Fire control radar;Sensors;1988;Yes;1;Yes;1989;Yes;New;2.5000;2.5000;2.5;No
+8659;Sweden;Denmark;Saab-35XD Draken;FGA aircraft;Aircraft;1973;No;5;No;1975;No;New;10.7500;10.7500;53.75;No
+1643;Sweden;Denmark;Saab-35XD Draken;FGA aircraft;Aircraft;1968;No;29;Yes;1971;No;New;10.7500;10.7500;311.75;No
+1643;Sweden;Denmark;Saab-35XD Draken;FGA aircraft;Aircraft;1968;No;17;Yes;1970;No;New;10.7500;10.7500;182.75;No
+556;Sweden;Denmark;MFI-17 Supporter;Trainer aircraft;Aircraft;1975;No;16;Yes;1977;No;New;0.2200;0.2200;3.52;No
+556;Sweden;Denmark;MFI-17 Supporter;Trainer aircraft;Aircraft;1975;No;16;Yes;1976;No;New;0.2200;0.2200;3.52;No
+35992;Sweden;Denmark;SF-Mk-2;Patrol craft;Ships;2004;No;2;No;2009;No;New;12.0000;12.0000;24;No
+35992;Sweden;Denmark;SF-Mk-2;Patrol craft;Ships;2004;No;3;No;2008;No;New;12.0000;12.0000;36;No
+35992;Sweden;Denmark;SF-Mk-2;Patrol craft;Ships;2004;No;1;No;2007;No;New;12.0000;12.0000;12;No
+35416;Sweden;Denmark;CV-9035;IFV;Armoured vehicles;2005;No;21;Yes;2008;No;New;1.8000;1.8000;37.8;Yes
+35416;Sweden;Denmark;CV-9035;IFV;Armoured vehicles;2005;No;2;Yes;2010;Yes;New;1.8000;1.8000;3.6;Yes
+35416;Sweden;Denmark;CV-9035;IFV;Armoured vehicles;2005;No;22;Yes;2009;No;New;1.8000;1.8000;39.6;Yes
+39437;Sweden;Denmark;CEROS-200;Fire control radar;Sensors;2006;Yes;1;No;2012;No;New;2.5000;2.5000;2.5;No
+31303;Sweden;Dominican Republic;Strv-M/41;Light tank;Armoured vehicles;1960;No;20;Yes;1960;No;Second hand;0.3500;0.14;2.8;No
+8670;Sweden;Dominican Republic;P-51D Mustang;Fighter aircraft;Aircraft;1950;No;42;Yes;1952;Yes;Second hand;2.0000;0.8;33.6;No
+7724;Sweden;Dominican Republic;Vampire FB-5;Fighter aircraft;Aircraft;1954;No;5;Yes;1956;No;Second hand;3.2000;1.28;6.4;No
+7724;Sweden;Dominican Republic;Vampire FB-5;Fighter aircraft;Aircraft;1954;No;5;Yes;1955;Yes;Second hand;3.2000;1.28;6.4;No
+37482;Sweden;Estonia;Giraffe AMB;Air search radar;Sensors;2007;No;1;Yes;2008;No;New;7.5000;7.5000;7.5;No
+37482;Sweden;Estonia;Giraffe AMB;Air search radar;Sensors;2007;No;1;Yes;2010;Yes;New;7.5000;7.5000;7.5;No
+37482;Sweden;Estonia;Giraffe AMB;Air search radar;Sensors;2007;No;2;Yes;2009;No;New;7.5000;7.5000;15;No
+34435;Sweden;Estonia;M/41D 120mm;Mortar;Artillery;2002;Yes;102;Yes;2005;Yes;Second hand;0.0500;0.02;2.04;No
+34435;Sweden;Estonia;M/41D 120mm;Mortar;Artillery;2002;Yes;40;Yes;2004;Yes;Second hand;0.0500;0.02;0.8;No
+34435;Sweden;Estonia;M/41D 120mm;Mortar;Artillery;2002;Yes;6;Yes;2003;Yes;Second hand;0.0500;0.02;0.12;No
+34435;Sweden;Estonia;M/41D 120mm;Mortar;Artillery;2002;Yes;6;Yes;2002;Yes;Second hand;0.0500;0.02;0.12;No
+21651;Sweden;Estonia;M/42 SKPF;APC;Armoured vehicles;1993;No;13;No;1993;No;Second hand;0.1100;0.044;0.572;No
+25802;Sweden;Estonia;RBS-56 Bill;Anti-tank missile;Missiles;1997;No;8;Yes;1998;Yes;New;0.0200;0.0200;0.16;No
+29314;Sweden;Ethiopia;Saab-91 Safir;Trainer aircraft;Aircraft;1963;Yes;2;No;1963;No;New;0.1700;0.1700;0.34;No
+14854;Sweden;Ethiopia;Saab-91 Safir;Trainer aircraft;Aircraft;1957;Yes;6;No;1957;No;New;0.1700;0.1700;1.02;No
+711;Sweden;Ethiopia;B-17A;Bomber aircraft;Aircraft;1950;No;36;Yes;1951;Yes;Second hand;1.3000;0.52;18.72;No
+710;Sweden;Ethiopia;Saab-91 Safir;Trainer aircraft;Aircraft;1950;No;6;No;1955;No;New;0.1700;0.1700;1.02;No
+710;Sweden;Ethiopia;Saab-91 Safir;Trainer aircraft;Aircraft;1950;No;3;No;1954;No;New;0.1700;0.1700;0.51;No
+660;Sweden;Ethiopia;Saab-91 Safir;Trainer aircraft;Aircraft;1959;No;10;Yes;1960;No;New;0.1700;0.1700;1.7;No
+658;Sweden;Ethiopia;Saab-91 Safir;Trainer aircraft;Aircraft;1950;No;4;No;1951;No;New;0.1700;0.1700;0.68;No
+657;Sweden;Ethiopia;Saab-91 Safir;Trainer aircraft;Aircraft;1965;No;4;No;1966;No;New;0.1700;0.1700;0.68;No
+38443;Sweden;Finland;DI-12;Diesel engine (AV);Engines;2004;No;22;Yes;2008;No;New;0.0600;0.0600;1.32;No
+38443;Sweden;Finland;DI-12;Diesel engine (AV);Engines;2004;No;20;Yes;2007;No;New;0.0600;0.0600;1.2;No
+38443;Sweden;Finland;DI-12;Diesel engine (AV);Engines;2004;No;20;Yes;2006;No;New;0.0600;0.0600;1.2;No
+38442;Sweden;Finland;DI-12;Diesel engine (AV);Engines;2003;No;10;Yes;2007;No;New;0.0600;0.0600;0.6;No
+38442;Sweden;Finland;DI-12;Diesel engine (AV);Engines;2003;No;4;No;2006;No;New;0.0600;0.0600;0.24;No
+38442;Sweden;Finland;DI-12;Diesel engine (AV);Engines;2003;No;10;Yes;2008;No;New;0.0600;0.0600;0.6;No
+37483;Sweden;Finland;SAK-70 Mk-2 57mm;Naval gun;Artillery;2000;Yes;1;No;2006;No;New;2.5000;2.5000;2.5;No
+37483;Sweden;Finland;SAK-70 Mk-2 57mm;Naval gun;Artillery;2000;Yes;3;No;2005;No;New;2.5000;2.5000;7.5;No
+34902;Sweden;Finland;CEROS-200;Fire control radar;Sensors;2003;No;2;Yes;2006;No;New;2.5000;2.5000;5;No
+34902;Sweden;Finland;CEROS-200;Fire control radar;Sensors;2003;No;1;Yes;2004;Yes;New;2.5000;2.5000;2.5;No
+34902;Sweden;Finland;CEROS-200;Fire control radar;Sensors;2003;No;1;No;2005;No;New;2.5000;2.5000;2.5;No
+33774;Sweden;Finland;HARD;Air search radar;Sensors;2002;No;8;Yes;2007;Yes;New;2.5000;2.5000;20;No
+33774;Sweden;Finland;HARD;Air search radar;Sensors;2002;No;8;Yes;2006;Yes;New;2.5000;2.5000;20;No
+31583;Sweden;Finland;RBS-15 Mk-3;Anti-ship MI/SSM;Missiles;2001;No;10;Yes;2006;Yes;New;1.2000;1.2000;12;No
+31583;Sweden;Finland;RBS-15 Mk-3;Anti-ship MI/SSM;Missiles;2001;No;10;Yes;2005;No;New;1.2000;1.2000;12;No
+31583;Sweden;Finland;RBS-15 Mk-3;Anti-ship MI/SSM;Missiles;2001;No;10;Yes;2004;No;New;1.2000;1.2000;12;No
+31583;Sweden;Finland;RBS-15 Mk-3;Anti-ship MI/SSM;Missiles;2001;No;10;Yes;2003;No;New;1.2000;1.2000;12;No
+31267;Sweden;Finland;RBS-70 Mk-3 Bolide;Portable SAM;Missiles;2002;No;50;Yes;2007;Yes;New;0.1200;0.1200;6;No
+31267;Sweden;Finland;RBS-70 Mk-3 Bolide;Portable SAM;Missiles;2002;No;50;Yes;2006;Yes;New;0.1200;0.1200;6;No
+31267;Sweden;Finland;RBS-70 Mk-3 Bolide;Portable SAM;Missiles;2002;No;50;Yes;2005;Yes;New;0.1200;0.1200;6;No
+30112;Sweden;Finland;9LV;Fire control radar;Sensors;1997;Yes;1;No;2003;No;New;2.5000;2.5000;2.5;No
+30112;Sweden;Finland;9LV;Fire control radar;Sensors;1997;Yes;1;No;1998;No;New;2.5000;2.5000;2.5;No
+30111;Sweden;Finland;RBS-15M;Anti-ship missile;Missiles;1997;Yes;3;Yes;2002;Yes;New;1.0000;1.0000;3;No
+30111;Sweden;Finland;RBS-15M;Anti-ship missile;Missiles;1997;Yes;3;Yes;2001;Yes;New;1.0000;1.0000;3;No
+30111;Sweden;Finland;RBS-15M;Anti-ship missile;Missiles;1997;Yes;3;Yes;2000;Yes;New;1.0000;1.0000;3;No
+30111;Sweden;Finland;RBS-15M;Anti-ship missile;Missiles;1997;Yes;3;Yes;1999;Yes;New;1.0000;1.0000;3;No
+30111;Sweden;Finland;RBS-15M;Anti-ship missile;Missiles;1997;Yes;4;Yes;1998;Yes;New;1.0000;1.0000;4;No
+29026;Sweden;Finland;MD-500E;Light helicopter;Aircraft;1998;No;2;No;1999;No;Second hand;0.7000;0.28;0.56;No
+23582;Sweden;Finland;TAK-120 L/46 120mm;Naval gun;Artillery;1977;Yes;1;No;1979;Yes;New;5.0000;5.0000;5;No
+23581;Sweden;Finland;TAK-120 L/46 120mm;Naval gun;Artillery;1965;Yes;2;Yes;1968;Yes;New;5.0000;5.0000;10;No
+23565;Sweden;Finland;AIM-4C Falcon;SRAAM;Missiles;1972;Yes;40;Yes;1974;Yes;New;0.0700;0.0700;2.8;No
+23565;Sweden;Finland;AIM-4C Falcon;SRAAM;Missiles;1972;Yes;40;Yes;1972;No;New;0.0700;0.0700;2.8;No
+23565;Sweden;Finland;AIM-4C Falcon;SRAAM;Missiles;1972;Yes;40;Yes;1976;Yes;New;0.0700;0.0700;2.8;No
+23565;Sweden;Finland;AIM-4C Falcon;SRAAM;Missiles;1972;Yes;40;Yes;1975;Yes;New;0.0700;0.0700;2.8;No
+23565;Sweden;Finland;AIM-4C Falcon;SRAAM;Missiles;1972;Yes;40;Yes;1973;Yes;New;0.0700;0.0700;2.8;No
+20889;Sweden;Finland;9LV;Fire control radar;Sensors;1987;Yes;2;No;1992;No;New;2.5000;2.5000;5;No
+20889;Sweden;Finland;9LV;Fire control radar;Sensors;1987;Yes;1;No;1991;No;New;2.5000;2.5000;2.5;No
+20889;Sweden;Finland;9LV;Fire control radar;Sensors;1987;Yes;1;No;1990;No;New;2.5000;2.5000;2.5;No
+20245;Sweden;Finland;Giraffe-100;Air search radar;Sensors;1992;No;1;Yes;1996;No;New;5.0000;5.0000;5;No
+20245;Sweden;Finland;Giraffe-100;Air search radar;Sensors;1992;No;1;Yes;1995;No;New;5.0000;5.0000;5;No
+20245;Sweden;Finland;Giraffe-100;Air search radar;Sensors;1992;No;1;Yes;1994;No;New;5.0000;5.0000;5;No
+20245;Sweden;Finland;Giraffe-100;Air search radar;Sensors;1992;No;1;No;1993;No;New;5.0000;5.0000;5;No
+20268;Sweden;Finland;SAK-70 Mk-1 57mm;Naval gun;Artillery;1995;No;1;No;1998;No;Second hand but modernized;2.2500;1.485;1.485;No
+19585;Sweden;Finland;Giraffe-40;Air search radar;Sensors;1987;Yes;15;Yes;1988;No;New;3.2500;3.2500;48.75;No
+18674;Sweden;Finland;RBS-15M;Anti-ship missile;Missiles;1987;Yes;30;No;1988;No;New;1.0000;1.0000;30;No
+18674;Sweden;Finland;RBS-15M;Anti-ship missile;Missiles;1987;Yes;30;No;1987;No;New;1.0000;1.0000;30;No
+18231;Sweden;Finland;SAK-70 Mk-1 57mm;Naval gun;Artillery;1979;Yes;1;No;1986;No;New;2.2500;2.2500;2.25;No
+18231;Sweden;Finland;SAK-70 Mk-1 57mm;Naval gun;Artillery;1979;Yes;2;No;1985;No;New;2.2500;2.2500;4.5;No
+18231;Sweden;Finland;SAK-70 Mk-1 57mm;Naval gun;Artillery;1979;Yes;1;No;1981;No;New;2.2500;2.2500;2.25;No
+18122;Sweden;Finland;RBS-15M;Anti-ship missile;Missiles;1987;Yes;24;Yes;1992;Yes;New;1.0000;1.0000;24;No
+18122;Sweden;Finland;RBS-15M;Anti-ship missile;Missiles;1987;Yes;12;Yes;1991;Yes;New;1.0000;1.0000;12;No
+18122;Sweden;Finland;RBS-15M;Anti-ship missile;Missiles;1987;Yes;12;Yes;1990;Yes;New;1.0000;1.0000;12;No
+8709;Sweden;Finland;SA-313B Alouette-2;Light helicopter;Aircraft;1965;Yes;2;No;1966;No;Second hand;0.7000;0.28;0.56;No
+7903;Sweden;Finland;B-17A;Bomber aircraft;Aircraft;1959;Yes;2;No;1960;No;Second hand;1.3000;0.52;1.04;No
+3881;Sweden;Finland;RBS-15M;Anti-ship missile;Missiles;1981;No;16;Yes;1986;Yes;New;1.0000;1.0000;16;No
+3881;Sweden;Finland;RBS-15M;Anti-ship missile;Missiles;1981;No;32;Yes;1985;Yes;New;1.0000;1.0000;32;No
+3881;Sweden;Finland;RBS-15M;Anti-ship missile;Missiles;1981;No;16;Yes;1981;Yes;New;1.0000;1.0000;16;No
+3829;Sweden;Finland;J-35 Draken;Fighter aircraft;Aircraft;1984;No;6;Yes;1986;No;Second hand;10.5000;4.2;25.2;No
+3829;Sweden;Finland;J-35 Draken;Fighter aircraft;Aircraft;1984;No;7;Yes;1985;No;Second hand;10.5000;4.2;29.4;No
+3829;Sweden;Finland;J-35 Draken;Fighter aircraft;Aircraft;1984;No;7;Yes;1984;No;Second hand;10.5000;4.2;29.4;No
+1705;Sweden;Finland;J-35 Draken;Fighter aircraft;Aircraft;1976;Yes;9;No;1976;No;Second hand;10.5000;4.2;37.8;No
+54571;Sweden;Finland;MT-LB;APC;Armoured vehicles;2011;No;147;No;2011;No;Second hand;0.2200;0.088;12.936;No
+51587;Sweden;Finland;RBS-70 Mk-3 Bolide;Portable SAM;Missiles;2009;Yes;100;Yes;2013;Yes;New;0.1200;0.1200;12;No
+577;Sweden;Finland;J-35 Draken;Fighter aircraft;Aircraft;1970;No;6;No;1975;No;New;9.2500;9.2500;55.5;No
+577;Sweden;Finland;J-35 Draken;Fighter aircraft;Aircraft;1970;No;6;No;1974;No;New;9.2500;9.2500;55.5;No
+51770;Sweden;Finland;NLAW;Anti-tank missile;Missiles;2007;No;1000;Yes;2010;Yes;New;0.0100;0.0100;10;No
+51770;Sweden;Finland;NLAW;Anti-tank missile;Missiles;2007;No;500;Yes;2009;No;New;0.0100;0.0100;5;No
+55422;Sweden;Finland;Giraffe-40;Air search radar;Sensors;1984;No;3;Yes;1985;Yes;New;3.2500;3.2500;9.75;Yes
+55422;Sweden;Finland;Giraffe-40;Air search radar;Sensors;1984;No;2;Yes;1986;No;New;3.2500;3.2500;6.5;Yes
+35346;Sweden;Finland;CV-9030;IFV;Armoured vehicles;2004;No;21;Yes;2007;No;New;1.6000;1.6000;33.6;Yes
+35346;Sweden;Finland;CV-9030;IFV;Armoured vehicles;2004;No;24;Yes;2006;No;New;1.6000;1.6000;38.4;Yes
+30688;Sweden;Finland;CV-9030;IFV;Armoured vehicles;2000;No;14;Yes;2005;No;New;1.6000;1.6000;22.4;Yes
+30688;Sweden;Finland;CV-9030;IFV;Armoured vehicles;2000;No;33;Yes;2004;No;New;1.6000;1.6000;52.8;Yes
+30688;Sweden;Finland;CV-9030;IFV;Armoured vehicles;2000;No;7;Yes;2003;No;New;1.6000;1.6000;11.2;Yes
+30688;Sweden;Finland;CV-9030;IFV;Armoured vehicles;2000;No;3;Yes;2006;Yes;New;1.6000;1.6000;4.8;Yes
+1704;Sweden;Finland;Saab-91 Safir;Trainer aircraft;Aircraft;1957;Yes;20;No;1958;No;New;0.1700;0.1700;3.4;No
+1703;Sweden;Finland;Saab-91 Safir;Trainer aircraft;Aircraft;1962;Yes;15;No;1963;No;New;0.1700;0.1700;2.55;No
+39337;Sweden;Finland;RBS-70 Mk-3 Bolide;Portable SAM;Missiles;2007;No;50;Yes;2010;No;New;0.1200;0.1200;6;No
+39337;Sweden;Finland;RBS-70 Mk-3 Bolide;Portable SAM;Missiles;2007;No;75;Yes;2009;No;New;0.1200;0.1200;9;No
+39337;Sweden;Finland;RBS-70 Mk-3 Bolide;Portable SAM;Missiles;2007;No;75;Yes;2008;No;New;0.1200;0.1200;9;No
+18675;Sweden;Finland;RBS-15K CDS;Coast defence system;Sensors;1988;No;2;No;1988;No;New;15.0000;15.0000;30;No
+22160;Sweden;Finland;J-35 Draken;Fighter aircraft;Aircraft;1972;No;6;No;1972;No;Second hand;10.5000;4.2;25.2;No
+53196;Sweden;Gabon;Hagglunds 20mm;IFV turret;Other;1981;No;12;No;1984;No;New;0.1000;0.1000;1.2;No
+52201;Sweden;Gabon;SAK-70 Mk-2 57mm;Naval gun;Artillery;1985;No;1;No;1988;No;New;2.5000;2.5000;2.5;No
+23215;Sweden;Germany (FRG);HARD;Air search radar;Sensors;1998;No;3;Yes;2003;No;New;2.5000;2.5000;7.5;No
+23215;Sweden;Germany (FRG);HARD;Air search radar;Sensors;1998;No;4;Yes;2002;No;New;2.5000;2.5000;10;No
+23215;Sweden;Germany (FRG);HARD;Air search radar;Sensors;1998;No;3;Yes;2001;No;New;2.5000;2.5000;7.5;No
+14038;Sweden;Germany (FRG);375mm Quad;ASW MRL;ASW weapons;1957;Yes;5;Yes;1961;No;New;5.0000;5.0000;25;No
+14038;Sweden;Germany (FRG);375mm Quad;ASW MRL;ASW weapons;1957;Yes;2;No;1968;No;New;5.0000;5.0000;10;No
+14038;Sweden;Germany (FRG);375mm Quad;ASW MRL;ASW weapons;1957;Yes;6;No;1965;No;New;5.0000;5.0000;30;No
+14038;Sweden;Germany (FRG);375mm Quad;ASW MRL;ASW weapons;1957;Yes;2;No;1964;No;New;5.0000;5.0000;10;No
+14038;Sweden;Germany (FRG);375mm Quad;ASW MRL;ASW weapons;1957;Yes;2;No;1963;No;New;5.0000;5.0000;10;No
+14038;Sweden;Germany (FRG);375mm Quad;ASW MRL;ASW weapons;1957;Yes;5;No;1962;No;New;5.0000;5.0000;25;No
+14038;Sweden;Germany (FRG);375mm Quad;ASW MRL;ASW weapons;1957;Yes;6;No;1960;No;New;5.0000;5.0000;30;No
+14038;Sweden;Germany (FRG);375mm Quad;ASW MRL;ASW weapons;1957;Yes;2;No;1959;No;New;5.0000;5.0000;10;No
+37031;Sweden;Germany (FRG);Bv-206S;APC;Armoured vehicles;2005;No;20;Yes;2007;No;New;0.2300;0.2300;4.6;No
+37031;Sweden;Germany (FRG);Bv-206S;APC;Armoured vehicles;2005;No;2;No;2005;No;New;0.2300;0.2300;0.46;No
+37031;Sweden;Germany (FRG);Bv-206S;APC;Armoured vehicles;2005;No;53;Yes;2006;No;New;0.2300;0.2300;12.19;No
+29239;Sweden;Germany (FRG);Bv-206S;APC;Armoured vehicles;2002;No;9;No;2004;No;New;0.2300;0.2300;2.07;No
+29239;Sweden;Germany (FRG);Bv-206S;APC;Armoured vehicles;2002;No;22;No;2003;No;New;0.2300;0.2300;5.06;No
+24120;Sweden;Germany (FRG);Bv-206S;APC;Armoured vehicles;2005;No;8;Yes;2009;No;New;0.2300;0.2300;1.84;No
+24120;Sweden;Germany (FRG);Bv-206S;APC;Armoured vehicles;2005;No;43;Yes;2007;No;New;0.2300;0.2300;9.89;No
+24120;Sweden;Germany (FRG);Bv-206S;APC;Armoured vehicles;2005;No;30;No;2008;No;New;0.2300;0.2300;6.9;No
+30288;Sweden;Germany (FRG);RBS-15 Mk-3;Anti-ship MI/SSM;Missiles;2005;No;12;Yes;2013;Yes;New;1.2000;1.2000;14.4;Yes
+30288;Sweden;Germany (FRG);RBS-15 Mk-3;Anti-ship MI/SSM;Missiles;2005;No;12;Yes;2012;Yes;New;1.2000;1.2000;14.4;Yes
+30288;Sweden;Germany (FRG);RBS-15 Mk-3;Anti-ship MI/SSM;Missiles;2005;No;6;Yes;2011;No;New;1.2000;1.2000;7.2;Yes
+34103;Sweden;Greece;SLAR;AGS radar;Sensors;1998;Yes;1;No;2005;No;New;2.0000;2.0000;2;No
+34103;Sweden;Greece;SLAR;AGS radar;Sensors;1998;Yes;1;No;2004;No;New;2.0000;2.0000;2;No
+33160;Sweden;Greece;ARTHUR;Arty locating radar;Sensors;2002;No;3;Yes;2004;No;New;5.0000;5.0000;15;No
+33119;Sweden;Greece;Giraffe-75;Air search radar;Sensors;1983;Yes;3;Yes;1986;Yes;New;4.0000;4.0000;12;No
+33119;Sweden;Greece;Giraffe-75;Air search radar;Sensors;1983;Yes;3;Yes;1985;Yes;New;4.0000;4.0000;12;No
+28657;Sweden;Greece;PS-890 Erieye;AEW&C system;Sensors;1999;No;4;No;2008;No;New;30.0000;30.0000;120;No
+29386;Sweden;Greece;Saab-340AEW;AEW&C aircraft;Aircraft;1999;No;2;No;2001;No;New;60.0000;60.0000;120;No
+16296;Sweden;Guatemala;Jagaren;Patrol craft;Ships;1959;Yes;1;No;1959;No;Second hand;13.3000;5.32;5.32;No
+23323;Sweden;Hungary;JAS-39C Gripen;FGA aircraft;Aircraft;2001;No;6;No;2007;No;New;26.3000;26.3000;157.8;No
+23323;Sweden;Hungary;JAS-39C Gripen;FGA aircraft;Aircraft;2001;No;8;No;2006;No;New;26.3000;26.3000;210.4;No
+17462;Sweden;India;FH-77 155mm;Towed gun;Artillery;1986;No;10;Yes;1991;No;New;1.0000;1.0000;10;No
+17462;Sweden;India;FH-77 155mm;Towed gun;Artillery;1986;No;45;Yes;1990;No;New;1.0000;1.0000;45;No
+17462;Sweden;India;FH-77 155mm;Towed gun;Artillery;1986;No;130;Yes;1989;No;New;1.0000;1.0000;130;No
+17462;Sweden;India;FH-77 155mm;Towed gun;Artillery;1986;No;140;Yes;1988;No;New;1.0000;1.0000;140;No
+17462;Sweden;India;FH-77 155mm;Towed gun;Artillery;1986;No;70;Yes;1987;No;New;1.0000;1.0000;70;No
+17462;Sweden;India;FH-77 155mm;Towed gun;Artillery;1986;No;15;Yes;1986;No;New;1.0000;1.0000;15;No
+38965;Sweden;Indonesia;SAK-70 Mk-1 57mm;Naval gun;Artillery;1975;Yes;2;No;1980;No;New;2.2500;2.2500;4.5;No
+38965;Sweden;Indonesia;SAK-70 Mk-1 57mm;Naval gun;Artillery;1975;Yes;2;No;1979;No;New;2.2500;2.2500;4.5;No
+38964;Sweden;Indonesia;SAK-70 Mk-2 57mm;Naval gun;Artillery;1994;No;1;No;2004;No;New;2.5000;2.5000;2.5;No
+38964;Sweden;Indonesia;SAK-70 Mk-2 57mm;Naval gun;Artillery;1994;No;1;No;2002;No;New;2.5000;2.5000;2.5;No
+38964;Sweden;Indonesia;SAK-70 Mk-2 57mm;Naval gun;Artillery;1994;No;2;No;2000;No;New;2.5000;2.5000;5;No
+38963;Sweden;Indonesia;SAK-70 Mk-2 57mm;Naval gun;Artillery;1982;Yes;1;No;1993;No;New;2.5000;2.5000;2.5;No
+38963;Sweden;Indonesia;SAK-70 Mk-2 57mm;Naval gun;Artillery;1982;Yes;1;No;1992;No;New;2.5000;2.5000;2.5;No
+38963;Sweden;Indonesia;SAK-70 Mk-2 57mm;Naval gun;Artillery;1982;Yes;1;No;1989;No;New;2.5000;2.5000;2.5;No
+38963;Sweden;Indonesia;SAK-70 Mk-2 57mm;Naval gun;Artillery;1982;Yes;1;No;1988;No;New;2.5000;2.5000;2.5;No
+23806;Sweden;Indonesia;TAK-120 L/46 120mm;Naval gun;Artillery;1975;Yes;2;No;1980;No;New;5.0000;5.0000;10;No
+23806;Sweden;Indonesia;TAK-120 L/46 120mm;Naval gun;Artillery;1975;Yes;1;No;1979;No;New;5.0000;5.0000;5;No
+17524;Sweden;Indonesia;RBS-70;Portable SAM;Missiles;1981;Yes;150;Yes;1982;No;New;0.1000;0.1000;15;No
+18166;Sweden;Indonesia;Giraffe-40;Air search radar;Sensors;1981;Yes;5;Yes;1982;Yes;New;3.2500;3.2500;16.25;No
+17789;Sweden;Iran;RBS-70;Portable SAM;Missiles;1984;Yes;200;Yes;1985;Yes;New;0.1000;0.1000;20;No
+53443;Sweden;Iraq;375mm Twin;ASW MRL;ASW weapons;1977;No;1;No;1980;No;New;3.5000;3.5000;3.5;No
+53442;Sweden;Iraq;9LV;Fire control radar;Sensors;1977;No;1;No;1980;No;New;2.5000;2.5000;2.5;No
+53441;Sweden;Iraq;SAK-70 Mk-1 57mm;Naval gun;Artillery;1977;Yes;1;No;1980;No;New;2.2500;2.2500;2.25;No
+37269;Sweden;Ireland;SAK-70 Mk-1 57mm;Naval gun;Artillery;1982;Yes;1;No;1984;No;New;2.2500;2.2500;2.25;No
+18165;Sweden;Ireland;Giraffe-40;Air search radar;Sensors;1985;No;1;No;1986;No;New;3.2500;3.2500;3.25;No
+2803;Sweden;Ireland;RBS-70;Portable SAM;Missiles;1979;No;25;Yes;1981;Yes;New;0.1000;0.1000;2.5;No
+8134;Sweden;Israel;P-51D Mustang;Fighter aircraft;Aircraft;1951;No;21;No;1953;No;Second hand;2.0000;0.8;16.8;No
+8134;Sweden;Israel;P-51D Mustang;Fighter aircraft;Aircraft;1951;No;4;No;1952;No;Second hand;2.0000;0.8;3.2;No
+34606;Sweden;Italy;Bv-206S;APC;Armoured vehicles;2003;No;9;Yes;2008;No;New;0.2300;0.2300;2.07;No
+34606;Sweden;Italy;Bv-206S;APC;Armoured vehicles;2003;No;25;Yes;2009;No;New;0.2300;0.2300;5.75;No
+31295;Sweden;Italy;Bv-206S;APC;Armoured vehicles;2003;No;24;Yes;2006;Yes;New;0.2300;0.2300;5.52;No
+31295;Sweden;Italy;Bv-206S;APC;Armoured vehicles;2003;No;36;Yes;2007;No;New;0.2300;0.2300;8.28;No
+31295;Sweden;Italy;Bv-206S;APC;Armoured vehicles;2003;No;27;Yes;2005;No;New;0.2300;0.2300;6.21;No
+31295;Sweden;Italy;Bv-206S;APC;Armoured vehicles;2003;No;25;Yes;2008;No;New;0.2300;0.2300;5.75;No
+51609;Sweden;Italy;ARTHUR;Arty locating radar;Sensors;2009;No;1;Yes;2013;No;New;5.0000;5.0000;5;No
+51609;Sweden;Italy;ARTHUR;Arty locating radar;Sensors;2009;No;2;Yes;2012;No;New;5.0000;5.0000;10;No
+51609;Sweden;Italy;ARTHUR;Arty locating radar;Sensors;2009;No;1;Yes;2011;No;New;5.0000;5.0000;5;No
+51609;Sweden;Italy;ARTHUR;Arty locating radar;Sensors;2009;No;1;Yes;2010;Yes;New;5.0000;5.0000;5;No
+30895;Sweden;Italy;Bv-206S;APC;Armoured vehicles;2000;No;2;No;2001;No;New;0.2300;0.2300;0.46;No
+36640;Sweden;Japan;375mm Quad;ASW MRL;ASW weapons;1962;Yes;2;No;1978;No;New;5.0000;5.0000;10;No
+36640;Sweden;Japan;375mm Quad;ASW MRL;ASW weapons;1962;Yes;1;No;1977;No;New;5.0000;5.0000;5;No
+36640;Sweden;Japan;375mm Quad;ASW MRL;ASW weapons;1962;Yes;1;No;1974;No;New;5.0000;5.0000;5;No
+36640;Sweden;Japan;375mm Quad;ASW MRL;ASW weapons;1962;Yes;1;No;1972;No;New;5.0000;5.0000;5;No
+36640;Sweden;Japan;375mm Quad;ASW MRL;ASW weapons;1962;Yes;2;No;1970;No;New;5.0000;5.0000;10;No
+36640;Sweden;Japan;375mm Quad;ASW MRL;ASW weapons;1962;Yes;3;No;1969;No;New;5.0000;5.0000;15;No
+36640;Sweden;Japan;375mm Quad;ASW MRL;ASW weapons;1962;Yes;2;No;1968;No;New;5.0000;5.0000;10;No
+36640;Sweden;Japan;375mm Quad;ASW MRL;ASW weapons;1962;Yes;2;No;1967;No;New;5.0000;5.0000;10;No
+36640;Sweden;Japan;375mm Quad;ASW MRL;ASW weapons;1962;Yes;2;No;1966;No;New;5.0000;5.0000;10;No
+36640;Sweden;Japan;375mm Quad;ASW MRL;ASW weapons;1962;Yes;2;No;1964;No;New;5.0000;5.0000;10;No
+35819;Sweden;Japan;Stirling AIP;AIP engine;Engines;1993;Yes;4;No;2001;No;New;2.5000;2.5000;10;No
+35787;Sweden;Japan;Stirling AIP;AIP engine;Engines;2005;No;4;No;2012;No;New;2.5000;2.5000;10;Yes
+35787;Sweden;Japan;Stirling AIP;AIP engine;Engines;2005;No;4;No;2011;No;New;2.5000;2.5000;10;Yes
+35787;Sweden;Japan;Stirling AIP;AIP engine;Engines;2005;No;4;No;2010;No;New;2.5000;2.5000;10;Yes
+35787;Sweden;Japan;Stirling AIP;AIP engine;Engines;2005;No;4;No;2009;No;New;2.5000;2.5000;10;Yes
+40283;Sweden;South Korea (ROK);ARTHUR;Arty locating radar;Sensors;2007;No;3;Yes;2010;Yes;New;5.0000;5.0000;15;Yes
+40283;Sweden;South Korea (ROK);ARTHUR;Arty locating radar;Sensors;2007;No;3;Yes;2009;No;New;5.0000;5.0000;15;Yes
+34771;Sweden;South Korea (ROK);CEROS-200;Fire control radar;Sensors;2005;No;4;Yes;2013;No;New;2.5000;2.5000;10;Yes
+34771;Sweden;South Korea (ROK);CEROS-200;Fire control radar;Sensors;2005;No;6;Yes;2011;No;New;2.5000;2.5000;15;Yes
+34771;Sweden;South Korea (ROK);CEROS-200;Fire control radar;Sensors;2005;No;1;Yes;2012;No;New;2.5000;2.5000;2.5;Yes
+34771;Sweden;South Korea (ROK);CEROS-200;Fire control radar;Sensors;2005;No;1;No;2008;No;New;2.5000;2.5000;2.5;Yes
+21028;Sweden;Kuwait;Giraffe-75;Air search radar;Sensors;1980;No;4;No;1983;No;New;4.0000;4.0000;16;No
+21028;Sweden;Kuwait;Giraffe-75;Air search radar;Sensors;1980;No;4;No;1984;No;New;4.0000;4.0000;16;No
+20834;Sweden;Kuwait;9LV;Fire control radar;Sensors;1980;No;4;No;1983;No;New;2.5000;2.5000;10;No
+20834;Sweden;Kuwait;9LV;Fire control radar;Sensors;1980;No;4;No;1982;No;New;2.5000;2.5000;10;No
+35925;Sweden;Latvia;Giraffe-40;Air search radar;Sensors;2004;No;1;Yes;2007;Yes;Second hand;3.2500;1.3;1.3;No
+35925;Sweden;Latvia;Giraffe-40;Air search radar;Sensors;2004;No;1;Yes;2006;Yes;Second hand;3.2500;1.3;1.3;No
+35257;Sweden;Latvia;RBS-70;Portable SAM;Missiles;2004;No;94;No;2006;No;New;0.1000;0.1000;9.4;No
+35257;Sweden;Latvia;RBS-70;Portable SAM;Missiles;2004;No;8;No;2007;No;New;0.1000;0.1000;0.8;No
+34434;Sweden;Latvia;M/41D 120mm;Mortar;Artillery;2001;Yes;6;Yes;2003;No;Second hand;0.0500;0.02;0.12;No
+34434;Sweden;Latvia;M/41D 120mm;Mortar;Artillery;2001;Yes;6;Yes;2001;Yes;Second hand;0.0500;0.02;0.12;No
+34434;Sweden;Latvia;M/41D 120mm;Mortar;Artillery;2001;Yes;6;No;2002;No;Second hand;0.0500;0.02;0.12;No
+31777;Sweden;Latvia;Giraffe-40;Air search radar;Sensors;2000;Yes;1;Yes;2001;No;Second hand;3.2500;1.3;1.3;No
+21828;Sweden;Latvia;M/42 SKPF;APC;Armoured vehicles;1993;No;13;No;1993;No;Second hand;0.1100;0.044;0.572;No
+25815;Sweden;Latvia;RBS-56 Bill;Anti-tank missile;Missiles;1997;No;8;Yes;1998;Yes;New;0.0200;0.0200;0.16;No
+34433;Sweden;Lithuania;M/41D 120mm;Mortar;Artillery;2002;Yes;6;No;2002;No;Second hand;0.0500;0.02;0.12;No
+31778;Sweden;Lithuania;Giraffe-40;Air search radar;Sensors;2000;Yes;1;Yes;2001;No;Second hand;3.2500;1.3;1.3;No
+21830;Sweden;Lithuania;M/42 SKPF;APC;Armoured vehicles;1993;No;13;No;1993;No;Second hand;0.1100;0.044;0.572;No
+25816;Sweden;Lithuania;RBS-56 Bill;Anti-tank missile;Missiles;1997;No;8;Yes;1998;Yes;New;0.0200;0.0200;0.16;No
+52974;Sweden;Luxembourg;NLAW;Anti-tank missile;Missiles;2010;No;50;Yes;2012;Yes;New;0.0100;0.0100;0.5;No
+37234;Sweden;Malaysia;375mm Twin;ASW MRL;ASW weapons;1981;Yes;2;No;1984;No;New;3.5000;3.5000;7;No
+37135;Sweden;Malaysia;SAK-70 Mk-2 57mm;Naval gun;Artillery;1992;Yes;2;No;1999;No;New;2.5000;2.5000;5;No
+30252;Sweden;Malaysia;ARTHUR;Arty locating radar;Sensors;1999;No;2;No;2000;No;New;5.0000;5.0000;10;No
+30240;Sweden;Malaysia;Giraffe-40;Air search radar;Sensors;1988;Yes;2;Yes;1989;Yes;New;3.2500;3.2500;6.5;No
+23905;Sweden;Malaysia;9LV;Fire control radar;Sensors;1983;Yes;1;Yes;1987;Yes;New;2.5000;2.5000;2.5;No
+23905;Sweden;Malaysia;9LV;Fire control radar;Sensors;1983;Yes;1;Yes;1985;Yes;New;2.5000;2.5000;2.5;No
+21269;Sweden;Malaysia;BOFI-AWGS;Fire control radar;Sensors;1984;Yes;5;Yes;1987;Yes;New;1.5000;1.5000;7.5;No
+21269;Sweden;Malaysia;BOFI-AWGS;Fire control radar;Sensors;1984;Yes;5;Yes;1986;Yes;New;1.5000;1.5000;7.5;No
+20659;Sweden;Malaysia;Sea Giraffe-150;Air search radar;Sensors;1992;No;2;No;1999;No;New;5.0000;5.0000;10;No
+330;Sweden;Malaysia;Handalan;FAC;Ships;1976;No;4;No;1979;No;New;52.0000;52.0000;208;No
+38978;Sweden;Malaysia;SAK-70 Mk-1 57mm;Naval gun;Artillery;1970;Yes;3;No;1973;No;New;2.2500;2.2500;6.75;No
+38978;Sweden;Malaysia;SAK-70 Mk-1 57mm;Naval gun;Artillery;1970;Yes;1;No;1972;No;New;2.2500;2.2500;2.25;No
+37235;Sweden;Malaysia;SAK-70 Mk-1 57mm;Naval gun;Artillery;1981;Yes;2;No;1984;No;New;2.2500;2.2500;4.5;No
+54150;Sweden;Malaysia;SAK-70 Mk-1 57mm;Naval gun;Artillery;1973;Yes;4;No;1976;No;New;2.2500;2.2500;9;No
+54150;Sweden;Malaysia;SAK-70 Mk-1 57mm;Naval gun;Artillery;1973;Yes;2;No;1977;No;New;2.2500;2.2500;4.5;No
+37433;Sweden;Mexico;SAK-70 Mk-2 57mm;Naval gun;Artillery;1998;No;1;No;2003;No;New;2.5000;2.5000;2.5;No
+37433;Sweden;Mexico;SAK-70 Mk-2 57mm;Naval gun;Artillery;1998;No;1;No;2001;No;New;2.5000;2.5000;2.5;No
+37433;Sweden;Mexico;SAK-70 Mk-2 57mm;Naval gun;Artillery;1998;No;2;No;2000;No;New;2.5000;2.5000;5;No
+37433;Sweden;Mexico;SAK-70 Mk-2 57mm;Naval gun;Artillery;1998;No;4;No;1999;No;New;2.5000;2.5000;10;No
+31831;Sweden;Mexico;PS-890 Erieye;AEW&C system;Sensors;2001;No;1;No;2004;Yes;New;30.0000;30.0000;30;No
+29307;Sweden;Mexico;SAK-70 Mk-2 57mm;Naval gun;Artillery;2000;Yes;2;Yes;2007;Yes;New;2.5000;2.5000;5;No
+38234;Sweden;Nigeria;375mm Twin;ASW MRL;ASW weapons;1975;No;2;No;1980;No;New;3.5000;3.5000;7;No
+3561;Sweden;Nigeria;FH-77 155mm;Towed gun;Artillery;1982;No;16;Yes;1984;No;New;1.0000;1.0000;16;No
+3561;Sweden;Nigeria;FH-77 155mm;Towed gun;Artillery;1982;No;16;Yes;1983;No;New;1.0000;1.0000;16;No
+3561;Sweden;Nigeria;FH-77 155mm;Towed gun;Artillery;1982;No;16;Yes;1985;Yes;New;1.0000;1.0000;16;No
+38967;Sweden;Norway;SAK-70 Mk-1 57mm;Naval gun;Artillery;1999;Yes;1;No;2002;No;New;2.2500;2.2500;2.25;No
+38966;Sweden;Norway;SAK-70 Mk-1 57mm;Naval gun;Artillery;1977;No;1;No;1982;No;New;2.2500;2.2500;2.25;No
+38966;Sweden;Norway;SAK-70 Mk-1 57mm;Naval gun;Artillery;1977;No;2;No;1981;No;New;2.2500;2.2500;4.5;No
+29791;Sweden;Norway;Type-613 533mm;AS torpedo;Missiles;1984;Yes;60;Yes;1988;Yes;New;1.2500;1.2500;75;No
+29791;Sweden;Norway;Type-613 533mm;AS torpedo;Missiles;1984;Yes;60;Yes;1984;Yes;New;1.2500;1.2500;75;No
+29791;Sweden;Norway;Type-613 533mm;AS torpedo;Missiles;1984;Yes;60;Yes;1985;Yes;New;1.2500;1.2500;75;No
+29791;Sweden;Norway;Type-613 533mm;AS torpedo;Missiles;1984;Yes;60;Yes;1989;Yes;New;1.2500;1.2500;75;No
+29791;Sweden;Norway;Type-613 533mm;AS torpedo;Missiles;1984;Yes;60;Yes;1986;Yes;New;1.2500;1.2500;75;No
+25917;Sweden;Norway;Hagglunds 20mm;IFV turret;Other;1980;Yes;27;Yes;1982;Yes;New;0.1000;0.1000;2.7;No
+25917;Sweden;Norway;Hagglunds 20mm;IFV turret;Other;1980;Yes;26;Yes;1981;Yes;New;0.1000;0.1000;2.6;No
+25434;Sweden;Norway;ARTHUR;Arty locating radar;Sensors;1997;No;1;Yes;2002;No;New;5.0000;5.0000;5;No
+25434;Sweden;Norway;ARTHUR;Arty locating radar;Sensors;1997;No;5;Yes;2001;No;New;5.0000;5.0000;25;No
+25434;Sweden;Norway;ARTHUR;Arty locating radar;Sensors;1997;No;5;Yes;2000;No;New;5.0000;5.0000;25;No
+25434;Sweden;Norway;ARTHUR;Arty locating radar;Sensors;1997;No;1;Yes;1999;Yes;New;5.0000;5.0000;5;No
+24792;Sweden;Norway;9LV;Fire control radar;Sensors;1990;Yes;2;Yes;1995;Yes;New;2.5000;2.5000;5;No
+24792;Sweden;Norway;9LV;Fire control radar;Sensors;1990;Yes;2;Yes;1994;Yes;New;2.5000;2.5000;5;No
+24790;Sweden;Norway;9LV;Fire control radar;Sensors;1977;Yes;1;No;1982;No;New;2.5000;2.5000;2.5;No
+24790;Sweden;Norway;9LV;Fire control radar;Sensors;1977;Yes;2;No;1981;No;New;2.5000;2.5000;5;No
+19733;Sweden;Norway;Giraffe-75;Air search radar;Sensors;1989;No;3;Yes;1994;No;New;4.0000;4.0000;12;No
+19733;Sweden;Norway;Giraffe-75;Air search radar;Sensors;1989;No;3;Yes;1993;No;New;4.0000;4.0000;12;No
+19733;Sweden;Norway;Giraffe-75;Air search radar;Sensors;1989;No;3;Yes;1992;No;New;4.0000;4.0000;12;No
+17636;Sweden;Norway;MFI-17 Supporter;Trainer aircraft;Aircraft;1986;No;4;No;1987;No;New;0.2200;0.2200;0.88;No
+16729;Sweden;Norway;Giraffe-40;Air search radar;Sensors;1980;No;9;Yes;1984;No;New;3.2500;3.2500;29.25;No
+16729;Sweden;Norway;Giraffe-40;Air search radar;Sensors;1980;No;9;Yes;1983;No;New;3.2500;3.2500;29.25;No
+16729;Sweden;Norway;Giraffe-40;Air search radar;Sensors;1980;No;9;Yes;1982;No;New;3.2500;3.2500;29.25;No
+6944;Sweden;Norway;Saab-91 Safir;Trainer aircraft;Aircraft;1956;Yes;15;Yes;1957;No;New;0.1700;0.1700;2.55;No
+6944;Sweden;Norway;Saab-91 Safir;Trainer aircraft;Aircraft;1956;Yes;10;Yes;1956;No;New;0.1700;0.1700;1.7;No
+4208;Sweden;Norway;MFI-15 Safari;Trainer aircraft;Aircraft;1983;Yes;3;No;1983;No;New;0.1500;0.1500;0.45;No
+2991;Sweden;Norway;MFI-15 Safari;Trainer aircraft;Aircraft;1981;No;16;No;1981;No;New;0.1500;0.1500;2.4;No
+1239;Sweden;Norway;Saab-91 Safir;Trainer aircraft;Aircraft;1978;No;5;Yes;1979;Yes;Second hand;0.1700;0.068;0.34;No
+34773;Sweden;Norway;CEROS-200;Fire control radar;Sensors;2003;No;1;No;2013;No;New;2.5000;2.5000;2.5;No
+34773;Sweden;Norway;CEROS-200;Fire control radar;Sensors;2003;No;2;No;2012;No;New;2.5000;2.5000;5;No
+34773;Sweden;Norway;CEROS-200;Fire control radar;Sensors;2003;No;1;No;2011;No;New;2.5000;2.5000;2.5;No
+34773;Sweden;Norway;CEROS-200;Fire control radar;Sensors;2003;No;2;No;2010;No;New;2.5000;2.5000;5;No
+54154;Sweden;Norway;TAK-76 76mm;Naval gun;Artillery;1964;Yes;10;Yes;1967;No;New;1.5000;1.5000;15;No
+54154;Sweden;Norway;TAK-76 76mm;Naval gun;Artillery;1964;Yes;10;Yes;1966;No;New;1.5000;1.5000;15;No
+22015;Sweden;Norway;CV-9030;IFV;Armoured vehicles;1994;No;36;No;2000;No;New;1.6000;1.6000;57.6;Yes
+22015;Sweden;Norway;CV-9030;IFV;Armoured vehicles;1994;No;40;No;1999;No;New;1.6000;1.6000;64;Yes
+22015;Sweden;Norway;CV-9030;IFV;Armoured vehicles;1994;No;24;No;1998;No;New;1.6000;1.6000;38.4;Yes
+22015;Sweden;Norway;CV-9030;IFV;Armoured vehicles;1994;No;4;No;1996;No;New;1.6000;1.6000;6.4;Yes
+18712;Sweden;Norway;RBS-70;Portable SAM;Missiles;1989;No;500;Yes;1994;No;New;0.1000;0.1000;50;Yes
+18712;Sweden;Norway;RBS-70;Portable SAM;Missiles;1989;No;500;Yes;1993;No;New;0.1000;0.1000;50;Yes
+18712;Sweden;Norway;RBS-70;Portable SAM;Missiles;1989;No;500;Yes;1992;No;New;0.1000;0.1000;50;Yes
+18712;Sweden;Norway;RBS-70;Portable SAM;Missiles;1989;No;500;Yes;1991;No;New;0.1000;0.1000;50;Yes
+4448;Sweden;Norway;RBS-70;Portable SAM;Missiles;1988;No;400;Yes;1992;No;New;0.1000;0.1000;40;Yes
+4448;Sweden;Norway;RBS-70;Portable SAM;Missiles;1988;No;400;Yes;1991;No;New;0.1000;0.1000;40;Yes
+4448;Sweden;Norway;RBS-70;Portable SAM;Missiles;1988;No;200;Yes;1990;No;New;0.1000;0.1000;20;Yes
+4209;Sweden;Norway;RBS-70;Portable SAM;Missiles;1985;No;250;Yes;1990;No;New;0.1000;0.1000;25;Yes
+4209;Sweden;Norway;RBS-70;Portable SAM;Missiles;1985;No;250;Yes;1989;No;New;0.1000;0.1000;25;Yes
+4209;Sweden;Norway;RBS-70;Portable SAM;Missiles;1985;No;250;Yes;1988;No;New;0.1000;0.1000;25;Yes
+4209;Sweden;Norway;RBS-70;Portable SAM;Missiles;1985;No;250;Yes;1987;No;New;0.1000;0.1000;25;Yes
+3835;Sweden;Norway;RBS-70;Portable SAM;Missiles;1987;Yes;125;Yes;1989;Yes;New;0.1000;0.1000;12.5;Yes
+3835;Sweden;Norway;RBS-70;Portable SAM;Missiles;1987;Yes;125;Yes;1990;Yes;New;0.1000;0.1000;12.5;Yes
+17637;Sweden;Norway;Giraffe-40;Air search radar;Sensors;1985;No;10;Yes;1989;No;New;3.2500;3.2500;32.5;Yes
+17637;Sweden;Norway;Giraffe-40;Air search radar;Sensors;1985;No;10;Yes;1990;Yes;New;3.2500;3.2500;32.5;Yes
+17637;Sweden;Norway;Giraffe-40;Air search radar;Sensors;1985;No;10;Yes;1988;Yes;New;3.2500;3.2500;32.5;Yes
+17637;Sweden;Norway;Giraffe-40;Air search radar;Sensors;1985;No;10;Yes;1987;Yes;New;3.2500;3.2500;32.5;Yes
+17637;Sweden;Norway;Giraffe-40;Air search radar;Sensors;1985;No;10;Yes;1986;Yes;New;3.2500;3.2500;32.5;Yes
+17638;Sweden;Norway;ERSTA 120mm;Coastal gun;Artillery;1981;No;2;Yes;1988;Yes;New;5.0000;5.0000;10;No
+17638;Sweden;Norway;ERSTA 120mm;Coastal gun;Artillery;1981;No;3;Yes;1986;No;New;5.0000;5.0000;15;No
+17638;Sweden;Norway;ERSTA 120mm;Coastal gun;Artillery;1981;No;2;No;1989;No;New;5.0000;5.0000;10;No
+17638;Sweden;Norway;ERSTA 120mm;Coastal gun;Artillery;1981;No;1;No;1987;No;New;5.0000;5.0000;5;No
+1238;Sweden;Norway;RBS-70;Portable SAM;Missiles;1978;No;150;Yes;1984;No;New;0.1000;0.1000;15;No
+1238;Sweden;Norway;RBS-70;Portable SAM;Missiles;1978;No;150;Yes;1983;No;New;0.1000;0.1000;15;No
+1238;Sweden;Norway;RBS-70;Portable SAM;Missiles;1978;No;150;Yes;1982;No;New;0.1000;0.1000;15;No
+1238;Sweden;Norway;RBS-70;Portable SAM;Missiles;1978;No;100;Yes;1981;No;New;0.1000;0.1000;10;No
+32790;Sweden;Portugal;375mm Quad;ASW MRL;ASW weapons;1962;Yes;2;Yes;1968;Yes;New;5.0000;5.0000;10;No
+32790;Sweden;Portugal;375mm Quad;ASW MRL;ASW weapons;1962;Yes;2;Yes;1967;Yes;New;5.0000;5.0000;10;No
+32790;Sweden;Portugal;375mm Quad;ASW MRL;ASW weapons;1962;Yes;2;Yes;1966;Yes;New;5.0000;5.0000;10;No
+6494;Sweden;Sierra Leone;MFI-15 Safari;Trainer aircraft;Aircraft;1972;Yes;2;No;1973;No;New;0.1500;0.1500;0.3;No
+23773;Sweden;South Africa;JAS-39C Gripen;FGA aircraft;Aircraft;2000;Yes;7;Yes;2011;No;New;26.3000;26.3000;184.1;No
+23773;Sweden;South Africa;JAS-39C Gripen;FGA aircraft;Aircraft;2000;Yes;6;Yes;2010;No;New;26.3000;26.3000;157.8;No
+23773;Sweden;South Africa;JAS-39C Gripen;FGA aircraft;Aircraft;2000;Yes;4;Yes;2012;No;New;26.3000;26.3000;105.2;No
+28650;Sweden;South Africa;JAS-39C Gripen;FGA aircraft;Aircraft;1999;No;4;No;2009;No;New;26.3000;26.3000;105.2;No
+28650;Sweden;South Africa;JAS-39C Gripen;FGA aircraft;Aircraft;1999;No;5;No;2008;No;New;26.3000;26.3000;131.5;No
+18217;Sweden;Tunisia;Giraffe-40;Air search radar;Sensors;1979;No;6;Yes;1981;No;New;3.2500;3.2500;19.5;No
+18217;Sweden;Tunisia;Giraffe-40;Air search radar;Sensors;1979;No;6;Yes;1980;No;New;3.2500;3.2500;19.5;No
+6771;Sweden;Tunisia;Saab-91 Safir;Trainer aircraft;Aircraft;1959;Yes;14;Yes;1960;No;New;0.1700;0.1700;2.38;No
+1464;Sweden;Tunisia;RBS-70;Portable SAM;Missiles;1979;No;150;Yes;1981;No;New;0.1000;0.1000;15;No
+1464;Sweden;Tunisia;RBS-70;Portable SAM;Missiles;1979;No;150;Yes;1980;No;New;0.1000;0.1000;15;No
+38983;Sweden;Netherlands;375mm Quad;ASW MRL;ASW weapons;1949;Yes;2;No;1958;No;New;5.0000;5.0000;10;No
+38983;Sweden;Netherlands;375mm Quad;ASW MRL;ASW weapons;1949;Yes;8;No;1957;No;New;5.0000;5.0000;40;No
+38983;Sweden;Netherlands;375mm Quad;ASW MRL;ASW weapons;1949;Yes;6;No;1956;No;New;5.0000;5.0000;30;No
+38983;Sweden;Netherlands;375mm Quad;ASW MRL;ASW weapons;1949;Yes;6;No;1955;No;New;5.0000;5.0000;30;No
+38983;Sweden;Netherlands;375mm Quad;ASW MRL;ASW weapons;1949;Yes;2;No;1954;No;New;5.0000;5.0000;10;No
+34277;Sweden;Netherlands;BvS-10;APC;Armoured vehicles;2005;No;20;Yes;2007;No;New;0.2300;0.2300;4.6;No
+34277;Sweden;Netherlands;BvS-10;APC;Armoured vehicles;2005;No;54;Yes;2006;No;New;0.2300;0.2300;12.42;No
+23600;Sweden;Netherlands;TAK-120 L/50 120mm;Naval gun;Artillery;1949;No;2;No;1958;No;New;5.0000;5.0000;10;No
+23600;Sweden;Netherlands;TAK-120 L/50 120mm;Naval gun;Artillery;1949;No;8;No;1957;No;New;5.0000;5.0000;40;No
+23600;Sweden;Netherlands;TAK-120 L/50 120mm;Naval gun;Artillery;1949;No;6;No;1956;No;New;5.0000;5.0000;30;No
+23600;Sweden;Netherlands;TAK-120 L/50 120mm;Naval gun;Artillery;1949;No;6;No;1955;No;New;5.0000;5.0000;30;No
+23600;Sweden;Netherlands;TAK-120 L/50 120mm;Naval gun;Artillery;1949;No;2;No;1954;No;New;5.0000;5.0000;10;No
+15979;Sweden;Netherlands;SAK-60 57mm;Naval gun;Artillery;1947;Yes;8;No;1953;No;New;3.5000;3.5000;28;No
+23599;Sweden;Netherlands;TAK-152 L/53 Twin;Naval gun;Artillery;1946;Yes;8;No;1953;No;New;12.0000;12.0000;96;Yes
+22263;Sweden;Netherlands;CV-9035;IFV;Armoured vehicles;2004;No;34;Yes;2012;No;New;1.8000;1.8000;61.2;Yes
+22263;Sweden;Netherlands;CV-9035;IFV;Armoured vehicles;2004;No;35;Yes;2011;No;New;1.8000;1.8000;63;Yes
+22263;Sweden;Netherlands;CV-9035;IFV;Armoured vehicles;2004;No;35;Yes;2010;No;New;1.8000;1.8000;63;Yes
+22263;Sweden;Netherlands;CV-9035;IFV;Armoured vehicles;2004;No;30;Yes;2009;No;New;1.8000;1.8000;54;Yes
+22263;Sweden;Netherlands;CV-9035;IFV;Armoured vehicles;2004;No;30;Yes;2008;No;New;1.8000;1.8000;54;Yes
+22263;Sweden;Netherlands;CV-9035;IFV;Armoured vehicles;2004;No;20;Yes;2007;No;New;1.8000;1.8000;36;Yes
+52589;Sweden;Netherlands;BvS-10;APC;Armoured vehicles;2007;Yes;32;Yes;2009;Yes;New;0.2600;0.2600;8.32;No
+20945;Sweden;New Zealand;CEROS-200;Fire control radar;Sensors;1991;No;1;No;1999;No;New;2.5000;2.5000;2.5;No
+20945;Sweden;New Zealand;CEROS-200;Fire control radar;Sensors;1991;No;1;No;1997;No;New;2.5000;2.5000;2.5;No
+20944;Sweden;New Zealand;Sea Giraffe-150;Air search radar;Sensors;1991;No;1;No;1999;No;New;5.0000;5.0000;5;No
+20944;Sweden;New Zealand;Sea Giraffe-150;Air search radar;Sensors;1991;No;1;No;1997;No;New;5.0000;5.0000;5;No
+6238;Sweden;Nicaragua;P-51D Mustang;Fighter aircraft;Aircraft;1954;No;26;No;1955;No;Second hand;2.0000;0.8;20.8;No
+32012;Sweden;Poland;Giraffe AMB;Air search radar;Sensors;2001;No;2;Yes;2006;No;New;7.5000;7.5000;15;No
+32012;Sweden;Poland;Giraffe AMB;Air search radar;Sensors;2001;No;1;No;2003;No;New;7.5000;7.5000;7.5;No
+36028;Sweden;Poland;DI-12;Diesel engine (AV);Engines;2003;No;80;Yes;2013;No;New;0.0600;0.0600;4.8;No
+36028;Sweden;Poland;DI-12;Diesel engine (AV);Engines;2003;No;42;Yes;2008;No;New;0.0600;0.0600;2.52;No
+36028;Sweden;Poland;DI-12;Diesel engine (AV);Engines;2003;No;27;Yes;2011;No;New;0.0600;0.0600;1.62;No
+36028;Sweden;Poland;DI-12;Diesel engine (AV);Engines;2003;No;80;Yes;2012;No;New;0.0600;0.0600;4.8;No
+36028;Sweden;Poland;DI-12;Diesel engine (AV);Engines;2003;No;55;Yes;2009;No;New;0.0600;0.0600;3.3;No
+36028;Sweden;Poland;DI-12;Diesel engine (AV);Engines;2003;No;80;Yes;2007;No;New;0.0600;0.0600;4.8;No
+36028;Sweden;Poland;DI-12;Diesel engine (AV);Engines;2003;No;80;Yes;2006;No;New;0.0600;0.0600;4.8;No
+36028;Sweden;Poland;DI-12;Diesel engine (AV);Engines;2003;No;81;Yes;2005;No;New;0.0600;0.0600;4.86;No
+36028;Sweden;Poland;DI-12;Diesel engine (AV);Engines;2003;No;9;No;2004;No;New;0.0600;0.0600;0.54;No
+36028;Sweden;Poland;DI-12;Diesel engine (AV);Engines;2003;No;62;Yes;2010;No;New;0.0600;0.0600;3.72;No
+31582;Sweden;Poland;RBS-15 Mk-3;Anti-ship MI/SSM;Missiles;2006;No;4;Yes;2013;Yes;New;1.2000;1.2000;4.8;No
+31582;Sweden;Poland;RBS-15 Mk-3;Anti-ship MI/SSM;Missiles;2006;No;24;No;2012;No;New;1.2000;1.2000;28.8;No
+31582;Sweden;Poland;RBS-15 Mk-3;Anti-ship MI/SSM;Missiles;2006;No;8;Yes;2011;No;New;1.2000;1.2000;9.6;No
+31084;Sweden;Poland;RBS-15M;Anti-ship missile;Missiles;2006;No;8;No;2007;No;Second hand;1.0000;0.4;3.2;No
+31893;Sweden;Singapore;ARTHUR;Arty locating radar;Sensors;1999;Yes;3;Yes;2003;No;New;5.0000;5.0000;15;No
+29324;Sweden;Singapore;Type-613 533mm;AS torpedo;Missiles;1997;Yes;40;Yes;2001;Yes;New;1.2500;1.2500;50;No
+29324;Sweden;Singapore;Type-613 533mm;AS torpedo;Missiles;1997;Yes;40;Yes;2000;Yes;New;1.2500;1.2500;50;No
+27150;Sweden;Singapore;Giraffe AMB;Air search radar;Sensors;1998;No;1;Yes;1999;No;New;7.5000;7.5000;7.5;No
+27150;Sweden;Singapore;Giraffe AMB;Air search radar;Sensors;1998;No;1;Yes;2001;Yes;New;7.5000;7.5000;7.5;No
+20751;Sweden;Singapore;Sea Giraffe-150;Air search radar;Sensors;1986;Yes;3;No;1991;No;New;5.0000;5.0000;15;No
+20751;Sweden;Singapore;Sea Giraffe-150;Air search radar;Sensors;1986;Yes;3;No;1990;No;New;5.0000;5.0000;15;No
+18596;Sweden;Singapore;Giraffe-40;Air search radar;Sensors;1978;No;4;Yes;1982;No;New;3.2500;3.2500;13;No
+18237;Sweden;Singapore;SAK-70 Mk-1 57mm;Naval gun;Artillery;1970;Yes;1;No;1976;No;New;2.2500;2.2500;2.25;No
+18237;Sweden;Singapore;SAK-70 Mk-1 57mm;Naval gun;Artillery;1970;Yes;1;No;1975;No;New;2.2500;2.2500;2.25;No
+18237;Sweden;Singapore;SAK-70 Mk-1 57mm;Naval gun;Artillery;1970;Yes;2;No;1974;No;New;2.2500;2.2500;4.5;No
+18237;Sweden;Singapore;SAK-70 Mk-1 57mm;Naval gun;Artillery;1970;Yes;2;No;1972;No;New;2.2500;2.2500;4.5;No
+55264;Sweden;Singapore;RBS-70 Mk-3 Bolide;Portable SAM;Missiles;2009;Yes;50;Yes;2011;No;New;0.1200;0.1200;6;No
+35997;Sweden;Singapore;Västergotland;Submarine;Ships;2005;No;1;No;2012;No;Second hand but modernized;150.0000;99;99;No
+35997;Sweden;Singapore;Västergotland;Submarine;Ships;2005;No;1;No;2011;No;Second hand but modernized;150.0000;99;99;No
+29323;Sweden;Singapore;Type-43;ASW torpedo;Missiles;1997;Yes;15;Yes;2000;Yes;New;0.3000;0.3000;4.5;No
+29323;Sweden;Singapore;Type-43;ASW torpedo;Missiles;1997;Yes;15;Yes;2001;Yes;New;0.3000;0.3000;4.5;No
+25263;Sweden;Singapore;Sjöormen;Submarine;Ships;1997;No;1;No;2001;No;Second hand but modernized;110.0000;72.6;72.6;No
+25263;Sweden;Singapore;Sjöormen;Submarine;Ships;1997;No;2;No;2000;No;Second hand but modernized;110.0000;72.6;145.2;No
+23088;Sweden;Singapore;Sjöormen;Submarine;Ships;1995;No;1;No;1997;No;Second hand but modernized;110.0000;72.6;72.6;No
+55148;Sweden;Singapore;Giraffe AMB;Air search radar;Sensors;2010;Yes;2;Yes;2011;No;New;7.5000;7.5000;15;No
+55148;Sweden;Singapore;Giraffe AMB;Air search radar;Sensors;2010;Yes;2;Yes;2012;Yes;New;7.5000;7.5000;15;No
+20418;Sweden;Singapore;Landsort;Minehunter;Ships;1991;No;4;No;1995;No;New;37.5000;37.5000;150;Yes
+4665;Sweden;Singapore;RBS-70;Portable SAM;Missiles;1978;Yes;250;Yes;1981;No;New;0.1000;0.1000;25;Yes
+4665;Sweden;Singapore;RBS-70;Portable SAM;Missiles;1978;Yes;250;Yes;1980;No;New;0.1000;0.1000;25;Yes
+36514;Sweden;Slovenia;DI-12;Diesel engine (AV);Engines;2006;No;3;Yes;2011;No;New;0.0600;0.0600;0.18;No
+36514;Sweden;Slovenia;DI-12;Diesel engine (AV);Engines;2006;No;14;Yes;2010;No;New;0.0600;0.0600;0.84;No
+36514;Sweden;Slovenia;DI-12;Diesel engine (AV);Engines;2006;No;13;Yes;2009;No;New;0.0600;0.0600;0.78;No
+37271;Sweden;Spain;375mm Twin;ASW MRL;ASW weapons;1973;Yes;1;No;1983;No;New;3.5000;3.5000;3.5;No
+37271;Sweden;Spain;375mm Twin;ASW MRL;ASW weapons;1973;Yes;1;No;1982;No;New;3.5000;3.5000;3.5;No
+37271;Sweden;Spain;375mm Twin;ASW MRL;ASW weapons;1973;Yes;2;No;1980;No;New;3.5000;3.5000;7;No
+37271;Sweden;Spain;375mm Twin;ASW MRL;ASW weapons;1973;Yes;1;No;1979;No;New;3.5000;3.5000;3.5;No
+37271;Sweden;Spain;375mm Twin;ASW MRL;ASW weapons;1973;Yes;1;No;1978;No;New;3.5000;3.5000;3.5;No
+30722;Sweden;Spain;Bv-206S;APC;Armoured vehicles;2000;No;10;Yes;2004;Yes;New;0.2300;0.2300;2.3;No
+30722;Sweden;Spain;Bv-206S;APC;Armoured vehicles;2000;No;5;Yes;2003;Yes;New;0.2300;0.2300;1.15;No
+30722;Sweden;Spain;Bv-206S;APC;Armoured vehicles;2000;No;5;Yes;2002;Yes;New;0.2300;0.2300;1.15;No
+56181;Sweden;Spain;Skeldar;UAV;Aircraft;2013;No;1;Yes;2013;No;New;0.2000;0.2000;0.2;No
+39601;Sweden;Spain;ARTHUR;Arty locating radar;Sensors;2006;No;2;Yes;2009;Yes;New;5.0000;5.0000;10;No
+39601;Sweden;Spain;ARTHUR;Arty locating radar;Sensors;2006;No;1;Yes;2008;Yes;New;5.0000;5.0000;5;No
+39601;Sweden;Spain;ARTHUR;Arty locating radar;Sensors;2006;No;1;Yes;2007;Yes;New;5.0000;5.0000;5;No
+34264;Sweden;Thailand;RBS-70;Portable SAM;Missiles;2001;Yes;5;Yes;2002;No;New;0.1000;0.1000;0.5;No
+34264;Sweden;Thailand;RBS-70;Portable SAM;Missiles;2001;Yes;5;Yes;2005;Yes;New;0.1000;0.1000;0.5;No
+34264;Sweden;Thailand;RBS-70;Portable SAM;Missiles;2001;Yes;65;Yes;2003;Yes;New;0.1000;0.1000;6.5;No
+24421;Sweden;Thailand;RBS-70;Portable SAM;Missiles;1996;No;15;No;1997;No;New;0.1000;0.1000;1.5;No
+24388;Sweden;Thailand;Giraffe-40;Air search radar;Sensors;1996;No;1;Yes;1997;No;New;3.2500;3.2500;3.25;No
+50990;Sweden;Thailand;Saab-340AEW;AEW&C aircraft;Aircraft;2010;No;1;No;2012;No;Second hand;60.0000;24;24;No
+50554;Sweden;Thailand;RBS-15M;Anti-ship missile;Missiles;2010;No;13;Yes;2013;No;New;1.0000;1.0000;13;No
+50554;Sweden;Thailand;RBS-15M;Anti-ship missile;Missiles;2010;No;12;Yes;2012;No;New;1.0000;1.0000;12;No
+40351;Sweden;Thailand;Saab-340;Transport aircraft;Aircraft;2008;No;1;No;2010;No;Second hand;8.0000;3.2;3.2;No
+31163;Sweden;Thailand;Saab-340AEW;AEW&C aircraft;Aircraft;2008;No;1;No;2010;No;Second hand;60.0000;24;24;No
+40038;Sweden;Thailand;JAS-39C Gripen;FGA aircraft;Aircraft;2008;No;6;No;2011;No;New;26.3000;26.3000;157.8;No
+34614;Sweden;Thailand;JAS-39C Gripen;FGA aircraft;Aircraft;2010;No;6;No;2013;No;New;26.3000;26.3000;157.8;No
+1463;Sweden;Trinidad and Tobago;Barracuda;Patrol craft;Ships;1978;No;2;No;1980;No;New;10.5000;10.5000;21;No
+32380;Sweden;UAE;Giraffe AMB;Air search radar;Sensors;2004;No;2;Yes;2013;Yes;New;7.5000;7.5000;15;No
+32380;Sweden;UAE;Giraffe AMB;Air search radar;Sensors;2004;No;1;No;2011;No;New;7.5000;7.5000;7.5;No
+24890;Sweden;UAE;9LV;Fire control radar;Sensors;1986;Yes;1;No;1991;No;New;2.5000;2.5000;2.5;No
+24890;Sweden;UAE;9LV;Fire control radar;Sensors;1986;Yes;1;No;1990;No;New;2.5000;2.5000;2.5;No
+24648;Sweden;UAE;9LV;Fire control radar;Sensors;1977;Yes;4;No;1981;No;New;2.5000;2.5000;10;No
+24648;Sweden;UAE;9LV;Fire control radar;Sensors;1977;Yes;2;No;1980;No;New;2.5000;2.5000;5;No
+24647;Sweden;UAE;Giraffe-75;Air search radar;Sensors;1994;Yes;2;Yes;1998;No;New;4.0000;4.0000;8;No
+24647;Sweden;UAE;Giraffe-75;Air search radar;Sensors;1994;Yes;2;Yes;1997;No;New;4.0000;4.0000;8;No
+24647;Sweden;UAE;Giraffe-75;Air search radar;Sensors;1994;Yes;2;Yes;1996;No;New;4.0000;4.0000;8;No
+24646;Sweden;UAE;Giraffe-75;Air search radar;Sensors;1986;Yes;1;No;1991;No;New;4.0000;4.0000;4;No
+24646;Sweden;UAE;Giraffe-75;Air search radar;Sensors;1986;Yes;1;No;1990;No;New;4.0000;4.0000;4;No
+20801;Sweden;UAE;Giraffe-75;Air search radar;Sensors;1986;No;2;No;1990;No;New;4.0000;4.0000;8;No
+20800;Sweden;UAE;9LV;Fire control radar;Sensors;1986;No;2;No;1990;No;New;2.5000;2.5000;5;No
+33450;Sweden;UAE;Saab-340AEW;AEW&C aircraft;Aircraft;2009;No;1;No;2010;No;Second hand but modernized;60.0000;39.6;39.6;No
+33450;Sweden;UAE;Saab-340AEW;AEW&C aircraft;Aircraft;2009;No;1;No;2011;No;Second hand but modernized;60.0000;39.6;39.6;No
+40291;Sweden;UAE;APID-55;UAV;Aircraft;2006;No;5;Yes;2009;No;New;0.2000;0.2000;1;No
+40291;Sweden;UAE;APID-55;UAV;Aircraft;2006;No;2;Yes;2008;Yes;New;0.2000;0.2000;0.4;No
+52883;Sweden;UAE;L-22;Landing craft;Ships;2004;No;2;Yes;2006;No;New;4.3000;4.3000;8.6;Yes
+52883;Sweden;UAE;L-22;Landing craft;Ships;2004;No;2;Yes;2007;No;New;4.3000;4.3000;8.6;Yes
+50980;Sweden;UAE;Ghannatha;FAC;Ships;2009;No;4;Yes;2013;No;New;14.3000;14.3000;57.2;Yes
+1568;Sweden;UAE;RBS-70;Portable SAM;Missiles;1979;No;143;No;1980;No;New;0.1000;0.1000;14.3;No
+38230;Sweden;United Kingdom;Oktania;Oiler;Ships;1985;No;1;No;1986;No;New;65.0000;65.0000;65;No
+30766;Sweden;United Kingdom;ARTHUR;Arty locating radar;Sensors;2002;No;2;Yes;2004;No;New;5.0000;5.0000;10;No
+30766;Sweden;United Kingdom;ARTHUR;Arty locating radar;Sensors;2002;No;2;Yes;2003;No;New;5.0000;5.0000;10;No
+955;Sweden;United Kingdom;Bloodhound-2;SAM;Missiles;1978;No;45;Yes;1979;Yes;Second hand;0.4500;0.18;8.1;No
+52287;Sweden;United Kingdom;Giraffe AMB;Air search radar;Sensors;2008;No;1;Yes;2008;No;New;7.5000;7.5000;7.5;No
+50627;Sweden;United Kingdom;Giraffe AMB;Air search radar;Sensors;2008;No;3;Yes;2013;Yes;New;7.5000;7.5000;22.5;No
+50627;Sweden;United Kingdom;Giraffe AMB;Air search radar;Sensors;2008;No;2;Yes;2012;No;New;7.5000;7.5000;15;No
+51769;Sweden;United Kingdom;NLAW;Anti-tank missile;Missiles;2002;No;4000;Yes;2012;No;New;0.0100;0.0100;40;Yes
+51769;Sweden;United Kingdom;NLAW;Anti-tank missile;Missiles;2002;No;4000;Yes;2011;No;New;0.0100;0.0100;40;Yes
+51769;Sweden;United Kingdom;NLAW;Anti-tank missile;Missiles;2002;No;4000;Yes;2010;No;New;0.0100;0.0100;40;Yes
+51769;Sweden;United Kingdom;NLAW;Anti-tank missile;Missiles;2002;No;2000;Yes;2009;No;New;0.0100;0.0100;20;Yes
+50874;Sweden;United Kingdom;BvS-10;APC;Armoured vehicles;2008;No;9;No;2009;No;New;0.2300;0.2300;2.07;Yes
+39786;Sweden;United Kingdom;BvS-10;APC;Armoured vehicles;2007;No;21;No;2008;No;New;0.2300;0.2300;4.83;Yes
+50326;Sweden;United Kingdom;BvS-10;APC;Armoured vehicles;2008;No;14;No;2008;No;New;0.2300;0.2300;3.22;Yes
+33325;Sweden;United Kingdom;ARTHUR;Arty locating radar;Sensors;2001;Yes;4;No;2002;No;New;5.0000;5.0000;20;No
+51227;Sweden;United Kingdom;BvS-10;APC;Armoured vehicles;2009;No;24;Yes;2010;No;New;0.2300;0.2300;5.52;Yes
+27542;Sweden;United Kingdom;BvS-10;APC;Armoured vehicles;2000;No;40;Yes;2004;No;New;0.2300;0.2300;9.2;Yes
+27542;Sweden;United Kingdom;BvS-10;APC;Armoured vehicles;2000;No;46;Yes;2005;No;New;0.2300;0.2300;10.58;Yes
+27542;Sweden;United Kingdom;BvS-10;APC;Armoured vehicles;2000;No;22;Yes;2002;No;New;0.2300;0.2300;5.06;Yes
+51228;Sweden;United Kingdom;BvS-10;APC;Armoured vehicles;2008;No;12;No;2009;No;New;0.2300;0.2300;2.76;Yes
+51015;Sweden;Uruguay;C-212MP;MP aircraft;Aircraft;2009;No;2;No;2009;No;Second hand;8.5000;3.4;6.8;No
+52484;Sweden;Uruguay;DS-14;Diesel engine;Engines;1990;Yes;22;Yes;1991;No;New;0.0800;0.0800;1.76;No
+29036;Sweden;Venezuela;RBS-70;Portable SAM;Missiles;1999;No;100;Yes;2001;Yes;New;0.1000;0.1000;10;No
+29036;Sweden;Venezuela;RBS-70;Portable SAM;Missiles;1999;No;100;Yes;2000;Yes;New;0.1000;0.1000;10;No
+27128;Sweden;Venezuela;Giraffe-75;Air search radar;Sensors;1998;No;2;Yes;2001;Yes;New;4.0000;4.0000;8;No
+27128;Sweden;Venezuela;Giraffe-75;Air search radar;Sensors;1998;No;2;Yes;2000;Yes;New;4.0000;4.0000;8;No
+19676;Sweden;Venezuela;RBS-70;Portable SAM;Missiles;1989;No;100;Yes;1991;No;New;0.1000;0.1000;10;No
+19676;Sweden;Venezuela;RBS-70;Portable SAM;Missiles;1989;No;100;Yes;1990;No;New;0.1000;0.1000;10;No
+30001;Sweden;United Nations**;M/42 SKPF;APC;Armoured vehicles;1961;Yes;6;Yes;1961;Yes;Second hand;0.1100;0.044;0.264;No
+17523;Sweden;Argentina;RBS-70;Portable SAM;Missiles;1983;Yes;30;Yes;1984;No;New;0.1000;0.1000;3;No
+320;Sweden;Argentina;Rb-53 BANTAM;Anti-tank missile;Missiles;1973;No;100;Yes;1975;Yes;New;0.0100;0.0100;1;No
+320;Sweden;Argentina;Rb-53 BANTAM;Anti-tank missile;Missiles;1973;No;100;Yes;1974;Yes;New;0.0100;0.0100;1;No
+37272;Sweden;Egypt;375mm Twin;ASW MRL;ASW weapons;1982;No;2;No;1984;No;New;3.5000;3.5000;7;No
+31812;Sweden;France;Giraffe AMB;Air search radar;Sensors;2001;No;2;Yes;2004;No;New;7.5000;7.5000;15;No
+31812;Sweden;France;Giraffe AMB;Air search radar;Sensors;2001;No;2;Yes;2003;No;New;7.5000;7.5000;15;No
+27030;Sweden;France;Bv-206S;APC;Armoured vehicles;1999;No;12;No;2000;No;New;0.2300;0.2300;2.76;No
+4667;Sweden;France;375mm Sextuble;ASW MRL;ASW weapons;1950;Yes;2;No;1958;No;New;5.5000;5.5000;11;No
+4667;Sweden;France;375mm Sextuble;ASW MRL;ASW weapons;1950;Yes;5;No;1957;No;New;5.5000;5.5000;27.5;No
+4667;Sweden;France;375mm Sextuble;ASW MRL;ASW weapons;1950;Yes;5;No;1956;No;New;5.5000;5.5000;27.5;No
+4667;Sweden;France;375mm Sextuble;ASW MRL;ASW weapons;1950;Yes;3;No;1955;No;New;5.5000;5.5000;16.5;No
+51489;Sweden;France;BvS-10;APC;Armoured vehicles;2009;No;6;No;2013;No;New;0.2300;0.2300;1.38;No
+51489;Sweden;France;BvS-10;APC;Armoured vehicles;2009;No;44;No;2012;No;New;0.2300;0.2300;10.12;No
+51489;Sweden;France;BvS-10;APC;Armoured vehicles;2009;No;3;No;2011;No;New;0.2300;0.2300;0.69;No
+37273;Sweden;Morocco;375mm Twin;ASW MRL;ASW weapons;1977;No;1;No;1983;No;New;3.5000;3.5000;3.5;No
+24915;Sweden;Oman;9LV;Fire control radar;Sensors;1981;Yes;1;No;1984;No;New;2.5000;2.5000;2.5;No
+24915;Sweden;Oman;9LV;Fire control radar;Sensors;1981;Yes;1;No;1983;No;New;2.5000;2.5000;2.5;No
+24914;Sweden;Oman;9LV;Fire control radar;Sensors;1986;Yes;1;No;1989;No;New;2.5000;2.5000;2.5;No
+24913;Sweden;Oman;9LV;Fire control radar;Sensors;1980;Yes;1;No;1982;No;New;2.5000;2.5000;2.5;No
+24795;Sweden;Oman;CEROS-200;Fire control radar;Sensors;1995;No;1;No;1996;No;New;2.5000;2.5000;2.5;No
+24795;Sweden;Oman;CEROS-200;Fire control radar;Sensors;1995;No;2;No;1995;No;New;2.5000;2.5000;5;No
+53444;Sweden;Oman;CG-29;Patrol craft;Ships;1980;No;1;Yes;1980;Yes;New;3.7000;3.7000;3.7;No
+53444;Sweden;Oman;CG-29;Patrol craft;Ships;1980;No;1;Yes;1981;Yes;New;3.7000;3.7000;3.7;No
+53444;Sweden;Oman;CG-29;Patrol craft;Ships;1980;No;1;Yes;1982;Yes;New;3.7000;3.7000;3.7;No
+34654;Sweden;Pakistan;Saab-2000 AEW;AEW&C aircraft;Aircraft;2006;No;3;Yes;2010;No;New;80.0000;80.0000;240;No
+34654;Sweden;Pakistan;Saab-2000 AEW;AEW&C aircraft;Aircraft;2006;No;1;No;2009;No;New;80.0000;80.0000;80;No
+24791;Sweden;Pakistan;Giraffe-40;Air search radar;Sensors;1993;No;2;Yes;1993;No;New;3.2500;3.2500;6.5;No
+17494;Sweden;Pakistan;Giraffe-40;Air search radar;Sensors;1986;No;4;Yes;1988;No;New;3.2500;3.2500;13;No
+17494;Sweden;Pakistan;Giraffe-40;Air search radar;Sensors;1986;No;4;Yes;1987;Yes;New;3.2500;3.2500;13;No
+1510;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;1973;No;5;Yes;1976;No;New;0.2200;0.2200;1.1;No
+1510;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;1973;No;5;Yes;1975;No;New;0.2200;0.2200;1.1;No
+1510;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;1973;No;5;No;1974;No;New;0.2200;0.2200;1.1;No
+14150;Sweden;Pakistan;Type-43;ASW torpedo;Missiles;1994;No;6;Yes;2004;Yes;New;0.3000;0.3000;1.8;No
+14150;Sweden;Pakistan;Type-43;ASW torpedo;Missiles;1994;No;7;Yes;2003;Yes;New;0.3000;0.3000;2.1;No
+14150;Sweden;Pakistan;Type-43;ASW torpedo;Missiles;1994;No;7;Yes;2002;Yes;New;0.3000;0.3000;2.1;No
+14150;Sweden;Pakistan;Type-43;ASW torpedo;Missiles;1994;No;7;Yes;2001;Yes;New;0.3000;0.3000;2.1;No
+14150;Sweden;Pakistan;Type-43;ASW torpedo;Missiles;1994;No;7;Yes;2000;Yes;New;0.3000;0.3000;2.1;No
+14150;Sweden;Pakistan;Type-43;ASW torpedo;Missiles;1994;No;6;Yes;1999;Yes;New;0.3000;0.3000;1.8;No
+16853;Sweden;Pakistan;RBS-70;Portable SAM;Missiles;1984;No;340;Yes;1987;No;New;0.1000;0.1000;34;No
+16853;Sweden;Pakistan;RBS-70;Portable SAM;Missiles;1984;No;340;Yes;1986;No;New;0.1000;0.1000;34;No
+50466;Sweden;Pakistan;Saab-2000;Transport aircraft;Aircraft;2006;No;1;No;2008;No;Second hand but modernized;10.0000;6.6;6.6;No
+4933;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;2001;Yes;10;Yes;2013;No;New;0.2200;0.2200;2.2;Yes
+4933;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;2001;Yes;10;Yes;2012;No;New;0.2200;0.2200;2.2;Yes
+4933;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;2001;Yes;10;No;2011;No;New;0.2200;0.2200;2.2;Yes
+4933;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;2001;Yes;10;Yes;2008;No;New;0.2200;0.2200;2.2;Yes
+4933;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;2001;Yes;10;Yes;2009;No;New;0.2200;0.2200;2.2;Yes
+4933;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;2001;Yes;10;Yes;2007;No;New;0.2200;0.2200;2.2;Yes
+4933;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;2001;Yes;10;Yes;2006;No;New;0.2200;0.2200;2.2;Yes
+4933;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;2001;Yes;10;Yes;2005;Yes;New;0.2200;0.2200;2.2;Yes
+4933;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;2001;Yes;10;Yes;2004;Yes;New;0.2200;0.2200;2.2;Yes
+4933;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;2001;Yes;10;Yes;2003;Yes;New;0.2200;0.2200;2.2;Yes
+4933;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;2001;Yes;10;Yes;2002;Yes;New;0.2200;0.2200;2.2;Yes
+4933;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;2001;Yes;16;No;2001;No;New;0.2200;0.2200;3.52;Yes
+4933;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;2001;Yes;10;Yes;2010;No;New;0.2200;0.2200;2.2;Yes
+1105;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;1974;No;6;Yes;1997;No;New;0.2200;0.2200;1.32;Yes
+1105;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;1974;No;7;Yes;1996;No;New;0.2200;0.2200;1.54;Yes
+1105;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;1974;No;10;Yes;1995;No;New;0.2200;0.2200;2.2;Yes
+1105;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;1974;No;10;Yes;1994;No;New;0.2200;0.2200;2.2;Yes
+1105;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;1974;No;10;Yes;1993;No;New;0.2200;0.2200;2.2;Yes
+1105;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;1974;No;10;Yes;1992;No;New;0.2200;0.2200;2.2;Yes
+1105;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;1974;No;10;Yes;1991;No;New;0.2200;0.2200;2.2;Yes
+1105;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;1974;No;10;Yes;1990;No;New;0.2200;0.2200;2.2;Yes
+1105;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;1974;No;11;Yes;1989;No;New;0.2200;0.2200;2.42;Yes
+1105;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;1974;No;11;Yes;1988;No;New;0.2200;0.2200;2.42;Yes
+1105;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;1974;No;11;Yes;1987;No;New;0.2200;0.2200;2.42;Yes
+1105;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;1974;No;9;Yes;1986;No;New;0.2200;0.2200;1.98;Yes
+1105;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;1974;No;8;Yes;1985;No;New;0.2200;0.2200;1.76;Yes
+1105;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;1974;No;8;Yes;1984;No;New;0.2200;0.2200;1.76;Yes
+1105;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;1974;No;7;Yes;1983;No;New;0.2200;0.2200;1.54;Yes
+1105;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;1974;No;9;Yes;1982;No;New;0.2200;0.2200;1.98;Yes
+1105;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;1974;No;14;Yes;1981;No;New;0.2200;0.2200;3.08;Yes
+1105;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;1974;No;14;Yes;1980;No;New;0.2200;0.2200;3.08;Yes
+1105;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;1974;No;14;Yes;1979;No;New;0.2200;0.2200;3.08;Yes
+1105;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;1974;No;14;Yes;1978;No;New;0.2200;0.2200;3.08;Yes
+1105;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;1974;No;14;Yes;1977;No;New;0.2200;0.2200;3.08;Yes
+1105;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;1974;No;14;Yes;1976;No;New;0.2200;0.2200;3.08;Yes
+1105;Sweden;Pakistan;MFI-17 Supporter;Trainer aircraft;Aircraft;1974;No;11;Yes;1975;No;New;0.2200;0.2200;2.42;Yes
+15921;Sweden;Pakistan;RBS-70;Portable SAM;Missiles;1985;Yes;50;Yes;2013;No;New;0.1000;0.1000;5;Yes
+15921;Sweden;Pakistan;RBS-70;Portable SAM;Missiles;1985;Yes;50;Yes;2011;No;New;0.1000;0.1000;5;Yes
+15921;Sweden;Pakistan;RBS-70;Portable SAM;Missiles;1985;Yes;50;Yes;2009;No;New;0.1000;0.1000;5;Yes
+15921;Sweden;Pakistan;RBS-70;Portable SAM;Missiles;1985;Yes;50;Yes;2012;No;New;0.1000;0.1000;5;Yes
+15921;Sweden;Pakistan;RBS-70;Portable SAM;Missiles;1985;Yes;50;Yes;2008;No;New;0.1000;0.1000;5;Yes
+15921;Sweden;Pakistan;RBS-70;Portable SAM;Missiles;1985;Yes;50;Yes;2007;No;New;0.1000;0.1000;5;Yes
+15921;Sweden;Pakistan;RBS-70;Portable SAM;Missiles;1985;Yes;50;Yes;2006;Yes;New;0.1000;0.1000;5;Yes
+15921;Sweden;Pakistan;RBS-70;Portable SAM;Missiles;1985;Yes;50;Yes;2005;Yes;New;0.1000;0.1000;5;Yes
+15921;Sweden;Pakistan;RBS-70;Portable SAM;Missiles;1985;Yes;50;Yes;2004;Yes;New;0.1000;0.1000;5;Yes
+15921;Sweden;Pakistan;RBS-70;Portable SAM;Missiles;1985;Yes;50;Yes;2003;Yes;New;0.1000;0.1000;5;Yes
+15921;Sweden;Pakistan;RBS-70;Portable SAM;Missiles;1985;Yes;50;Yes;2002;Yes;New;0.1000;0.1000;5;Yes
+15921;Sweden;Pakistan;RBS-70;Portable SAM;Missiles;1985;Yes;50;Yes;2001;Yes;New;0.1000;0.1000;5;Yes
+15921;Sweden;Pakistan;RBS-70;Portable SAM;Missiles;1985;Yes;50;Yes;2000;Yes;New;0.1000;0.1000;5;Yes
+15921;Sweden;Pakistan;RBS-70;Portable SAM;Missiles;1985;Yes;50;Yes;1999;Yes;New;0.1000;0.1000;5;Yes
+15921;Sweden;Pakistan;RBS-70;Portable SAM;Missiles;1985;Yes;50;Yes;1998;Yes;New;0.1000;0.1000;5;Yes
+15921;Sweden;Pakistan;RBS-70;Portable SAM;Missiles;1985;Yes;50;Yes;1997;Yes;New;0.1000;0.1000;5;Yes
+15921;Sweden;Pakistan;RBS-70;Portable SAM;Missiles;1985;Yes;50;Yes;1996;Yes;New;0.1000;0.1000;5;Yes
+15921;Sweden;Pakistan;RBS-70;Portable SAM;Missiles;1985;Yes;50;Yes;1995;Yes;New;0.1000;0.1000;5;Yes
+15921;Sweden;Pakistan;RBS-70;Portable SAM;Missiles;1985;Yes;50;Yes;1994;Yes;New;0.1000;0.1000;5;Yes
+15921;Sweden;Pakistan;RBS-70;Portable SAM;Missiles;1985;Yes;50;Yes;1993;Yes;New;0.1000;0.1000;5;Yes
+15921;Sweden;Pakistan;RBS-70;Portable SAM;Missiles;1985;Yes;50;Yes;1992;Yes;New;0.1000;0.1000;5;Yes
+15921;Sweden;Pakistan;RBS-70;Portable SAM;Missiles;1985;Yes;50;Yes;1991;Yes;New;0.1000;0.1000;5;Yes
+15921;Sweden;Pakistan;RBS-70;Portable SAM;Missiles;1985;Yes;50;Yes;1990;Yes;New;0.1000;0.1000;5;Yes
+15921;Sweden;Pakistan;RBS-70;Portable SAM;Missiles;1985;Yes;25;Yes;1989;Yes;New;0.1000;0.1000;2.5;Yes
+15921;Sweden;Pakistan;RBS-70;Portable SAM;Missiles;1985;Yes;25;Yes;1988;Yes;New;0.1000;0.1000;2.5;Yes
+15921;Sweden;Pakistan;RBS-70;Portable SAM;Missiles;1985;Yes;50;Yes;2010;No;New;0.1000;0.1000;5;Yes
+52443;Sweden;Saudi Arabia;Saab-2000 AEW;AEW&C aircraft;Aircraft;2010;No;2;Yes;2013;Yes;New;80.0000;80.0000;160;No
+40282;Sweden;Saudi Arabia;RBS-56B Bill-2;Anti-tank missile;Missiles;2005;No;100;Yes;2011;No;New;0.0300;0.0300;3;No
+40282;Sweden;Saudi Arabia;RBS-56B Bill-2;Anti-tank missile;Missiles;2005;No;100;Yes;2010;No;New;0.0300;0.0300;3;No
+28570;Sweden;Switzerland;Hagglunds 20mm;IFV turret;Other;1972;Yes;64;Yes;1975;Yes;New;0.1000;0.1000;6.4;No
+28570;Sweden;Switzerland;Hagglunds 20mm;IFV turret;Other;1972;Yes;64;Yes;1974;Yes;New;0.1000;0.1000;6.4;No
+28570;Sweden;Switzerland;Hagglunds 20mm;IFV turret;Other;1972;Yes;64;Yes;1973;Yes;New;0.1000;0.1000;6.4;No
+22334;Sweden;Switzerland;Rb-53 BANTAM;Anti-tank missile;Missiles;1965;Yes;2000;Yes;1968;No;New;0.0100;0.0100;20;No
+22334;Sweden;Switzerland;Rb-53 BANTAM;Anti-tank missile;Missiles;1965;Yes;2000;Yes;1967;No;New;0.0100;0.0100;20;No
+22334;Sweden;Switzerland;Rb-53 BANTAM;Anti-tank missile;Missiles;1965;Yes;2000;Yes;1966;No;New;0.0100;0.0100;20;No
+22334;Sweden;Switzerland;Rb-53 BANTAM;Anti-tank missile;Missiles;1965;Yes;2000;Yes;1969;Yes;New;0.0100;0.0100;20;No
+21954;Sweden;Switzerland;Bloodhound-2;SAM;Missiles;1978;No;45;Yes;1979;Yes;Second hand;0.4500;0.18;8.1;No
+29726;Sweden;Switzerland;CV-9030;IFV;Armoured vehicles;2000;No;43;Yes;2005;No;New;1.6000;1.6000;68.8;Yes
+29726;Sweden;Switzerland;CV-9030;IFV;Armoured vehicles;2000;No;65;Yes;2003;No;New;1.6000;1.6000;104;Yes
+29726;Sweden;Switzerland;CV-9030;IFV;Armoured vehicles;2000;No;9;Yes;2002;No;New;1.6000;1.6000;14.4;Yes
+29726;Sweden;Switzerland;CV-9030;IFV;Armoured vehicles;2000;No;68;No;2004;No;New;1.6000;1.6000;108.8;Yes
+29726;Sweden;Switzerland;CV-9030;IFV;Armoured vehicles;2000;No;1;No;2001;Yes;New;1.6000;1.6000;1.6;Yes
+25734;Sweden;Switzerland;M/40 105mm;Towed gun;Artillery;1943;Yes;54;Yes;1953;No;New;0.4500;0.4500;24.3;Yes
+25734;Sweden;Switzerland;M/40 105mm;Towed gun;Artillery;1943;Yes;60;Yes;1952;No;New;0.4500;0.4500;27;Yes
+25734;Sweden;Switzerland;M/40 105mm;Towed gun;Artillery;1943;Yes;60;Yes;1951;No;New;0.4500;0.4500;27;Yes
+25734;Sweden;Switzerland;M/40 105mm;Towed gun;Artillery;1943;Yes;60;Yes;1950;No;New;0.4500;0.4500;27;Yes
+33179;Sweden;United States;Giraffe AMB;Air search radar;Sensors;2002;No;2;No;2004;No;New;7.5000;7.5000;15;No
+38896;Sweden;United States;Giraffe AMB;Air search radar;Sensors;2004;Yes;1;No;2010;No;New;7.5000;7.5000;7.5;No
+38895;Sweden;United States;SAK-70 Mk-2 57mm;Naval gun;Artillery;2004;Yes;2;No;2012;No;New;2.5000;2.5000;5;Yes
+38895;Sweden;United States;SAK-70 Mk-2 57mm;Naval gun;Artillery;2004;Yes;1;No;2011;No;New;2.5000;2.5000;2.5;Yes
+38895;Sweden;United States;SAK-70 Mk-2 57mm;Naval gun;Artillery;2004;Yes;2;No;2010;No;New;2.5000;2.5000;5;Yes
+38895;Sweden;United States;SAK-70 Mk-2 57mm;Naval gun;Artillery;2004;Yes;2;No;2008;No;New;2.5000;2.5000;5;Yes
+24023;Sweden;Yugoslavia;SAK-70 Mk-1 57mm;Naval gun;Artillery;1974;No;2;No;1977;No;New;2.2500;2.2500;4.5;No
+24023;Sweden;Yugoslavia;SAK-70 Mk-1 57mm;Naval gun;Artillery;1974;No;4;No;1979;No;New;2.2500;2.2500;9;No
+24023;Sweden;Yugoslavia;SAK-70 Mk-1 57mm;Naval gun;Artillery;1974;No;4;No;1978;No;New;2.2500;2.2500;9;No
+24023;Sweden;Yugoslavia;SAK-70 Mk-1 57mm;Naval gun;Artillery;1974;No;2;No;1980;No;New;2.2500;2.2500;4.5;No
+24022;Sweden;Yugoslavia;9LV;Fire control radar;Sensors;1974;Yes;1;No;1980;No;New;2.5000;2.5000;2.5;No
+24022;Sweden;Yugoslavia;9LV;Fire control radar;Sensors;1974;Yes;2;No;1979;No;New;2.5000;2.5000;5;No
+24022;Sweden;Yugoslavia;9LV;Fire control radar;Sensors;1974;Yes;2;No;1978;No;New;2.5000;2.5000;5;No
+24022;Sweden;Yugoslavia;9LV;Fire control radar;Sensors;1974;Yes;1;No;1977;No;New;2.5000;2.5000;2.5;No
+24021;Sweden;Yugoslavia;9LV;Fire control radar;Sensors;1980;Yes;1;Yes;1988;Yes;New;2.5000;2.5000;2.5;No
+24021;Sweden;Yugoslavia;9LV;Fire control radar;Sensors;1980;Yes;1;Yes;1987;Yes;New;2.5000;2.5000;2.5;No
+21727;Sweden;Yugoslavia;9KR-400;Sea search radar;Sensors;1982;Yes;5;Yes;1983;Yes;New;2.0000;2.0000;10;No
+19549;Sweden;Yugoslavia;RBS-15M;Anti-ship missile;Missiles;1986;No;28;Yes;1990;Yes;New;1.0000;1.0000;28;No
+19549;Sweden;Yugoslavia;RBS-15M;Anti-ship missile;Missiles;1986;No;28;Yes;1989;Yes;New;1.0000;1.0000;28;No
+515;Sweden;Zambia;MFI-17 Supporter;Trainer aircraft;Aircraft;1975;No;10;Yes;1978;No;New;0.2200;0.2200;2.2;No
+515;Sweden;Zambia;MFI-17 Supporter;Trainer aircraft;Aircraft;1975;No;10;Yes;1977;No;New;0.2200;0.2200;2.2;No
+54011;Sweden;Unknown country;ARTHUR;Arty locating radar;Sensors;2010;No;2;Yes;2013;Yes;New;5.0000;5.0000;10;No

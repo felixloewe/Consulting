@@ -1,0 +1,789 @@
+Deal ID;Seller;Buyer;Designation;Description;Armament category;Order date;Order date is estimate;Numbers delivered;Numbers delivered is estimate;Delivery year;Delivery year is estimate;Status;SIPRI estimate;TIV deal unit;TIV delivery values;Local production
+37582;Canada;Australia;PT-6;Turboprop;Engines;1986;No;8;Yes;1988;No;New;0.6000;0.6000;4.8;No
+37582;Canada;Australia;PT-6;Turboprop;Engines;1986;No;18;Yes;1990;No;New;0.6000;0.6000;10.8;No
+37582;Canada;Australia;PT-6;Turboprop;Engines;1986;No;12;Yes;1989;No;New;0.6000;0.6000;7.2;No
+37582;Canada;Australia;PT-6;Turboprop;Engines;1986;No;5;Yes;1987;No;New;0.6000;0.6000;3;No
+29095;Canada;Australia;DHC-2 Beaver;Light aircraft;Aircraft;1955;Yes;1;Yes;1961;No;New;0.3800;0.3800;0.38;No
+29095;Canada;Australia;DHC-2 Beaver;Light aircraft;Aircraft;1955;Yes;1;Yes;1960;Yes;New;0.3800;0.3800;0.38;No
+29095;Canada;Australia;DHC-2 Beaver;Light aircraft;Aircraft;1955;Yes;2;Yes;1957;Yes;New;0.3800;0.3800;0.76;No
+29095;Canada;Australia;DHC-2 Beaver;Light aircraft;Aircraft;1955;Yes;1;No;1955;No;New;0.3800;0.3800;0.38;No
+24570;Canada;Australia;Piranha/LAV-25;IFV;Armoured vehicles;1995;No;14;Yes;1996;No;New;0.8600;0.8600;12.04;No
+7235;Canada;Australia;DHC-4 Caribou;Transport aircraft;Aircraft;1968;Yes;1;Yes;1971;No;New;3.7500;3.7500;3.75;No
+7235;Canada;Australia;DHC-4 Caribou;Transport aircraft;Aircraft;1968;Yes;2;Yes;1968;No;New;3.7500;3.7500;7.5;No
+7235;Canada;Australia;DHC-4 Caribou;Transport aircraft;Aircraft;1968;Yes;1;Yes;1969;Yes;New;3.7500;3.7500;3.75;No
+7229;Canada;Australia;DHC-4 Caribou;Transport aircraft;Aircraft;1963;No;6;Yes;1964;No;New;3.7500;3.7500;22.5;No
+7229;Canada;Australia;DHC-4 Caribou;Transport aircraft;Aircraft;1963;No;6;Yes;1963;No;New;3.7500;3.7500;22.5;No
+7229;Canada;Australia;DHC-4 Caribou;Transport aircraft;Aircraft;1963;No;6;Yes;1965;Yes;New;3.7500;3.7500;22.5;No
+7221;Canada;Australia;DHC-3 Otter;Light transport ac;Aircraft;1953;Yes;2;Yes;1953;Yes;New;0.6300;0.6300;1.26;No
+3985;Canada;Australia;Boeing-707;Transport aircraft;Aircraft;1983;No;2;No;1983;No;Second hand;44.5000;17.8;35.6;No
+27902;Canada;Australia;Piranha;APC;Armoured vehicles;1998;No;3;Yes;2005;No;New;0.2600;0.2600;0.78;Yes
+27902;Canada;Australia;Piranha;APC;Armoured vehicles;1998;No;15;Yes;2004;No;New;0.2600;0.2600;3.9;Yes
+27902;Canada;Australia;Piranha;APC;Armoured vehicles;1998;No;46;Yes;2003;No;New;0.2600;0.2600;11.96;Yes
+27902;Canada;Australia;Piranha;APC;Armoured vehicles;1998;No;5;Yes;2002;No;New;0.2600;0.2600;1.3;Yes
+27900;Canada;Australia;Piranha/LAV-25;IFV;Armoured vehicles;1998;No;20;Yes;2005;No;New;0.8600;0.8600;17.2;Yes
+27900;Canada;Australia;Piranha/LAV-25;IFV;Armoured vehicles;1998;No;40;Yes;2004;No;New;0.8600;0.8600;34.4;Yes
+27900;Canada;Australia;Piranha/LAV-25;IFV;Armoured vehicles;1998;No;21;Yes;2003;No;New;0.8600;0.8600;18.06;Yes
+25689;Canada;Australia;Piranha;APC;Armoured vehicles;1992;No;11;Yes;1996;No;New;0.2600;0.2600;2.86;Yes
+25689;Canada;Australia;Piranha;APC;Armoured vehicles;1992;No;37;Yes;1995;No;New;0.2600;0.2600;9.62;Yes
+25689;Canada;Australia;Piranha;APC;Armoured vehicles;1992;No;16;Yes;1994;No;New;0.2600;0.2600;4.16;Yes
+20948;Canada;Australia;Piranha/LAV-25;IFV;Armoured vehicles;1992;No;8;Yes;1996;No;New;0.8600;0.8600;6.88;Yes
+20948;Canada;Australia;Piranha/LAV-25;IFV;Armoured vehicles;1992;No;20;Yes;1995;No;New;0.8600;0.8600;17.2;Yes
+20948;Canada;Australia;Piranha/LAV-25;IFV;Armoured vehicles;1992;No;5;Yes;1994;No;New;0.8600;0.8600;4.3;Yes
+28464;Canada;Australia;DHC-4 Caribou;Transport aircraft;Aircraft;1964;No;7;No;1966;No;New;3.7500;3.7500;26.25;No
+37597;Canada;Bulgaria;PT-6;Turboprop;Engines;2003;No;6;No;2004;No;New;0.6000;0.6000;3.6;No
+53890;Canada;Burkina Faso;PT-6;Turboprop;Engines;2010;Yes;3;Yes;2011;No;New;0.6000;0.6000;1.8;No
+39442;Canada;Chad;PT-6;Turboprop;Engines;2006;No;1;No;2006;No;New;0.6000;0.6000;0.6;No
+8897;Canada;DR Congo;DHC-5 Buffalo;Transport aircraft;Aircraft;1974;No;3;No;1976;No;New;13.2200;13.2200;39.66;No
+7147;Canada;DR Congo;DHC-4 Caribou;Transport aircraft;Aircraft;1964;Yes;2;No;1966;No;Second hand;3.7500;1.5;3;No
+24476;Canada;Croatia;PT-6;Turboprop;Engines;1996;No;3;Yes;1996;No;New;0.6000;0.6000;1.8;No
+7584;Canada;Cuba;DHC-2 Beaver;Light aircraft;Aircraft;1957;No;3;No;1957;No;New;0.3800;0.3800;1.14;No
+15993;Canada;Ecuador;DHC-5 Buffalo;Transport aircraft;Aircraft;1985;No;1;No;1986;No;New;13.2200;13.2200;13.22;No
+7748;Canada;Ecuador;DHC-5 Buffalo;Transport aircraft;Aircraft;1974;No;2;No;1976;No;New;13.2200;13.2200;26.44;No
+2693;Canada;Ecuador;DHC-5 Buffalo;Transport aircraft;Aircraft;1980;No;1;No;1980;No;New;13.2200;13.2200;13.22;No
+34731;Canada;Ecuador;DA20;Light aircraft;Aircraft;2011;No;6;No;2013;No;New;0.1600;0.1600;0.96;No
+34731;Canada;Ecuador;DA20;Light aircraft;Aircraft;2011;No;6;No;2012;No;New;0.1600;0.1600;0.96;No
+50753;Canada;Ecuador;PT-6;Turboprop;Engines;2008;No;4;Yes;2011;No;New;0.6000;0.6000;2.4;No
+50753;Canada;Ecuador;PT-6;Turboprop;Engines;2008;No;14;Yes;2010;No;New;0.6000;0.6000;8.4;No
+38044;Canada;Angola;PT-6;Turboprop;Engines;1986;No;4;Yes;1988;Yes;New;0.6000;0.6000;2.4;No
+37600;Canada;Angola;PT-6;Turboprop;Engines;1998;No;6;Yes;1998;Yes;New;0.6000;0.6000;3.6;No
+31484;Canada;Angola;AN/APS-504(V);MP aircraft radar;Sensors;1980;No;1;No;1980;No;New;2.5000;2.5000;2.5;No
+25181;Canada;Angola;PT-6;Turboprop;Engines;1986;Yes;8;Yes;1990;No;New;0.6000;0.6000;4.8;No
+20144;Canada;Angola;PT-6;Turboprop;Engines;1986;No;4;No;1987;No;New;0.6000;0.6000;2.4;No
+54343;Canada;Angola;PT-6;Turboprop;Engines;2011;No;6;Yes;2013;No;New;0.6000;0.6000;3.6;No
+37559;Canada;Angola;PT-6;Turboprop;Engines;1981;No;12;No;1982;No;New;0.6000;0.6000;7.2;No
+23662;Canada;Austria;Centurion turret;Tank turret;Other;1979;Yes;87;Yes;1980;Yes;Second hand;0.7500;0.3;26.1;No
+37567;Canada;Austria;PT-6;Turboprop;Engines;1981;No;8;Yes;1984;No;New;0.6000;0.6000;4.8;No
+37567;Canada;Austria;PT-6;Turboprop;Engines;1981;No;2;Yes;1983;No;New;0.6000;0.6000;1.2;No
+37567;Canada;Austria;PT-6;Turboprop;Engines;1981;No;6;No;1985;No;New;0.6000;0.6000;3.6;No
+37160;Canada;Belgium;SQS-505;Sonar;Sensors;1973;Yes;3;No;1979;No;New;5.0000;5.0000;15;No
+37160;Canada;Belgium;SQS-505;Sonar;Sensors;1973;Yes;1;No;1978;No;New;5.0000;5.0000;5;No
+35782;Canada;Belgium;SQS-510;ASW sonar;Sensors;1995;Yes;1;Yes;2004;Yes;New;6.0000;6.0000;6;No
+35782;Canada;Belgium;SQS-510;ASW sonar;Sensors;1995;Yes;1;Yes;2002;Yes;New;6.0000;6.0000;6;No
+35782;Canada;Belgium;SQS-510;ASW sonar;Sensors;1995;Yes;1;Yes;2000;Yes;New;6.0000;6.0000;6;No
+22207;Canada;Belgium;CF-100 Canuck;Fighter aircraft;Aircraft;1956;No;46;Yes;1958;No;New;6.0000;6.0000;276;No
+22207;Canada;Belgium;CF-100 Canuck;Fighter aircraft;Aircraft;1956;No;8;Yes;1957;No;New;6.0000;6.0000;48;No
+14265;Canada;Belgium;Algerine;Minesweeper;Ships;1959;Yes;3;No;1959;No;Second hand;20.0000;8;24;No
+37572;Canada;Bolivia;PT-6;Turboprop;Engines;1977;No;12;No;1981;No;New;0.6000;0.6000;7.2;No
+37572;Canada;Bolivia;PT-6;Turboprop;Engines;1977;No;12;No;1980;No;New;0.6000;0.6000;7.2;No
+8569;Canada;Bolivia;T-33A Shooting Star;Trainer aircraft;Aircraft;1973;Yes;15;Yes;1974;No;Second hand;2.5000;1;15;No
+517;Canada;Bolivia;T-33A Shooting Star;Trainer aircraft;Aircraft;1977;No;5;No;1978;No;Second hand;2.5000;1;5;No
+37564;Canada;Botswana;PT-6;Turboprop;Engines;1989;No;7;Yes;1990;No;New;0.6000;0.6000;4.2;No
+24216;Canada;Botswana;F-5A Freedom Fighter;FGA aircraft;Aircraft;1996;No;10;No;1997;No;Second hand but modernized;8.0000;5.28;52.8;No
+24216;Canada;Botswana;F-5A Freedom Fighter;FGA aircraft;Aircraft;1996;No;3;No;1996;No;Second hand but modernized;8.0000;5.28;15.84;No
+53258;Canada;Botswana;PT-6;Turboprop;Engines;2011;No;5;Yes;2013;No;New;0.6000;0.6000;3;No
+39848;Canada;Botswana;F-5A Freedom Fighter;FGA aircraft;Aircraft;1998;Yes;5;No;2000;Yes;Second hand but modernized;8.0000;5.28;26.4;No
+38013;Canada;Brazil;PT-6;Turboprop;Engines;1975;No;4;Yes;1985;No;New;0.6000;0.6000;2.4;No
+38013;Canada;Brazil;PT-6;Turboprop;Engines;1975;No;4;Yes;1984;No;New;0.6000;0.6000;2.4;No
+38013;Canada;Brazil;PT-6;Turboprop;Engines;1975;No;4;Yes;1983;No;New;0.6000;0.6000;2.4;No
+38013;Canada;Brazil;PT-6;Turboprop;Engines;1975;No;6;Yes;1982;No;New;0.6000;0.6000;3.6;No
+38013;Canada;Brazil;PT-6;Turboprop;Engines;1975;No;6;Yes;1981;No;New;0.6000;0.6000;3.6;No
+38013;Canada;Brazil;PT-6;Turboprop;Engines;1975;No;6;Yes;1980;No;New;0.6000;0.6000;3.6;No
+38013;Canada;Brazil;PT-6;Turboprop;Engines;1975;No;6;Yes;1979;No;New;0.6000;0.6000;3.6;No
+38013;Canada;Brazil;PT-6;Turboprop;Engines;1975;No;4;Yes;1978;Yes;New;0.6000;0.6000;2.4;No
+37793;Canada;Brazil;PW-100;Turboprop/turboshaft;Engines;2005;No;4;No;2009;No;New;1.0000;1.0000;4;No
+37793;Canada;Brazil;PW-100;Turboprop/turboshaft;Engines;2005;No;8;No;2006;No;New;1.0000;1.0000;8;No
+37793;Canada;Brazil;PW-100;Turboprop/turboshaft;Engines;2005;No;8;Yes;2007;No;New;1.0000;1.0000;8;No
+37793;Canada;Brazil;PW-100;Turboprop/turboshaft;Engines;2005;No;4;Yes;2008;No;New;1.0000;1.0000;4;No
+37592;Canada;Brazil;PT-6;Turboprop;Engines;1980;Yes;20;Yes;1988;No;New;0.6000;0.6000;12;No
+37592;Canada;Brazil;PT-6;Turboprop;Engines;1980;Yes;20;Yes;1987;No;New;0.6000;0.6000;12;No
+37592;Canada;Brazil;PT-6;Turboprop;Engines;1980;Yes;20;Yes;1986;No;New;0.6000;0.6000;12;No
+37592;Canada;Brazil;PT-6;Turboprop;Engines;1980;Yes;20;Yes;1985;No;New;0.6000;0.6000;12;No
+37592;Canada;Brazil;PT-6;Turboprop;Engines;1980;Yes;20;Yes;1984;No;New;0.6000;0.6000;12;No
+37592;Canada;Brazil;PT-6;Turboprop;Engines;1980;Yes;10;Yes;1983;No;New;0.6000;0.6000;6;No
+37592;Canada;Brazil;PT-6;Turboprop;Engines;1980;Yes;18;Yes;1991;Yes;New;0.6000;0.6000;10.8;No
+37592;Canada;Brazil;PT-6;Turboprop;Engines;1980;Yes;20;Yes;1990;Yes;New;0.6000;0.6000;12;No
+37592;Canada;Brazil;PT-6;Turboprop;Engines;1980;Yes;20;Yes;1989;Yes;New;0.6000;0.6000;12;No
+37123;Canada;Brazil;PT-6;Turboprop;Engines;2001;Yes;5;Yes;2012;No;New;0.6000;0.6000;3;No
+37123;Canada;Brazil;PT-6;Turboprop;Engines;2001;Yes;12;Yes;2008;No;New;0.6000;0.6000;7.2;No
+37123;Canada;Brazil;PT-6;Turboprop;Engines;2001;Yes;10;Yes;2011;No;New;0.6000;0.6000;6;No
+37123;Canada;Brazil;PT-6;Turboprop;Engines;2001;Yes;12;Yes;2009;No;New;0.6000;0.6000;7.2;No
+37123;Canada;Brazil;PT-6;Turboprop;Engines;2001;Yes;10;Yes;2010;No;New;0.6000;0.6000;6;No
+37123;Canada;Brazil;PT-6;Turboprop;Engines;2001;Yes;12;Yes;2007;No;New;0.6000;0.6000;7.2;No
+37123;Canada;Brazil;PT-6;Turboprop;Engines;2001;Yes;12;Yes;2006;No;New;0.6000;0.6000;7.2;No
+37123;Canada;Brazil;PT-6;Turboprop;Engines;2001;Yes;12;Yes;2005;No;New;0.6000;0.6000;7.2;No
+37123;Canada;Brazil;PT-6;Turboprop;Engines;2001;Yes;2;Yes;2003;No;New;0.6000;0.6000;1.2;No
+37123;Canada;Brazil;PT-6;Turboprop;Engines;2001;Yes;12;Yes;2004;No;New;0.6000;0.6000;7.2;No
+32191;Canada;Brazil;Model-56 105mm;Towed gun;Artillery;2000;Yes;8;No;2000;No;Second hand;0.4500;0.18;1.44;No
+29426;Canada;Brazil;IRIS;AGS radar;Sensors;1997;No;1;Yes;2003;No;New;5.0000;5.0000;5;No
+29426;Canada;Brazil;IRIS;AGS radar;Sensors;1997;No;2;Yes;2002;No;New;5.0000;5.0000;10;No
+24667;Canada;Brazil;S-2A Tracker;ASW aircraft;Aircraft;1960;No;2;No;1961;No;New;6.0000;6.0000;12;No
+21356;Canada;Brazil;DHC-5 Buffalo;Transport aircraft;Aircraft;1965;Yes;6;No;1970;No;New;13.2200;13.2200;79.32;No
+21356;Canada;Brazil;DHC-5 Buffalo;Transport aircraft;Aircraft;1965;Yes;5;No;1969;No;New;13.2200;13.2200;66.1;No
+21356;Canada;Brazil;DHC-5 Buffalo;Transport aircraft;Aircraft;1965;Yes;7;No;1968;No;New;13.2200;13.2200;92.54;No
+7377;Canada;Brazil;DHC-5 Buffalo;Transport aircraft;Aircraft;1967;No;1;No;1971;No;New;13.2200;13.2200;13.22;No
+7377;Canada;Brazil;DHC-5 Buffalo;Transport aircraft;Aircraft;1967;No;5;No;1970;No;New;13.2200;13.2200;66.1;No
+50384;Canada;Brazil;Model-56 105mm;Towed gun;Artillery;2006;Yes;6;No;2007;No;Second hand;0.4500;0.18;1.08;No
+37560;Canada;Brunei;PT-6;Turboprop;Engines;1996;Yes;4;No;1997;No;New;0.6000;0.6000;2.4;No
+55384;Canada;Cambodia;PW-100;Turboprop/turboshaft;Engines;2012;No;4;Yes;2012;No;New;1.0000;1.0000;4;No
+14485;Canada;Cameroon;DHC-5 Buffalo;Transport aircraft;Aircraft;1985;No;1;Yes;1985;No;New;13.2200;13.2200;13.22;No
+3168;Canada;Cameroon;DHC-5 Buffalo;Transport aircraft;Aircraft;1981;No;2;No;1981;No;New;13.2200;13.2200;26.44;No
+2406;Canada;Cameroon;DHC-4 Caribou;Transport aircraft;Aircraft;1970;Yes;2;Yes;1971;No;New;3.7500;3.7500;7.5;No
+4551;Canada;Cameroon;DHC-5 Buffalo;Transport aircraft;Aircraft;1982;No;2;No;1982;No;New;13.2200;13.2200;26.44;No
+37571;Canada;Chile;PT-6;Turboprop;Engines;1979;No;10;No;1980;No;New;0.6000;0.6000;6;No
+23004;Canada;Chile;Rogers;Icebreaker;Ships;1995;No;1;No;1995;No;Second hand;50.0000;20;20;No
+7472;Canada;Chile;DHC-6 Twin Otter;Transport aircraft;Aircraft;1966;No;4;Yes;1967;No;New;2.2500;2.2500;9;No
+7472;Canada;Chile;DHC-6 Twin Otter;Transport aircraft;Aircraft;1966;No;4;Yes;1966;No;New;2.2500;2.2500;9;No
+7460;Canada;Chile;DHC-3 Otter;Light transport ac;Aircraft;1960;Yes;4;No;1961;No;New;0.6300;0.6300;2.52;No
+7456;Canada;Chile;DHC-3 Otter;Light transport ac;Aircraft;1955;Yes;5;No;1957;No;New;0.6300;0.6300;3.15;No
+7445;Canada;Chile;DHC-2 Beaver;Light aircraft;Aircraft;1950;Yes;8;No;1952;No;New;0.3800;0.3800;3.04;No
+2955;Canada;Chile;DHC-5 Buffalo;Transport aircraft;Aircraft;1979;Yes;1;No;1980;No;New;13.2200;13.2200;13.22;No
+1030;Canada;Chile;DHC-6 Twin Otter;Transport aircraft;Aircraft;1977;No;6;No;1977;No;New;2.2500;2.2500;13.5;No
+50131;Canada;Chile;PT-6;Turboprop;Engines;2008;No;4;Yes;2009;No;New;0.6000;0.6000;2.4;No
+50131;Canada;Chile;PT-6;Turboprop;Engines;2008;No;8;Yes;2010;No;New;0.6000;0.6000;4.8;No
+40110;Canada;Chile;PW-100;Turboprop/turboshaft;Engines;2007;No;2;No;2010;No;New;1.0000;1.0000;2;No
+40110;Canada;Chile;PW-100;Turboprop/turboshaft;Engines;2007;No;4;No;2011;No;New;1.0000;1.0000;4;No
+24194;Canada;Chile;Aquiles;Transport ship;Ships;1985;No;1;No;1988;No;New;35.0000;35.0000;35;Yes
+37125;Canada;Colombia;PT-6;Turboprop;Engines;2005;No;10;No;2007;No;New;0.6000;0.6000;6;No
+37125;Canada;Colombia;PT-6;Turboprop;Engines;2005;No;5;No;2006;No;New;0.6000;0.6000;3;No
+37125;Canada;Colombia;PT-6;Turboprop;Engines;2005;No;10;Yes;2008;No;New;0.6000;0.6000;6;No
+34332;Canada;Colombia;AN/APS-504(V);MP aircraft radar;Sensors;2002;Yes;2;No;2003;No;New;2.5000;2.5000;5;No
+37602;Canada;Colombia;PT-6;Turboprop;Engines;1992;No;7;No;1993;No;New;0.6000;0.6000;4.2;No
+37602;Canada;Colombia;PT-6;Turboprop;Engines;1992;No;7;No;1992;No;New;0.6000;0.6000;4.2;No
+8638;Canada;Colombia;F-86F Sabre;Fighter aircraft;Aircraft;1954;Yes;6;No;1956;No;New;3.5000;3.5000;21;No
+7550;Canada;Colombia;DHC-2 Beaver;Light aircraft;Aircraft;1950;Yes;10;Yes;1952;No;New;0.3800;0.3800;3.8;No
+7550;Canada;Colombia;DHC-2 Beaver;Light aircraft;Aircraft;1950;Yes;10;Yes;1951;No;New;0.3800;0.3800;3.8;No
+7546;Canada;Colombia;DHC-3 Otter;Light transport ac;Aircraft;1964;Yes;4;Yes;1964;Yes;New;0.6300;0.6300;2.52;No
+55704;Canada;Colombia;PW-100;Turboprop/turboshaft;Engines;2012;No;2;No;2013;No;New;1.0000;1.0000;2;No
+55219;Canada;Colombia;PW-100;Turboprop/turboshaft;Engines;2012;No;2;No;2013;No;New;1.0000;1.0000;2;No
+51734;Canada;Colombia;AN/APS-504(V);MP aircraft radar;Sensors;2009;No;1;No;2010;Yes;New;2.5000;2.5000;2.5;No
+50464;Canada;Colombia;PW-100;Turboprop/turboshaft;Engines;2007;No;2;No;2009;No;New;1.0000;1.0000;2;No
+50464;Canada;Colombia;PW-100;Turboprop/turboshaft;Engines;2007;No;6;No;2008;No;New;1.0000;1.0000;6;No
+37580;Canada;Cyprus;PT-6;Turboprop;Engines;1987;No;1;No;1990;No;New;0.6000;0.6000;0.6;No
+37580;Canada;Cyprus;PT-6;Turboprop;Engines;1987;No;1;No;1989;No;New;0.6000;0.6000;0.6;No
+51494;Canada;Czech Republic;PW-100;Turboprop/turboshaft;Engines;2009;No;8;Yes;2011;No;New;1.0000;1.0000;8;No
+31028;Canada;Denmark;Challenger-604 SM;MP aircraft;Aircraft;2000;No;2;No;2001;No;New;18.0000;18.0000;36;No
+26073;Canada;Denmark;Centurion AVLB;ABL;Armoured vehicles;1977;Yes;4;No;1978;Yes;Second hand;0.8000;0.32;1.28;No
+25983;Canada;Denmark;Challenger-604 SM;MP aircraft;Aircraft;1998;No;1;No;1999;No;New;18.0000;18.0000;18;No
+8925;Canada;Denmark;M-10;Tank;Armoured vehicles;1954;Yes;48;No;1955;No;Second hand;0.8000;0.32;15.36;No
+8660;Canada;Denmark;F-104G Starfighter;FGA aircraft;Aircraft;1971;No;22;No;1972;No;Second hand;11.2000;4.48;98.56;No
+22836;Canada;Denmark;Firefly;FGA aircraft;Aircraft;1951;Yes;4;Yes;1951;Yes;Second hand;2.0000;0.8;3.2;No
+35869;Canada;Dominican Republic;Bell-206/OH-58;Light helicopter;Aircraft;2003;Yes;8;No;2005;No;Second hand;0.7000;0.28;2.24;No
+7721;Canada;Dominican Republic;DHC-2 Beaver;Light aircraft;Aircraft;1960;Yes;2;Yes;1962;Yes;Second hand;0.3800;0.152;0.304;No
+7716;Canada;Dominican Republic;DHC-2 Beaver;Light aircraft;Aircraft;1951;No;1;No;1951;Yes;New;0.3800;0.3800;0.38;No
+50584;Canada;Dominican Republic;PT-6;Turboprop;Engines;2008;No;6;No;2010;No;New;0.6000;0.6000;3.6;No
+50584;Canada;Dominican Republic;PT-6;Turboprop;Engines;2008;No;2;No;2009;No;New;0.6000;0.6000;1.2;No
+3369;Canada;Ethiopia;DHC-6 Twin Otter;Transport aircraft;Aircraft;1976;Yes;3;No;1976;No;New;2.2500;2.2500;6.75;No
+651;Canada;Ethiopia;T-33A Shooting Star;Trainer aircraft;Aircraft;1972;Yes;5;Yes;1972;Yes;Second hand;2.5000;1;5;No
+654;Canada;Ethiopia;Firefly;FGA aircraft;Aircraft;1953;Yes;9;No;1954;No;Second hand;2.0000;0.8;7.2;No
+7904;Canada;Finland;DHC-2 Beaver;Light aircraft;Aircraft;1957;Yes;2;No;1958;No;New;0.3800;0.3800;0.76;No
+52326;Canada;Finland;PW-100;Turboprop/turboshaft;Engines;2010;No;2;No;2011;No;New;1.0000;1.0000;2;No
+50465;Canada;Finland;PW-100;Turboprop/turboshaft;Engines;2006;No;4;No;2007;No;New;1.0000;1.0000;4;No
+55470;Canada;Gabon;PW-100;Turboprop/turboshaft;Engines;1985;No;2;No;1989;No;New;1.0000;1.0000;2;No
+38043;Canada;Gabon;PT-6;Turboprop;Engines;1980;No;2;No;1981;No;New;0.6000;0.6000;1.2;No
+37581;Canada;Germany (FRG);PT-6;Turboprop;Engines;1989;No;5;Yes;1990;No;New;0.6000;0.6000;3;No
+37581;Canada;Germany (FRG);PT-6;Turboprop;Engines;1989;No;5;No;1991;No;New;0.6000;0.6000;3;No
+34106;Canada;Germany (FRG);CL-89;UAV;Aircraft;1965;No;5;Yes;1970;No;New;0.2000;0.2000;1;No
+34106;Canada;Germany (FRG);CL-89;UAV;Aircraft;1965;No;5;Yes;1969;No;New;0.2000;0.2000;1;No
+34106;Canada;Germany (FRG);CL-89;UAV;Aircraft;1965;No;5;Yes;1982;No;New;0.2000;0.2000;1;No
+34106;Canada;Germany (FRG);CL-89;UAV;Aircraft;1965;No;10;Yes;1976;Yes;New;0.2000;0.2000;2;No
+34106;Canada;Germany (FRG);CL-89;UAV;Aircraft;1965;No;10;Yes;1977;Yes;New;0.2000;0.2000;2;No
+34106;Canada;Germany (FRG);CL-89;UAV;Aircraft;1965;No;5;Yes;1972;No;New;0.2000;0.2000;1;No
+34106;Canada;Germany (FRG);CL-89;UAV;Aircraft;1965;No;5;Yes;1981;Yes;New;0.2000;0.2000;1;No
+34106;Canada;Germany (FRG);CL-89;UAV;Aircraft;1965;No;10;Yes;1974;No;New;0.2000;0.2000;2;No
+34106;Canada;Germany (FRG);CL-89;UAV;Aircraft;1965;No;10;Yes;1973;No;New;0.2000;0.2000;2;No
+34106;Canada;Germany (FRG);CL-89;UAV;Aircraft;1965;No;5;Yes;1971;No;New;0.2000;0.2000;1;No
+34106;Canada;Germany (FRG);CL-89;UAV;Aircraft;1965;No;10;Yes;1978;Yes;New;0.2000;0.2000;2;No
+34106;Canada;Germany (FRG);CL-89;UAV;Aircraft;1965;No;5;Yes;1979;Yes;New;0.2000;0.2000;1;No
+34106;Canada;Germany (FRG);CL-89;UAV;Aircraft;1965;No;5;Yes;1980;Yes;New;0.2000;0.2000;1;No
+34106;Canada;Germany (FRG);CL-89;UAV;Aircraft;1965;No;10;Yes;1975;No;New;0.2000;0.2000;2;No
+7913;Canada;Germany (FRG);F-86F Sabre;Fighter aircraft;Aircraft;1955;Yes;35;Yes;1958;No;Second hand;3.5000;1.4;49;No
+7913;Canada;Germany (FRG);F-86F Sabre;Fighter aircraft;Aircraft;1955;Yes;40;No;1957;No;Second hand;3.5000;1.4;56;No
+5065;Canada;Ghana;DHC-2 Beaver;Light aircraft;Aircraft;1960;No;14;No;1961;No;New;0.3800;0.3800;5.32;No
+5064;Canada;Ghana;DHC-3 Otter;Light transport ac;Aircraft;1960;No;12;No;1961;No;New;0.6300;0.6300;7.56;No
+5063;Canada;Ghana;DHC-4 Caribou;Transport aircraft;Aircraft;1960;Yes;8;No;1961;No;New;3.7500;3.7500;30;No
+37575;Canada;Greece;PT-6;Turboprop;Engines;1999;No;15;Yes;2003;No;New;0.6000;0.6000;9;No
+37575;Canada;Greece;PT-6;Turboprop;Engines;1999;No;15;Yes;2002;No;New;0.6000;0.6000;9;No
+37575;Canada;Greece;PT-6;Turboprop;Engines;1999;No;12;Yes;2001;No;New;0.6000;0.6000;7.2;No
+37575;Canada;Greece;PT-6;Turboprop;Engines;1999;No;3;Yes;2000;No;New;0.6000;0.6000;1.8;No
+37162;Canada;Greece;SQS-505;Sonar;Sensors;1980;No;1;No;1982;No;New;5.0000;5.0000;5;No
+37162;Canada;Greece;SQS-505;Sonar;Sensors;1980;No;1;No;1981;No;New;5.0000;5.0000;5;No
+32062;Canada;Greece;CL-415MP;MP aircraft;Aircraft;1999;No;1;No;2005;No;New;20.0000;20.0000;20;No
+32062;Canada;Greece;CL-415MP;MP aircraft;Aircraft;1999;No;1;No;2004;No;New;20.0000;20.0000;20;No
+26267;Canada;Greece;T-33A Shooting Star;Trainer aircraft;Aircraft;1957;Yes;11;Yes;1959;No;New;2.5000;2.5000;27.5;No
+26267;Canada;Greece;T-33A Shooting Star;Trainer aircraft;Aircraft;1957;Yes;11;Yes;1958;No;New;2.5000;2.5000;27.5;No
+5114;Canada;Greece;T-33A Shooting Star;Trainer aircraft;Aircraft;1954;Yes;9;No;1955;No;New;2.5000;2.5000;22.5;No
+5113;Canada;Greece;F-86F Sabre;Fighter aircraft;Aircraft;1953;Yes;52;Yes;1955;No;Second hand;3.5000;1.4;72.8;No
+5113;Canada;Greece;F-86F Sabre;Fighter aircraft;Aircraft;1953;Yes;52;Yes;1954;No;Second hand;3.5000;1.4;72.8;No
+37570;Canada;Guatemala;PT-6;Turboprop;Engines;1978;No;5;Yes;1981;No;New;0.6000;0.6000;3;No
+37570;Canada;Guatemala;PT-6;Turboprop;Engines;1978;No;4;Yes;1980;No;New;0.6000;0.6000;2.4;No
+37570;Canada;Guatemala;PT-6;Turboprop;Engines;1978;No;3;Yes;1979;No;New;0.6000;0.6000;1.8;No
+37635;Canada;Haiti;JT15;Turbofan;Engines;1983;No;4;No;1985;No;New;0.4000;0.4000;1.6;No
+16326;Canada;Haiti;DHC-6 Twin Otter;Transport aircraft;Aircraft;1982;Yes;1;No;1983;No;New;2.2500;2.2500;2.25;No
+22069;Canada;India;DHC-3 Otter;Light transport ac;Aircraft;1967;No;3;No;1967;No;New;0.6300;0.6300;1.89;No
+8056;Canada;India;DHC-4 Caribou;Transport aircraft;Aircraft;1963;Yes;15;No;1964;No;New;3.7500;3.7500;56.25;No
+8056;Canada;India;DHC-4 Caribou;Transport aircraft;Aircraft;1963;Yes;1;No;1963;No;New;3.7500;3.7500;3.75;No
+5316;Canada;India;DHC-3 Otter;Light transport ac;Aircraft;1956;No;10;Yes;1958;No;New;0.6300;0.6300;6.3;No
+5316;Canada;India;DHC-3 Otter;Light transport ac;Aircraft;1956;No;10;Yes;1957;No;New;0.6300;0.6300;6.3;No
+5316;Canada;India;DHC-3 Otter;Light transport ac;Aircraft;1956;No;6;Yes;1956;No;New;0.6300;0.6300;3.78;No
+5279;Canada;India;DHC-4 Caribou;Transport aircraft;Aircraft;1967;Yes;4;No;1968;No;New;3.7500;3.7500;15;No
+53521;Canada;India;PT-6;Turboprop;Engines;2012;No;30;Yes;2013;No;New;0.6000;0.6000;18;No
+37266;Canada;India;SQS-505;Sonar;Sensors;1984;Yes;1;Yes;1988;Yes;New;5.0000;5.0000;5;No
+37266;Canada;India;SQS-505;Sonar;Sensors;1984;Yes;2;Yes;1987;Yes;New;5.0000;5.0000;10;No
+37266;Canada;India;SQS-505;Sonar;Sensors;1984;Yes;1;Yes;1986;Yes;New;5.0000;5.0000;5;No
+37266;Canada;India;SQS-505;Sonar;Sensors;1984;Yes;1;Yes;1985;Yes;New;5.0000;5.0000;5;No
+8059;Canada;India;DHC-3 Otter;Light transport ac;Aircraft;1962;No;5;No;1963;Yes;New;0.6300;0.6300;3.15;No
+8058;Canada;India;DC-3/C-47 Skytrain;Transport aircraft;Aircraft;1963;No;6;No;1963;No;Second hand;2.5000;1;6;No
+8057;Canada;India;T-6 Texan;Trainer aircraft;Aircraft;1962;No;36;No;1963;No;Second hand;0.3200;0.128;4.608;No
+37614;Canada;Indonesia;PT-6;Turboprop;Engines;2005;No;3;Yes;2008;No;New;0.6000;0.6000;1.8;No
+37614;Canada;Indonesia;PT-6;Turboprop;Engines;2005;No;2;Yes;2007;No;New;0.6000;0.6000;1.2;No
+37332;Canada;Indonesia;PT-6;Turboprop;Engines;2001;No;1;Yes;2005;No;New;0.6000;0.6000;0.6;No
+37332;Canada;Indonesia;PT-6;Turboprop;Engines;2001;No;6;Yes;2003;No;New;0.6000;0.6000;3.6;No
+35017;Canada;Indonesia;DHC-2 Beaver;Light aircraft;Aircraft;1960;Yes;1;Yes;1961;Yes;New;0.3800;0.3800;0.38;No
+14676;Canada;Indonesia;DHC-3 Otter;Light transport ac;Aircraft;1959;Yes;3;No;1960;No;New;0.6300;0.6300;1.89;No
+8065;Canada;Indonesia;DHC-3 Otter;Light transport ac;Aircraft;1958;Yes;2;No;1959;No;Second hand;0.6300;0.252;0.504;No
+5342;Canada;Indonesia;DHC-3 Otter;Light transport ac;Aircraft;1956;No;2;No;1958;No;New;0.6300;0.6300;1.26;No
+57109;Canada;Indonesia;AN/APS-504(V);MP aircraft radar;Sensors;1980;No;3;No;1982;No;New;2.5000;2.5000;7.5;No
+57109;Canada;Indonesia;AN/APS-504(V);MP aircraft radar;Sensors;1980;No;3;No;1981;No;New;2.5000;2.5000;7.5;No
+54204;Canada;Indonesia;PW-100;Turboprop/turboshaft;Engines;2012;No;6;Yes;2013;No;New;1.0000;1.0000;6;No
+54204;Canada;Indonesia;PW-100;Turboprop/turboshaft;Engines;2012;No;4;Yes;2012;No;New;1.0000;1.0000;4;No
+55788;Canada;Indonesia;PT-6;Turboprop;Engines;2005;Yes;1;Yes;2011;Yes;New;0.6000;0.6000;0.6;No
+55788;Canada;Indonesia;PT-6;Turboprop;Engines;2005;Yes;7;Yes;2012;No;New;0.6000;0.6000;4.2;No
+53990;Canada;Indonesia;PT-6;Turboprop;Engines;2011;No;4;Yes;2012;No;New;0.6000;0.6000;2.4;No
+37611;Canada;Iran;PT-6;Turboprop;Engines;1988;No;20;Yes;1991;No;New;0.6000;0.6000;12;No
+37611;Canada;Iran;PT-6;Turboprop;Engines;1988;No;3;Yes;1990;No;New;0.6000;0.6000;1.8;No
+37611;Canada;Iran;PT-6;Turboprop;Engines;1988;No;2;Yes;1989;No;New;0.6000;0.6000;1.2;No
+37565;Canada;Iran;PT-6;Turboprop;Engines;1983;Yes;35;Yes;1984;No;New;0.6000;0.6000;21;No
+5421;Canada;Iran;DHC-2 Beaver;Light aircraft;Aircraft;1954;Yes;4;Yes;1955;Yes;New;0.3800;0.3800;1.52;No
+5415;Canada;Iran;DHC-2 Beaver;Light aircraft;Aircraft;1959;Yes;2;Yes;1960;Yes;New;0.3800;0.3800;0.76;No
+37596;Canada;Iraq;PT-6;Turboprop;Engines;1986;No;3;No;1990;No;New;0.6000;0.6000;1.8;No
+37596;Canada;Iraq;PT-6;Turboprop;Engines;1986;No;8;No;1989;No;New;0.6000;0.6000;4.8;No
+37596;Canada;Iraq;PT-6;Turboprop;Engines;1986;No;9;No;1988;No;New;0.6000;0.6000;5.4;No
+36262;Canada;Iraq;CH-2000;Light aircraft;Aircraft;2005;Yes;4;Yes;2007;No;New;0.1100;0.1100;0.44;No
+36262;Canada;Iraq;CH-2000;Light aircraft;Aircraft;2005;Yes;4;Yes;2008;Yes;New;0.1100;0.1100;0.44;No
+35349;Canada;Iraq;CH-2000;Light aircraft;Aircraft;2004;No;3;Yes;2006;No;New;0.1100;0.1100;0.33;No
+35349;Canada;Iraq;CH-2000;Light aircraft;Aircraft;2004;No;2;No;2007;No;New;0.1100;0.1100;0.22;No
+35349;Canada;Iraq;CH-2000;Light aircraft;Aircraft;2004;No;3;Yes;2005;No;New;0.1100;0.1100;0.33;No
+37604;Canada;Iraq;PT-6;Turboprop;Engines;1983;No;30;Yes;1988;No;New;0.6000;0.6000;18;No
+37604;Canada;Iraq;PT-6;Turboprop;Engines;1983;No;20;Yes;1987;No;New;0.6000;0.6000;12;No
+37604;Canada;Iraq;PT-6;Turboprop;Engines;1983;No;20;Yes;1986;No;New;0.6000;0.6000;12;No
+37604;Canada;Iraq;PT-6;Turboprop;Engines;1983;No;10;Yes;1985;No;New;0.6000;0.6000;6;No
+5479;Canada;Iraq;DHC-2 Beaver;Light aircraft;Aircraft;1954;Yes;1;No;1955;Yes;New;0.3800;0.3800;0.38;No
+51478;Canada;Iraq;PT-6;Turboprop;Engines;2009;No;11;No;2010;No;New;0.6000;0.6000;6.6;No
+51478;Canada;Iraq;PT-6;Turboprop;Engines;2009;No;4;No;2009;No;New;0.6000;0.6000;2.4;No
+37563;Canada;Iraq;PT-6;Turboprop;Engines;1979;Yes;5;Yes;1981;Yes;New;0.6000;0.6000;3;No
+37563;Canada;Iraq;PT-6;Turboprop;Engines;1979;Yes;5;Yes;1980;Yes;New;0.6000;0.6000;3;No
+37563;Canada;Iraq;PT-6;Turboprop;Engines;1979;Yes;7;Yes;1982;No;New;0.6000;0.6000;4.2;No
+37563;Canada;Iraq;PT-6;Turboprop;Engines;1979;Yes;35;No;1983;No;New;0.6000;0.6000;21;No
+37579;Canada;Ireland;PT-6;Turboprop;Engines;2002;Yes;8;No;2004;No;New;0.6000;0.6000;4.8;No
+31122;Canada;Ireland;AN/APS-504(V);MP aircraft radar;Sensors;1991;Yes;2;No;1994;No;New;2.5000;2.5000;5;No
+30374;Canada;Ireland;Guardian;OPV;Ships;2000;No;1;No;2001;No;New;28.5000;28.5000;28.5;No
+27135;Canada;Ireland;Guardian;OPV;Ships;1997;No;1;No;1999;No;New;28.5000;28.5000;28.5;No
+25142;Canada;Ireland;DHC-1 Chipmunk;Trainer aircraft;Aircraft;1949;Yes;8;No;1950;Yes;New;0.1200;0.1200;0.96;No
+38422;Canada;Israel;PT-6;Turboprop;Engines;2006;Yes;2;Yes;2011;Yes;New;0.6000;0.6000;1.2;No
+38422;Canada;Israel;PT-6;Turboprop;Engines;2006;Yes;2;Yes;2010;Yes;New;0.6000;0.6000;1.2;No
+38422;Canada;Israel;PT-6;Turboprop;Engines;2006;Yes;2;Yes;2009;Yes;New;0.6000;0.6000;1.2;No
+38422;Canada;Israel;PT-6;Turboprop;Engines;2006;Yes;2;Yes;2008;Yes;New;0.6000;0.6000;1.2;No
+38422;Canada;Israel;PT-6;Turboprop;Engines;2006;Yes;2;Yes;2007;No;New;0.6000;0.6000;1.2;No
+32426;Canada;Israel;AN/APS-504(V);MP aircraft radar;Sensors;1975;Yes;3;No;1977;No;New;2.5000;2.5000;7.5;No
+22090;Canada;Israel;DHC-1 Chipmunk;Trainer aircraft;Aircraft;1949;Yes;5;Yes;1951;No;New;0.1200;0.1200;0.6;No
+55661;Canada;Israel;PT-6;Turboprop;Engines;2011;Yes;1;No;2012;No;New;0.6000;0.6000;0.6;No
+50834;Canada;Israel;PT-6;Turboprop;Engines;2008;No;10;Yes;2010;No;New;0.6000;0.6000;6;No
+50834;Canada;Israel;PT-6;Turboprop;Engines;2008;No;10;No;2009;No;New;0.6000;0.6000;6;No
+34107;Canada;Italy;CL-89;UAV;Aircraft;1970;Yes;10;Yes;1982;Yes;New;0.2000;0.2000;2;No
+34107;Canada;Italy;CL-89;UAV;Aircraft;1970;Yes;10;Yes;1981;Yes;New;0.2000;0.2000;2;No
+34107;Canada;Italy;CL-89;UAV;Aircraft;1970;Yes;10;Yes;1980;Yes;New;0.2000;0.2000;2;No
+34107;Canada;Italy;CL-89;UAV;Aircraft;1970;Yes;10;Yes;1979;Yes;New;0.2000;0.2000;2;No
+34107;Canada;Italy;CL-89;UAV;Aircraft;1970;Yes;10;Yes;1978;Yes;New;0.2000;0.2000;2;No
+34107;Canada;Italy;CL-89;UAV;Aircraft;1970;Yes;10;Yes;1977;Yes;New;0.2000;0.2000;2;No
+34107;Canada;Italy;CL-89;UAV;Aircraft;1970;Yes;10;Yes;1976;Yes;New;0.2000;0.2000;2;No
+34107;Canada;Italy;CL-89;UAV;Aircraft;1970;Yes;10;Yes;1975;Yes;New;0.2000;0.2000;2;No
+34107;Canada;Italy;CL-89;UAV;Aircraft;1970;Yes;10;Yes;1974;Yes;New;0.2000;0.2000;2;No
+34107;Canada;Italy;CL-89;UAV;Aircraft;1970;Yes;5;Yes;1973;Yes;New;0.2000;0.2000;1;No
+34107;Canada;Italy;CL-89;UAV;Aircraft;1970;Yes;5;Yes;1972;Yes;New;0.2000;0.2000;1;No
+25293;Canada;Jamaica;DHC-6 Twin Otter;Transport aircraft;Aircraft;1976;Yes;1;No;1977;No;New;2.2500;2.2500;2.25;No
+5695;Canada;Jamaica;DHC-6 Twin Otter;Transport aircraft;Aircraft;1966;Yes;1;No;1967;No;New;2.2500;2.2500;2.25;No
+39153;Canada;Jamaica;DA40;Light aircraft;Aircraft;2006;No;1;No;2007;No;New;0.1500;0.1500;0.15;No
+39153;Canada;Jamaica;DA40;Light aircraft;Aircraft;2006;No;1;No;2006;No;New;0.1500;0.1500;0.15;No
+37791;Canada;Jordan;PW-100;Turboprop/turboshaft;Engines;2003;No;2;No;2004;No;New;1.0000;1.0000;2;No
+37791;Canada;Jordan;PW-100;Turboprop/turboshaft;Engines;2003;No;2;No;2003;No;New;1.0000;1.0000;2;No
+25193;Canada;Kenya;DHC-2 Beaver;Light aircraft;Aircraft;1966;Yes;3;Yes;1966;Yes;New;0.3800;0.3800;1.14;No
+19955;Canada;Kenya;Dash-8;Transport aircraft;Aircraft;1989;No;2;No;1990;No;New;9.0000;9.0000;18;No
+5839;Canada;Kenya;DHC-4 Caribou;Transport aircraft;Aircraft;1970;Yes;2;No;1972;Yes;New;3.7500;3.7500;7.5;No
+5837;Canada;Kenya;DHC-4 Caribou;Transport aircraft;Aircraft;1963;Yes;4;No;1965;No;New;3.7500;3.7500;15;No
+5832;Canada;Kenya;DHC-2 Beaver;Light aircraft;Aircraft;1963;Yes;4;Yes;1965;No;New;0.3800;0.3800;1.52;No
+5832;Canada;Kenya;DHC-2 Beaver;Light aircraft;Aircraft;1963;Yes;3;Yes;1964;No;New;0.3800;0.3800;1.14;No
+263;Canada;Kenya;DHC-5 Buffalo;Transport aircraft;Aircraft;1976;No;3;No;1978;No;New;13.2200;13.2200;39.66;No
+263;Canada;Kenya;DHC-5 Buffalo;Transport aircraft;Aircraft;1976;No;3;No;1977;No;New;13.2200;13.2200;39.66;No
+17611;Canada;Kenya;DHC-5 Buffalo;Transport aircraft;Aircraft;1986;No;2;Yes;1987;Yes;New;13.2200;13.2200;26.44;No
+17611;Canada;Kenya;DHC-5 Buffalo;Transport aircraft;Aircraft;1986;No;2;Yes;1986;Yes;New;13.2200;13.2200;26.44;No
+37331;Canada;South Korea (ROK);PT-6;Turboprop;Engines;1995;Yes;5;Yes;2007;No;New;0.6000;0.6000;3;No
+37331;Canada;South Korea (ROK);PT-6;Turboprop;Engines;1995;Yes;10;Yes;2006;No;New;0.6000;0.6000;6;No
+37331;Canada;South Korea (ROK);PT-6;Turboprop;Engines;1995;Yes;10;Yes;2005;No;New;0.6000;0.6000;6;No
+37331;Canada;South Korea (ROK);PT-6;Turboprop;Engines;1995;Yes;15;Yes;2004;No;New;0.6000;0.6000;9;No
+37331;Canada;South Korea (ROK);PT-6;Turboprop;Engines;1995;Yes;20;Yes;2003;No;New;0.6000;0.6000;12;No
+37331;Canada;South Korea (ROK);PT-6;Turboprop;Engines;1995;Yes;20;Yes;2002;No;New;0.6000;0.6000;12;No
+37331;Canada;South Korea (ROK);PT-6;Turboprop;Engines;1995;Yes;20;Yes;2001;No;New;0.6000;0.6000;12;No
+37331;Canada;South Korea (ROK);PT-6;Turboprop;Engines;1995;Yes;5;Yes;2000;No;New;0.6000;0.6000;3;No
+26234;Canada;South Korea (ROK);T-6 Texan;Trainer aircraft;Aircraft;1950;No;10;No;1950;No;New;0.3200;0.3200;3.2;No
+5898;Canada;South Korea (ROK);DHC-2 Beaver;Light aircraft;Aircraft;1965;Yes;10;Yes;1966;Yes;New;0.3800;0.3800;3.8;No
+5934;Canada;Kuwait;DHC-4 Caribou;Transport aircraft;Aircraft;1965;Yes;2;No;1966;No;New;3.7500;3.7500;7.5;No
+56291;Canada;Laos;PW-100;Turboprop/turboshaft;Engines;2012;Yes;4;Yes;2013;No;New;1.0000;1.0000;4;No
+55151;Canada;Laos;PW-100;Turboprop/turboshaft;Engines;2010;Yes;4;Yes;2012;No;New;1.0000;1.0000;4;No
+5989;Canada;Lebanon;DHC-1 Chipmunk;Trainer aircraft;Aircraft;1949;Yes;3;No;1950;No;New;0.1200;0.1200;0.36;No
+37553;Canada;Malaysia;PT-6;Turboprop;Engines;2006;No;10;No;2007;No;New;0.6000;0.6000;6;No
+37552;Canada;Malaysia;PT-6;Turboprop;Engines;2000;Yes;9;Yes;2001;No;New;0.6000;0.6000;5.4;No
+8801;Canada;Malaysia;DHC-4 Caribou;Transport aircraft;Aircraft;1968;No;4;No;1972;No;New;3.7500;3.7500;15;No
+8801;Canada;Malaysia;DHC-4 Caribou;Transport aircraft;Aircraft;1968;No;9;No;1969;No;New;3.7500;3.7500;33.75;No
+8801;Canada;Malaysia;DHC-4 Caribou;Transport aircraft;Aircraft;1968;No;3;Yes;1970;Yes;New;3.7500;3.7500;11.25;No
+6048;Canada;Malaysia;CL-41G Tutor;Trainer/combat ac;Aircraft;1966;No;6;Yes;1969;No;New;2.7500;2.7500;16.5;No
+6048;Canada;Malaysia;CL-41G Tutor;Trainer/combat ac;Aircraft;1966;No;7;Yes;1968;No;New;2.7500;2.7500;19.25;No
+6048;Canada;Malaysia;CL-41G Tutor;Trainer/combat ac;Aircraft;1966;No;7;Yes;1967;No;New;2.7500;2.7500;19.25;No
+37562;Canada;Malaysia;PT-6;Turboprop;Engines;1981;No;20;Yes;1984;No;New;0.6000;0.6000;12;No
+37562;Canada;Malaysia;PT-6;Turboprop;Engines;1981;No;22;Yes;1983;No;New;0.6000;0.6000;13.2;No
+37562;Canada;Malaysia;PT-6;Turboprop;Engines;1981;No;2;Yes;1982;No;New;0.6000;0.6000;1.2;No
+8254;Canada;Malaysia;DHC-4 Caribou;Transport aircraft;Aircraft;1965;No;4;No;1966;No;New;3.7500;3.7500;15;No
+37951;Canada;Mexico;AN/APS-504(V);MP aircraft radar;Sensors;1985;Yes;4;Yes;1987;No;New;2.5000;2.5000;10;No
+37951;Canada;Mexico;AN/APS-504(V);MP aircraft radar;Sensors;1985;Yes;5;Yes;1986;No;New;2.5000;2.5000;12.5;No
+37569;Canada;Mexico;PT-6;Turboprop;Engines;1981;Yes;9;Yes;1982;No;New;0.6000;0.6000;5.4;No
+37569;Canada;Mexico;PT-6;Turboprop;Engines;1981;Yes;8;Yes;1983;Yes;New;0.6000;0.6000;4.8;No
+37558;Canada;Mexico;PT-6;Turboprop;Engines;1978;No;18;Yes;1981;No;New;0.6000;0.6000;10.8;No
+37558;Canada;Mexico;PT-6;Turboprop;Engines;1978;No;18;Yes;1980;No;New;0.6000;0.6000;10.8;No
+37558;Canada;Mexico;PT-6;Turboprop;Engines;1978;No;2;Yes;1979;No;New;0.6000;0.6000;1.2;No
+31305;Canada;Mexico;Dash-8;Transport aircraft;Aircraft;2000;No;1;No;2002;No;New;9.0000;9.0000;9;No
+8256;Canada;Mexico;Vampire F-3;Fighter aircraft;Aircraft;1960;Yes;12;No;1961;No;Second hand;3.0000;1.2;14.4;No
+6096;Canada;Mexico;Vampire T-55;Trainer aircraft;Aircraft;1960;Yes;3;No;1961;Yes;Second hand;2.2500;0.9;2.7;No
+6071;Canada;Mexico;HU-16B Albatross;MP/transport ac;Aircraft;1975;Yes;4;No;1976;No;Second hand;4.0000;1.6;6.4;No
+3117;Canada;Mexico;DHC-5 Buffalo;Transport aircraft;Aircraft;1979;Yes;3;No;1980;No;New;13.2200;13.2200;39.66;No
+1091;Canada;Mexico;PT-6;Turboprop;Engines;1985;No;2;Yes;1992;No;New;0.6000;0.6000;1.2;No
+1091;Canada;Mexico;PT-6;Turboprop;Engines;1985;No;5;Yes;1986;No;New;0.6000;0.6000;3;No
+1091;Canada;Mexico;PT-6;Turboprop;Engines;1985;No;4;Yes;1991;Yes;New;0.6000;0.6000;2.4;No
+1091;Canada;Mexico;PT-6;Turboprop;Engines;1985;No;5;Yes;1990;Yes;New;0.6000;0.6000;3;No
+1091;Canada;Mexico;PT-6;Turboprop;Engines;1985;No;6;Yes;1989;Yes;New;0.6000;0.6000;3.6;No
+1091;Canada;Mexico;PT-6;Turboprop;Engines;1985;No;6;Yes;1988;Yes;New;0.6000;0.6000;3.6;No
+1091;Canada;Mexico;PT-6;Turboprop;Engines;1985;No;5;Yes;1987;Yes;New;0.6000;0.6000;3;No
+55941;Canada;Mexico;PW-100;Turboprop/turboshaft;Engines;2011;No;2;No;2011;No;New;1.0000;1.0000;2;No
+54180;Canada;Mexico;PT-6;Turboprop;Engines;2011;Yes;6;Yes;2012;No;New;0.6000;0.6000;3.6;No
+51493;Canada;Mexico;PW-100;Turboprop/turboshaft;Engines;2008;No;4;No;2009;No;New;1.0000;1.0000;4;No
+39358;Canada;Mexico;PT-6;Turboprop;Engines;2006;No;2;No;2006;No;New;0.6000;0.6000;1.2;No
+54325;Canada;Mexico;PW-100;Turboprop/turboshaft;Engines;2010;No;4;No;2011;No;New;1.0000;1.0000;4;No
+51550;Canada;Mexico;PW-100;Turboprop/turboshaft;Engines;2009;No;6;No;2011;No;New;1.0000;1.0000;6;No
+51550;Canada;Mexico;PW-100;Turboprop/turboshaft;Engines;2009;No;4;No;2010;No;New;1.0000;1.0000;4;No
+31485;Canada;Nigeria;AN/APS-504(V);MP aircraft radar;Sensors;1982;Yes;2;No;1986;No;New;2.5000;2.5000;5;No
+8477;Canada;Norway;F-104G Starfighter;FGA aircraft;Aircraft;1971;Yes;12;Yes;1974;No;Second hand;11.2000;4.48;53.76;No
+8477;Canada;Norway;F-104G Starfighter;FGA aircraft;Aircraft;1971;Yes;11;Yes;1973;No;Second hand;11.2000;4.48;49.28;No
+6948;Canada;Norway;DHC-3 Otter;Light transport ac;Aircraft;1954;Yes;10;No;1955;No;New;0.6300;0.6300;6.3;No
+6931;Canada;Norway;DHC-6 Twin Otter;Transport aircraft;Aircraft;1966;Yes;5;No;1967;No;New;2.2500;2.2500;11.25;No
+14331;Canada;Norway;River;Frigate;Ships;1956;Yes;3;No;1956;No;Second hand but modernized;28.7500;18.975;56.925;No
+26353;Canada;Panama;DHC-6 Twin Otter;Transport aircraft;Aircraft;1980;Yes;1;Yes;1980;Yes;New;2.2500;2.2500;2.25;No
+21370;Canada;Panama;DHC-6 Twin Otter;Transport aircraft;Aircraft;1969;Yes;1;No;1970;Yes;New;2.2500;2.2500;2.25;No
+9764;Canada;Panama;DHC-6 Twin Otter;Transport aircraft;Aircraft;1973;Yes;1;No;1975;No;New;2.2500;2.2500;2.25;No
+9764;Canada;Panama;DHC-6 Twin Otter;Transport aircraft;Aircraft;1973;Yes;1;No;1973;No;New;2.2500;2.2500;2.25;No
+37789;Canada;Portugal;PW-100;Turboprop/turboshaft;Engines;2006;No;8;Yes;2010;No;New;1.0000;1.0000;8;No
+37789;Canada;Portugal;PW-100;Turboprop/turboshaft;Engines;2006;No;2;No;2008;No;New;1.0000;1.0000;2;No
+37789;Canada;Portugal;PW-100;Turboprop/turboshaft;Engines;2006;No;4;Yes;2011;No;New;1.0000;1.0000;4;No
+37789;Canada;Portugal;PW-100;Turboprop/turboshaft;Engines;2006;No;10;Yes;2009;No;New;1.0000;1.0000;10;No
+37196;Canada;Portugal;SQS-510;ASW sonar;Sensors;1991;Yes;2;Yes;1993;Yes;New;6.0000;6.0000;12;No
+37196;Canada;Portugal;SQS-510;ASW sonar;Sensors;1991;Yes;2;Yes;1992;Yes;New;6.0000;6.0000;12;No
+29934;Canada;Portugal;Kangaroo;APC;Armoured vehicles;1954;No;40;Yes;1954;No;Second hand;0.2400;0.096;3.84;No
+29933;Canada;Portugal;M-4 Sherman;Tank;Armoured vehicles;1954;No;50;Yes;1954;No;Second hand;0.8400;0.336;16.8;No
+26287;Canada;Portugal;Bangor;Minesweeper;Ships;1950;No;1;No;1950;No;Second hand;18.0000;7.2;7.2;No
+26265;Canada;Portugal;T-33A Shooting Star;Trainer aircraft;Aircraft;1960;Yes;5;Yes;1961;Yes;Second hand;2.5000;1;5;No
+37195;Canada;Portugal;SQS-510;ASW sonar;Sensors;1988;Yes;3;No;1991;No;New;6.0000;6.0000;18;No
+3739;Canada;Senegal;DHC-6MR;MP aircraft;Aircraft;1981;No;1;No;1982;No;New;7.0000;7.0000;7;No
+54047;Canada;Senegal;Interceptor;Patrol craft;Ships;1978;No;3;Yes;1979;No;New;3.8000;3.8000;11.4;No
+37583;Canada;South Africa;PT-6;Turboprop;Engines;1993;No;24;Yes;1996;No;New;0.6000;0.6000;14.4;No
+37583;Canada;South Africa;PT-6;Turboprop;Engines;1993;No;24;Yes;1995;No;New;0.6000;0.6000;14.4;No
+37583;Canada;South Africa;PT-6;Turboprop;Engines;1993;No;12;No;1994;No;New;0.6000;0.6000;7.2;No
+37594;Canada;South Africa;PT-6;Turboprop;Engines;1989;No;6;No;1991;No;New;0.6000;0.6000;3.6;No
+37594;Canada;South Africa;PT-6;Turboprop;Engines;1989;No;1;No;1990;No;New;0.6000;0.6000;0.6;No
+6400;Canada;South Africa;F-86F Sabre;Fighter aircraft;Aircraft;1954;No;37;No;1956;No;New;3.5000;3.5000;129.5;No
+458;Canada;Sudan;DHC-5 Buffalo;Transport aircraft;Aircraft;1977;No;2;No;1978;No;New;13.2200;13.2200;26.44;No
+458;Canada;Sudan;DHC-5 Buffalo;Transport aircraft;Aircraft;1977;No;2;No;1977;No;New;13.2200;13.2200;26.44;No
+37991;Canada;Sweden;Hydra;ASW sonar;Sensors;1995;Yes;2;Yes;2005;No;New;10.0000;10.0000;20;No
+37991;Canada;Sweden;Hydra;ASW sonar;Sensors;1995;Yes;1;No;2008;No;New;10.0000;10.0000;10;No
+37991;Canada;Sweden;Hydra;ASW sonar;Sensors;1995;Yes;4;Yes;2006;No;New;10.0000;10.0000;40;No
+37991;Canada;Sweden;Hydra;ASW sonar;Sensors;1995;Yes;1;No;2004;Yes;New;10.0000;10.0000;10;No
+6706;Canada;Tanzania;DHC-4 Caribou;Transport aircraft;Aircraft;1970;Yes;8;No;1971;No;Second hand;3.7500;1.5;12;No
+6704;Canada;Tanzania;DHC-3 Otter;Light transport ac;Aircraft;1965;Yes;8;No;1966;No;New;0.6300;0.6300;5.04;No
+6700;Canada;Tanzania;DHC-4 Caribou;Transport aircraft;Aircraft;1965;No;4;Yes;1966;Yes;New;3.7500;3.7500;15;No
+6703;Canada;Tanzania;DHC-2 Beaver;Light aircraft;Aircraft;1965;No;6;No;1965;Yes;New;0.3800;0.3800;2.28;No
+627;Canada;Tanzania;DHC-5 Buffalo;Transport aircraft;Aircraft;1977;Yes;6;No;1979;No;New;13.2200;13.2200;79.32;No
+15010;Canada;Togo;DHC-5 Buffalo;Transport aircraft;Aircraft;1975;No;2;No;1976;No;New;13.2200;13.2200;26.44;No
+39581;Canada;African Union**;Piranha;APC;Armoured vehicles;2004;Yes;105;No;2005;No;Second hand;0.3000;0.12;12.6;No
+607;Canada;Mauritania;DHC-5 Buffalo;Transport aircraft;Aircraft;1977;No;1;No;1978;No;New;13.2200;13.2200;13.22;No
+607;Canada;Mauritania;DHC-5 Buffalo;Transport aircraft;Aircraft;1977;No;1;No;1977;No;New;13.2200;13.2200;13.22;No
+55460;Canada;Mauritania;PT-6;Turboprop;Engines;2011;No;2;Yes;2013;Yes;New;0.6000;0.6000;1.2;No
+55460;Canada;Mauritania;PT-6;Turboprop;Engines;2011;No;2;Yes;2012;No;New;0.6000;0.6000;1.2;No
+37586;Canada;Myanmar;PT-6;Turboprop;Engines;1990;No;3;No;1990;No;New;0.6000;0.6000;1.8;No
+37585;Canada;Myanmar;PT-6;Turboprop;Engines;1977;No;8;Yes;1979;No;New;0.6000;0.6000;4.8;No
+37568;Canada;Myanmar;PT-6;Turboprop;Engines;1979;No;4;Yes;1980;No;New;0.6000;0.6000;2.4;No
+37568;Canada;Myanmar;PT-6;Turboprop;Engines;1979;No;4;Yes;1979;No;New;0.6000;0.6000;2.4;No
+37561;Canada;Myanmar;PT-6;Turboprop;Engines;1985;No;4;Yes;1986;No;New;0.6000;0.6000;2.4;No
+2380;Canada;Myanmar;DHC-3 Otter;Light transport ac;Aircraft;1958;Yes;3;No;1961;No;New;0.6300;0.6300;1.89;No
+2380;Canada;Myanmar;DHC-3 Otter;Light transport ac;Aircraft;1958;Yes;3;No;1960;No;New;0.6300;0.6300;1.89;No
+2380;Canada;Myanmar;DHC-3 Otter;Light transport ac;Aircraft;1958;Yes;3;No;1959;No;New;0.6300;0.6300;1.89;No
+2378;Canada;Myanmar;DHC-1 Chipmunk;Trainer aircraft;Aircraft;1951;Yes;2;Yes;1951;No;New;0.1200;0.1200;0.24;No
+2378;Canada;Myanmar;DHC-1 Chipmunk;Trainer aircraft;Aircraft;1951;Yes;5;Yes;1954;No;New;0.1200;0.1200;0.6;No
+2378;Canada;Myanmar;DHC-1 Chipmunk;Trainer aircraft;Aircraft;1951;Yes;3;Yes;1952;No;New;0.1200;0.1200;0.36;No
+37589;Canada;Netherlands;PT-6;Turboprop;Engines;1997;No;3;No;1997;No;New;0.6000;0.6000;1.8;No
+37574;Canada;Netherlands;PT-6;Turboprop;Engines;1988;No;10;No;1989;No;New;0.6000;0.6000;6;No
+37161;Canada;Netherlands;SQS-505;Sonar;Sensors;1974;Yes;2;No;1983;No;New;5.0000;5.0000;10;No
+37161;Canada;Netherlands;SQS-505;Sonar;Sensors;1974;Yes;2;No;1982;No;New;5.0000;5.0000;10;No
+37161;Canada;Netherlands;SQS-505;Sonar;Sensors;1974;Yes;2;No;1981;No;New;5.0000;5.0000;10;No
+37161;Canada;Netherlands;SQS-505;Sonar;Sensors;1974;Yes;2;No;1980;No;New;5.0000;5.0000;10;No
+37161;Canada;Netherlands;SQS-505;Sonar;Sensors;1974;Yes;1;No;1979;No;New;5.0000;5.0000;5;No
+37161;Canada;Netherlands;SQS-505;Sonar;Sensors;1974;Yes;1;No;1978;No;New;5.0000;5.0000;5;No
+6209;Canada;Netherlands;DHC-2 Beaver;Light aircraft;Aircraft;1955;Yes;9;No;1956;No;New;0.3800;0.3800;3.42;No
+8272;Canada;Netherlands;S-2A Tracker;ASW aircraft;Aircraft;1960;Yes;17;No;1961;Yes;Second hand;6.0000;2.4;40.8;No
+39448;Canada;Netherlands;PW-100;Turboprop/turboshaft;Engines;1993;Yes;8;Yes;1996;No;New;1.0000;1.0000;8;No
+21182;Canada;Netherlands;CH-47C Chinook;Helicopter;Aircraft;1993;Yes;5;No;1996;No;Second hand;15.0000;6;30;No
+21182;Canada;Netherlands;CH-47C Chinook;Helicopter;Aircraft;1993;Yes;2;No;1995;No;Second hand;15.0000;6;12;No
+30005;Canada;New Zealand;Piranha-3;APC;Armoured vehicles;2001;No;53;Yes;2004;No;New;0.2700;0.2700;14.31;No
+30005;Canada;New Zealand;Piranha-3;APC;Armoured vehicles;2001;No;52;Yes;2003;No;New;0.2700;0.2700;14.04;No
+37608;Canada;Paraguay;PT-6;Turboprop;Engines;1987;No;6;Yes;1988;No;New;0.6000;0.6000;3.6;No
+37612;Canada;Peru;PT-6;Turboprop;Engines;1991;No;10;Yes;1991;No;New;0.6000;0.6000;6;No
+37609;Canada;Peru;PT-6;Turboprop;Engines;1984;No;20;Yes;1987;No;New;0.6000;0.6000;12;No
+31487;Canada;Peru;AN/APS-504(V);MP aircraft radar;Sensors;1976;No;1;No;1978;No;New;2.5000;2.5000;2.5;No
+31487;Canada;Peru;AN/APS-504(V);MP aircraft radar;Sensors;1976;No;1;No;1977;No;New;2.5000;2.5000;2.5;No
+21369;Canada;Peru;DHC-6 Twin Otter;Transport aircraft;Aircraft;1972;Yes;3;Yes;1973;Yes;New;2.2500;2.2500;6.75;No
+21368;Canada;Peru;DHC-6 Twin Otter;Transport aircraft;Aircraft;1970;No;4;Yes;1972;Yes;New;2.2500;2.2500;9;No
+21368;Canada;Peru;DHC-6 Twin Otter;Transport aircraft;Aircraft;1970;No;4;Yes;1971;Yes;New;2.2500;2.2500;9;No
+21358;Canada;Peru;DHC-6 Twin Otter;Transport aircraft;Aircraft;1965;Yes;3;No;1966;Yes;New;2.2500;2.2500;6.75;No
+17142;Canada;Peru;DHC-5 Buffalo;Transport aircraft;Aircraft;1970;No;8;Yes;1972;Yes;New;13.2200;13.2200;105.76;No
+17142;Canada;Peru;DHC-5 Buffalo;Transport aircraft;Aircraft;1970;No;8;Yes;1971;Yes;New;13.2200;13.2200;105.76;No
+9790;Canada;Peru;DHC-2 Beaver;Light aircraft;Aircraft;1949;No;4;No;1950;Yes;New;0.3800;0.3800;1.52;No
+6538;Canada;Peru;DHC-2 Beaver;Light aircraft;Aircraft;1963;Yes;2;Yes;1965;Yes;New;0.3800;0.3800;0.76;No
+53022;Canada;Peru;DHC-6 Twin Otter;Transport aircraft;Aircraft;2010;No;4;Yes;2013;No;New;2.2500;2.2500;9;No
+53022;Canada;Peru;DHC-6 Twin Otter;Transport aircraft;Aircraft;2010;No;2;No;2012;No;New;2.2500;2.2500;4.5;No
+53022;Canada;Peru;DHC-6 Twin Otter;Transport aircraft;Aircraft;2010;No;1;No;2011;No;New;2.2500;2.2500;2.25;No
+15922;Canada;Peru;DHC-6 Twin Otter;Transport aircraft;Aircraft;1985;No;6;Yes;1987;Yes;New;2.2500;2.2500;13.5;No
+15922;Canada;Peru;DHC-6 Twin Otter;Transport aircraft;Aircraft;1985;No;2;Yes;1986;Yes;New;2.2500;2.2500;4.5;No
+37633;Canada;Philippines;JT15;Turbofan;Engines;1988;No;8;Yes;1991;No;New;0.4000;0.4000;3.2;No
+37633;Canada;Philippines;JT15;Turbofan;Engines;1988;No;8;Yes;1990;No;New;0.4000;0.4000;3.2;No
+37633;Canada;Philippines;JT15;Turbofan;Engines;1988;No;2;Yes;1989;No;New;0.4000;0.4000;0.8;No
+31488;Canada;Philippines;AN/APS-504(V);MP aircraft radar;Sensors;1980;No;1;No;1982;No;New;2.5000;2.5000;2.5;No
+31488;Canada;Philippines;AN/APS-504(V);MP aircraft radar;Sensors;1980;No;2;No;1981;No;New;2.5000;2.5000;5;No
+55074;Canada;Poland;PW-100;Turboprop/turboshaft;Engines;2012;No;4;No;2013;No;New;1.0000;1.0000;4;No
+55074;Canada;Poland;PW-100;Turboprop/turboshaft;Engines;2012;No;6;No;2012;No;New;1.0000;1.0000;6;No
+40199;Canada;Poland;PW-100;Turboprop/turboshaft;Engines;2007;No;4;Yes;2008;No;New;1.0000;1.0000;4;No
+40198;Canada;Poland;PW-100;Turboprop/turboshaft;Engines;2006;No;4;No;2007;No;New;1.0000;1.0000;4;No
+37794;Canada;Poland;PW-100;Turboprop/turboshaft;Engines;2001;No;6;Yes;2005;No;New;1.0000;1.0000;6;No
+37794;Canada;Poland;PW-100;Turboprop/turboshaft;Engines;2001;No;6;Yes;2004;No;New;1.0000;1.0000;6;No
+37794;Canada;Poland;PW-100;Turboprop/turboshaft;Engines;2001;No;4;Yes;2003;No;New;1.0000;1.0000;4;No
+53932;Canada;Poland;PT-6;Turboprop;Engines;2011;No;8;Yes;2013;No;New;0.6000;0.6000;4.8;No
+53932;Canada;Poland;PT-6;Turboprop;Engines;2011;No;8;Yes;2012;No;New;0.6000;0.6000;4.8;No
+39075;Canada;Singapore;PT-6;Turboprop;Engines;2006;No;19;No;2008;No;New;0.6000;0.6000;11.4;No
+37824;Canada;Singapore;PW-100;Turboprop/turboshaft;Engines;1991;No;8;Yes;1994;No;New;1.0000;1.0000;8;No
+37824;Canada;Singapore;PW-100;Turboprop/turboshaft;Engines;1991;No;6;Yes;1993;No;New;1.0000;1.0000;6;No
+37824;Canada;Singapore;PW-100;Turboprop/turboshaft;Engines;1991;No;4;No;1995;No;New;1.0000;1.0000;4;No
+37634;Canada;Singapore;JT15;Turbofan;Engines;1983;No;8;Yes;1987;No;New;0.4000;0.4000;3.2;No
+37634;Canada;Singapore;JT15;Turbofan;Engines;1983;No;10;Yes;1986;No;New;0.4000;0.4000;4;No
+37634;Canada;Singapore;JT15;Turbofan;Engines;1983;No;10;Yes;1985;No;New;0.4000;0.4000;4;No
+37634;Canada;Singapore;JT15;Turbofan;Engines;1983;No;2;Yes;1984;No;New;0.4000;0.4000;0.8;No
+37598;Canada;Slovenia;PT-6;Turboprop;Engines;1997;No;8;No;1999;No;New;0.6000;0.6000;4.8;No
+37598;Canada;Slovenia;PT-6;Turboprop;Engines;1997;No;1;No;1998;No;New;0.6000;0.6000;0.6;No
+37792;Canada;Spain;PW-100;Turboprop/turboshaft;Engines;1999;No;4;Yes;2005;No;New;1.0000;1.0000;4;No
+37792;Canada;Spain;PW-100;Turboprop/turboshaft;Engines;1999;No;4;Yes;2004;No;New;1.0000;1.0000;4;No
+37792;Canada;Spain;PW-100;Turboprop/turboshaft;Engines;1999;No;4;Yes;2003;No;New;1.0000;1.0000;4;No
+37792;Canada;Spain;PW-100;Turboprop/turboshaft;Engines;1999;No;4;Yes;2002;No;New;1.0000;1.0000;4;No
+37792;Canada;Spain;PW-100;Turboprop/turboshaft;Engines;1999;No;2;Yes;2001;No;New;1.0000;1.0000;2;No
+31483;Canada;Spain;AN/APS-504(V);MP aircraft radar;Sensors;1978;No;3;No;1979;No;New;2.5000;2.5000;7.5;No
+21937;Canada;Spain;AN/VPS-2;Fire control radar;Sensors;1977;Yes;4;Yes;1988;Yes;New;2.0000;2.0000;8;No
+21936;Canada;Spain;AN/VPS-2;Fire control radar;Sensors;1977;Yes;2;Yes;1994;Yes;New;2.0000;2.0000;4;No
+21936;Canada;Spain;AN/VPS-2;Fire control radar;Sensors;1977;Yes;1;Yes;1990;Yes;New;2.0000;2.0000;2;No
+21936;Canada;Spain;AN/VPS-2;Fire control radar;Sensors;1977;Yes;1;Yes;1988;Yes;New;2.0000;2.0000;2;No
+21936;Canada;Spain;AN/VPS-2;Fire control radar;Sensors;1977;Yes;1;Yes;1987;Yes;New;2.0000;2.0000;2;No
+21936;Canada;Spain;AN/VPS-2;Fire control radar;Sensors;1977;Yes;1;Yes;1986;Yes;New;2.0000;2.0000;2;No
+21935;Canada;Spain;AN/VPS-2;Fire control radar;Sensors;1987;Yes;4;Yes;1990;Yes;New;2.0000;2.0000;8;No
+21935;Canada;Spain;AN/VPS-2;Fire control radar;Sensors;1987;Yes;4;Yes;1989;Yes;New;2.0000;2.0000;8;No
+21935;Canada;Spain;AN/VPS-2;Fire control radar;Sensors;1987;Yes;2;Yes;1988;Yes;New;2.0000;2.0000;4;No
+21934;Canada;Spain;AN/VPS-2;Fire control radar;Sensors;1994;Yes;1;No;2000;No;New;2.0000;2.0000;2;No
+21934;Canada;Spain;AN/VPS-2;Fire control radar;Sensors;1994;Yes;1;No;1998;No;New;2.0000;2.0000;2;No
+21931;Canada;Spain;AN/VPS-2;Fire control radar;Sensors;1991;Yes;2;Yes;1995;Yes;New;2.0000;2.0000;4;No
+21367;Canada;Spain;CL-215;Transport aircraft;Aircraft;1972;Yes;4;Yes;1975;Yes;New;5.9000;5.9000;23.6;No
+21367;Canada;Spain;CL-215;Transport aircraft;Aircraft;1972;Yes;4;Yes;1974;Yes;New;5.9000;5.9000;23.6;No
+21365;Canada;Spain;DHC-4 Caribou;Transport aircraft;Aircraft;1967;Yes;6;Yes;1968;No;New;3.7500;3.7500;22.5;No
+21365;Canada;Spain;DHC-4 Caribou;Transport aircraft;Aircraft;1967;Yes;6;Yes;1969;Yes;New;3.7500;3.7500;22.5;No
+37577;Canada;Suriname;PT-6;Turboprop;Engines;1985;Yes;3;No;1986;No;New;0.6000;0.6000;1.8;No
+6652;Canada;Syria;DHC-1 Chipmunk;Trainer aircraft;Aircraft;1950;Yes;10;Yes;1951;Yes;New;0.1200;0.1200;1.2;No
+30962;Canada;Taiwan (ROC);AN/APS-504(V);MP aircraft radar;Sensors;1986;Yes;12;Yes;1993;No;New;2.5000;2.5000;30;No
+30962;Canada;Taiwan (ROC);AN/APS-504(V);MP aircraft radar;Sensors;1986;Yes;13;Yes;1992;No;New;2.5000;2.5000;32.5;No
+30962;Canada;Taiwan (ROC);AN/APS-504(V);MP aircraft radar;Sensors;1986;Yes;2;Yes;1991;No;New;2.5000;2.5000;5;No
+37825;Canada;Thailand;PW-100;Turboprop/turboshaft;Engines;1991;No;2;No;1993;No;New;1.0000;1.0000;2;No
+37584;Canada;Thailand;PT-6;Turboprop;Engines;1997;Yes;10;Yes;1998;No;New;0.6000;0.6000;6;No
+37584;Canada;Thailand;PT-6;Turboprop;Engines;1997;Yes;6;Yes;1999;Yes;New;0.6000;0.6000;3.6;No
+37576;Canada;Thailand;PT-6;Turboprop;Engines;1990;No;10;No;1992;No;New;0.6000;0.6000;6;No
+37576;Canada;Thailand;PT-6;Turboprop;Engines;1990;No;10;No;1991;No;New;0.6000;0.6000;6;No
+31490;Canada;Thailand;AN/APS-504(V);MP aircraft radar;Sensors;1985;No;1;No;1987;No;New;2.5000;2.5000;2.5;No
+31489;Canada;Thailand;AN/APS-504(V);MP aircraft radar;Sensors;1982;No;3;No;1984;No;New;2.5000;2.5000;7.5;No
+21764;Canada;Thailand;ADATS LOS-FH;SAM;Missiles;1993;No;30;Yes;1994;No;New;0.1500;0.1500;4.5;No
+15555;Canada;Thailand;DHC-1 Chipmunk;Trainer aircraft;Aircraft;1948;No;18;Yes;1950;Yes;New;0.1200;0.1200;2.16;No
+3581;Canada;Thailand;CG-45/GHN-45 155mm;Towed gun;Artillery;1981;No;12;No;1981;No;New;1.0000;1.0000;12;No
+56492;Canada;Thailand;PW-100;Turboprop/turboshaft;Engines;2007;No;6;No;2009;No;New;1.0000;1.0000;6;No
+946;Canada;Thailand;CL-215;Transport aircraft;Aircraft;1977;No;2;No;1978;No;New;5.9000;5.9000;11.8;No
+6739;Canada;Thailand;DHC-4 Caribou;Transport aircraft;Aircraft;1967;Yes;2;No;1968;No;New;3.7500;3.7500;7.5;No
+37758;Canada;Turkey;PW-100;Turboprop/turboshaft;Engines;2005;No;4;Yes;2013;No;New;1.0000;1.0000;4;No
+18491;Canada;Turkey;T-33A Shooting Star;Trainer aircraft;Aircraft;1967;Yes;9;Yes;1973;No;Second hand;2.5000;1;9;No
+18491;Canada;Turkey;T-33A Shooting Star;Trainer aircraft;Aircraft;1967;Yes;9;Yes;1972;Yes;Second hand;2.5000;1;9;No
+18491;Canada;Turkey;T-33A Shooting Star;Trainer aircraft;Aircraft;1967;Yes;9;Yes;1971;Yes;Second hand;2.5000;1;9;No
+18491;Canada;Turkey;T-33A Shooting Star;Trainer aircraft;Aircraft;1967;Yes;9;Yes;1970;Yes;Second hand;2.5000;1;9;No
+18491;Canada;Turkey;T-33A Shooting Star;Trainer aircraft;Aircraft;1967;Yes;9;Yes;1969;Yes;Second hand;2.5000;1;9;No
+18491;Canada;Turkey;T-33A Shooting Star;Trainer aircraft;Aircraft;1967;Yes;9;Yes;1968;Yes;Second hand;2.5000;1;9;No
+14344;Canada;Turkey;Bangor;Minesweeper;Ships;1957;No;8;No;1958;No;Second hand;18.0000;7.2;57.6;No
+14344;Canada;Turkey;Bangor;Minesweeper;Ships;1957;No;2;No;1957;No;Second hand;18.0000;7.2;14.4;No
+6846;Canada;Turkey;F-86F Sabre;Fighter aircraft;Aircraft;1953;Yes;55;Yes;1955;No;Second hand;3.5000;1.4;77;No
+6846;Canada;Turkey;F-86F Sabre;Fighter aircraft;Aircraft;1953;Yes;50;Yes;1954;No;Second hand;3.5000;1.4;70;No
+39902;Canada;Turkey;PT-6;Turboprop;Engines;2007;No;5;Yes;2010;No;New;0.6000;0.6000;3;No
+39902;Canada;Turkey;PT-6;Turboprop;Engines;2007;No;20;Yes;2011;No;New;0.6000;0.6000;12;No
+39902;Canada;Turkey;PT-6;Turboprop;Engines;2007;No;15;Yes;2012;No;New;0.6000;0.6000;9;No
+14332;Canada;Turkey;Gaspe;Minesweeper;Ships;1958;No;4;No;1958;No;Second hand;13.5000;5.4;21.6;No
+6849;Canada;Turkey;T-34 Mentor;Trainer aircraft;Aircraft;1956;Yes;24;Yes;1957;Yes;New;0.2400;0.2400;5.76;No
+4906;Canada;Turkey;F-104G Starfighter;FGA aircraft;Aircraft;1985;No;15;Yes;1987;No;Second hand;11.2000;4.48;67.2;No
+4906;Canada;Turkey;F-104G Starfighter;FGA aircraft;Aircraft;1985;No;15;Yes;1986;No;Second hand;11.2000;4.48;67.2;No
+22787;Canada;Turkey;9.2in Coastal Gun;Coastal gun;Artillery;1950;Yes;4;Yes;1955;Yes;Second hand;2.5000;1;4;No
+22787;Canada;Turkey;9.2in Coastal Gun;Coastal gun;Artillery;1950;Yes;6;Yes;1954;Yes;Second hand;2.5000;1;6;No
+22787;Canada;Turkey;9.2in Coastal Gun;Coastal gun;Artillery;1950;Yes;6;Yes;1953;Yes;Second hand;2.5000;1;6;No
+22787;Canada;Turkey;9.2in Coastal Gun;Coastal gun;Artillery;1950;Yes;4;Yes;1952;Yes;Second hand;2.5000;1;4;No
+37595;Canada;UAE;PT-6;Turboprop;Engines;1984;No;8;Yes;1986;No;New;0.6000;0.6000;4.8;No
+37595;Canada;UAE;PT-6;Turboprop;Engines;1984;No;2;Yes;1985;No;New;0.6000;0.6000;1.2;No
+3583;Canada;UAE;DHC-5 Buffalo;Transport aircraft;Aircraft;1981;No;1;No;1982;No;New;13.2200;13.2200;13.22;No
+2009;Canada;UAE;DHC-4 Caribou;Transport aircraft;Aircraft;1967;Yes;2;No;1969;No;New;3.7500;3.7500;7.5;No
+2009;Canada;UAE;DHC-4 Caribou;Transport aircraft;Aircraft;1967;Yes;2;No;1968;No;New;3.7500;3.7500;7.5;No
+2006;Canada;UAE;DHC-4 Caribou;Transport aircraft;Aircraft;1970;Yes;1;No;1971;No;New;3.7500;3.7500;3.75;No
+50583;Canada;UAE;DHC-6 Twin Otter;Transport aircraft;Aircraft;2008;No;1;Yes;2013;No;New;2.2500;2.2500;2.25;No
+52086;Canada;UAE;PT-6;Turboprop;Engines;2010;No;4;Yes;2013;No;New;0.6000;0.6000;2.4;No
+52086;Canada;UAE;PT-6;Turboprop;Engines;2010;No;10;Yes;2012;No;New;0.6000;0.6000;6;No
+52086;Canada;UAE;PT-6;Turboprop;Engines;2010;No;4;Yes;2010;No;New;0.6000;0.6000;2.4;No
+52086;Canada;UAE;PT-6;Turboprop;Engines;2010;No;6;Yes;2011;No;New;0.6000;0.6000;3.6;No
+52701;Canada;UAE;PT-6;Turboprop;Engines;2009;No;9;Yes;2012;No;New;0.6000;0.6000;5.4;No
+52701;Canada;UAE;PT-6;Turboprop;Engines;2009;No;16;Yes;2011;No;New;0.6000;0.6000;9.6;No
+3;Canada;UAE;DHC-5 Buffalo;Transport aircraft;Aircraft;1977;No;4;Yes;1978;No;New;13.2200;13.2200;52.88;No
+37591;Canada;UAE;PT-6;Turboprop;Engines;1981;Yes;14;No;1982;No;New;0.6000;0.6000;8.4;No
+8468;Canada;Uganda;DHC-6 Twin Otter;Transport aircraft;Aircraft;1969;Yes;1;No;1970;No;New;2.2500;2.2500;2.25;No
+8466;Canada;Uganda;DHC-4 Caribou;Transport aircraft;Aircraft;1965;No;1;No;1966;No;New;3.7500;3.7500;3.75;No
+34105;Canada;United Kingdom;CL-89;UAV;Aircraft;1963;No;5;Yes;1981;Yes;New;0.2000;0.2000;1;No
+34105;Canada;United Kingdom;CL-89;UAV;Aircraft;1963;No;5;Yes;1980;Yes;New;0.2000;0.2000;1;No
+34105;Canada;United Kingdom;CL-89;UAV;Aircraft;1963;No;5;Yes;1979;Yes;New;0.2000;0.2000;1;No
+34105;Canada;United Kingdom;CL-89;UAV;Aircraft;1963;No;5;Yes;1978;Yes;New;0.2000;0.2000;1;No
+34105;Canada;United Kingdom;CL-89;UAV;Aircraft;1963;No;10;Yes;1977;Yes;New;0.2000;0.2000;2;No
+34105;Canada;United Kingdom;CL-89;UAV;Aircraft;1963;No;15;Yes;1976;Yes;New;0.2000;0.2000;3;No
+34105;Canada;United Kingdom;CL-89;UAV;Aircraft;1963;No;15;Yes;1975;Yes;New;0.2000;0.2000;3;No
+34105;Canada;United Kingdom;CL-89;UAV;Aircraft;1963;No;15;Yes;1974;Yes;New;0.2000;0.2000;3;No
+34105;Canada;United Kingdom;CL-89;UAV;Aircraft;1963;No;15;Yes;1973;Yes;New;0.2000;0.2000;3;No
+34105;Canada;United Kingdom;CL-89;UAV;Aircraft;1963;No;10;Yes;1972;Yes;New;0.2000;0.2000;2;No
+21350;Canada;United Kingdom;DHC-2 Beaver;Light aircraft;Aircraft;1952;Yes;14;Yes;1953;No;New;0.3800;0.3800;5.32;No
+21350;Canada;United Kingdom;DHC-2 Beaver;Light aircraft;Aircraft;1952;Yes;14;Yes;1955;Yes;New;0.3800;0.3800;5.32;No
+21350;Canada;United Kingdom;DHC-2 Beaver;Light aircraft;Aircraft;1952;Yes;14;Yes;1954;Yes;New;0.3800;0.3800;5.32;No
+21350;Canada;United Kingdom;DHC-2 Beaver;Light aircraft;Aircraft;1952;Yes;3;Yes;1952;Yes;New;0.3800;0.3800;1.14;No
+30453;Canada;United Kingdom;Global Express;Transport aircraft;Aircraft;1999;No;5;Yes;2007;No;New;27.5000;27.5000;137.5;No
+37590;Canada;Uruguay;PT-6;Turboprop;Engines;1992;No;6;No;1992;No;New;0.6000;0.6000;3.6;No
+6909;Canada;Uruguay;DHC-2 Beaver;Light aircraft;Aircraft;1952;Yes;1;No;1952;No;New;0.3800;0.3800;0.38;No
+53099;Canada;Uruguay;Piranha;APC;Armoured vehicles;2009;No;103;No;2009;No;Second hand;0.3000;0.12;12.36;No
+50388;Canada;Uruguay;Piranha;APC;Armoured vehicles;2006;Yes;24;Yes;2009;No;Second hand;0.3000;0.12;2.88;No
+50388;Canada;Uruguay;Piranha;APC;Armoured vehicles;2006;Yes;20;Yes;2008;No;Second hand;0.3000;0.12;2.4;No
+39870;Canada;Uruguay;DHC-1 Chipmunk;Trainer aircraft;Aircraft;1954;No;9;No;1955;No;New;0.1200;0.1200;1.08;No
+39870;Canada;Uruguay;DHC-1 Chipmunk;Trainer aircraft;Aircraft;1954;No;1;No;1954;No;New;0.1200;0.1200;0.12;No
+37610;Canada;Venezuela;PT-6;Turboprop;Engines;1986;No;16;Yes;1987;No;New;0.6000;0.6000;9.6;No
+37610;Canada;Venezuela;PT-6;Turboprop;Engines;1986;No;15;Yes;1986;No;New;0.6000;0.6000;9;No
+23456;Canada;Venezuela;B-25 Mitchell;Bomber aircraft;Aircraft;1953;Yes;9;No;1953;No;Second hand;5.0000;2;18;No
+22312;Canada;Venezuela;F-5A Freedom Fighter;FGA aircraft;Aircraft;1973;Yes;2;No;1974;No;Second hand;8.0000;3.2;6.4;No
+8046;Canada;Venezuela;F-5A Freedom Fighter;FGA aircraft;Aircraft;1971;No;18;No;1972;No;Second hand;8.0000;3.2;57.6;No
+3591;Canada;Venezuela;DHC-7;Transport aircraft;Aircraft;1981;Yes;1;No;1982;No;New;10.5000;10.5000;10.5;No
+51602;Canada;Viet Nam;DHC-6 Twin Otter;Transport aircraft;Aircraft;2010;No;1;No;2012;No;New;2.2500;2.2500;2.25;No
+51602;Canada;Viet Nam;DHC-6 Twin Otter;Transport aircraft;Aircraft;2010;No;2;Yes;2013;No;New;2.2500;2.2500;4.5;No
+26123;Canada;United Nations**;DHC-3 Otter;Light transport ac;Aircraft;1960;No;2;No;1960;No;Second hand;0.6300;0.252;0.504;No
+37790;Canada;Algeria;PW-100;Turboprop/turboshaft;Engines;2004;No;8;Yes;2006;No;New;1.0000;1.0000;8;No
+37790;Canada;Algeria;PW-100;Turboprop/turboshaft;Engines;2004;No;4;Yes;2005;Yes;New;1.0000;1.0000;4;No
+37601;Canada;Argentina;PT-6;Turboprop;Engines;1987;No;15;No;1988;No;New;0.6000;0.6000;9;No
+37601;Canada;Argentina;PT-6;Turboprop;Engines;1987;No;15;No;1987;No;New;0.6000;0.6000;9;No
+2172;Canada;Argentina;DHC-6 Twin Otter;Transport aircraft;Aircraft;1968;No;4;Yes;1969;No;New;2.2500;2.2500;9;No
+2172;Canada;Argentina;DHC-6 Twin Otter;Transport aircraft;Aircraft;1968;No;5;Yes;1968;No;New;2.2500;2.2500;11.25;No
+2128;Canada;Argentina;DHC-2 Beaver;Light aircraft;Aircraft;1964;Yes;3;No;1964;No;Second hand;0.3800;0.152;0.456;No
+2126;Canada;Argentina;DHC-3 Otter;Light transport ac;Aircraft;1965;Yes;3;No;1966;No;Second hand;0.6300;0.252;0.756;No
+2126;Canada;Argentina;DHC-3 Otter;Light transport ac;Aircraft;1965;Yes;4;No;1965;No;Second hand;0.6300;0.252;1.008;No
+4140;Canada;Egypt;PT-6;Turboprop;Engines;1983;No;5;Yes;1988;No;New;0.6000;0.6000;3;No
+4140;Canada;Egypt;PT-6;Turboprop;Engines;1983;No;10;Yes;1987;No;New;0.6000;0.6000;6;No
+4140;Canada;Egypt;PT-6;Turboprop;Engines;1983;No;12;Yes;1986;No;New;0.6000;0.6000;7.2;No
+4140;Canada;Egypt;PT-6;Turboprop;Engines;1983;No;3;Yes;1985;No;New;0.6000;0.6000;1.8;No
+4140;Canada;Egypt;PT-6;Turboprop;Engines;1983;No;10;No;1984;No;New;0.6000;0.6000;6;No
+3371;Canada;Egypt;DHC-5 Buffalo;Transport aircraft;Aircraft;1981;No;10;No;1982;No;New;13.2200;13.2200;132.2;No
+55524;Canada;Egypt;PW-100;Turboprop/turboshaft;Engines;2012;No;6;Yes;2013;Yes;New;1.0000;1.0000;6;No
+52573;Canada;Egypt;PW-100;Turboprop/turboshaft;Engines;2010;No;6;Yes;2011;No;New;1.0000;1.0000;6;No
+37603;Canada;Egypt;PT-6;Turboprop;Engines;1989;No;14;Yes;1990;No;New;0.6000;0.6000;8.4;No
+37613;Canada;France;PT-6;Turboprop;Engines;1991;No;14;Yes;1997;No;New;0.6000;0.6000;8.4;No
+37613;Canada;France;PT-6;Turboprop;Engines;1991;No;14;Yes;1996;No;New;0.6000;0.6000;8.4;No
+37613;Canada;France;PT-6;Turboprop;Engines;1991;No;20;No;1995;No;New;0.6000;0.6000;12;No
+37613;Canada;France;PT-6;Turboprop;Engines;1991;No;2;No;1993;No;New;0.6000;0.6000;1.2;No
+34108;Canada;France;CL-289;UAV;Aircraft;1987;No;5;Yes;1995;Yes;New;1.5000;1.5000;7.5;No
+34108;Canada;France;CL-289;UAV;Aircraft;1987;No;10;Yes;1994;Yes;New;1.5000;1.5000;15;No
+34108;Canada;France;CL-289;UAV;Aircraft;1987;No;10;Yes;1993;Yes;New;1.5000;1.5000;15;No
+34108;Canada;France;CL-289;UAV;Aircraft;1987;No;10;Yes;1992;Yes;New;1.5000;1.5000;15;No
+34108;Canada;France;CL-289;UAV;Aircraft;1987;No;10;Yes;1991;Yes;New;1.5000;1.5000;15;No
+34108;Canada;France;CL-289;UAV;Aircraft;1987;No;5;Yes;1990;Yes;New;1.5000;1.5000;7.5;No
+33061;Canada;France;CL-89;UAV;Aircraft;1970;Yes;5;Yes;1982;Yes;New;0.2000;0.2000;1;No
+33061;Canada;France;CL-89;UAV;Aircraft;1970;Yes;5;Yes;1981;Yes;New;0.2000;0.2000;1;No
+33061;Canada;France;CL-89;UAV;Aircraft;1970;Yes;10;Yes;1980;Yes;New;0.2000;0.2000;2;No
+33061;Canada;France;CL-89;UAV;Aircraft;1970;Yes;10;Yes;1979;Yes;New;0.2000;0.2000;2;No
+33061;Canada;France;CL-89;UAV;Aircraft;1970;Yes;15;Yes;1978;Yes;New;0.2000;0.2000;3;No
+33061;Canada;France;CL-89;UAV;Aircraft;1970;Yes;15;Yes;1977;Yes;New;0.2000;0.2000;3;No
+33061;Canada;France;CL-89;UAV;Aircraft;1970;Yes;15;Yes;1976;Yes;New;0.2000;0.2000;3;No
+33061;Canada;France;CL-89;UAV;Aircraft;1970;Yes;10;Yes;1975;Yes;New;0.2000;0.2000;2;No
+33061;Canada;France;CL-89;UAV;Aircraft;1970;Yes;10;Yes;1974;Yes;New;0.2000;0.2000;2;No
+33061;Canada;France;CL-89;UAV;Aircraft;1970;Yes;5;Yes;1973;Yes;New;0.2000;0.2000;1;No
+3538;Canada;France;DHC-6 Twin Otter;Transport aircraft;Aircraft;1982;No;1;Yes;1982;No;New;2.2500;2.2500;2.25;No
+3538;Canada;France;DHC-6 Twin Otter;Transport aircraft;Aircraft;1982;No;1;Yes;1983;Yes;New;2.2500;2.2500;2.25;No
+2639;Canada;France;DHC-6 Twin Otter;Transport aircraft;Aircraft;1976;Yes;1;No;1978;No;New;2.2500;2.2500;2.25;No
+2638;Canada;France;DHC-6 Twin Otter;Transport aircraft;Aircraft;1977;Yes;3;No;1979;No;New;2.2500;2.2500;6.75;No
+2637;Canada;France;DHC-6 Twin Otter;Transport aircraft;Aircraft;1979;Yes;2;No;1981;No;New;2.2500;2.2500;4.5;No
+14068;Canada;France;Gaspe;Minesweeper;Ships;1954;No;6;No;1954;No;New;13.5000;13.5000;81;No
+28971;Canada;France;T-33A Shooting Star;Trainer aircraft;Aircraft;1958;Yes;15;Yes;1962;No;Second hand;2.5000;1;15;No
+28971;Canada;France;T-33A Shooting Star;Trainer aircraft;Aircraft;1958;Yes;15;Yes;1961;No;Second hand;2.5000;1;15;No
+28971;Canada;France;T-33A Shooting Star;Trainer aircraft;Aircraft;1958;Yes;15;Yes;1960;No;Second hand;2.5000;1;15;No
+28971;Canada;France;T-33A Shooting Star;Trainer aircraft;Aircraft;1958;Yes;16;Yes;1959;No;Second hand;2.5000;1;16;No
+37573;Canada;France;PT-6;Turboprop;Engines;1990;No;5;No;1991;No;New;0.6000;0.6000;3;No
+37605;Canada;Honduras;PT-6;Turboprop;Engines;1984;Yes;4;No;1986;No;New;0.6000;0.6000;2.4;No
+37605;Canada;Honduras;PT-6;Turboprop;Engines;1984;Yes;8;No;1985;No;New;0.6000;0.6000;4.8;No
+54631;Canada;Kazakhstan;PW-100;Turboprop/turboshaft;Engines;2012;No;4;Yes;2013;No;New;1.0000;1.0000;4;No
+8263;Canada;Morocco;C-119 Packet;Transport aircraft;Aircraft;1971;Yes;5;No;1973;Yes;Second hand;9.0000;3.6;18;No
+51479;Canada;Morocco;PT-6;Turboprop;Engines;2009;No;20;Yes;2011;No;New;0.6000;0.6000;12;No
+51479;Canada;Morocco;PT-6;Turboprop;Engines;2009;No;4;Yes;2012;No;New;0.6000;0.6000;2.4;No
+37578;Canada;Oman;PT-6;Turboprop;Engines;1999;No;2;Yes;2001;No;New;0.6000;0.6000;1.2;No
+37578;Canada;Oman;PT-6;Turboprop;Engines;1999;No;10;Yes;2000;No;New;0.6000;0.6000;6;No
+9676;Canada;Oman;DHC-4 Caribou;Transport aircraft;Aircraft;1968;Yes;3;No;1970;No;New;3.7500;3.7500;11.25;No
+9666;Canada;Oman;DHC-4 Caribou;Transport aircraft;Aircraft;1972;Yes;2;No;1973;No;New;3.7500;3.7500;7.5;No
+54786;Canada;Oman;PW-100;Turboprop/turboshaft;Engines;2012;No;4;Yes;2013;No;New;1.0000;1.0000;4;No
+25822;Canada;Oman;DHC-5 Buffalo;Transport aircraft;Aircraft;1981;Yes;1;No;1981;No;New;13.2200;13.2200;13.22;No
+23109;Canada;Oman;DHC-5 Buffalo;Transport aircraft;Aircraft;1982;No;1;No;1983;Yes;New;13.2200;13.2200;13.22;No
+1798;Canada;Oman;DHC-5 Buffalo;Transport aircraft;Aircraft;1978;Yes;1;No;1979;No;New;13.2200;13.2200;13.22;No
+50682;Canada;Oman;Hawk-100;Trainer/combat ac;Aircraft;2007;Yes;1;No;2008;No;Second hand;10.0000;4;4;No
+31486;Canada;Pakistan;AN/APS-504(V);MP aircraft radar;Sensors;1984;Yes;2;Yes;1988;Yes;New;2.5000;2.5000;5;No
+31486;Canada;Pakistan;AN/APS-504(V);MP aircraft radar;Sensors;1984;Yes;1;No;1986;No;New;2.5000;2.5000;2.5;No
+50735;Canada;Romania;HF SWR-503;Sea search radar;Sensors;2008;No;1;Yes;2010;Yes;New;5.0000;5.0000;5;No
+50735;Canada;Romania;HF SWR-503;Sea search radar;Sensors;2008;No;1;Yes;2011;Yes;New;5.0000;5.0000;5;No
+38998;Canada;Saudi Arabia;Piranha;APC;Armoured vehicles;2006;Yes;13;Yes;2009;Yes;New;0.2600;0.2600;3.38;No
+38998;Canada;Saudi Arabia;Piranha;APC;Armoured vehicles;2006;Yes;32;Yes;2006;Yes;New;0.2600;0.2600;8.32;No
+38998;Canada;Saudi Arabia;Piranha;APC;Armoured vehicles;2006;Yes;40;Yes;2008;Yes;New;0.2600;0.2600;10.4;No
+38998;Canada;Saudi Arabia;Piranha;APC;Armoured vehicles;2006;Yes;47;Yes;2007;No;New;0.2600;0.2600;12.22;No
+37588;Canada;Saudi Arabia;PT-6;Turboprop;Engines;1994;No;4;No;1997;No;New;0.6000;0.6000;2.4;No
+37588;Canada;Saudi Arabia;PT-6;Turboprop;Engines;1994;No;14;No;1996;No;New;0.6000;0.6000;8.4;No
+37588;Canada;Saudi Arabia;PT-6;Turboprop;Engines;1994;No;2;No;1995;No;New;0.6000;0.6000;1.2;No
+30173;Canada;Saudi Arabia;Piranha;APC;Armoured vehicles;1990;No;73;Yes;2000;No;New;0.2600;0.2600;18.98;No
+30173;Canada;Saudi Arabia;Piranha;APC;Armoured vehicles;1990;No;89;Yes;1999;No;New;0.2600;0.2600;23.14;No
+30173;Canada;Saudi Arabia;Piranha;APC;Armoured vehicles;1990;No;96;Yes;1998;No;New;0.2600;0.2600;24.96;No
+30173;Canada;Saudi Arabia;Piranha;APC;Armoured vehicles;1990;No;100;Yes;1997;No;New;0.2600;0.2600;26;No
+30173;Canada;Saudi Arabia;Piranha;APC;Armoured vehicles;1990;No;2;Yes;2001;Yes;New;0.2600;0.2600;0.52;No
+30173;Canada;Saudi Arabia;Piranha;APC;Armoured vehicles;1990;No;194;Yes;1996;No;New;0.2600;0.2600;50.44;No
+30173;Canada;Saudi Arabia;Piranha;APC;Armoured vehicles;1990;No;214;Yes;1995;No;New;0.2600;0.2600;55.64;No
+30173;Canada;Saudi Arabia;Piranha;APC;Armoured vehicles;1990;No;219;Yes;1994;No;New;0.2600;0.2600;56.94;No
+30170;Canada;Saudi Arabia;Piranha;APC;Armoured vehicles;2000;No;21;Yes;2003;Yes;New;0.2600;0.2600;5.46;No
+30170;Canada;Saudi Arabia;Piranha;APC;Armoured vehicles;2000;No;20;Yes;2002;Yes;New;0.2600;0.2600;5.2;No
+30170;Canada;Saudi Arabia;Piranha;APC;Armoured vehicles;2000;No;20;Yes;2001;Yes;New;0.2600;0.2600;5.2;No
+30170;Canada;Saudi Arabia;Piranha;APC;Armoured vehicles;2000;No;2;Yes;2000;Yes;New;0.2600;0.2600;0.52;No
+30170;Canada;Saudi Arabia;Piranha;APC;Armoured vehicles;2000;No;67;No;2004;No;New;0.2600;0.2600;17.42;No
+22318;Canada;Saudi Arabia;Piranha;APC;Armoured vehicles;1990;Yes;263;No;1993;No;New;0.2600;0.2600;68.38;No
+22318;Canada;Saudi Arabia;Piranha;APC;Armoured vehicles;1990;Yes;262;No;1992;No;New;0.2600;0.2600;68.12;No
+50697;Canada;Saudi Arabia;Piranha;APC;Armoured vehicles;2009;No;100;Yes;2011;No;New;0.2600;0.2600;26;No
+50697;Canada;Saudi Arabia;Piranha;APC;Armoured vehicles;2009;No;155;Yes;2013;No;New;0.2600;0.2600;40.3;No
+50697;Canada;Saudi Arabia;Piranha;APC;Armoured vehicles;2009;No;155;Yes;2012;No;New;0.2600;0.2600;40.3;No
+54806;Canada;Saudi Arabia;PT-6;Turboprop;Engines;2012;No;2;Yes;2013;Yes;New;0.6000;0.6000;1.2;No
+37587;Canada;Saudi Arabia;PT-6;Turboprop;Engines;1986;No;6;Yes;1988;No;New;0.6000;0.6000;3.6;No
+37587;Canada;Saudi Arabia;PT-6;Turboprop;Engines;1986;No;12;Yes;1987;No;New;0.6000;0.6000;7.2;No
+37587;Canada;Saudi Arabia;PT-6;Turboprop;Engines;1986;No;12;Yes;1986;No;New;0.6000;0.6000;7.2;No
+17691;Canada;Sri Lanka;HS-748;Transport aircraft;Aircraft;1984;Yes;1;No;1984;No;Second hand;8.5000;3.4;3.4;No
+39076;Canada;Switzerland;PT-6;Turboprop;Engines;2006;No;6;Yes;2008;No;New;0.6000;0.6000;3.6;No
+52726;Canada;Switzerland;PT-6;Turboprop;Engines;2010;No;2;Yes;2012;No;New;0.6000;0.6000;1.2;No
+37566;Canada;United States;PT-6;Turboprop;Engines;1978;Yes;2;No;1979;No;New;0.6000;0.6000;1.2;No
+37593;Canada;United States;PT-6;Turboprop;Engines;1996;No;55;Yes;2013;No;New;0.6000;0.6000;33;No
+37593;Canada;United States;PT-6;Turboprop;Engines;1996;No;55;Yes;2012;No;New;0.6000;0.6000;33;No
+37593;Canada;United States;PT-6;Turboprop;Engines;1996;No;55;Yes;2011;No;New;0.6000;0.6000;33;No
+37593;Canada;United States;PT-6;Turboprop;Engines;1996;No;55;Yes;2010;No;New;0.6000;0.6000;33;No
+37593;Canada;United States;PT-6;Turboprop;Engines;1996;No;55;Yes;2009;No;New;0.6000;0.6000;33;No
+37593;Canada;United States;PT-6;Turboprop;Engines;1996;No;55;Yes;2008;No;New;0.6000;0.6000;33;No
+37593;Canada;United States;PT-6;Turboprop;Engines;1996;No;55;Yes;2006;No;New;0.6000;0.6000;33;No
+37593;Canada;United States;PT-6;Turboprop;Engines;1996;No;55;Yes;2004;No;New;0.6000;0.6000;33;No
+37593;Canada;United States;PT-6;Turboprop;Engines;1996;No;55;Yes;2003;No;New;0.6000;0.6000;33;No
+37593;Canada;United States;PT-6;Turboprop;Engines;1996;No;55;Yes;2005;No;New;0.6000;0.6000;33;No
+37593;Canada;United States;PT-6;Turboprop;Engines;1996;No;50;Yes;2002;No;New;0.6000;0.6000;30;No
+37593;Canada;United States;PT-6;Turboprop;Engines;1996;No;40;Yes;2001;No;New;0.6000;0.6000;24;No
+37593;Canada;United States;PT-6;Turboprop;Engines;1996;No;13;Yes;2000;No;New;0.6000;0.6000;7.8;No
+37593;Canada;United States;PT-6;Turboprop;Engines;1996;No;1;No;1999;No;New;0.6000;0.6000;0.6;No
+37593;Canada;United States;PT-6;Turboprop;Engines;1996;No;55;Yes;2007;No;New;0.6000;0.6000;33;No
+36444;Canada;United States;F-101B Voodoo;Fighter aircraft;Aircraft;1970;No;22;No;1971;No;Second hand;12.5000;5;110;No
+34683;Canada;United States;Bell-206/OH-58;Light helicopter;Aircraft;1994;No;35;No;1995;No;New;0.7000;0.7000;24.5;No
+34682;Canada;United States;Bell-206/OH-58;Light helicopter;Aircraft;1999;No;15;Yes;2003;No;New;0.7000;0.7000;10.5;No
+34682;Canada;United States;Bell-206/OH-58;Light helicopter;Aircraft;1999;No;10;Yes;2002;No;New;0.7000;0.7000;7;No
+34682;Canada;United States;Bell-206/OH-58;Light helicopter;Aircraft;1999;No;10;Yes;2001;No;New;0.7000;0.7000;7;No
+30959;Canada;United States;AN/APS-504(V);MP aircraft radar;Sensors;1990;Yes;5;Yes;1991;Yes;New;2.5000;2.5000;12.5;No
+26162;Canada;United States;T-6 Texan;Trainer aircraft;Aircraft;1951;No;15;Yes;1954;No;New;0.3200;0.3200;4.8;No
+26162;Canada;United States;T-6 Texan;Trainer aircraft;Aircraft;1951;No;90;Yes;1953;No;New;0.3200;0.3200;28.8;No
+26162;Canada;United States;T-6 Texan;Trainer aircraft;Aircraft;1951;No;90;Yes;1952;No;New;0.3200;0.3200;28.8;No
+26162;Canada;United States;T-6 Texan;Trainer aircraft;Aircraft;1951;No;90;Yes;1951;No;New;0.3200;0.3200;28.8;No
+24400;Canada;United States;Boeing-707;Transport aircraft;Aircraft;1995;No;4;Yes;1995;No;Second hand;44.5000;17.8;71.2;No
+24361;Canada;United States;Piranha;APC;Armoured vehicles;1994;No;11;Yes;1998;No;New;0.2600;0.2600;2.86;No
+24361;Canada;United States;Piranha;APC;Armoured vehicles;1994;No;6;Yes;1997;No;New;0.2600;0.2600;1.56;No
+23373;Canada;United States;Piranha;APC;Armoured vehicles;1994;No;12;No;1995;No;New;0.2600;0.2600;3.12;No
+22257;Canada;United States;Bell-206/OH-58;Light helicopter;Aircraft;1993;No;10;Yes;1995;No;New;0.7000;0.7000;7;No
+22257;Canada;United States;Bell-206/OH-58;Light helicopter;Aircraft;1993;No;82;Yes;1994;No;New;0.7000;0.7000;57.4;No
+22257;Canada;United States;Bell-206/OH-58;Light helicopter;Aircraft;1993;No;10;Yes;1993;No;New;0.7000;0.7000;7;No
+21886;Canada;United States;F-86F Sabre;Fighter aircraft;Aircraft;1951;No;60;No;1952;No;New;3.5000;3.5000;210;No
+21355;Canada;United States;DHC-5 Buffalo;Transport aircraft;Aircraft;1965;No;4;No;1965;No;New;13.2200;13.2200;52.88;No
+21354;Canada;United States;DHC-4 Caribou;Transport aircraft;Aircraft;1960;Yes;39;Yes;1964;No;New;3.7500;3.7500;146.25;No
+21354;Canada;United States;DHC-4 Caribou;Transport aircraft;Aircraft;1960;Yes;40;Yes;1963;No;New;3.7500;3.7500;150;No
+21354;Canada;United States;DHC-4 Caribou;Transport aircraft;Aircraft;1960;Yes;40;Yes;1962;No;New;3.7500;3.7500;150;No
+21354;Canada;United States;DHC-4 Caribou;Transport aircraft;Aircraft;1960;Yes;40;Yes;1961;No;New;3.7500;3.7500;150;No
+21351;Canada;United States;DHC-3 Otter;Light transport ac;Aircraft;1955;Yes;10;Yes;1960;Yes;New;0.6300;0.6300;6.3;No
+21351;Canada;United States;DHC-3 Otter;Light transport ac;Aircraft;1955;Yes;10;Yes;1959;Yes;New;0.6300;0.6300;6.3;No
+21351;Canada;United States;DHC-3 Otter;Light transport ac;Aircraft;1955;Yes;10;Yes;1958;Yes;New;0.6300;0.6300;6.3;No
+21351;Canada;United States;DHC-3 Otter;Light transport ac;Aircraft;1955;Yes;10;Yes;1957;Yes;New;0.6300;0.6300;6.3;No
+21351;Canada;United States;DHC-3 Otter;Light transport ac;Aircraft;1955;Yes;10;Yes;1956;Yes;New;0.6300;0.6300;6.3;No
+20313;Canada;United States;Piranha;APC;Armoured vehicles;1987;No;12;No;1989;No;New;0.2600;0.2600;3.12;No
+19856;Canada;United States;Piranha;APC;Armoured vehicles;1985;No;2;No;1986;No;New;0.2600;0.2600;0.52;No
+18961;Canada;United States;Dash-8;Transport aircraft;Aircraft;1985;No;2;No;1988;No;New;9.0000;9.0000;18;No
+16892;Canada;United States;DHC-2 Beaver;Light aircraft;Aircraft;1948;Yes;60;Yes;1964;Yes;New;0.3800;0.3800;22.8;No
+16892;Canada;United States;DHC-2 Beaver;Light aircraft;Aircraft;1948;Yes;60;Yes;1963;Yes;New;0.3800;0.3800;22.8;No
+16892;Canada;United States;DHC-2 Beaver;Light aircraft;Aircraft;1948;Yes;60;Yes;1962;Yes;New;0.3800;0.3800;22.8;No
+16892;Canada;United States;DHC-2 Beaver;Light aircraft;Aircraft;1948;Yes;60;Yes;1961;Yes;New;0.3800;0.3800;22.8;No
+16892;Canada;United States;DHC-2 Beaver;Light aircraft;Aircraft;1948;Yes;60;Yes;1960;Yes;New;0.3800;0.3800;22.8;No
+16892;Canada;United States;DHC-2 Beaver;Light aircraft;Aircraft;1948;Yes;60;Yes;1959;Yes;New;0.3800;0.3800;22.8;No
+16892;Canada;United States;DHC-2 Beaver;Light aircraft;Aircraft;1948;Yes;60;Yes;1958;Yes;New;0.3800;0.3800;22.8;No
+16892;Canada;United States;DHC-2 Beaver;Light aircraft;Aircraft;1948;Yes;60;Yes;1957;Yes;New;0.3800;0.3800;22.8;No
+16892;Canada;United States;DHC-2 Beaver;Light aircraft;Aircraft;1948;Yes;60;Yes;1956;Yes;New;0.3800;0.3800;22.8;No
+16892;Canada;United States;DHC-2 Beaver;Light aircraft;Aircraft;1948;Yes;60;Yes;1955;Yes;New;0.3800;0.3800;22.8;No
+16892;Canada;United States;DHC-2 Beaver;Light aircraft;Aircraft;1948;Yes;60;Yes;1954;Yes;New;0.3800;0.3800;22.8;No
+16892;Canada;United States;DHC-2 Beaver;Light aircraft;Aircraft;1948;Yes;60;Yes;1953;Yes;New;0.3800;0.3800;22.8;No
+16892;Canada;United States;DHC-2 Beaver;Light aircraft;Aircraft;1948;Yes;60;Yes;1952;Yes;New;0.3800;0.3800;22.8;No
+16892;Canada;United States;DHC-2 Beaver;Light aircraft;Aircraft;1948;Yes;60;Yes;1951;Yes;New;0.3800;0.3800;22.8;No
+16892;Canada;United States;DHC-2 Beaver;Light aircraft;Aircraft;1948;Yes;60;Yes;1950;Yes;New;0.3800;0.3800;22.8;No
+55087;Canada;United States;Global Express;Transport aircraft;Aircraft;2012;No;1;No;2012;No;New;32.0000;32.0000;32;No
+54258;Canada;United States;Piranha-3;APC;Armoured vehicles;2011;No;142;Yes;2013;No;New;0.2700;0.2700;38.34;Yes
+54258;Canada;United States;Piranha-3;APC;Armoured vehicles;2011;No;150;Yes;2012;No;New;0.2700;0.2700;40.5;Yes
+52543;Canada;United States;Piranha-3;APC;Armoured vehicles;2010;No;50;Yes;2012;No;New;0.2700;0.2700;13.5;Yes
+52543;Canada;United States;Piranha-3;APC;Armoured vehicles;2010;No;41;Yes;2011;No;New;0.2700;0.2700;11.07;Yes
+51689;Canada;United States;Piranha-3;APC;Armoured vehicles;2010;No;103;No;2012;No;New;0.2700;0.2700;27.81;Yes
+51233;Canada;United States;Piranha-3;APC;Armoured vehicles;2009;No;52;Yes;2012;No;New;0.2700;0.2700;14.04;Yes
+51233;Canada;United States;Piranha-3;APC;Armoured vehicles;2009;No;300;Yes;2011;No;New;0.2700;0.2700;81;Yes
+51232;Canada;United States;Piranha-3;APC;Armoured vehicles;2008;No;115;No;2011;No;New;0.2700;0.2700;31.05;Yes
+51232;Canada;United States;Piranha-3;APC;Armoured vehicles;2008;No;300;Yes;2010;No;New;0.2700;0.2700;81;Yes
+51232;Canada;United States;Piranha-3;APC;Armoured vehicles;2008;No;200;Yes;2009;No;New;0.2700;0.2700;54;Yes
+36889;Canada;United States;Piranha-3;APC;Armoured vehicles;2005;Yes;150;Yes;2007;No;New;0.2700;0.2700;40.5;Yes
+36889;Canada;United States;Piranha-3;APC;Armoured vehicles;2005;Yes;104;Yes;2009;No;New;0.2700;0.2700;28.08;Yes
+36889;Canada;United States;Piranha-3;APC;Armoured vehicles;2005;Yes;450;Yes;2008;No;New;0.2700;0.2700;121.5;Yes
+31094;Canada;United States;Piranha-3;APC;Armoured vehicles;2000;No;266;Yes;2007;No;New;0.2700;0.2700;71.82;Yes
+31094;Canada;United States;Piranha-3;APC;Armoured vehicles;2000;No;350;Yes;2005;No;New;0.2700;0.2700;94.5;Yes
+31094;Canada;United States;Piranha-3;APC;Armoured vehicles;2000;No;400;Yes;2006;No;New;0.2700;0.2700;108;Yes
+31094;Canada;United States;Piranha-3;APC;Armoured vehicles;2000;No;350;Yes;2004;No;New;0.2700;0.2700;94.5;Yes
+31094;Canada;United States;Piranha-3;APC;Armoured vehicles;2000;No;290;Yes;2002;No;New;0.2700;0.2700;78.3;Yes
+31094;Canada;United States;Piranha-3;APC;Armoured vehicles;2000;No;475;Yes;2003;No;New;0.2700;0.2700;128.25;Yes
+25679;Canada;United States;Piranha;APC;Armoured vehicles;1984;Yes;30;Yes;1985;Yes;New;0.2600;0.2600;7.8;Yes
+25679;Canada;United States;Piranha;APC;Armoured vehicles;1984;Yes;176;Yes;1987;No;New;0.2600;0.2600;45.76;Yes
+25679;Canada;United States;Piranha;APC;Armoured vehicles;1984;Yes;120;Yes;1986;No;New;0.2600;0.2600;31.2;Yes
+3818;Canada;United States;Piranha;APC;Armoured vehicles;1982;No;41;Yes;1988;No;New;0.2600;0.2600;10.66;Yes
+3818;Canada;United States;Piranha;APC;Armoured vehicles;1982;No;51;Yes;1987;No;New;0.2600;0.2600;13.26;Yes
+3818;Canada;United States;Piranha;APC;Armoured vehicles;1982;No;100;Yes;1986;No;New;0.2600;0.2600;26;Yes
+3818;Canada;United States;Piranha;APC;Armoured vehicles;1982;No;100;Yes;1985;No;New;0.2600;0.2600;26;Yes
+3818;Canada;United States;Piranha;APC;Armoured vehicles;1982;No;100;Yes;1984;No;New;0.2600;0.2600;26;Yes
+3818;Canada;United States;Piranha;APC;Armoured vehicles;1982;No;30;Yes;1983;No;New;0.2600;0.2600;7.8;Yes
+51084;Canada;United States;Global Express;Transport aircraft;Aircraft;2009;No;1;Yes;2011;Yes;New;32.0000;32.0000;32;No
+51084;Canada;United States;Global Express;Transport aircraft;Aircraft;2009;No;2;Yes;2010;Yes;New;32.0000;32.0000;64;No
+25688;Canada;United States;Piranha;APC;Armoured vehicles;1982;No;1;No;1984;No;New;0.2600;0.2600;0.26;No
+25686;Canada;United States;Piranha;APC;Armoured vehicles;1982;No;2;No;1984;No;New;0.2600;0.2600;0.52;No
+21353;Canada;United States;DHC-4 Caribou;Transport aircraft;Aircraft;1959;No;4;Yes;1959;No;New;3.7500;3.7500;15;No
+20312;Canada;United States;Piranha;APC;Armoured vehicles;1981;Yes;2;No;1981;No;New;0.2600;0.2600;0.52;No
+22080;Canada;North Yemen;Norseman;Light transport ac;Aircraft;1955;Yes;1;No;1955;Yes;New;0.7000;0.7000;0.7;No
+26527;Canada;Yugoslavia;DHC-2 Beaver;Light aircraft;Aircraft;1953;Yes;1;Yes;1954;Yes;New;0.3800;0.3800;0.38;No
+7176;Canada;Zambia;DHC-5 Buffalo;Transport aircraft;Aircraft;1974;No;7;No;1976;No;New;13.2200;13.2200;92.54;No
+7172;Canada;Zambia;DHC-4 Caribou;Transport aircraft;Aircraft;1971;No;1;No;1971;Yes;New;3.7500;3.7500;3.75;No
+7167;Canada;Zambia;DHC-2 Beaver;Light aircraft;Aircraft;1963;Yes;9;Yes;1965;No;Second hand;0.3800;0.152;1.368;No
+7166;Canada;Zambia;DHC-4 Caribou;Transport aircraft;Aircraft;1963;Yes;4;No;1965;No;New;3.7500;3.7500;15;No
+7163;Canada;Zambia;DHC-1 Chipmunk;Trainer aircraft;Aircraft;1965;Yes;6;Yes;1966;Yes;Second hand;0.1200;0.048;0.288;No
+52040;Canada;Zambia;PW-100;Turboprop/turboshaft;Engines;2005;Yes;4;Yes;2006;No;New;1.0000;1.0000;4;No

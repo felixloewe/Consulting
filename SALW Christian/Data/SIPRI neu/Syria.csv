@@ -1,0 +1,25 @@
+Deal ID;Seller;Buyer;Designation;Description;Armament category;Order date;Order date is estimate;Numbers delivered;Numbers delivered is estimate;Delivery year;Delivery year is estimate;Status;SIPRI estimate;TIV deal unit;TIV delivery values;Local production
+28618;Syria;Iran;9M14M/AT-3 Sagger;Anti-tank missile;Missiles;1981;Yes;1000;Yes;1983;Yes;New;0.0100;0.0100;10;No
+28618;Syria;Iran;9M14M/AT-3 Sagger;Anti-tank missile;Missiles;1981;Yes;1000;Yes;1982;Yes;New;0.0100;0.0100;10;No
+15262;Syria;Iran;BMP-1;IFV;Armoured vehicles;1981;No;100;Yes;1983;Yes;Second hand;0.9000;0.36;36;No
+15262;Syria;Iran;BMP-1;IFV;Armoured vehicles;1981;No;100;Yes;1982;Yes;Second hand;0.9000;0.36;36;No
+3546;Syria;Iran;T-55;Tank;Armoured vehicles;1982;Yes;120;Yes;1982;No;Second hand;1.2500;0.5;60;No
+3545;Syria;Iran;T-62;Tank;Armoured vehicles;1982;Yes;100;Yes;1982;No;Second hand;1.8000;0.72;72;No
+25813;Syria;Lebanon;T-54;Tank;Armoured vehicles;1991;Yes;90;Yes;1993;Yes;Second hand;1.1000;0.44;39.6;No
+25813;Syria;Lebanon;T-54;Tank;Armoured vehicles;1991;Yes;90;Yes;1992;Yes;Second hand;1.1000;0.44;39.6;No
+25445;Syria;ENLF (Ethiopia)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;1974;Yes;50;Yes;1975;Yes;New;0.0400;0.0400;2;No
+25445;Syria;ENLF (Ethiopia)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;1974;Yes;50;Yes;1974;Yes;New;0.0400;0.0400;2;No
+30210;Syria;PLO (Israel)*;PzKpfw-IVF2;Tank;Armoured vehicles;1977;Yes;1;Yes;1977;Yes;Second hand;0.8400;0.336;0.336;No
+26632;Syria;Amal (Lebanon)*;M-43 120mm;Mortar;Artillery;1985;Yes;30;Yes;1985;No;Second hand;0.0500;0.02;0.6;No
+26631;Syria;Amal (Lebanon)*;BM-21 Grad 122mm;Self-propelled MRL;Artillery;1985;Yes;20;Yes;1985;No;Second hand;0.4500;0.18;3.6;No
+17923;Syria;Amal (Lebanon)*;T-54;Tank;Armoured vehicles;1986;Yes;70;Yes;1986;No;Second hand;1.1000;0.44;30.8;No
+15394;Syria;Amal (Lebanon)*;D-30 122mm;Towed gun;Artillery;1985;Yes;18;Yes;1985;No;Second hand;0.3500;0.14;2.52;No
+15393;Syria;Amal (Lebanon)*;T-54;Tank;Armoured vehicles;1985;No;50;Yes;1985;No;Second hand;1.1000;0.44;22;No
+51421;Syria;Hezbollah (Lebanon)*;Fateh-110;SSM;Missiles;2009;Yes;100;Yes;2010;Yes;New;0.2000;0.2000;20;No
+51421;Syria;Hezbollah (Lebanon)*;Fateh-110;SSM;Missiles;2009;Yes;100;Yes;2009;Yes;New;0.2000;0.2000;20;No
+38935;Syria;Hezbollah (Lebanon)*;9M131/AT-13 Saxhorn;Anti-tank missile;Missiles;2005;Yes;50;Yes;2006;Yes;New;0.0200;0.0200;1;No
+38934;Syria;Hezbollah (Lebanon)*;9M133 Kornet/AT-14;Anti-tank missile;Missiles;2005;Yes;50;Yes;2006;Yes;New;0.0400;0.0400;2;No
+25887;Syria;Hezbollah (Lebanon)*;9M111/AT-4 Spigot;Anti-tank missile;Missiles;1995;Yes;25;Yes;1997;Yes;New;0.0100;0.0100;0.25;No
+25887;Syria;Hezbollah (Lebanon)*;9M111/AT-4 Spigot;Anti-tank missile;Missiles;1995;Yes;25;Yes;1996;Yes;New;0.0100;0.0100;0.25;No
+19362;Syria;Lebanon Palestinian rebels*;T-55;Tank;Armoured vehicles;1988;Yes;30;No;1988;No;Second hand;1.2500;0.5;15;No
+14722;Syria;Egypt;Project-123/P-4;FAC;Ships;1969;Yes;4;No;1970;No;Second hand;9.0000;3.6;14.4;No

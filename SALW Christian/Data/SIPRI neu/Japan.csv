@@ -1,0 +1,59 @@
+Deal ID;Seller;Buyer;Designation;Description;Armament category;Order date;Order date is estimate;Numbers delivered;Numbers delivered is estimate;Delivery year;Delivery year is estimate;Status;SIPRI estimate;TIV deal unit;TIV delivery values;Local production
+20924;Japan;Brazil;Barroso Pereira;Transport ship;Ships;1953;Yes;1;No;1956;No;New;38.0000;38.0000;38;No
+20924;Japan;Brazil;Barroso Pereira;Transport ship;Ships;1953;Yes;2;No;1955;No;New;38.0000;38.0000;76;No
+8772;Japan;Cambodia;FD-25 Defender;Ground attack ac;Aircraft;1954;No;7;No;1954;No;New;0.2200;0.2200;1.54;No
+29128;Japan;Dominican Republic;MU-2;Light transport ac;Aircraft;1985;Yes;1;Yes;1985;Yes;New;2.6800;2.6800;2.68;No
+8727;Japan;Gabon;YS-11A;Transport aircraft;Aircraft;1968;Yes;2;No;1971;No;New;7.5800;7.5800;15.16;No
+23974;Japan;India;Jija Bai;Patrol craft;Ships;1981;No;3;No;1985;No;New;8.5000;8.5000;25.5;Yes
+23974;Japan;India;Jija Bai;Patrol craft;Ships;1981;No;2;No;1984;No;New;8.5000;8.5000;17;Yes
+23974;Japan;India;Jija Bai;Patrol craft;Ships;1981;No;2;No;1983;No;New;8.5000;8.5000;17;Yes
+14646;Japan;Indonesia;Multatuli;Support ship;Ships;1960;Yes;1;No;1961;No;New;37.4400;37.4400;37.44;No
+14632;Japan;Indonesia;LST-1;Landing ship;Ships;1960;Yes;1;No;1961;No;New;23.6200;23.6200;23.62;No
+8066;Japan;Indonesia;T-34 Mentor;Trainer aircraft;Aircraft;1958;Yes;1;No;1959;No;New;0.2400;0.2400;0.24;No
+5356;Japan;Indonesia;T-34 Mentor;Trainer aircraft;Aircraft;1962;Yes;10;Yes;1964;No;New;0.2400;0.2400;2.4;No
+5356;Japan;Indonesia;T-34 Mentor;Trainer aircraft;Aircraft;1962;Yes;15;Yes;1963;No;New;0.2400;0.2400;3.6;No
+5356;Japan;Indonesia;T-34 Mentor;Trainer aircraft;Aircraft;1962;Yes;15;Yes;1962;No;New;0.2400;0.2400;3.6;No
+20862;Japan;Iran;Iran Ajr;Landing ship;Ships;1978;Yes;5;No;1980;Yes;New;25.0000;25.0000;125;No
+5897;Japan;South Korea (ROK);KH-4;Light helicopter;Aircraft;1965;Yes;2;No;1966;No;New;0.5000;0.5000;1;No
+20753;Japan;Sierra Leone;Pompoli;Landing ship;Ships;1978;Yes;3;No;1980;No;New;14.0000;14.0000;42;No
+32413;Japan;Sweden;MU-2;Light transport ac;Aircraft;1983;Yes;10;Yes;1985;Yes;New;2.6800;2.6800;26.8;No
+21915;Japan;Sweden;Vertol-107/CH-46A;Helicopter;Aircraft;1971;No;3;Yes;1974;No;New;4.3300;4.3300;12.99;Yes
+21915;Japan;Sweden;Vertol-107/CH-46A;Helicopter;Aircraft;1971;No;4;Yes;1973;No;New;4.3300;4.3300;17.32;Yes
+21915;Japan;Sweden;Vertol-107/CH-46A;Helicopter;Aircraft;1971;No;1;Yes;1972;No;New;4.3300;4.3300;4.33;Yes
+15325;Japan;Myanmar;Abamin;Landing craft;Ships;1968;Yes;4;Yes;1969;Yes;New;4.8000;4.8000;19.2;No
+2372;Japan;Myanmar;Bell-47/OH-13;Light helicopter;Aircraft;1956;Yes;5;Yes;1959;Yes;New;0.2400;0.2400;1.2;No
+2372;Japan;Myanmar;Bell-47/OH-13;Light helicopter;Aircraft;1956;Yes;4;Yes;1960;No;New;0.2400;0.2400;0.96;No
+2372;Japan;Myanmar;Bell-47/OH-13;Light helicopter;Aircraft;1956;Yes;4;Yes;1958;No;New;0.2400;0.2400;0.96;No
+15316;Japan;Myanmar;Sinde;Landing craft;Ships;1975;Yes;2;No;1978;No;New;4.4000;4.4000;8.8;No
+28754;Japan;Philippines;KH-4;Light helicopter;Aircraft;1965;Yes;1;Yes;1966;Yes;New;0.5000;0.5000;0.5;No
+21005;Japan;Philippines;Tirad Pass;Patrol craft;Ships;1973;Yes;2;No;1974;No;New;14.0000;14.0000;28;No
+15924;Japan;Philippines;Lapu-Lapu;OPV;Ships;1957;Yes;1;No;1959;No;New;35.0000;35.0000;35;No
+15524;Japan;Philippines;LCU-1466;Landing craft;Ships;1975;No;3;No;1979;No;Second hand but modernized;5.6000;3.696;11.088;No
+8294;Japan;Philippines;T-34 Mentor;Trainer aircraft;Aircraft;1958;No;24;Yes;1959;No;New;0.2400;0.2400;5.76;No
+8294;Japan;Philippines;T-34 Mentor;Trainer aircraft;Aircraft;1958;No;12;Yes;1958;No;New;0.2400;0.2400;2.88;No
+16549;Japan;Taiwan (ROC);Fuh Chow;FAC;Ships;1955;Yes;2;No;1957;No;New;36.8000;36.8000;73.6;No
+16548;Japan;Taiwan (ROC);Wan Shou;Oiler;Ships;1966;Yes;1;No;1969;No;New;13.0700;13.0700;13.07;No
+15429;Japan;Taiwan (ROC);F-104G Starfighter;FGA aircraft;Aircraft;1985;Yes;17;Yes;1986;Yes;Second hand;11.2000;4.48;76.16;No
+6665;Japan;Taiwan (ROC);Bell-47/OH-13;Light helicopter;Aircraft;1957;Yes;1;No;1959;No;New;0.2400;0.2400;0.24;No
+6665;Japan;Taiwan (ROC);Bell-47/OH-13;Light helicopter;Aircraft;1957;Yes;1;No;1958;No;New;0.2400;0.2400;0.24;No
+16547;Japan;Taiwan (ROC);LCU-1466;Landing craft;Ships;1953;Yes;6;No;1955;No;New;5.6000;5.6000;33.6;No
+23067;Japan;Taiwan (ROC);F-104G Starfighter;FGA aircraft;Aircraft;1985;No;5;Yes;1986;No;Second hand;11.2000;4.48;22.4;No
+8853;Japan;Thailand;Vertol-107/CH-46A;Helicopter;Aircraft;1963;Yes;2;Yes;1964;No;New;5.9600;5.9600;11.92;No
+8853;Japan;Thailand;Vertol-107/CH-46A;Helicopter;Aircraft;1963;Yes;1;Yes;1963;Yes;New;5.9600;5.9600;5.96;No
+8425;Japan;Thailand;KH-4;Light helicopter;Aircraft;1962;Yes;3;No;1964;No;New;0.5000;0.5000;1.5;No
+8425;Japan;Thailand;KH-4;Light helicopter;Aircraft;1962;Yes;3;No;1963;No;New;0.5000;0.5000;1.5;No
+6743;Japan;Thailand;KH-4;Light helicopter;Aircraft;1964;Yes;7;No;1966;No;New;0.5000;0.5000;3.5;No
+6736;Japan;Thailand;KH-4;Light helicopter;Aircraft;1968;Yes;3;No;1969;Yes;New;0.5000;0.5000;1.5;No
+24612;Japan;United Kingdom;Sea Crusader;Cargo ship;Ships;1996;No;1;No;1996;No;New;75.0000;75.0000;75;No
+22249;Japan;Uruguay;Oribe;Oiler;Ships;1960;Yes;1;No;1962;No;New;100.0000;100.0000;100;No
+8887;Japan;South Vietnam;FD-25 Defender;Ground attack ac;Aircraft;1953;Yes;4;No;1954;No;New;0.2200;0.2200;0.88;No
+36314;Japan;China;Jinhou;Tanker;Ships;1987;Yes;2;Yes;1990;No;New;15.0000;15.0000;30;No
+36314;Japan;China;Jinhou;Tanker;Ships;1987;Yes;1;Yes;1989;No;New;15.0000;15.0000;15;No
+53363;Japan;United States;DC-10-40;Transport aircraft;Aircraft;2006;No;1;No;2007;No;Second hand;100.0000;40;40;No
+21119;Japan;United States;Beechjet-400T;Light transport ac;Aircraft;1990;No;7;Yes;1997;No;New;4.5000;4.5000;31.5;Yes
+21119;Japan;United States;Beechjet-400T;Light transport ac;Aircraft;1990;No;25;Yes;1996;No;New;4.5000;4.5000;112.5;Yes
+21119;Japan;United States;Beechjet-400T;Light transport ac;Aircraft;1990;No;35;Yes;1995;No;New;4.5000;4.5000;157.5;Yes
+21119;Japan;United States;Beechjet-400T;Light transport ac;Aircraft;1990;No;36;Yes;1994;No;New;4.5000;4.5000;162;Yes
+21119;Japan;United States;Beechjet-400T;Light transport ac;Aircraft;1990;No;34;Yes;1993;No;New;4.5000;4.5000;153;Yes
+21119;Japan;United States;Beechjet-400T;Light transport ac;Aircraft;1990;No;28;Yes;1992;No;New;4.5000;4.5000;126;Yes
+21119;Japan;United States;Beechjet-400T;Light transport ac;Aircraft;1990;No;15;Yes;1991;No;New;4.5000;4.5000;67.5;Yes

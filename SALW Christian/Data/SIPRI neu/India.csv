@@ -1,0 +1,77 @@
+Deal ID;Seller;Buyer;Designation;Description;Armament category;Order date;Order date is estimate;Numbers delivered;Numbers delivered is estimate;Delivery year;Delivery year is estimate;Status;SIPRI estimate;TIV deal unit;TIV delivery values;Local production
+16160;India;Bangladesh;Model-56 105mm;Towed gun;Artillery;1971;No;30;Yes;1971;No;Second hand;0.4500;0.18;5.4;No
+16159;India;Bangladesh;Ford;Patrol craft;Ships;1973;Yes;1;No;1974;No;Second hand;5.5000;2.2;2.2;No
+16159;India;Bangladesh;Ford;Patrol craft;Ships;1973;Yes;1;No;1973;No;Second hand;5.5000;2.2;2.2;No
+12255;India;Bangladesh;SA-316B Alouette-3;Light helicopter;Aircraft;1972;Yes;3;Yes;1973;No;Second hand;0.9000;0.36;1.08;No
+12262;India;Bangladesh;DHC-3 Otter;Light transport ac;Aircraft;1971;Yes;4;No;1971;No;Second hand;0.6300;0.252;1.008;No
+12261;India;Bangladesh;DHC-4 Caribou;Transport aircraft;Aircraft;1972;No;1;No;1972;No;Second hand;3.7500;1.5;1.5;No
+50339;India;Ecuador;Druhv;Helicopter;Aircraft;2008;No;6;No;2009;No;New;4.5000;4.5000;27;No
+35557;India;Bhutan;MPV;APV;Armoured vehicles;2003;Yes;1;Yes;2004;Yes;New;0.1100;0.1100;0.11;No
+22248;India;Bhutan;Mi-4A/Hound-A;Helicopter;Aircraft;1968;No;1;No;1968;No;Second hand;1.8800;0.752;0.752;No
+10068;India;Ghana;HT-2;Trainer aircraft;Aircraft;1958;No;12;No;1959;No;New;0.1000;0.1000;1.2;No
+22979;India;Guinea-Bissau;SDB Mk-3;Patrol craft;Ships;1992;Yes;1;No;1993;No;Second hand;11.8000;4.72;4.72;No
+26777;India;Mauritius;Do-228MP;MP aircraft;Aircraft;2004;Yes;1;No;2004;No;New;3.3000;3.3000;3.3;No
+22020;India;Mauritius;SDB Mk-2;Patrol craft;Ships;1993;No;1;No;1993;No;Second hand;11.0000;4.4;4.4;No
+20092;India;Mauritius;Do-228MP;MP aircraft;Aircraft;1989;No;1;No;1990;No;New;3.3000;3.3000;3.3;No
+14915;India;Mauritius;Ford;Patrol craft;Ships;1974;Yes;1;No;1974;No;Second hand;5.5000;2.2;2.2;No
+22483;India;Namibia;SA-315B Lama;Light helicopter;Aircraft;1994;No;2;No;1994;No;New;0.7500;0.7500;1.5;No
+22482;India;Namibia;SA-316B Alouette-3;Light helicopter;Aircraft;1994;No;2;No;1995;No;New;0.9000;0.9000;1.8;No
+51438;India;Namibia;SA-316B Alouette-3;Light helicopter;Aircraft;2009;No;2;Yes;2012;Yes;New;0.9000;0.9000;1.8;No
+50409;India;Namibia;SA-315B Lama;Light helicopter;Aircraft;2009;No;1;No;2011;No;New;0.7500;0.7500;0.75;No
+53002;India;Seychelles;Do-228MP;MP aircraft;Aircraft;2012;Yes;1;No;2013;No;New;3.3000;3.3000;3.3;No
+50643;India;Seychelles;SDB Mk-5;Patrol craft;Ships;2004;No;1;No;2005;No;New;14.6000;14.6000;14.6;No
+18898;India;Seychelles;SA-316B Alouette-3;Light helicopter;Aircraft;1988;No;1;No;1988;No;New;0.9000;0.9000;0.9;No
+3740;India;Seychelles;SA-316B Alouette-3;Light helicopter;Aircraft;1982;No;2;No;1982;No;New;0.9000;0.9000;1.8;No
+1807;India;South Africa;Centurion-3;Tank;Armoured vehicles;1978;No;40;Yes;1979;No;Second hand;1.3500;0.54;21.6;No
+1807;India;South Africa;Centurion-3;Tank;Armoured vehicles;1978;No;50;Yes;1978;Yes;Second hand;1.3500;0.54;27;No
+39332;India;Myanmar;T-55;Tank;Armoured vehicles;2006;Yes;10;Yes;2006;Yes;Second hand;1.2500;0.5;5;No
+39331;India;Myanmar;Light Gun 105mm;Towed gun;Artillery;2006;Yes;10;Yes;2006;Yes;Second hand;0.6000;0.24;2.4;No
+38118;India;Myanmar;BN-2 Islander;Light transport ac;Aircraft;2005;No;2;No;2006;No;Second hand;0.6000;0.24;0.48;No
+39333;India;Myanmar;MPV;APV;Armoured vehicles;2006;Yes;10;Yes;2006;Yes;New;0.1100;0.1100;1.1;No
+31930;India;Myanmar;Mi-8T/Hip-C;Helicopter;Aircraft;1999;Yes;2;Yes;2000;No;Second hand;6.0000;2.4;4.8;No
+36639;India;Nepal;M-43 120mm;Mortar;Artillery;1992;Yes;52;Yes;1992;Yes;Second hand;0.0500;0.02;1.04;No
+51593;India;Nepal;MPV;APV;Armoured vehicles;2009;Yes;24;No;2011;No;New;0.1100;0.1100;2.64;No
+35628;India;Nepal;Druhv;Helicopter;Aircraft;2004;No;1;Yes;2005;Yes;New;4.5000;4.5000;4.5;No
+35138;India;Nepal;MPV;APV;Armoured vehicles;2003;Yes;100;Yes;2004;No;New;0.1100;0.1100;11;No
+35137;India;Nepal;Druhv;Helicopter;Aircraft;2003;Yes;2;No;2004;No;New;4.5000;4.5000;9;No
+35079;India;Nepal;SA-316B Alouette-3;Light helicopter;Aircraft;2001;No;2;Yes;2001;Yes;Second hand;0.9000;0.36;0.72;No
+33296;India;Nepal;Casspir;APC;Armoured vehicles;2002;No;3;Yes;2002;No;Second hand;0.2000;0.08;0.24;No
+32876;India;Nepal;SA-315B Lama;Light helicopter;Aircraft;2001;No;2;No;2001;Yes;New;0.7500;0.7500;1.5;No
+13267;India;Nepal;SA-316B Alouette-3;Light helicopter;Aircraft;1974;Yes;2;Yes;1974;No;New;0.9000;0.9000;1.8;No
+33297;India;Nepal;SA-315B Lama;Light helicopter;Aircraft;2001;Yes;5;Yes;2003;No;New;0.7500;0.7500;3.75;No
+33297;India;Nepal;SA-315B Lama;Light helicopter;Aircraft;2001;Yes;5;Yes;2004;Yes;New;0.7500;0.7500;3.75;No
+20752;India;Singapore;Centurion-3;Tank;Armoured vehicles;1975;No;24;Yes;1975;No;Second hand;1.3500;0.54;12.96;No
+1812;India;Singapore;AMX-13/75;Light tank;Armoured vehicles;1972;No;50;Yes;1975;Yes;Second hand;0.9000;0.36;18;No
+1812;India;Singapore;AMX-13/75;Light tank;Armoured vehicles;1972;No;50;Yes;1974;Yes;Second hand;0.9000;0.36;18;No
+1812;India;Singapore;AMX-13/75;Light tank;Armoured vehicles;1972;No;50;Yes;1973;Yes;Second hand;0.9000;0.36;18;No
+50868;India;Suriname;SA-316B Alouette-3;Light helicopter;Aircraft;2009;Yes;3;Yes;2011;Yes;New;0.9000;0.9000;2.7;No
+38303;India;Maldives;SDB Mk-5;Patrol craft;Ships;2006;No;1;No;2006;No;New;14.6000;14.6000;14.6;No
+22247;India;Maldives;Ferret;APV;Armoured vehicles;1991;Yes;2;No;1992;No;Second hand;0.1200;0.048;0.096;No
+22246;India;Maldives;BRDM-2;Reconnaissance AV;Armoured vehicles;1991;Yes;2;No;1992;No;Second hand;0.1500;0.06;0.12;No
+57127;India;Maldives;Druhv;Helicopter;Aircraft;2013;Yes;1;No;2013;No;New;4.5000;4.5000;4.5;No
+51890;India;Maldives;Druhv;Helicopter;Aircraft;2009;No;1;No;2010;No;New;4.5000;4.5000;4.5;No
+31080;India;Sri Lanka;Sukanya;OPV;Ships;2000;No;1;No;2000;No;Second hand;40.0000;16;16;No
+55766;India;Sri Lanka;Tata Diesel;Diesel engine;Engines;1985;Yes;5;Yes;2006;No;New;0.0100;0.0100;0.05;No
+55766;India;Sri Lanka;Tata Diesel;Diesel engine;Engines;1985;Yes;7;Yes;1999;No;New;0.0100;0.0100;0.07;No
+55766;India;Sri Lanka;Tata Diesel;Diesel engine;Engines;1985;Yes;10;Yes;2001;Yes;New;0.0100;0.0100;0.1;No
+55766;India;Sri Lanka;Tata Diesel;Diesel engine;Engines;1985;Yes;6;Yes;1994;Yes;New;0.0100;0.0100;0.06;No
+55766;India;Sri Lanka;Tata Diesel;Diesel engine;Engines;1985;Yes;6;Yes;1992;Yes;New;0.0100;0.0100;0.06;No
+55766;India;Sri Lanka;Tata Diesel;Diesel engine;Engines;1985;Yes;6;Yes;1993;Yes;New;0.0100;0.0100;0.06;No
+55766;India;Sri Lanka;Tata Diesel;Diesel engine;Engines;1985;Yes;6;Yes;1991;Yes;New;0.0100;0.0100;0.06;No
+55766;India;Sri Lanka;Tata Diesel;Diesel engine;Engines;1985;Yes;7;Yes;1996;Yes;New;0.0100;0.0100;0.07;No
+55766;India;Sri Lanka;Tata Diesel;Diesel engine;Engines;1985;Yes;7;Yes;1995;Yes;New;0.0100;0.0100;0.07;No
+55766;India;Sri Lanka;Tata Diesel;Diesel engine;Engines;1985;Yes;10;Yes;2003;Yes;New;0.0100;0.0100;0.1;No
+55766;India;Sri Lanka;Tata Diesel;Diesel engine;Engines;1985;Yes;10;Yes;2002;Yes;New;0.0100;0.0100;0.1;No
+55766;India;Sri Lanka;Tata Diesel;Diesel engine;Engines;1985;Yes;7;Yes;1997;Yes;New;0.0100;0.0100;0.07;No
+55766;India;Sri Lanka;Tata Diesel;Diesel engine;Engines;1985;Yes;7;Yes;1998;Yes;New;0.0100;0.0100;0.07;No
+55766;India;Sri Lanka;Tata Diesel;Diesel engine;Engines;1985;Yes;12;Yes;2004;No;New;0.0100;0.0100;0.12;No
+55766;India;Sri Lanka;Tata Diesel;Diesel engine;Engines;1985;Yes;10;Yes;2000;No;New;0.0100;0.0100;0.1;No
+55766;India;Sri Lanka;Tata Diesel;Diesel engine;Engines;1985;Yes;11;Yes;2005;No;New;0.0100;0.0100;0.11;No
+55766;India;Sri Lanka;Tata Diesel;Diesel engine;Engines;1985;Yes;6;Yes;1990;Yes;New;0.0100;0.0100;0.06;No
+55766;India;Sri Lanka;Tata Diesel;Diesel engine;Engines;1985;Yes;6;Yes;1988;Yes;New;0.0100;0.0100;0.06;No
+55766;India;Sri Lanka;Tata Diesel;Diesel engine;Engines;1985;Yes;6;Yes;1989;Yes;New;0.0100;0.0100;0.06;No
+55766;India;Sri Lanka;Tata Diesel;Diesel engine;Engines;1985;Yes;5;Yes;1987;Yes;New;0.0100;0.0100;0.05;No
+51230;India;Sri Lanka;Vikram;OPV;Ships;2008;No;1;No;2008;No;Second hand;27.5000;11;11;No
+39648;India;Sri Lanka;Indra;Air search radar;Sensors;2007;No;2;No;2007;No;New;4.7500;4.7500;9.5;No
+39061;India;Sri Lanka;Indra;Air search radar;Sensors;2005;No;2;No;2006;No;New;4.7500;4.7500;9.5;No
+35457;India;Sri Lanka;Vikram;OPV;Ships;2007;No;1;No;2007;No;Second hand;27.5000;11;11;No

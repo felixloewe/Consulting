@@ -1,0 +1,17 @@
+Deal ID;Seller;Buyer;Designation;Description;Armament category;Order date;Order date is estimate;Numbers delivered;Numbers delivered is estimate;Delivery year;Delivery year is estimate;Status;SIPRI estimate;TIV deal unit;TIV delivery values;Local production
+27468;Serbia;DR Congo;J-1 Jastreb;Ground attack ac;Aircraft;1996;Yes;3;Yes;1997;No;Second hand;2.5000;1;3;No
+27122;Serbia;DR Congo;MiG-21PFM/Fishbed-F;Fighter aircraft;Aircraft;1996;Yes;5;Yes;1996;No;Second hand;10.0000;4;20;No
+24623;Serbia;DR Congo;G-2A Galeb;Trainer aircraft;Aircraft;1996;Yes;2;Yes;1997;No;Second hand;2.2500;0.9;1.8;No
+57157;Serbia;DR Congo;M-75 120mm;Mortar;Artillery;2012;No;60;No;2012;No;Second hand;0.0500;0.02;1.2;No
+52314;Serbia;Cambodia;T-55;Tank;Armoured vehicles;2010;Yes;60;Yes;2010;No;Second hand;1.2500;0.5;30;No
+56482;Serbia;Ethiopia;D-30 122mm;Towed gun;Artillery;2011;Yes;64;No;2012;No;Second hand;0.3500;0.14;8.96;No
+40240;Serbia;Iraq;Lasta-95;Trainer aircraft;Aircraft;2007;No;3;Yes;2010;No;New;0.2400;0.2400;0.72;No
+40240;Serbia;Iraq;Lasta-95;Trainer aircraft;Aircraft;2007;No;17;Yes;2011;No;New;0.2400;0.2400;4.08;No
+52049;Serbia;Sudan;Utva-75;Light aircraft;Aircraft;2008;Yes;3;Yes;2012;Yes;New;0.2200;0.2200;0.66;Yes
+52049;Serbia;Sudan;Utva-75;Light aircraft;Aircraft;2008;Yes;6;Yes;2009;Yes;New;0.2200;0.2200;1.32;Yes
+35407;Serbia;Myanmar;B-52 NORA 155mm;Self-propelled gun;Artillery;2004;Yes;30;Yes;2008;Yes;New;1.5000;1.5000;45;No
+33402;Serbia;Myanmar;M-101A1 105mm;Towed gun;Artillery;2001;Yes;36;No;2001;No;Second hand;0.4500;0.18;6.48;No
+33401;Serbia;Myanmar;M-56 105mm;Towed gun;Artillery;2001;Yes;18;No;2001;No;Second hand;0.4500;0.18;3.24;No
+51839;Serbia;Myanmar;M-56 105mm;Towed gun;Artillery;2004;No;18;Yes;2007;Yes;Second hand but modernized;0.4500;0.297;5.346;No
+51839;Serbia;Myanmar;M-56 105mm;Towed gun;Artillery;2004;No;18;Yes;2006;Yes;Second hand but modernized;0.4500;0.297;5.346;No
+33400;Serbia;Macedonia (FYROM);UBM-52 120mm;Mortar;Artillery;2001;Yes;22;No;2001;No;New;0.0500;0.0500;1.1;No

@@ -65,8 +65,8 @@ legend("top", top5exp_names, col = 1:5, lty = 1:5, lwd = 3, bg = "white", cex = 
 matplot(import_ts5,
         type = "l",
         ylim = c(1, 2000), 
-        col = 1:5,
-        lty = 1:5,
+        col = c(1,3,6,7,8),
+        lty = c(1,3,6,7,8),
         lwd = 3,
         cex.axis = 1.5,
         cex.lab = 1.5,
@@ -76,14 +76,14 @@ matplot(import_ts5,
         xaxt = "n"    )
 axis(1, at = 1:20, labels = Year, las = 2, cex.axis = 1.5)    
 grid(lwd = 1)
-legend("top", top5imp_names, col = 1:5, lty = 1:5, lwd = 3, bg = "white", cex = 1.4)
+legend("top", top5imp_names, col = c(1,3,6,7,8), lty = c(1,3,6,7,8), lwd = 3, bg = "white", cex = 1.4)
 
 
 matplot(import_ts5[,-1],
         type = "l",
         ylim = c(1, 300),
-        col = 2:5,
-        lty = 2:5,
+        col = c(3,6,7,8),
+        lty = c(3,6,7,8),
         lwd = 3,
         cex.axis = 1.5,
         cex.lab = 1.5,
@@ -94,7 +94,7 @@ matplot(import_ts5[,-1],
         xaxt = "n" )
 axis(1, at = 1:20, labels = Year, las = 2, cex.axis = 1.5)    
 grid(lwd = 1)
-legend("top", top5imp_names[-1], col = 2:5, lty = 2:5, lwd = 3, bg = "white", cex = 1.4)
+legend("top", top5imp_names[-1], col = c(3,6,7,8), lty = c(3,6,7,8), lwd = 3, bg = "white", cex = 1.4)
 
 savePlot("Bericht/Grafiken/ts_tops", type = "png")
 

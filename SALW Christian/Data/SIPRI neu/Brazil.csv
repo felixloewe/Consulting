@@ -1,0 +1,201 @@
+Deal ID;Seller;Buyer;Designation;Description;Armament category;Order date;Order date is estimate;Numbers delivered;Numbers delivered is estimate;Delivery year;Delivery year is estimate;Status;SIPRI estimate;TIV deal unit;TIV delivery values;Local production
+28846;Brazil;Cape Verde;EMB-110 Bandeirante;Light transport ac;Aircraft;1998;Yes;1;No;1998;Yes;New;2.6500;2.6500;2.65;No
+55777;Brazil;Comoros;L-410 Turbolet;Light transport ac;Aircraft;2012;No;1;No;2012;No;Second hand;2.7500;1.1;1.1;No
+22417;Brazil;Ecuador;EE-3 Jararaca;Reconnaissance AV;Armoured vehicles;1983;No;10;Yes;1984;Yes;New;0.1400;0.1400;1.4;No
+22416;Brazil;Ecuador;EE-11 Urutu;APC;Armoured vehicles;1983;Yes;18;Yes;1984;Yes;New;0.2100;0.2100;3.78;No
+15855;Brazil;Ecuador;EE-9 Cascavel;Armoured car;Armoured vehicles;1983;No;28;Yes;1984;No;New;0.7200;0.7200;20.16;No
+50264;Brazil;Ecuador;EMB-314 Super Tucano;Trainer/combat ac;Aircraft;2008;No;4;No;2011;No;New;4.4000;4.4000;17.6;No
+50264;Brazil;Ecuador;EMB-314 Super Tucano;Trainer/combat ac;Aircraft;2008;No;14;No;2010;No;New;4.4000;4.4000;61.6;No
+35633;Brazil;Ecuador;HS-748;Transport aircraft;Aircraft;2006;Yes;5;Yes;2006;No;Second hand;8.5000;3.4;17;No
+28671;Brazil;Angola;EMB-312 Tucano;Trainer aircraft;Aircraft;1998;No;8;Yes;1998;No;New;1.6500;1.6500;13.2;No
+18363;Brazil;Angola;EMB-111;MP aircraft;Aircraft;1986;No;2;Yes;1988;Yes;New;4.3000;4.3000;8.6;No
+54342;Brazil;Angola;EMB-314 Super Tucano;Trainer/combat ac;Aircraft;2011;No;6;Yes;2013;No;New;4.4000;4.4000;26.4;No
+33823;Brazil;Angola;EMB-120 Brasilia;Transport aircraft;Aircraft;2006;Yes;1;Yes;2007;No;New;6.2000;6.2000;6.2;No
+29665;Brazil;Bolivia;A-132 Tangara;Trainer aircraft;Aircraft;1985;No;6;No;1986;No;New;0.1500;0.1500;0.9;No
+29664;Brazil;Bolivia;A-122 Uirapuru;Trainer aircraft;Aircraft;1991;Yes;15;No;1992;No;Second hand;0.1400;0.056;0.84;No
+12363;Brazil;Bolivia;S-11 Instructor;Trainer aircraft;Aircraft;1973;Yes;8;No;1974;No;Second hand;0.1200;0.048;0.384;No
+12352;Brazil;Bolivia;A-122 Uirapuru;Trainer aircraft;Aircraft;1974;No;18;No;1974;No;New;0.1400;0.1400;2.52;No
+3269;Brazil;Bolivia;EE-11 Urutu;APC;Armoured vehicles;1977;Yes;12;Yes;1980;No;New;0.2100;0.2100;2.52;No
+3269;Brazil;Bolivia;EE-11 Urutu;APC;Armoured vehicles;1977;Yes;12;Yes;1979;No;New;0.2100;0.2100;2.52;No
+3268;Brazil;Bolivia;EE-9 Cascavel;Armoured car;Armoured vehicles;1977;Yes;12;Yes;1980;No;New;0.7200;0.7200;8.64;No
+3268;Brazil;Bolivia;EE-9 Cascavel;Armoured car;Armoured vehicles;1977;Yes;12;Yes;1979;No;New;0.7200;0.7200;8.64;No
+2950;Brazil;Bolivia;SA-315B Lama;Light helicopter;Aircraft;1981;No;6;No;1982;No;New;0.7500;0.7500;4.5;No
+51353;Brazil;Bolivia;Bell-205/UH-1H;Helicopter;Aircraft;2011;No;4;No;2012;No;Second hand;2.6200;1.048;4.192;No
+36026;Brazil;Bolivia;Universal-1;Trainer aircraft;Aircraft;2005;No;6;No;2005;No;Second hand;0.2500;0.1;0.6;No
+38419;Brazil;Chile;AS365/AS565 Panther;Helicopter;Aircraft;2006;Yes;3;No;2006;No;Second hand;3.5000;1.4;4.2;No
+31789;Brazil;Chile;EMB-314 Super Tucano;Trainer/combat ac;Aircraft;2008;No;4;No;2009;No;New;4.4000;4.4000;17.6;No
+31789;Brazil;Chile;EMB-314 Super Tucano;Trainer/combat ac;Aircraft;2008;No;8;No;2010;No;New;4.4000;4.4000;35.2;No
+13612;Brazil;Chile;EMB-110 Bandeirante;Light transport ac;Aircraft;1976;No;3;No;1976;No;New;2.6500;2.6500;7.95;No
+12477;Brazil;Chile;Universal-1;Trainer aircraft;Aircraft;1974;No;10;No;1975;No;New;0.2500;0.2500;2.5;No
+3036;Brazil;Chile;EE-11 Urutu;APC;Armoured vehicles;1975;Yes;37;Yes;1976;No;New;0.2100;0.2100;7.77;No
+44;Brazil;Chile;EMB-111;MP aircraft;Aircraft;1977;No;2;No;1979;No;New;4.3000;4.3000;8.6;No
+44;Brazil;Chile;EMB-111;MP aircraft;Aircraft;1977;No;4;No;1978;No;New;4.3000;4.3000;17.2;No
+989;Brazil;Chile;EE-9 Cascavel;Armoured car;Armoured vehicles;1974;Yes;43;Yes;1976;No;New;0.7200;0.7200;30.96;No
+989;Brazil;Chile;EE-9 Cascavel;Armoured car;Armoured vehicles;1974;Yes;40;Yes;1974;No;New;0.7200;0.7200;28.8;No
+40304;Brazil;Chile;AS365/AS565 Panther;Helicopter;Aircraft;2006;Yes;1;No;2007;No;Second hand;3.5000;1.4;1.4;No
+32097;Brazil;Colombia;EMB-314 Super Tucano;Trainer/combat ac;Aircraft;2005;No;10;No;2007;No;New;4.4000;4.4000;44;No
+32097;Brazil;Colombia;EMB-314 Super Tucano;Trainer/combat ac;Aircraft;2005;No;5;No;2006;No;New;4.4000;4.4000;22;No
+32097;Brazil;Colombia;EMB-314 Super Tucano;Trainer/combat ac;Aircraft;2005;No;10;No;2008;No;New;4.4000;4.4000;44;No
+21080;Brazil;Colombia;EMB-312 Tucano;Trainer aircraft;Aircraft;1992;No;7;No;1993;No;New;1.6500;1.6500;11.55;No
+21080;Brazil;Colombia;EMB-312 Tucano;Trainer aircraft;Aircraft;1992;No;7;No;1992;No;New;1.6500;1.6500;11.55;No
+3423;Brazil;Colombia;EE-11 Urutu;APC;Armoured vehicles;1981;No;38;Yes;1984;No;New;0.2100;0.2100;7.98;No
+3423;Brazil;Colombia;EE-11 Urutu;APC;Armoured vehicles;1981;No;38;Yes;1983;No;New;0.2100;0.2100;7.98;No
+3178;Brazil;Colombia;EE-9 Cascavel;Armoured car;Armoured vehicles;1981;No;60;Yes;1984;Yes;New;0.7200;0.7200;43.2;No
+3178;Brazil;Colombia;EE-9 Cascavel;Armoured car;Armoured vehicles;1981;No;60;Yes;1983;Yes;New;0.7200;0.7200;43.2;No
+52303;Brazil;Colombia;SMKB;Guided bomb;Missiles;2009;Yes;50;Yes;2012;Yes;New;0.0200;0.0200;1;No
+12527;Brazil;Colombia;DC-4/C-54;Transport aircraft;Aircraft;1968;Yes;1;No;1969;No;Second hand;6.2500;2.5;2.5;No
+21081;Brazil;Colombia;EMB-110 Bandeirante;Light transport ac;Aircraft;1992;No;2;No;1992;No;New;2.6500;2.6500;5.3;No
+18094;Brazil;Cyprus;EE-3 Jararaca;Reconnaissance AV;Armoured vehicles;1982;Yes;18;Yes;1985;Yes;New;0.1400;0.1400;2.52;No
+18094;Brazil;Cyprus;EE-3 Jararaca;Reconnaissance AV;Armoured vehicles;1982;Yes;18;Yes;1984;Yes;New;0.1400;0.1400;2.52;No
+13999;Brazil;Cyprus;EE-11 Urutu;APC;Armoured vehicles;1982;Yes;10;Yes;1984;Yes;New;0.2100;0.2100;2.1;No
+3834;Brazil;Cyprus;EE-9 Cascavel;Armoured car;Armoured vehicles;1982;No;25;Yes;1988;Yes;New;0.7200;0.7200;18;No
+3834;Brazil;Cyprus;EE-9 Cascavel;Armoured car;Armoured vehicles;1982;No;25;Yes;1987;Yes;New;0.7200;0.7200;18;No
+3834;Brazil;Cyprus;EE-9 Cascavel;Armoured car;Armoured vehicles;1982;No;26;Yes;1986;Yes;New;0.7200;0.7200;18.72;No
+3834;Brazil;Cyprus;EE-9 Cascavel;Armoured car;Armoured vehicles;1982;No;25;Yes;1985;Yes;New;0.7200;0.7200;18;No
+3834;Brazil;Cyprus;EE-9 Cascavel;Armoured car;Armoured vehicles;1982;No;25;Yes;1984;Yes;New;0.7200;0.7200;18;No
+32072;Brazil;Dominican Republic;EMB-314 Super Tucano;Trainer/combat ac;Aircraft;2008;No;6;No;2010;No;New;4.4000;4.4000;26.4;No
+32072;Brazil;Dominican Republic;EMB-314 Super Tucano;Trainer/combat ac;Aircraft;2008;No;2;No;2009;No;New;4.4000;4.4000;8.8;No
+4401;Brazil;Gabon;EE-3 Jararaca;Reconnaissance AV;Armoured vehicles;1981;No;12;No;1984;No;New;0.1400;0.1400;1.68;No
+4400;Brazil;Gabon;EE-11 Urutu;APC;Armoured vehicles;1981;Yes;12;No;1984;No;New;0.2100;0.2100;2.52;No
+2791;Brazil;Gabon;EE-9 Cascavel;Armoured car;Armoured vehicles;1981;No;14;Yes;1983;Yes;New;0.7200;0.7200;10.08;No
+2585;Brazil;Gabon;EMB-110 Bandeirante;Light transport ac;Aircraft;1980;No;3;No;1980;No;New;2.6500;2.6500;7.95;No
+2445;Brazil;Gabon;EMB-111;MP aircraft;Aircraft;1980;No;1;No;1981;No;New;4.3000;4.3000;4.3;No
+28658;Brazil;Greece;EMB-145AEW&C;AEW&C aircraft;Aircraft;1999;No;4;No;2008;No;New;12.0000;12.0000;48;No
+15862;Brazil;Guyana;EMB-110 Bandeirante;Light transport ac;Aircraft;1983;Yes;1;No;1983;No;New;2.6500;2.6500;2.65;No
+15861;Brazil;Guyana;Bell-412;Helicopter;Aircraft;1985;No;1;No;1985;No;New;5.0000;5.0000;5;No
+39799;Brazil;Indonesia;EMB-314 Super Tucano;Trainer/combat ac;Aircraft;2011;No;4;No;2012;No;New;4.4000;4.4000;17.6;No
+19142;Brazil;Iran;EMB-312 Tucano;Trainer aircraft;Aircraft;1988;No;20;Yes;1991;No;New;1.6500;1.6500;33;No
+19142;Brazil;Iran;EMB-312 Tucano;Trainer aircraft;Aircraft;1988;No;3;Yes;1990;No;New;1.6500;1.6500;4.95;No
+19142;Brazil;Iran;EMB-312 Tucano;Trainer aircraft;Aircraft;1988;No;2;Yes;1989;No;New;1.6500;1.6500;3.3;No
+18290;Brazil;Iraq;ASTROS AV-UCF;Fire control radar;Sensors;1983;Yes;3;Yes;1988;No;New;2.5000;2.5000;7.5;No
+18290;Brazil;Iraq;ASTROS AV-UCF;Fire control radar;Sensors;1983;Yes;3;Yes;1987;No;New;2.5000;2.5000;7.5;No
+18290;Brazil;Iraq;ASTROS AV-UCF;Fire control radar;Sensors;1983;Yes;3;Yes;1986;No;New;2.5000;2.5000;7.5;No
+18290;Brazil;Iraq;ASTROS AV-UCF;Fire control radar;Sensors;1983;Yes;3;Yes;1985;No;New;2.5000;2.5000;7.5;No
+18290;Brazil;Iraq;ASTROS AV-UCF;Fire control radar;Sensors;1983;Yes;1;Yes;1984;No;New;2.5000;2.5000;2.5;No
+16612;Brazil;Iraq;ASTROS-2;Self-propelled MRL;Artillery;1981;Yes;20;Yes;1988;No;New;0.9500;0.9500;19;No
+16612;Brazil;Iraq;ASTROS-2;Self-propelled MRL;Artillery;1981;Yes;19;Yes;1986;No;New;0.9500;0.9500;18.05;No
+16612;Brazil;Iraq;ASTROS-2;Self-propelled MRL;Artillery;1981;Yes;22;Yes;1985;No;New;0.9500;0.9500;20.9;No
+16612;Brazil;Iraq;ASTROS-2;Self-propelled MRL;Artillery;1981;Yes;6;Yes;1984;No;New;0.9500;0.9500;5.7;No
+4171;Brazil;Iraq;EMB-312 Tucano;Trainer aircraft;Aircraft;1983;No;30;Yes;1988;No;New;1.6500;1.6500;49.5;No
+4171;Brazil;Iraq;EMB-312 Tucano;Trainer aircraft;Aircraft;1983;No;20;Yes;1987;No;New;1.6500;1.6500;33;No
+4171;Brazil;Iraq;EMB-312 Tucano;Trainer aircraft;Aircraft;1983;No;20;Yes;1986;No;New;1.6500;1.6500;33;No
+4171;Brazil;Iraq;EMB-312 Tucano;Trainer aircraft;Aircraft;1983;No;10;Yes;1985;No;New;1.6500;1.6500;16.5;No
+3699;Brazil;Iraq;EE-3 Jararaca;Reconnaissance AV;Armoured vehicles;1981;No;140;Yes;1985;Yes;New;0.1400;0.1400;19.6;No
+3699;Brazil;Iraq;EE-3 Jararaca;Reconnaissance AV;Armoured vehicles;1981;No;140;Yes;1984;Yes;New;0.1400;0.1400;19.6;No
+3698;Brazil;Iraq;EE-11 Urutu;APC;Armoured vehicles;1981;No;30;Yes;1984;No;New;0.2100;0.2100;6.3;No
+3698;Brazil;Iraq;EE-11 Urutu;APC;Armoured vehicles;1981;No;40;Yes;1983;No;New;0.2100;0.2100;8.4;No
+3698;Brazil;Iraq;EE-11 Urutu;APC;Armoured vehicles;1981;No;30;Yes;1982;Yes;New;0.2100;0.2100;6.3;No
+1422;Brazil;Iraq;EE-9 Cascavel;Armoured car;Armoured vehicles;1979;Yes;50;Yes;1979;No;New;0.7200;0.7200;36;No
+1422;Brazil;Iraq;EE-9 Cascavel;Armoured car;Armoured vehicles;1979;Yes;100;Yes;1980;No;New;0.7200;0.7200;72;No
+1422;Brazil;Iraq;EE-9 Cascavel;Armoured car;Armoured vehicles;1979;Yes;50;Yes;1981;Yes;New;0.7200;0.7200;36;No
+52404;Brazil;Iraq;EE-9 Cascavel;Armoured car;Armoured vehicles;1981;No;50;Yes;1983;Yes;New;0.7500;0.7500;37.5;No
+52404;Brazil;Iraq;EE-9 Cascavel;Armoured car;Armoured vehicles;1981;No;50;Yes;1984;Yes;New;0.7500;0.7500;37.5;No
+52404;Brazil;Iraq;EE-9 Cascavel;Armoured car;Armoured vehicles;1981;No;50;Yes;1985;Yes;New;0.7500;0.7500;37.5;No
+52404;Brazil;Iraq;EE-9 Cascavel;Armoured car;Armoured vehicles;1981;No;50;Yes;1982;No;New;0.7500;0.7500;37.5;No
+52403;Brazil;Iraq;EE-11 Urutu;APC;Armoured vehicles;1979;No;100;Yes;1980;No;New;0.2500;0.2500;25;No
+17825;Brazil;Jordan;EE-11 Urutu;APC;Armoured vehicles;1987;No;14;Yes;1988;No;New;0.2100;0.2100;2.94;No
+17825;Brazil;Jordan;EE-11 Urutu;APC;Armoured vehicles;1987;No;14;Yes;1987;No;New;0.2100;0.2100;2.94;No
+4194;Brazil;South Korea (ROK);T-37B;Trainer aircraft;Aircraft;1980;Yes;30;Yes;1980;No;Second hand;1.8000;0.72;21.6;No
+35204;Brazil;Malaysia;ASTROS AV-UCF;Fire control radar;Sensors;2001;No;3;Yes;2002;No;New;2.5000;2.5000;7.5;No
+35203;Brazil;Malaysia;AV-VBL;APC;Armoured vehicles;2000;Yes;10;Yes;2002;Yes;New;0.1800;0.1800;1.8;No
+34873;Brazil;Malaysia;ASTROS-2;Self-propelled MRL;Artillery;2007;No;18;No;2010;No;New;0.9500;0.9500;17.1;No
+32875;Brazil;Malaysia;ASTROS-2;Self-propelled MRL;Artillery;2001;No;18;Yes;2002;No;New;0.9500;0.9500;17.1;No
+50970;Brazil;Malaysia;ASTROS AV-UCF;Fire control radar;Sensors;2007;No;3;No;2010;No;New;2.5000;2.5000;7.5;No
+30682;Brazil;Mexico;EMB-145MP;MP aircraft;Aircraft;2001;No;2;No;2004;No;New;12.0000;12.0000;24;No
+30187;Brazil;Mexico;EMB-145AEW&C;AEW&C aircraft;Aircraft;2001;No;1;No;2004;Yes;New;12.0000;12.0000;12;No
+36694;Brazil;Namibia;Grajau;Patrol craft;Ships;2004;No;1;No;2009;No;New;10.6000;10.6000;10.6;No
+35059;Brazil;Namibia;Imperial Marinheiro;OPV/tug;Ships;2003;No;1;No;2004;No;Second hand;25.0000;10;10;No
+3127;Brazil;Nigeria;EE-9 Cascavel;Armoured car;Armoured vehicles;1992;Yes;75;Yes;1994;Yes;New;0.7200;0.7200;54;No
+861;Brazil;Togo;MB-326GB;Trainer/combat ac;Aircraft;1978;No;3;No;1978;No;New;2.3500;2.3500;7.05;No
+629;Brazil;Togo;MB-326GB;Trainer/combat ac;Aircraft;1975;No;3;No;1976;No;New;2.3500;2.3500;7.05;No
+4093;Brazil;Tunisia;EE-9 Cascavel;Armoured car;Armoured vehicles;1982;No;24;Yes;1983;Yes;New;0.7200;0.7200;17.28;No
+4092;Brazil;Tunisia;EE-11 Urutu AFSV;IFV;Armoured vehicles;1982;No;12;Yes;1983;No;New;0.7200;0.7200;8.64;No
+52968;Brazil;Tunisia;EE-11 Urutu;APC;Armoured vehicles;1982;No;6;Yes;1983;No;New;0.2100;0.2100;1.26;No
+53586;Brazil;Mauritania;EMB-314 Super Tucano;Trainer/combat ac;Aircraft;2011;No;2;Yes;2013;Yes;New;4.4000;4.4000;8.8;No
+53586;Brazil;Mauritania;EMB-314 Super Tucano;Trainer/combat ac;Aircraft;2011;No;2;Yes;2012;No;New;4.4000;4.4000;8.8;No
+18585;Brazil;Paraguay;AS-350/AS-550 Fennec;Light helicopter;Aircraft;1985;Yes;4;No;1986;No;New;0.9000;0.9000;3.6;No
+18204;Brazil;Paraguay;EMB-312 Tucano;Trainer aircraft;Aircraft;1987;No;6;Yes;1988;No;New;1.6500;1.6500;9.9;No
+15925;Brazil;Paraguay;EE-9 Cascavel;Armoured car;Armoured vehicles;1984;Yes;28;Yes;1985;Yes;New;0.7200;0.7200;20.16;No
+14465;Brazil;Paraguay;AS-350/AS-550 Fennec;Light helicopter;Aircraft;1985;No;2;No;1985;No;New;0.9000;0.9000;1.8;No
+14152;Brazil;Paraguay;DC-3/C-47 Skytrain;Transport aircraft;Aircraft;1984;Yes;2;No;1984;No;Second hand;2.5000;1;2;No
+9789;Brazil;Paraguay;S-11 Instructor;Trainer aircraft;Aircraft;1970;Yes;8;No;1971;Yes;Second hand;0.1200;0.048;0.384;No
+4880;Brazil;Paraguay;EE-11 Urutu;APC;Armoured vehicles;1984;Yes;12;Yes;1985;Yes;New;0.2100;0.2100;2.52;No
+4058;Brazil;Paraguay;Roraima;Patrol craft;Ships;1982;No;1;No;1985;No;New;12.5000;12.5000;12.5;No
+1609;Brazil;Paraguay;MB-326GB;Trainer/combat ac;Aircraft;1978;No;6;Yes;1980;No;New;2.3500;2.3500;14.1;No
+1609;Brazil;Paraguay;MB-326GB;Trainer/combat ac;Aircraft;1978;No;3;Yes;1978;Yes;New;2.3500;2.3500;7.05;No
+1609;Brazil;Paraguay;MB-326GB;Trainer/combat ac;Aircraft;1978;No;1;No;1981;Yes;New;2.3500;2.3500;2.35;No
+1298;Brazil;Paraguay;A-122 Uirapuru;Trainer aircraft;Aircraft;1975;Yes;8;No;1975;No;New;0.1400;0.1400;1.12;No
+51418;Brazil;Paraguay;EMB-312 Tucano;Trainer aircraft;Aircraft;2009;Yes;3;No;2010;No;Second hand;2.2500;0.9;2.7;No
+36025;Brazil;Paraguay;Universal-1;Trainer aircraft;Aircraft;2005;No;6;Yes;2005;Yes;Second hand;0.2500;0.1;0.6;No
+32164;Brazil;Paraguay;M-3 Stuart;Light tank;Armoured vehicles;1984;Yes;9;Yes;1984;Yes;Second hand;0.3000;0.12;1.08;No
+24315;Brazil;Paraguay;A-122 Uirapuru;Trainer aircraft;Aircraft;1986;No;6;Yes;1986;Yes;Second hand;0.1400;0.056;0.336;No
+9771;Brazil;Paraguay;DC-6/C-118;Transport aircraft;Aircraft;1975;No;5;No;1975;No;Second hand;8.5000;3.4;17;No
+9770;Brazil;Paraguay;T-6 Texan;Trainer aircraft;Aircraft;1975;No;10;Yes;1975;No;Second hand;0.3200;0.128;1.28;No
+9787;Brazil;Paraguay;T-6 Texan;Trainer aircraft;Aircraft;1960;Yes;14;No;1960;No;Second hand;0.3200;0.128;1.792;No
+9785;Brazil;Paraguay;PT-19 Cornell;Trainer aircraft;Aircraft;1960;Yes;5;No;1960;No;Second hand;0.1200;0.048;0.24;No
+21791;Brazil;Peru;EMB-110 Bandeirante;Light transport ac;Aircraft;1993;No;3;No;1993;No;New;2.6500;2.6500;7.95;No
+20571;Brazil;Peru;EMB-312 Tucano;Trainer aircraft;Aircraft;1991;No;10;No;1991;No;New;1.6500;1.6500;16.5;No
+17643;Brazil;Peru;EMB-312 Tucano;Trainer aircraft;Aircraft;1984;No;20;No;1987;No;New;1.6500;1.6500;33;No
+17956;Brazil;Suriname;EE-9 Cascavel;Armoured car;Armoured vehicles;1983;Yes;6;Yes;1984;Yes;New;0.7200;0.7200;4.32;No
+4657;Brazil;Suriname;EE-11 Urutu;APC;Armoured vehicles;1983;Yes;15;Yes;1984;Yes;New;0.2100;0.2100;3.15;No
+3336;Brazil;UAE;EE-11 Urutu;APC;Armoured vehicles;1982;No;30;Yes;1983;Yes;New;0.2100;0.2100;6.3;No
+3336;Brazil;UAE;EE-11 Urutu;APC;Armoured vehicles;1982;No;30;Yes;1982;Yes;New;0.2100;0.2100;6.3;No
+14464;Brazil;United Kingdom;EMB-312 Tucano;Trainer aircraft;Aircraft;1985;No;8;Yes;1993;No;New;1.6500;1.6500;13.2;Yes
+14464;Brazil;United Kingdom;EMB-312 Tucano;Trainer aircraft;Aircraft;1985;No;24;Yes;1992;No;New;1.6500;1.6500;39.6;Yes
+14464;Brazil;United Kingdom;EMB-312 Tucano;Trainer aircraft;Aircraft;1985;No;24;Yes;1991;No;New;1.6500;1.6500;39.6;Yes
+14464;Brazil;United Kingdom;EMB-312 Tucano;Trainer aircraft;Aircraft;1985;No;24;Yes;1989;No;New;1.6500;1.6500;39.6;Yes
+14464;Brazil;United Kingdom;EMB-312 Tucano;Trainer aircraft;Aircraft;1985;No;24;Yes;1988;No;New;1.6500;1.6500;39.6;Yes
+14464;Brazil;United Kingdom;EMB-312 Tucano;Trainer aircraft;Aircraft;1985;No;24;No;1990;No;New;1.6500;1.6500;39.6;Yes
+14464;Brazil;United Kingdom;EMB-312 Tucano;Trainer aircraft;Aircraft;1985;No;2;No;1987;No;New;1.6500;1.6500;3.3;Yes
+32818;Brazil;Uruguay;AS-355/AS-555;Light helicopter;Aircraft;2005;No;1;No;2006;No;Second hand but modernized;1.3000;0.858;0.858;No
+22304;Brazil;Uruguay;EE-11 Urutu;APC;Armoured vehicles;1980;Yes;18;Yes;1980;No;New;0.2100;0.2100;3.78;No
+14019;Brazil;Uruguay;EE-3 Jararaca;Reconnaissance AV;Armoured vehicles;1982;Yes;16;Yes;1983;Yes;New;0.1400;0.1400;2.24;No
+13473;Brazil;Uruguay;EMB-110 Bandeirante;Light transport ac;Aircraft;1975;No;5;No;1976;No;New;2.6500;2.6500;13.25;No
+4918;Brazil;Uruguay;EE-9 Cascavel;Armoured car;Armoured vehicles;1984;Yes;10;Yes;1985;No;New;0.7200;0.7200;7.2;No
+836;Brazil;Uruguay;EMB-110 Bandeirante;Light transport ac;Aircraft;1978;No;1;No;1978;No;New;2.6500;2.6500;2.65;No
+15441;Brazil;Venezuela;EMB-312 Tucano;Trainer aircraft;Aircraft;1986;No;16;Yes;1987;No;New;1.6500;1.6500;26.4;No
+15441;Brazil;Venezuela;EMB-312 Tucano;Trainer aircraft;Aircraft;1986;No;15;Yes;1986;No;New;1.6500;1.6500;24.75;No
+4263;Brazil;Venezuela;EE-11 Urutu;APC;Armoured vehicles;1983;No;37;Yes;1984;No;New;0.2100;0.2100;7.77;No
+19090;Brazil;Argentina;AS-350/AS-550 Fennec;Light helicopter;Aircraft;1981;Yes;1;No;1982;Yes;New;0.9000;0.9000;0.9;No
+3767;Brazil;Argentina;MB-326GB;Trainer/combat ac;Aircraft;1982;No;11;Yes;1983;No;Second hand;2.7500;1.1;12.1;No
+2151;Brazil;Argentina;DC-3/C-47 Skytrain;Transport aircraft;Aircraft;1960;Yes;12;Yes;1961;Yes;Second hand;2.5000;1;12;No
+50596;Brazil;Argentina;Bell-212/UH-1N;Helicopter;Aircraft;2007;No;1;No;2007;No;Second hand;3.7000;1.48;1.48;No
+16766;Brazil;Argentina;EMB-312 Tucano;Trainer aircraft;Aircraft;1987;No;15;No;1988;No;New;1.6500;1.6500;24.75;No
+16766;Brazil;Argentina;EMB-312 Tucano;Trainer aircraft;Aircraft;1987;No;15;No;1987;No;New;1.6500;1.6500;24.75;No
+3413;Brazil;Argentina;EMB-111;MP aircraft;Aircraft;1982;No;3;No;1982;No;Second hand;7.5000;3;9;No
+20154;Brazil;Egypt;EMB-312 Tucano;Trainer aircraft;Aircraft;1989;No;14;Yes;1990;No;New;1.6500;1.6500;23.1;No
+4141;Brazil;Egypt;EMB-312 Tucano;Trainer aircraft;Aircraft;1983;No;5;Yes;1988;No;New;1.6500;1.6500;8.25;No
+4141;Brazil;Egypt;EMB-312 Tucano;Trainer aircraft;Aircraft;1983;No;10;Yes;1987;No;New;1.6500;1.6500;16.5;No
+4141;Brazil;Egypt;EMB-312 Tucano;Trainer aircraft;Aircraft;1983;No;12;Yes;1986;No;New;1.6500;1.6500;19.8;No
+4141;Brazil;Egypt;EMB-312 Tucano;Trainer aircraft;Aircraft;1983;No;3;Yes;1985;No;New;1.6500;1.6500;4.95;No
+4141;Brazil;Egypt;EMB-312 Tucano;Trainer aircraft;Aircraft;1983;No;10;No;1984;No;New;1.6500;1.6500;16.5;No
+19688;Brazil;France;EMB-312 Tucano;Trainer aircraft;Aircraft;1991;No;14;Yes;1997;No;New;1.6500;1.6500;23.1;No
+19688;Brazil;France;EMB-312 Tucano;Trainer aircraft;Aircraft;1991;No;14;Yes;1996;No;New;1.6500;1.6500;23.1;No
+19688;Brazil;France;EMB-312 Tucano;Trainer aircraft;Aircraft;1991;No;20;No;1995;No;New;1.6500;1.6500;33;No
+19688;Brazil;France;EMB-312 Tucano;Trainer aircraft;Aircraft;1991;No;2;No;1993;No;New;1.6500;1.6500;3.3;No
+2441;Brazil;France;EMB-121 Xingu;Light transport ac;Aircraft;1981;No;15;Yes;1984;No;New;2.7500;2.7500;41.25;No
+2441;Brazil;France;EMB-121 Xingu;Light transport ac;Aircraft;1981;No;14;Yes;1983;No;New;2.7500;2.7500;38.5;No
+2441;Brazil;France;EMB-121 Xingu;Light transport ac;Aircraft;1981;No;14;Yes;1982;No;New;2.7500;2.7500;38.5;No
+4021;Brazil;Honduras;EMB-312 Tucano;Trainer aircraft;Aircraft;1984;Yes;4;No;1986;No;New;1.6500;1.6500;6.6;No
+4021;Brazil;Honduras;EMB-312 Tucano;Trainer aircraft;Aircraft;1984;Yes;8;No;1985;No;New;1.6500;1.6500;13.2;No
+1243;Brazil;Libya;EE-11 Urutu;APC;Armoured vehicles;1981;Yes;90;Yes;1982;No;New;0.2100;0.2100;18.9;No
+1243;Brazil;Libya;EE-11 Urutu;APC;Armoured vehicles;1981;Yes;90;Yes;1981;Yes;New;0.2100;0.2100;18.9;No
+312;Brazil;Libya;EE-9 Cascavel;Armoured car;Armoured vehicles;1973;No;200;Yes;1978;Yes;New;0.7200;0.7200;144;No
+312;Brazil;Libya;EE-9 Cascavel;Armoured car;Armoured vehicles;1973;No;200;Yes;1977;Yes;New;0.7200;0.7200;144;No
+312;Brazil;Libya;EE-9 Cascavel;Armoured car;Armoured vehicles;1973;No;50;Yes;1976;Yes;New;0.7200;0.7200;36;No
+312;Brazil;Libya;EE-9 Cascavel;Armoured car;Armoured vehicles;1973;No;50;Yes;1975;Yes;New;0.7200;0.7200;36;No
+22513;Brazil;Qatar;ASTROS AV-UCF;Fire control radar;Sensors;1991;No;3;Yes;1992;Yes;New;2.5000;2.5000;7.5;No
+21602;Brazil;Qatar;ASTROS-2;Self-propelled MRL;Artillery;1991;Yes;18;Yes;1992;No;New;0.9500;0.9500;17.1;No
+1242;Brazil;Qatar;EE-9 Cascavel;Armoured car;Armoured vehicles;1978;No;20;Yes;1979;Yes;New;0.7200;0.7200;14.4;No
+18342;Brazil;Saudi Arabia;ASTROS AV-UCF;Fire control radar;Sensors;1987;No;10;Yes;1988;Yes;New;2.5000;2.5000;25;No
+17768;Brazil;Saudi Arabia;ASTROS-2;Self-propelled MRL;Artillery;1987;No;10;Yes;1992;No;New;0.9500;0.9500;9.5;No
+17768;Brazil;Saudi Arabia;ASTROS-2;Self-propelled MRL;Artillery;1987;No;26;Yes;1991;No;New;0.9500;0.9500;24.7;No
+17768;Brazil;Saudi Arabia;ASTROS-2;Self-propelled MRL;Artillery;1987;No;30;Yes;1990;No;New;0.9500;0.9500;28.5;No
+17768;Brazil;Saudi Arabia;ASTROS-2;Self-propelled MRL;Artillery;1987;No;4;Yes;1989;No;New;0.9500;0.9500;3.8;No
+17768;Brazil;Saudi Arabia;ASTROS-2;Self-propelled MRL;Artillery;1987;No;3;Yes;1988;No;New;0.9500;0.9500;2.85;No
+17768;Brazil;Saudi Arabia;ASTROS-2;Self-propelled MRL;Artillery;1987;No;3;Yes;1987;No;New;0.9500;0.9500;2.85;No
+4273;Brazil;Zimbabwe;EE-9 Cascavel;Armoured car;Armoured vehicles;1983;No;15;Yes;1987;Yes;New;0.7200;0.7200;10.8;No
+4273;Brazil;Zimbabwe;EE-9 Cascavel;Armoured car;Armoured vehicles;1983;No;25;Yes;1986;Yes;New;0.7200;0.7200;18;No
+4273;Brazil;Zimbabwe;EE-9 Cascavel;Armoured car;Armoured vehicles;1983;No;25;Yes;1985;Yes;New;0.7200;0.7200;18;No
+4273;Brazil;Zimbabwe;EE-9 Cascavel;Armoured car;Armoured vehicles;1983;No;25;Yes;1984;Yes;New;0.7200;0.7200;18;No
+56021;Brazil;Unknown country;SMKB;Guided bomb;Missiles;2010;Yes;50;Yes;2013;Yes;New;0.0200;0.0200;1;No

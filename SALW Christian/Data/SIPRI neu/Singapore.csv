@@ -1,0 +1,58 @@
+Deal ID;Seller;Buyer;Designation;Description;Armament category;Order date;Order date is estimate;Numbers delivered;Numbers delivered is estimate;Delivery year;Delivery year is estimate;Status;SIPRI estimate;TIV deal unit;TIV delivery values;Local production
+50751;Singapore;Chad;AS-350/AS-550 Fennec;Light helicopter;Aircraft;2008;Yes;3;No;2009;No;Second hand;0.9000;0.36;1.08;No
+50751;Singapore;Chad;AS-350/AS-550 Fennec;Light helicopter;Aircraft;2008;Yes;3;Yes;2010;Yes;Second hand;0.9000;0.36;1.08;No
+25493;Singapore;Belgium;A-310;Transport aircraft;Aircraft;1997;No;1;No;1998;No;Second hand;58.0000;23.2;23.2;No
+25493;Singapore;Belgium;A-310;Transport aircraft;Aircraft;1997;No;1;No;1997;No;Second hand;58.0000;23.2;23.2;No
+25204;Singapore;Brazil;Grajau;Patrol craft;Ships;1996;No;1;No;2000;No;New;10.6000;10.6000;10.6;Yes
+25204;Singapore;Brazil;Grajau;Patrol craft;Ships;1996;No;1;No;1999;No;New;10.6000;10.6000;10.6;Yes
+18587;Singapore;Brazil;Grajau;Patrol craft;Ships;1987;No;1;No;1997;No;New;10.6000;10.6000;10.6;Yes
+18587;Singapore;Brazil;Grajau;Patrol craft;Ships;1987;No;2;No;1994;No;New;10.6000;10.6000;21.2;Yes
+18587;Singapore;Brazil;Grajau;Patrol craft;Ships;1987;No;1;No;1993;No;New;10.6000;10.6000;10.6;Yes
+884;Singapore;Brunei;Waspada;FAC;Ships;1976;No;2;No;1979;No;New;27.0000;27.0000;54;No
+884;Singapore;Brunei;Waspada;FAC;Ships;1976;No;1;No;1978;No;New;27.0000;27.0000;27;No
+21211;Singapore;India;Tara Bai;Patrol craft;Ships;1986;No;2;No;1990;No;New;9.6000;9.6000;19.2;Yes
+21211;Singapore;India;Tara Bai;Patrol craft;Ships;1986;No;2;No;1989;No;New;9.6000;9.6000;19.2;Yes
+21211;Singapore;India;Tara Bai;Patrol craft;Ships;1986;No;2;No;1987;No;New;9.6000;9.6000;19.2;Yes
+31746;Singapore;Indonesia;SF-260;Trainer aircraft;Aircraft;2001;Yes;19;No;2002;No;Second hand;0.2400;0.096;1.824;No
+28329;Singapore;Indonesia;FH-88 155mm;Towed gun;Artillery;1996;Yes;5;No;1997;No;New;1.0000;1.0000;5;No
+54171;Singapore;Indonesia;Jupiter;Transport craft;Ships;2002;No;1;No;2002;No;Second hand;4.5000;1.8;1.8;No
+1282;Singapore;Kuwait;LC-32m;Landing craft;Ships;1978;No;3;No;1979;No;New;6.1000;6.1000;18.3;No
+22027;Singapore;Kuwait;Al Tahaddy;Landing craft;Ships;1993;Yes;2;No;1994;No;New;4.3000;4.3000;8.6;No
+3453;Singapore;Malaysia;SA-316B Alouette-3;Light helicopter;Aircraft;1978;No;7;No;1978;No;Second hand;0.9000;0.36;2.52;No
+15330;Singapore;Malaysia;Duyong;Diving tender;Ships;1969;Yes;1;No;1971;No;New;1.5400;1.5400;1.54;No
+50956;Singapore;Nigeria;FPB-38;Patrol craft;Ships;2007;No;2;No;2009;No;New;14.7000;14.7000;29.4;No
+25410;Singapore;Sweden;Smit Manila;Cargo ship;Ships;1988;Yes;1;No;1989;No;Second hand but modernized;20.0000;13.2;13.2;No
+25824;Singapore;Papua New Guinea;Standard 120mm;Mortar;Artillery;1995;Yes;3;No;1996;No;New;0.0500;0.0500;0.15;No
+25436;Singapore;Papua New Guinea;Vosper Type-A/B;Patrol craft;Ships;1996;No;3;Yes;1997;Yes;Second hand;5.9000;2.36;7.08;No
+34799;Singapore;Philippines;Bell-205/UH-1H;Helicopter;Aircraft;2003;No;2;Yes;2005;No;Second hand but modernized;2.6200;1.7292;3.4584;No
+34799;Singapore;Philippines;Bell-205/UH-1H;Helicopter;Aircraft;2003;No;5;Yes;2004;No;Second hand but modernized;2.6200;1.7292;8.646;No
+4830;Singapore;Philippines;Bataan;Patrol craft;Ships;1973;Yes;2;No;1975;No;New;8.4000;8.4000;16.8;No
+17730;Singapore;Taiwan (ROC);Ning Hai;Patrol craft;Ships;1985;Yes;2;Yes;1990;No;New;12.5000;12.5000;25;Yes
+17730;Singapore;Taiwan (ROC);Ning Hai;Patrol craft;Ships;1985;Yes;2;Yes;1989;No;New;12.5000;12.5000;25;Yes
+17730;Singapore;Taiwan (ROC);Ning Hai;Patrol craft;Ships;1985;Yes;2;Yes;1988;No;New;12.5000;12.5000;25;Yes
+17730;Singapore;Taiwan (ROC);Ning Hai;Patrol craft;Ships;1985;Yes;2;Yes;1987;No;New;12.5000;12.5000;25;Yes
+24418;Singapore;Taiwan (ROC);RBS-70;Portable SAM;Missiles;1982;No;20;Yes;1984;Yes;New;0.1000;0.1000;2;No
+36173;Singapore;Thailand;Chula;Tanker;Ships;1979;Yes;1;No;1981;No;New;10.0000;10.0000;10;No
+31877;Singapore;Thailand;Endurance;AALS;Ships;2008;No;1;No;2012;No;New;75.0000;75.0000;75;No
+55265;Singapore;Thailand;LG-1 105mm;Towed gun;Artillery;2010;Yes;15;No;2011;No;Second hand;0.6000;0.24;3.6;No
+51426;Singapore;Thailand;Bronco;APC;Armoured vehicles;2008;Yes;10;Yes;2010;Yes;New;0.2500;0.2500;2.5;No
+35527;Singapore;Thailand;F-16A;FGA aircraft;Aircraft;2004;No;7;No;2004;No;Second hand;20.6500;8.26;57.82;No
+24867;Singapore;UAE;Baracuda;Support ship;Ships;1982;Yes;1;No;1983;No;New;15.0000;15.0000;15;No
+18066;Singapore;UAE;Baracuda;Support ship;Ships;1986;No;2;No;1989;No;New;15.0000;15.0000;30;No
+53903;Singapore;UAE;SRAMS 120mm;Mortar;Artillery;2011;No;20;Yes;2013;Yes;New;0.0500;0.0500;1;No
+39846;Singapore;UAE;SRAMS 120mm;Mortar;Artillery;2007;No;12;Yes;2011;Yes;New;0.0500;0.0500;0.6;No
+39846;Singapore;UAE;SRAMS 120mm;Mortar;Artillery;2007;No;12;Yes;2012;Yes;New;0.0500;0.0500;0.6;No
+39846;Singapore;UAE;SRAMS 120mm;Mortar;Artillery;2007;No;12;Yes;2009;Yes;New;0.0500;0.0500;0.6;No
+39846;Singapore;UAE;SRAMS 120mm;Mortar;Artillery;2007;No;12;Yes;2010;No;New;0.0500;0.0500;0.6;No
+18065;Singapore;UAE;Al Feyi;Landing craft;Ships;1986;Yes;1;No;1987;No;New;11.0000;11.0000;11;No
+50664;Singapore;United Kingdom;Bronco;APC;Armoured vehicles;2008;No;34;Yes;2011;No;New;0.2500;0.2500;8.5;No
+50664;Singapore;United Kingdom;Bronco;APC;Armoured vehicles;2008;No;81;Yes;2010;No;New;0.2500;0.2500;20.25;No
+4836;Singapore;Oman;Saba Al Bahr;Landing craft;Ships;1982;No;2;No;1983;No;New;5.0000;5.0000;10;No
+3564;Singapore;Oman;Saba Al Bahr;Landing craft;Ships;1980;Yes;1;No;1981;No;New;5.0000;5.0000;5;No
+32222;Singapore;Sri Lanka;Standard 120mm;Mortar;Artillery;2000;Yes;9;No;2000;No;Second hand;0.0500;0.02;0.18;No
+26863;Singapore;Sri Lanka;Hansaya;Transport craft;Ships;1986;No;2;No;1987;No;New;10.0000;10.0000;20;No
+16031;Singapore;Sri Lanka;LC-33m;Landing craft;Ships;1985;No;2;No;1987;No;New;3.0000;3.0000;6;No
+16000;Singapore;Sri Lanka;Mahawele;Support ship;Ships;1984;No;3;No;1984;No;Second hand;17.7200;7.088;21.264;No
+15999;Singapore;Sri Lanka;Abheetha;Cargo ship;Ships;1984;No;3;No;1984;No;Second hand;16.2800;6.512;19.536;No
+21164;Singapore;Sri Lanka;LC-33m;Landing craft;Ships;1990;No;1;No;1992;No;New;3.0000;3.0000;3;Yes
+21164;Singapore;Sri Lanka;LC-33m;Landing craft;Ships;1990;No;1;No;1991;No;New;3.0000;3.0000;3;Yes

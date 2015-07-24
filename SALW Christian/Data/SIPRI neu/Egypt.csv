@@ -1,0 +1,101 @@
+Deal ID;Seller;Buyer;Designation;Description;Armament category;Order date;Order date is estimate;Numbers delivered;Numbers delivered is estimate;Delivery year;Delivery year is estimate;Status;SIPRI estimate;TIV deal unit;TIV delivery values;Local production
+8558;Egypt;Bangladesh;T-54;Tank;Armoured vehicles;1975;Yes;30;No;1975;No;Second hand;1.1000;0.44;13.2;No
+25669;Egypt;Bosnia and Herzegovina;T-55;Tank;Armoured vehicles;1997;Yes;10;No;1997;No;Second hand;1.2500;0.5;5;No
+24548;Egypt;Bosnia and Herzegovina;M-46 130mm;Towed gun;Artillery;1996;No;12;No;1996;No;Second hand;0.6500;0.26;3.12;No
+24547;Egypt;Bosnia and Herzegovina;D-30 122mm;Towed gun;Artillery;1996;No;12;No;1996;No;Second hand;0.3500;0.14;1.68;No
+13997;Egypt;Burundi;Walid;APC;Armoured vehicles;1981;Yes;6;Yes;1982;Yes;New;0.1600;0.1600;0.96;No
+15216;Egypt;Central African Republic;BRDM-2;Reconnaissance AV;Armoured vehicles;1979;Yes;4;Yes;1980;Yes;Second hand;0.1500;0.06;0.24;No
+19446;Egypt;DR Congo;Fahd;APC;Armoured vehicles;1989;No;16;Yes;1990;No;New;0.2000;0.2000;3.2;No
+18395;Egypt;DR Congo;Fahd;APC;Armoured vehicles;1985;No;4;No;1988;No;New;0.2000;0.2000;0.8;No
+15213;Egypt;Cameroon;M-46 130mm;Towed gun;Artillery;1982;Yes;10;Yes;1983;Yes;Second hand;0.6500;0.26;2.6;No
+18741;Egypt;Iraq;D-30 122mm;Towed gun;Artillery;1985;Yes;30;Yes;1988;No;New;0.3500;0.3500;10.5;No
+18741;Egypt;Iraq;D-30 122mm;Towed gun;Artillery;1985;Yes;30;Yes;1987;No;New;0.3500;0.3500;10.5;No
+18741;Egypt;Iraq;D-30 122mm;Towed gun;Artillery;1985;Yes;30;Yes;1986;No;New;0.3500;0.3500;10.5;No
+18739;Egypt;Iraq;M-46 130mm;Towed gun;Artillery;1981;Yes;32;Yes;1983;No;Second hand;0.6500;0.26;8.32;No
+18739;Egypt;Iraq;M-46 130mm;Towed gun;Artillery;1981;Yes;32;Yes;1982;No;Second hand;0.6500;0.26;8.32;No
+18739;Egypt;Iraq;M-46 130mm;Towed gun;Artillery;1981;Yes;32;Yes;1981;No;Second hand;0.6500;0.26;8.32;No
+18738;Egypt;Iraq;D-30 122mm;Towed gun;Artillery;1985;Yes;24;Yes;1989;No;Second hand;0.3500;0.14;3.36;No
+18738;Egypt;Iraq;D-30 122mm;Towed gun;Artillery;1985;Yes;24;Yes;1988;No;Second hand;0.3500;0.14;3.36;No
+18738;Egypt;Iraq;D-30 122mm;Towed gun;Artillery;1985;Yes;24;Yes;1987;No;Second hand;0.3500;0.14;3.36;No
+18738;Egypt;Iraq;D-30 122mm;Towed gun;Artillery;1985;Yes;24;Yes;1986;No;Second hand;0.3500;0.14;3.36;No
+18738;Egypt;Iraq;D-30 122mm;Towed gun;Artillery;1985;Yes;24;Yes;1985;No;Second hand;0.3500;0.14;3.36;No
+18139;Egypt;Iraq;RL-21 122mm;Self-propelled MRL;Artillery;1987;Yes;100;Yes;1989;No;New;0.4500;0.4500;45;No
+18139;Egypt;Iraq;RL-21 122mm;Self-propelled MRL;Artillery;1987;Yes;100;Yes;1988;Yes;New;0.4500;0.4500;45;No
+18139;Egypt;Iraq;RL-21 122mm;Self-propelled MRL;Artillery;1987;Yes;100;Yes;1987;Yes;New;0.4500;0.4500;45;No
+14004;Egypt;Iraq;Walid;APC;Armoured vehicles;1979;Yes;100;Yes;1980;Yes;New;0.1600;0.1600;16;No
+3791;Egypt;Iraq;T-55;Tank;Armoured vehicles;1981;No;100;Yes;1983;No;Second hand;1.2500;0.5;50;No
+3791;Egypt;Iraq;T-55;Tank;Armoured vehicles;1981;No;100;Yes;1982;No;Second hand;1.2500;0.5;50;No
+3791;Egypt;Iraq;T-55;Tank;Armoured vehicles;1981;No;50;Yes;1981;No;Second hand;1.2500;0.5;25;No
+10780;Egypt;Jordan;Bu-181 Bestmann;Trainer aircraft;Aircraft;1955;Yes;3;No;1956;Yes;New;0.1000;0.1000;0.3;No
+10779;Egypt;Jordan;Vampire FB-5;Fighter aircraft;Aircraft;1955;Yes;7;No;1956;No;Second hand;3.2000;1.28;8.96;No
+18700;Egypt;Kuwait;Fahd;APC;Armoured vehicles;1988;No;40;Yes;1989;No;New;0.2000;0.2000;8;No
+18700;Egypt;Kuwait;Fahd;APC;Armoured vehicles;1988;No;60;Yes;1990;Yes;New;0.2000;0.2000;12;No
+18699;Egypt;Kuwait;Fahd;APC;Armoured vehicles;1987;Yes;10;No;1988;No;New;0.2000;0.2000;2;No
+18316;Egypt;Kuwait;Strela-2/SA-7 Grail;Portable SAM;Missiles;1987;No;24;Yes;1989;No;New;0.0400;0.0400;0.96;No
+18316;Egypt;Kuwait;Strela-2/SA-7 Grail;Portable SAM;Missiles;1987;No;12;Yes;1990;Yes;New;0.0400;0.0400;0.48;No
+53263;Egypt;Mali;Fahd;APC;Armoured vehicles;1990;Yes;5;Yes;1990;Yes;New;0.2000;0.2000;1;No
+11245;Egypt;Nigeria;Il-28/Beagle;Bomber aircraft;Aircraft;1967;Yes;4;Yes;1968;No;Second hand;7.2000;2.88;11.52;No
+9601;Egypt;Nigeria;MiG-17/Fresco;Fighter aircraft;Aircraft;1968;Yes;10;Yes;1970;Yes;Second hand;3.5000;1.4;14;No
+9601;Egypt;Nigeria;MiG-17/Fresco;Fighter aircraft;Aircraft;1968;Yes;11;Yes;1969;Yes;Second hand;3.5000;1.4;15.4;No
+9601;Egypt;Nigeria;MiG-17/Fresco;Fighter aircraft;Aircraft;1968;Yes;10;Yes;1968;Yes;Second hand;3.5000;1.4;14;No
+21612;Egypt;Rwanda;D-30 122mm;Towed gun;Artillery;1992;No;6;No;1992;No;New;0.3500;0.3500;2.1;No
+15052;Egypt;Somalia;M-46 130mm;Towed gun;Artillery;1978;No;10;Yes;1979;Yes;Second hand;0.6500;0.26;2.6;No
+3810;Egypt;Somalia;T-55;Tank;Armoured vehicles;1982;Yes;20;Yes;1982;No;Second hand;1.2500;0.5;10;No
+3005;Egypt;Somalia;T-54;Tank;Armoured vehicles;1980;Yes;30;Yes;1981;No;Second hand;1.1000;0.44;13.2;No
+1330;Egypt;Somalia;S-125M/SA-3B;SAM system;Air defence systems;1977;No;2;No;1978;No;Second hand;17.5000;7;14;No
+759;Egypt;Somalia;5V27/SA-3B Goa;SAM;Missiles;1977;Yes;75;Yes;1978;No;New;0.1200;0.1200;9;No
+621;Egypt;Somalia;T-54;Tank;Armoured vehicles;1977;No;35;Yes;1977;No;Second hand;1.1000;0.44;15.4;No
+11511;Egypt;Somalia;Bu-181 Bestmann;Trainer aircraft;Aircraft;1960;No;2;No;1961;No;New;0.1000;0.1000;0.2;No
+19492;Egypt;Sudan;Fahd;APC;Armoured vehicles;1989;No;15;No;1990;No;New;0.2000;0.2000;3;No
+19492;Egypt;Sudan;Fahd;APC;Armoured vehicles;1989;No;10;No;1989;No;New;0.2000;0.2000;2;No
+14841;Egypt;Sudan;D-30 122mm;Towed gun;Artillery;1982;Yes;20;Yes;1983;Yes;Second hand;0.3500;0.14;2.8;No
+14841;Egypt;Sudan;D-30 122mm;Towed gun;Artillery;1982;Yes;20;Yes;1982;Yes;Second hand;0.3500;0.14;2.8;No
+14840;Egypt;Sudan;D-74 122mm;Towed gun;Artillery;1982;Yes;26;Yes;1982;Yes;Second hand;0.4000;0.16;4.16;No
+14839;Egypt;Sudan;M-46 130mm;Towed gun;Artillery;1983;Yes;21;Yes;1983;Yes;Second hand;0.6500;0.26;5.46;No
+14832;Egypt;Sudan;BRDM-2;Reconnaissance AV;Armoured vehicles;1980;Yes;50;Yes;1981;Yes;Second hand;0.1500;0.06;3;No
+14831;Egypt;Sudan;BRDM-1;Reconnaissance AV;Armoured vehicles;1980;Yes;50;Yes;1981;Yes;Second hand;0.1200;0.048;2.4;No
+14013;Egypt;Sudan;Walid;APC;Armoured vehicles;1981;Yes;60;Yes;1981;Yes;New;0.1600;0.1600;9.6;No
+4645;Egypt;Sudan;Strela-2/SA-7 Grail;Portable SAM;Missiles;1984;No;250;Yes;1984;No;New;0.0400;0.0400;10;No
+52925;Egypt;Sudan;SA-2 Guideline;SAM;Missiles;1984;No;75;Yes;1984;No;Second hand;0.1200;0.048;3.6;No
+18795;Egypt;Sudan;BTR-152;APC;Armoured vehicles;1988;No;12;No;1988;No;Second hand;0.1300;0.052;0.624;No
+17506;Egypt;Sudan;Walid;APC;Armoured vehicles;1986;Yes;44;Yes;1986;No;Second hand;0.1600;0.064;2.816;No
+14837;Egypt;Sudan;Swingfire;Anti-tank missile;Missiles;1981;No;250;Yes;1981;No;New;0.0100;0.0100;2.5;No
+11568;Egypt;Sudan;Bu-181 Bestmann;Trainer aircraft;Aircraft;1957;Yes;4;No;1957;No;New;0.1000;0.1000;0.4;No
+11567;Egypt;Sudan;T-34/85;Tank;Armoured vehicles;1958;Yes;10;Yes;1959;Yes;Second hand;0.9000;0.36;3.6;No
+11567;Egypt;Sudan;T-34/85;Tank;Armoured vehicles;1958;Yes;10;Yes;1958;Yes;Second hand;0.9000;0.36;3.6;No
+4644;Egypt;Sudan;S-75 Dvina/SA-2;SAM system;Air defence systems;1984;No;3;Yes;1984;No;Second hand;17.8700;7.148;21.444;No
+15023;Egypt;Togo;T-34/85;Tank;Armoured vehicles;1982;Yes;7;Yes;1982;Yes;Second hand;0.9000;0.36;2.52;No
+11639;Egypt;Syria;MiG-15/Fagot;Fighter aircraft;Aircraft;1965;Yes;5;Yes;1966;No;Second hand;3.2000;1.28;6.4;No
+11638;Egypt;Syria;MiG-17/Fresco;Fighter aircraft;Aircraft;1965;Yes;5;Yes;1966;No;Second hand;3.5000;1.4;7;No
+52349;Egypt;Mujahedin (Afghanistan)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;1984;Yes;50;Yes;1989;Yes;New;0.0400;0.0400;2;No
+52349;Egypt;Mujahedin (Afghanistan)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;1984;Yes;50;Yes;1988;Yes;New;0.0400;0.0400;2;No
+52349;Egypt;Mujahedin (Afghanistan)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;1984;Yes;50;Yes;1987;Yes;New;0.0400;0.0400;2;No
+52349;Egypt;Mujahedin (Afghanistan)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;1984;Yes;50;Yes;1986;Yes;New;0.0400;0.0400;2;No
+52349;Egypt;Mujahedin (Afghanistan)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;1984;Yes;50;Yes;1985;No;New;0.0400;0.0400;2;No
+17677;Egypt;Mujahedin (Afghanistan)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;1982;Yes;50;Yes;1982;No;Second hand;0.0400;0.016;0.8;No
+17677;Egypt;Mujahedin (Afghanistan)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;1982;Yes;50;Yes;1984;No;Second hand;0.0400;0.016;0.8;No
+17677;Egypt;Mujahedin (Afghanistan)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;1982;Yes;50;Yes;1983;No;Second hand;0.0400;0.016;0.8;No
+14874;Egypt;Algeria;Walid;APC;Armoured vehicles;1978;Yes;20;Yes;1978;Yes;New;0.1600;0.1600;3.2;No
+14792;Egypt;Algeria;Yak-11/Moose;Trainer aircraft;Aircraft;1964;No;12;Yes;1964;No;Second hand;0.3200;0.128;1.536;No
+1941;Egypt;Algeria;Bu-181 Bestmann;Trainer aircraft;Aircraft;1962;Yes;12;No;1963;Yes;New;0.1000;0.1000;1.2;No
+23996;Egypt;Algeria;YMS;Minesweeper;Ships;1962;Yes;2;No;1962;No;Second hand;8.5000;3.4;6.8;No
+2096;Egypt;Algeria;MiG-15/Fagot;Fighter aircraft;Aircraft;1962;Yes;5;No;1963;Yes;Second hand;3.2000;1.28;6.4;No
+21613;Egypt;Algeria;Fahd;APC;Armoured vehicles;1992;No;47;Yes;1995;No;New;0.2000;0.2000;9.4;No
+21613;Egypt;Algeria;Fahd;APC;Armoured vehicles;1992;No;50;Yes;1993;No;New;0.2000;0.2000;10;No
+21613;Egypt;Algeria;Fahd;APC;Armoured vehicles;1992;No;53;No;1992;No;New;0.2000;0.2000;10.6;No
+21613;Egypt;Algeria;Fahd;APC;Armoured vehicles;1992;No;50;Yes;1994;Yes;New;0.2000;0.2000;10;No
+14005;Egypt;Libya;Bu-181 Bestmann;Trainer aircraft;Aircraft;1959;No;2;No;1959;No;New;0.1000;0.1000;0.2;No
+11007;Egypt;Libya;T-34/85;Tank;Armoured vehicles;1969;Yes;65;Yes;1970;No;Second hand;0.9000;0.36;23.4;No
+14820;Egypt;Morocco;OT-62A TOPAS;APC;Armoured vehicles;1980;Yes;25;Yes;1980;Yes;Second hand;0.2700;0.108;2.7;No
+14811;Egypt;Morocco;M-46 130mm;Towed gun;Artillery;1980;No;18;Yes;1981;Yes;Second hand;0.6500;0.26;4.68;No
+14808;Egypt;Morocco;Strela-2/SA-7 Grail;Portable SAM;Missiles;1981;Yes;200;Yes;1981;No;New;0.0400;0.0400;8;No
+19430;Egypt;Oman;Fahd;APC;Armoured vehicles;1989;No;11;Yes;1990;Yes;New;0.2000;0.2000;2.2;No
+18364;Egypt;Oman;Fahd;APC;Armoured vehicles;1985;Yes;6;Yes;1988;No;New;0.2000;0.2000;1.2;No
+27149;Egypt;Palestine;Mi-8T/Hip-C;Helicopter;Aircraft;1994;Yes;2;Yes;1994;Yes;Second hand;6.0000;2.4;4.8;No
+28863;Egypt;Saudi Arabia;Bu-181 Bestmann;Trainer aircraft;Aircraft;1958;Yes;2;Yes;1958;Yes;New;0.1000;0.1000;0.2;No
+11476;Egypt;Saudi Arabia;Vampire FB-5;Fighter aircraft;Aircraft;1956;Yes;4;No;1957;No;Second hand;3.2000;1.28;5.12;No
+1465;Egypt;United States;MiG-23MS/Flogger-E;Fighter aircraft;Aircraft;1978;Yes;2;Yes;1980;Yes;Second hand;13.0000;5.2;10.4;No
+1465;Egypt;United States;MiG-23MS/Flogger-E;Fighter aircraft;Aircraft;1978;Yes;2;Yes;1979;Yes;Second hand;13.0000;5.2;10.4;No
+25397;Egypt;United States;MiG-21MF/Fishbed-J;Fighter aircraft;Aircraft;1976;Yes;12;Yes;1978;Yes;Second hand;11.2000;4.48;53.76;No
+25397;Egypt;United States;MiG-21MF/Fishbed-J;Fighter aircraft;Aircraft;1976;Yes;12;Yes;1977;Yes;Second hand;11.2000;4.48;53.76;No
+14025;Egypt;North Yemen;Walid;APC;Armoured vehicles;1974;Yes;20;Yes;1975;Yes;New;0.1600;0.1600;3.2;No

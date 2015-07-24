@@ -1,0 +1,77 @@
+Deal ID;Seller;Buyer;Designation;Description;Armament category;Order date;Order date is estimate;Numbers delivered;Numbers delivered is estimate;Delivery year;Delivery year is estimate;Status;SIPRI estimate;TIV deal unit;TIV delivery values;Local production
+51267;Bulgaria;Chad;2S1 122mm;Self-propelled gun;Artillery;2007;Yes;8;No;2009;No;Second hand;0.9000;0.36;2.88;No
+51267;Bulgaria;Chad;2S1 122mm;Self-propelled gun;Artillery;2007;Yes;2;No;2008;No;Second hand;0.9000;0.36;0.72;No
+32582;Bulgaria;Congo;2S1 122mm;Self-propelled gun;Artillery;1999;Yes;3;No;1999;No;Second hand;0.9000;0.36;1.08;No
+29844;Bulgaria;Congo;M-43 120mm;Mortar;Artillery;1998;Yes;18;No;1998;No;Second hand;0.0500;0.02;0.36;No
+32581;Bulgaria;Angola;M-46 130mm;Towed gun;Artillery;1999;Yes;24;No;1999;No;Second hand;0.6500;0.26;6.24;No
+32575;Bulgaria;Angola;T-55;Tank;Armoured vehicles;1999;Yes;31;No;1999;No;Second hand;1.2500;0.5;15.5;No
+32519;Bulgaria;Angola;D-20 152mm;Towed gun;Artillery;1999;Yes;4;No;1999;No;Second hand;0.5000;0.2;0.8;No
+32518;Bulgaria;Angola;2S3 152mm;Self-propelled gun;Artillery;1999;Yes;4;No;1999;No;Second hand;1.0000;0.4;1.6;No
+22464;Bulgaria;Angola;T-62;Tank;Armoured vehicles;1993;Yes;24;No;1993;No;Second hand;1.8000;0.72;17.28;No
+22459;Bulgaria;Angola;BMP-1;IFV;Armoured vehicles;1993;No;29;No;1993;No;Second hand;0.9000;0.36;10.44;No
+27630;Bulgaria;Cambodia;L-39Z Albatros;Trainer/combat ac;Aircraft;1996;Yes;2;No;1997;No;Second hand;5.0000;2;4;No
+27630;Bulgaria;Cambodia;L-39Z Albatros;Trainer/combat ac;Aircraft;1996;Yes;2;No;1996;No;Second hand;5.0000;2;4;No
+19945;Bulgaria;Cambodia;MiG-21PFM/Fishbed-F;Fighter aircraft;Aircraft;1986;Yes;4;Yes;1986;No;Second hand;10.0000;4;16;No
+19648;Bulgaria;Cambodia;MiG-21bis/Fishbed-N;Fighter aircraft;Aircraft;1986;Yes;18;Yes;1986;No;Second hand;12.5000;5;90;No
+52316;Bulgaria;Cambodia;BRDM-2;Reconnaissance AV;Armoured vehicles;2010;Yes;4;No;2010;No;Second hand;0.1500;0.06;0.24;No
+52315;Bulgaria;Cambodia;BTR-60PB;APC;Armoured vehicles;2010;Yes;40;No;2010;No;Second hand;0.2500;0.1;4;No
+35509;Bulgaria;Cote dIvoire;Mi-24V/Hind-E;Combat helicopter;Aircraft;2003;No;2;No;2003;No;Second hand;9.5000;3.8;7.6;No
+35507;Bulgaria;Cote dIvoire;M-43 120mm;Mortar;Artillery;2003;No;3;No;2003;No;Second hand;0.0500;0.02;0.06;No
+35506;Bulgaria;Cote dIvoire;MiG-23ML/Flogger-G;Fighter aircraft;Aircraft;2003;No;2;No;2003;No;Second hand;18.0000;7.2;14.4;No
+34457;Bulgaria;Cote dIvoire;Strela-2/SA-7 Grail;Portable SAM;Missiles;2000;Yes;10;Yes;2000;Yes;Second hand;0.0400;0.016;0.16;No
+31506;Bulgaria;Czech Republic;9M114/AT-6 Spiral;Anti-tank missile;Missiles;2000;No;10;Yes;2000;Yes;Second hand;0.0200;0.008;0.08;No
+31504;Bulgaria;Czech Republic;9M114/AT-6 Spiral;Anti-tank missile;Missiles;1998;No;20;Yes;2000;Yes;Second hand;0.0200;0.008;0.16;No
+31504;Bulgaria;Czech Republic;9M114/AT-6 Spiral;Anti-tank missile;Missiles;1998;No;20;Yes;1999;Yes;Second hand;0.0200;0.008;0.16;No
+32580;Bulgaria;Eritrea;2S1 122mm;Self-propelled gun;Artillery;1999;Yes;12;No;1999;No;Second hand;0.9000;0.36;4.32;No
+32579;Bulgaria;Eritrea;M-46 130mm;Towed gun;Artillery;1999;Yes;30;No;1999;No;Second hand;0.6500;0.26;7.8;No
+39711;Bulgaria;Eritrea;M-46 130mm;Towed gun;Artillery;2003;Yes;9;No;2004;No;Second hand;0.6500;0.26;2.34;No
+39710;Bulgaria;Eritrea;M-30 122mm;Towed gun;Artillery;2003;Yes;40;No;2004;No;Second hand;0.4500;0.18;7.2;No
+39709;Bulgaria;Eritrea;2S1 122mm;Self-propelled gun;Artillery;2004;Yes;20;No;2005;No;Second hand;0.9000;0.36;7.2;No
+39707;Bulgaria;Eritrea;T-55;Tank;Armoured vehicles;2004;Yes;120;No;2005;No;Second hand;1.2500;0.5;60;No
+39708;Bulgaria;Eritrea;MT-LB;APC;Armoured vehicles;2004;Yes;10;No;2005;No;Second hand;0.2200;0.088;0.88;No
+28146;Bulgaria;Estonia;M-43 120mm;Mortar;Artillery;1996;Yes;14;No;1997;No;Second hand;0.0500;0.02;0.28;No
+28490;Bulgaria;Ethiopia;T-55;Tank;Armoured vehicles;1998;Yes;40;Yes;2002;Yes;Second hand;1.2500;0.5;20;No
+28490;Bulgaria;Ethiopia;T-55;Tank;Armoured vehicles;1998;Yes;100;No;1999;No;Second hand;1.2500;0.5;50;No
+28489;Bulgaria;Ethiopia;T-55;Tank;Armoured vehicles;1998;Yes;50;Yes;1998;No;Second hand;1.2500;0.5;25;No
+39712;Bulgaria;Ethiopia;L-39C Albatros;Trainer aircraft;Aircraft;2003;Yes;5;No;2004;No;Second hand;4.4100;1.764;8.82;No
+50760;Bulgaria;Georgia;Su-25/Frogfoot-A;Ground attack ac;Aircraft;2005;Yes;4;Yes;2005;Yes;Second hand;12.0000;4.8;19.2;No
+55358;Bulgaria;Georgia;D-30 122mm;Towed gun;Artillery;2011;Yes;12;No;2011;No;Second hand;0.3500;0.14;1.68;No
+52118;Bulgaria;Georgia;D-20 152mm;Towed gun;Artillery;2009;Yes;12;No;2009;No;Second hand;0.5000;0.2;2.4;No
+39774;Bulgaria;Georgia;M-43 120mm;Mortar;Artillery;2003;Yes;14;No;2004;No;Second hand;0.0500;0.02;0.28;No
+32058;Bulgaria;Georgia;Project-106K/Vydra;Landing craft;Ships;2001;No;2;No;2001;No;Second hand;12.2000;4.88;9.76;No
+39296;Bulgaria;Georgia;9M111/AT-4 Spigot;Anti-tank missile;Missiles;2006;No;450;Yes;2006;Yes;New;0.0100;0.0100;4.5;No
+39296;Bulgaria;Georgia;9M111/AT-4 Spigot;Anti-tank missile;Missiles;2006;No;150;Yes;2007;Yes;New;0.0100;0.0100;1.5;No
+30074;Bulgaria;Lithuania;2S11 120mm;Mortar;Artillery;1999;Yes;20;No;1999;No;New;0.0500;0.0500;1;No
+56487;Bulgaria;Mali;Mi-24D/Hind-D;Combat helicopter;Aircraft;2011;Yes;2;No;2012;No;Second hand;8.3400;3.336;6.672;No
+51439;Bulgaria;Mali;Mi-24D/Hind-D;Combat helicopter;Aircraft;2008;No;2;No;2009;No;Second hand;8.3400;3.336;6.672;No
+39672;Bulgaria;Mali;Mi-24D/Hind-D;Combat helicopter;Aircraft;2006;Yes;2;Yes;2007;No;Second hand;8.3400;3.336;6.672;No
+51265;Bulgaria;Mali;BTR-60PB;APC;Armoured vehicles;2007;Yes;20;No;2009;No;Second hand but modernized;0.2500;0.165;3.3;No
+51265;Bulgaria;Mali;BTR-60PB;APC;Armoured vehicles;2007;Yes;14;No;2008;No;Second hand but modernized;0.2500;0.165;2.31;No
+50386;Bulgaria;Mali;BRDM-2;Reconnaissance AV;Armoured vehicles;2006;Yes;9;No;2009;No;Second hand;0.1500;0.06;0.54;No
+50386;Bulgaria;Mali;BRDM-2;Reconnaissance AV;Armoured vehicles;2006;Yes;15;No;2008;No;Second hand;0.1500;0.06;0.9;No
+50386;Bulgaria;Mali;BRDM-2;Reconnaissance AV;Armoured vehicles;2006;Yes;20;No;2007;No;Second hand;0.1500;0.06;1.2;No
+31056;Bulgaria;Myanmar;Igla-1/SA-16 Gimlet;Portable SAM;Missiles;1998;Yes;100;Yes;1999;Yes;New;0.0700;0.0700;7;No
+4050;Bulgaria;Nicaragua;BRDM-2;Reconnaissance AV;Armoured vehicles;1982;Yes;25;Yes;1983;No;Second hand;0.1500;0.06;1.5;No
+24774;Bulgaria;Peru;Igla-1/SA-16 Gimlet;Portable SAM;Missiles;1994;Yes;236;No;1996;No;New;0.0700;0.0700;16.52;No
+24774;Bulgaria;Peru;Igla-1/SA-16 Gimlet;Portable SAM;Missiles;1994;Yes;21;No;1995;No;New;0.0700;0.0700;1.47;No
+24774;Bulgaria;Peru;Igla-1/SA-16 Gimlet;Portable SAM;Missiles;1994;Yes;160;No;1994;No;New;0.0700;0.0700;11.2;No
+21615;Bulgaria;Syria;2S11 120mm;Mortar;Artillery;1992;No;210;No;1992;No;New;0.0500;0.0500;10.5;No
+34260;Bulgaria;UAE;9M113/AT-5 Spandrel;Anti-tank missile;Missiles;2002;Yes;900;Yes;2003;No;New;0.0200;0.0200;18;No
+28491;Bulgaria;Uganda;T-55;Tank;Armoured vehicles;1998;Yes;28;Yes;1998;No;Second hand;1.2500;0.5;14;No
+24236;Bulgaria;Soviet Union;MiG-25RB/Foxbat-B;Reconnaissance ac;Aircraft;1990;Yes;3;No;1991;No;Second hand;30.0000;12;36;No
+3858;Bulgaria;Argentina;Strela-2/SA-7 Grail;Portable SAM;Missiles;1983;No;50;Yes;1983;No;New;0.0400;0.0400;2;No
+29085;Bulgaria;Macedonia (FYROM);M-30 122mm;Towed gun;Artillery;1999;No;108;Yes;1999;No;Second hand;0.4500;0.18;19.44;No
+29084;Bulgaria;Macedonia (FYROM);T-55AM-2;Tank;Armoured vehicles;1999;No;36;No;1999;No;Second hand;1.5000;0.6;21.6;No
+29083;Bulgaria;Macedonia (FYROM);T-55;Tank;Armoured vehicles;1999;No;58;Yes;1999;No;Second hand;1.2500;0.5;29;No
+29086;Bulgaria;Macedonia (FYROM);D-20 152mm;Towed gun;Artillery;1999;No;8;Yes;1999;No;Second hand;0.5000;0.2;1.6;No
+20990;Bulgaria;Romania;2S1 122mm;SPG turret;Artillery;1988;No;10;Yes;1992;Yes;New;0.5000;0.5000;5;No
+20990;Bulgaria;Romania;2S1 122mm;SPG turret;Artillery;1988;No;11;Yes;1991;Yes;New;0.5000;0.5000;5.5;No
+20990;Bulgaria;Romania;2S1 122mm;SPG turret;Artillery;1988;No;11;Yes;1990;Yes;New;0.5000;0.5000;5.5;No
+20990;Bulgaria;Romania;2S1 122mm;SPG turret;Artillery;1988;No;10;Yes;1989;Yes;New;0.5000;0.5000;5;No
+34412;Bulgaria;United States;Mi-24D/Hind-D;Combat helicopter;Aircraft;2002;No;2;Yes;2003;No;Second hand;8.3400;3.336;6.672;No
+34411;Bulgaria;United States;Mi-8MT/Mi-17/Hip-H;Helicopter;Aircraft;2002;No;1;No;2002;No;Second hand;6.7500;2.7;2.7;No
+32189;Bulgaria;Zimbabwe;M-43 120mm;Mortar;Artillery;1999;Yes;60;No;2000;No;Second hand;0.0500;0.02;1.2;No
+27107;Bulgaria;Southern rebels (Yemen)*;M-43 120mm;Mortar;Artillery;1994;No;10;Yes;1994;Yes;Second hand;0.0500;0.02;0.2;No
+23047;Bulgaria;Southern rebels (Yemen)*;T-55;Tank;Armoured vehicles;1994;Yes;6;No;1994;No;Second hand;1.2500;0.5;3;No
+22310;Bulgaria;Southern rebels (Yemen)*;T-62;Tank;Armoured vehicles;1994;No;56;No;1994;No;Second hand;1.8000;0.72;40.32;No
+50764;Bulgaria;Unknown country;L-39Z Albatros;Trainer/combat ac;Aircraft;2011;Yes;3;Yes;2013;Yes;Second hand;5.0000;2;6;No

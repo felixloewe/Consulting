@@ -1,0 +1,219 @@
+Deal ID;Seller;Buyer;Designation;Description;Armament category;Order date;Order date is estimate;Numbers delivered;Numbers delivered is estimate;Delivery year;Delivery year is estimate;Status;SIPRI estimate;TIV deal unit;TIV delivery values;Local production
+16769;Unknown country;Bangladesh;Cessna-337/O-2;Light aircraft;Aircraft;1985;Yes;2;Yes;1985;Yes;Second hand;0.3500;0.14;0.28;No
+26408;Unknown country;Bosnia and Herzegovina;Type-63 107mm;Towed MRL;Artillery;1993;Yes;10;Yes;1994;Yes;Second hand;0.0500;0.02;0.2;No
+29984;Unknown country;Burkina Faso;King Air;Light transport ac;Aircraft;1990;Yes;1;No;1991;Yes;New;2.7500;2.7500;2.75;No
+29981;Unknown country;Burkina Faso;Cessna-150;Trainer/light ac;Aircraft;1980;Yes;1;Yes;1980;Yes;New;0.1000;0.1000;0.1;No
+29709;Unknown country;Burkina Faso;Cessna-337/O-2;Light aircraft;Aircraft;1968;Yes;1;No;1968;Yes;New;0.3500;0.3500;0.35;No
+29198;Unknown country;Burkina Faso;MiG-17/Fresco;Fighter aircraft;Aircraft;1985;Yes;1;Yes;1985;Yes;Second hand;3.5000;1.4;1.4;No
+25469;Unknown country;Burkina Faso;Strela-2/SA-7 Grail;Portable SAM;Missiles;1986;Yes;20;Yes;1986;No;New;0.0400;0.0400;0.8;No
+29978;Unknown country;Burundi;Strela-2/SA-7 Grail;Portable SAM;Missiles;1988;Yes;155;Yes;1989;Yes;New;0.0400;0.0400;6.2;No
+29978;Unknown country;Burundi;Strela-2/SA-7 Grail;Portable SAM;Missiles;1988;Yes;150;Yes;1990;Yes;New;0.0400;0.0400;6;No
+29609;Unknown country;Burundi;BRDM-2;Reconnaissance AV;Armoured vehicles;1980;Yes;30;Yes;1981;Yes;New;0.1500;0.1500;4.5;No
+15195;Unknown country;Burundi;SA-316B Alouette-3;Light helicopter;Aircraft;1966;Yes;2;No;1966;No;Second hand;0.9000;0.36;0.72;No
+52724;Unknown country;Canada;Mi-8MT/Mi-17/Hip-H;Helicopter;Aircraft;2010;No;3;Yes;2010;No;New;6.7500;6.7500;20.25;No
+1670;Unknown country;Comoros;DC-3/C-47 Skytrain;Transport aircraft;Aircraft;1976;Yes;1;Yes;1976;Yes;Second hand;2.5000;1;1;No
+27208;Unknown country;Congo;BRDM-1;Reconnaissance AV;Armoured vehicles;1975;Yes;10;Yes;1975;Yes;Second hand;0.1200;0.048;0.48;No
+26917;Unknown country;Congo;SON-9/Fire Can;Fire control radar;Sensors;1975;Yes;3;Yes;1976;Yes;Second hand;0.5000;0.2;0.6;No
+26915;Unknown country;Congo;M-43 120mm;Mortar;Artillery;1975;Yes;10;Yes;1976;Yes;New;0.0500;0.0500;0.5;No
+26914;Unknown country;Congo;KS-19 100mm;AA gun;Air defence systems;1975;Yes;4;Yes;1976;Yes;Second hand;0.6000;0.24;0.96;No
+15235;Unknown country;Congo;T-54;Tank;Armoured vehicles;1982;Yes;25;Yes;1982;Yes;Second hand;1.1000;0.44;11;No
+15185;Unknown country;Congo;D-30 122mm;Towed gun;Artillery;1971;Yes;8;Yes;1972;Yes;Second hand;0.3500;0.14;1.12;No
+15184;Unknown country;Congo;BS-3 100mm;Towed gun;Artillery;1970;Yes;10;Yes;1971;Yes;Second hand;0.3500;0.14;1.4;No
+34092;Unknown country;Congo;Mi-24D/Hind-D;Combat helicopter;Aircraft;1996;Yes;3;Yes;1997;Yes;Second hand;8.3400;3.336;10.008;No
+34652;Unknown country;DR Congo;An-26/Curl;Transport aircraft;Aircraft;2001;Yes;1;Yes;2001;Yes;Second hand;8.5000;3.4;3.4;No
+31532;Unknown country;DR Congo;Mi-26/Halo;Helicopter;Aircraft;2000;Yes;1;Yes;2001;Yes;Second hand;35.7300;14.292;14.292;No
+29912;Unknown country;DR Congo;C-212;Transport aircraft;Aircraft;1990;Yes;1;Yes;1992;Yes;Second hand;3.8000;1.52;1.52;No
+15102;Unknown country;DR Congo;D-30 122mm;Towed gun;Artillery;1981;Yes;10;Yes;1981;Yes;Second hand;0.3500;0.14;1.4;No
+15101;Unknown country;DR Congo;M-30 122mm;Towed gun;Artillery;1978;Yes;10;Yes;1978;Yes;Second hand;0.4500;0.18;1.8;No
+15100;Unknown country;DR Congo;BTR-60PB;APC;Armoured vehicles;1980;Yes;10;Yes;1980;Yes;Second hand;0.2500;0.1;1;No
+7160;Unknown country;DR Congo;Ferret;APV;Armoured vehicles;1963;Yes;15;Yes;1964;No;Second hand;0.1200;0.048;0.72;No
+7160;Unknown country;DR Congo;Ferret;APV;Armoured vehicles;1963;Yes;15;Yes;1963;No;Second hand;0.1200;0.048;0.72;No
+7122;Unknown country;DR Congo;PA-20 Pacer;Light aircraft;Aircraft;1960;Yes;2;No;1961;No;Second hand;0.0600;0.024;0.048;No
+52482;Unknown country;DR Congo;An-26/Curl;Transport aircraft;Aircraft;2009;Yes;1;Yes;2009;Yes;Second hand;8.5000;3.4;3.4;No
+52528;Unknown country;DR Congo;An-12/Cub;Transport aircraft;Aircraft;2008;No;1;No;2009;No;Second hand;23.0000;9.2;9.2;No
+52528;Unknown country;DR Congo;An-12/Cub;Transport aircraft;Aircraft;2008;No;2;No;2008;No;Second hand;23.0000;9.2;18.4;No
+27466;Unknown country;DR Congo;Strela-2/SA-7 Grail;Portable SAM;Missiles;1995;Yes;10;Yes;1995;Yes;New;0.0400;0.0400;0.4;No
+27778;Unknown country;Croatia;9M114/AT-6 Spiral;Anti-tank missile;Missiles;1994;Yes;50;Yes;1994;Yes;New;0.0200;0.0200;1;No
+27289;Unknown country;Croatia;An-32/Cline;Transport aircraft;Aircraft;1993;Yes;2;Yes;1996;Yes;Second hand;11.0000;4.4;8.8;No
+27282;Unknown country;Croatia;5V55K/SA-10A Grumble;SAM;Missiles;1994;Yes;24;Yes;1995;Yes;New;0.3500;0.3500;8.4;No
+27280;Unknown country;Croatia;MILAN;Anti-tank missile;Missiles;1993;Yes;100;Yes;1994;Yes;New;0.0100;0.0100;1;No
+26694;Unknown country;Croatia;Mi-24V/Hind-E;Combat helicopter;Aircraft;1993;Yes;10;Yes;1994;Yes;Second hand;9.5000;3.8;38;No
+26693;Unknown country;Croatia;Mi-24D/Hind-D;Combat helicopter;Aircraft;1993;Yes;5;Yes;1994;Yes;Second hand;8.3400;3.336;16.68;No
+26409;Unknown country;Croatia;Type-63 107mm;Towed MRL;Artillery;1992;Yes;10;Yes;1993;Yes;Second hand;0.0500;0.02;0.2;No
+32926;Unknown country;Cuba;An-30/Clank;Reconnaissance ac;Aircraft;1970;Yes;1;Yes;1972;Yes;New;7.5000;7.5000;7.5;No
+27813;Unknown country;Djibouti;Mi-2/Hoplite;Light helicopter;Aircraft;1991;Yes;3;Yes;1992;Yes;Second hand;1.1000;0.44;1.32;No
+27813;Unknown country;Djibouti;Mi-2/Hoplite;Light helicopter;Aircraft;1991;Yes;1;Yes;1991;Yes;Second hand;1.1000;0.44;0.44;No
+26765;Unknown country;Djibouti;D-30 122mm;Towed gun;Artillery;1985;Yes;6;Yes;1986;Yes;Second hand;0.3500;0.14;0.84;No
+50688;Unknown country;Djibouti;Ratel-90;IFV/AFSV;Armoured vehicles;2004;Yes;12;Yes;2004;No;Second hand;0.9000;0.36;4.32;No
+39850;Unknown country;UIC (Somalia)*;Igla/SA-18 Grouse;Portable SAM;Missiles;2006;Yes;6;Yes;2006;Yes;Second hand;0.0800;0.032;0.192;No
+25320;Unknown country;Angola;M-3 VTT;APC;Armoured vehicles;1975;No;8;Yes;1975;Yes;Second hand;0.1600;0.064;0.512;No
+1907;Unknown country;Angola;MiG-17/Fresco;Fighter aircraft;Aircraft;1975;No;8;Yes;1975;Yes;Second hand;3.5000;1.4;11.2;No
+26996;Unknown country;Angola;Mi-8MT/Mi-17/Hip-H;Helicopter;Aircraft;1993;Yes;7;Yes;1993;No;Second hand;6.7500;2.7;18.9;No
+1959;Unknown country;Bolivia;Commander-680FL;Light transport ac;Aircraft;1970;Yes;2;Yes;1971;Yes;New;0.9000;0.9000;1.8;No
+51354;Unknown country;Bolivia;Cessna-210 Centurion;Light aircraft;Aircraft;2009;Yes;1;No;2009;No;Second hand;0.2000;0.08;0.08;No
+56782;Unknown country;Bolivia;Jetstream;Light transport ac;Aircraft;2012;Yes;1;Yes;2013;Yes;Second hand;3.5400;1.416;1.416;No
+27685;Unknown country;Botswana;M-68/M-71 155mm;Towed gun;Artillery;1997;Yes;5;Yes;1998;Yes;Second hand;0.8500;0.34;1.7;No
+17031;Unknown country;Brazil;M-41 Walker Bulldog;Light tank;Armoured vehicles;1980;Yes;50;Yes;1980;Yes;Second hand;1.1000;0.44;22;No
+8770;Unknown country;Cambodia;O-1/L-19 Bird Dog;Light aircraft;Aircraft;1973;Yes;35;Yes;1973;No;Second hand;0.0900;0.036;1.26;No
+29759;Unknown country;Colombia;Merlin-3;Light transport ac;Aircraft;1988;Yes;2;Yes;1989;Yes;New;2.0000;2.0000;4;No
+56790;Unknown country;Colombia;Commander-680FL;Light transport ac;Aircraft;2013;No;1;No;2013;No;Second hand;0.9000;0.36;0.36;No
+34674;Unknown country;Côte d'Ivoire;An-32/Cline;Transport aircraft;Aircraft;2002;No;1;No;2002;No;Second hand;11.0000;4.4;4.4;No
+33812;Unknown country;Côte d'Ivoire;Mi-8MT/Mi-17/Hip-H;Helicopter;Aircraft;2002;Yes;2;No;2002;No;Second hand;6.7500;2.7;5.4;No
+25896;Unknown country;Cyprus;Do-27;Light aircraft;Aircraft;1965;Yes;1;No;1965;Yes;Second hand;0.1200;0.048;0.048;No
+25895;Unknown country;Cyprus;Beech-18/C-45;Light transport ac;Aircraft;1964;Yes;1;No;1964;Yes;Second hand;0.4000;0.16;0.16;No
+25894;Unknown country;Cyprus;PA-18/L-18/L-21;Light aircraft;Aircraft;1965;Yes;2;Yes;1965;Yes;Second hand;0.0600;0.024;0.048;No
+1896;Unknown country;Cyprus;BTR-152;APC;Armoured vehicles;1965;Yes;32;Yes;1965;Yes;Second hand;0.1300;0.052;1.664;No
+31507;Unknown country;Czech Republic;9M113/AT-5 Spandrel;Anti-tank missile;Missiles;1998;Yes;30;Yes;2000;No;New;0.0200;0.0200;0.6;No
+31507;Unknown country;Czech Republic;9M113/AT-5 Spandrel;Anti-tank missile;Missiles;1998;Yes;31;Yes;1999;No;New;0.0200;0.0200;0.62;No
+31507;Unknown country;Czech Republic;9M113/AT-5 Spandrel;Anti-tank missile;Missiles;1998;Yes;20;Yes;1998;No;New;0.0200;0.0200;0.4;No
+29133;Unknown country;Dominican Republic;Cessna-310;Light aircraft;Aircraft;1986;Yes;1;No;1986;Yes;Second hand;0.3500;0.14;0.14;No
+29139;Unknown country;Dominican Republic;Queen Air;Light transport ac;Aircraft;1988;Yes;3;No;1988;No;Second hand;0.6000;0.24;0.72;No
+54141;Unknown country;Equatorial Guinea;Ka-32/Helix-C;Helicopter;Aircraft;2009;No;1;Yes;2010;Yes;Second hand;7.2500;2.9;2.9;No
+35277;Unknown country;Ethiopia;Strela-2/SA-7 Grail;Portable SAM;Missiles;1980;Yes;10;Yes;1983;Yes;New;0.0400;0.0400;0.4;No
+35277;Unknown country;Ethiopia;Strela-2/SA-7 Grail;Portable SAM;Missiles;1980;Yes;15;Yes;1982;Yes;New;0.0400;0.0400;0.6;No
+35277;Unknown country;Ethiopia;Strela-2/SA-7 Grail;Portable SAM;Missiles;1980;Yes;15;Yes;1981;Yes;New;0.0400;0.0400;0.6;No
+35277;Unknown country;Ethiopia;Strela-2/SA-7 Grail;Portable SAM;Missiles;1980;Yes;10;Yes;1980;Yes;New;0.0400;0.0400;0.4;No
+26145;Unknown country;Ethiopia;DC-4/C-54;Transport aircraft;Aircraft;1961;Yes;2;No;1962;No;Second hand;6.2500;2.5;5;No
+29907;Unknown country;Gabon;MFI-9;Trainer aircraft;Aircraft;1971;Yes;1;Yes;1971;No;Second hand;0.1000;0.04;0.04;No
+29261;Unknown country;Gambia;Ferret;APV;Armoured vehicles;1969;Yes;8;Yes;1969;Yes;Second hand;0.1200;0.048;0.384;No
+52447;Unknown country;Ghana;Type-63 107mm;Towed MRL;Artillery;2004;No;5;Yes;2004;Yes;New;0.0500;0.0500;0.25;No
+26789;Unknown country;Guatemala;M-30 107mm;Mortar;Artillery;1971;No;12;Yes;1971;Yes;Second hand;0.0500;0.02;0.24;No
+17367;Unknown country;Guinea;Strela-2/SA-7 Grail;Portable SAM;Missiles;1974;Yes;50;Yes;1975;Yes;New;0.0400;0.0400;2;No
+17367;Unknown country;Guinea;Strela-2/SA-7 Grail;Portable SAM;Missiles;1974;Yes;50;Yes;1974;Yes;New;0.0400;0.0400;2;No
+15087;Unknown country;Guinea;SON-9/Fire Can;Fire control radar;Sensors;1971;Yes;2;Yes;1971;Yes;Second hand;0.5000;0.2;0.4;No
+15082;Unknown country;Guinea;M-30 122mm;Towed gun;Artillery;1979;Yes;6;Yes;1979;Yes;Second hand;0.4500;0.18;1.08;No
+50862;Unknown country;Guinea;Type-63 107mm;Towed MRL;Artillery;2007;Yes;4;Yes;2007;Yes;New;0.0500;0.0500;0.2;No
+39814;Unknown country;Guinea;BMP-1;IFV;Armoured vehicles;2005;Yes;2;Yes;2005;No;Second hand;0.9000;0.36;0.72;No
+3685;Unknown country;Guinea-Bissau;T-34/85;Tank;Armoured vehicles;1976;Yes;10;Yes;1976;Yes;Second hand;0.9000;0.36;3.6;No
+35064;Unknown country;Israel;M-4 Sherman;Tank;Armoured vehicles;1955;Yes;50;Yes;1961;Yes;Second hand;0.8400;0.336;16.8;No
+35064;Unknown country;Israel;M-4 Sherman;Tank;Armoured vehicles;1955;Yes;50;Yes;1960;Yes;Second hand;0.8400;0.336;16.8;No
+35064;Unknown country;Israel;M-4 Sherman;Tank;Armoured vehicles;1955;Yes;50;Yes;1959;Yes;Second hand;0.8400;0.336;16.8;No
+35064;Unknown country;Israel;M-4 Sherman;Tank;Armoured vehicles;1955;Yes;50;Yes;1958;Yes;Second hand;0.8400;0.336;16.8;No
+35064;Unknown country;Israel;M-4 Sherman;Tank;Armoured vehicles;1955;Yes;50;Yes;1957;Yes;Second hand;0.8400;0.336;16.8;No
+35064;Unknown country;Israel;M-4 Sherman;Tank;Armoured vehicles;1955;Yes;50;Yes;1956;Yes;Second hand;0.8400;0.336;16.8;No
+15633;Unknown country;Israel;River;Frigate;Ships;1949;No;1;No;1951;No;Second hand;28.7500;11.5;11.5;No
+15633;Unknown country;Israel;River;Frigate;Ships;1949;No;2;No;1950;No;Second hand;28.7500;11.5;23;No
+29177;Unknown country;Jordan;Type-63 107mm;Towed MRL;Artillery;2001;Yes;6;No;2002;No;New;0.0500;0.0500;0.3;No
+8512;Unknown country;Katanga;DC-3/C-47 Skytrain;Transport aircraft;Aircraft;1961;Yes;2;No;1961;No;Second hand;2.5000;1;2;No
+39364;Unknown country;Kyrgyzstan;An-2/Colt;Light transport ac;Aircraft;2006;Yes;4;No;2006;No;Second hand;1.0000;0.4;1.6;No
+33428;Unknown country;Latvia;Mi-8MT/Mi-17/Hip-H;Helicopter;Aircraft;2001;Yes;1;No;2002;No;Second hand;6.7500;2.7;2.7;No
+25016;Unknown country;Latvia;Mi-8MT/Mi-17/Hip-H;Helicopter;Aircraft;1999;Yes;1;No;2000;No;Second hand;6.7500;2.7;2.7;No
+15708;Unknown country;Lebanon;Saracen;APC;Armoured vehicles;1978;Yes;100;Yes;1979;Yes;Second hand;0.2000;0.08;8;No
+1781;Unknown country;Lebanon;Saladin;Armoured car;Armoured vehicles;1978;Yes;40;Yes;1979;Yes;Second hand;0.7000;0.28;11.2;No
+32948;Unknown country;Lesotho;Bell-47/OH-13;Light helicopter;Aircraft;1985;Yes;1;No;1985;Yes;Second hand;0.2400;0.096;0.096;No
+31940;Unknown country;Liberia;Mi-8MT/Mi-17/Hip-H;Helicopter;Aircraft;2000;Yes;3;Yes;2000;No;Second hand;6.7500;2.7;8.1;No
+31293;Unknown country;Liberia;Mi-2/Hoplite;Light helicopter;Aircraft;1999;Yes;2;Yes;1999;Yes;Second hand;1.1000;0.44;0.88;No
+27047;Unknown country;Madagascar;M-43 120mm;Mortar;Artillery;1981;Yes;8;Yes;1981;Yes;Second hand;0.0500;0.02;0.16;No
+27048;Unknown country;Mali;Cessna-310;Light aircraft;Aircraft;1975;Yes;1;Yes;1975;Yes;New;0.3500;0.3500;0.35;No
+17376;Unknown country;Mauritius;BRDM-2;Reconnaissance AV;Armoured vehicles;1984;Yes;10;Yes;1985;Yes;Second hand;0.1500;0.06;0.6;No
+35378;Unknown country;Niger;Mi-8MT/Mi-17/Hip-H;Helicopter;Aircraft;2003;Yes;2;Yes;2003;Yes;New;6.7500;6.7500;13.5;No
+56622;Unknown country;Rwanda;Ratel-23;IFV;Armoured vehicles;2012;Yes;5;Yes;2013;Yes;Second hand;0.8500;0.34;1.7;No
+40287;Unknown country;Senegal;Bell-206L LongRanger;Light helicopter;Aircraft;2006;Yes;2;Yes;2006;Yes;Second hand;0.9500;0.38;0.76;No
+40286;Unknown country;Senegal;Mi-2/Hoplite;Light helicopter;Aircraft;2005;Yes;2;No;2005;Yes;Second hand;1.1000;0.44;0.88;No
+26819;Unknown country;Seychelles;BM-21 Grad 122mm;Self-propelled MRL;Artillery;1981;Yes;3;Yes;1982;Yes;Second hand;0.4500;0.18;0.54;No
+28402;Unknown country;Sierra Leone;Cessna-337/O-2;Light aircraft;Aircraft;1995;No;1;No;1995;No;Second hand;0.3500;0.14;0.14;No
+34673;Unknown country;Somalia;BTR-80;APC;Armoured vehicles;1999;Yes;2;No;1999;No;Second hand;0.3500;0.14;0.28;No
+29350;Unknown country;Somalia;Ferret;APV;Armoured vehicles;1999;Yes;3;No;1999;No;Second hand;0.1200;0.048;0.144;No
+29349;Unknown country;Somalia;BTR-70;APC;Armoured vehicles;1999;Yes;3;Yes;1999;No;Second hand;0.3000;0.12;0.36;No
+26305;Unknown country;Somalia;M-41 Walker Bulldog;Light tank;Armoured vehicles;1978;Yes;10;Yes;1978;Yes;Second hand;1.1000;0.44;4.4;No
+26304;Unknown country;Somalia;M-42A1 Duster;SPAAG;Air defence systems;1978;Yes;1;Yes;1978;Yes;Second hand;1.2000;0.48;0.48;No
+15049;Unknown country;Somalia;MILAN;Anti-tank missile;Missiles;1978;Yes;500;Yes;1979;Yes;New;0.0100;0.0100;5;No
+15049;Unknown country;Somalia;MILAN;Anti-tank missile;Missiles;1978;Yes;500;Yes;1978;Yes;New;0.0100;0.0100;5;No
+3243;Unknown country;Somalia;Cessna-150;Trainer/light ac;Aircraft;1970;Yes;3;Yes;1971;Yes;Second hand;0.1000;0.04;0.12;No
+4481;Unknown country;South Africa;BN-2 Islander;Light transport ac;Aircraft;1983;Yes;2;No;1984;Yes;Second hand;0.6000;0.24;0.48;No
+26311;Unknown country;Sudan;BM-21 Grad 122mm;Self-propelled MRL;Artillery;1984;Yes;10;Yes;1985;Yes;Second hand;0.4500;0.18;1.8;No
+54305;Unknown country;Tanzania;Igla-1/SA-16 Gimlet;Portable SAM;Missiles;1995;Yes;50;Yes;1996;Yes;New;0.0700;0.0700;3.5;No
+36004;Unknown country;African Union**;Mi-8MT/Mi-17/Hip-H;Helicopter;Aircraft;2004;No;15;Yes;2005;No;Second hand;6.7500;2.7;40.5;No
+27490;Unknown country;Mauritania;Strela-2/SA-7 Grail;Portable SAM;Missiles;1984;Yes;10;Yes;1984;Yes;New;0.0400;0.0400;0.4;No
+27486;Unknown country;Mauritania;KS-19 100mm;AA gun;Air defence systems;1980;Yes;12;Yes;1981;Yes;Second hand;0.6000;0.24;2.88;No
+27485;Unknown country;Mauritania;D-74 122mm;Towed gun;Artillery;1984;Yes;20;Yes;1985;Yes;Second hand;0.4000;0.16;3.2;No
+8806;Unknown country;Mauritania;DC-4/C-54;Transport aircraft;Aircraft;1974;Yes;2;No;1974;No;Second hand;6.2500;2.5;5;No
+57120;Unknown country;Myanmar;M-3 VTT;APC;Armoured vehicles;2010;Yes;10;Yes;2011;Yes;Second hand but modernized;0.1600;0.1056;1.056;No
+26399;Unknown country;Nepal;M-30 107mm;Mortar;Artillery;1965;Yes;4;Yes;1966;Yes;Second hand;0.0500;0.02;0.08;No
+26398;Unknown country;Nepal;M-43 120mm;Mortar;Artillery;1973;Yes;18;Yes;1973;Yes;New;0.0500;0.0500;0.9;No
+33048;Unknown country;New Zealand;King Air;Light transport ac;Aircraft;2002;No;2;No;2002;No;Second hand;2.7500;1.1;2.2;No
+3462;Unknown country;Nicaragua;T-55;Tank;Armoured vehicles;1981;Yes;20;No;1981;No;Second hand;1.2500;0.5;10;No
+25433;Unknown country;Paraguay;PA-12 Super Cruiser;Light aircraft;Aircraft;1962;Yes;1;No;1962;Yes;Second hand;0.0500;0.02;0.02;No
+32940;Unknown country;Peru;L-410 Turbolet;Light transport ac;Aircraft;2001;No;1;No;2001;Yes;Second hand;2.7500;1.1;1.1;No
+32687;Unknown country;Peru;An-32/Cline;Transport aircraft;Aircraft;1994;Yes;3;No;1996;No;Second hand;11.0000;4.4;13.2;No
+26241;Unknown country;Peru;Amalienborg;Tanker;Ships;1967;No;1;No;1967;No;Second hand;35.0000;14;14;No
+37761;Unknown country;Philippines;Cessna-172/T-41;Trainer/light ac;Aircraft;2004;Yes;2;No;2004;No;Second hand;0.1400;0.056;0.112;No
+33851;Unknown country;Philippines;Bell-205/UH-1H;Helicopter;Aircraft;2003;No;2;Yes;2005;No;Second hand;2.6200;1.048;2.096;No
+33851;Unknown country;Philippines;Bell-205/UH-1H;Helicopter;Aircraft;2003;No;4;Yes;2004;No;Second hand;2.6200;1.048;4.192;No
+4664;Unknown country;Singapore;Bell-205/UH-1H;Helicopter;Aircraft;1982;Yes;1;Yes;1984;Yes;Second hand;2.6200;1.048;1.048;No
+4664;Unknown country;Singapore;Bell-205/UH-1H;Helicopter;Aircraft;1982;Yes;1;Yes;1983;Yes;Second hand;2.6200;1.048;1.048;No
+4664;Unknown country;Singapore;Bell-205/UH-1H;Helicopter;Aircraft;1982;Yes;3;Yes;1982;Yes;Second hand;2.6200;1.048;3.144;No
+31237;Unknown country;Slovenia;L-410 Turbolet;Light transport ac;Aircraft;1995;Yes;1;Yes;1996;Yes;Second hand;2.7500;1.1;1.1;No
+55046;Unknown country;Slovenia;Bell-412;Helicopter;Aircraft;1991;No;1;No;1991;No;Second hand;5.0000;2;2;No
+28808;Unknown country;Suriname;Cessna-172/T-41;Trainer/light ac;Aircraft;1980;Yes;1;Yes;1981;Yes;New;0.1400;0.1400;0.14;No
+26319;Unknown country;Suriname;Bell-205/UH-1H;Helicopter;Aircraft;1986;Yes;1;No;1987;Yes;Second hand;2.6200;1.048;1.048;No
+56785;Unknown country;UAE;DHC-6 Twin Otter;Transport aircraft;Aircraft;2004;Yes;1;No;2004;Yes;Second hand;2.2500;0.9;0.9;No
+53025;Unknown country;Uganda;L-39Z Albatros;Trainer/combat ac;Aircraft;2010;No;3;Yes;2012;Yes;Second hand;5.0000;2;6;No
+52928;Unknown country;Uruguay;King Air Maritime;MP aircraft;Aircraft;2012;No;1;Yes;2013;Yes;Second hand;7.5000;3;3;No
+54656;Unknown country;Venezuela;F-28;Light helicopter;Aircraft;2011;Yes;2;No;2011;Yes;Second hand;0.2500;0.1;0.2;No
+30656;Unknown country;Western Sahara;BMP-1;IFV;Armoured vehicles;1990;Yes;10;Yes;1990;Yes;Second hand;0.9000;0.36;3.6;No
+27255;Unknown country;Western Sahara;Strela-2/SA-7 Grail;Portable SAM;Missiles;1979;Yes;10;Yes;1979;Yes;New;0.0400;0.0400;0.4;No
+26423;Unknown country;Western Sahara;BM-21 Grad 122mm;Self-propelled MRL;Artillery;1982;Yes;5;Yes;1983;Yes;New;0.4500;0.4500;2.25;No
+22355;Unknown country;Western Sahara;2K12 Kvadrat/SA-6A;SAM system;Air defence systems;1981;Yes;1;No;1981;Yes;New;17.5000;17.5000;17.5;No
+54467;Unknown country;Western Sahara;T-55;Tank;Armoured vehicles;1982;Yes;10;Yes;1983;Yes;Second hand;1.2500;0.5;5;No
+18562;Unknown country;Mujahedin (Afghanistan)*;MILAN;Anti-tank missile;Missiles;1988;Yes;140;Yes;1988;Yes;New;0.0100;0.0100;1.4;No
+35278;Unknown country;EPLF (Ethiopia)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;1980;Yes;12;Yes;1983;Yes;New;0.0400;0.0400;0.48;No
+35278;Unknown country;EPLF (Ethiopia)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;1980;Yes;13;Yes;1982;Yes;New;0.0400;0.0400;0.52;No
+35278;Unknown country;EPLF (Ethiopia)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;1980;Yes;13;Yes;1981;Yes;New;0.0400;0.0400;0.52;No
+35278;Unknown country;EPLF (Ethiopia)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;1980;Yes;12;Yes;1980;Yes;New;0.0400;0.0400;0.48;No
+29220;Unknown country;PLO (Israel)*;BTR-152;APC;Armoured vehicles;1980;Yes;5;Yes;1980;Yes;Second hand;0.1300;0.052;0.26;No
+27257;Unknown country;PLO (Israel)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;1979;Yes;2;Yes;1979;Yes;New;0.0400;0.0400;0.08;No
+27256;Unknown country;PLO (Israel)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;1976;Yes;1;Yes;1976;Yes;New;0.0400;0.0400;0.04;No
+26649;Unknown country;PLO (Israel)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;1986;Yes;10;Yes;1986;No;New;0.0400;0.0400;0.4;No
+26629;Unknown country;Hezbollah (Lebanon)*;M-43 120mm;Mortar;Artillery;1986;Yes;3;Yes;1988;Yes;Second hand;0.0500;0.02;0.06;No
+26629;Unknown country;Hezbollah (Lebanon)*;M-43 120mm;Mortar;Artillery;1986;Yes;4;Yes;1987;Yes;Second hand;0.0500;0.02;0.08;No
+26629;Unknown country;Hezbollah (Lebanon)*;M-43 120mm;Mortar;Artillery;1986;Yes;3;Yes;1986;Yes;Second hand;0.0500;0.02;0.06;No
+26419;Unknown country;Lebanon Palestinian rebels*;BM-21 Grad 122mm;Self-propelled MRL;Artillery;1981;Yes;10;Yes;1982;Yes;New;0.4500;0.4500;4.5;No
+26419;Unknown country;Lebanon Palestinian rebels*;BM-21 Grad 122mm;Self-propelled MRL;Artillery;1981;Yes;10;Yes;1981;Yes;New;0.4500;0.4500;4.5;No
+26412;Unknown country;Lebanon Palestinian rebels*;Type-63 107mm;Towed MRL;Artillery;1981;Yes;10;Yes;1982;Yes;New;0.0500;0.0500;0.5;No
+53604;Unknown country;NTC (Libya)*;Ratel-20;IFV;Armoured vehicles;2011;No;1;Yes;2011;No;Second hand;0.8000;0.32;0.32;No
+31934;Unknown country;NLA (Macedonia)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;2001;Yes;10;Yes;2001;Yes;New;0.0400;0.0400;0.4;No
+3465;Unknown country;PAIGC (Portugal)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;1972;Yes;15;Yes;1973;No;New;0.0400;0.0400;0.6;No
+3465;Unknown country;PAIGC (Portugal)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;1972;Yes;10;Yes;1972;Yes;New;0.0400;0.0400;0.4;No
+7862;Unknown country;Egypt;T-6 Texan;Trainer aircraft;Aircraft;1954;Yes;15;No;1955;No;Second hand;0.3200;0.128;1.92;No
+26782;Unknown country;Honduras;T-28D Nomad;Trainer/combat ac;Aircraft;1966;Yes;4;Yes;1966;No;Second hand;1.7500;0.7;2.8;No
+34299;Unknown country;Libya;Il-78M/Midas;Tanker/transport ac;Aircraft;1985;Yes;1;Yes;1986;Yes;New;85.0000;85.0000;85;No
+15746;Unknown country;Oman;M-46 130mm;Towed gun;Artillery;1978;No;8;Yes;1980;Yes;New;0.6500;0.6500;5.2;No
+15746;Unknown country;Oman;M-46 130mm;Towed gun;Artillery;1978;No;7;Yes;1979;Yes;New;0.6500;0.6500;4.55;No
+18589;Unknown country;Qatar;FIM-92 Stinger;Portable SAM;Missiles;1988;Yes;60;Yes;1988;Yes;New;0.0800;0.0800;4.8;No
+33686;Unknown country;Sri Lanka;D-20 152mm;Towed gun;Artillery;1990;Yes;10;Yes;1991;Yes;New;0.5000;0.5000;5;No
+25242;Unknown country;Sri Lanka;Cessna-337/O-2;Light aircraft;Aircraft;1983;No;2;No;1984;No;Second hand;0.3500;0.14;0.28;No
+33484;Unknown country;United States;Mi-8MT/Mi-17/Hip-H;Helicopter;Aircraft;2001;Yes;2;No;2002;No;Second hand;6.7500;2.7;5.4;No
+33484;Unknown country;United States;Mi-8MT/Mi-17/Hip-H;Helicopter;Aircraft;2001;Yes;1;No;2001;No;Second hand;6.7500;2.7;2.7;No
+32569;Unknown country;United States;9P117/Scud-B TEL;Mobile SSM launcher;Artillery;1996;No;4;No;1996;No;Second hand;1.0000;0.4;1.6;No
+32568;Unknown country;United States;R-17/SS-1c Scud-B;SSM;Missiles;1996;No;31;No;1996;No;New;1.5000;1.5000;46.5;No
+27528;Unknown country;United States;Mi-8MT/Mi-17/Hip-H;Helicopter;Aircraft;1992;Yes;7;Yes;1993;Yes;Second hand;6.7500;2.7;18.9;No
+55012;Unknown country;United States;L-39C Albatros;Trainer aircraft;Aircraft;2011;Yes;5;Yes;2012;Yes;Second hand;4.4100;1.764;8.82;No
+19440;Unknown country;United States;MiG-21PFM/Fishbed-F;Fighter aircraft;Aircraft;1988;Yes;1;Yes;1988;No;Second hand;10.0000;4;4;No
+19439;Unknown country;United States;MiG-19/Farmer;Fighter aircraft;Aircraft;1988;Yes;1;Yes;1988;Yes;Second hand;5.0000;2;2;No
+26254;Unknown country;Zambia;DC-3/C-47 Skytrain;Transport aircraft;Aircraft;1971;Yes;6;Yes;1972;Yes;Second hand;2.5000;1;6;No
+26370;Unknown country;Zimbabwe;SF-260;Trainer aircraft;Aircraft;1977;Yes;14;Yes;1977;Yes;Second hand;0.2400;0.096;1.344;No
+52967;Unknown country;Hamas (Palestine)*;9M133 Kornet/AT-14;Anti-tank missile;Missiles;2010;Yes;10;Yes;2010;Yes;New;0.0400;0.0400;0.4;No
+55551;Unknown country;Hamas (Palestine)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;2011;Yes;100;Yes;2011;No;Second hand;0.0400;0.016;1.6;No
+52172;Unknown country;FRELIMO (Portugal)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;1973;Yes;25;Yes;1973;No;New;0.0400;0.0400;1;No
+14460;Unknown country;MPLA (Portugal)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;1972;Yes;15;Yes;1973;Yes;New;0.0400;0.0400;0.6;No
+14460;Unknown country;MPLA (Portugal)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;1972;Yes;10;Yes;1972;Yes;New;0.0400;0.0400;0.4;No
+24739;Unknown country;RPF (Rwanda)*;Igla-1/SA-16 Gimlet;Portable SAM;Missiles;1987;Yes;5;Yes;1987;Yes;New;0.0700;0.0700;0.35;No
+36437;Unknown country;LTTE (Sri Lanka)*;M-43 120mm;Mortar;Artillery;2002;Yes;25;Yes;2002;Yes;Second hand;0.0500;0.02;0.5;No
+35194;Unknown country;LTTE (Sri Lanka)*;Strela-3/SA-14 Gremlin;Portable SAM;Missiles;1997;Yes;5;Yes;1998;Yes;New;0.0600;0.0600;0.3;No
+29897;Unknown country;LTTE (Sri Lanka)*;9M111/AT-4 Spigot;Anti-tank missile;Missiles;1999;Yes;10;Yes;1999;Yes;New;0.0100;0.0100;0.1;No
+28773;Unknown country;LTTE (Sri Lanka)*;R-44;Helicopter;Aircraft;1998;Yes;1;No;1998;Yes;Second hand;0.2500;0.1;0.1;No
+19887;Unknown country;LTTE (Sri Lanka)*;Cessna-150;Trainer/light ac;Aircraft;1998;Yes;1;No;1998;Yes;Second hand;0.1000;0.04;0.04;No
+39779;Unknown country;LTTE (Sri Lanka)*;Z-143L;Light aircraft;Aircraft;2005;Yes;2;Yes;2005;Yes;Second hand;0.1700;0.068;0.136;No
+18045;Unknown country;SPLA (Sudan)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;1986;Yes;25;Yes;1988;No;New;0.0400;0.0400;1;No
+18045;Unknown country;SPLA (Sudan)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;1986;Yes;25;Yes;1987;No;New;0.0400;0.0400;1;No
+27166;Unknown country;PKK (Turkey)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;1994;Yes;8;Yes;1997;Yes;New;0.0400;0.0400;0.32;No
+27166;Unknown country;PKK (Turkey)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;1994;Yes;2;Yes;1994;Yes;New;0.0400;0.0400;0.08;No
+34207;Unknown country;LRA (Uganda)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;2002;Yes;5;Yes;2002;Yes;New;0.0400;0.0400;0.2;No
+33811;Unknown country;Unknown rebel group*;Strela-2/SA-7 Grail;Portable SAM;Missiles;2002;Yes;2;Yes;2002;Yes;New;0.0400;0.0400;0.08;No
+28481;Unknown country;Unknown rebel group*;Strela-2/SA-7 Grail;Portable SAM;Missiles;2001;Yes;2;Yes;2001;Yes;New;0.0400;0.0400;0.08;No
+1452;Unknown country;Unknown rebel group*;Strela-2/SA-7 Grail;Portable SAM;Missiles;2002;Yes;1;Yes;2002;Yes;New;0.0400;0.0400;0.04;No
+26898;Unknown country;ZAPU (Zimbabwe)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;1978;Yes;5;Yes;1979;Yes;New;0.0400;0.0400;0.2;No
+26898;Unknown country;ZAPU (Zimbabwe)*;Strela-2/SA-7 Grail;Portable SAM;Missiles;1978;Yes;5;Yes;1978;Yes;New;0.0400;0.0400;0.2;No
+56187;Unknown country;Syria rebels*;Red Arrow-8;Anti-tank missile;Missiles;2013;Yes;50;Yes;2013;Yes;New;0.0100;0.0100;0.5;No
+56131;Unknown country;Syria rebels*;FN-6;Portable SAM;Missiles;2012;Yes;10;Yes;2012;Yes;New;0.0800;0.0800;0.8;No

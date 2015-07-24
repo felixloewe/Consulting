@@ -1,0 +1,101 @@
+Deal ID;Seller;Buyer;Designation;Description;Armament category;Order date;Order date is estimate;Numbers delivered;Numbers delivered is estimate;Delivery year;Delivery year is estimate;Status;SIPRI estimate;TIV deal unit;TIV delivery values;Local production
+39090;Belarus;Azerbaijan;T-72M1;Tank;Armoured vehicles;2004;Yes;41;No;2006;No;Second hand;2.6000;1.04;42.64;No
+39090;Belarus;Azerbaijan;T-72M1;Tank;Armoured vehicles;2004;Yes;19;No;2005;No;Second hand;2.6000;1.04;19.76;No
+57092;Belarus;Azerbaijan;T-72M1;Tank;Armoured vehicles;2010;Yes;62;No;2012;No;Second hand;2.6000;1.04;64.48;No
+57092;Belarus;Azerbaijan;T-72M1;Tank;Armoured vehicles;2010;Yes;31;No;2011;No;Second hand;2.6000;1.04;32.24;No
+51213;Belarus;Azerbaijan;2S7 Pion 203mm;Self-propelled gun;Artillery;2008;Yes;3;No;2008;No;Second hand;1.1000;0.44;1.32;No
+52181;Belarus;Azerbaijan;2S7 Pion 203mm;Self-propelled gun;Artillery;2009;No;9;No;2009;No;Second hand;1.1000;0.44;3.96;No
+52182;Belarus;Azerbaijan;Su-25/Frogfoot-A;Ground attack ac;Aircraft;2009;Yes;1;No;2012;No;Second hand;12.0000;4.8;4.8;No
+52182;Belarus;Azerbaijan;Su-25/Frogfoot-A;Ground attack ac;Aircraft;2009;Yes;4;No;2011;No;Second hand;12.0000;4.8;19.2;No
+52182;Belarus;Azerbaijan;Su-25/Frogfoot-A;Ground attack ac;Aircraft;2009;Yes;1;No;2010;No;Second hand;12.0000;4.8;4.8;No
+52182;Belarus;Azerbaijan;Su-25/Frogfoot-A;Ground attack ac;Aircraft;2009;Yes;5;No;2009;No;Second hand;12.0000;4.8;24;No
+53981;Belarus;Azerbaijan;D-30 122mm;Towed gun;Artillery;2009;Yes;30;No;2010;No;Second hand;0.3500;0.14;4.2;No
+28138;Belarus;DR Congo;BM-21 Grad 122mm;Self-propelled MRL;Artillery;1997;Yes;6;No;1997;No;Second hand;0.4500;0.18;1.08;No
+39089;Belarus;Djibouti;Mi-24P/Hind-F;Combat helicopter;Aircraft;2004;Yes;2;Yes;2005;Yes;Second hand;9.5300;3.812;7.624;No
+32237;Belarus;Angola;T-72M1;Tank;Armoured vehicles;1999;Yes;22;No;1999;No;Second hand;2.6000;1.04;22.88;No
+32242;Belarus;Angola;MiG-23ML/Flogger-G;Fighter aircraft;Aircraft;1999;Yes;7;Yes;1999;No;Second hand;18.0000;7.2;50.4;No
+32236;Belarus;Angola;T-55AM-2;Tank;Armoured vehicles;1999;Yes;62;No;1999;No;Second hand;1.5000;0.6;37.2;No
+32241;Belarus;Angola;D-30 122mm;Towed gun;Artillery;1999;Yes;12;No;1999;No;Second hand;0.3500;0.14;1.68;No
+32240;Belarus;Angola;BM-21 Grad 122mm;Self-propelled MRL;Artillery;1999;Yes;24;No;1999;No;Second hand;0.4500;0.18;4.32;No
+32243;Belarus;Angola;Su-22/Fitter-H/J/K;FGA aircraft;Aircraft;1999;Yes;7;Yes;1999;No;Second hand;13.0000;5.2;36.4;No
+32239;Belarus;Angola;BMP-2;IFV;Armoured vehicles;1999;Yes;62;No;1999;No;Second hand;0.9000;0.36;22.32;No
+31417;Belarus;Angola;2S7 Pion 203mm;Self-propelled gun;Artillery;1999;Yes;12;No;1999;No;Second hand;1.1000;0.44;5.28;No
+30134;Belarus;Angola;Su-27S/Flanker-B;FGA aircraft;Aircraft;1999;Yes;2;Yes;2000;Yes;Second hand;42.5000;17;34;No
+30133;Belarus;Angola;Su-24/Fencer;Bomber aircraft;Aircraft;1997;No;1;Yes;2000;Yes;Second hand;35.0000;14;14;No
+22460;Belarus;Angola;BMP-1;IFV;Armoured vehicles;1993;Yes;21;No;1993;No;Second hand;0.9000;0.36;7.56;No
+37749;Belarus;Cote dIvoire;An-12/Cub;Transport aircraft;Aircraft;2002;Yes;1;No;2002;Yes;Second hand;23.0000;9.2;9.2;No
+35559;Belarus;Cote dIvoire;Mi-8T/Hip-C;Helicopter;Aircraft;2003;Yes;1;No;2003;Yes;Second hand;6.0000;2.4;2.4;No
+35419;Belarus;Cote dIvoire;BTR-80;APC;Armoured vehicles;2003;Yes;6;No;2003;No;Second hand;0.3500;0.14;0.84;No
+32681;Belarus;Cote dIvoire;Mi-24V/Hind-E;Combat helicopter;Aircraft;2002;Yes;2;No;2002;No;Second hand;9.5000;3.8;7.6;No
+34049;Belarus;Cote dIvoire;2S11 120mm;Mortar;Artillery;2002;Yes;10;No;2002;No;Second hand;0.0500;0.02;0.2;No
+34139;Belarus;Cote dIvoire;BMP-1;IFV;Armoured vehicles;2002;Yes;1;No;2003;No;Second hand;0.9000;0.36;0.36;No
+34139;Belarus;Cote dIvoire;BMP-1;IFV;Armoured vehicles;2002;Yes;12;No;2002;No;Second hand;0.9000;0.36;4.32;No
+35405;Belarus;Cote dIvoire;Su-25/Frogfoot-A;Ground attack ac;Aircraft;2003;Yes;2;No;2004;No;Second hand;12.0000;4.8;9.6;No
+35405;Belarus;Cote dIvoire;Su-25/Frogfoot-A;Ground attack ac;Aircraft;2003;Yes;2;No;2003;No;Second hand;12.0000;4.8;9.6;No
+35119;Belarus;Cote dIvoire;BRDM-2;Reconnaissance AV;Armoured vehicles;2003;Yes;13;No;2003;No;Second hand;0.1500;0.06;0.78;No
+35420;Belarus;Cote dIvoire;BM-21 Grad 122mm;Self-propelled MRL;Artillery;2003;Yes;6;No;2003;No;Second hand;0.4500;0.18;1.08;No
+50382;Belarus;Eritrea;BM-22/9P140 Uragan;Self-propelled MRL;Artillery;2006;Yes;9;No;2007;No;Second hand;1.1000;0.44;3.96;No
+36765;Belarus;Eritrea;S-125M/SA-3B;SAM system;Air defence systems;2005;Yes;2;No;2005;No;Second hand but modernized;17.5000;11.55;23.1;No
+53767;Belarus;Eritrea;5V27/SA-3B Goa;SAM;Missiles;2005;Yes;70;Yes;2005;No;Second hand;0.1200;0.048;3.36;No
+32187;Belarus;Ethiopia;Mi-24P/Hind-F;Combat helicopter;Aircraft;2000;Yes;2;No;2000;No;Second hand;9.5300;3.812;7.624;No
+30070;Belarus;Ethiopia;T-55;Tank;Armoured vehicles;1998;Yes;40;No;1998;No;Second hand;1.2500;0.5;20;No
+24178;Belarus;Hungary;T-72M1;Tank;Armoured vehicles;1996;Yes;100;No;1996;No;Second hand;2.6000;1.04;104;No
+57135;Belarus;Iran;Vostok-E;Air search radar;Sensors;2010;Yes;2;Yes;2011;Yes;New;7.5000;7.5000;15;No
+34676;Belarus;Iran;T-72M1;Tank;Armoured vehicles;1999;Yes;15;Yes;2002;Yes;Second hand;2.6000;1.04;15.6;No
+34676;Belarus;Iran;T-72M1;Tank;Armoured vehicles;1999;Yes;14;Yes;2001;Yes;Second hand;2.6000;1.04;14.56;No
+34676;Belarus;Iran;T-72M1;Tank;Armoured vehicles;1999;Yes;8;Yes;2000;Yes;Second hand;2.6000;1.04;8.32;No
+51913;Belarus;Nigeria;Mi-24P/Hind-F;Combat helicopter;Aircraft;2009;No;2;No;2010;No;Second hand;9.5300;3.812;7.624;No
+36445;Belarus;Rwanda;Mi-24V/Hind-E;Combat helicopter;Aircraft;1997;No;2;Yes;1998;Yes;Second hand;9.5000;3.8;7.6;No
+29415;Belarus;Rwanda;Mi-24V/Hind-E;Combat helicopter;Aircraft;1998;Yes;2;Yes;1999;No;Second hand;9.5000;3.8;7.6;No
+28452;Belarus;Sierra Leone;Mi-24V/Hind-E;Combat helicopter;Aircraft;1997;Yes;2;No;1997;No;Second hand;9.5000;3.8;7.6;No
+23098;Belarus;Sierra Leone;Mi-24V/Hind-E;Combat helicopter;Aircraft;1994;No;2;Yes;1995;No;Second hand;9.5000;3.8;7.6;No
+35421;Belarus;Sudan;BRDM-2;Reconnaissance AV;Armoured vehicles;2003;Yes;39;No;2003;No;Second hand;0.1500;0.06;2.34;No
+34677;Belarus;Sudan;BM-21 Grad 122mm;Self-propelled MRL;Artillery;2002;Yes;6;No;2003;No;Second hand;0.4500;0.18;1.08;No
+34677;Belarus;Sudan;BM-21 Grad 122mm;Self-propelled MRL;Artillery;2002;Yes;6;No;2002;No;Second hand;0.4500;0.18;1.08;No
+32238;Belarus;Sudan;T-55AM-2;Tank;Armoured vehicles;1999;Yes;20;No;2001;No;Second hand;1.5000;0.6;12;No
+32238;Belarus;Sudan;T-55AM-2;Tank;Armoured vehicles;1999;Yes;40;No;1999;No;Second hand;1.5000;0.6;24;No
+32185;Belarus;Sudan;D-30 122mm;Towed gun;Artillery;2002;Yes;16;No;2003;No;Second hand;0.3500;0.14;2.24;No
+32185;Belarus;Sudan;D-30 122mm;Towed gun;Artillery;2002;Yes;8;No;2002;No;Second hand;0.3500;0.14;1.12;No
+35423;Belarus;Sudan;2S1 122mm;Self-propelled gun;Artillery;2003;Yes;10;No;2003;No;Second hand;0.9000;0.36;3.6;No
+35422;Belarus;Sudan;BMP-2;IFV;Armoured vehicles;2003;Yes;9;No;2003;No;Second hand;0.9000;0.36;3.24;No
+50383;Belarus;Sudan;BTR-70;APC;Armoured vehicles;2006;Yes;2;No;2007;No;Second hand but modernized;0.3000;0.198;0.396;No
+50444;Belarus;Sudan;Su-25/Frogfoot-A;Ground attack ac;Aircraft;2007;Yes;1;No;2010;No;Second hand;12.0000;4.8;4.8;No
+50444;Belarus;Sudan;Su-25/Frogfoot-A;Ground attack ac;Aircraft;2007;Yes;3;No;2009;No;Second hand;12.0000;4.8;14.4;No
+50444;Belarus;Sudan;Su-25/Frogfoot-A;Ground attack ac;Aircraft;2007;Yes;11;No;2008;No;Second hand;12.0000;4.8;52.8;No
+56196;Belarus;Sudan;Su-24/Fencer;Bomber aircraft;Aircraft;2012;No;12;Yes;2013;No;Second hand;35.0000;14;168;No
+25500;Belarus;Sudan;Mi-24V/Hind-E;Combat helicopter;Aircraft;1996;Yes;6;No;1996;No;Second hand;9.5000;3.8;22.8;No
+25499;Belarus;Sudan;T-55;Tank;Armoured vehicles;1996;Yes;9;No;1996;No;Second hand;1.2500;0.5;4.5;No
+54353;Belarus;Turkmenistan;Caracal;Tank destroyer;Armoured vehicles;2010;No;4;Yes;2011;Yes;New;0.8000;0.8000;3.2;No
+33388;Belarus;Nepal;Mi-8MT/Mi-17/Hip-H;Helicopter;Aircraft;2002;No;2;No;2003;No;Second hand;6.7500;2.7;5.4;No
+34853;Belarus;Peru;Kh-58A/AS-11 Kilter;ARM;Missiles;1996;Yes;50;Yes;1997;Yes;New;0.4000;0.4000;20;No
+33500;Belarus;Peru;Kh-25/AS-10 Karen;ASM/ARM;Missiles;1996;Yes;100;Yes;1997;No;New;0.1500;0.1500;15;No
+33497;Belarus;Peru;Kh-29/AS-14 Kedge;ASM;Missiles;1996;Yes;100;Yes;1997;No;New;0.2000;0.2000;20;No
+24322;Belarus;Peru;R-27/AA-10 Alamo;BVRAAM;Missiles;1996;No;70;Yes;1997;Yes;New;0.1900;0.1900;13.3;No
+40118;Belarus;Peru;R-60/AA-8 Aphid;SRAAM;Missiles;2001;Yes;23;No;2002;No;New;0.0900;0.0900;2.07;No
+27194;Belarus;Peru;Su-25/Frogfoot-A;Ground attack ac;Aircraft;1996;Yes;18;No;1997;No;Second hand;12.0000;4.8;86.4;No
+24323;Belarus;Peru;R-60/AA-8 Aphid;SRAAM;Missiles;1996;No;175;Yes;1998;Yes;New;0.0900;0.0900;15.75;No
+24323;Belarus;Peru;R-60/AA-8 Aphid;SRAAM;Missiles;1996;No;175;Yes;1997;Yes;New;0.0900;0.0900;15.75;No
+24332;Belarus;Peru;MiG-29/Fulcrum-A;Fighter aircraft;Aircraft;1996;No;18;No;1997;No;Second hand;20.6500;8.26;148.68;No
+34476;Belarus;Syria;Igla/SA-18 Grouse;Portable SAM;Missiles;2003;Yes;300;Yes;2003;No;New;0.0800;0.0800;24;No
+51214;Belarus;Syria;MiG-23MS/Flogger-E;Fighter aircraft;Aircraft;2008;Yes;33;Yes;2008;Yes;Second hand;13.0000;5.2;171.6;No
+53980;Belarus;Uganda;Mi-24V/Hind-E;Combat helicopter;Aircraft;2009;Yes;1;No;2010;No;Second hand;9.5000;3.8;3.8;No
+32183;Belarus;Uganda;T-55AM-2;Tank;Armoured vehicles;2000;Yes;10;No;2000;No;Second hand;1.5000;0.6;6;No
+34557;Belarus;Uganda;Mi-24V/Hind-E;Combat helicopter;Aircraft;2003;No;3;Yes;2004;Yes;Second hand;9.5000;3.8;11.4;No
+27505;Belarus;Uganda;Mi-24P/Hind-F;Combat helicopter;Aircraft;1997;No;2;No;1998;No;Second hand;9.5300;3.812;7.624;No
+28162;Belarus;Algeria;MiG-29S/Fulcrum-C;FGA aircraft;Aircraft;1998;Yes;2;No;2002;No;Second hand;28.5000;11.4;22.8;No
+28162;Belarus;Algeria;MiG-29S/Fulcrum-C;FGA aircraft;Aircraft;1998;Yes;2;No;2001;No;Second hand;28.5000;11.4;22.8;No
+28162;Belarus;Algeria;MiG-29S/Fulcrum-C;FGA aircraft;Aircraft;1998;Yes;5;No;2000;No;Second hand;28.5000;11.4;57;No
+28162;Belarus;Algeria;MiG-29S/Fulcrum-C;FGA aircraft;Aircraft;1998;Yes;16;No;1999;No;Second hand;28.5000;11.4;182.4;No
+28160;Belarus;Algeria;Su-24/Fencer;Bomber aircraft;Aircraft;1997;Yes;2;No;1997;No;Second hand;35.0000;14;28;No
+54640;Belarus;China;Il-76M/Candid-B;Transport aircraft;Aircraft;2011;Yes;5;Yes;2013;No;Second hand;85.0000;34;170;No
+31776;Belarus;Morocco;T-72B;Tank;Armoured vehicles;1999;Yes;70;No;2000;No;Second hand but modernized;2.6000;1.716;120.12;No
+31776;Belarus;Morocco;T-72B;Tank;Armoured vehicles;1999;Yes;30;No;1999;No;Second hand but modernized;2.6000;1.716;51.48;No
+24321;Belarus;Pakistan;9M119/AT-11 Sniper;Anti-tank missile;Missiles;1996;No;640;Yes;1999;Yes;New;0.0200;0.0200;12.8;No
+24321;Belarus;Pakistan;9M119/AT-11 Sniper;Anti-tank missile;Missiles;1996;No;640;Yes;1998;Yes;New;0.0200;0.0200;12.8;No
+24321;Belarus;Pakistan;9M119/AT-11 Sniper;Anti-tank missile;Missiles;1996;No;640;Yes;1997;Yes;New;0.0200;0.0200;12.8;No
+32186;Belarus;Yemen;T-72B;Tank;Armoured vehicles;2000;Yes;27;No;2000;No;Second hand but modernized;2.6000;1.716;46.332;No
+53979;Belarus;Yemen;T-80;Tank;Armoured vehicles;2009;Yes;14;No;2012;No;Second hand but modernized;3.0000;1.98;27.72;No
+53979;Belarus;Yemen;T-80;Tank;Armoured vehicles;2009;Yes;66;No;2010;No;Second hand but modernized;3.0000;1.98;130.68;No
+53979;Belarus;Yemen;T-80;Tank;Armoured vehicles;2009;Yes;12;Yes;2011;Yes;Second hand but modernized;3.0000;1.98;23.76;No
+54337;Belarus;Yemen;SG-1000;Gas turbine;Engines;2009;Yes;34;Yes;2010;No;Second hand but modernized;0.2000;0.132;4.488;No
+54337;Belarus;Yemen;SG-1000;Gas turbine;Engines;2009;Yes;34;Yes;2011;No;Second hand but modernized;0.2000;0.132;4.488;No

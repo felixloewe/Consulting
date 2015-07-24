@@ -1,0 +1,953 @@
+Deal ID;Seller;Buyer;Designation;Description;Armament category;Order date;Order date is estimate;Numbers delivered;Numbers delivered is estimate;Delivery year;Delivery year is estimate;Status;SIPRI estimate;TIV deal unit;TIV delivery values;Local production
+22757;Netherlands;Australia;LW-02;Air search radar;Sensors;1969;Yes;1;Yes;1971;Yes;New;7.0000;7.0000;7;No
+22756;Netherlands;Australia;WM-20;Fire control radar;Sensors;1969;Yes;2;Yes;1973;Yes;New;6.0000;6.0000;12;No
+22756;Netherlands;Australia;WM-20;Fire control radar;Sensors;1969;Yes;2;Yes;1971;Yes;New;6.0000;6.0000;12;No
+22755;Netherlands;Australia;LW-02;Air search radar;Sensors;1967;Yes;1;No;1968;Yes;New;7.0000;7.0000;7;No
+21347;Netherlands;Australia;LW-02;Air search radar;Sensors;1957;Yes;1;No;1965;No;New;7.0000;7.0000;7;No
+21347;Netherlands;Australia;LW-02;Air search radar;Sensors;1957;Yes;1;No;1964;No;New;7.0000;7.0000;7;No
+21347;Netherlands;Australia;LW-02;Air search radar;Sensors;1957;Yes;2;No;1963;No;New;7.0000;7.0000;14;No
+21346;Netherlands;Australia;LW-02;Air search radar;Sensors;1963;Yes;2;No;1969;Yes;New;7.0000;7.0000;14;No
+21345;Netherlands;Australia;WM-20;Fire control radar;Sensors;1963;Yes;2;No;1969;Yes;New;6.0000;6.0000;12;No
+37659;Netherlands;Bangladesh;MIRADOR;EO search/fire control;Sensors;1998;Yes;1;No;2001;No;New;2.5000;2.5000;2.5;No
+32030;Netherlands;Bangladesh;LIROD;Fire control radar;Sensors;1999;Yes;1;No;2001;No;New;2.5000;2.5000;2.5;No
+32029;Netherlands;Bangladesh;Variant;Air/sea search radar;Sensors;1998;Yes;1;No;2001;No;New;4.7500;4.7500;4.75;No
+32028;Netherlands;Bangladesh;DA-08;Air search radar;Sensors;1998;Yes;1;No;2001;No;New;9.0000;9.0000;9;No
+38583;Netherlands;Canada;WM-20;Fire control radar;Sensors;1968;Yes;2;No;1973;No;New;6.0000;6.0000;12;No
+38583;Netherlands;Canada;WM-20;Fire control radar;Sensors;1968;Yes;6;No;1972;No;New;6.0000;6.0000;36;No
+21090;Netherlands;Canada;DA-08;Air search radar;Sensors;1986;No;1;No;1991;No;New;9.0000;9.0000;9;No
+21090;Netherlands;Canada;DA-08;Air search radar;Sensors;1986;No;2;No;1994;No;New;9.0000;9.0000;18;No
+21090;Netherlands;Canada;DA-08;Air search radar;Sensors;1986;No;1;No;1992;No;New;9.0000;9.0000;9;No
+21088;Netherlands;Canada;LW-08;Air search radar;Sensors;1986;No;1;No;1991;No;New;9.5000;9.5000;9.5;No
+21088;Netherlands;Canada;LW-08;Air search radar;Sensors;1986;No;2;No;1994;No;New;9.5000;9.5000;19;No
+21088;Netherlands;Canada;LW-08;Air search radar;Sensors;1986;No;1;No;1992;No;New;9.5000;9.5000;9.5;No
+39603;Netherlands;Canada;Leopard-2A4;Tank;Armoured vehicles;2007;No;12;Yes;2013;No;Second hand;4.0000;1.6;19.2;No
+39603;Netherlands;Canada;Leopard-2A4;Tank;Armoured vehicles;2007;No;10;Yes;2012;No;Second hand;4.0000;1.6;16;No
+39603;Netherlands;Canada;Leopard-2A4;Tank;Armoured vehicles;2007;No;12;Yes;2008;No;Second hand;4.0000;1.6;19.2;No
+39603;Netherlands;Canada;Leopard-2A4;Tank;Armoured vehicles;2007;No;8;No;2011;No;Second hand;4.0000;1.6;12.8;No
+21093;Netherlands;Canada;STIR;Fire control radar;Sensors;1985;Yes;4;Yes;1996;No;New;4.5000;4.5000;18;Yes
+21093;Netherlands;Canada;STIR;Fire control radar;Sensors;1985;Yes;4;Yes;1995;Yes;New;4.5000;4.5000;18;Yes
+21093;Netherlands;Canada;STIR;Fire control radar;Sensors;1985;Yes;10;Yes;1994;Yes;New;4.5000;4.5000;45;Yes
+21093;Netherlands;Canada;STIR;Fire control radar;Sensors;1985;Yes;4;Yes;1993;Yes;New;4.5000;4.5000;18;Yes
+21093;Netherlands;Canada;STIR;Fire control radar;Sensors;1985;Yes;2;Yes;1992;Yes;New;4.5000;4.5000;9;Yes
+21089;Netherlands;Canada;STIR;Fire control radar;Sensors;1986;No;4;Yes;1994;Yes;New;4.5000;4.5000;18;Yes
+21089;Netherlands;Canada;STIR;Fire control radar;Sensors;1986;No;2;Yes;1992;Yes;New;4.5000;4.5000;9;Yes
+21089;Netherlands;Canada;STIR;Fire control radar;Sensors;1986;No;2;Yes;1991;Yes;New;4.5000;4.5000;9;Yes
+54221;Netherlands;Cape Verde;Stan Patrol-5009;Patrol craft;Ships;2010;No;1;No;2012;No;New;10.0000;10.0000;10;No
+23250;Netherlands;Chad;SA-316B Alouette-3;Light helicopter;Aircraft;1995;No;2;No;1995;No;Second hand;0.9000;0.36;0.72;No
+36229;Netherlands;Angola;C-130H-30 Hercules;Transport aircraft;Aircraft;2005;No;1;No;2005;Yes;Second hand;29.0000;11.6;11.6;No
+2673;Netherlands;Angola;F-27 Maritime;MP aircraft;Aircraft;1980;No;1;No;1980;No;New;8.2000;8.2000;8.2;No
+27986;Netherlands;Austria;M-578;ARV;Armoured vehicles;1997;No;2;Yes;1997;Yes;Second hand;0.3600;0.144;0.288;No
+24550;Netherlands;Austria;Leopard-2;Tank;Armoured vehicles;1996;No;79;No;1998;No;Second hand;3.4000;1.36;107.44;No
+24550;Netherlands;Austria;Leopard-2;Tank;Armoured vehicles;1996;No;35;No;1997;No;Second hand;3.4000;1.36;47.6;No
+27006;Netherlands;Bahrain;M-113C&R;Reconnaissance AV;Armoured vehicles;1997;No;34;No;1998;No;Second hand;0.2000;0.08;2.72;No
+27006;Netherlands;Bahrain;M-113C&R;Reconnaissance AV;Armoured vehicles;1997;No;1;No;1997;No;Second hand;0.2000;0.08;0.08;No
+23362;Netherlands;Bahrain;AIFV;IFV;Armoured vehicles;1995;Yes;25;No;1996;No;Second hand;0.9000;0.36;9;No
+21556;Netherlands;Bahrain;M-113;APC;Armoured vehicles;1993;No;3;No;1994;No;Second hand;0.2500;0.1;0.3;No
+21554;Netherlands;Bahrain;M-110A2 203mm;Self-propelled gun;Artillery;1993;No;13;No;1994;No;Second hand;1.1000;0.44;5.72;No
+50158;Netherlands;Barbados;Stan Patrol-4207;Patrol craft;Ships;2006;Yes;1;No;2009;No;New;9.8000;9.8000;9.8;No
+50158;Netherlands;Barbados;Stan Patrol-4207;Patrol craft;Ships;2006;Yes;1;No;2008;No;New;9.8000;9.8000;9.8;No
+50158;Netherlands;Barbados;Stan Patrol-4207;Patrol craft;Ships;2006;Yes;1;No;2007;No;New;9.8000;9.8000;9.8;No
+36113;Netherlands;Belgium;RGM-84 Harpoon;Anti-ship missile;Missiles;2005;No;12;Yes;2012;Yes;Second hand;1.0000;0.4;4.8;No
+36113;Netherlands;Belgium;RGM-84 Harpoon;Anti-ship missile;Missiles;2005;No;2;No;2010;No;Second hand;1.0000;0.4;0.8;No
+36113;Netherlands;Belgium;RGM-84 Harpoon;Anti-ship missile;Missiles;2005;No;2;No;2008;No;Second hand;1.0000;0.4;0.8;No
+36113;Netherlands;Belgium;RGM-84 Harpoon;Anti-ship missile;Missiles;2005;No;4;Yes;2009;Yes;Second hand;1.0000;0.4;1.6;No
+25365;Netherlands;Belgium;DA-05;Air search radar;Sensors;1973;Yes;4;No;1978;No;New;6.5000;6.5000;26;No
+24713;Netherlands;Belgium;Scout;Sea search radar;Sensors;1995;No;3;Yes;1997;No;New;1.0000;1.0000;3;No
+22212;Netherlands;Belgium;PA-18/L-18/L-21;Light aircraft;Aircraft;1975;Yes;5;No;1975;No;Second hand;0.0600;0.024;0.12;No
+22190;Netherlands;Belgium;Spitfire;Fighter aircraft;Aircraft;1951;Yes;7;No;1953;No;Second hand;2.0000;0.8;5.6;No
+22190;Netherlands;Belgium;Spitfire;Fighter aircraft;Aircraft;1951;Yes;8;No;1952;No;Second hand;2.0000;0.8;6.4;No
+22204;Netherlands;Belgium;T-6 Texan;Trainer aircraft;Aircraft;1952;Yes;5;Yes;1953;No;Second hand;0.3200;0.128;0.64;No
+22204;Netherlands;Belgium;T-6 Texan;Trainer aircraft;Aircraft;1952;Yes;5;Yes;1952;No;Second hand;0.3200;0.128;0.64;No
+19600;Netherlands;Belgium;WM-20;Fire control radar;Sensors;1973;Yes;4;No;1978;No;New;6.0000;6.0000;24;No
+55327;Netherlands;Belgium;MIM-14 Nike Hercules;SAM;Missiles;1974;Yes;40;No;1974;No;Second hand;0.4000;0.16;6.4;No
+51264;Netherlands;Belgium;RIM-162 ESSM;SAM;Missiles;2005;Yes;21;Yes;2009;Yes;Second hand;0.4000;0.16;3.36;No
+51264;Netherlands;Belgium;RIM-162 ESSM;SAM;Missiles;2005;Yes;16;No;2008;No;Second hand;0.4000;0.16;2.56;No
+51137;Netherlands;Belgium;Gatekeeper;EO system;Sensors;2009;Yes;1;No;2012;Yes;New;2.5000;2.5000;2.5;No
+51136;Netherlands;Belgium;Seastar;Sea search radar;Sensors;2010;No;1;No;2012;Yes;New;2.0000;2.0000;2;No
+31017;Netherlands;Belgium;Doorman;Frigate;Ships;2005;No;1;No;2007;No;Second hand;310.0000;124;124;No
+31017;Netherlands;Belgium;Doorman;Frigate;Ships;2005;No;1;No;2008;No;Second hand;310.0000;124;124;No
+25206;Netherlands;Brazil;Imperial Marinheiro;OPV/tug;Ships;1954;Yes;10;No;1955;No;New;25.0000;25.0000;250;No
+21553;Netherlands;Brazil;M-101/33 105mm;Towed gun;Artillery;1993;No;3;No;1997;No;Second hand but modernized;0.6000;0.396;1.188;No
+19238;Netherlands;Brazil;ZW-06;Sea search radar;Sensors;1973;Yes;2;No;1976;No;New;1.0000;1.0000;2;No
+19216;Netherlands;Brazil;ZW-06;Sea search radar;Sensors;1970;Yes;1;No;1980;No;New;1.0000;1.0000;1;No
+19216;Netherlands;Brazil;ZW-06;Sea search radar;Sensors;1970;Yes;1;No;1979;No;New;1.0000;1.0000;1;No
+19216;Netherlands;Brazil;ZW-06;Sea search radar;Sensors;1970;Yes;2;No;1978;No;New;1.0000;1.0000;2;No
+19216;Netherlands;Brazil;ZW-06;Sea search radar;Sensors;1970;Yes;1;No;1977;No;New;1.0000;1.0000;1;No
+19216;Netherlands;Brazil;ZW-06;Sea search radar;Sensors;1970;Yes;1;No;1976;No;New;1.0000;1.0000;1;No
+4296;Netherlands;Brazil;ZW-06;Sea search radar;Sensors;1957;Yes;1;No;1960;Yes;New;1.0000;1.0000;1;No
+2228;Netherlands;Brazil;S-12 Instructor;Trainer aircraft;Aircraft;1956;Yes;35;Yes;1960;No;New;0.1100;0.1100;3.85;No
+2228;Netherlands;Brazil;S-12 Instructor;Trainer aircraft;Aircraft;1956;Yes;35;Yes;1959;No;New;0.1100;0.1100;3.85;No
+3466;Netherlands;Brazil;ZW-06;Sea search radar;Sensors;1969;Yes;2;No;1972;No;New;1.0000;1.0000;2;No
+3466;Netherlands;Brazil;ZW-06;Sea search radar;Sensors;1969;Yes;2;No;1971;No;New;1.0000;1.0000;2;No
+2229;Netherlands;Brazil;S-11 Instructor;Trainer aircraft;Aircraft;1955;Yes;2;Yes;1959;No;New;0.1200;0.1200;0.24;Yes
+2229;Netherlands;Brazil;S-11 Instructor;Trainer aircraft;Aircraft;1955;Yes;34;Yes;1958;No;New;0.1200;0.1200;4.08;Yes
+2229;Netherlands;Brazil;S-11 Instructor;Trainer aircraft;Aircraft;1955;Yes;34;Yes;1957;No;New;0.1200;0.1200;4.08;Yes
+2229;Netherlands;Brazil;S-11 Instructor;Trainer aircraft;Aircraft;1955;Yes;30;Yes;1956;No;New;0.1200;0.1200;3.6;Yes
+52296;Netherlands;Brunei;STING;Fire control radar;Sensors;2007;Yes;3;No;2011;No;New;4.7500;4.7500;14.25;No
+38021;Netherlands;Chile;AIM-7M Sparrow;BVRAAM;Missiles;2004;Yes;30;Yes;2007;Yes;New;0.1800;0.1800;5.4;No
+38021;Netherlands;Chile;AIM-7M Sparrow;BVRAAM;Missiles;2004;Yes;26;No;2006;No;New;0.1800;0.1800;4.68;No
+38021;Netherlands;Chile;AIM-7M Sparrow;BVRAAM;Missiles;2004;Yes;19;Yes;2008;Yes;New;0.1800;0.1800;3.42;No
+34974;Netherlands;Chile;RIM-66B Standard-1MR;SAM;Missiles;2004;No;23;Yes;2006;No;Second hand;0.2500;0.1;2.3;No
+34974;Netherlands;Chile;RIM-66B Standard-1MR;SAM;Missiles;2004;No;177;Yes;2007;Yes;Second hand;0.2500;0.1;17.7;No
+34973;Netherlands;Chile;Van Heemskerck;Frigate;Ships;2004;No;1;No;2006;No;Second hand;300.0000;120;120;No
+34973;Netherlands;Chile;Van Heemskerck;Frigate;Ships;2004;No;1;No;2005;No;Second hand;300.0000;120;120;No
+32023;Netherlands;Chile;Leopard-1 chassis;Tank chassis;Armoured vehicles;2001;No;2;Yes;2002;Yes;Second hand but modernized;1.2500;0.825;1.65;No
+32022;Netherlands;Chile;PiPz-1;AEV;Armoured vehicles;2001;No;3;No;2002;No;Second hand but modernized;1.9100;1.2606;3.7818;No
+32021;Netherlands;Chile;BrPz-1 Biber;ABL;Armoured vehicles;2001;Yes;6;No;2002;No;Second hand but modernized;1.0000;0.66;3.96;No
+31861;Netherlands;Chile;Pardo;Transport ship;Ships;1957;Yes;1;No;1959;No;New;22.5000;22.5000;22.5;No
+31463;Netherlands;Chile;F-16C;FGA aircraft;Aircraft;2005;No;12;No;2007;No;Second hand;28.5000;11.4;136.8;No
+31463;Netherlands;Chile;F-16C;FGA aircraft;Aircraft;2005;No;6;No;2006;No;Second hand;28.5000;11.4;68.4;No
+30045;Netherlands;Chile;Doorman;Frigate;Ships;2004;No;1;No;2007;No;Second hand;310.0000;124;124;No
+30045;Netherlands;Chile;Doorman;Frigate;Ships;2004;No;1;No;2006;No;Second hand;310.0000;124;124;No
+29442;Netherlands;Chile;M-113C&R;Reconnaissance AV;Armoured vehicles;1998;No;8;No;1999;No;Second hand;0.2000;0.08;0.64;No
+28179;Netherlands;Chile;Leopard-1V;Tank;Armoured vehicles;1998;No;93;No;2000;No;Second hand but modernized;2.2500;1.485;138.105;No
+28179;Netherlands;Chile;Leopard-1V;Tank;Armoured vehicles;1998;No;107;No;1999;No;Second hand but modernized;2.2500;1.485;158.895;No
+24197;Netherlands;Chile;Smit Lloyd;Tug;Ships;1991;No;1;No;1992;No;Second hand;20.0000;8;8;No
+24197;Netherlands;Chile;Smit Lloyd;Tug;Ships;1991;No;1;No;1991;No;Second hand;20.0000;8;8;No
+54030;Netherlands;Chile;M-44;Fire control radar;Sensors;1963;Yes;4;No;1964;No;New;1.5000;1.5000;6;No
+52851;Netherlands;Chile;AIFV-APC;APC;Armoured vehicles;2010;No;6;No;2011;No;Second hand;0.3000;0.12;0.72;No
+50563;Netherlands;Chile;AIFV-APC;APC;Armoured vehicles;2007;No;18;No;2008;No;Second hand;0.3000;0.12;2.16;No
+39498;Netherlands;Chile;F-16C;FGA aircraft;Aircraft;2009;No;6;No;2010;No;Second hand;28.5000;11.4;68.4;No
+39498;Netherlands;Chile;F-16C;FGA aircraft;Aircraft;2009;No;12;No;2011;No;Second hand;28.5000;11.4;136.8;No
+39413;Netherlands;Chile;RGM-84 Harpoon;Anti-ship missile;Missiles;2004;No;14;No;2007;No;Second hand;1.0000;0.4;5.6;No
+39413;Netherlands;Chile;RGM-84 Harpoon;Anti-ship missile;Missiles;2004;No;8;No;2006;No;Second hand;1.0000;0.4;3.2;No
+39413;Netherlands;Chile;RGM-84 Harpoon;Anti-ship missile;Missiles;2004;No;8;No;2005;No;Second hand;1.0000;0.4;3.2;No
+52358;Netherlands;Colombia;MIRADOR;EO search/fire control;Sensors;2009;No;2;Yes;2012;No;New;2.5000;2.5000;5;No
+54033;Netherlands;Colombia;M-44;Fire control radar;Sensors;1954;No;4;No;1958;No;New;1.5000;1.5000;6;No
+54032;Netherlands;Colombia;DA-02;Air search radar;Sensors;1954;No;2;No;1958;No;New;4.0000;4.0000;8;No
+54031;Netherlands;Colombia;LW-02;Air search radar;Sensors;1954;No;2;No;1958;No;New;7.0000;7.0000;14;No
+52359;Netherlands;Colombia;STING;Fire control radar;Sensors;2009;No;2;Yes;2012;No;New;4.7500;4.7500;9.5;No
+52357;Netherlands;Colombia;SMART;Air search radar;Sensors;2009;No;2;Yes;2012;No;New;12.5000;12.5000;25;No
+5683;Netherlands;Cote dIvoire;F-27 Friendship;Transport aircraft;Aircraft;1970;Yes;2;No;1971;No;New;8.5000;8.5000;17;No
+983;Netherlands;Cote dIvoire;F-27 Friendship;Transport aircraft;Aircraft;1978;Yes;1;No;1979;No;New;8.5000;8.5000;8.5;No
+36199;Netherlands;Denmark;SMART;Air search radar;Sensors;2006;No;1;No;2012;No;New;12.5000;12.5000;12.5;No
+32389;Netherlands;Denmark;APAR;Multi-function radar;Sensors;2006;No;1;No;2012;No;New;30.0000;30.0000;30;No
+32387;Netherlands;Denmark;SMART;Air search radar;Sensors;2004;No;2;No;2007;No;New;12.5000;12.5000;25;No
+21562;Netherlands;Denmark;BrPz-1 Biber;ABL;Armoured vehicles;1993;No;2;No;1995;No;Second hand;1.0000;0.4;0.8;No
+21562;Netherlands;Denmark;BrPz-1 Biber;ABL;Armoured vehicles;1993;No;6;No;1994;No;Second hand;1.0000;0.4;2.4;No
+21561;Netherlands;Denmark;BPz-2;ARV;Armoured vehicles;1993;No;8;No;1995;No;Second hand;1.4000;0.56;4.48;No
+21561;Netherlands;Denmark;BPz-2;ARV;Armoured vehicles;1993;No;6;No;1993;No;Second hand;1.4000;0.56;3.36;No
+7682;Netherlands;Denmark;Hunter;Fighter aircraft;Aircraft;1968;Yes;1;No;1969;No;Second hand;3.6000;1.44;1.44;No
+7682;Netherlands;Denmark;Hunter;Fighter aircraft;Aircraft;1968;Yes;1;No;1968;No;Second hand;3.6000;1.44;1.44;No
+52220;Netherlands;Estonia;XA-180;APC;Armoured vehicles;2010;No;16;Yes;2013;Yes;Second hand;0.3000;0.12;1.92;No
+52220;Netherlands;Estonia;XA-180;APC;Armoured vehicles;2010;No;6;No;2011;No;Second hand;0.3000;0.12;0.72;No
+52220;Netherlands;Estonia;XA-180;APC;Armoured vehicles;2010;No;19;No;2012;No;Second hand;0.3000;0.12;2.28;No
+52220;Netherlands;Estonia;XA-180;APC;Armoured vehicles;2010;No;15;No;2010;No;Second hand;0.3000;0.12;1.8;No
+14377;Netherlands;Ethiopia;Ton;Patrol craft;Ships;1970;No;1;No;1971;No;Second hand;7.5000;3;3;No
+34273;Netherlands;Finland;M-270 MLRS 227mm;Self-propelled MRL;Artillery;2006;No;22;No;2007;No;Second hand;1.2000;0.48;10.56;No
+28156;Netherlands;Finland;Scout;Sea search radar;Sensors;1998;No;1;Yes;1998;Yes;New;1.0000;1.0000;1;No
+25805;Netherlands;Finland;WM-20;Fire control radar;Sensors;1967;Yes;2;Yes;1968;Yes;New;6.0000;6.0000;12;No
+25804;Netherlands;Finland;DA-05;Air search radar;Sensors;1977;Yes;1;No;1979;Yes;New;6.5000;6.5000;6.5;No
+3539;Netherlands;Finland;F-27 Friendship;Transport aircraft;Aircraft;1979;Yes;1;No;1980;No;New;8.5000;8.5000;8.5;No
+38582;Netherlands;Germany (FRG);WM-20;Fire control radar;Sensors;1967;Yes;5;Yes;1969;Yes;New;6.0000;6.0000;30;No
+38582;Netherlands;Germany (FRG);WM-20;Fire control radar;Sensors;1967;Yes;5;Yes;1968;No;New;6.0000;6.0000;30;No
+36689;Netherlands;Germany (FRG);M-44;Fire control radar;Sensors;1957;Yes;3;No;1964;No;New;1.5000;1.5000;4.5;No
+36689;Netherlands;Germany (FRG);M-44;Fire control radar;Sensors;1957;Yes;3;No;1963;No;New;1.5000;1.5000;4.5;No
+36689;Netherlands;Germany (FRG);M-44;Fire control radar;Sensors;1957;Yes;6;No;1962;No;New;1.5000;1.5000;9;No
+36689;Netherlands;Germany (FRG);M-44;Fire control radar;Sensors;1957;Yes;6;No;1961;No;New;1.5000;1.5000;9;No
+36688;Netherlands;Germany (FRG);M-45;Fire control radar;Sensors;1957;Yes;3;No;1968;No;New;1.5000;1.5000;4.5;No
+36688;Netherlands;Germany (FRG);M-45;Fire control radar;Sensors;1957;Yes;3;No;1965;No;New;1.5000;1.5000;4.5;No
+36688;Netherlands;Germany (FRG);M-45;Fire control radar;Sensors;1957;Yes;7;No;1964;No;New;1.5000;1.5000;10.5;No
+36688;Netherlands;Germany (FRG);M-45;Fire control radar;Sensors;1957;Yes;1;No;1963;No;New;1.5000;1.5000;1.5;No
+36688;Netherlands;Germany (FRG);M-45;Fire control radar;Sensors;1957;Yes;2;No;1962;No;New;1.5000;1.5000;3;No
+36688;Netherlands;Germany (FRG);M-45;Fire control radar;Sensors;1957;Yes;2;No;1961;No;New;1.5000;1.5000;3;No
+34046;Netherlands;Germany (FRG);MIRADOR;EO search/fire control;Sensors;2002;Yes;4;Yes;2013;No;New;2.5000;2.5000;10;No
+34046;Netherlands;Germany (FRG);MIRADOR;EO search/fire control;Sensors;2002;Yes;2;No;2012;No;New;2.5000;2.5000;5;No
+34046;Netherlands;Germany (FRG);MIRADOR;EO search/fire control;Sensors;2002;Yes;4;No;2008;No;New;2.5000;2.5000;10;No
+30776;Netherlands;Germany (FRG);P-3CUP Orion;ASW aircraft;Aircraft;2004;No;7;No;2006;No;Second hand but modernized;75.0000;49.5;346.5;No
+30776;Netherlands;Germany (FRG);P-3CUP Orion;ASW aircraft;Aircraft;2004;No;1;No;2005;No;Second hand but modernized;75.0000;49.5;49.5;No
+26022;Netherlands;Germany (FRG);WM-20;Fire control radar;Sensors;1972;Yes;3;Yes;1977;Yes;New;6.0000;6.0000;18;No
+26022;Netherlands;Germany (FRG);WM-20;Fire control radar;Sensors;1972;Yes;7;Yes;1976;Yes;New;6.0000;6.0000;42;No
+26021;Netherlands;Germany (FRG);WM-20;Fire control radar;Sensors;1978;Yes;4;Yes;1984;Yes;New;6.0000;6.0000;24;No
+26021;Netherlands;Germany (FRG);WM-20;Fire control radar;Sensors;1978;Yes;5;Yes;1983;Yes;New;6.0000;6.0000;30;No
+26021;Netherlands;Germany (FRG);WM-20;Fire control radar;Sensors;1978;Yes;1;Yes;1982;Yes;New;6.0000;6.0000;6;No
+26020;Netherlands;Germany (FRG);WM-20;Fire control radar;Sensors;1976;Yes;1;Yes;1990;Yes;New;6.0000;6.0000;6;No
+26020;Netherlands;Germany (FRG);WM-20;Fire control radar;Sensors;1976;Yes;1;Yes;1989;Yes;New;6.0000;6.0000;6;No
+26020;Netherlands;Germany (FRG);WM-20;Fire control radar;Sensors;1976;Yes;2;Yes;1984;Yes;New;6.0000;6.0000;12;No
+26020;Netherlands;Germany (FRG);WM-20;Fire control radar;Sensors;1976;Yes;2;Yes;1983;Yes;New;6.0000;6.0000;12;No
+26020;Netherlands;Germany (FRG);WM-20;Fire control radar;Sensors;1976;Yes;3;Yes;1982;Yes;New;6.0000;6.0000;18;No
+25906;Netherlands;Germany (FRG);Sea Fury;Fighter aircraft;Aircraft;1963;No;1;No;1963;No;Second hand;2.0000;0.8;0.8;No
+24860;Netherlands;Germany (FRG);SMART-L;Air/sea search radar;Sensors;1997;Yes;1;No;2005;No;New;15.0000;15.0000;15;No
+24860;Netherlands;Germany (FRG);SMART-L;Air/sea search radar;Sensors;1997;Yes;2;No;2004;No;New;15.0000;15.0000;30;No
+22984;Netherlands;Germany (FRG);STIR;Fire control radar;Sensors;1986;No;1;Yes;1990;Yes;New;4.5000;4.5000;4.5;No
+22984;Netherlands;Germany (FRG);STIR;Fire control radar;Sensors;1986;No;1;Yes;1989;Yes;New;4.5000;4.5000;4.5;No
+22983;Netherlands;Germany (FRG);STIR;Fire control radar;Sensors;1976;Yes;2;Yes;1984;Yes;New;4.5000;4.5000;9;No
+22983;Netherlands;Germany (FRG);STIR;Fire control radar;Sensors;1976;Yes;2;Yes;1983;Yes;New;4.5000;4.5000;9;No
+22983;Netherlands;Germany (FRG);STIR;Fire control radar;Sensors;1976;Yes;3;Yes;1982;Yes;New;4.5000;4.5000;13.5;No
+21061;Netherlands;Germany (FRG);DA-08;Air search radar;Sensors;1976;No;2;Yes;1984;Yes;New;9.0000;9.0000;18;No
+21061;Netherlands;Germany (FRG);DA-08;Air search radar;Sensors;1976;No;2;Yes;1983;Yes;New;9.0000;9.0000;18;No
+21061;Netherlands;Germany (FRG);DA-08;Air search radar;Sensors;1976;No;2;Yes;1982;Yes;New;9.0000;9.0000;18;No
+21060;Netherlands;Germany (FRG);DA-08;Air search radar;Sensors;1986;No;1;Yes;1990;Yes;New;9.0000;9.0000;9;No
+21060;Netherlands;Germany (FRG);DA-08;Air search radar;Sensors;1986;No;1;Yes;1989;Yes;New;9.0000;9.0000;9;No
+21059;Netherlands;Germany (FRG);LW-08;Air search radar;Sensors;1989;Yes;2;Yes;1996;No;New;9.5000;9.5000;19;No
+21059;Netherlands;Germany (FRG);LW-08;Air search radar;Sensors;1989;Yes;1;Yes;1995;No;New;9.5000;9.5000;9.5;No
+21059;Netherlands;Germany (FRG);LW-08;Air search radar;Sensors;1989;Yes;1;Yes;1994;No;New;9.5000;9.5000;9.5;No
+21058;Netherlands;Germany (FRG);STIR;Fire control radar;Sensors;1989;No;4;Yes;1996;No;New;4.5000;4.5000;18;No
+21058;Netherlands;Germany (FRG);STIR;Fire control radar;Sensors;1989;No;2;Yes;1995;No;New;4.5000;4.5000;9;No
+21058;Netherlands;Germany (FRG);STIR;Fire control radar;Sensors;1989;No;2;Yes;1994;No;New;4.5000;4.5000;9;No
+20585;Netherlands;Germany (FRG);Goalkeeper;CIWS;Air defence systems;1991;No;3;No;1991;No;New;10.0000;10.0000;30;No
+19681;Netherlands;Germany (FRG);SMART;Air search radar;Sensors;1989;No;3;Yes;1996;No;New;12.5000;12.5000;37.5;No
+19681;Netherlands;Germany (FRG);SMART;Air search radar;Sensors;1989;No;1;Yes;1995;No;New;12.5000;12.5000;12.5;No
+19681;Netherlands;Germany (FRG);SMART;Air search radar;Sensors;1989;No;1;Yes;1994;No;New;12.5000;12.5000;12.5;No
+50305;Netherlands;Germany (FRG);Leopard-2A6;Tank;Armoured vehicles;2007;Yes;20;Yes;2012;Yes;Second hand;5.0000;2;40;No
+56074;Netherlands;Germany (FRG);DA-02;Air search radar;Sensors;1959;No;1;Yes;1968;No;New;4.0000;4.0000;4;No
+56074;Netherlands;Germany (FRG);DA-02;Air search radar;Sensors;1959;No;3;Yes;1965;No;New;4.0000;4.0000;12;No
+56074;Netherlands;Germany (FRG);DA-02;Air search radar;Sensors;1959;No;4;Yes;1963;No;New;4.0000;4.0000;16;No
+56074;Netherlands;Germany (FRG);DA-02;Air search radar;Sensors;1959;No;4;Yes;1962;No;New;4.0000;4.0000;16;No
+56074;Netherlands;Germany (FRG);DA-02;Air search radar;Sensors;1959;No;4;Yes;1961;No;New;4.0000;4.0000;16;No
+56074;Netherlands;Germany (FRG);DA-02;Air search radar;Sensors;1959;No;7;Yes;1960;No;New;4.0000;4.0000;28;No
+56074;Netherlands;Germany (FRG);DA-02;Air search radar;Sensors;1959;No;4;Yes;1959;No;New;4.0000;4.0000;16;No
+56074;Netherlands;Germany (FRG);DA-02;Air search radar;Sensors;1959;No;4;Yes;1964;No;New;4.0000;4.0000;16;No
+56073;Netherlands;Germany (FRG);ZW-01;Sea search radar;Sensors;1958;Yes;1;Yes;1968;No;New;0.5000;0.5000;0.5;No
+56073;Netherlands;Germany (FRG);ZW-01;Sea search radar;Sensors;1958;Yes;1;Yes;1965;No;New;0.5000;0.5000;0.5;No
+56073;Netherlands;Germany (FRG);ZW-01;Sea search radar;Sensors;1958;Yes;3;Yes;1964;No;New;0.5000;0.5000;1.5;No
+56073;Netherlands;Germany (FRG);ZW-01;Sea search radar;Sensors;1958;Yes;2;Yes;1963;No;New;0.5000;0.5000;1;No
+56073;Netherlands;Germany (FRG);ZW-01;Sea search radar;Sensors;1958;Yes;6;Yes;1961;No;New;0.5000;0.5000;3;No
+56073;Netherlands;Germany (FRG);ZW-01;Sea search radar;Sensors;1958;Yes;5;Yes;1959;No;New;0.5000;0.5000;2.5;No
+56073;Netherlands;Germany (FRG);ZW-01;Sea search radar;Sensors;1958;Yes;7;No;1960;No;New;0.5000;0.5000;3.5;No
+56073;Netherlands;Germany (FRG);ZW-01;Sea search radar;Sensors;1958;Yes;5;Yes;1962;No;New;0.5000;0.5000;2.5;No
+56072;Netherlands;Germany (FRG);SGR-104;Height-finding radar;Sensors;1961;Yes;1;No;1962;No;New;3.5000;3.5000;3.5;No
+52355;Netherlands;Germany (FRG);Variant;Air/sea search radar;Sensors;2009;No;1;Yes;2013;No;New;4.7500;4.7500;4.75;No
+52355;Netherlands;Germany (FRG);Variant;Air/sea search radar;Sensors;2009;No;3;Yes;2012;No;New;4.7500;4.7500;14.25;No
+25536;Netherlands;Germany (FRG);APAR;Multi-function radar;Sensors;1997;Yes;1;No;2005;No;New;30.0000;30.0000;30;Yes
+25536;Netherlands;Germany (FRG);APAR;Multi-function radar;Sensors;1997;Yes;2;No;2004;No;New;30.0000;30.0000;60;Yes
+8006;Netherlands;Ghana;F-27 Friendship;Transport aircraft;Aircraft;1973;No;3;No;1976;No;New;8.5000;8.5000;25.5;No
+24001;Netherlands;Ghana;F-27 Friendship;Transport aircraft;Aircraft;1973;No;1;No;1976;No;New;8.5000;8.5000;8.5;No
+24001;Netherlands;Ghana;F-27 Friendship;Transport aircraft;Aircraft;1973;No;1;No;1975;No;New;8.5000;8.5000;8.5;No
+35214;Netherlands;Greece;STING;Fire control radar;Sensors;2003;No;1;No;2010;No;New;4.7500;4.7500;4.75;No
+35213;Netherlands;Greece;Scout;Sea search radar;Sensors;2003;No;2;Yes;2010;No;New;1.0000;1.0000;2;No
+35213;Netherlands;Greece;Scout;Sea search radar;Sensors;2003;No;2;Yes;2009;Yes;New;1.0000;1.0000;2;No
+35213;Netherlands;Greece;Scout;Sea search radar;Sensors;2003;No;1;No;2008;No;New;1.0000;1.0000;1;No
+35136;Netherlands;Greece;MW-08;Air search radar;Sensors;2003;No;1;No;2010;No;New;6.0000;6.0000;6;No
+34148;Netherlands;Greece;MIRADOR;EO search/fire control;Sensors;2000;No;2;Yes;2009;No;New;2.5000;2.5000;5;No
+34148;Netherlands;Greece;MIRADOR;EO search/fire control;Sensors;2000;No;2;Yes;2010;No;New;2.5000;2.5000;5;No
+34148;Netherlands;Greece;MIRADOR;EO search/fire control;Sensors;2000;No;3;No;2006;No;New;2.5000;2.5000;7.5;No
+34148;Netherlands;Greece;MIRADOR;EO search/fire control;Sensors;2000;No;5;Yes;2008;No;New;2.5000;2.5000;12.5;No
+34148;Netherlands;Greece;MIRADOR;EO search/fire control;Sensors;2000;No;1;No;2005;No;New;2.5000;2.5000;2.5;No
+34148;Netherlands;Greece;MIRADOR;EO search/fire control;Sensors;2000;No;1;No;2007;No;New;2.5000;2.5000;2.5;No
+34147;Netherlands;Greece;Scout;Sea search radar;Sensors;2003;No;1;No;2006;No;New;1.0000;1.0000;1;No
+34147;Netherlands;Greece;Scout;Sea search radar;Sensors;2003;No;1;No;2010;No;New;1.0000;1.0000;1;No
+34147;Netherlands;Greece;Scout;Sea search radar;Sensors;2003;No;1;Yes;2009;No;New;1.0000;1.0000;1;No
+34147;Netherlands;Greece;Scout;Sea search radar;Sensors;2003;No;2;Yes;2008;No;New;1.0000;1.0000;2;No
+34147;Netherlands;Greece;Scout;Sea search radar;Sensors;2003;No;1;No;2007;No;New;1.0000;1.0000;1;No
+33801;Netherlands;Greece;Kortenaer;Frigate;Ships;2002;No;2;No;2003;No;Second hand;300.0000;120;240;No
+33286;Netherlands;Greece;PiPz-1;AEV;Armoured vehicles;2002;No;8;No;2002;No;Second hand;1.9100;0.764;6.112;No
+32015;Netherlands;Greece;Kortenaer;Frigate;Ships;2002;No;1;No;2002;No;Second hand;300.0000;120;120;No
+31880;Netherlands;Greece;Kortenaer;Frigate;Ships;2001;No;1;No;2001;No;Second hand;300.0000;120;120;No
+31840;Netherlands;Greece;BPz-2;ARV;Armoured vehicles;2001;No;10;No;2001;Yes;Second hand;1.4000;0.56;5.6;No
+31135;Netherlands;Greece;Scout;Sea search radar;Sensors;2000;No;2;No;2006;No;New;1.0000;1.0000;2;No
+31135;Netherlands;Greece;Scout;Sea search radar;Sensors;2000;No;1;No;2005;No;New;1.0000;1.0000;1;No
+31134;Netherlands;Greece;STING;Fire control radar;Sensors;2000;No;2;No;2006;No;New;4.7500;4.7500;9.5;No
+31134;Netherlands;Greece;STING;Fire control radar;Sensors;2000;No;1;No;2005;No;New;4.7500;4.7500;4.75;No
+31133;Netherlands;Greece;MW-08;Air search radar;Sensors;2000;No;2;No;2006;No;New;6.0000;6.0000;12;No
+31133;Netherlands;Greece;MW-08;Air search radar;Sensors;2000;No;1;No;2005;No;New;6.0000;6.0000;6;No
+30341;Netherlands;Greece;LIROD;Fire control radar;Sensors;2000;No;1;Yes;2009;No;New;2.5000;2.5000;2.5;No
+30341;Netherlands;Greece;LIROD;Fire control radar;Sensors;2000;No;1;Yes;2005;No;New;2.5000;2.5000;2.5;No
+30341;Netherlands;Greece;LIROD;Fire control radar;Sensors;2000;No;2;Yes;2004;No;New;2.5000;2.5000;5;No
+30341;Netherlands;Greece;LIROD;Fire control radar;Sensors;2000;No;1;No;2003;No;New;2.5000;2.5000;2.5;No
+30341;Netherlands;Greece;LIROD;Fire control radar;Sensors;2000;No;3;Yes;2008;No;New;2.5000;2.5000;7.5;No
+30340;Netherlands;Greece;Variant;Air/sea search radar;Sensors;2000;No;1;Yes;2011;Yes;New;4.7500;4.7500;4.75;No
+30340;Netherlands;Greece;Variant;Air/sea search radar;Sensors;2000;No;2;Yes;2010;No;New;4.7500;4.7500;9.5;No
+30340;Netherlands;Greece;Variant;Air/sea search radar;Sensors;2000;No;1;Yes;2008;No;New;4.7500;4.7500;4.75;No
+30340;Netherlands;Greece;Variant;Air/sea search radar;Sensors;2000;No;2;Yes;2009;No;New;4.7500;4.7500;9.5;No
+30340;Netherlands;Greece;Variant;Air/sea search radar;Sensors;2000;No;1;Yes;2005;No;New;4.7500;4.7500;4.75;No
+30340;Netherlands;Greece;Variant;Air/sea search radar;Sensors;2000;No;5;Yes;2004;No;New;4.7500;4.7500;23.75;No
+30340;Netherlands;Greece;Variant;Air/sea search radar;Sensors;2000;No;2;No;2003;No;New;4.7500;4.7500;9.5;No
+30340;Netherlands;Greece;Variant;Air/sea search radar;Sensors;2000;No;2;Yes;2006;No;New;4.7500;4.7500;9.5;No
+29441;Netherlands;Greece;Leopard-1V;Tank;Armoured vehicles;1998;No;30;Yes;1998;Yes;Second hand;2.2500;0.9;27;No
+24460;Netherlands;Greece;Kortenaer;Frigate;Ships;1997;No;1;No;1997;No;Second hand;300.0000;120;120;No
+23242;Netherlands;Greece;MW-08;Air search radar;Sensors;1991;No;1;Yes;1995;Yes;New;6.0000;6.0000;6;No
+23242;Netherlands;Greece;MW-08;Air search radar;Sensors;1991;No;1;Yes;1994;Yes;New;6.0000;6.0000;6;No
+23242;Netherlands;Greece;MW-08;Air search radar;Sensors;1991;No;1;Yes;1993;Yes;New;6.0000;6.0000;6;No
+21217;Netherlands;Greece;M-106;Self-propelled mortar;Artillery;1991;No;53;No;1992;No;Second hand;0.3100;0.124;6.572;No
+21107;Netherlands;Greece;M-113;APC;Armoured vehicles;1991;No;2;Yes;1995;Yes;Second hand;0.2500;0.1;0.2;No
+21107;Netherlands;Greece;M-113;APC;Armoured vehicles;1991;No;175;No;1994;No;Second hand;0.2500;0.1;17.5;No
+21106;Netherlands;Greece;M-30 107mm;Mortar;Artillery;1991;Yes;171;No;1992;No;Second hand;0.0500;0.02;3.42;No
+21052;Netherlands;Greece;DA-08;Air search radar;Sensors;1989;Yes;2;Yes;1998;Yes;New;9.0000;9.0000;18;No
+21052;Netherlands;Greece;DA-08;Air search radar;Sensors;1989;Yes;1;Yes;1996;Yes;New;9.0000;9.0000;9;No
+21052;Netherlands;Greece;DA-08;Air search radar;Sensors;1989;Yes;1;No;1992;No;New;9.0000;9.0000;9;No
+21051;Netherlands;Greece;MW-08;Air search radar;Sensors;1989;Yes;2;Yes;1998;Yes;New;6.0000;6.0000;12;No
+21051;Netherlands;Greece;MW-08;Air search radar;Sensors;1989;Yes;1;Yes;1996;Yes;New;6.0000;6.0000;6;No
+21051;Netherlands;Greece;MW-08;Air search radar;Sensors;1989;Yes;1;No;1992;No;New;6.0000;6.0000;6;No
+20882;Netherlands;Greece;Kortenaer;Frigate;Ships;1992;No;1;No;1995;No;Second hand;300.0000;120;120;No
+20882;Netherlands;Greece;Kortenaer;Frigate;Ships;1992;No;1;No;1994;No;Second hand;300.0000;120;120;No
+20882;Netherlands;Greece;Kortenaer;Frigate;Ships;1992;No;1;No;1993;No;Second hand;300.0000;120;120;No
+20532;Netherlands;Greece;Leopard-1V;Tank;Armoured vehicles;1991;No;72;No;1993;No;Second hand;2.2500;0.9;64.8;No
+20532;Netherlands;Greece;Leopard-1V;Tank;Armoured vehicles;1991;No;100;No;1992;No;Second hand;2.2500;0.9;90;No
+19745;Netherlands;Greece;STIR;Fire control radar;Sensors;1989;No;4;Yes;1998;Yes;New;4.5000;4.5000;18;No
+19745;Netherlands;Greece;STIR;Fire control radar;Sensors;1989;No;2;Yes;1996;Yes;New;4.5000;4.5000;9;No
+19745;Netherlands;Greece;STIR;Fire control radar;Sensors;1989;No;2;No;1992;No;New;4.5000;4.5000;9;No
+17984;Netherlands;Greece;Kortenaer;Frigate;Ships;1981;No;1;No;1982;No;New;275.0000;275.0000;275;No
+3190;Netherlands;Greece;Kortenaer;Frigate;Ships;1980;No;1;No;1981;No;New;275.0000;275.0000;275;No
+20241;Netherlands;Greece;NF-5A;FGA aircraft;Aircraft;1991;No;11;No;1991;No;Second hand;8.5000;3.4;37.4;No
+8019;Netherlands;Greece;F-84F Thunderstreak;FGA aircraft;Aircraft;1969;Yes;6;No;1971;No;Second hand;3.7500;1.5;9;No
+8018;Netherlands;Greece;T-33A Shooting Star;Trainer aircraft;Aircraft;1971;Yes;13;No;1972;No;Second hand;2.5000;1;13;No
+3434;Netherlands;Greece;F-104G Starfighter;FGA aircraft;Aircraft;1982;Yes;10;No;1982;No;Second hand;11.2000;4.48;44.8;No
+4832;Netherlands;Guyana;Kimbla;Landing craft;Ships;1980;Yes;1;No;1981;Yes;New;14.0000;14.0000;14;No
+26606;Netherlands;India;DA-05;Air search radar;Sensors;1981;Yes;1;No;1983;Yes;New;6.5000;6.5000;6.5;No
+24676;Netherlands;India;M-45;Fire control radar;Sensors;1972;Yes;1;Yes;1981;Yes;New;1.5000;1.5000;1.5;No
+24676;Netherlands;India;M-45;Fire control radar;Sensors;1972;Yes;1;Yes;1980;Yes;New;1.5000;1.5000;1.5;No
+24676;Netherlands;India;M-45;Fire control radar;Sensors;1972;Yes;1;Yes;1977;Yes;New;1.5000;1.5000;1.5;No
+24676;Netherlands;India;M-45;Fire control radar;Sensors;1972;Yes;1;Yes;1976;Yes;New;1.5000;1.5000;1.5;No
+24674;Netherlands;India;M-44;Fire control radar;Sensors;1969;Yes;2;Yes;1981;Yes;New;1.5000;1.5000;3;No
+24674;Netherlands;India;M-44;Fire control radar;Sensors;1969;Yes;2;Yes;1980;Yes;New;1.5000;1.5000;3;No
+24674;Netherlands;India;M-44;Fire control radar;Sensors;1969;Yes;2;Yes;1977;Yes;New;1.5000;1.5000;3;No
+24674;Netherlands;India;M-44;Fire control radar;Sensors;1969;Yes;2;Yes;1976;Yes;New;1.5000;1.5000;3;No
+24671;Netherlands;India;ZW-06;Sea search radar;Sensors;1965;Yes;1;Yes;1983;Yes;New;1.0000;1.0000;1;No
+24671;Netherlands;India;ZW-06;Sea search radar;Sensors;1965;Yes;1;Yes;1981;Yes;New;1.0000;1.0000;1;No
+24671;Netherlands;India;ZW-06;Sea search radar;Sensors;1965;Yes;1;Yes;1980;Yes;New;1.0000;1.0000;1;No
+24671;Netherlands;India;ZW-06;Sea search radar;Sensors;1965;Yes;1;Yes;1977;Yes;New;1.0000;1.0000;1;No
+24671;Netherlands;India;ZW-06;Sea search radar;Sensors;1965;Yes;1;Yes;1976;Yes;New;1.0000;1.0000;1;No
+24671;Netherlands;India;ZW-06;Sea search radar;Sensors;1965;Yes;1;Yes;1974;Yes;New;1.0000;1.0000;1;No
+24670;Netherlands;India;LW-04;Air search radar;Sensors;1965;Yes;1;Yes;1981;Yes;New;6.0000;6.0000;6;No
+24670;Netherlands;India;LW-04;Air search radar;Sensors;1965;Yes;1;Yes;1980;Yes;New;6.0000;6.0000;6;No
+24670;Netherlands;India;LW-04;Air search radar;Sensors;1965;Yes;1;Yes;1977;Yes;New;6.0000;6.0000;6;No
+24670;Netherlands;India;LW-04;Air search radar;Sensors;1965;Yes;1;Yes;1976;Yes;New;6.0000;6.0000;6;No
+24670;Netherlands;India;LW-04;Air search radar;Sensors;1965;Yes;1;Yes;1974;Yes;New;6.0000;6.0000;6;No
+24939;Netherlands;India;ZW-06;Sea search radar;Sensors;1978;Yes;2;Yes;1988;Yes;New;1.0000;1.0000;2;No
+24939;Netherlands;India;ZW-06;Sea search radar;Sensors;1978;Yes;2;Yes;1985;Yes;New;1.0000;1.0000;2;No
+24939;Netherlands;India;ZW-06;Sea search radar;Sensors;1978;Yes;2;Yes;1983;Yes;New;1.0000;1.0000;2;No
+50817;Netherlands;India;LW-08;Air search radar;Sensors;2008;No;2;Yes;2010;Yes;New;9.5000;9.5000;19;Yes
+50817;Netherlands;India;LW-08;Air search radar;Sensors;2008;No;1;Yes;2009;Yes;New;9.5000;9.5000;9.5;Yes
+28893;Netherlands;India;Reporter;Air search radar;Sensors;1996;No;5;Yes;2001;Yes;New;2.5000;2.5000;12.5;Yes
+28893;Netherlands;India;Reporter;Air search radar;Sensors;1996;No;5;Yes;2000;Yes;New;2.5000;2.5000;12.5;Yes
+28893;Netherlands;India;Reporter;Air search radar;Sensors;1996;No;5;Yes;1999;Yes;New;2.5000;2.5000;12.5;Yes
+28893;Netherlands;India;Reporter;Air search radar;Sensors;1996;No;5;Yes;1998;Yes;New;2.5000;2.5000;12.5;Yes
+26605;Netherlands;India;LW-04;Air search radar;Sensors;1987;Yes;1;No;1995;Yes;New;6.0000;6.0000;6;Yes
+26605;Netherlands;India;LW-04;Air search radar;Sensors;1987;Yes;1;No;2000;No;New;6.0000;6.0000;6;Yes
+26605;Netherlands;India;LW-04;Air search radar;Sensors;1987;Yes;1;No;1997;No;New;6.0000;6.0000;6;Yes
+26605;Netherlands;India;LW-04;Air search radar;Sensors;1987;Yes;1;Yes;2001;No;New;6.0000;6.0000;6;Yes
+25701;Netherlands;India;LW-08;Air search radar;Sensors;1989;Yes;2;No;2004;No;New;9.5000;9.5000;19;Yes
+25701;Netherlands;India;LW-08;Air search radar;Sensors;1989;Yes;1;Yes;1997;Yes;New;9.5000;9.5000;9.5;Yes
+25701;Netherlands;India;LW-08;Air search radar;Sensors;1989;Yes;1;No;2005;No;New;9.5000;9.5000;9.5;Yes
+25701;Netherlands;India;LW-08;Air search radar;Sensors;1989;Yes;1;No;1999;No;New;9.5000;9.5000;9.5;Yes
+25343;Netherlands;India;DA-05;Air search radar;Sensors;1989;Yes;1;Yes;2005;No;New;6.5000;6.5000;6.5;Yes
+25343;Netherlands;India;DA-05;Air search radar;Sensors;1989;Yes;1;Yes;2004;Yes;New;6.5000;6.5000;6.5;Yes
+25343;Netherlands;India;DA-05;Air search radar;Sensors;1989;Yes;1;Yes;1995;Yes;New;6.5000;6.5000;6.5;Yes
+25343;Netherlands;India;DA-05;Air search radar;Sensors;1989;Yes;1;No;2000;No;New;6.5000;6.5000;6.5;Yes
+24938;Netherlands;India;LW-04;Air search radar;Sensors;1978;Yes;1;Yes;1988;Yes;New;6.0000;6.0000;6;Yes
+24938;Netherlands;India;LW-04;Air search radar;Sensors;1978;Yes;1;Yes;1985;Yes;New;6.0000;6.0000;6;Yes
+24938;Netherlands;India;LW-04;Air search radar;Sensors;1978;Yes;1;Yes;1983;Yes;New;6.0000;6.0000;6;Yes
+24935;Netherlands;India;ZW-06;Sea search radar;Sensors;1989;Yes;1;No;2012;No;New;1.0000;1.0000;1;Yes
+24935;Netherlands;India;ZW-06;Sea search radar;Sensors;1989;Yes;1;No;2011;No;New;1.0000;1.0000;1;Yes
+24935;Netherlands;India;ZW-06;Sea search radar;Sensors;1989;Yes;1;No;2010;No;New;1.0000;1.0000;1;Yes
+24935;Netherlands;India;ZW-06;Sea search radar;Sensors;1989;Yes;2;Yes;2004;Yes;New;1.0000;1.0000;2;Yes
+24935;Netherlands;India;ZW-06;Sea search radar;Sensors;1989;Yes;2;Yes;2001;Yes;New;1.0000;1.0000;2;Yes
+24935;Netherlands;India;ZW-06;Sea search radar;Sensors;1989;Yes;2;Yes;1999;Yes;New;1.0000;1.0000;2;Yes
+24935;Netherlands;India;ZW-06;Sea search radar;Sensors;1989;Yes;2;Yes;1997;Yes;New;1.0000;1.0000;2;Yes
+24935;Netherlands;India;ZW-06;Sea search radar;Sensors;1989;Yes;1;No;2000;No;New;1.0000;1.0000;1;Yes
+37953;Netherlands;India;DA-08;Air search radar;Sensors;1999;No;1;No;2005;No;New;9.0000;9.0000;9;Yes
+37953;Netherlands;India;DA-08;Air search radar;Sensors;1999;No;1;No;2004;No;New;9.0000;9.0000;9;Yes
+37953;Netherlands;India;DA-08;Air search radar;Sensors;1999;No;1;No;2000;No;New;9.0000;9.0000;9;Yes
+19418;Netherlands;India;Flycatcher;Fire control radar;Sensors;1987;Yes;20;Yes;1998;No;New;5.0000;5.0000;100;Yes
+19418;Netherlands;India;Flycatcher;Fire control radar;Sensors;1987;Yes;20;Yes;1997;No;New;5.0000;5.0000;100;Yes
+19418;Netherlands;India;Flycatcher;Fire control radar;Sensors;1987;Yes;20;Yes;1996;No;New;5.0000;5.0000;100;Yes
+19418;Netherlands;India;Flycatcher;Fire control radar;Sensors;1987;Yes;20;Yes;1995;No;New;5.0000;5.0000;100;Yes
+19418;Netherlands;India;Flycatcher;Fire control radar;Sensors;1987;Yes;25;Yes;1994;No;New;5.0000;5.0000;125;Yes
+19418;Netherlands;India;Flycatcher;Fire control radar;Sensors;1987;Yes;25;Yes;1993;No;New;5.0000;5.0000;125;Yes
+19418;Netherlands;India;Flycatcher;Fire control radar;Sensors;1987;Yes;25;Yes;1992;No;New;5.0000;5.0000;125;Yes
+19418;Netherlands;India;Flycatcher;Fire control radar;Sensors;1987;Yes;25;Yes;1991;No;New;5.0000;5.0000;125;Yes
+19418;Netherlands;India;Flycatcher;Fire control radar;Sensors;1987;Yes;30;Yes;1990;No;New;5.0000;5.0000;150;Yes
+19418;Netherlands;India;Flycatcher;Fire control radar;Sensors;1987;Yes;30;Yes;1989;No;New;5.0000;5.0000;150;Yes
+19418;Netherlands;India;Flycatcher;Fire control radar;Sensors;1987;Yes;2;Yes;1988;No;New;5.0000;5.0000;10;Yes
+19418;Netherlands;India;Flycatcher;Fire control radar;Sensors;1987;Yes;10;Yes;1999;Yes;New;5.0000;5.0000;50;Yes
+37974;Netherlands;Indonesia;PMS-32;ASW sonar;Sensors;1982;Yes;1;No;1989;No;New;2.0000;2.0000;2;No
+37974;Netherlands;Indonesia;PMS-32;ASW sonar;Sensors;1982;Yes;1;No;1988;No;New;2.0000;2.0000;2;No
+35810;Netherlands;Indonesia;PHS-32;ASW sonar;Sensors;1978;Yes;1;No;1981;No;New;5.0000;5.0000;5;No
+30455;Netherlands;Indonesia;LIROD;Fire control radar;Sensors;1994;Yes;1;No;2002;No;New;2.5000;2.5000;2.5;No
+30455;Netherlands;Indonesia;LIROD;Fire control radar;Sensors;1994;Yes;2;No;2000;No;New;2.5000;2.5000;5;No
+30455;Netherlands;Indonesia;LIROD;Fire control radar;Sensors;1994;Yes;1;No;2004;Yes;New;2.5000;2.5000;2.5;No
+29667;Netherlands;Indonesia;Variant;Air/sea search radar;Sensors;1999;Yes;1;No;2002;No;New;4.7500;4.7500;4.75;No
+29667;Netherlands;Indonesia;Variant;Air/sea search radar;Sensors;1999;Yes;2;No;2000;No;New;4.7500;4.7500;9.5;No
+29667;Netherlands;Indonesia;Variant;Air/sea search radar;Sensors;1999;Yes;1;No;2004;Yes;New;4.7500;4.7500;4.75;No
+26609;Netherlands;Indonesia;WM-20;Fire control radar;Sensors;1982;Yes;1;Yes;1991;Yes;New;6.0000;6.0000;6;No
+26609;Netherlands;Indonesia;WM-20;Fire control radar;Sensors;1982;Yes;1;Yes;1990;Yes;New;6.0000;6.0000;6;No
+26609;Netherlands;Indonesia;WM-20;Fire control radar;Sensors;1982;Yes;1;Yes;1989;Yes;New;6.0000;6.0000;6;No
+26609;Netherlands;Indonesia;WM-20;Fire control radar;Sensors;1982;Yes;1;Yes;1988;Yes;New;6.0000;6.0000;6;No
+26608;Netherlands;Indonesia;WM-20;Fire control radar;Sensors;1975;Yes;2;Yes;1980;Yes;New;6.0000;6.0000;12;No
+26608;Netherlands;Indonesia;WM-20;Fire control radar;Sensors;1975;Yes;2;Yes;1979;Yes;New;6.0000;6.0000;12;No
+26607;Netherlands;Indonesia;WM-20;Fire control radar;Sensors;1978;Yes;1;No;1981;No;New;6.0000;6.0000;6;No
+21857;Netherlands;Indonesia;AMX Mk-61 105mm;Self-propelled gun;Artillery;1984;Yes;25;Yes;1987;Yes;Second hand but modernized;0.9000;0.594;14.85;No
+21857;Netherlands;Indonesia;AMX Mk-61 105mm;Self-propelled gun;Artillery;1984;Yes;25;Yes;1986;Yes;Second hand but modernized;0.9000;0.594;14.85;No
+19689;Netherlands;Indonesia;Van Speyk;Frigate;Ships;1989;No;2;No;1989;No;Second hand;140.0000;56;112;No
+17756;Netherlands;Indonesia;Sea Cat;SAM;Missiles;1986;No;15;Yes;1988;Yes;Second hand;0.0400;0.016;0.24;No
+17756;Netherlands;Indonesia;Sea Cat;SAM;Missiles;1986;No;15;Yes;1987;Yes;Second hand;0.0400;0.016;0.24;No
+17756;Netherlands;Indonesia;Sea Cat;SAM;Missiles;1986;No;30;Yes;1986;Yes;Second hand;0.0400;0.016;0.48;No
+17465;Netherlands;Indonesia;Van Speyk;Frigate;Ships;1986;No;1;No;1988;No;Second hand;140.0000;56;56;No
+17465;Netherlands;Indonesia;Van Speyk;Frigate;Ships;1986;No;1;No;1987;No;Second hand;140.0000;56;56;No
+17465;Netherlands;Indonesia;Van Speyk;Frigate;Ships;1986;No;2;No;1986;No;Second hand;140.0000;56;112;No
+17421;Netherlands;Indonesia;AMX-VCI;APC;Armoured vehicles;1976;Yes;50;Yes;1978;Yes;Second hand but modernized;0.2500;0.165;8.25;No
+17421;Netherlands;Indonesia;AMX-VCI;APC;Armoured vehicles;1976;Yes;50;Yes;1977;Yes;Second hand but modernized;0.2500;0.165;8.25;No
+14634;Netherlands;Indonesia;LCI(L);Landing craft;Ships;1949;Yes;5;No;1950;No;Second hand;10.8000;4.32;21.6;No
+14619;Netherlands;Indonesia;Djember;Minesweeper;Ships;1950;Yes;4;No;1951;No;Second hand;4.5000;1.8;7.2;No
+14614;Netherlands;Indonesia;Napier;Destroyer;Ships;1950;Yes;1;No;1951;No;Second hand;92.1300;36.852;36.852;No
+14613;Netherlands;Indonesia;Alkai;Patrol craft;Ships;1948;Yes;3;Yes;1952;No;New;4.5300;4.5300;13.59;No
+14613;Netherlands;Indonesia;Alkai;Patrol craft;Ships;1948;Yes;3;Yes;1951;Yes;New;4.5300;4.5300;13.59;No
+14613;Netherlands;Indonesia;Alkai;Patrol craft;Ships;1948;Yes;3;Yes;1950;Yes;New;4.5300;4.5300;13.59;No
+14612;Netherlands;Indonesia;Bathurst;Minesweeper/corvette;Ships;1949;No;2;No;1950;No;Second hand;22.5000;9;18;No
+14525;Netherlands;Indonesia;Tripartite;MCM ship;Ships;1985;No;2;No;1988;No;New;47.5000;47.5000;95;No
+8064;Netherlands;Indonesia;C-60A Lodestar;Transport aircraft;Aircraft;1950;No;10;Yes;1950;No;Second hand;1.3200;0.528;5.28;No
+5336;Netherlands;Indonesia;Cub/L-4 Grasshopper;Light aircraft;Aircraft;1950;Yes;63;No;1950;No;Second hand;0.0500;0.02;1.26;No
+5335;Netherlands;Indonesia;T-6 Texan;Trainer aircraft;Aircraft;1950;Yes;16;No;1950;No;Second hand;0.3200;0.128;2.048;No
+5334;Netherlands;Indonesia;Auster AOP;Light aircraft;Aircraft;1950;No;22;No;1950;No;Second hand;0.0700;0.028;0.616;No
+5333;Netherlands;Indonesia;B-25 Mitchell;Bomber aircraft;Aircraft;1950;Yes;42;No;1950;No;Second hand;5.0000;2;84;No
+5332;Netherlands;Indonesia;DC-3/C-47 Skytrain;Transport aircraft;Aircraft;1950;Yes;34;No;1950;No;Second hand;2.5000;1;34;No
+5330;Netherlands;Indonesia;PBY-5A Catalina;MP aircraft;Aircraft;1950;Yes;8;Yes;1950;No;Second hand;3.1000;1.24;9.92;No
+5329;Netherlands;Indonesia;P-51D Mustang;Fighter aircraft;Aircraft;1950;Yes;26;No;1950;No;Second hand;2.0000;0.8;20.8;No
+3110;Netherlands;Indonesia;Wasp;ASW helicopter;Aircraft;1981;No;4;No;1982;No;Second hand;1.0000;0.4;1.6;No
+3110;Netherlands;Indonesia;Wasp;ASW helicopter;Aircraft;1981;No;6;No;1981;No;Second hand;1.0000;0.4;2.4;No
+1419;Netherlands;Indonesia;AMX-13/105;Light tank;Armoured vehicles;1980;Yes;65;Yes;1981;Yes;Second hand but modernized;1.1000;0.726;47.19;No
+1419;Netherlands;Indonesia;AMX-13/105;Light tank;Armoured vehicles;1980;Yes;65;Yes;1980;Yes;Second hand but modernized;1.1000;0.726;47.19;No
+106;Netherlands;Indonesia;Fatahillah;Corvette;Ships;1975;No;2;No;1980;No;New;88.1000;88.1000;176.2;No
+106;Netherlands;Indonesia;Fatahillah;Corvette;Ships;1975;No;1;No;1979;No;New;88.1000;88.1000;88.1;No
+100;Netherlands;Indonesia;F-27 Friendship;Transport aircraft;Aircraft;1975;No;8;No;1976;No;New;6.7000;6.7000;53.6;No
+35985;Netherlands;Indonesia;SIGMA-90;Frigate;Ships;2005;No;1;No;2009;No;New;148.5000;148.5000;148.5;No
+35985;Netherlands;Indonesia;SIGMA-90;Frigate;Ships;2005;No;1;No;2008;No;New;148.5000;148.5000;148.5;No
+34547;Netherlands;Indonesia;SIGMA-90;Frigate;Ships;2004;No;2;No;2007;No;New;148.5000;148.5000;297;No
+23732;Netherlands;Iran;WM-20;Fire control radar;Sensors;1974;Yes;3;No;1981;No;New;6.0000;6.0000;18;No
+23732;Netherlands;Iran;WM-20;Fire control radar;Sensors;1974;Yes;7;No;1978;No;New;6.0000;6.0000;42;No
+23732;Netherlands;Iran;WM-20;Fire control radar;Sensors;1974;Yes;2;No;1977;No;New;6.0000;6.0000;12;No
+17715;Netherlands;Iran;Hormuz-21;Landing ship;Ships;1983;Yes;2;Yes;1985;No;New;20.0000;20.0000;40;No
+17715;Netherlands;Iran;Hormuz-21;Landing ship;Ships;1983;Yes;1;Yes;1984;No;New;20.0000;20.0000;20;No
+5432;Netherlands;Iran;F-27 Friendship;Transport aircraft;Aircraft;1969;Yes;3;Yes;1975;No;New;6.7000;6.7000;20.1;No
+5432;Netherlands;Iran;F-27 Friendship;Transport aircraft;Aircraft;1969;Yes;2;No;1977;No;New;6.7000;6.7000;13.4;No
+5432;Netherlands;Iran;F-27 Friendship;Transport aircraft;Aircraft;1969;Yes;3;No;1974;No;New;6.7000;6.7000;20.1;No
+5432;Netherlands;Iran;F-27 Friendship;Transport aircraft;Aircraft;1969;Yes;3;No;1973;No;New;6.7000;6.7000;20.1;No
+5432;Netherlands;Iran;F-27 Friendship;Transport aircraft;Aircraft;1969;Yes;6;No;1971;No;New;6.7000;6.7000;40.2;No
+136;Netherlands;Iran;F-27 Friendship;Transport aircraft;Aircraft;1974;No;2;Yes;1981;No;New;6.7000;6.7000;13.4;No
+136;Netherlands;Iran;F-27 Friendship;Transport aircraft;Aircraft;1974;No;2;Yes;1977;No;New;6.7000;6.7000;13.4;No
+136;Netherlands;Iran;F-27 Friendship;Transport aircraft;Aircraft;1974;No;4;Yes;1976;No;New;6.7000;6.7000;26.8;No
+22368;Netherlands;Iran;Hendijan;Transport craft;Ships;1987;Yes;2;Yes;1988;No;New;7.5000;7.5000;15;Yes
+22368;Netherlands;Iran;Hendijan;Transport craft;Ships;1987;Yes;2;Yes;1995;Yes;New;7.5000;7.5000;15;Yes
+22368;Netherlands;Iran;Hendijan;Transport craft;Ships;1987;Yes;1;Yes;1994;Yes;New;7.5000;7.5000;7.5;Yes
+22368;Netherlands;Iran;Hendijan;Transport craft;Ships;1987;Yes;1;Yes;1993;Yes;New;7.5000;7.5000;7.5;Yes
+22368;Netherlands;Iran;Hendijan;Transport craft;Ships;1987;Yes;2;Yes;1991;Yes;New;7.5000;7.5000;15;Yes
+22368;Netherlands;Iran;Hendijan;Transport craft;Ships;1987;Yes;2;Yes;1990;Yes;New;7.5000;7.5000;15;Yes
+22368;Netherlands;Iran;Hendijan;Transport craft;Ships;1987;Yes;2;Yes;1989;Yes;New;7.5000;7.5000;15;Yes
+32661;Netherlands;Ireland;Flycatcher;Fire control radar;Sensors;2002;No;8;No;2002;No;Second hand;5.0000;2;16;No
+24702;Netherlands;Ireland;DA-05;Air search radar;Sensors;1982;Yes;1;No;1984;No;New;6.5000;6.5000;6.5;No
+20866;Netherlands;Ireland;Deirdre;OPV;Ships;1971;Yes;1;No;1972;No;New;15.0000;15.0000;15;Yes
+20865;Netherlands;Ireland;Emer;OPV;Ships;1976;Yes;1;No;1980;No;New;25.1300;25.1300;25.13;Yes
+20865;Netherlands;Ireland;Emer;OPV;Ships;1976;Yes;1;No;1979;No;New;25.1300;25.1300;25.13;Yes
+20865;Netherlands;Ireland;Emer;OPV;Ships;1976;Yes;1;No;1978;No;New;25.1300;25.1300;25.13;Yes
+24554;Netherlands;Israel;Super-Fledermaus;Fire control radar;Sensors;1966;Yes;10;Yes;1967;No;Second hand;3.5000;1.4;14;No
+5598;Netherlands;Israel;S-11 Instructor;Trainer aircraft;Aircraft;1952;Yes;41;Yes;1954;Yes;New;0.1200;0.1200;4.92;No
+53873;Netherlands;Israel;Meteor;Fighter aircraft;Aircraft;1967;No;75;No;1967;No;Second hand;3.0000;1.2;90;No
+24205;Netherlands;Italy;SMART-L;Air/sea search radar;Sensors;2001;Yes;1;No;2007;No;New;15.0000;15.0000;15;No
+24205;Netherlands;Italy;SMART-L;Air/sea search radar;Sensors;2001;Yes;1;No;2009;No;New;15.0000;15.0000;15;No
+5636;Netherlands;Italy;DC-3/C-47 Skytrain;Transport aircraft;Aircraft;1950;Yes;4;No;1950;No;Second hand;2.5000;1;4;No
+23995;Netherlands;Italy;Albatros;Corvette;Ships;1961;No;1;No;1961;No;New;45.0000;45.0000;45;No
+26529;Netherlands;Italy;S-11 Instructor;Trainer aircraft;Aircraft;1953;Yes;20;Yes;1958;Yes;New;0.1200;0.1200;2.4;Yes
+26529;Netherlands;Italy;S-11 Instructor;Trainer aircraft;Aircraft;1953;Yes;30;Yes;1957;Yes;New;0.1200;0.1200;3.6;Yes
+26529;Netherlands;Italy;S-11 Instructor;Trainer aircraft;Aircraft;1953;Yes;30;Yes;1956;Yes;New;0.1200;0.1200;3.6;Yes
+26529;Netherlands;Italy;S-11 Instructor;Trainer aircraft;Aircraft;1953;Yes;30;Yes;1955;Yes;New;0.1200;0.1200;3.6;Yes
+26529;Netherlands;Italy;S-11 Instructor;Trainer aircraft;Aircraft;1953;Yes;30;Yes;1954;Yes;New;0.1200;0.1200;3.6;Yes
+26529;Netherlands;Italy;S-11 Instructor;Trainer aircraft;Aircraft;1953;Yes;10;Yes;1953;Yes;New;0.1200;0.1200;1.2;Yes
+38581;Netherlands;Jamaica;Stan Patrol-4207;Patrol craft;Ships;2004;No;1;No;2007;No;New;9.8000;9.8000;9.8;No
+38581;Netherlands;Jamaica;Stan Patrol-4207;Patrol craft;Ships;2004;No;1;No;2006;No;New;9.8000;9.8000;9.8;No
+38581;Netherlands;Jamaica;Stan Patrol-4207;Patrol craft;Ships;2004;No;1;No;2005;No;New;9.8000;9.8000;9.8;No
+25636;Netherlands;Japan;WM-20;Fire control radar;Sensors;1977;Yes;1;Yes;1981;Yes;New;6.0000;6.0000;6;No
+25636;Netherlands;Japan;WM-20;Fire control radar;Sensors;1977;Yes;1;Yes;1980;Yes;New;6.0000;6.0000;6;No
+30169;Netherlands;Jordan;F-16C;FGA aircraft;Aircraft;2007;No;6;No;2009;No;Second hand;28.5000;11.4;68.4;No
+52054;Netherlands;Jordan;M-109A1 155mm;Self-propelled gun;Artillery;2010;No;50;No;2011;No;Second hand;1.1000;0.44;22;No
+52054;Netherlands;Jordan;M-109A1 155mm;Self-propelled gun;Artillery;2010;No;71;No;2012;No;Second hand;1.1000;0.44;31.24;No
+52052;Netherlands;Jordan;AIFV;IFV;Armoured vehicles;2010;No;60;Yes;2013;No;Second hand;0.9000;0.36;21.6;No
+52052;Netherlands;Jordan;AIFV;IFV;Armoured vehicles;2010;No;110;Yes;2012;No;Second hand;0.9000;0.36;39.6;No
+52052;Netherlands;Jordan;AIFV;IFV;Armoured vehicles;2010;No;50;No;2011;No;Second hand;0.9000;0.36;18;No
+52053;Netherlands;Jordan;M-113;APC;Armoured vehicles;2010;No;31;Yes;2013;Yes;Second hand;0.2500;0.1;3.1;No
+52053;Netherlands;Jordan;M-113;APC;Armoured vehicles;2010;No;35;Yes;2012;Yes;Second hand;0.2500;0.1;3.5;No
+55262;Netherlands;Jordan;AIFV-APC;APC;Armoured vehicles;2010;No;97;Yes;2013;No;Second hand;0.3000;0.12;11.64;No
+55262;Netherlands;Jordan;AIFV-APC;APC;Armoured vehicles;2010;No;69;Yes;2012;No;Second hand;0.3000;0.12;8.28;No
+55262;Netherlands;Jordan;AIFV-APC;APC;Armoured vehicles;2010;No;55;No;2011;No;Second hand;0.3000;0.12;6.6;No
+34065;Netherlands;South Korea (ROK);Goalkeeper;CIWS;Air defence systems;2003;No;1;No;2012;No;New;10.0000;10.0000;10;No
+34065;Netherlands;South Korea (ROK);Goalkeeper;CIWS;Air defence systems;2003;No;1;No;2010;No;New;10.0000;10.0000;10;No
+34065;Netherlands;South Korea (ROK);Goalkeeper;CIWS;Air defence systems;2003;No;1;No;2008;No;New;10.0000;10.0000;10;No
+34065;Netherlands;South Korea (ROK);Goalkeeper;CIWS;Air defence systems;2003;No;2;No;2007;No;New;10.0000;10.0000;20;No
+29746;Netherlands;South Korea (ROK);ZW-06;Sea search radar;Sensors;1980;Yes;2;No;1986;No;New;1.0000;1.0000;2;No
+29746;Netherlands;South Korea (ROK);ZW-06;Sea search radar;Sensors;1980;Yes;2;No;1985;No;New;1.0000;1.0000;2;No
+29746;Netherlands;South Korea (ROK);ZW-06;Sea search radar;Sensors;1980;Yes;1;No;1981;No;New;1.0000;1.0000;1;No
+29489;Netherlands;South Korea (ROK);DA-05;Air search radar;Sensors;1979;Yes;1;No;1997;No;New;6.5000;6.5000;6.5;No
+29489;Netherlands;South Korea (ROK);DA-05;Air search radar;Sensors;1979;Yes;2;No;1993;No;New;6.5000;6.5000;13;No
+29489;Netherlands;South Korea (ROK);DA-05;Air search radar;Sensors;1979;Yes;1;No;1990;No;New;6.5000;6.5000;6.5;No
+29489;Netherlands;South Korea (ROK);DA-05;Air search radar;Sensors;1979;Yes;1;No;1989;No;New;6.5000;6.5000;6.5;No
+29489;Netherlands;South Korea (ROK);DA-05;Air search radar;Sensors;1979;Yes;2;No;1986;No;New;6.5000;6.5000;13;No
+29489;Netherlands;South Korea (ROK);DA-05;Air search radar;Sensors;1979;Yes;2;No;1985;No;New;6.5000;6.5000;13;No
+29489;Netherlands;South Korea (ROK);DA-05;Air search radar;Sensors;1979;Yes;1;No;1981;No;New;6.5000;6.5000;6.5;No
+26483;Netherlands;South Korea (ROK);Reporter;Air search radar;Sensors;1992;Yes;15;Yes;1995;Yes;New;2.5000;2.5000;37.5;No
+26483;Netherlands;South Korea (ROK);Reporter;Air search radar;Sensors;1992;Yes;20;Yes;1994;Yes;New;2.5000;2.5000;50;No
+26483;Netherlands;South Korea (ROK);Reporter;Air search radar;Sensors;1992;Yes;15;Yes;1993;Yes;New;2.5000;2.5000;37.5;No
+26481;Netherlands;South Korea (ROK);Goalkeeper;CIWS;Air defence systems;1999;No;1;No;2004;No;New;10.0000;10.0000;10;No
+26481;Netherlands;South Korea (ROK);Goalkeeper;CIWS;Air defence systems;1999;No;1;No;2003;No;New;10.0000;10.0000;10;No
+26481;Netherlands;South Korea (ROK);Goalkeeper;CIWS;Air defence systems;1999;No;1;No;2005;Yes;New;10.0000;10.0000;10;No
+23133;Netherlands;South Korea (ROK);Goalkeeper;CIWS;Air defence systems;1995;No;2;No;2000;No;New;10.0000;10.0000;20;No
+23133;Netherlands;South Korea (ROK);Goalkeeper;CIWS;Air defence systems;1995;No;2;No;1999;No;New;10.0000;10.0000;20;No
+21199;Netherlands;South Korea (ROK);WM-20;Fire control radar;Sensors;1979;Yes;4;No;1986;No;New;6.0000;6.0000;24;No
+21199;Netherlands;South Korea (ROK);WM-20;Fire control radar;Sensors;1979;Yes;3;No;1985;No;New;6.0000;6.0000;18;No
+21199;Netherlands;South Korea (ROK);WM-20;Fire control radar;Sensors;1979;Yes;2;No;1984;No;New;6.0000;6.0000;12;No
+21199;Netherlands;South Korea (ROK);WM-20;Fire control radar;Sensors;1979;Yes;3;No;1983;No;New;6.0000;6.0000;18;No
+21199;Netherlands;South Korea (ROK);WM-20;Fire control radar;Sensors;1979;Yes;1;No;1982;No;New;6.0000;6.0000;6;No
+21199;Netherlands;South Korea (ROK);WM-20;Fire control radar;Sensors;1979;Yes;1;No;1981;No;New;6.0000;6.0000;6;No
+20840;Netherlands;South Korea (ROK);Goalkeeper;CIWS;Air defence systems;1991;Yes;2;No;1998;No;New;10.0000;10.0000;20;No
+37312;Netherlands;South Korea (ROK);PHS-32;ASW sonar;Sensors;1980;Yes;2;No;1993;No;New;5.0000;5.0000;10;No
+37312;Netherlands;South Korea (ROK);PHS-32;ASW sonar;Sensors;1980;Yes;4;No;1990;No;New;5.0000;5.0000;20;No
+37312;Netherlands;South Korea (ROK);PHS-32;ASW sonar;Sensors;1980;Yes;10;No;1989;No;New;5.0000;5.0000;50;No
+37312;Netherlands;South Korea (ROK);PHS-32;ASW sonar;Sensors;1980;Yes;2;No;1988;No;New;5.0000;5.0000;10;No
+37312;Netherlands;South Korea (ROK);PHS-32;ASW sonar;Sensors;1980;Yes;2;No;1986;No;New;5.0000;5.0000;10;No
+37312;Netherlands;South Korea (ROK);PHS-32;ASW sonar;Sensors;1980;Yes;2;No;1985;No;New;5.0000;5.0000;10;No
+37312;Netherlands;South Korea (ROK);PHS-32;ASW sonar;Sensors;1980;Yes;2;No;1984;No;New;5.0000;5.0000;10;No
+37312;Netherlands;South Korea (ROK);PHS-32;ASW sonar;Sensors;1980;Yes;3;No;1983;No;New;5.0000;5.0000;15;No
+37312;Netherlands;South Korea (ROK);PHS-32;ASW sonar;Sensors;1980;Yes;1;No;1982;No;New;5.0000;5.0000;5;No
+40143;Netherlands;South Korea (ROK);SMART;Air search radar;Sensors;2003;No;1;No;2007;No;New;12.5000;12.5000;12.5;No
+40330;Netherlands;South Korea (ROK);MW-08;Air search radar;Sensors;2003;Yes;1;No;2007;No;New;6.0000;6.0000;6;Yes
+26479;Netherlands;South Korea (ROK);STIR;Fire control radar;Sensors;1999;No;2;No;2004;No;New;4.5000;4.5000;9;Yes
+26479;Netherlands;South Korea (ROK);STIR;Fire control radar;Sensors;1999;No;2;No;2003;No;New;4.5000;4.5000;9;Yes
+26479;Netherlands;South Korea (ROK);STIR;Fire control radar;Sensors;1999;No;2;No;2005;Yes;New;4.5000;4.5000;9;Yes
+26478;Netherlands;South Korea (ROK);MW-08;Air search radar;Sensors;1999;No;1;No;2004;No;New;6.0000;6.0000;6;Yes
+26478;Netherlands;South Korea (ROK);MW-08;Air search radar;Sensors;1999;No;1;No;2003;No;New;6.0000;6.0000;6;Yes
+26478;Netherlands;South Korea (ROK);MW-08;Air search radar;Sensors;1999;No;1;No;2005;Yes;New;6.0000;6.0000;6;Yes
+22038;Netherlands;South Korea (ROK);MW-08;Air search radar;Sensors;1994;No;1;No;2000;No;New;6.0000;6.0000;6;Yes
+22038;Netherlands;South Korea (ROK);MW-08;Air search radar;Sensors;1994;No;1;No;1999;No;New;6.0000;6.0000;6;Yes
+22038;Netherlands;South Korea (ROK);MW-08;Air search radar;Sensors;1994;No;1;No;1998;No;New;6.0000;6.0000;6;Yes
+21033;Netherlands;South Korea (ROK);STIR;Fire control radar;Sensors;1992;Yes;2;No;2000;No;New;4.5000;4.5000;9;Yes
+21033;Netherlands;South Korea (ROK);STIR;Fire control radar;Sensors;1992;Yes;2;No;1999;No;New;4.5000;4.5000;9;Yes
+21033;Netherlands;South Korea (ROK);STIR;Fire control radar;Sensors;1992;Yes;2;No;1998;No;New;4.5000;4.5000;9;Yes
+37985;Netherlands;Latvia;Buyskes;Survey ship;Ships;2004;No;1;No;2004;No;Second hand;20.0000;8;8;No
+36324;Netherlands;Latvia;Tripartite;MCM ship;Ships;2005;No;1;No;2011;No;Second hand;55.0000;22;22;No
+36324;Netherlands;Latvia;Tripartite;MCM ship;Ships;2005;No;2;No;2007;No;Second hand;55.0000;22;44;No
+36324;Netherlands;Latvia;Tripartite;MCM ship;Ships;2005;No;2;No;2008;No;Second hand;55.0000;22;44;No
+21267;Netherlands;Malaysia;WM-20;Fire control radar;Sensors;1973;No;2;Yes;1977;Yes;New;6.0000;6.0000;12;No
+21267;Netherlands;Malaysia;WM-20;Fire control radar;Sensors;1973;No;4;Yes;1976;Yes;New;6.0000;6.0000;24;No
+21265;Netherlands;Malaysia;M-44;Fire control radar;Sensors;1966;No;1;No;1971;No;New;1.5000;1.5000;1.5;No
+21264;Netherlands;Malaysia;WM-20;Fire control radar;Sensors;1966;Yes;1;No;1971;No;New;6.0000;6.0000;6;No
+21263;Netherlands;Malaysia;LW-02;Air search radar;Sensors;1966;No;1;No;1971;No;New;7.0000;7.0000;7;No
+21200;Netherlands;Malaysia;WM-20;Fire control radar;Sensors;1981;No;2;No;1984;No;New;6.0000;6.0000;12;No
+21023;Netherlands;Malaysia;DA-08;Air search radar;Sensors;1992;No;2;No;1999;No;New;9.0000;9.0000;18;No
+21022;Netherlands;Malaysia;DA-08;Air search radar;Sensors;1981;No;2;No;1984;No;New;9.0000;9.0000;18;No
+54147;Netherlands;Malaysia;MIRADOR;EO search/fire control;Sensors;2009;No;1;No;2013;No;New;2.5000;2.5000;2.5;No
+21189;Netherlands;Malaysia;DA-05;Air search radar;Sensors;1983;No;1;No;1987;Yes;New;6.5000;6.5000;6.5;No
+21189;Netherlands;Malaysia;DA-05;Air search radar;Sensors;1983;No;1;No;1985;Yes;New;6.5000;6.5000;6.5;No
+24426;Netherlands;Malta;SA-316B Alouette-3;Light helicopter;Aircraft;1996;Yes;2;No;1996;No;Second hand;0.9000;0.36;0.72;No
+8259;Netherlands;Mexico;T-33A Shooting Star;Trainer aircraft;Aircraft;1972;No;3;No;1972;No;Second hand;2.5000;1;3;No
+55208;Netherlands;Mexico;Stan Patrol-4207;Patrol craft;Ships;2011;No;2;No;2012;No;New;9.8000;9.8000;19.6;Yes
+22761;Netherlands;Nigeria;WM-20;Fire control radar;Sensors;1977;No;1;No;1982;No;New;6.0000;6.0000;6;No
+22760;Netherlands;Nigeria;WM-20;Fire control radar;Sensors;1977;Yes;2;No;1981;No;New;6.0000;6.0000;12;No
+22760;Netherlands;Nigeria;WM-20;Fire control radar;Sensors;1977;Yes;1;No;1980;No;New;6.0000;6.0000;6;No
+22759;Netherlands;Nigeria;WM-20;Fire control radar;Sensors;1968;Yes;2;No;1972;No;New;6.0000;6.0000;12;No
+22758;Netherlands;Nigeria;WM-20;Fire control radar;Sensors;1975;No;2;No;1980;No;New;6.0000;6.0000;12;No
+21017;Netherlands;Nigeria;STIR;Fire control radar;Sensors;1977;No;1;No;1982;No;New;4.5000;4.5000;4.5;No
+15117;Netherlands;Nigeria;Nigeria;Frigate;Ships;1963;Yes;1;No;1965;No;New;60.0000;60.0000;60;No
+9618;Netherlands;Nigeria;F-27 Friendship;Transport aircraft;Aircraft;1970;Yes;6;No;1972;No;New;6.7000;6.7000;40.2;No
+25821;Netherlands;Nigeria;PC-461;Patrol craft;Ships;1965;No;1;No;1965;No;Second hand;22.0000;8.8;8.8;No
+3725;Netherlands;Nigeria;F-27 Maritime;MP aircraft;Aircraft;1982;Yes;2;No;1986;No;New;8.2000;8.2000;16.4;No
+33217;Netherlands;Norway;Buffel;APC;Armoured vehicles;2001;No;1;No;2002;No;Second hand;0.1500;0.06;0.06;No
+33216;Netherlands;Norway;Leopard-2A4;Tank;Armoured vehicles;2001;No;5;No;2002;No;Second hand;4.0000;1.6;8;No
+30028;Netherlands;Norway;Leopard-2A4;Tank;Armoured vehicles;2000;No;42;Yes;2002;No;Second hand;4.0000;1.6;67.2;No
+30028;Netherlands;Norway;Leopard-2A4;Tank;Armoured vehicles;2000;No;10;No;2001;No;Second hand;4.0000;1.6;16;No
+24789;Netherlands;Norway;WM-20;Fire control radar;Sensors;1962;Yes;2;Yes;1968;Yes;New;6.0000;6.0000;12;No
+24789;Netherlands;Norway;WM-20;Fire control radar;Sensors;1962;Yes;8;Yes;1967;Yes;New;6.0000;6.0000;48;No
+24789;Netherlands;Norway;WM-20;Fire control radar;Sensors;1962;Yes;7;Yes;1966;Yes;New;6.0000;6.0000;42;No
+24789;Netherlands;Norway;WM-20;Fire control radar;Sensors;1962;Yes;1;Yes;1965;Yes;New;6.0000;6.0000;6;No
+24789;Netherlands;Norway;WM-20;Fire control radar;Sensors;1962;Yes;1;Yes;1963;Yes;New;6.0000;6.0000;6;No
+23113;Netherlands;Norway;M-113;APC;Armoured vehicles;1994;No;16;No;1995;No;Second hand;0.2500;0.1;1.6;No
+22762;Netherlands;Norway;WM-20;Fire control radar;Sensors;1963;Yes;2;No;1967;No;New;6.0000;6.0000;12;No
+22762;Netherlands;Norway;WM-20;Fire control radar;Sensors;1963;Yes;3;No;1966;No;New;6.0000;6.0000;18;No
+56257;Netherlands;Norway;SQUIRE;Ground surv radar;Sensors;2013;No;10;Yes;2013;No;New;0.5000;0.5000;5;No
+37428;Netherlands;Portugal;Doorman;Frigate;Ships;2006;No;1;No;2009;No;Second hand;310.0000;124;124;No
+37428;Netherlands;Portugal;Doorman;Frigate;Ships;2006;No;1;No;2010;No;Second hand;310.0000;124;124;No
+35400;Netherlands;Portugal;P-3CUP Orion;ASW aircraft;Aircraft;2004;No;2;No;2006;No;Second hand but modernized;75.0000;49.5;99;No
+32656;Netherlands;Portugal;P-3C Orion Update-2.5;ASW aircraft;Aircraft;2004;No;3;Yes;2006;Yes;Second hand;55.0000;22;66;No
+24884;Netherlands;Portugal;PV-2 Harpoon;Bomber/MP aircraft;Aircraft;1954;Yes;18;No;1954;No;Second hand;3.0200;1.208;21.744;No
+21986;Netherlands;Portugal;P-2E Neptune;ASW aircraft;Aircraft;1961;Yes;4;Yes;1962;No;Second hand;10.0000;4;16;No
+21986;Netherlands;Portugal;P-2E Neptune;ASW aircraft;Aircraft;1961;Yes;8;Yes;1961;No;Second hand;10.0000;4;32;No
+21174;Netherlands;Portugal;STIR;Fire control radar;Sensors;1986;Yes;6;No;1991;No;New;4.5000;4.5000;27;No
+20994;Netherlands;Portugal;DA-08;Air search radar;Sensors;1986;No;3;No;1991;No;New;9.0000;9.0000;27;No
+20993;Netherlands;Portugal;MW-08;Air search radar;Sensors;1986;Yes;3;No;1991;No;New;6.0000;6.0000;18;No
+20539;Netherlands;Portugal;M-113;APC;Armoured vehicles;1991;No;103;Yes;1993;No;Second hand;0.2500;0.1;10.3;No
+24351;Netherlands;Portugal;F-84 Thunderjet;FGA aircraft;Aircraft;1953;No;10;Yes;1954;No;New;3.2000;3.2000;32;No
+52592;Netherlands;Portugal;RGM-84 Harpoon;Anti-ship missile;Missiles;2006;Yes;26;Yes;2010;Yes;Second hand;1.0000;0.4;10.4;No
+52592;Netherlands;Portugal;RGM-84 Harpoon;Anti-ship missile;Missiles;2006;Yes;4;No;2009;No;Second hand;1.0000;0.4;1.6;No
+52591;Netherlands;Portugal;AIM-7M Sparrow;BVRAAM;Missiles;2008;No;34;Yes;2010;Yes;Second hand;0.1800;0.072;2.448;No
+52591;Netherlands;Portugal;AIM-7M Sparrow;BVRAAM;Missiles;2008;No;16;No;2009;No;Second hand;0.1800;0.072;1.152;No
+51510;Netherlands;Portugal;Leopard-2 Training;Training tank;Armoured vehicles;2007;No;1;No;2008;No;Second hand;1.0000;0.4;0.4;No
+40089;Netherlands;Portugal;Leopard-2A6;Tank;Armoured vehicles;2007;No;28;Yes;2009;No;Second hand;5.0000;2;56;No
+40089;Netherlands;Portugal;Leopard-2A6;Tank;Armoured vehicles;2007;No;9;No;2008;No;Second hand;5.0000;2;18;No
+20540;Netherlands;Portugal;YP-408;APC;Armoured vehicles;1991;No;28;Yes;1992;No;Second hand;0.2200;0.088;2.464;No
+619;Netherlands;Senegal;F-27 Friendship;Transport aircraft;Aircraft;1977;No;2;Yes;1978;No;New;8.5000;8.5000;17;No
+619;Netherlands;Senegal;F-27 Friendship;Transport aircraft;Aircraft;1977;No;2;Yes;1977;No;New;8.5000;8.5000;17;No
+619;Netherlands;Senegal;F-27 Friendship;Transport aircraft;Aircraft;1977;No;2;No;1979;No;New;8.5000;8.5000;17;No
+33708;Netherlands;South Africa;PAGE;Air search radar;Sensors;2003;No;1;Yes;2006;Yes;New;2.5000;2.5000;2.5;No
+33708;Netherlands;South Africa;PAGE;Air search radar;Sensors;2003;No;1;Yes;2005;Yes;New;2.5000;2.5000;2.5;No
+6575;Netherlands;Sudan;F-27 Friendship;Transport aircraft;Aircraft;1964;No;4;No;1964;No;New;8.5000;8.5000;34;No
+37993;Netherlands;Sweden;IRST;Air search system;Sensors;2000;Yes;1;No;2000;Yes;New;2.5000;2.5000;2.5;No
+30462;Netherlands;Sweden;WM-20;Fire control radar;Sensors;1961;Yes;1;Yes;1964;Yes;New;6.0000;6.0000;6;No
+30462;Netherlands;Sweden;WM-20;Fire control radar;Sensors;1961;Yes;1;Yes;1962;Yes;New;6.0000;6.0000;6;No
+28872;Netherlands;Sweden;M-45;Fire control radar;Sensors;1948;Yes;1;Yes;1956;Yes;New;1.5000;1.5000;1.5;No
+28872;Netherlands;Sweden;M-45;Fire control radar;Sensors;1948;Yes;1;Yes;1955;Yes;New;1.5000;1.5000;1.5;No
+28871;Netherlands;Sweden;LW-02;Air search radar;Sensors;1961;Yes;1;Yes;1964;Yes;New;7.0000;7.0000;7;No
+28871;Netherlands;Sweden;LW-02;Air search radar;Sensors;1961;Yes;1;Yes;1962;Yes;New;7.0000;7.0000;7;No
+28868;Netherlands;Sweden;M-45;Fire control radar;Sensors;1953;Yes;2;Yes;1959;Yes;New;1.5000;1.5000;3;No
+28868;Netherlands;Sweden;M-45;Fire control radar;Sensors;1953;Yes;2;Yes;1958;Yes;New;1.5000;1.5000;3;No
+28867;Netherlands;Sweden;M-44;Fire control radar;Sensors;1962;Yes;1;Yes;1968;Yes;New;1.5000;1.5000;1.5;No
+28867;Netherlands;Sweden;M-44;Fire control radar;Sensors;1962;Yes;1;Yes;1965;Yes;New;1.5000;1.5000;1.5;No
+28867;Netherlands;Sweden;M-44;Fire control radar;Sensors;1962;Yes;1;Yes;1963;Yes;New;1.5000;1.5000;1.5;No
+28867;Netherlands;Sweden;M-44;Fire control radar;Sensors;1962;Yes;1;Yes;1962;Yes;New;1.5000;1.5000;1.5;No
+26829;Netherlands;Sweden;WM-20;Fire control radar;Sensors;1968;Yes;1;Yes;1976;Yes;New;6.0000;6.0000;6;No
+26829;Netherlands;Sweden;WM-20;Fire control radar;Sensors;1968;Yes;1;Yes;1971;Yes;New;6.0000;6.0000;6;No
+23533;Netherlands;Sweden;WM-20;Fire control radar;Sensors;1964;Yes;3;No;1967;No;New;6.0000;6.0000;18;No
+23533;Netherlands;Sweden;WM-20;Fire control radar;Sensors;1964;Yes;3;No;1966;No;New;6.0000;6.0000;18;No
+1760;Netherlands;Sweden;LW-02;Air search radar;Sensors;1957;Yes;2;No;1958;No;New;7.0000;7.0000;14;No
+55060;Netherlands;Turkmenistan;Variant;Air/sea search radar;Sensors;2010;Yes;2;Yes;2012;Yes;New;4.7500;4.7500;9.5;No
+35132;Netherlands;New Zealand;PAGE;Air search radar;Sensors;2004;No;2;No;2006;No;New;2.5000;2.5000;5;No
+32155;Netherlands;New Zealand;Boeing-757-200;Transport aircraft;Aircraft;2003;No;2;No;2003;No;Second hand;54.8300;21.932;43.864;No
+31773;Netherlands;New Zealand;MRV;AALS;Ships;2004;No;1;No;2007;No;New;74.0000;74.0000;74;No
+21016;Netherlands;New Zealand;LW-08;Air search radar;Sensors;1989;Yes;1;No;1990;Yes;New;9.5000;9.5000;9.5;No
+21016;Netherlands;New Zealand;LW-08;Air search radar;Sensors;1989;Yes;1;No;1992;No;New;9.5000;9.5000;9.5;No
+24783;Netherlands;Peru;STIR;Fire control radar;Sensors;1985;Yes;1;No;1988;No;New;4.5000;4.5000;4.5;No
+24782;Netherlands;Peru;DA-08;Air search radar;Sensors;1985;Yes;1;No;1988;No;New;9.0000;9.0000;9;No
+21372;Netherlands;Peru;De Ruyter;Cruiser;Ships;1973;No;1;No;1973;No;Second hand;350.0000;140;140;No
+14390;Netherlands;Peru;De Ruyter;Cruiser;Ships;1976;No;1;No;1977;No;Second hand but modernized;350.0000;231;231;No
+14380;Netherlands;Peru;Holland;Destroyer;Ships;1978;No;1;No;1978;No;Second hand;125.0000;50;50;No
+6257;Netherlands;Peru;LW-08;Air search radar;Sensors;1985;Yes;1;No;1988;No;New;9.5000;9.5000;9.5;No
+2843;Netherlands;Peru;Friesland;Destroyer;Ships;1980;No;1;No;1982;No;Second hand;130.0000;52;52;No
+2843;Netherlands;Peru;Friesland;Destroyer;Ships;1980;No;3;No;1981;No;Second hand;130.0000;52;156;No
+2843;Netherlands;Peru;Friesland;Destroyer;Ships;1980;No;3;No;1980;No;Second hand;130.0000;52;156;No
+51778;Netherlands;Peru;Fokker-50;Transport aircraft;Aircraft;2010;No;2;No;2010;No;Second hand;9.5000;3.8;7.6;No
+385;Netherlands;Peru;F-27 Maritime;MP aircraft;Aircraft;1976;No;1;No;1978;No;New;8.2000;8.2000;8.2;No
+385;Netherlands;Peru;F-27 Maritime;MP aircraft;Aircraft;1976;No;1;No;1977;No;New;8.2000;8.2000;8.2;No
+39449;Netherlands;Peru;Fokker-50MP;MP aircraft;Aircraft;2010;No;2;No;2010;No;Second hand;20.5000;8.2;16.4;No
+2517;Netherlands;Philippines;F-27 Maritime;MP aircraft;Aircraft;1980;No;1;No;1982;No;New;8.2000;8.2000;8.2;No
+2517;Netherlands;Philippines;F-27 Maritime;MP aircraft;Aircraft;1980;No;2;No;1981;No;New;8.2000;8.2000;16.4;No
+32152;Netherlands;Poland;STING;Fire control radar;Sensors;2001;No;2;Yes;2006;No;New;4.7500;4.7500;9.5;No
+32152;Netherlands;Poland;STING;Fire control radar;Sensors;2001;No;1;No;2003;No;New;4.7500;4.7500;4.75;No
+24066;Netherlands;Singapore;WM-20;Fire control radar;Sensors;1991;Yes;4;No;1995;No;Second hand but modernized;6.0000;3.96;15.84;No
+22749;Netherlands;Singapore;WM-20;Fire control radar;Sensors;1968;Yes;3;Yes;1971;Yes;New;6.0000;6.0000;18;No
+22748;Netherlands;Singapore;WM-20;Fire control radar;Sensors;1970;Yes;1;No;1976;No;New;6.0000;6.0000;6;No
+22748;Netherlands;Singapore;WM-20;Fire control radar;Sensors;1970;Yes;1;No;1975;No;New;6.0000;6.0000;6;No
+22748;Netherlands;Singapore;WM-20;Fire control radar;Sensors;1970;Yes;2;No;1974;No;New;6.0000;6.0000;12;No
+22748;Netherlands;Singapore;WM-20;Fire control radar;Sensors;1970;Yes;2;No;1972;No;New;6.0000;6.0000;12;No
+21953;Netherlands;Singapore;Fokker-50;Transport aircraft;Aircraft;1991;No;3;Yes;1993;No;New;7.5000;7.5000;22.5;No
+21953;Netherlands;Singapore;Fokker-50;Transport aircraft;Aircraft;1991;No;1;Yes;1994;Yes;New;7.5000;7.5000;7.5;No
+20295;Netherlands;Singapore;Fokker-50 Enforcer-2;ASW aircraft;Aircraft;1991;No;2;No;1995;No;New;25.5000;25.5000;51;No
+20295;Netherlands;Singapore;Fokker-50 Enforcer-2;ASW aircraft;Aircraft;1991;No;3;No;1994;No;New;25.5000;25.5000;76.5;No
+15550;Netherlands;Singapore;Endeavour;Patrol craft;Ships;1970;No;1;No;1970;No;Second hand;12.5000;5;5;No
+24993;Netherlands;Spain;DA-05;Air search radar;Sensors;1973;Yes;1;Yes;1983;Yes;New;6.5000;6.5000;6.5;No
+24993;Netherlands;Spain;DA-05;Air search radar;Sensors;1973;Yes;1;Yes;1982;Yes;New;6.5000;6.5000;6.5;No
+24993;Netherlands;Spain;DA-05;Air search radar;Sensors;1973;Yes;2;Yes;1980;Yes;New;6.5000;6.5000;13;No
+24993;Netherlands;Spain;DA-05;Air search radar;Sensors;1973;Yes;1;Yes;1979;Yes;New;6.5000;6.5000;6.5;No
+24993;Netherlands;Spain;DA-05;Air search radar;Sensors;1973;Yes;1;Yes;1978;Yes;New;6.5000;6.5000;6.5;No
+24991;Netherlands;Spain;ZW-06;Sea search radar;Sensors;1973;Yes;1;Yes;1983;Yes;New;1.0000;1.0000;1;No
+24991;Netherlands;Spain;ZW-06;Sea search radar;Sensors;1973;Yes;1;Yes;1982;Yes;New;1.0000;1.0000;1;No
+24991;Netherlands;Spain;ZW-06;Sea search radar;Sensors;1973;Yes;2;Yes;1980;Yes;New;1.0000;1.0000;2;No
+24991;Netherlands;Spain;ZW-06;Sea search radar;Sensors;1973;Yes;1;Yes;1979;Yes;New;1.0000;1.0000;1;No
+24991;Netherlands;Spain;ZW-06;Sea search radar;Sensors;1973;Yes;1;Yes;1978;Yes;New;1.0000;1.0000;1;No
+24985;Netherlands;Spain;WM-20;Fire control radar;Sensors;1976;Yes;1;Yes;1983;Yes;New;6.0000;6.0000;6;No
+24985;Netherlands;Spain;WM-20;Fire control radar;Sensors;1976;Yes;1;Yes;1982;Yes;New;6.0000;6.0000;6;No
+24983;Netherlands;Spain;WM-20;Fire control radar;Sensors;1973;Yes;2;Yes;1980;Yes;New;6.0000;6.0000;12;No
+24983;Netherlands;Spain;WM-20;Fire control radar;Sensors;1973;Yes;1;Yes;1979;Yes;New;6.0000;6.0000;6;No
+24983;Netherlands;Spain;WM-20;Fire control radar;Sensors;1973;Yes;1;Yes;1978;Yes;New;6.0000;6.0000;6;No
+22630;Netherlands;Spain;STIR;Fire control radar;Sensors;1989;Yes;2;Yes;1994;Yes;New;4.5000;4.5000;9;No
+21309;Netherlands;Spain;WM-20;Fire control radar;Sensors;1972;No;4;No;1977;No;New;6.0000;6.0000;24;No
+21309;Netherlands;Spain;WM-20;Fire control radar;Sensors;1972;No;1;No;1976;No;New;6.0000;6.0000;6;No
+21309;Netherlands;Spain;WM-20;Fire control radar;Sensors;1972;No;1;No;1975;No;New;6.0000;6.0000;6;No
+868;Netherlands;Spain;F-27 Maritime;MP aircraft;Aircraft;1978;No;3;No;1979;No;New;8.2000;8.2000;24.6;No
+460;Netherlands;Suriname;S-401;Patrol craft;Ships;1975;No;2;No;1977;No;New;5.0000;5.0000;10;No
+460;Netherlands;Suriname;S-401;Patrol craft;Ships;1975;No;1;No;1976;No;New;5.0000;5.0000;5;No
+21134;Netherlands;Suriname;YP-408;APC;Armoured vehicles;1975;No;5;No;1975;No;Second hand;0.2200;0.088;0.44;No
+21124;Netherlands;Taiwan (ROC);DA-08;Air search radar;Sensors;1989;Yes;2;No;1992;No;New;9.0000;9.0000;18;No
+21124;Netherlands;Taiwan (ROC);DA-08;Air search radar;Sensors;1989;Yes;2;No;1991;No;New;9.0000;9.0000;18;No
+21124;Netherlands;Taiwan (ROC);DA-08;Air search radar;Sensors;1989;Yes;2;No;1990;No;New;9.0000;9.0000;18;No
+21124;Netherlands;Taiwan (ROC);DA-08;Air search radar;Sensors;1989;Yes;2;No;1989;No;New;9.0000;9.0000;18;No
+20606;Netherlands;Taiwan (ROC);STIR;Fire control radar;Sensors;1989;Yes;2;No;1992;No;New;4.5000;4.5000;9;No
+20606;Netherlands;Taiwan (ROC);STIR;Fire control radar;Sensors;1989;Yes;2;No;1991;No;New;4.5000;4.5000;9;No
+20606;Netherlands;Taiwan (ROC);STIR;Fire control radar;Sensors;1989;Yes;2;No;1990;No;New;4.5000;4.5000;9;No
+20606;Netherlands;Taiwan (ROC);STIR;Fire control radar;Sensors;1989;Yes;2;No;1989;No;New;4.5000;4.5000;9;No
+2867;Netherlands;Taiwan (ROC);Zwaardvis;Submarine;Ships;1981;No;1;No;1988;No;New;260.0000;260.0000;260;No
+2867;Netherlands;Taiwan (ROC);Zwaardvis;Submarine;Ships;1981;No;1;No;1987;No;New;260.0000;260.0000;260;No
+38564;Netherlands;Thailand;LIROD;Fire control radar;Sensors;1980;Yes;1;No;1987;No;New;2.5000;2.5000;2.5;No
+38564;Netherlands;Thailand;LIROD;Fire control radar;Sensors;1980;Yes;1;No;1986;No;New;2.5000;2.5000;2.5;No
+38564;Netherlands;Thailand;LIROD;Fire control radar;Sensors;1980;Yes;1;No;1984;No;New;2.5000;2.5000;2.5;No
+38564;Netherlands;Thailand;LIROD;Fire control radar;Sensors;1980;Yes;2;No;1983;No;New;2.5000;2.5000;5;No
+38563;Netherlands;Thailand;ZW-06;Sea search radar;Sensors;1983;Yes;1;No;1987;No;New;1.0000;1.0000;1;No
+38563;Netherlands;Thailand;ZW-06;Sea search radar;Sensors;1983;Yes;1;No;1986;No;New;1.0000;1.0000;1;No
+35848;Netherlands;Thailand;Flycatcher;Fire control radar;Sensors;2004;No;8;Yes;2005;No;Second hand;5.0000;2;16;No
+30068;Netherlands;Thailand;M-44;Fire control radar;Sensors;1969;Yes;1;No;1973;No;New;1.5000;1.5000;1.5;No
+30067;Netherlands;Thailand;LW-04;Air search radar;Sensors;1969;Yes;1;No;1974;No;New;6.0000;6.0000;6;No
+30067;Netherlands;Thailand;LW-04;Air search radar;Sensors;1969;Yes;1;No;1973;No;New;6.0000;6.0000;6;No
+30067;Netherlands;Thailand;LW-04;Air search radar;Sensors;1969;Yes;1;No;1971;No;New;6.0000;6.0000;6;No
+26825;Netherlands;Thailand;WM-20;Fire control radar;Sensors;1982;Yes;1;No;1986;No;New;6.0000;6.0000;6;No
+26825;Netherlands;Thailand;WM-20;Fire control radar;Sensors;1982;Yes;1;No;1983;No;New;6.0000;6.0000;6;No
+21276;Netherlands;Thailand;WM-20;Fire control radar;Sensors;1976;Yes;1;No;1980;No;New;6.0000;6.0000;6;No
+21276;Netherlands;Thailand;WM-20;Fire control radar;Sensors;1976;Yes;2;No;1979;No;New;6.0000;6.0000;12;No
+21275;Netherlands;Thailand;WM-20;Fire control radar;Sensors;1979;Yes;1;No;1984;No;New;6.0000;6.0000;6;No
+21275;Netherlands;Thailand;WM-20;Fire control radar;Sensors;1979;Yes;2;No;1983;No;New;6.0000;6.0000;12;No
+21274;Netherlands;Thailand;DA-05;Air search radar;Sensors;1983;Yes;1;No;1987;No;New;6.5000;6.5000;6.5;No
+21274;Netherlands;Thailand;DA-05;Air search radar;Sensors;1983;Yes;1;No;1986;No;New;6.5000;6.5000;6.5;No
+21273;Netherlands;Thailand;WM-20;Fire control radar;Sensors;1973;Yes;1;Yes;1977;Yes;New;6.0000;6.0000;6;No
+21273;Netherlands;Thailand;WM-20;Fire control radar;Sensors;1973;Yes;2;Yes;1976;Yes;New;6.0000;6.0000;12;No
+21272;Netherlands;Thailand;WM-20;Fire control radar;Sensors;1969;Yes;1;No;1973;Yes;New;6.0000;6.0000;6;No
+21156;Netherlands;Thailand;LW-08;Air search radar;Sensors;1995;No;2;Yes;1995;Yes;New;9.5000;9.5000;19;No
+21155;Netherlands;Thailand;STIR;Fire control radar;Sensors;1992;No;2;Yes;1995;Yes;New;4.5000;4.5000;9;No
+21155;Netherlands;Thailand;STIR;Fire control radar;Sensors;1992;No;2;Yes;1994;Yes;New;4.5000;4.5000;9;No
+21121;Netherlands;Thailand;WM-20;Fire control radar;Sensors;1983;Yes;1;No;1987;No;New;6.0000;6.0000;6;No
+21121;Netherlands;Thailand;WM-20;Fire control radar;Sensors;1983;Yes;1;No;1986;No;New;6.0000;6.0000;6;No
+18606;Netherlands;Thailand;Flycatcher;Fire control radar;Sensors;1982;Yes;6;Yes;1984;Yes;New;5.0000;5.0000;30;No
+18606;Netherlands;Thailand;Flycatcher;Fire control radar;Sensors;1982;Yes;6;Yes;1983;Yes;New;5.0000;5.0000;30;No
+17656;Netherlands;Thailand;F-27 Friendship;Transport aircraft;Aircraft;1986;No;2;No;1987;No;New;8.5000;8.5000;17;No
+15942;Netherlands;Thailand;F-27 Enforcer;ASW aircraft;Aircraft;1985;No;1;No;1987;No;New;20.7000;20.7000;20.7;No
+3751;Netherlands;Thailand;F-27 Enforcer;ASW aircraft;Aircraft;1982;No;3;No;1984;No;New;20.7000;20.7000;62.1;No
+55938;Netherlands;Thailand;LIROD;Fire control radar;Sensors;2009;Yes;1;No;2013;No;New;2.5000;2.5000;2.5;No
+55937;Netherlands;Thailand;Variant;Air/sea search radar;Sensors;2009;Yes;1;No;2013;No;New;4.7500;4.7500;4.75;No
+40127;Netherlands;Thailand;MIRADOR;EO search/fire control;Sensors;2006;No;3;No;2007;No;New;2.5000;2.5000;7.5;No
+23079;Netherlands;Thailand;Fokker-50;Transport aircraft;Aircraft;1991;No;1;No;1993;No;New;7.5000;7.5000;7.5;No
+38958;Netherlands;Turkey;LIROD;Fire control radar;Sensors;1993;Yes;1;No;2000;No;New;2.5000;2.5000;2.5;No
+38958;Netherlands;Turkey;LIROD;Fire control radar;Sensors;1993;Yes;1;No;1999;No;New;2.5000;2.5000;2.5;No
+38958;Netherlands;Turkey;LIROD;Fire control radar;Sensors;1993;Yes;1;No;1998;No;New;2.5000;2.5000;2.5;No
+38957;Netherlands;Turkey;LIROD;Fire control radar;Sensors;2004;Yes;1;No;2009;No;New;2.5000;2.5000;2.5;No
+38957;Netherlands;Turkey;LIROD;Fire control radar;Sensors;2004;Yes;1;No;2010;No;New;2.5000;2.5000;2.5;No
+38956;Netherlands;Turkey;MW-08;Air search radar;Sensors;2004;Yes;1;No;2010;No;New;6.0000;6.0000;6;No
+38956;Netherlands;Turkey;MW-08;Air search radar;Sensors;2004;Yes;1;No;2009;No;New;6.0000;6.0000;6;No
+38955;Netherlands;Turkey;STING;Fire control radar;Sensors;2004;Yes;1;No;2010;No;New;4.7500;4.7500;4.75;No
+38955;Netherlands;Turkey;STING;Fire control radar;Sensors;2004;Yes;1;No;2009;No;New;4.7500;4.7500;4.75;No
+38446;Netherlands;Turkey;DAF 25mm;IFV turret;Other;1989;Yes;37;Yes;1997;No;New;0.5000;0.5000;18.5;No
+38446;Netherlands;Turkey;DAF 25mm;IFV turret;Other;1989;Yes;18;Yes;1995;No;New;0.5000;0.5000;9;No
+38446;Netherlands;Turkey;DAF 25mm;IFV turret;Other;1989;Yes;20;Yes;1994;No;New;0.5000;0.5000;10;No
+38446;Netherlands;Turkey;DAF 25mm;IFV turret;Other;1989;Yes;20;Yes;1993;No;New;0.5000;0.5000;10;No
+38446;Netherlands;Turkey;DAF 25mm;IFV turret;Other;1989;Yes;10;Yes;1992;No;New;0.5000;0.5000;5;No
+38446;Netherlands;Turkey;DAF 25mm;IFV turret;Other;1989;Yes;10;Yes;1991;No;New;0.5000;0.5000;5;No
+38446;Netherlands;Turkey;DAF 25mm;IFV turret;Other;1989;Yes;20;Yes;1990;No;New;0.5000;0.5000;10;No
+31979;Netherlands;Turkey;LIROD;Fire control radar;Sensors;2001;No;1;No;2008;No;New;2.5000;2.5000;2.5;No
+31979;Netherlands;Turkey;LIROD;Fire control radar;Sensors;2001;No;1;No;2006;No;New;2.5000;2.5000;2.5;No
+31979;Netherlands;Turkey;LIROD;Fire control radar;Sensors;2001;No;2;No;2005;No;New;2.5000;2.5000;5;No
+31978;Netherlands;Turkey;STING;Fire control radar;Sensors;2001;No;1;No;2006;No;New;4.7500;4.7500;4.75;No
+31978;Netherlands;Turkey;STING;Fire control radar;Sensors;2001;No;1;No;2008;No;New;4.7500;4.7500;4.75;No
+31978;Netherlands;Turkey;STING;Fire control radar;Sensors;2001;No;2;No;2005;No;New;4.7500;4.7500;9.5;No
+31977;Netherlands;Turkey;MW-08;Air search radar;Sensors;2001;No;1;No;2006;No;New;6.0000;6.0000;6;No
+31977;Netherlands;Turkey;MW-08;Air search radar;Sensors;2001;No;1;No;2008;No;New;6.0000;6.0000;6;No
+31977;Netherlands;Turkey;MW-08;Air search radar;Sensors;2001;No;2;No;2005;No;New;6.0000;6.0000;12;No
+22862;Netherlands;Turkey;STING;Fire control radar;Sensors;1995;No;1;No;2000;No;New;4.7500;4.7500;4.75;No
+22862;Netherlands;Turkey;STING;Fire control radar;Sensors;1995;No;1;No;1999;No;New;4.7500;4.7500;4.75;No
+22862;Netherlands;Turkey;STING;Fire control radar;Sensors;1995;No;1;No;1998;No;New;4.7500;4.7500;4.75;No
+22861;Netherlands;Turkey;MW-08;Air search radar;Sensors;1995;No;1;No;2000;No;New;6.0000;6.0000;6;No
+22861;Netherlands;Turkey;MW-08;Air search radar;Sensors;1995;No;1;No;1999;No;New;6.0000;6.0000;6;No
+22861;Netherlands;Turkey;MW-08;Air search radar;Sensors;1995;No;1;No;1998;No;New;6.0000;6.0000;6;No
+22644;Netherlands;Turkey;STIR;Fire control radar;Sensors;1994;Yes;2;Yes;2000;Yes;New;4.5000;4.5000;9;No
+22644;Netherlands;Turkey;STIR;Fire control radar;Sensors;1994;Yes;2;No;1998;No;New;4.5000;4.5000;9;No
+20970;Netherlands;Turkey;DA-08;Air search radar;Sensors;1982;Yes;1;Yes;1989;Yes;New;9.0000;9.0000;9;No
+20970;Netherlands;Turkey;DA-08;Air search radar;Sensors;1982;Yes;2;Yes;1988;Yes;New;9.0000;9.0000;18;No
+20970;Netherlands;Turkey;DA-08;Air search radar;Sensors;1982;Yes;1;No;1987;No;New;9.0000;9.0000;9;No
+20323;Netherlands;Turkey;STIR;Fire control radar;Sensors;1982;Yes;2;Yes;1988;No;New;4.5000;4.5000;9;No
+20323;Netherlands;Turkey;STIR;Fire control radar;Sensors;1982;Yes;1;Yes;1989;Yes;New;4.5000;4.5000;4.5;No
+20323;Netherlands;Turkey;STIR;Fire control radar;Sensors;1982;Yes;1;No;1987;No;New;4.5000;4.5000;4.5;No
+19872;Netherlands;Turkey;STIR;Fire control radar;Sensors;1990;Yes;1;No;1995;No;New;4.5000;4.5000;4.5;No
+19872;Netherlands;Turkey;STIR;Fire control radar;Sensors;1990;Yes;1;No;1996;Yes;New;4.5000;4.5000;4.5;No
+19858;Netherlands;Turkey;WM-20;Fire control radar;Sensors;1973;Yes;1;No;1980;No;New;6.0000;6.0000;6;No
+19858;Netherlands;Turkey;WM-20;Fire control radar;Sensors;1973;Yes;1;No;1979;No;New;6.0000;6.0000;6;No
+19858;Netherlands;Turkey;WM-20;Fire control radar;Sensors;1973;Yes;1;No;1978;No;New;6.0000;6.0000;6;No
+19858;Netherlands;Turkey;WM-20;Fire control radar;Sensors;1973;Yes;1;No;1977;No;New;6.0000;6.0000;6;No
+19857;Netherlands;Turkey;WM-20;Fire control radar;Sensors;1982;Yes;2;Yes;1988;No;New;6.0000;6.0000;12;No
+19857;Netherlands;Turkey;WM-20;Fire control radar;Sensors;1982;Yes;1;Yes;1987;No;New;6.0000;6.0000;6;No
+19857;Netherlands;Turkey;WM-20;Fire control radar;Sensors;1982;Yes;1;Yes;1989;Yes;New;6.0000;6.0000;6;No
+19701;Netherlands;Turkey;WM-20;Fire control radar;Sensors;1980;Yes;2;No;1988;No;New;6.0000;6.0000;12;No
+19701;Netherlands;Turkey;WM-20;Fire control radar;Sensors;1980;Yes;1;No;1986;No;New;6.0000;6.0000;6;No
+19701;Netherlands;Turkey;WM-20;Fire control radar;Sensors;1980;Yes;1;No;1985;No;New;6.0000;6.0000;6;No
+8460;Netherlands;Turkey;F-86D Sabre;Fighter aircraft;Aircraft;1961;Yes;20;Yes;1963;No;Second hand;4.2500;1.7;34;No
+8460;Netherlands;Turkey;F-86D Sabre;Fighter aircraft;Aircraft;1961;Yes;20;Yes;1962;No;Second hand;4.2500;1.7;34;No
+6830;Netherlands;Turkey;S-2A Tracker;ASW aircraft;Aircraft;1970;Yes;4;No;1971;No;Second hand;6.0000;2.4;9.6;No
+55382;Netherlands;Turkey;SMART;Air search radar;Sensors;2009;Yes;3;Yes;2013;No;New;12.5000;12.5000;37.5;No
+55382;Netherlands;Turkey;SMART;Air search radar;Sensors;2009;Yes;2;Yes;2012;No;New;12.5000;12.5000;25;No
+55382;Netherlands;Turkey;SMART;Air search radar;Sensors;2009;Yes;2;Yes;2011;Yes;New;12.5000;12.5000;25;No
+40247;Netherlands;Turkey;SMART;Air search radar;Sensors;2007;No;1;Yes;2013;Yes;New;12.5000;12.5000;12.5;No
+40247;Netherlands;Turkey;SMART;Air search radar;Sensors;2007;No;1;No;2011;No;New;12.5000;12.5000;12.5;No
+40248;Netherlands;Turkey;STING;Fire control radar;Sensors;2007;No;1;Yes;2013;Yes;New;4.7500;4.7500;4.75;No
+40248;Netherlands;Turkey;STING;Fire control radar;Sensors;2007;No;1;No;2011;No;New;4.7500;4.7500;4.75;No
+18621;Netherlands;Turkey;F-104G Starfighter;FGA aircraft;Aircraft;1987;No;24;No;1988;No;Second hand;11.2000;4.48;107.52;No
+18386;Netherlands;Turkey;NF-5A;FGA aircraft;Aircraft;1987;No;10;Yes;1991;No;Second hand;8.5000;3.4;34;No
+18386;Netherlands;Turkey;NF-5A;FGA aircraft;Aircraft;1987;No;31;Yes;1990;No;Second hand;8.5000;3.4;105.4;No
+18386;Netherlands;Turkey;NF-5A;FGA aircraft;Aircraft;1987;No;6;No;1992;No;Second hand;8.5000;3.4;20.4;No
+18386;Netherlands;Turkey;NF-5A;FGA aircraft;Aircraft;1987;No;13;No;1989;No;Second hand;8.5000;3.4;44.2;No
+2548;Netherlands;Turkey;F-104G Starfighter;FGA aircraft;Aircraft;1980;No;13;Yes;1983;No;Second hand;11.2000;4.48;58.24;No
+2548;Netherlands;Turkey;F-104G Starfighter;FGA aircraft;Aircraft;1980;No;13;Yes;1980;Yes;Second hand;11.2000;4.48;58.24;No
+2548;Netherlands;Turkey;F-104G Starfighter;FGA aircraft;Aircraft;1980;No;14;Yes;1982;No;Second hand;11.2000;4.48;62.72;No
+2548;Netherlands;Turkey;F-104G Starfighter;FGA aircraft;Aircraft;1980;No;13;Yes;1981;No;Second hand;11.2000;4.48;58.24;No
+23842;Netherlands;UAE;Goalkeeper;CIWS;Air defence systems;1996;No;1;No;1998;No;New;10.0000;10.0000;10;No
+23842;Netherlands;UAE;Goalkeeper;CIWS;Air defence systems;1996;No;1;No;1997;No;New;10.0000;10.0000;10;No
+23841;Netherlands;UAE;Kortenaer;Frigate;Ships;1996;No;1;No;1998;No;Second hand but modernized;300.0000;198;198;No
+23841;Netherlands;UAE;Kortenaer;Frigate;Ships;1996;No;1;No;1997;No;Second hand but modernized;300.0000;198;198;No
+23840;Netherlands;UAE;Scout;Sea search radar;Sensors;1996;No;2;Yes;2000;No;New;1.0000;1.0000;2;No
+23840;Netherlands;UAE;Scout;Sea search radar;Sensors;1996;No;2;Yes;1999;No;New;1.0000;1.0000;2;No
+23840;Netherlands;UAE;Scout;Sea search radar;Sensors;1996;No;3;Yes;1998;No;New;1.0000;1.0000;3;No
+23840;Netherlands;UAE;Scout;Sea search radar;Sensors;1996;No;1;Yes;1997;No;New;1.0000;1.0000;1;No
+23840;Netherlands;UAE;Scout;Sea search radar;Sensors;1996;No;2;Yes;2001;Yes;New;1.0000;1.0000;2;No
+23040;Netherlands;UAE;M-109A1 155mm;Self-propelled gun;Artillery;1995;No;31;Yes;1999;No;Second hand but modernized;1.1000;0.726;22.506;No
+23040;Netherlands;UAE;M-109A1 155mm;Self-propelled gun;Artillery;1995;No;31;Yes;1998;No;Second hand but modernized;1.1000;0.726;22.506;No
+23040;Netherlands;UAE;M-109A1 155mm;Self-propelled gun;Artillery;1995;No;25;Yes;1997;No;Second hand but modernized;1.1000;0.726;18.15;No
+19336;Netherlands;UAE;Goalkeeper;CIWS;Air defence systems;1986;Yes;1;No;1991;No;New;10.0000;10.0000;10;No
+19336;Netherlands;UAE;Goalkeeper;CIWS;Air defence systems;1986;Yes;1;No;1990;No;New;10.0000;10.0000;10;No
+24053;Netherlands;United Kingdom;Goalkeeper;CIWS;Air defence systems;1996;Yes;1;Yes;2004;Yes;New;10.0000;10.0000;10;No
+24053;Netherlands;United Kingdom;Goalkeeper;CIWS;Air defence systems;1996;Yes;1;Yes;2003;Yes;New;10.0000;10.0000;10;No
+16843;Netherlands;United Kingdom;Goalkeeper;CIWS;Air defence systems;1985;No;3;Yes;1987;No;New;10.0000;10.0000;30;No
+16843;Netherlands;United Kingdom;Goalkeeper;CIWS;Air defence systems;1985;No;5;Yes;1989;Yes;New;10.0000;10.0000;50;No
+16843;Netherlands;United Kingdom;Goalkeeper;CIWS;Air defence systems;1985;No;5;Yes;1988;Yes;New;10.0000;10.0000;50;No
+51056;Netherlands;United Kingdom;Damen-8316;Support ship;Ships;2008;Yes;1;No;2010;No;New;20.0000;20.0000;20;No
+35795;Netherlands;United Kingdom;SMART-L;Air/sea search radar;Sensors;2002;Yes;2;No;2013;No;New;15.0000;15.0000;30;No
+35795;Netherlands;United Kingdom;SMART-L;Air/sea search radar;Sensors;2002;Yes;1;No;2011;No;New;15.0000;15.0000;15;No
+35795;Netherlands;United Kingdom;SMART-L;Air/sea search radar;Sensors;2002;Yes;2;No;2012;No;New;15.0000;15.0000;30;No
+35795;Netherlands;United Kingdom;SMART-L;Air/sea search radar;Sensors;2002;Yes;1;No;2010;No;New;15.0000;15.0000;15;No
+35849;Netherlands;United Kingdom;Enforcer;AALS;Ships;2001;No;1;No;2007;No;New;96.0000;96.0000;96;Yes
+35849;Netherlands;United Kingdom;Enforcer;AALS;Ships;2001;No;1;No;2006;No;New;96.0000;96.0000;96;Yes
+31453;Netherlands;United Kingdom;Enforcer;AALS;Ships;2000;No;1;No;2007;No;New;96.0000;96.0000;96;Yes
+31453;Netherlands;United Kingdom;Enforcer;AALS;Ships;2000;No;1;No;2006;No;New;96.0000;96.0000;96;Yes
+19646;Netherlands;United Kingdom;LW-08;Air search radar;Sensors;1967;Yes;3;Yes;1985;Yes;New;9.5000;9.5000;28.5;Yes
+19646;Netherlands;United Kingdom;LW-08;Air search radar;Sensors;1967;Yes;1;Yes;1983;Yes;New;9.5000;9.5000;9.5;Yes
+19646;Netherlands;United Kingdom;LW-08;Air search radar;Sensors;1967;Yes;2;Yes;1982;Yes;New;9.5000;9.5000;19;Yes
+19646;Netherlands;United Kingdom;LW-08;Air search radar;Sensors;1967;Yes;1;Yes;1981;Yes;New;9.5000;9.5000;9.5;Yes
+19646;Netherlands;United Kingdom;LW-08;Air search radar;Sensors;1967;Yes;1;Yes;1980;Yes;New;9.5000;9.5000;9.5;Yes
+19646;Netherlands;United Kingdom;LW-08;Air search radar;Sensors;1967;Yes;2;Yes;1979;Yes;New;9.5000;9.5000;19;Yes
+19646;Netherlands;United Kingdom;LW-08;Air search radar;Sensors;1967;Yes;1;Yes;1978;Yes;New;9.5000;9.5000;9.5;Yes
+19646;Netherlands;United Kingdom;LW-08;Air search radar;Sensors;1967;Yes;2;Yes;1976;Yes;New;9.5000;9.5000;19;Yes
+19646;Netherlands;United Kingdom;LW-08;Air search radar;Sensors;1967;Yes;1;Yes;1975;Yes;New;9.5000;9.5000;9.5;Yes
+19646;Netherlands;United Kingdom;LW-08;Air search radar;Sensors;1967;Yes;1;Yes;1972;Yes;New;9.5000;9.5000;9.5;Yes
+35876;Netherlands;Uruguay;Bell-212/UH-1N;Helicopter;Aircraft;2004;No;2;No;2005;No;Second hand;3.7000;1.48;2.96;No
+28466;Netherlands;Venezuela;Flycatcher Mk-2;Fire control radar;Sensors;1999;No;1;Yes;2006;No;New;5.5000;5.5000;5.5;No
+28466;Netherlands;Venezuela;Flycatcher Mk-2;Fire control radar;Sensors;1999;No;2;Yes;2005;Yes;New;5.5000;5.5000;11;No
+25396;Netherlands;Venezuela;Reporter;Air search radar;Sensors;1997;No;2;Yes;1999;Yes;New;2.5000;2.5000;5;No
+20311;Netherlands;Venezuela;NF-5A;FGA aircraft;Aircraft;1988;No;7;No;1991;No;Second hand but modernized;8.5000;5.61;39.27;No
+19544;Netherlands;Venezuela;Flycatcher;Fire control radar;Sensors;1980;Yes;6;Yes;1983;Yes;New;5.0000;5.0000;30;No
+19544;Netherlands;Venezuela;Flycatcher;Fire control radar;Sensors;1980;Yes;6;Yes;1982;Yes;New;5.0000;5.0000;30;No
+19544;Netherlands;Venezuela;Flycatcher;Fire control radar;Sensors;1980;Yes;6;Yes;1981;Yes;New;5.0000;5.0000;30;No
+40129;Netherlands;Venezuela;MIRADOR;EO search/fire control;Sensors;1997;No;8;Yes;2001;Yes;New;2.5000;2.5000;20;No
+40129;Netherlands;Venezuela;MIRADOR;EO search/fire control;Sensors;1997;No;9;Yes;2000;Yes;New;2.5000;2.5000;22.5;No
+40129;Netherlands;Venezuela;MIRADOR;EO search/fire control;Sensors;1997;No;8;Yes;1999;No;New;2.5000;2.5000;20;No
+39228;Netherlands;Venezuela;MIRADOR;EO search/fire control;Sensors;2006;No;1;No;2012;No;New;2.5000;2.5000;2.5;No
+39228;Netherlands;Venezuela;MIRADOR;EO search/fire control;Sensors;2006;No;1;No;2010;No;New;2.5000;2.5000;2.5;No
+39228;Netherlands;Venezuela;MIRADOR;EO search/fire control;Sensors;2006;No;1;No;2009;No;New;2.5000;2.5000;2.5;No
+39228;Netherlands;Venezuela;MIRADOR;EO search/fire control;Sensors;2006;No;4;No;2011;No;New;2.5000;2.5000;10;No
+39227;Netherlands;Venezuela;Scout;Sea search radar;Sensors;2006;No;1;No;2010;No;New;1.0000;1.0000;1;No
+39227;Netherlands;Venezuela;Scout;Sea search radar;Sensors;2006;No;1;No;2009;No;New;1.0000;1.0000;1;No
+39227;Netherlands;Venezuela;Scout;Sea search radar;Sensors;2006;No;4;No;2011;No;New;1.0000;1.0000;4;No
+39227;Netherlands;Venezuela;Scout;Sea search radar;Sensors;2006;No;1;No;2012;No;New;1.0000;1.0000;1;No
+39226;Netherlands;Venezuela;STING;Fire control radar;Sensors;2006;No;1;No;2010;No;New;4.7500;4.7500;4.75;No
+39226;Netherlands;Venezuela;STING;Fire control radar;Sensors;2006;No;1;No;2009;No;New;4.7500;4.7500;4.75;No
+39226;Netherlands;Venezuela;STING;Fire control radar;Sensors;2006;No;1;No;2012;No;New;4.7500;4.7500;4.75;No
+39226;Netherlands;Venezuela;STING;Fire control radar;Sensors;2006;No;4;No;2011;No;New;4.7500;4.7500;19;No
+39225;Netherlands;Venezuela;SMART;Air search radar;Sensors;2006;No;1;No;2012;No;New;12.5000;12.5000;12.5;No
+39225;Netherlands;Venezuela;SMART;Air search radar;Sensors;2006;No;3;No;2011;No;New;12.5000;12.5000;37.5;No
+39224;Netherlands;Venezuela;Variant;Air/sea search radar;Sensors;2006;No;1;No;2010;No;New;4.7500;4.7500;4.75;No
+39224;Netherlands;Venezuela;Variant;Air/sea search radar;Sensors;2006;No;1;No;2011;No;New;4.7500;4.7500;4.75;No
+39224;Netherlands;Venezuela;Variant;Air/sea search radar;Sensors;2006;No;1;No;2009;No;New;4.7500;4.7500;4.75;No
+2055;Netherlands;Algeria;F-27 Friendship;Transport aircraft;Aircraft;1974;No;6;Yes;1976;No;New;8.5000;8.5000;51;No
+825;Netherlands;Algeria;F-27 Friendship;Transport aircraft;Aircraft;1976;No;1;Yes;1979;Yes;New;6.7000;6.7000;6.7;No
+825;Netherlands;Algeria;F-27 Friendship;Transport aircraft;Aircraft;1976;No;2;Yes;1978;Yes;New;6.7000;6.7000;13.4;No
+825;Netherlands;Algeria;F-27 Friendship;Transport aircraft;Aircraft;1976;No;2;Yes;1977;Yes;New;6.7000;6.7000;13.4;No
+823;Netherlands;Algeria;F-28 Fellowship;Transport aircraft;Aircraft;1978;No;2;No;1979;Yes;New;22.5000;22.5000;45;No
+32508;Netherlands;Argentina;WM-20;Fire control radar;Sensors;1978;Yes;1;No;1984;No;New;6.0000;6.0000;6;No
+32508;Netherlands;Argentina;WM-20;Fire control radar;Sensors;1978;Yes;3;No;1983;No;New;6.0000;6.0000;18;No
+32507;Netherlands;Argentina;ZW-06;Sea search radar;Sensors;1978;Yes;1;No;1984;No;New;1.0000;1.0000;1;No
+32507;Netherlands;Argentina;ZW-06;Sea search radar;Sensors;1978;Yes;3;No;1983;No;New;1.0000;1.0000;3;No
+32506;Netherlands;Argentina;LIROD;Fire control radar;Sensors;1978;Yes;2;No;1984;No;New;2.5000;2.5000;5;No
+32506;Netherlands;Argentina;LIROD;Fire control radar;Sensors;1978;Yes;6;No;1983;No;New;2.5000;2.5000;15;No
+24975;Netherlands;Argentina;Flycatcher;Fire control radar;Sensors;1978;Yes;1;Yes;1980;Yes;New;5.0000;5.0000;5;No
+24975;Netherlands;Argentina;Flycatcher;Fire control radar;Sensors;1978;Yes;1;Yes;1979;Yes;New;5.0000;5.0000;5;No
+22754;Netherlands;Argentina;WM-20;Fire control radar;Sensors;1970;Yes;2;No;1974;No;New;6.0000;6.0000;12;No
+21248;Netherlands;Argentina;DA-08;Air search radar;Sensors;1982;No;1;No;1983;No;New;9.0000;9.0000;9;No
+21247;Netherlands;Argentina;DA-08;Air search radar;Sensors;1978;No;1;No;1984;No;New;9.0000;9.0000;9;No
+21247;Netherlands;Argentina;DA-08;Air search radar;Sensors;1978;No;3;No;1983;No;New;9.0000;9.0000;27;No
+21137;Netherlands;Argentina;DA-05;Air search radar;Sensors;1979;Yes;1;No;2004;No;New;6.5000;6.5000;6.5;No
+21137;Netherlands;Argentina;DA-05;Air search radar;Sensors;1979;Yes;1;No;2000;No;New;6.5000;6.5000;6.5;No
+21137;Netherlands;Argentina;DA-05;Air search radar;Sensors;1979;Yes;1;No;1990;No;New;6.5000;6.5000;6.5;No
+21137;Netherlands;Argentina;DA-05;Air search radar;Sensors;1979;Yes;1;No;1987;No;New;6.5000;6.5000;6.5;No
+21137;Netherlands;Argentina;DA-05;Air search radar;Sensors;1979;Yes;1;No;1986;No;New;6.5000;6.5000;6.5;No
+21137;Netherlands;Argentina;DA-05;Air search radar;Sensors;1979;Yes;1;No;1985;No;New;6.5000;6.5000;6.5;No
+21136;Netherlands;Argentina;WM-20;Fire control radar;Sensors;1979;Yes;1;No;2004;No;New;6.0000;6.0000;6;No
+21136;Netherlands;Argentina;WM-20;Fire control radar;Sensors;1979;Yes;1;No;2000;No;New;6.0000;6.0000;6;No
+21136;Netherlands;Argentina;WM-20;Fire control radar;Sensors;1979;Yes;1;No;1990;No;New;6.0000;6.0000;6;No
+21136;Netherlands;Argentina;WM-20;Fire control radar;Sensors;1979;Yes;1;No;1987;No;New;6.0000;6.0000;6;No
+21136;Netherlands;Argentina;WM-20;Fire control radar;Sensors;1979;Yes;1;No;1986;No;New;6.0000;6.0000;6;No
+21136;Netherlands;Argentina;WM-20;Fire control radar;Sensors;1979;Yes;1;No;1985;No;New;6.0000;6.0000;6;No
+21070;Netherlands;Argentina;STIR;Fire control radar;Sensors;1978;No;1;No;1984;No;New;4.5000;4.5000;4.5;No
+21070;Netherlands;Argentina;STIR;Fire control radar;Sensors;1978;No;3;No;1983;No;New;4.5000;4.5000;13.5;No
+21069;Netherlands;Argentina;LW-08;Air search radar;Sensors;1982;Yes;1;No;1983;No;New;9.5000;9.5000;9.5;No
+14379;Netherlands;Argentina;Doorman;Aircraft carrier;Ships;1968;No;1;No;1968;No;Second hand but modernized;400.0000;264;264;No
+1264;Netherlands;Argentina;F-28 Fellowship;Transport aircraft;Aircraft;1976;No;5;No;1978;No;New;22.5000;22.5000;112.5;No
+3161;Netherlands;Argentina;F-27 Friendship;Transport aircraft;Aircraft;1980;Yes;2;No;1981;No;New;6.7000;6.7000;13.4;No
+2169;Netherlands;Argentina;F-27 Friendship;Transport aircraft;Aircraft;1968;No;8;No;1969;No;New;6.7000;6.7000;53.6;No
+2165;Netherlands;Argentina;F-27 Friendship;Transport aircraft;Aircraft;1971;No;2;No;1971;No;New;8.5000;8.5000;17;No
+1400;Netherlands;Argentina;F-27 Friendship;Transport aircraft;Aircraft;1979;Yes;2;Yes;1979;Yes;New;6.7000;6.7000;13.4;No
+2183;Netherlands;Argentina;F-27 Friendship;Transport aircraft;Aircraft;1967;Yes;2;No;1968;Yes;New;6.7000;6.7000;13.4;No
+35789;Netherlands;Egypt;AIFV;IFV;Armoured vehicles;2004;No;70;Yes;2007;No;Second hand;0.9000;0.36;25.2;No
+35789;Netherlands;Egypt;AIFV;IFV;Armoured vehicles;2004;No;72;Yes;2008;Yes;Second hand;0.9000;0.36;25.92;No
+35789;Netherlands;Egypt;AIFV;IFV;Armoured vehicles;2004;No;95;Yes;2006;No;Second hand;0.9000;0.36;34.2;No
+31373;Netherlands;Egypt;STING;Fire control radar;Sensors;2006;Yes;1;Yes;2013;No;New;4.7500;4.7500;4.75;No
+30222;Netherlands;Egypt;AIFV-TOW;Tank destroyer;Armoured vehicles;1994;No;210;Yes;1996;No;Second hand;0.9000;0.36;75.6;No
+30221;Netherlands;Egypt;AIFV-APC;APC;Armoured vehicles;1994;No;79;Yes;1996;No;Second hand;0.3000;0.12;9.48;No
+24870;Netherlands;Egypt;ZW-06;Sea search radar;Sensors;1982;No;2;No;1984;No;New;1.0000;1.0000;2;No
+23334;Netherlands;Egypt;M-113;APC;Armoured vehicles;1994;No;12;Yes;1997;No;Second hand;0.2500;0.1;1.2;No
+22985;Netherlands;Egypt;AIFV;IFV;Armoured vehicles;1994;No;9;No;1997;No;Second hand;0.9000;0.36;3.24;No
+22985;Netherlands;Egypt;AIFV;IFV;Armoured vehicles;1994;No;301;No;1996;No;Second hand;0.9000;0.36;108.36;No
+19983;Netherlands;Egypt;DA-05;Air search radar;Sensors;1982;No;2;No;1984;No;New;6.5000;6.5000;13;No
+18118;Netherlands;Egypt;WM-20;Fire control radar;Sensors;1982;No;2;No;1984;No;New;6.0000;6.0000;12;No
+54084;Netherlands;Egypt;AIFV-TOW;Tank destroyer;Armoured vehicles;2004;No;90;No;2007;No;Second hand;0.9000;0.36;32.4;No
+54083;Netherlands;Egypt;AIFV-APC;APC;Armoured vehicles;2004;No;57;Yes;2007;No;Second hand;0.3000;0.12;6.84;No
+54083;Netherlands;Egypt;AIFV-APC;APC;Armoured vehicles;2004;No;48;Yes;2006;No;Second hand;0.3000;0.12;5.76;No
+39757;Netherlands;Egypt;BGM-71 TOW;Anti-tank missile;Missiles;2006;Yes;555;Yes;2007;Yes;New;0.0100;0.0100;5.55;No
+39698;Netherlands;Egypt;MO-120-RT 120mm;Mortar;Artillery;2004;Yes;48;No;2006;No;Second hand;0.1000;0.04;1.92;No
+35796;Netherlands;France;SMART-L;Air/sea search radar;Sensors;2001;Yes;2;Yes;2010;No;New;15.0000;15.0000;30;No
+17780;Netherlands;France;Atlantic;ASW aircraft;Aircraft;1985;No;6;No;1986;No;Second hand;30.0000;12;72;No
+55596;Netherlands;France;SMART;Air search radar;Sensors;2010;Yes;1;No;2012;No;New;12.5000;12.5000;12.5;No
+29568;Netherlands;Honduras;T-33A Shooting Star;Trainer aircraft;Aircraft;1966;Yes;1;No;1966;Yes;Second hand;2.5000;1;1;No
+53755;Netherlands;Honduras;Stan Patrol-4207;Patrol craft;Ships;2012;No;2;Yes;2013;No;New;9.8000;9.8000;19.6;No
+25840;Netherlands;Morocco;ZW-06;Sea search radar;Sensors;1977;No;1;No;1983;No;New;1.0000;1.0000;1;No
+25840;Netherlands;Morocco;ZW-06;Sea search radar;Sensors;1977;No;2;No;1982;No;New;1.0000;1.0000;2;No
+25840;Netherlands;Morocco;ZW-06;Sea search radar;Sensors;1977;No;2;No;1981;No;New;1.0000;1.0000;2;No
+21475;Netherlands;Morocco;DA-05;Air search radar;Sensors;1977;No;1;No;1983;No;New;6.5000;6.5000;6.5;No
+21474;Netherlands;Morocco;WM-20;Fire control radar;Sensors;1977;Yes;2;Yes;1983;No;New;6.0000;6.0000;12;No
+21474;Netherlands;Morocco;WM-20;Fire control radar;Sensors;1977;Yes;2;Yes;1982;No;New;6.0000;6.0000;12;No
+21474;Netherlands;Morocco;WM-20;Fire control radar;Sensors;1977;Yes;2;Yes;1981;No;New;6.0000;6.0000;12;No
+54389;Netherlands;Morocco;SIGMA-105;Frigate;Ships;2008;No;1;No;2012;No;New;163.5000;163.5000;163.5;No
+40339;Netherlands;Morocco;SIGMA-90;Frigate;Ships;2008;No;1;No;2012;No;New;148.5000;148.5000;148.5;No
+40339;Netherlands;Morocco;SIGMA-90;Frigate;Ships;2008;No;1;No;2011;No;New;148.5000;148.5000;148.5;No
+24796;Netherlands;Oman;Al Sultana;Cargo ship;Ships;1974;Yes;1;No;1975;No;New;13.5000;13.5000;13.5;No
+22500;Netherlands;Oman;STING;Fire control radar;Sensors;1992;Yes;1;No;1997;No;New;4.7500;4.7500;4.75;No
+22500;Netherlands;Oman;STING;Fire control radar;Sensors;1992;Yes;1;No;1996;No;New;4.7500;4.7500;4.75;No
+21011;Netherlands;Oman;MW-08;Air search radar;Sensors;1992;No;1;No;1997;No;New;6.0000;6.0000;6;No
+21011;Netherlands;Oman;MW-08;Air search radar;Sensors;1992;No;1;No;1996;No;New;6.0000;6.0000;6;No
+14381;Netherlands;Oman;Ton;Minesweeper;Ships;1974;No;2;No;1974;No;Second hand;11.5000;4.6;9.2;No
+39310;Netherlands;Oman;SMART;Air search radar;Sensors;2007;No;2;No;2013;No;New;12.5000;12.5000;25;No
+39309;Netherlands;Oman;STING;Fire control radar;Sensors;2007;No;2;No;2013;No;New;4.7500;4.7500;9.5;No
+26268;Netherlands;Pakistan;SA-316B Alouette-3;Light helicopter;Aircraft;1994;Yes;4;No;1995;No;Second hand;0.9000;0.36;1.44;No
+22919;Netherlands;Pakistan;DA-08;Air search radar;Sensors;1994;No;1;Yes;1998;Yes;New;9.0000;9.0000;9;No
+22919;Netherlands;Pakistan;DA-08;Air search radar;Sensors;1994;No;2;Yes;1997;No;New;9.0000;9.0000;18;No
+21985;Netherlands;Pakistan;Poolster;Support ship;Ships;1994;No;1;No;1994;No;Second hand;135.0000;54;54;No
+22914;Netherlands;Qatar;STING;Fire control radar;Sensors;1992;Yes;1;No;1997;No;New;4.7500;4.7500;4.75;No
+22914;Netherlands;Qatar;STING;Fire control radar;Sensors;1992;Yes;3;No;1996;No;New;4.7500;4.7500;14.25;No
+20805;Netherlands;Qatar;Goalkeeper;CIWS;Air defence systems;1992;No;1;No;1997;No;New;10.0000;10.0000;10;No
+20805;Netherlands;Qatar;Goalkeeper;CIWS;Air defence systems;1992;No;3;No;1996;No;New;10.0000;10.0000;30;No
+35847;Netherlands;Romania;MIM-23B HAWK;SAM;Missiles;2004;No;213;Yes;2005;No;New;0.1700;0.1700;36.21;No
+34234;Netherlands;Romania;I-HAWK;SAM system;Air defence systems;2004;No;8;No;2005;No;Second hand;37.5200;15.008;120.064;No
+38529;Netherlands;Saudi Arabia;WM-20;Fire control radar;Sensors;1977;Yes;1;No;1983;No;New;6.0000;6.0000;6;No
+38529;Netherlands;Saudi Arabia;WM-20;Fire control radar;Sensors;1977;Yes;5;No;1982;No;New;6.0000;6.0000;30;No
+38529;Netherlands;Saudi Arabia;WM-20;Fire control radar;Sensors;1977;Yes;5;No;1981;No;New;6.0000;6.0000;30;No
+38529;Netherlands;Saudi Arabia;WM-20;Fire control radar;Sensors;1977;Yes;2;No;1980;No;New;6.0000;6.0000;12;No
+35100;Netherlands;Saudi Arabia;SQUIRE;Ground surv radar;Sensors;2009;No;50;Yes;2013;Yes;New;0.5000;0.5000;25;No
+35100;Netherlands;Saudi Arabia;SQUIRE;Ground surv radar;Sensors;2009;No;50;Yes;2012;Yes;New;0.5000;0.5000;25;No
+35100;Netherlands;Saudi Arabia;SQUIRE;Ground surv radar;Sensors;2009;No;25;Yes;2011;Yes;New;0.5000;0.5000;12.5;No
+22849;Netherlands;United States;Flycatcher;Fire control radar;Sensors;1984;No;1;No;1984;No;New;5.0000;5.0000;5;No
+51525;Netherlands;United States;Stan Patrol-4708;Patrol craft;Ships;2009;No;3;No;2013;No;New;15.4000;15.4000;46.2;Yes
+51525;Netherlands;United States;Stan Patrol-4708;Patrol craft;Ships;2009;No;2;No;2012;No;New;15.4000;15.4000;30.8;Yes
+51524;Netherlands;United States;Stan Patrol-4708;Patrol craft;Ships;2008;No;1;No;2012;No;New;15.4000;15.4000;15.4;Yes
+21140;Netherlands;United States;WM-20;Fire control radar;Sensors;1973;Yes;2;Yes;1991;No;New;6.0000;6.0000;12;Yes
+21140;Netherlands;United States;WM-20;Fire control radar;Sensors;1973;Yes;9;Yes;1989;No;New;6.0000;6.0000;54;Yes
+21140;Netherlands;United States;WM-20;Fire control radar;Sensors;1973;Yes;5;Yes;1988;No;New;6.0000;6.0000;30;Yes
+21140;Netherlands;United States;WM-20;Fire control radar;Sensors;1973;Yes;5;Yes;1987;No;New;6.0000;6.0000;30;Yes
+21140;Netherlands;United States;WM-20;Fire control radar;Sensors;1973;Yes;3;Yes;1986;No;New;6.0000;6.0000;18;Yes
+21140;Netherlands;United States;WM-20;Fire control radar;Sensors;1973;Yes;5;Yes;1985;No;New;6.0000;6.0000;30;Yes
+21140;Netherlands;United States;WM-20;Fire control radar;Sensors;1973;Yes;11;Yes;1984;No;New;6.0000;6.0000;66;Yes
+21140;Netherlands;United States;WM-20;Fire control radar;Sensors;1973;Yes;12;Yes;1983;No;New;6.0000;6.0000;72;Yes
+21140;Netherlands;United States;WM-20;Fire control radar;Sensors;1973;Yes;10;Yes;1982;No;New;6.0000;6.0000;60;Yes
+21140;Netherlands;United States;WM-20;Fire control radar;Sensors;1973;Yes;10;Yes;1981;No;New;6.0000;6.0000;60;Yes
+21140;Netherlands;United States;WM-20;Fire control radar;Sensors;1973;Yes;5;Yes;1980;No;New;6.0000;6.0000;30;Yes
+21140;Netherlands;United States;WM-20;Fire control radar;Sensors;1973;Yes;3;Yes;1990;Yes;New;6.0000;6.0000;18;Yes
+21140;Netherlands;United States;WM-20;Fire control radar;Sensors;1973;Yes;1;Yes;1979;Yes;New;6.0000;6.0000;6;Yes
+21140;Netherlands;United States;WM-20;Fire control radar;Sensors;1973;Yes;2;Yes;1977;Yes;New;6.0000;6.0000;12;Yes
+21140;Netherlands;United States;WM-20;Fire control radar;Sensors;1973;Yes;1;No;1976;No;New;6.0000;6.0000;6;Yes
+21140;Netherlands;United States;WM-20;Fire control radar;Sensors;1973;Yes;1;Yes;1992;No;New;6.0000;6.0000;6;Yes

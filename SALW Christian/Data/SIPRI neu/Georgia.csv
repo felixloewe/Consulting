@@ -1,0 +1,5 @@
+Deal ID;Seller;Buyer;Designation;Description;Armament category;Order date;Order date is estimate;Numbers delivered;Numbers delivered is estimate;Delivery year;Delivery year is estimate;Status;SIPRI estimate;TIV deal unit;TIV delivery values;Local production
+30345;Georgia;DR Congo;Su-25/Frogfoot-A;Ground attack ac;Aircraft;1999;No;4;No;1999;No;New;12.0000;12.0000;48;No
+30345;Georgia;DR Congo;Su-25/Frogfoot-A;Ground attack ac;Aircraft;1999;No;6;No;2000;No;New;12.0000;12.0000;72;No
+35092;Georgia;Gambia;Su-25/Frogfoot-A;Ground attack ac;Aircraft;2001;No;1;No;2004;Yes;Second hand;12.0000;4.8;4.8;No
+34567;Georgia;Turkmenistan;Su-25/Frogfoot-A;Ground attack ac;Aircraft;2003;Yes;1;No;2004;Yes;New;12.0000;12.0000;12;No
