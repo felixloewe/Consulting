@@ -8,6 +8,8 @@
 \usepackage{hyperref}
 \usepackage{pgf}
 \usepackage{graphicx}
+\usepackage{caption}
+\usepackage{animate}
 
 \beamertemplatenavigationsymbolsempty
 \author[F. Loewe]{
@@ -18,8 +20,8 @@
 \title[Internationaler Waffenhandel]{Internationaler Waffenhandel}
 \subtitle{Die Anwendung neuer Verfahren der statistischen Netzwerkanalyse}
 \institute[\textbf{LMU} -- Insitut für Statistik]{Ludwig-Maximilians-Universität München \\ Institut für Statistik}
-\logo{\pgfimage[width=2cm,height=2cm]{lmu_logo}}
-%\titlegraphic{\includegraphics[width=1cm,height=1cm]{lmu_logo}}			
+%\logo{\pgfimage[width=2cm,height=2cm]{lmu_logo}}
+\titlegraphic{\includegraphics[width=1cm,height=1cm]{lmu_logo}}			
 \date{\today}
 \usetheme{Madrid}
 \colorlet{beamer@blendedblue}{green!40!black}
@@ -40,42 +42,204 @@
 %%%%%%%%%%%%%%%%%%%%%%%%Einleitung%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Einleitung}
 \begin{frame}
+	\begin{center}
+		\huge \textcolor[rgb]{0,0.33,0}{1 Einleitung}
+	\end{center}
+\end{frame}
+
+\begin{frame}
 	\frametitle{Was ist ein Netzwerk?}
+	
+	\begin{center}
+	Netzwerk besteht aus \emph{Akteuren} und ihren \emph{Verbindungen}\\ \vspace{1cm}
+	\end{center}
+		
+	\textbf{Anwendungsgebiete:}
+	\begin{itemize}
+		\item \textbf{Biologie}: DNA
+		\item \textbf{Soziologie}: Freundesnetzwerk, Kollegenkreis
+		\item \textbf{Politik}: internationale Beziehungen
+		\item \textbf{Informatik}: Internet, Facebook, LAN
+	\end{itemize}
+	
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%Einführung in die Graphentheorie%%%%%%%
 \section{Einführung in die Graphentheorie}
 \begin{frame}
+	\begin{center}
+		\huge \textcolor[rgb]{0,0.33,0}{2 Einführung in die Graphentheorie}
+	\end{center}
+\end{frame}
+
+\begin{frame}
 	\frametitle{Einführung in die Graphentheorie}
+	\textbf{Notation:}
+	\begin{itemize}
+		\item \textbf{$G = (V,E)$} ... ein \emph{Graph}
+		\item \textbf{$V = \left\{1,...,N_V\right\}$} ... Menge der \emph{Knoten}
+		\item \textbf{$E = \left\{(i,j)|i,j \in V, i\neq j\right\}$} ... Menge der \emph{Kanten}
+		\item $A \in N_V \times N_V$ ... eine \emph{Nachbarschaftsmatrix} \\ \vspace{0.2cm}
+	$	a_{ij} =
+		\begin{cases}
+		  1 \text{ , } ij \in E \\
+      0 \text{ , } ij  \notin E \\
+   \end{cases}
+	$
+	\end{itemize}
+	\vfill
+	\textbf{Begriffe:}
+	\begin{itemize}
+		\item \emph{gerichteter} vs. \emph{ungerichteter} Graph
+		\item (In-/Out-) \emph{Degree}
+		\item \emph{Dichte}: $den(G) = \frac{|E_G|}{N_V(N_V-1)/2}$
+	\end{itemize}
+
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%Datensituation%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Datensituation}
 \begin{frame}
+	\begin{center}
+		\huge \textcolor[rgb]{0,0.33,0}{3 Datensituation}
+	\end{center}
+\end{frame}
+
+\begin{frame}
 	\frametitle{Datensituation}
+	\begin{center}
+		\emph{NISAT}-Datenbank (Norwegian Initiative on Small Arms Transfers) von \emph{PRIO} (Peace Research Institute Oslo)
+	\end{center}
+	\textbf{Kantenliste mit zusätzlichen Variablen:}
+	\begin{itemize}
+		\item Correlates of War Code
+		\item monetärer Wert in US\$
+		\item Waffentyp
+		\item Datenquelle
+		\item Jahr
+	\end{itemize}
+	\textbf{Dimensionen:}
+	\begin{itemize}
+		\item 239 Länder
+		\item 20 Jahre
+		\item 109522 Waffentransaktionen
+	\end{itemize}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%Deskriptive Analyse%%%%%%%%%%%%%%%%%%%%%%
 \section{Deskriptive Analyse}
+\begin{frame}
+	\begin{center}
+		\huge \textcolor[rgb]{0,0.33,0}{4 Deskriptive Analyse}
+	\end{center}
+\end{frame}
+
 \subsection{Netzwerkmaßzahlen}
 \begin{frame}
 	\frametitle{Netzwerkmaßzahlen}
+	
+	\begin{figure}
+		\centering
+					\includegraphics[width=0.7\textwidth]{Grafiken/ts_descriptives.png}
+					\caption{Netzwerkmaßzahlen des Kleinwaffenhandels \\1992-2011}
+					\label{fig:ts_descriptives}		
+	\end{figure}
+	
 \end{frame}
 \subsection{Degree-Sequenz}
 \begin{frame}
 	\frametitle{Degree-Sequenz}
+	
+	
+	\begin{figure}
+		\centering
+			\includegraphics[width=0.6\textwidth]{Grafiken/ts_degree.png}
+		\caption{In-/ Out- Degree der Länder 1992-2011}
+		\label{fig:ts_degree}
+	\end{figure}
+	
 \end{frame}
 \subsection{zentrale Akteure}
-\begin{frame}
+\begin{frame}[allowframebreaks]
 	\frametitle{zentrale Akteure}
+	
+	\begin{table}[ht]
+
+\centering
+
+\begin{minipage}[t]{0.48\textwidth}
+\tiny
+\centering
+\begin{tabular}{rlr}
+  \hline
+ Platz & Land & Exportvol. [Mrd.]\\ 
+  \hline
+1 & USA & 9.2\\ 
+  2 & Italy & 7.9 \\ 
+  3 & Germany & 4.6 \\ 
+  4 & Brazil & 3.7 \\ 
+  5 & Austria & 2.7 \\ 
+  6 & United Kingdom & 2 \\ 
+  7 & Belgium & 1.8 \\ 
+  8 & Switzerland & 1.5 \\ 
+  9 & Russia & 1.4 \\ 
+  10 & Czech Republic & 1.4 \\ 
+   \hline
+	\end{tabular}
+	\end{minipage}	
+\hfill	
+\begin{minipage}[t]{0.48\textwidth}	
+\centering
+\tiny
+\begin{tabular}{rlr}
+  \hline
+ Platz & Land & Importvol. [Mrd.]\\ 
+  \hline
+1 & USA & 16\\ 
+  2 & Germany & 2.3\\ 
+  3 & France & 2.3\\ 
+  4 & Canada & 1.9 \\ 
+  5 & United Kingdom & 1.8\\  
+  6 & Saudi Arabia & 1.7\\ 
+  7 & Belgium & 1.2\\ 
+  8 & Spain & 1.2\\ 
+  9 & Australia & 1.2\\ 
+  10 & Turkey & 1\\ 
+   \hline
+\end{tabular}
+\end{minipage}
+\caption{Summierte Handelswerte der Top-Exporteure und Top-Importeure des Netzwerkes von 1992 bis 2011}
+\label{tab:tops}
+\end{table}
+
+\framebreak
+
+
+\begin{figure}
+	\includegraphics[width=0.55\textwidth]{Grafiken/ts_tops.png}
+	\label{fig:ts_tops}
+\end{figure}
+
 \end{frame}
 \subsection{Visualisierungen}
 \begin{frame}
 	\frametitle{Visualisierungen}
+	\begin{figure}[ht]
+\centering
+\animategraphics[scale=0.3, controls]{1}{Grafiken/Cont_Ani/cont}{1}{20}
+\caption{Handelsströme zwischen den Kontinenten von 1992-2011}
+\label{fig:cont}
+\end{figure}
 \end{frame}
 
 %%%%%%%%%%%%%%%inferentielle Analyse%%%%%%%%%%%%%%%%%%%%
 \section{Inferentielle Analyse}
+\begin{frame}
+	\begin{center}
+		\huge \textcolor[rgb]{0,0.33,0}{5 Inferientielle Analyse}
+	\end{center}
+\end{frame}
+
 \subsection{ERGM - Exponential Random Graph Model}
 \begin{frame}
 	\frametitle{ERGM - Exponential Random Graph Model}
@@ -99,6 +263,12 @@
 
 %%%%%%%%%%%%%%%%Fazit%%%%%%%%%%%%%%%%
 \section{Fazit}
+\begin{frame}
+	\begin{center}
+		\huge \textcolor[rgb]{0,0.33,0}{6 Fazit}
+	\end{center}
+\end{frame}
+
 \begin{frame}
 	\frametitle{Fazit}
 \end{frame}
