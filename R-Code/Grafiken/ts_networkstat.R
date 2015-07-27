@@ -23,7 +23,7 @@ valmil_ts <- sapply(GraphYear, function(Graph) sum(E(Graph)$ValueMil))
 
 windows(height = 8, width = 12)
 
-par(mfrow = c(2,2), oma = c(0,0,0,0), cex = 1.2)
+par(mfrow = c(2,2), oma = c(0,0,0,0), cex = 1.2, mar = c(4,3,2,1))
 plot(ts(valmil_ts, start = 1992),
      lwd = 2,
      type = "o",
