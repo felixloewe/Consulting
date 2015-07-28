@@ -11,8 +11,8 @@
 \contentsline {section}{\numberline {2.1}Degree Sequenz}{8}{section.2.1}
 \contentsline {section}{\numberline {2.2}Handelswerte}{10}{section.2.2}
 \contentsline {section}{\numberline {2.3}Top-Akteure}{10}{section.2.3}
-\contentsline {section}{\numberline {2.4}Netzwerkma\IeC {\ss }zahlen}{13}{section.2.4}
-\contentsline {section}{\numberline {2.5}Visualisierungen}{15}{section.2.5}
+\contentsline {section}{\numberline {2.4}Netzwerkma\IeC {\ss }zahlen}{12}{section.2.4}
+\contentsline {section}{\numberline {2.5}Visualisierungen}{14}{section.2.5}
 \contentsline {chapter}{\numberline {3}Exponential Random Graph Model}{18}{chapter.3}
 \contentsline {section}{\numberline {3.1}Definition des Modells}{18}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Simulation von Zufallsgraphen}{19}{subsection.3.1.1}

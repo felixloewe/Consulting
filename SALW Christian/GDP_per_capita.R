@@ -1,4 +1,4 @@
-GDPc <- read.csv("C:/Users/Landsberg/Desktop/Uni/Masterarbeit/GDPc.csv")
+GDPc <- read.csv("SALW CHristian/Data/GDPc.csv")
 
 GDPc<-GDPc[-(3:170),]
 
@@ -204,7 +204,7 @@ GDP[,64]<-GDP[,61]
 rm(GDPc, G1, d,i,G)
 
 # inlcude missing data from first
-GDP2 <- read.csv("C:/Users/Landsberg/Desktop/Uni/Masterarbeit/GDP2.csv")
+GDP2 <- read.csv("SALW Christian/Data/GDP2.csv")
 
 # Afghansitan
 GDP2<-GDP2[,-(2:4)]

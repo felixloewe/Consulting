@@ -12,7 +12,7 @@ library(network)
 library(ergm)
 
 # NISAT-Database MasterTableFinal einlesen (109.000 Zeilen = 109.000 Exporte)
-MADdata <-read.csv("Data/MAD_Data_1992_2011.csv")
+MADdata <-read.csv("SALW Christian/Data/MAD_Data_1992_2011.csv")
 
 
 
@@ -42,8 +42,8 @@ for (i in 1:20){
 
 
 for (i in 1:109522) {
-  s<-which (MADdata[i,1]==laenderliste$COW2)
-  r<-which (MADdata[i,2]==laenderliste$COW2)
+  s<-which (MADdata[i,1]==laenderliste$COW)
+  r<-which (MADdata[i,2]==laenderliste$COW)
   y<-MADdata[i,5]
   v<-MADdata[i,10]
   salw[[y-1991]][s,r]<-salw[[y-1991]][s,r]+v

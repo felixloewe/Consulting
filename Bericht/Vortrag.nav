@@ -1,4 +1,4 @@
-\beamer@endinputifotherversion {3.33pt}
+\beamer@endinputifotherversion {3.26pt}
 \headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
 \headcommand {\beamer@framepages {1}{1}}
 \headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
@@ -40,38 +40,40 @@
 \headcommand {\beamer@framepages {12}{12}}
 \headcommand {\slideentry {4}{3}{1}{12/13}{Zentrale Akteure}{0}}
 \headcommand {\beamer@framepages {12}{13}}
-\headcommand {\beamer@subsectionentry {0}{4}{4}{14}{Visualisierungen}}\headcommand {\beamer@subsectionpages {12}{13}}
-\headcommand {\slideentry {4}{4}{1}{14/14}{Visualisierungen}{0}}
-\headcommand {\beamer@framepages {14}{14}}
-\headcommand {\sectionentry {5}{Inferentielle Analyse}{15}{Inferentielle Analyse}{0}}
-\headcommand {\beamer@sectionpages {9}{14}}
-\headcommand {\beamer@subsectionpages {14}{14}}
-\headcommand {\slideentry {5}{0}{2}{15/15}{}{0}}
+\headcommand {\slideentry {4}{3}{1}{12/14}{Zentrale Akteure}{0}}
+\headcommand {\beamer@framepages {12}{14}}
+\headcommand {\beamer@subsectionentry {0}{4}{4}{15}{Visualisierungen}}\headcommand {\beamer@subsectionpages {12}{14}}
+\headcommand {\slideentry {4}{4}{1}{15/15}{Visualisierungen}{0}}
 \headcommand {\beamer@framepages {15}{15}}
-\headcommand {\beamer@subsectionentry {0}{5}{1}{16}{ERGM - Exponential Random Graph Model}}\headcommand {\beamer@subsectionpages {15}{15}}
-\headcommand {\slideentry {5}{1}{1}{16/16}{ERGM - Exponential Random Graph Model}{0}}
+\headcommand {\sectionentry {5}{Inferentielle Analyse}{16}{Inferentielle Analyse}{0}}
+\headcommand {\beamer@sectionpages {9}{15}}
+\headcommand {\beamer@subsectionpages {15}{15}}
+\headcommand {\slideentry {5}{0}{2}{16/16}{}{0}}
 \headcommand {\beamer@framepages {16}{16}}
-\headcommand {\beamer@subsubsectionentry {0}{5}{1}{1}{17}{Simulation von Zufallsgraphen}}
-\headcommand {\slideentry {5}{1}{2}{17/17}{ERGM - Exponential Random Graph Model}{0}}
+\headcommand {\beamer@subsectionentry {0}{5}{1}{17}{ERGM - Exponential Random Graph Model}}\headcommand {\beamer@subsectionpages {16}{16}}
+\headcommand {\slideentry {5}{1}{1}{17/17}{ERGM - Exponential Random Graph Model}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\beamer@subsubsectionentry {0}{5}{1}{2}{18}{Sch\"atzung der Modellparameter}}
-\headcommand {\slideentry {5}{1}{3}{18/18}{ERGM - Exponential Random Graph Model}{0}}
+\headcommand {\beamer@subsubsectionentry {0}{5}{1}{1}{18}{Simulation von Zufallsgraphen}}
+\headcommand {\slideentry {5}{1}{2}{18/18}{ERGM - Exponential Random Graph Model}{0}}
 \headcommand {\beamer@framepages {18}{18}}
-\headcommand {\beamer@subsectionentry {0}{5}{2}{19}{Anwendung des ERGM}}\headcommand {\beamer@subsectionpages {16}{18}}
-\headcommand {\slideentry {5}{2}{1}{19/19}{Anwendung des ERGM}{0}}
+\headcommand {\beamer@subsubsectionentry {0}{5}{1}{2}{19}{Sch\"atzung der Modellparameter}}
+\headcommand {\slideentry {5}{1}{3}{19/19}{ERGM - Exponential Random Graph Model}{0}}
 \headcommand {\beamer@framepages {19}{19}}
-\headcommand {\beamer@subsectionentry {0}{5}{3}{20}{Vergleich mit Gro\IeC {\ss }waffenhandel}}\headcommand {\beamer@subsectionpages {19}{19}}
-\headcommand {\slideentry {5}{3}{1}{20/20}{Vergleich mit Gro\IeC {\ss }waffenhandel}{0}}
+\headcommand {\beamer@subsectionentry {0}{5}{2}{20}{Anwendung des ERGM}}\headcommand {\beamer@subsectionpages {17}{19}}
+\headcommand {\slideentry {5}{2}{1}{20/20}{Anwendung des ERGM}{0}}
 \headcommand {\beamer@framepages {20}{20}}
-\headcommand {\sectionentry {6}{Fazit}{21}{Fazit}{0}}
-\headcommand {\beamer@sectionpages {15}{20}}
-\headcommand {\beamer@subsectionpages {20}{20}}
-\headcommand {\slideentry {6}{0}{2}{21/21}{}{0}}
+\headcommand {\beamer@subsectionentry {0}{5}{3}{21}{Vergleich mit Gro\IeC {\ss }waffenhandel}}\headcommand {\beamer@subsectionpages {20}{20}}
+\headcommand {\slideentry {5}{3}{1}{21/21}{Vergleich mit Gro\IeC {\ss }waffenhandel}{0}}
 \headcommand {\beamer@framepages {21}{21}}
-\headcommand {\slideentry {6}{0}{3}{22/22}{}{0}}
+\headcommand {\sectionentry {6}{Fazit}{22}{Fazit}{0}}
+\headcommand {\beamer@sectionpages {16}{21}}
+\headcommand {\beamer@subsectionpages {21}{21}}
+\headcommand {\slideentry {6}{0}{2}{22/22}{}{0}}
 \headcommand {\beamer@framepages {22}{22}}
-\headcommand {\beamer@partpages {1}{22}}
-\headcommand {\beamer@subsectionpages {21}{22}}
-\headcommand {\beamer@sectionpages {21}{22}}
-\headcommand {\beamer@documentpages {22}}
-\headcommand {\def \inserttotalframenumber {22}}
+\headcommand {\slideentry {6}{0}{3}{23/23}{}{0}}
+\headcommand {\beamer@framepages {23}{23}}
+\headcommand {\beamer@partpages {1}{23}}
+\headcommand {\beamer@subsectionpages {22}{23}}
+\headcommand {\beamer@sectionpages {22}{23}}
+\headcommand {\beamer@documentpages {23}}
+\headcommand {\def \inserttotalframenumber {23}}

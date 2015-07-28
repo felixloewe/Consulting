@@ -12,3 +12,4 @@ GraphYearSimple[[i]] <- simplify(GraphYear[[i]],
                                                        alliance = "first", polity = "first", directcont = "first", "ignore" ))
 }
 
+GDPYear[[1]]
