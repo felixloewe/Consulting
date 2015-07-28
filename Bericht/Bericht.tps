@@ -11,14 +11,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1123
-NormalPos.bottom=555
+NormalPos.right=1004
+NormalPos.bottom=255
 Class=LaTeXView
 Document=Vortrag.tex
 
 [Frame0_View0,0]
-TopLine=201
-Cursor=5426
+TopLine=285
+Cursor=7174
 
 [Frame1]
 Flags=0
@@ -29,13 +29,13 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1123
-NormalPos.bottom=555
+NormalPos.right=1004
+NormalPos.bottom=255
 Class=LaTeXView
 Document=Bericht.tex
 
 [Frame1_View0,0]
-TopLine=359
+TopLine=485
 Cursor=21777
 
 [Frame2]
@@ -47,8 +47,8 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1123
-NormalPos.bottom=555
+NormalPos.right=1004
+NormalPos.bottom=255
 Class=BibTeXView
 Document=literatur.bib
 
@@ -65,8 +65,8 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1123
-NormalPos.bottom=555
+NormalPos.right=1004
+NormalPos.bottom=255
 Class=LaTeXView
 Document=..\LaTeX1.tex
 

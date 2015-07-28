@@ -1,10 +1,10 @@
 #SALW readin
 
-install.packages("network")
-install.packages("stringr")
-install.packages("igraph")
-install.packages("countrycode")
-install.packages("ergm")
+# install.packages("network")
+# install.packages("stringr")
+# install.packages("igraph")
+# install.packages("countrycode")
+# install.packages("ergm")
 library(countrycode)
 library(stringr)
 library(igraph)

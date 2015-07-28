@@ -42,14 +42,14 @@ Year <- 1992:2011
 # Plot Aufruf
 
 
-
+ exp_names2 <- c("USA", "Italy", "Germany", "Brazil", "Austria")
 windows(width = 9, height = 6)
 
 par(mfrow = c(1,1), mar = c(2,5,3,1))
 
 matplot(export_ts5,
         type = "l",
-        ylim = c(1, 1000), 
+        ylim = c(1, 800), 
         col = 1:5,
         lty = 1:5,
         lwd = 3,
@@ -61,11 +61,13 @@ matplot(export_ts5,
         xaxt = "n"    )        
 axis(1, at = 1:20, labels = Year, las = 1, cex.axis = 1.5)    
 grid(lwd = 1)
-legend("top", top5exp_names, col = 1:5, lty = 1:5, lwd = 3, bg = "white", cex = 1.4)
+legend("topleft", exp_names2, col = 1:5, lty = 1:5, lwd = 3, bg = "white", cex = 1.4, ncol=2)
 
 savePlot("Bericht/Grafiken/ts_topsexp", type = "png")
 
-windows(width = 9, height = 12)
+imp_names2 <- c("USA", "Germany", "France", "Canada", "United Kindom")
+
+windows(width = 15, height = 12)
 
 par(mfrow = c(2,1), mar = c(2,5,3,1))
 matplot(import_ts5,
@@ -82,7 +84,7 @@ matplot(import_ts5,
         xaxt = "n"    )
 axis(1, at = 1:20, labels = Year, las = 1, cex.axis = 1.5)    
 grid(lwd = 1)
-legend("topleft", top5imp_names, col = c(1,3,6,7,8), lty = c(1,3,6,7,8), lwd = 3, bg = "white", cex = 1.4)
+legend("topleft", imp_names2, col = c(1,3,6,7,8), lty = c(1,3,6,7,8), lwd = 3, bg = "white", cex = 1.4, ncol = 2)
 
 
 matplot(import_ts5[,-1],
@@ -101,62 +103,5 @@ matplot(import_ts5[,-1],
 axis(1, at = 1:20, labels = Year, las = 1, cex.axis = 1.5)    
 grid(lwd = 1)
 
-savePlot("Bericht/Grafiken/ts_topsexp", type = "png")
+savePlot("Bericht/Grafiken/ts_topsimp", type = "png")
 
-
-Top5ImportGDP <- GDP[c("United States", "Germany", "France", "Canada", "United Kingdom"),as.character(1992:2011)]
-Top5ExportGDP <- GDP[c("United States", "Italy", "Germany", "Brazil", "Austria"),as.character(1992:2011)]
-
-exportrel_ts5 <- matrix(nrow = 20, ncol = 5)
-importrel_ts5 <- matrix(nrow = 20, ncol = 5)
-for(i in 1:5){
-  for(j in 1:20){
-    exportrel_ts5[j,i] <-  export_ts5[j,i] / Top5ExportGDP[i,j]
-    importrel_ts5[j,i] <-  import_ts5[j,i] / Top5ImportGDP[i,j]    
-  }
-}
-
-
-
-# Plot Aufruf
-
-
-
-windows(width = 15, height = 12)
-
-par(mfrow = c(2,1))
-
-matplot(exportrel_ts5,
-        type = "l",
-        #ylim = c(1, 1000), 
-        col = 1:5,
-        lty = 1:5,
-        lwd = 3,
-        cex.axis = 1.5,
-        cex.lab = 1.5,
-        ylab = "Mil. Dollar",
-        main = "Export-Zeitreihe der 5 Top-Importeure",
-        cex.main = 1.5,
-        xaxt = "n"    )        
-axis(1, at = 1:20, labels = Year, las = 2, cex.axis = 1.5)    
-grid(lwd = 1)
-legend("top", top5exp_names, col = 1:5, lty = 1:5, lwd = 3, bg = "white", cex = 1.4)
-
-matplot(importrel_ts5,
-        type = "l",
-        #ylim = c(1, 2000), 
-        col = c(1,3,6,7,8),
-        lty = c(1,3,6,7,8),
-        lwd = 3,
-        cex.axis = 1.5,
-        cex.lab = 1.5,
-        ylab = "Mil. Dollar",
-        main = "Import-Zeitreihe der 5 Top-Importeure",
-        cex.main = 1.5,
-        xaxt = "n"    )
-axis(1, at = 1:20, labels = Year, las = 2, cex.axis = 1.5)    
-grid(lwd = 1)
-legend("top", top5imp_names, col = c(1,3,6,7,8), lty = c(1,3,6,7,8), lwd = 3, bg = "white", cex = 1.4)
-
-
-savePlot("Bericht/Grafiken/ts_tops", type = "png")
