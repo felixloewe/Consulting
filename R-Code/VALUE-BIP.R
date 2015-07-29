@@ -76,24 +76,48 @@ for(y in 1:20){
 
 
 #######plot
+Year <- 1992:2011
 
+windows(width = 17, height = 10)
 
-windows(width = 9, height = 6)
-
-par(mfrow = c(1,1), mar = c(2,5,3,1))
+par(mfrow = c(1,1), mar = c(4,5,1,1))
 
 matplot(imp5,
         type = "l",
-        #ylim = c(1, 1000), 
+        ylim = c(1, 5500), 
         col = 1:5,
         lty = 1:5,
         lwd = 3,
         cex.axis = 1.5,
         cex.lab = 1.5,
-        ylab = "Val/BIP",
-        main = "Export-Zeitreihe der 5 Top-Exporteure",
+        ylab = "Val / GDP per capita",
+        xlab = "Year",
         cex.main = 1.5,
         xaxt = "n"    )        
 axis(1, at = 1:20, labels = Year, las = 1, cex.axis = 1.5)    
 grid(lwd = 1)
-legend("top", names_imp, col = 1:5, lty = 1:5, lwd = 3, bg = "white", cex = 1.4)
+legend("topleft", names_imp, col = 1:5, lty = 1:5, lwd = 3, bg = "white", cex = 1.4, ncol = 2)
+
+savePlot("Bericht/Grafiken/ts_topsimprel", type = "png")
+
+windows(width = 17, height = 10)
+
+par(mfrow = c(1,1), mar = c(4,5,1,1))
+
+matplot(exp5,
+        type = "l",
+        #ylim = c(1, 5500), 
+        col = 1:5,
+        lty = 1:5,
+        lwd = 3,
+        cex.axis = 1.5,
+        cex.lab = 1.5,
+        ylab = "Val / GDP per capita",
+        xlab = "Year",
+        cex.main = 1.5,
+        xaxt = "n"    )        
+axis(1, at = 1:20, labels = Year, las = 1, cex.axis = 1.5)    
+grid(lwd = 1)
+legend("top", names_exp, col = 1:5, lty = 1:5, lwd = 3, bg = "white", cex = 1.4, ncol = 2)
+
+savePlot("Bericht/Grafiken/ts_topsexprel", type = "png")
