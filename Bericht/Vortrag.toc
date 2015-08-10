@@ -12,6 +12,6 @@
 \beamer@subsectionintoc {5}{1}{ERGM - Exponential Random Graph Model}{20}{0}{5}
 \beamer@subsubsectionintoc {5}{1}{1}{Simulation von Zufallsgraphen}{21}{0}{5}
 \beamer@subsubsectionintoc {5}{1}{2}{Sch\"atzung der Modellparameter}{22}{0}{5}
-\beamer@subsectionintoc {5}{2}{Anwendung des ERGM}{23}{0}{5}
-\beamer@subsectionintoc {5}{3}{Vergleich mit Gro\IeC {\ss }waffenhandel}{24}{0}{5}
-\beamer@sectionintoc {6}{Fazit}{25}{0}{6}
+\beamer@subsectionintoc {5}{2}{Anwendung des ERGM}{25}{0}{5}
+\beamer@subsectionintoc {5}{3}{Vergleich mit Gro\IeC {\ss }waffenhandel}{28}{0}{5}
+\beamer@sectionintoc {6}{Fazit}{29}{0}{6}

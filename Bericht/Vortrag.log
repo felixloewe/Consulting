@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.13)  10 AUG 2015 10:46
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.13)  10 AUG 2015 15:29
 entering extended mode
 **Vortrag.tex
 (C:\Users\s10370952\Documents\Consulting\Bericht\Vortrag.tex
@@ -777,42 +777,93 @@ Package: animfp 2009/07/23 fixed point addition for animate.sty
 \@anim@curfield=\count185
 \@anim@begin=\toks44
 \@anim@end=\toks45
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\mh\mathtools.sty"
+Package: mathtools 2013/02/12 v1.13 mathematical typesetting tools
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\mh\mhsetup.sty"
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
 )
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count186
+\l_MT_multwidth_dim=\dimen201
+\origjot=\skip60
+\l_MT_shortvdotswithinadjustabove_dim=\dimen202
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen203
+\l_MT_above_intertext_sep=\dimen204
+\l_MT_below_intertext_sep=\dimen205
+\l_MT_above_shortintertext_sep=\dimen206
+\l_MT_below_shortintertext_sep=\dimen207
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen208
+\lightrulewidth=\dimen209
+\cmidrulewidth=\dimen210
+\belowrulesep=\dimen211
+\belowbottomsep=\dimen212
+\aboverulesep=\dimen213
+\abovetopsep=\dimen214
+\cmidrulesep=\dimen215
+\cmidrulekern=\dimen216
+\defaultaddspace=\dimen217
+\@cmidla=\count187
+\@cmidlb=\count188
+\@aboverulesep=\dimen218
+\@belowrulesep=\dimen219
+\@thisruleclass=\count189
+\@lastruleclass=\count190
+\@thisrulewidth=\dimen220
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype.sty"
+Package: microtype 2010/01/10 v2.4 Micro-typography with pdfTeX (RS)
+\MT@toks=\toks46
+\MT@count=\count191
+LaTeX Info: Redefining \lsstyle on input line 1597.
+LaTeX Info: Redefining \lslig on input line 1597.
+\MT@outer@space=\skip61
+LaTeX Info: Redefining \textls on input line 1605.
+\MT@outer@kern=\dimen221
+LaTeX Info: Redefining \textmicrotypecontext on input line 2156.
+Package microtype Info: Loading configuration file microtype.cfg.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype.cfg"
+File: microtype.cfg 2010/01/10 v2.4 microtype main configuration file (RS)
+))
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 19.
+(hyperref)                removing `\hbox' on input line 23.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hsize' on input line 19.
+(hyperref)                removing `\hsize' on input line 23.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hss' on input line 19.
+(hyperref)                removing `\hss' on input line 23.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 19.
+(hyperref)                removing `\hbox' on input line 23.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hsize' on input line 19.
+(hyperref)                removing `\hsize' on input line 23.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hss' on input line 19.
+(hyperref)                removing `\hss' on input line 23.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 19.
+(hyperref)                removing `\hbox' on input line 23.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hsize' on input line 19.
+(hyperref)                removing `\hsize' on input line 23.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hss' on input line 19.
+(hyperref)                removing `\hss' on input line 23.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\themes\theme\beamerthemeMadrid.sty"
 Package: beamerthemeMadrid 2010/06/17  (rcs-revision d02a7cf4d8ae)
@@ -843,20 +894,20 @@ LaTeX Warning: Label `fig:ts_tops' multiply defined.
 LaTeX Warning: Label `fig:ts_tops' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -894,64 +945,64 @@ LaTeX Font Info:    ... okay on input line 30.
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box56
-Package hyperref Info: Link coloring OFF on input line 30.
+Package hyperref Info: Link coloring OFF on input line 34.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count186
+\c@section@level=\count192
 )
-LaTeX Info: Redefining \ref on input line 30.
-LaTeX Info: Redefining \pageref on input line 30.
-LaTeX Info: Redefining \nameref on input line 30.
+LaTeX Info: Redefining \ref on input line 34.
+LaTeX Info: Redefining \pageref on input line 34.
+LaTeX Info: Redefining \nameref on input line 34.
 
 (C:\Users\s10370952\Documents\Consulting\Bericht\Vortrag.out)
 (C:\Users\s10370952\Documents\Consulting\Bericht\Vortrag.out)
 \@outlinefile=\write5
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 30.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 34.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 30.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 34.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 30.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 30.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 30.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 30.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 30.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 30.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 30.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 30.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 30.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 30.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 30.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 34.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 30.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 34.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 30.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 30.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 30.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 30.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 30.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 30.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 34.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\translator\dicts\translator-basic-dictionary\translator-basic-dictio
 nary-English.dict"
@@ -977,27 +1028,37 @@ Dictionary: translator-numbers-dictionary, Language: English
 ctionary-English.dict"
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 30.
+LaTeX Info: Redefining \includegraphics on input line 34.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+LaTeX Info: Redefining \microtypecontext on input line 34.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
  (C:\Users\s10370952\Documents\Consulting\Bericht\Vortrag.nav)
-Overfull \hbox (16.0pt too wide) in paragraph at lines 35--35
+Overfull \hbox (16.0pt too wide) in paragraph at lines 39--39
  [] 
  []
 
 
-Overfull \hbox (16.0pt too wide) in paragraph at lines 35--35
+Overfull \hbox (16.0pt too wide) in paragraph at lines 39--39
  [] 
  []
 
 
-Overfull \hbox (16.0pt too wide) in paragraph at lines 35--35
+Overfull \hbox (16.0pt too wide) in paragraph at lines 39--39
  [] 
  []
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 35.
+(Font)              size <5> substituted on input line 39.
 
 [1
 
@@ -1011,14 +1072,18 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 ] [5
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 98.
+LaTeX Font Info:    Try loading font information for U+msa on input line 102.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 98.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msa.cfg"
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 102.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg"
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [6
 
 ] [7
@@ -1031,7 +1096,7 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 <Grafiken/ts_descriptives.png, id=174, 982.67125pt x 655.44875pt>
 File: Grafiken/ts_descriptives.png Graphic file (type png)
  <use Grafiken/ts_descriptives.png>
-Package pdftex.def Info: Grafiken/ts_descriptives.png used on input line 148.
+Package pdftex.def Info: Grafiken/ts_descriptives.png used on input line 152.
 (pdftex.def)             Requested size: 273.83728pt x 182.64427pt.
  [10
 
@@ -1039,7 +1104,7 @@ Package pdftex.def Info: Grafiken/ts_descriptives.png used on input line 148.
 <Grafiken/ts_degree.png, id=182, 842.14626pt x 655.44875pt>
 File: Grafiken/ts_degree.png Graphic file (type png)
  <use Grafiken/ts_degree.png>
-Package pdftex.def Info: Grafiken/ts_degree.png used on input line 161.
+Package pdftex.def Info: Grafiken/ts_degree.png used on input line 165.
 (pdftex.def)             Requested size: 239.60567pt x 186.48479pt.
  [11
 
@@ -1048,24 +1113,24 @@ Package pdftex.def Info: Grafiken/ts_degree.png used on input line 161.
 File: Grafiken/ts_topsexp.png Graphic file (type png)
 
 <use Grafiken/ts_topsexp.png>
-Package pdftex.def Info: Grafiken/ts_topsexp.png used on input line 298.
+Package pdftex.def Info: Grafiken/ts_topsexp.png used on input line 302.
 (pdftex.def)             Requested size: 222.48985pt x 148.32428pt.
  <Grafiken/ts_topsimp.png, id=191, 819.06pt x 655.44875pt>
 File: Grafiken/ts_topsimp.png Graphic file (type png)
  <use Grafiken/ts_topsimp.png>
-Package pdftex.def Info: Grafiken/ts_topsimp.png used on input line 298.
+Package pdftex.def Info: Grafiken/ts_topsimp.png used on input line 302.
 (pdftex.def)             Requested size: 222.48985pt x 178.04367pt.
 
 <Grafiken/ts_topsexprel.png, id=192, 1114.1625pt x 655.44875pt>
 File: Grafiken/ts_topsexprel.png Graphic file (type png)
  <use Grafiken/ts_topsexprel.png>
-Package pdftex.def Info: Grafiken/ts_topsexprel.png used on input line 298.
+Package pdftex.def Info: Grafiken/ts_topsexprel.png used on input line 302.
 (pdftex.def)             Requested size: 256.72147pt x 151.02007pt.
 
 <Grafiken/ts_topsimprel.png, id=193, 1114.1625pt x 655.44875pt>
 File: Grafiken/ts_topsimprel.png Graphic file (type png)
  <use Grafiken/ts_topsimprel.png>
-Package pdftex.def Info: Grafiken/ts_topsimprel.png used on input line 298.
+Package pdftex.def Info: Grafiken/ts_topsimprel.png used on input line 302.
 (pdftex.def)             Requested size: 256.72147pt x 151.02007pt.
  [12
 
@@ -1080,7 +1145,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{fig:ts_tops}) 
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.298 \end{frame}
+l.302 \end{frame}
                   <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/ts_topsimp.png>] [15
 
 
@@ -1088,7 +1153,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{tab:tops}) has
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.298 \end{frame}
+l.302 \end{frame}
                  ] [16
 
 
@@ -1097,7 +1162,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{fig:ts_tops}) 
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.298 \end{frame}
+l.302 \end{frame}
                   <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/ts_topsexprel.png>] [17
 
 
@@ -1106,7 +1171,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{fig:ts_tops}) 
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.298 \end{frame}
+l.302 \end{frame}
                   <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/ts_topsimprel.png>] <C:/Users/s10370952/Docu
 ments/Consulting/Bericht/Grafiken/Cont_Ani/cont1.pdf> <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/Cont_Ani
 /cont2.pdf> <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/Cont_Ani/cont3.pdf> <C:/Users/s10370952/Documents/
@@ -1126,56 +1191,56 @@ afiken/Cont_Ani/cont19.pdf> <C:/Users/s10370952/Documents/Consulting/Bericht/Gra
 
 ]
 
-LaTeX Font Warning: Command \LARGE invalid in math mode on input line 335.
+LaTeX Font Warning: Command \LARGE invalid in math mode on input line 339.
 
-LaTeX Font Info:    Calculating math sizes for size <> on input line 335.
+LaTeX Font Info:    Calculating math sizes for size <> on input line 339.
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <> not available
-(Font)              size <5> substituted on input line 335.
+(Font)              size <5> substituted on input line 339.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 335.
+(Font)              size <5> substituted on input line 339.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 335.
+(Font)              size <5> substituted on input line 339.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <> not available
-(Font)              size <5> substituted on input line 335.
+(Font)              size <5> substituted on input line 339.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.7> not available
-(Font)              size <5> substituted on input line 335.
+(Font)              size <5> substituted on input line 339.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.5> not available
-(Font)              size <5> substituted on input line 335.
+(Font)              size <5> substituted on input line 339.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <> not available
-(Font)              size <5> substituted on input line 335.
+(Font)              size <5> substituted on input line 339.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 335.
+(Font)              size <5> substituted on input line 339.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 335.
+(Font)              size <5> substituted on input line 339.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <> not available
-(Font)              size <5> substituted on input line 335.
+(Font)              size <5> substituted on input line 339.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <0.7> not available
-(Font)              size <5> substituted on input line 335.
+(Font)              size <5> substituted on input line 339.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <0.5> not available
-(Font)              size <5> substituted on input line 335.
+(Font)              size <5> substituted on input line 339.
 
 [20
 
@@ -1183,62 +1248,95 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <0.5> not available
 
 ]
 
-LaTeX Font Warning: Command \LARGE invalid in math mode on input line 380.
+LaTeX Font Warning: Command \LARGE invalid in math mode on input line 384.
 
 [22
 
 ] [23
 
-] [24
+]
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
+(Font)              using `OT1/cmss/bx/n' instead on input line 423.
+
+[24
 
 ] [25
 
-] [26
+]
+LaTeX Font Info:    Try loading font information for OML+cmss on input line 494.
+LaTeX Font Info:    No file OMLcmss.fd. on input line 494.
+
+
+LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
+(Font)              using `OML/cmm/m/it' instead
+(Font)              for symbol `textless' on input line 494.
+
+[26
+
+] [27
+
+] [28
+
+] [29
+
+] [30
 
 ]
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 402.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 402.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 515.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 515.
  (C:\Users\s10370952\Documents\Consulting\Bericht\Vortrag.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 402.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 402.
-Package rerunfilecheck Info: File `Vortrag.out' has not changed.
-(rerunfilecheck)             Checksum: 699D6ECB11FEC7BCE41089825338D50F;835.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 515.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 515.
 
+
+Package rerunfilecheck Warning: File `Vortrag.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Vortrag.out':
+(rerunfilecheck)             Before: 6F2D4C3FB1984948B9FAD4D0771FDD85;835
+(rerunfilecheck)             After:  A28D180952F5B7BAB2382012747170BE;835.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.5pt have occurred.
 
 
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 402.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 515.
  ) 
 Here is how much of TeX's memory you used:
- 18386 strings out of 493921
- 341745 string characters out of 3147269
- 443166 words of memory out of 3000000
- 21135 multiletter control sequences out of 15000+200000
- 20579 words of font info for 78 fonts, out of 3000000 for 9000
+ 20342 strings out of 493921
+ 375782 string characters out of 3147269
+ 507313 words of memory out of 3000000
+ 23020 multiletter control sequences out of 15000+200000
+ 21809 words of font info for 92 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  49i,16n,72p,397b,672s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmssi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmssi17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-msy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/symbols/msbm10.pfb>
-Output written on Vortrag.pdf (26 pages, 539055 bytes).
+pdfTeX warning (dest): name{Outline0.5.2.23} has been referenced but does not exist, replaced by a fixed one
+
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mssi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmssi17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
+y6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/symbols/msbm10.pfb>
+Output written on Vortrag.pdf (30 pages, 553099 bytes).
 PDF statistics:
- 620 PDF objects out of 1000 (max. 8388607)
- 75 named destinations out of 1000 (max. 500000)
- 631 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 651 PDF objects out of 1000 (max. 8388607)
+ 88 named destinations out of 1000 (max. 500000)
+ 22135 words of extra memory for PDF output out of 24883 (max. 10000000)
 

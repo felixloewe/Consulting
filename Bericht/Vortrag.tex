@@ -10,6 +10,10 @@
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage{animate}
+\usepackage{amsmath, amsthm, amssymb, amsbsy}
+\usepackage{mathtools}
+\usepackage{booktabs}
+\usepackage{microtype}
 
 \beamertemplatenavigationsymbolsempty
 \author[F. Loewe]{
@@ -108,7 +112,7 @@
 \begin{frame}
 	\frametitle{Datensituation}
 	\begin{center}
-		\emph{NISAT}-Datenbank (Norwegian Initiative on Small Arms Transfers) von \emph{PRIO} (Peace Research Institute Oslo)
+		\emph{NISAT}-Datenbank (Norwegian Initiative on Small Arms Transfers)\\ von \emph{PRIO} (Peace Research Institute Oslo)
 	\end{center}
 	\textbf{Kantenliste mit zusätzlichen Variablen:}
 	\begin{itemize}
@@ -370,7 +374,7 @@ Ziel: Zentrierung der Statitiken der simulierten Netzwerke über denen des beobac
 	
 	\item \begin{enumerate}
 		\item Ziehung einer großen Stichprobe von Graphen auf Basis eines vorläufigen Parametervektors $\tilde{\theta}$.
-		\item Benutzung gewichteter Stichprobendurchschnitt der Statistiken.
+		\item Benutzung gewichteter Stichprobendurchschnitte der Statistiken.
 		\item Erzeugen einer Sequenz von Parametern $\widetilde{\theta},\theta^{(1)}, \theta^{(2)},...,\theta^{(G)}$ durch \emph{Fisher Scoring}.
 		\item Neustart mit $\theta^{(G)}$ als $\tilde{\theta}$.
 	\end{enumerate}
@@ -379,9 +383,118 @@ Ziel: Zentrierung der Statitiken der simulierten Netzwerke über denen des beobac
 \end{itemize}
 \end{frame}
 
+
+\begin{frame}
+	\frametitle{Degeneration}
+	\textcolor[rgb]{1,0,0}{\textbf{Problem :}} Hohe Wahrscheinlichkeit auf unrealistischen Netzwerken (volles oder leeres Netzwerk) führt zur Divergenz des Schätz-Algorithmus. \\ \vfill
+	\textbf{Ursachen:}
+	\begin{itemize}
+		\item Instabilität von einfachen Zählstatistiken
+		\item fehlende exogene Unterscheidungsmerkmale für Knoten und Kanten
+		\item Beschränkung auf lineare Effekte der Statistiken unrealistisch
+	\end{itemize}
+	\vfill
+	\textcolor[rgb]{0,0.58,0}{\textbf{Lösungsansatz:}}
+	\begin{itemize}
+		\item Aufnahme von exogenen Kovariablen
+		\item Aufnahme von nicht linearen Einflüssen durch\\ \emph{Curved Exponential Family Models}  
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Curved Exponential Family Models}
+	\begin{itemize}
+		\item \textbf{\textit{Geometrically Weighted Degree} (GWD):}
+			\begin{equation}
+				u(x, \phi_s) = e^{\phi_s} \sum^{n-1}_{i=1}\left\{1-(1-e^{-\phi_s})^{i}\right\}D_i(x)
+			\label{eq:GWD}
+			\end{equation}
+		\item \textbf{\textit{Geometrically Weighted Edgewise Shared Partners} (GWESP):}
+			\begin{equation}
+				v(x, \phi_t) = e^{\phi_t} \sum^{n-2}_{i=1}\left\{1-(1-e^{-\phi_t})^{i}\right\}EP_i(x)
+				\label{eq:GWESP}
+			\end{equation}
+		\item \textbf{\textit{Geometrically Weighted Dyadic Shared Partners} (GWDSP):}
+			\begin{equation}
+				w(x, \phi_p) = e^{\phi_p} \sum^{n-2}_{i=1}\left\{1-(1-e^{-\phi_p})^{i}\right\}DP_i(x)
+			\label{eq:GWDSP}
+			\end{equation}
+	\end{itemize}
+\end{frame}
+
+
 \subsection{Anwendung des ERGM}
 \begin{frame}
 	\frametitle{Anwendung des ERGM}
+	
+\begin{minipage}[t]{0.48\textwidth}
+
+\centering
+\textbf{endogene Statistiken}
+
+\begin{itemize}
+	\item edges
+	\item mutual
+	\item gwesp(0.2, fixed)
+	\item gwdsp(0.2, fixed)
+	\item gwidegree(0.2, fixed)
+	\item gwodegree(0.2, fixed)
+\end{itemize}
+\end{minipage}	
+\hfill	
+\begin{minipage}[t]{0.48\textwidth}	
+\centering
+\textbf{exogene Statistiken}
+
+\begin{itemize}
+	\item CINC
+	\item GDP
+	\item Conflict
+	\item Polity
+	\item Continent
+\end{itemize}
+\end{minipage}
+\end{frame}
+
+\begin{frame}
+	\begin{table}[ht]
+	\centering
+	\scriptsize
+	\caption{Summary von Modell 1 }
+		\begin{tabular}{l|l|l|l}
+		
+		\hline
+		ergm-term 						   				  & Estimate      & Std.Error   & p-Value 				\\
+		\hline
+    edges                     				& -6.111e+00  &2.281e-01      & \textless 1e-04 *** \\
+    mutual                   					&  2.120e+00  &9.507e-02      & \textless 1e-04  ***\\
+    gwidegree                  				&  1.895e+00  &4.818e-01      & \textless 1e-04  ***\\
+    gwodegree                     		& -1.311e+00  &3.307e-01      & \textless 1e-04  ***\\
+    gwesp.fixed.0.2                   &  2.641e+00  &1.778e-01      & \textless 1e-04  ***\\
+    gwdsp.fixed.0.2				    				& -5.686e-02  &6.008e-03      & \textless 1e-04  ***\\
+    nodeicov.ext\_cinc         				&  3.071e+00  &1.291e+00      & 0.01740  *\\
+    nodeocov.ext\_cinc         				& -5.967e+00  &1.361e+00      & \textless 1e-0  ***\\
+    nodeicov.ext\_gdp          				&  3.479e-06  &2.099e-06      & 0.09749  .\\
+    nodeocov.ext\_gdp          				&  4.392e-06  &1.586e-06      & 0.00562  **\\
+    nodeicov.ext\_conflict     				&  2.310e-02  &1.704e-02      & 0.17530  \\
+    nodeocov.ext\_conflict     				& -1.398e-01  &2.763e-02      & \textless 1e-04  ***\\
+    nodeifactor.Continent.America     &  6.645e-02  &6.799e-02      & 0.32839  \\
+		nodeifactor.Continent.Asien     	&  9.525e-02  &6.473e-02      & 0.14116  \\
+		nodeifactor.Continent.Europe     	&  5.353e-03  &7.312e-02      & 0.94164  \\
+		nodeifactor.Continent.Oceania     & -2.323e-02  &1.136e-01      & 0.83795  \\
+    nodeofactor.Continent.America     &  2.055e-01  &6.589e-02      & 0.00182  **\\
+		nodeofactor.Continent.Asien     	&  1.494e-01  &6.452e-02      & 0.02055  *\\
+		nodeofactor.Continent.Europe     	&  8.579e-01  &7.226e-02      & \textless 1e-04  ***\\
+		nodeofactor.Continent.Oceania     &  2.311e-01  &9.602e-02      & 0.01611  *\\
+		absdiff.ext\_polity            		& -9.360e-03  &3.249e-03      & 0.00397 **\\
+		\hline
+		\end{tabular}
+		\label{model1}
+\end{table}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Interpretation der Parameter}
 \end{frame}
 \subsection{Vergleich mit Großwaffenhandel}
 \begin{frame}
