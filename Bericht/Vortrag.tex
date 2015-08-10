@@ -320,15 +320,65 @@
 \subsection{ERGM - Exponential Random Graph Model}
 \begin{frame}
 	\frametitle{ERGM - Exponential Random Graph Model}
+	\begin{equation}
+	\LARGE
+	P_{\theta, \mathcal{X}}(X = x) = \frac{exp\left\{\theta^T g(x)\right\}}{\kappa(\theta, \mathcal{X})}
+	\label{eq:ergm}
+	\end{equation}
+	mit
+	\begin{itemize}
+		\item $x \in \mathcal{X}$
+		\item $\theta \in \Omega \subset \mathbb{R}^q$ ... Vektor der Modellparameter
+		\item $g(x)$ ... q-Vektor aus Statistiken basierend auf der Nachbarschaftsmatrix $X$ \\\vspace{1cm}
+		\item \textcolor[rgb]{1,0,0}{\textbf{Problem:}}  $\kappa(\theta, \mathcal{X}) = \sum_{x \in \mathcal{X}}{exp			 \left\{\theta^T g(x)\right\}}$
+	\end{itemize}
 \end{frame}
+
 \subsubsection{Simulation von Zufallsgraphen}
 \begin{frame}
 	\frametitle{Simulation von Zufallsgraphen}
+	\textbf{Simulation einer Sequenz von Graphen aus Zielverteilung $P_\theta(x)$ via Makrov Chain Monte Carlo Algorithmus:}
+	\vfill
+	\begin{enumerate}
+	\item Beliebiges Netzwerk mit fester Knotenzahl N als Startpunkt. 
+	\item Aus dem aktuellen Graphen $x^{(m-1)}$ wird ein zufälliges Knotenpaar $i,j$ ($i,j \in 1, ...,N$) ausgewählt.
+	\item Vorgeschlagener Graph: $x^* = x^{(m-1)}$ bis auf $x_{ij}^{(m-1)} = 1 - x_{ij}^{(m-1)}$.
+	\item Akzeptanz mit der Wahrscheinlichkeit $min\{1, \frac{P_{\theta}(x^*)}{P_{\theta}(x^{(m-1)})}\}$.
+	\item Bei Akzeptanz $x^{(m)} = x^*$ und $x^{(m)} = x^{(m-1)}$ sonst.
+	\item Iteration der Schritte 2 - 5.
+\end{enumerate}
+\begin{itemize}
+	\item unabhängig von Startpunkt bei ausreichendem \emph{Burn In}
+	\item unabhängige Ziehungen aus gleicher Kette durch \emph{Thinning}
+\end{itemize}
 \end{frame}
+
 \subsubsection{Schätzung der Modellparameter}
 \begin{frame}
 	\frametitle{Schätzung der Modellparameter}
+Ziel: Zentrierung der Statitiken der simulierten Netzwerke über denen des beobachteten Netzwerkes:
+
+\begin{equation}
+\LARGE
+	E_\theta(z(X)) - z(x_{obs}) = 0
+	\label{eq:1}
+\end{equation}
+
+\begin{itemize}
+	\item \textbf{\textcolor[rgb]{1,0,0}{Problem:}} $E_\theta(z(X)) = \sum_{x \in \mathcal{X}}{z(x)P_\theta(x)}$
+	\item \textbf{\textcolor[rgb]{0.2,0.8,0.2}{Lösung}}: \emph{Importance Sampling}
+	
+	\item \begin{enumerate}
+		\item Ziehung einer großen Stichprobe von Graphen auf Basis eines vorläufigen Parametervektors $\tilde{\theta}$.
+		\item Benutzung gewichteter Stichprobendurchschnitt der Statistiken.
+		\item Erzeugen einer Sequenz von Parametern $\widetilde{\theta},\theta^{(1)}, \theta^{(2)},...,\theta^{(G)}$ durch \emph{Fisher Scoring}.
+		\item Neustart mit $\theta^{(G)}$ als $\tilde{\theta}$.
+	\end{enumerate}
+
+	
+\end{itemize}
 \end{frame}
+
 \subsection{Anwendung des ERGM}
 \begin{frame}
 	\frametitle{Anwendung des ERGM}

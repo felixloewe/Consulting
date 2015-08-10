@@ -13,19 +13,19 @@
 \contentsline {section}{\numberline {2.3}Top-Akteure}{10}{section.2.3}
 \contentsline {section}{\numberline {2.4}Netzwerkma\IeC {\ss }zahlen}{12}{section.2.4}
 \contentsline {section}{\numberline {2.5}Visualisierungen}{14}{section.2.5}
-\contentsline {chapter}{\numberline {3}Exponential Random Graph Model}{18}{chapter.3}
-\contentsline {section}{\numberline {3.1}Definition des Modells}{18}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Simulation von Zufallsgraphen}{19}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Sch\IeC {\"a}tzung der Modell-Parameter}{20}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}endogene Statistiken}{21}{section.3.2}
-\contentsline {section}{\numberline {3.3}Degeneration und alternative Modellierung}{22}{section.3.3}
-\contentsline {section}{\numberline {3.4}exogene Kovariablen}{23}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Formal Intersate Alliance Dataset}{24}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Polity Score}{24}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Direct Contiguity}{24}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}Composite Index of National Capability}{24}{subsection.3.4.4}
-\contentsline {subsection}{\numberline {3.4.5}Intra-State Conflicts}{24}{subsection.3.4.5}
-\contentsline {subsection}{\numberline {3.4.6}GDP}{25}{subsection.3.4.6}
-\contentsline {section}{\numberline {3.5}gesch\IeC {\"a}tzte Modelle}{25}{section.3.5}
-\contentsline {section}{\numberline {3.6}Interpretation der Parameter}{26}{section.3.6}
-\contentsline {chapter}{Literaturverzeichnis}{29}{chapter*.15}
+\contentsline {chapter}{\numberline {3}Exponential Random Graph Model}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}Definition des Modells}{17}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Simulation von Zufallsgraphen}{18}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Sch\IeC {\"a}tzung der Modell-Parameter}{19}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}endogene Statistiken}{20}{section.3.2}
+\contentsline {section}{\numberline {3.3}Degeneration und alternative Modellierung}{21}{section.3.3}
+\contentsline {section}{\numberline {3.4}exogene Kovariablen}{22}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Formal Intersate Alliance Dataset}{23}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Polity Score}{23}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Direct Contiguity}{23}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Composite Index of National Capability}{23}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}Intra-State Conflicts}{23}{subsection.3.4.5}
+\contentsline {subsection}{\numberline {3.4.6}GDP}{24}{subsection.3.4.6}
+\contentsline {section}{\numberline {3.5}gesch\IeC {\"a}tzte Modelle}{24}{section.3.5}
+\contentsline {section}{\numberline {3.6}Interpretation der Parameter}{25}{section.3.6}
+\contentsline {chapter}{Literaturverzeichnis}{28}{chapter*.15}

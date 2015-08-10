@@ -35,26 +35,30 @@ Continent.plot <- function(year, groups = "Region", seed = 1, ew = 0.5, vs = 0.5
   #windows(height = 10, width = 10)
   set.seed(seed)
   par(mar = c(1,1,2,1))
-  plot(groupedGraph,
+  plot.igraph(groupedGraph,
        vertex.size = vs*vertex.size,
        vertex.label = vertex.label,
-       vertex.label.dist = 0,
+       vertex.label.dist = 1.5,
+       vertex.label.degree = c(0,-pi/2,-pi/2,pi,pi/2,pi/2),
+       vertex.label.color = "black"
        vertex.color = "skyblue1",
        edge.width = ew*edge.width,
        edge.color = "royalblue3",
        layout = layout.circle(groupedGraph), # Layout fixieren
        edge.arrow.size = 0,
-       vertex.label.cex = 1.5,
-       vertex.label.dist = 5
+       vertex.label.cex = 2
   )
-  title (paste(year))
+  title (paste(year), cex.main = 2)
   
 }
 
-windows(width = 8, height = 8)
+Continent.plot(1992, groups = "Continent")
+
+
+windows(width = 9, height = 6)
 for (i in 1:20){
   Continent.plot(1991 + i, groups = "Continent")
   savePlot(paste("Bericht/Grafiken/Cont_Ani/cont", i, sep = ""), type = "pdf")  
   #Continent.plot(1991 + i, groups = "Region")
-  savePlot(paste("Bericht/Grafiken/Reg_Ani/reg", i, sep = ""), type = "pdf")  
+  #savePlot(paste("Bericht/Grafiken/Reg_Ani/reg", i, sep = ""), type = "pdf")  
 }
