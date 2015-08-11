@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.13)  10 AUG 2015 15:29
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.13)  11 AUG 2015 12:17
 entering extended mode
 **Vortrag.tex
 (C:\Users\s10370952\Documents\Consulting\Bericht\Vortrag.tex
@@ -893,6 +893,21 @@ LaTeX Warning: Label `fig:ts_tops' multiply defined.
 
 LaTeX Warning: Label `fig:ts_tops' multiply defined.
 
+
+LaTeX Warning: Label `fig:mcmc.diag.model1' multiply defined.
+
+
+LaTeX Warning: Label `fig:gof.model1' multiply defined.
+
+
+LaTeX Warning: Label `fig:gof.model1' multiply defined.
+
+
+LaTeX Warning: Label `fig:gof.model1' multiply defined.
+
+
+LaTeX Warning: Label `fig:gof.model1' multiply defined.
+
 )
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
@@ -1274,32 +1289,116 @@ LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
 
 [26
 
-] [27
+] <Grafiken/mcmc_diag1.png, id=549, 944.52875pt x 671.50874pt>
+File: Grafiken/mcmc_diag1.png Graphic file (type png)
+ <use Grafiken/mcmc_diag1.png>
+Package pdftex.def Info: Grafiken/mcmc_diag1.png used on input line 504.
+(pdftex.def)             Requested size: 273.83728pt x 194.68132pt.
 
-] [28
+Overfull \vbox (3.61073pt too high) detected at line 504
+ []
 
-] [29
+[27
 
-] [30
+ <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/mcmc_diag1.png>]
+<Grafiken/mcmc_diag2.png, id=558, 944.52875pt x 671.50874pt>
+File: Grafiken/mcmc_diag2.png Graphic file (type png)
+ <use Grafiken/mcmc_diag2.png>
+Package pdftex.def Info: Grafiken/mcmc_diag2.png used on input line 514.
+(pdftex.def)             Requested size: 273.83728pt x 194.68132pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:mcmc.diag.model1}) has been already used, duplicat
+e ignored
+<to be read again> 
+                   \relax 
+l.514 \end{frame}
+                 
+Overfull \vbox (3.61073pt too high) detected at line 514
+ []
+
+[28
+
+ <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/mcmc_diag2.png>]
+<Grafiken/indeg_gof.png, id=566, 944.52875pt x 749.80125pt>
+File: Grafiken/indeg_gof.png Graphic file (type png)
+ <use Grafiken/indeg_gof.png>
+Package pdftex.def Info: Grafiken/indeg_gof.png used on input line 524.
+(pdftex.def)             Requested size: 239.60567pt x 190.20714pt.
+ [29
+
+ <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/indeg_gof.png>] <Grafiken/outdeg_gof.png, id=575, 944.52875pt
+ x 749.80125pt>
+File: Grafiken/outdeg_gof.png Graphic file (type png)
+
+<use Grafiken/outdeg_gof.png>
+Package pdftex.def Info: Grafiken/outdeg_gof.png used on input line 534.
+(pdftex.def)             Requested size: 239.60567pt x 190.20714pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:gof.model1}) has been already used, duplicate igno
+red
+<to be read again> 
+                   \relax 
+l.534 \end{frame}
+                  [30
+
+ <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/outdeg_gof.png>]
+<Grafiken/geodist_gof.png, id=583, 944.52875pt x 749.80125pt>
+File: Grafiken/geodist_gof.png Graphic file (type png)
+ <use Grafiken/geodist_gof.png>
+Package pdftex.def Info: Grafiken/geodist_gof.png used on input line 544.
+(pdftex.def)             Requested size: 239.60567pt x 190.20714pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:gof.model1}) has been already used, duplicate igno
+red
+<to be read again> 
+                   \relax 
+l.544 \end{frame}
+                  [31
+
+ <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/geodist_gof.png>]
+<Grafiken/dsp_gof.png, id=592, 944.52875pt x 749.80125pt>
+File: Grafiken/dsp_gof.png Graphic file (type png)
+ <use Grafiken/dsp_gof.png>
+Package pdftex.def Info: Grafiken/dsp_gof.png used on input line 554.
+(pdftex.def)             Requested size: 239.60567pt x 190.20714pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:gof.model1}) has been already used, duplicate igno
+red
+<to be read again> 
+                   \relax 
+l.554 \end{frame}
+                  [32
+
+ <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/dsp_gof.png>]
+<Grafiken/esp_gof.png, id=600, 944.52875pt x 749.80125pt>
+File: Grafiken/esp_gof.png Graphic file (type png)
+ <use Grafiken/esp_gof.png>
+Package pdftex.def Info: Grafiken/esp_gof.png used on input line 564.
+(pdftex.def)             Requested size: 239.60567pt x 190.20714pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:gof.model1}) has been already used, duplicate igno
+red
+<to be read again> 
+                   \relax 
+l.564 \end{frame}
+                  [33
+
+ <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/esp_gof.png>] [34
+
+] [35
+
+] [36
+
+] [37
 
 ]
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 515.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 515.
- (C:\Users\s10370952\Documents\Consulting\Bericht\Vortrag.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 515.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 515.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 596.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 596.
 
+(C:\Users\s10370952\Documents\Consulting\Bericht\Vortrag.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 596.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 596.
+Package rerunfilecheck Info: File `Vortrag.out' has not changed.
+(rerunfilecheck)             Checksum: 0609CAB1F730AD854CB945C3868AC1D1;835.
 
-Package rerunfilecheck Warning: File `Vortrag.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Vortrag.out':
-(rerunfilecheck)             Before: 6F2D4C3FB1984948B9FAD4D0771FDD85;835
-(rerunfilecheck)             After:  A28D180952F5B7BAB2382012747170BE;835.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.5pt have occurred.
@@ -1310,33 +1409,31 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 515.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 596.
  ) 
 Here is how much of TeX's memory you used:
- 20342 strings out of 493921
- 375782 string characters out of 3147269
+ 20412 strings out of 493921
+ 376981 string characters out of 3147269
  507313 words of memory out of 3000000
- 23020 multiletter control sequences out of 15000+200000
- 21809 words of font info for 92 fonts, out of 3000000 for 9000
+ 23064 multiletter control sequences out of 15000+200000
+ 21990 words of font info for 94 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  49i,16n,72p,397b,672s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Outline0.5.2.23} has been referenced but does not exist, replaced by a fixed one
-
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mssi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmssi17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
-y6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/symbols/msbm10.pfb>
-Output written on Vortrag.pdf (30 pages, 553099 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmssi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmssi17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+msy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/symbols/msbm10.pfb>
+Output written on Vortrag.pdf (37 pages, 629236 bytes).
 PDF statistics:
- 651 PDF objects out of 1000 (max. 8388607)
- 88 named destinations out of 1000 (max. 500000)
- 22135 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 715 PDF objects out of 1000 (max. 8388607)
+ 103 named destinations out of 1000 (max. 500000)
+ 22170 words of extra memory for PDF output out of 24883 (max. 10000000)
 

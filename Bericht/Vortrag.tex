@@ -460,7 +460,7 @@ Ziel: Zentrierung der Statitiken der simulierten Netzwerke über denen des beobac
 	\begin{table}[ht]
 	\centering
 	\scriptsize
-	\caption{Summary von Modell 1 }
+	\caption{Summary von Modell 1 (1996) }
 		\begin{tabular}{l|l|l|l}
 		
 		\hline
@@ -494,7 +494,88 @@ Ziel: Zentrierung der Statitiken der simulierten Netzwerke über denen des beobac
 \end{frame}
 
 \begin{frame}
+\frametitle{MCMC Diagnose}
+	\begin{figure}[ht]
+	\centering
+		\includegraphics[width=0.8\textwidth]{Grafiken/mcmc_diag1.png}
+	\caption{MCMC Diagnose von Modell 1 (1996) - edges und mutual}
+	\label{fig:mcmc.diag.model1}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{MCMC Diagnose 2}
+	\begin{figure}[ht]
+	\centering
+		\includegraphics[width=0.8\textwidth]{Grafiken/mcmc_diag2.png}
+	\caption{MCMC Diagnose von Modell 1 (1996) - gwidegree und gwodegree}
+	\label{fig:mcmc.diag.model1}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Goodeness of Fit}
+	\begin{figure}[ht]
+	\centering
+		\includegraphics[width=0.7\textwidth]{Grafiken/indeg_gof.png}
+	\caption{Goodness of Fit von Modell 1 (1996) - In Degree}
+	\label{fig:gof.model1}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Goodeness of Fit 2}
+	\begin{figure}[ht]
+	\centering
+		\includegraphics[width=0.7\textwidth]{Grafiken/outdeg_gof.png}
+	\caption{Goodness of Fit von Modell 1 (1996) - Out Degree}
+	\label{fig:gof.model1}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Goodeness of Fit 3}
+	\begin{figure}[ht]
+	\centering
+		\includegraphics[width=0.7\textwidth]{Grafiken/geodist_gof.png}
+	\caption{Goodness of Fit von Modell 1 (1996) - Minimum Geodesic Distance}
+	\label{fig:gof.model1}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Goodeness of Fit 4}
+	\begin{figure}[ht]
+	\centering
+		\includegraphics[width=0.7\textwidth]{Grafiken/dsp_gof.png}
+	\caption{Goodness of Fit von Modell 1 (1996) - Dyadwise Shared Partners}
+	\label{fig:gof.model1}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Goodeness of Fit 5}
+	\begin{figure}[ht]
+	\centering
+		\includegraphics[width=0.7\textwidth]{Grafiken/esp_gof.png}
+	\caption{Goodness of Fit von Modell 1 (1996) - Edgewise Shared Partners}
+	\label{fig:gof.model1}
+\end{figure}
+\end{frame}
+
+\begin{frame}
 	\frametitle{Interpretation der Parameter}
+	
+	$X^{(+)}$ und $X^{(-)}$ seien Netzwerke mit identischen Statistiken bis auf Statistik $g_i(X)$ und
+	$$\delta_i(X) = g_i(X^{(+)}) - g_i(X^{(-)})$$ \vfill
+	dann gilt:
+	$$ \frac{P(X^{(+)})}{P(X^{(-)})} = exp(\theta_i \delta_i(X)) $$ \vfill
+	$\Longrightarrow$ für positives $\delta_i(X)$ gilt also:
+	\begin{itemize}
+		\item Ist $\theta_i > 0$, so ist $X^{(+)}$ plausibler als $X^{(-)}$.
+		\item Ist $\theta_i = 0$, so sind sie gleich plausibel.
+		\item Ist $\theta_i < 0$, so ist $X^{(+)}$ plausibler als $X^{(-)}$.
+	\end{itemize}
 \end{frame}
 \subsection{Vergleich mit Großwaffenhandel}
 \begin{frame}
