@@ -55,7 +55,7 @@
 	\frametitle{Was ist ein Netzwerk?}
 	
 	\begin{center}
-	Netzwerk besteht aus \emph{Akteuren} und ihren \emph{Verbindungen}\\ \vspace{1cm}
+	Ein Netzwerk besteht aus \emph{Akteuren} und ihren \emph{Verbindungen}\\ \vspace{1cm}
 	\end{center}
 		
 	\textbf{Anwendungsgebiete:}
@@ -94,7 +94,7 @@
 	\vfill
 	\textbf{Begriffe:}
 	\begin{itemize}
-		\item \emph{gerichteter} vs. \emph{ungerichteter} Graph
+		\item \emph{Gerichteter} vs. \emph{ungerichteter} Graph
 		\item (In-/Out-) \emph{Degree}
 		\item \emph{Dichte}: $den(G) = \frac{|E_G|}{N_V(N_V-1)/2}$
 	\end{itemize}
@@ -117,7 +117,7 @@
 	\textbf{Kantenliste mit zusätzlichen Variablen:}
 	\begin{itemize}
 		\item Correlates of War Code
-		\item monetärer Wert in US\$
+		\item Monetärer Wert in US\$
 		\item Waffentyp
 		\item Datenquelle
 		\item Jahr
@@ -145,7 +145,7 @@
 	\begin{figure}
 		\centering
 					\includegraphics[width=0.8\textwidth]{Grafiken/ts_descriptives.png}
-					\caption{Netzwerkmaßzahlen des Kleinwaffenhandels 1992-2011}
+					\caption{Netzwerkmaßzahlen des Kleinwaffenhandels von 1992 bis 2011}
 					\label{fig:ts_descriptives}		
 	\end{figure}
 	
@@ -158,7 +158,7 @@
 	\begin{figure}
 		\centering
 			\includegraphics[width=0.7\textwidth]{Grafiken/ts_degree.png}
-		\caption{In-/ Out- Degree der Länder 1992-2011}
+		\caption{In-/ Out- Degree der Länder von 1992 bis 2011}
 		\label{fig:ts_degree}
 	\end{figure}
 	
@@ -308,7 +308,7 @@
 	\begin{figure}[ht]
 \centering
 \animategraphics[scale=0.35, controls]{1}{Grafiken/Cont_Ani/cont}{1}{20}
-\caption{Handelsströme zwischen den Kontinenten von 1992-2011}
+\caption{Handelsströme zwischen den Kontinenten von 1992 bis 2011}
 
 \end{figure}
 \end{frame}
@@ -353,15 +353,15 @@
 	\item Iteration der Schritte 2 - 5.
 \end{enumerate}
 \begin{itemize}
-	\item unabhängig von Startpunkt bei ausreichendem \emph{Burn In}
-	\item unabhängige Ziehungen aus gleicher Kette durch \emph{Thinning}
+	\item Algorithmus ist unabhängig vom Startpunkt bei ausreichendem \emph{Burn In}.
+	\item Algorithmus ermöglicht unabhängige Ziehungen aus gleicher Kette durch \emph{Thinning}.
 \end{itemize}
 \end{frame}
 
 \subsubsection{Schätzung der Modellparameter}
 \begin{frame}
 	\frametitle{Schätzung der Modellparameter}
-Ziel: Zentrierung der Statitiken der simulierten Netzwerke über denen des beobachteten Netzwerkes:
+Ziel: Zentrierung der Statistiken der simulierten Netzwerke über denen des beobachteten Netzwerkes:
 
 \begin{equation}
 \LARGE
@@ -371,9 +371,9 @@ Ziel: Zentrierung der Statitiken der simulierten Netzwerke über denen des beobac
 
 \begin{itemize}
 	\item \textbf{\textcolor[rgb]{1,0,0}{Problem:}} $E_\theta(z(X)) = \sum_{x \in \mathcal{X}}{z(x)P_\theta(x)}$
+	\vfill
 	\item \textbf{\textcolor[rgb]{0.2,0.8,0.2}{Lösung}}: \emph{Importance Sampling}
-	
-	\item \begin{enumerate}
+	\begin{enumerate}
 		\item Ziehung einer großen Stichprobe von Graphen auf Basis eines vorläufigen Parametervektors $\tilde{\theta}$.
 		\item Benutzung gewichteter Stichprobendurchschnitte der Statistiken.
 		\item Erzeugen einer Sequenz von Parametern $\widetilde{\theta},\theta^{(1)}, \theta^{(2)},...,\theta^{(G)}$ durch \emph{Fisher Scoring}.
@@ -431,7 +431,7 @@ Ziel: Zentrierung der Statitiken der simulierten Netzwerke über denen des beobac
 \begin{minipage}[t]{0.48\textwidth}
 
 \centering
-\textbf{endogene Statistiken}
+\textbf{Endogene Statistiken}
 
 \begin{itemize}
 	\item edges
@@ -445,7 +445,7 @@ Ziel: Zentrierung der Statitiken der simulierten Netzwerke über denen des beobac
 \hfill	
 \begin{minipage}[t]{0.48\textwidth}	
 \centering
-\textbf{exogene Statistiken}
+\textbf{Exogene Statistiken}
 
 \begin{itemize}
 	\item CINC
@@ -513,15 +513,16 @@ Ziel: Zentrierung der Statitiken der simulierten Netzwerke über denen des beobac
 \begin{frame}
 \setbeamercovered{dynamic}
 	\frametitle{Interpretation der Parameter 2}
+	\textbf{Parameterwerte:}
 	\begin{itemize}
-		\item \uncover<1->{\textbf{edges $-6.111$}: Tendenz zu wenig Kanten}
-		\item \uncover<2->{\textbf{mutual $2.120$}: Tendenz zu gegenseitigen Handel}
+		\item \uncover<1->{\textbf{Edges $-6.111$}: Tendenz zu wenig Kanten}
+		\item \uncover<2->{\textbf{Mutual $2.120$}: Tendenz zu gegenseitigen Handel}
 		\item \uncover<3->{\textbf{Import CINC $3.071$}: "`mächtige"' Länder als Importland wahrscheinlich}
 		\item \uncover<4->{\textbf{Export CINC $-5.967$}: "`mächtige"' Länder als Exportland unwahrscheinlich}
 		\item \uncover<5->{\textbf{Export/Import GDP $> 0$}: wirtschaftsstarke Länderals Handelspartner wahrscheinlich}
 		\item \uncover<6->{\textbf{Export Conflict $-0.1398$}: In Konflikte verwickelte Länder als Exporteure unwahrscheinlich}
 		\item \uncover<7->{\textbf{Export Faktor Continent}: Europäische Länder als Exporteure am wahrscheinlichsten, Afrikanische Länder als Exporteure am unwahrscheinlichsten.}
-		\item \uncover<8->{\textbf{diff Polity $-0.00936$}: Handel zwischen Ländern mit geringem Unterschied im Demokratiescore wahrscheinlich.}
+		\item \uncover<8->{\textbf{Diff Polity $-0.00936$}: Handel zwischen Ländern mit geringem Unterschied im Demokratiescore wahrscheinlich.}
 	\end{itemize}
 \end{frame}
 
@@ -552,11 +553,11 @@ Ziel: Zentrierung der Statitiken der simulierten Netzwerke über denen des beobac
 \begin{frame}
 	\frametitle{Interpretation der Parameter 4}
 	\begin{itemize}
-		\item \textbf{GWIDEGREE 1.895}: Tendenz zu vielen Importpartner
-		\item \textbf{GWODEEGREE -1.211}: Tendenz zu wenigen Exportpartnern
-		\item \textbf{GWESP 2.641}: Tendenz zur Schließung von Deiecken
-		\item \textbf{GWDSP -0.05686}: Tendenz gegen Schließung von offenen Dreicken\\\vspace{1cm}
-		\item \textbf{DECAY 0.2}: Tendenz verschwindet schnell!
+		\item \textbf{GWIDEGREE $1.895$}: Tendenz zu vielen Importpartner
+		\item \textbf{GWODEEGREE $-1.211$}: Tendenz zu wenigen Exportpartnern
+		\item \textbf{GWESP $2.641$}: Tendenz zur Schließung von Deiecken
+		\item \textbf{GWDSP $-0.05686$}: Tendenz gegen Schließung von offenen Dreiecken\\\vspace{1cm}
+		\item \textbf{DECAY $0.2$}: Tendenz verschwindet schnell!
 	\end{itemize}
 \end{frame}
 \begin{frame}
@@ -664,8 +665,8 @@ Ziel: Zentrierung der Statitiken der simulierten Netzwerke über denen des beobac
 	\textcolor[rgb]{0.2,0.8,0.2}{\textbf{Gemeinsamkeiten:}}
 	\begin{itemize}
 		\item Degree Verteilung
-		\item zentrale Akteure
-		\item ansteigender Trend
+		\item Zentrale Akteure
+		\item Ansteigender Trend
 	\end{itemize}
 	
 \end{frame}
