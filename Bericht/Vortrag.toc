@@ -13,5 +13,5 @@
 \beamer@subsubsectionintoc {5}{1}{1}{Simulation von Zufallsgraphen}{21}{0}{5}
 \beamer@subsubsectionintoc {5}{1}{2}{Sch\"atzung der Modellparameter}{22}{0}{5}
 \beamer@subsectionintoc {5}{2}{Anwendung des ERGM}{25}{0}{5}
-\beamer@subsectionintoc {5}{3}{Vergleich mit Gro\IeC {\ss }waffenhandel}{35}{0}{5}
-\beamer@sectionintoc {6}{Fazit}{36}{0}{6}
+\beamer@subsectionintoc {5}{3}{Vergleich mit Gro\IeC {\ss }waffenhandel}{39}{0}{5}
+\beamer@sectionintoc {6}{Fazit}{40}{0}{6}

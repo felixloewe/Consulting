@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.13)  11 AUG 2015 12:17
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.13)  13 AUG 2015 11:46
 entering extended mode
 **Vortrag.tex
 (C:\Users\s10370952\Documents\Consulting\Bericht\Vortrag.tex
@@ -890,24 +890,6 @@ LaTeX Warning: Label `tab:tops' multiply defined.
 
 LaTeX Warning: Label `fig:ts_tops' multiply defined.
 
-
-LaTeX Warning: Label `fig:ts_tops' multiply defined.
-
-
-LaTeX Warning: Label `fig:mcmc.diag.model1' multiply defined.
-
-
-LaTeX Warning: Label `fig:gof.model1' multiply defined.
-
-
-LaTeX Warning: Label `fig:gof.model1' multiply defined.
-
-
-LaTeX Warning: Label `fig:gof.model1' multiply defined.
-
-
-LaTeX Warning: Label `fig:gof.model1' multiply defined.
-
 )
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
@@ -1172,13 +1154,7 @@ l.302 \end{frame}
                  ] [16
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{fig:ts_tops}) has been already used, duplicate ignored
-
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.302 \end{frame}
-                  <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/ts_topsexprel.png>] [17
+ <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/ts_topsexprel.png>] [17
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig:ts_tops}) has been already used, duplicate ignored
@@ -1206,56 +1182,56 @@ afiken/Cont_Ani/cont19.pdf> <C:/Users/s10370952/Documents/Consulting/Bericht/Gra
 
 ]
 
-LaTeX Font Warning: Command \LARGE invalid in math mode on input line 339.
+LaTeX Font Warning: Command \LARGE invalid in math mode on input line 340.
 
-LaTeX Font Info:    Calculating math sizes for size <> on input line 339.
+LaTeX Font Info:    Calculating math sizes for size <> on input line 340.
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <> not available
-(Font)              size <5> substituted on input line 339.
+(Font)              size <5> substituted on input line 340.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 339.
+(Font)              size <5> substituted on input line 340.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 339.
+(Font)              size <5> substituted on input line 340.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <> not available
-(Font)              size <5> substituted on input line 339.
+(Font)              size <5> substituted on input line 340.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.7> not available
-(Font)              size <5> substituted on input line 339.
+(Font)              size <5> substituted on input line 340.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.5> not available
-(Font)              size <5> substituted on input line 339.
+(Font)              size <5> substituted on input line 340.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <> not available
-(Font)              size <5> substituted on input line 339.
+(Font)              size <5> substituted on input line 340.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 339.
+(Font)              size <5> substituted on input line 340.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 339.
+(Font)              size <5> substituted on input line 340.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <> not available
-(Font)              size <5> substituted on input line 339.
+(Font)              size <5> substituted on input line 340.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <0.7> not available
-(Font)              size <5> substituted on input line 339.
+(Font)              size <5> substituted on input line 340.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <0.5> not available
-(Font)              size <5> substituted on input line 339.
+(Font)              size <5> substituted on input line 340.
 
 [20
 
@@ -1263,7 +1239,7 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <0.5> not available
 
 ]
 
-LaTeX Font Warning: Command \LARGE invalid in math mode on input line 384.
+LaTeX Font Warning: Command \LARGE invalid in math mode on input line 385.
 
 [22
 
@@ -1272,132 +1248,120 @@ LaTeX Font Warning: Command \LARGE invalid in math mode on input line 384.
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 423.
+(Font)              using `OT1/cmss/bx/n' instead on input line 424.
 
 [24
 
 ] [25
 
+] [26
+
 ]
-LaTeX Font Info:    Try loading font information for OML+cmss on input line 494.
-LaTeX Font Info:    No file OMLcmss.fd. on input line 494.
+LaTeX Font Info:    Try loading font information for OML+cmss on input line 511.
+LaTeX Font Info:    No file OMLcmss.fd. on input line 511.
 
 
 LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
 (Font)              using `OML/cmm/m/it' instead
-(Font)              for symbol `textless' on input line 494.
-
-[26
-
-] <Grafiken/mcmc_diag1.png, id=549, 944.52875pt x 671.50874pt>
-File: Grafiken/mcmc_diag1.png Graphic file (type png)
- <use Grafiken/mcmc_diag1.png>
-Package pdftex.def Info: Grafiken/mcmc_diag1.png used on input line 504.
-(pdftex.def)             Requested size: 273.83728pt x 194.68132pt.
-
-Overfull \vbox (3.61073pt too high) detected at line 504
- []
+(Font)              for symbol `textless' on input line 511.
 
 [27
 
- <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/mcmc_diag1.png>]
-<Grafiken/mcmc_diag2.png, id=558, 944.52875pt x 671.50874pt>
-File: Grafiken/mcmc_diag2.png Graphic file (type png)
- <use Grafiken/mcmc_diag2.png>
-Package pdftex.def Info: Grafiken/mcmc_diag2.png used on input line 514.
+] [28
+
+] [29
+
+] [30
+
+] <Grafiken/mcmc_diag1.png, id=572, 944.52875pt x 671.50874pt>
+File: Grafiken/mcmc_diag1.png Graphic file (type png)
+ <use Grafiken/mcmc_diag1.png>
+Package pdftex.def Info: Grafiken/mcmc_diag1.png used on input line 570.
 (pdftex.def)             Requested size: 273.83728pt x 194.68132pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:mcmc.diag.model1}) has been already used, duplicat
-e ignored
-<to be read again> 
-                   \relax 
-l.514 \end{frame}
-                 
-Overfull \vbox (3.61073pt too high) detected at line 514
+
+Overfull \vbox (3.61073pt too high) detected at line 570
  []
 
-[28
+[31
+
+ <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/mcmc_diag1.png>]
+<Grafiken/mcmc_diag2.png, id=581, 944.52875pt x 671.50874pt>
+File: Grafiken/mcmc_diag2.png Graphic file (type png)
+ <use Grafiken/mcmc_diag2.png>
+Package pdftex.def Info: Grafiken/mcmc_diag2.png used on input line 580.
+(pdftex.def)             Requested size: 273.83728pt x 194.68132pt.
+
+Overfull \vbox (3.61073pt too high) detected at line 580
+ []
+
+[32
 
  <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/mcmc_diag2.png>]
-<Grafiken/indeg_gof.png, id=566, 944.52875pt x 749.80125pt>
+<Grafiken/indeg_gof.png, id=589, 944.52875pt x 749.80125pt>
 File: Grafiken/indeg_gof.png Graphic file (type png)
  <use Grafiken/indeg_gof.png>
-Package pdftex.def Info: Grafiken/indeg_gof.png used on input line 524.
+Package pdftex.def Info: Grafiken/indeg_gof.png used on input line 590.
 (pdftex.def)             Requested size: 239.60567pt x 190.20714pt.
- [29
+ [33
 
- <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/indeg_gof.png>] <Grafiken/outdeg_gof.png, id=575, 944.52875pt
+ <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/indeg_gof.png>] <Grafiken/outdeg_gof.png, id=597, 944.52875pt
  x 749.80125pt>
 File: Grafiken/outdeg_gof.png Graphic file (type png)
 
 <use Grafiken/outdeg_gof.png>
-Package pdftex.def Info: Grafiken/outdeg_gof.png used on input line 534.
+Package pdftex.def Info: Grafiken/outdeg_gof.png used on input line 600.
 (pdftex.def)             Requested size: 239.60567pt x 190.20714pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:gof.model1}) has been already used, duplicate igno
-red
-<to be read again> 
-                   \relax 
-l.534 \end{frame}
-                  [30
+ [34
 
  <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/outdeg_gof.png>]
-<Grafiken/geodist_gof.png, id=583, 944.52875pt x 749.80125pt>
+<Grafiken/geodist_gof.png, id=605, 944.52875pt x 749.80125pt>
 File: Grafiken/geodist_gof.png Graphic file (type png)
  <use Grafiken/geodist_gof.png>
-Package pdftex.def Info: Grafiken/geodist_gof.png used on input line 544.
+Package pdftex.def Info: Grafiken/geodist_gof.png used on input line 610.
 (pdftex.def)             Requested size: 239.60567pt x 190.20714pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:gof.model1}) has been already used, duplicate igno
-red
-<to be read again> 
-                   \relax 
-l.544 \end{frame}
-                  [31
+ [35
 
- <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/geodist_gof.png>]
-<Grafiken/dsp_gof.png, id=592, 944.52875pt x 749.80125pt>
+ <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/geodist_gof.png>] <Grafiken/dsp_gof.png, id=613, 944.52875pt 
+x 749.80125pt>
 File: Grafiken/dsp_gof.png Graphic file (type png)
- <use Grafiken/dsp_gof.png>
-Package pdftex.def Info: Grafiken/dsp_gof.png used on input line 554.
+
+<use Grafiken/dsp_gof.png>
+Package pdftex.def Info: Grafiken/dsp_gof.png used on input line 620.
 (pdftex.def)             Requested size: 239.60567pt x 190.20714pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:gof.model1}) has been already used, duplicate igno
-red
-<to be read again> 
-                   \relax 
-l.554 \end{frame}
-                  [32
+ [36
 
  <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/dsp_gof.png>]
-<Grafiken/esp_gof.png, id=600, 944.52875pt x 749.80125pt>
+<Grafiken/esp_gof.png, id=621, 944.52875pt x 749.80125pt>
 File: Grafiken/esp_gof.png Graphic file (type png)
  <use Grafiken/esp_gof.png>
-Package pdftex.def Info: Grafiken/esp_gof.png used on input line 564.
+Package pdftex.def Info: Grafiken/esp_gof.png used on input line 630.
 (pdftex.def)             Requested size: 239.60567pt x 190.20714pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:gof.model1}) has been already used, duplicate igno
-red
-<to be read again> 
-                   \relax 
-l.564 \end{frame}
-                  [33
+ [37
 
- <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/esp_gof.png>] [34
+ <C:/Users/s10370952/Documents/Consulting/Bericht/Grafiken/esp_gof.png>] [38
 
-] [35
+] [39
 
-] [36
+] [40
 
-] [37
+] [41
+
+]
+(C:\Users\s10370952\Documents\Consulting\Bericht\Vortrag.bbl) [42
+
+ <C:/Program Files/MiKTeX 2.9/tex/latex/beamer/base/art/beamericonarticle.pdf>] [43
 
 ]
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 596.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 596.
-
-(C:\Users\s10370952\Documents\Consulting\Bericht\Vortrag.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 596.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 596.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 713.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 713.
+ (C:\Users\s10370952\Documents\Consulting\Bericht\Vortrag.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 713.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 713.
 Package rerunfilecheck Info: File `Vortrag.out' has not changed.
-(rerunfilecheck)             Checksum: 0609CAB1F730AD854CB945C3868AC1D1;835.
+(rerunfilecheck)             Checksum: 4569E84F684E8B13DEF8AAA5606AB4ED;835.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1409,14 +1373,14 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 596.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 713.
  ) 
 Here is how much of TeX's memory you used:
- 20412 strings out of 493921
- 376981 string characters out of 3147269
- 507313 words of memory out of 3000000
- 23064 multiletter control sequences out of 15000+200000
- 21990 words of font info for 94 fonts, out of 3000000 for 9000
+ 20495 strings out of 493921
+ 379131 string characters out of 3147269
+ 507378 words of memory out of 3000000
+ 23131 multiletter control sequences out of 15000+200000
+ 21939 words of font info for 94 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  49i,16n,72p,397b,672s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
@@ -1431,9 +1395,9 @@ type1/public/amsfonts/cm/cmssi17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 msy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/amsfonts/symbols/msbm10.pfb>
-Output written on Vortrag.pdf (37 pages, 629236 bytes).
+Output written on Vortrag.pdf (43 pages, 650867 bytes).
 PDF statistics:
- 715 PDF objects out of 1000 (max. 8388607)
- 103 named destinations out of 1000 (max. 500000)
+ 763 PDF objects out of 1000 (max. 8388607)
+ 116 named destinations out of 1000 (max. 500000)
  22170 words of extra memory for PDF output out of 24883 (max. 10000000)
 

@@ -1,4 +1,4 @@
-\documentclass{beamer}
+\documentclass[handout]{beamer}
 
 \usepackage[latin1]{inputenc}
 \usepackage[ngerman]{babel}
@@ -17,8 +17,8 @@
 
 \beamertemplatenavigationsymbolsempty
 \author[F. Loewe]{
-  \leftline{\textbf{Projektpartner}: Paul Thurner}
-  \leftline{\textbf{Betreuer}: Goeran Kauermann}
+  \leftline{\textbf{Projektpartner}: Prof. Dr. Paul W. Thurner}
+  \leftline{\textbf{Betreuer}: Prof. Dr. Göran Kauermann}
   \leftline{\textbf{Referent}: Felix Loewe}
 }
 \title[Internationaler Waffenhandel]{Internationaler Waffenhandel}
@@ -27,7 +27,7 @@
 %\logo{\pgfimage[width=2cm,height=2cm]{lmu_logo}}
 %\titlegraphic{\includegraphics[width=1cm,height=1cm]{lmu_logo}}			
 \date{\today}
-\usetheme{Madrid}
+\usetheme{Madrid} %\usetheme{boadilla}
 \colorlet{beamer@blendedblue}{green!40!black}
 \bibliographystyle{plain}
 
@@ -288,7 +288,7 @@
 \begin{figure}
 	\includegraphics[width=0.75\textwidth]{Grafiken/ts_topsexprel.png}
 	\caption{Zeitreihen der jährlichen Handelswerte der Top-Exporteure von 1992 bis 2011}
-	\label{fig:ts_tops}
+	
 \end{figure}
 
 \framebreak
@@ -309,7 +309,7 @@
 \centering
 \animategraphics[scale=0.35, controls]{1}{Grafiken/Cont_Ani/cont}{1}{20}
 \caption{Handelsströme zwischen den Kontinenten von 1992-2011}
-\label{fig:cont}
+
 \end{figure}
 \end{frame}
 
@@ -331,9 +331,10 @@
 	\end{equation}
 	mit
 	\begin{itemize}
+		\item $X$ zufällige Nachbarschaftsmatrix
 		\item $x \in \mathcal{X}$
 		\item $\theta \in \Omega \subset \mathbb{R}^q$ ... Vektor der Modellparameter
-		\item $g(x)$ ... q-Vektor aus Statistiken basierend auf der Nachbarschaftsmatrix $X$ \\\vspace{1cm}
+		\item $g(x)$ ... q-Vektor aus Statistiken basierend auf der Nachbarschaftsmatrix $x$ \\\vspace{1cm}
 		\item \textcolor[rgb]{1,0,0}{\textbf{Problem:}}  $\kappa(\theta, \mathcal{X}) = \sum_{x \in \mathcal{X}}{exp			 \left\{\theta^T g(x)\right\}}$
 	\end{itemize}
 \end{frame}
@@ -457,6 +458,22 @@ Ziel: Zentrierung der Statitiken der simulierten Netzwerke über denen des beobac
 \end{frame}
 
 \begin{frame}
+	\frametitle{Interpretation der Parameter}
+	
+	$X^{(1)}$ und $X^{(2)}$ seien Netzwerke mit identischen Statistiken bis auf Statistik $g_i(X)$ und
+	$$\delta_i(X) = g_i(X^{(1)}) - g_i(X^{(2)})$$. \vfill
+	Dann gilt:
+	$$ \frac{P(X^{(1)})}{P(X^{(2)})} = exp(\theta_i \delta_i(X)) $$ \vfill
+	$\Longrightarrow$ für positives $\delta_i(X)$ gilt also:
+	\begin{itemize}
+		\item Ist $\theta_i > 0$, so ist $X^{(1)}$ plausibler als $X^{(2)}$.
+		\item Ist $\theta_i = 0$, so sind sie gleich plausibel.
+		\item Ist $\theta_i < 0$, so ist $X^{(1)}$ plausibler als $X^{(2)}$.
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}
 	\begin{table}[ht]
 	\centering
 	\scriptsize
@@ -494,12 +511,61 @@ Ziel: Zentrierung der Statitiken der simulierten Netzwerke über denen des beobac
 \end{frame}
 
 \begin{frame}
+\setbeamercovered{dynamic}
+	\frametitle{Interpretation der Parameter 2}
+	\begin{itemize}
+		\item \uncover<1->{\textbf{edges $-6.111$}: Tendenz zu wenig Kanten}
+		\item \uncover<2->{\textbf{mutual $2.120$}: Tendenz zu gegenseitigen Handel}
+		\item \uncover<3->{\textbf{Import CINC $3.071$}: "`mächtige"' Länder als Importland wahrscheinlich}
+		\item \uncover<4->{\textbf{Export CINC $-5.967$}: "`mächtige"' Länder als Exportland unwahrscheinlich}
+		\item \uncover<5->{\textbf{Export/Import GDP $> 0$}: wirtschaftsstarke Länderals Handelspartner wahrscheinlich}
+		\item \uncover<6->{\textbf{Export Conflict $-0.1398$}: In Konflikte verwickelte Länder als Exporteure unwahrscheinlich}
+		\item \uncover<7->{\textbf{Export Faktor Continent}: Europäische Länder als Exporteure am wahrscheinlichsten, Afrikanische Länder als Exporteure am unwahrscheinlichsten.}
+		\item \uncover<8->{\textbf{diff Polity $-0.00936$}: Handel zwischen Ländern mit geringem Unterschied im Demokratiescore wahrscheinlich.}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+\setbeamercovered{invisible}
+	\frametitle{Interpretation der Parameter 3}
+	\textbf{Curved ERGM Terms am Beispiel von Geometrically Weighted Degree (GWD):}
+	\pause
+	\begin{itemize}
+		\item Änderung der Degree Sequenz eines Knotens: \\
+		$(D_k, D_{k+1}) \rightarrow (D_k-1, D_{k+1}+1)$
+		\pause
+		\item $\frac{p_{after}}{p_{before}} = exp(\theta\rho^k)$ , $\rho = 1 - e^{-\phi}$
+	\end{itemize}
+	\pause
+	\vfill
+	$\Rightarrow$ \textbf{Interpretation der beiden Parameter:}
+	\begin{itemize}
+	\pause
+		\item $\theta > 0$: Tendenz zum Hinzufügen von Kanten
+		\item $\theta < 0$: Tendenz zum Löschen von Kanten Kanten
+		\pause
+		\item $\phi = 0$: Tendenz verschwindet komplett
+		\item $\phi \rightarrow \infty$: Tendenz bleibt konstant
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Interpretation der Parameter 4}
+	\begin{itemize}
+		\item \textbf{GWIDEGREE 1.895}: Tendenz zu vielen Importpartner
+		\item \textbf{GWODEEGREE -1.211}: Tendenz zu wenigen Exportpartnern
+		\item \textbf{GWESP 2.641}: Tendenz zur Schließung von Deiecken
+		\item \textbf{GWDSP -0.05686}: Tendenz gegen Schließung von offenen Dreicken\\\vspace{1cm}
+		\item \textbf{DECAY 0.2}: Tendenz verschwindet schnell!
+	\end{itemize}
+\end{frame}
+\begin{frame}
 \frametitle{MCMC Diagnose}
 	\begin{figure}[ht]
 	\centering
 		\includegraphics[width=0.8\textwidth]{Grafiken/mcmc_diag1.png}
 	\caption{MCMC Diagnose von Modell 1 (1996) - edges und mutual}
-	\label{fig:mcmc.diag.model1}
+	
 \end{figure}
 \end{frame}
 
@@ -509,7 +575,7 @@ Ziel: Zentrierung der Statitiken der simulierten Netzwerke über denen des beobac
 	\centering
 		\includegraphics[width=0.8\textwidth]{Grafiken/mcmc_diag2.png}
 	\caption{MCMC Diagnose von Modell 1 (1996) - gwidegree und gwodegree}
-	\label{fig:mcmc.diag.model1}
+	
 \end{figure}
 \end{frame}
 
@@ -519,7 +585,7 @@ Ziel: Zentrierung der Statitiken der simulierten Netzwerke über denen des beobac
 	\centering
 		\includegraphics[width=0.7\textwidth]{Grafiken/indeg_gof.png}
 	\caption{Goodness of Fit von Modell 1 (1996) - In Degree}
-	\label{fig:gof.model1}
+	
 \end{figure}
 \end{frame}
 
@@ -529,7 +595,7 @@ Ziel: Zentrierung der Statitiken der simulierten Netzwerke über denen des beobac
 	\centering
 		\includegraphics[width=0.7\textwidth]{Grafiken/outdeg_gof.png}
 	\caption{Goodness of Fit von Modell 1 (1996) - Out Degree}
-	\label{fig:gof.model1}
+	
 \end{figure}
 \end{frame}
 
@@ -539,7 +605,7 @@ Ziel: Zentrierung der Statitiken der simulierten Netzwerke über denen des beobac
 	\centering
 		\includegraphics[width=0.7\textwidth]{Grafiken/geodist_gof.png}
 	\caption{Goodness of Fit von Modell 1 (1996) - Minimum Geodesic Distance}
-	\label{fig:gof.model1}
+	
 \end{figure}
 \end{frame}
 
@@ -549,7 +615,7 @@ Ziel: Zentrierung der Statitiken der simulierten Netzwerke über denen des beobac
 	\centering
 		\includegraphics[width=0.7\textwidth]{Grafiken/dsp_gof.png}
 	\caption{Goodness of Fit von Modell 1 (1996) - Dyadwise Shared Partners}
-	\label{fig:gof.model1}
+	
 \end{figure}
 \end{frame}
 
@@ -559,27 +625,49 @@ Ziel: Zentrierung der Statitiken der simulierten Netzwerke über denen des beobac
 	\centering
 		\includegraphics[width=0.7\textwidth]{Grafiken/esp_gof.png}
 	\caption{Goodness of Fit von Modell 1 (1996) - Edgewise Shared Partners}
-	\label{fig:gof.model1}
+	
 \end{figure}
 \end{frame}
 
+
 \begin{frame}
-	\frametitle{Interpretation der Parameter}
-	
-	$X^{(+)}$ und $X^{(-)}$ seien Netzwerke mit identischen Statistiken bis auf Statistik $g_i(X)$ und
-	$$\delta_i(X) = g_i(X^{(+)}) - g_i(X^{(-)})$$ \vfill
-	dann gilt:
-	$$ \frac{P(X^{(+)})}{P(X^{(-)})} = exp(\theta_i \delta_i(X)) $$ \vfill
-	$\Longrightarrow$ für positives $\delta_i(X)$ gilt also:
+\frametitle{Probleme bei der Modellierung}
 	\begin{itemize}
-		\item Ist $\theta_i > 0$, so ist $X^{(+)}$ plausibler als $X^{(-)}$.
-		\item Ist $\theta_i = 0$, so sind sie gleich plausibel.
-		\item Ist $\theta_i < 0$, so ist $X^{(+)}$ plausibler als $X^{(-)}$.
+		\item Instabilität bezüglich Wahl der Statistiken, Jahr und Decay-Parameter
+		\item Sehr lange Rechenzeit bei Einbindung von Kantenattributen und freiem Decay-Parameter
+		\item Wahl der richtigen Statistiken schwierig / nicht eindeutig
 	\end{itemize}
+	\vfill
+	\textbf{Idee:} Anwendung von Modell aus Vorgängerarbeit (Großwaffenhandel) auf Daten des Kleinwaffenhandels\\
+	$\Longrightarrow$ funktioniert in keinem der 20 Jahre.\\\vfill
+	$\Longrightarrow$ Netzwerke des Kleinwaffenhandels und Großwaffenhandels haben strukturelle Unterschiede
 \end{frame}
 \subsection{Vergleich mit Großwaffenhandel}
 \begin{frame}
 	\frametitle{Vergleich mit Großwaffenhandel}
+	\textcolor[rgb]{1,0,0}{\textbf{Unterschiede:}}
+	
+	\begin{table}[h]
+		\centering
+			\begin{tabular}{|l|c|c|}
+				\hline
+				Merkmal & Großwaffen & Kleinwaffen \\
+				\hline
+				Zeitraum & 1950 -2012 & 1992 -2011 \\
+				Anzahl Nationen & 218 & 239 \\
+				Anzahl Transaktionen &ca 300-400 pro Jahr & 4000-7000 pro Jahr\\
+				Dichte & 0.025 - 0.035& 0.045 - 0.065\\
+				\hline
+			\end{tabular}
+	\end{table}
+	\vfill
+	\textcolor[rgb]{0.2,0.8,0.2}{\textbf{Gemeinsamkeiten:}}
+	\begin{itemize}
+		\item Degree Verteilung
+		\item zentrale Akteure
+		\item ansteigender Trend
+	\end{itemize}
+	
 \end{frame}
 
 %%%%%%%%%%%%%%%%Fazit%%%%%%%%%%%%%%%%
@@ -592,5 +680,34 @@ Ziel: Zentrierung der Statitiken der simulierten Netzwerke über denen des beobac
 
 \begin{frame}
 	\frametitle{Fazit}
+	Netzwerkdaten über Handel mit Kleinwaffen von 1992 bis 2011\\[0.5cm]
+	\textbf{Fazit}:	
+	\begin{itemize}
+		\item Zentrale Akteure dominieren den Handel
+		\item Trend: mehr Handel, mehr beteiligte Nationen, größere Ausgaben
+		\item Modellierung mit ERGM schwierig
+	\end{itemize}
+	\vfill
+	\textbf{Mögliche Verbesserungen:}
+	\begin{itemize}
+		\item Einbeziehung zusätzlicher Kovariablen
+		\item Testen zusätzlicher Kombinationen von endogenen Statistiken und exogenen Kovariablen
+		\item Berücksichtigung der zeitlichen Struktur durch Temporal Exponential Random Graph Model (TERGM)
+		\item Modellierung von Teilnetzwerken
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Literatur}
+\nocite{lkr12}
+\nocite{hunter2008ergm}
+\nocite{kc14}
+\nocite{hunter2007curved}
+	\bibliography{literatur}
+\end{frame}
+\begin{frame}
+	\begin{center}
+		\huge \textcolor[rgb]{0,0.33,0}{Ende}
+	\end{center}
 \end{frame}
 \end{document}
