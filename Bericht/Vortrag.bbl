@@ -1,3 +1,26 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{hunter2007curved}
+David~R Hunter.
+\newblock Curved exponential family models for social networks.
+\newblock {\em Social networks}, 29(2):216--230, 2007.
+
+\bibitem{hunter2008ergm}
+David~R Hunter, Mark~S Handcock, Carter~T Butts, Steven~M Goodreau, and Martina
+  Morris.
+\newblock ergm: A package to fit, simulate and diagnose exponential-family
+  models for networks.
+\newblock {\em Journal of statistical software}, 24(3), 2008.
+
+\bibitem{kc14}
+Eric~D Kolaczyk and Gabor Csardi.
+\newblock {\em Statistical Analysis of Network Data with R}.
+\newblock Springer New York, 2014.
+
+\bibitem{lkr12}
+Dean Lusher, Johan Koskinen, and Garry Robins.
+\newblock {\em Exponential random graph models for social networks: Theory,
+  methods, and applications}.
+\newblock Cambridge University Press, 2012.
 
 \end{thebibliography}

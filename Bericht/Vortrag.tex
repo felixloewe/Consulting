@@ -1,4 +1,4 @@
-\documentclass{beamer}
+\documentclass[handout]{beamer}
 
 \usepackage[latin1]{inputenc}
 \usepackage[ngerman]{babel}
@@ -10,11 +10,15 @@
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage{animate}
+\usepackage{amsmath, amsthm, amssymb, amsbsy}
+\usepackage{mathtools}
+\usepackage{booktabs}
+\usepackage{microtype}
 
 \beamertemplatenavigationsymbolsempty
 \author[F. Loewe]{
-  \leftline{\textbf{Projektpartner}: Paul Thurner}
-  \leftline{\textbf{Betreuer}: Goeran Kauermann}
+  \leftline{\textbf{Projektpartner}: Prof. Dr. Paul W. Thurner}
+  \leftline{\textbf{Betreuer}: Prof. Dr. Göran Kauermann}
   \leftline{\textbf{Referent}: Felix Loewe}
 }
 \title[Internationaler Waffenhandel]{Internationaler Waffenhandel}
@@ -23,7 +27,7 @@
 %\logo{\pgfimage[width=2cm,height=2cm]{lmu_logo}}
 %\titlegraphic{\includegraphics[width=1cm,height=1cm]{lmu_logo}}			
 \date{\today}
-\usetheme{Madrid}
+\usetheme{Madrid} %\usetheme{boadilla}
 \colorlet{beamer@blendedblue}{green!40!black}
 \bibliographystyle{plain}
 
@@ -51,7 +55,7 @@
 	\frametitle{Was ist ein Netzwerk?}
 	
 	\begin{center}
-	Netzwerk besteht aus \emph{Akteuren} und ihren \emph{Verbindungen}\\ \vspace{1cm}
+	Ein Netzwerk besteht aus \emph{Akteuren} und ihren \emph{Verbindungen}\\ \vspace{1cm}
 	\end{center}
 		
 	\textbf{Anwendungsgebiete:}
@@ -90,7 +94,7 @@
 	\vfill
 	\textbf{Begriffe:}
 	\begin{itemize}
-		\item \emph{gerichteter} vs. \emph{ungerichteter} Graph
+		\item \emph{Gerichteter} vs. \emph{ungerichteter} Graph
 		\item (In-/Out-) \emph{Degree}
 		\item \emph{Dichte}: $den(G) = \frac{|E_G|}{N_V(N_V-1)/2}$
 	\end{itemize}
@@ -108,12 +112,12 @@
 \begin{frame}
 	\frametitle{Datensituation}
 	\begin{center}
-		\emph{NISAT}-Datenbank (Norwegian Initiative on Small Arms Transfers) von \emph{PRIO} (Peace Research Institute Oslo)
+		\emph{NISAT}-Datenbank (Norwegian Initiative on Small Arms Transfers)\\ von \emph{PRIO} (Peace Research Institute Oslo)
 	\end{center}
 	\textbf{Kantenliste mit zusätzlichen Variablen:}
 	\begin{itemize}
 		\item Correlates of War Code
-		\item monetärer Wert in US\$
+		\item Monetärer Wert in US\$
 		\item Waffentyp
 		\item Datenquelle
 		\item Jahr
@@ -141,7 +145,7 @@
 	\begin{figure}
 		\centering
 					\includegraphics[width=0.8\textwidth]{Grafiken/ts_descriptives.png}
-					\caption{Netzwerkmaßzahlen des Kleinwaffenhandels 1992-2011}
+					\caption{Netzwerkmaßzahlen des Kleinwaffenhandels von 1992 bis 2011}
 					\label{fig:ts_descriptives}		
 	\end{figure}
 	
@@ -154,7 +158,7 @@
 	\begin{figure}
 		\centering
 			\includegraphics[width=0.7\textwidth]{Grafiken/ts_degree.png}
-		\caption{In-/ Out- Degree der Länder 1992-2011}
+		\caption{In-/ Out- Degree der Länder von 1992 bis 2011}
 		\label{fig:ts_degree}
 	\end{figure}
 	
@@ -284,7 +288,7 @@
 \begin{figure}
 	\includegraphics[width=0.75\textwidth]{Grafiken/ts_topsexprel.png}
 	\caption{Zeitreihen der jährlichen Handelswerte der Top-Exporteure von 1992 bis 2011}
-	\label{fig:ts_tops}
+	
 \end{figure}
 
 \framebreak
@@ -304,8 +308,8 @@
 	\begin{figure}[ht]
 \centering
 \animategraphics[scale=0.35, controls]{1}{Grafiken/Cont_Ani/cont}{1}{20}
-\caption{Handelsströme zwischen den Kontinenten von 1992-2011}
-\label{fig:cont}
+\caption{Handelsströme zwischen den Kontinenten von 1992 bis 2011}
+
 \end{figure}
 \end{frame}
 
@@ -320,22 +324,351 @@
 \subsection{ERGM - Exponential Random Graph Model}
 \begin{frame}
 	\frametitle{ERGM - Exponential Random Graph Model}
+	\begin{equation}
+	\LARGE
+	P_{\theta, \mathcal{X}}(X = x) = \frac{exp\left\{\theta^T g(x)\right\}}{\kappa(\theta, \mathcal{X})}
+	\label{eq:ergm}
+	\end{equation}
+	mit
+	\begin{itemize}
+		\item $X$ zufällige Nachbarschaftsmatrix
+		\item $x \in \mathcal{X}$
+		\item $\theta \in \Omega \subset \mathbb{R}^q$ ... Vektor der Modellparameter
+		\item $g(x)$ ... q-Vektor aus Statistiken basierend auf der Nachbarschaftsmatrix $x$ \\\vspace{1cm}
+		\item \textcolor[rgb]{1,0,0}{\textbf{Problem:}}  $\kappa(\theta, \mathcal{X}) = \sum_{x \in \mathcal{X}}{exp			 \left\{\theta^T g(x)\right\}}$
+	\end{itemize}
 \end{frame}
+
 \subsubsection{Simulation von Zufallsgraphen}
 \begin{frame}
 	\frametitle{Simulation von Zufallsgraphen}
+	\textbf{Simulation einer Sequenz von Graphen aus Zielverteilung $P_\theta(x)$ via Makrov Chain Monte Carlo Algorithmus:}
+	\vfill
+	\begin{enumerate}
+	\item Beliebiges Netzwerk mit fester Knotenzahl N als Startpunkt. 
+	\item Aus dem aktuellen Graphen $x^{(m-1)}$ wird ein zufälliges Knotenpaar $i,j$ ($i,j \in 1, ...,N$) ausgewählt.
+	\item Vorgeschlagener Graph: $x^* = x^{(m-1)}$ bis auf $x_{ij}^{(m-1)} = 1 - x_{ij}^{(m-1)}$.
+	\item Akzeptanz mit der Wahrscheinlichkeit $min\{1, \frac{P_{\theta}(x^*)}{P_{\theta}(x^{(m-1)})}\}$.
+	\item Bei Akzeptanz $x^{(m)} = x^*$ und $x^{(m)} = x^{(m-1)}$ sonst.
+	\item Iteration der Schritte 2 - 5.
+\end{enumerate}
+\begin{itemize}
+	\item Algorithmus ist unabhängig vom Startpunkt bei ausreichendem \emph{Burn In}.
+	\item Algorithmus ermöglicht unabhängige Ziehungen aus gleicher Kette durch \emph{Thinning}.
+\end{itemize}
 \end{frame}
+
 \subsubsection{Schätzung der Modellparameter}
 \begin{frame}
 	\frametitle{Schätzung der Modellparameter}
+Ziel: Zentrierung der Statistiken der simulierten Netzwerke über denen des beobachteten Netzwerkes:
+
+\begin{equation}
+\LARGE
+	E_\theta(z(X)) - z(x_{obs}) = 0
+	\label{eq:1}
+\end{equation}
+
+\begin{itemize}
+	\item \textbf{\textcolor[rgb]{1,0,0}{Problem:}} $E_\theta(z(X)) = \sum_{x \in \mathcal{X}}{z(x)P_\theta(x)}$
+	\vfill
+	\item \textbf{\textcolor[rgb]{0.2,0.8,0.2}{Lösung}}: \emph{Importance Sampling}
+	\begin{enumerate}
+		\item Ziehung einer großen Stichprobe von Graphen auf Basis eines vorläufigen Parametervektors $\tilde{\theta}$.
+		\item Benutzung gewichteter Stichprobendurchschnitte der Statistiken.
+		\item Erzeugen einer Sequenz von Parametern $\widetilde{\theta},\theta^{(1)}, \theta^{(2)},...,\theta^{(G)}$ durch \emph{Fisher Scoring}.
+		\item Neustart mit $\theta^{(G)}$ als $\tilde{\theta}$.
+	\end{enumerate}
+
+	
+\end{itemize}
 \end{frame}
+
+
+\begin{frame}
+	\frametitle{Degeneration}
+	\textcolor[rgb]{1,0,0}{\textbf{Problem :}} Hohe Wahrscheinlichkeit auf unrealistischen Netzwerken (volles oder leeres Netzwerk) führt zur Divergenz des Schätz-Algorithmus. \\ \vfill
+	\textbf{Ursachen:}
+	\begin{itemize}
+		\item Instabilität von einfachen Zählstatistiken
+		\item fehlende exogene Unterscheidungsmerkmale für Knoten und Kanten
+		\item Beschränkung auf lineare Effekte der Statistiken unrealistisch
+	\end{itemize}
+	\vfill
+	\textcolor[rgb]{0,0.58,0}{\textbf{Lösungsansatz:}}
+	\begin{itemize}
+		\item Aufnahme von exogenen Kovariablen
+		\item Aufnahme von nicht linearen Einflüssen durch\\ \emph{Curved Exponential Family Models}  
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Curved Exponential Family Models}
+	\begin{itemize}
+		\item \textbf{\textit{Geometrically Weighted Degree} (GWD):}
+			\begin{equation}
+				u(x, \phi_s) = e^{\phi_s} \sum^{n-1}_{i=1}\left\{1-(1-e^{-\phi_s})^{i}\right\}D_i(x)
+			\label{eq:GWD}
+			\end{equation}
+		\item \textbf{\textit{Geometrically Weighted Edgewise Shared Partners} (GWESP):}
+			\begin{equation}
+				v(x, \phi_t) = e^{\phi_t} \sum^{n-2}_{i=1}\left\{1-(1-e^{-\phi_t})^{i}\right\}EP_i(x)
+				\label{eq:GWESP}
+			\end{equation}
+		\item \textbf{\textit{Geometrically Weighted Dyadic Shared Partners} (GWDSP):}
+			\begin{equation}
+				w(x, \phi_p) = e^{\phi_p} \sum^{n-2}_{i=1}\left\{1-(1-e^{-\phi_p})^{i}\right\}DP_i(x)
+			\label{eq:GWDSP}
+			\end{equation}
+	\end{itemize}
+\end{frame}
+
+
 \subsection{Anwendung des ERGM}
 \begin{frame}
 	\frametitle{Anwendung des ERGM}
+	
+\begin{minipage}[t]{0.48\textwidth}
+
+\centering
+\textbf{Endogene Statistiken}
+
+\begin{itemize}
+	\item edges
+	\item mutual
+	\item gwesp(0.2, fixed)
+	\item gwdsp(0.2, fixed)
+	\item gwidegree(0.2, fixed)
+	\item gwodegree(0.2, fixed)
+\end{itemize}
+\end{minipage}	
+\hfill	
+\begin{minipage}[t]{0.48\textwidth}	
+\centering
+\textbf{Exogene Statistiken}
+
+\begin{itemize}
+	\item CINC
+	\item GDP
+	\item Conflict
+	\item Polity
+	\item Continent
+\end{itemize}
+\end{minipage}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Interpretation der Parameter}
+	
+	$X^{(1)}$ und $X^{(2)}$ seien Netzwerke mit identischen Statistiken bis auf Statistik $g_i(X)$ und
+	$$\delta_i(X) = g_i(X^{(1)}) - g_i(X^{(2)})$$. \vfill
+	Dann gilt:
+	$$ \frac{P(X^{(1)})}{P(X^{(2)})} = exp(\theta_i \delta_i(X)) $$ \vfill
+	$\Longrightarrow$ für positives $\delta_i(X)$ gilt also:
+	\begin{itemize}
+		\item Ist $\theta_i > 0$, so ist $X^{(1)}$ plausibler als $X^{(2)}$.
+		\item Ist $\theta_i = 0$, so sind sie gleich plausibel.
+		\item Ist $\theta_i < 0$, so ist $X^{(1)}$ plausibler als $X^{(2)}$.
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+	\begin{table}[ht]
+	\centering
+	\scriptsize
+	\caption{Summary von Modell 1 (1996) }
+		\begin{tabular}{l|l|l|l}
+		
+		\hline
+		ergm-term 						   				  & Estimate      & Std.Error   & p-Value 				\\
+		\hline
+    edges                     				& -6.111e+00  &2.281e-01      & \textless 1e-04 *** \\
+    mutual                   					&  2.120e+00  &9.507e-02      & \textless 1e-04  ***\\
+    gwidegree                  				&  1.895e+00  &4.818e-01      & \textless 1e-04  ***\\
+    gwodegree                     		& -1.311e+00  &3.307e-01      & \textless 1e-04  ***\\
+    gwesp.fixed.0.2                   &  2.641e+00  &1.778e-01      & \textless 1e-04  ***\\
+    gwdsp.fixed.0.2				    				& -5.686e-02  &6.008e-03      & \textless 1e-04  ***\\
+    nodeicov.ext\_cinc         				&  3.071e+00  &1.291e+00      & 0.01740  *\\
+    nodeocov.ext\_cinc         				& -5.967e+00  &1.361e+00      & \textless 1e-0  ***\\
+    nodeicov.ext\_gdp          				&  3.479e-06  &2.099e-06      & 0.09749  .\\
+    nodeocov.ext\_gdp          				&  4.392e-06  &1.586e-06      & 0.00562  **\\
+    nodeicov.ext\_conflict     				&  2.310e-02  &1.704e-02      & 0.17530  \\
+    nodeocov.ext\_conflict     				& -1.398e-01  &2.763e-02      & \textless 1e-04  ***\\
+    nodeifactor.Continent.America     &  6.645e-02  &6.799e-02      & 0.32839  \\
+		nodeifactor.Continent.Asien     	&  9.525e-02  &6.473e-02      & 0.14116  \\
+		nodeifactor.Continent.Europe     	&  5.353e-03  &7.312e-02      & 0.94164  \\
+		nodeifactor.Continent.Oceania     & -2.323e-02  &1.136e-01      & 0.83795  \\
+    nodeofactor.Continent.America     &  2.055e-01  &6.589e-02      & 0.00182  **\\
+		nodeofactor.Continent.Asien     	&  1.494e-01  &6.452e-02      & 0.02055  *\\
+		nodeofactor.Continent.Europe     	&  8.579e-01  &7.226e-02      & \textless 1e-04  ***\\
+		nodeofactor.Continent.Oceania     &  2.311e-01  &9.602e-02      & 0.01611  *\\
+		absdiff.ext\_polity            		& -9.360e-03  &3.249e-03      & 0.00397 **\\
+		\hline
+		\end{tabular}
+		\label{model1}
+\end{table}
+\end{frame}
+
+\begin{frame}
+\setbeamercovered{dynamic}
+	\frametitle{Interpretation der Parameter 2}
+	\textbf{Parameterwerte:}
+	\begin{itemize}
+		\item \uncover<1->{\textbf{Edges $-6.111$}: Tendenz zu wenig Kanten}
+		\item \uncover<2->{\textbf{Mutual $2.120$}: Tendenz zu gegenseitigen Handel}
+		\item \uncover<3->{\textbf{Import CINC $3.071$}: "`mächtige"' Länder als Importland wahrscheinlich}
+		\item \uncover<4->{\textbf{Export CINC $-5.967$}: "`mächtige"' Länder als Exportland unwahrscheinlich}
+		\item \uncover<5->{\textbf{Export/Import GDP $> 0$}: wirtschaftsstarke Länderals Handelspartner wahrscheinlich}
+		\item \uncover<6->{\textbf{Export Conflict $-0.1398$}: In Konflikte verwickelte Länder als Exporteure unwahrscheinlich}
+		\item \uncover<7->{\textbf{Export Faktor Continent}: Europäische Länder als Exporteure am wahrscheinlichsten, Afrikanische Länder als Exporteure am unwahrscheinlichsten.}
+		\item \uncover<8->{\textbf{Diff Polity $-0.00936$}: Handel zwischen Ländern mit geringem Unterschied im Demokratiescore wahrscheinlich.}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+\setbeamercovered{invisible}
+	\frametitle{Interpretation der Parameter 3}
+	\textbf{Curved ERGM Terms am Beispiel von Geometrically Weighted Degree (GWD):}
+	\pause
+	\begin{itemize}
+		\item Änderung der Degree Sequenz eines Knotens: \\
+		$(D_k, D_{k+1}) \rightarrow (D_k-1, D_{k+1}+1)$
+		\pause
+		\item $\frac{p_{after}}{p_{before}} = exp(\theta\rho^k)$ , $\rho = 1 - e^{-\phi}$
+	\end{itemize}
+	\pause
+	\vfill
+	$\Rightarrow$ \textbf{Interpretation der beiden Parameter:}
+	\begin{itemize}
+	\pause
+		\item $\theta > 0$: Tendenz zum Hinzufügen von Kanten
+		\item $\theta < 0$: Tendenz zum Löschen von Kanten Kanten
+		\pause
+		\item $\phi = 0$: Tendenz verschwindet komplett
+		\item $\phi \rightarrow \infty$: Tendenz bleibt konstant
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Interpretation der Parameter 4}
+	\begin{itemize}
+		\item \textbf{GWIDEGREE $1.895$}: Tendenz zu vielen Importpartner
+		\item \textbf{GWODEEGREE $-1.211$}: Tendenz zu wenigen Exportpartnern
+		\item \textbf{GWESP $2.641$}: Tendenz zur Schließung von Deiecken
+		\item \textbf{GWDSP $-0.05686$}: Tendenz gegen Schließung von offenen Dreiecken\\\vspace{1cm}
+		\item \textbf{DECAY $0.2$}: Tendenz verschwindet schnell!
+	\end{itemize}
+\end{frame}
+\begin{frame}
+\frametitle{MCMC Diagnose}
+	\begin{figure}[ht]
+	\centering
+		\includegraphics[width=0.8\textwidth]{Grafiken/mcmc_diag1.png}
+	\caption{MCMC Diagnose von Modell 1 (1996) - edges und mutual}
+	
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{MCMC Diagnose 2}
+	\begin{figure}[ht]
+	\centering
+		\includegraphics[width=0.8\textwidth]{Grafiken/mcmc_diag2.png}
+	\caption{MCMC Diagnose von Modell 1 (1996) - gwidegree und gwodegree}
+	
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Goodeness of Fit}
+	\begin{figure}[ht]
+	\centering
+		\includegraphics[width=0.7\textwidth]{Grafiken/indeg_gof.png}
+	\caption{Goodness of Fit von Modell 1 (1996) - In Degree}
+	
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Goodeness of Fit 2}
+	\begin{figure}[ht]
+	\centering
+		\includegraphics[width=0.7\textwidth]{Grafiken/outdeg_gof.png}
+	\caption{Goodness of Fit von Modell 1 (1996) - Out Degree}
+	
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Goodeness of Fit 3}
+	\begin{figure}[ht]
+	\centering
+		\includegraphics[width=0.7\textwidth]{Grafiken/geodist_gof.png}
+	\caption{Goodness of Fit von Modell 1 (1996) - Minimum Geodesic Distance}
+	
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Goodeness of Fit 4}
+	\begin{figure}[ht]
+	\centering
+		\includegraphics[width=0.7\textwidth]{Grafiken/dsp_gof.png}
+	\caption{Goodness of Fit von Modell 1 (1996) - Dyadwise Shared Partners}
+	
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Goodeness of Fit 5}
+	\begin{figure}[ht]
+	\centering
+		\includegraphics[width=0.7\textwidth]{Grafiken/esp_gof.png}
+	\caption{Goodness of Fit von Modell 1 (1996) - Edgewise Shared Partners}
+	
+\end{figure}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Probleme bei der Modellierung}
+	\begin{itemize}
+		\item Instabilität bezüglich Wahl der Statistiken, Jahr und Decay-Parameter
+		\item Sehr lange Rechenzeit bei Einbindung von Kantenattributen und freiem Decay-Parameter
+		\item Wahl der richtigen Statistiken schwierig / nicht eindeutig
+	\end{itemize}
+	\vfill
+	\textbf{Idee:} Anwendung von Modell aus Vorgängerarbeit (Großwaffenhandel) auf Daten des Kleinwaffenhandels\\
+	$\Longrightarrow$ funktioniert in keinem der 20 Jahre.\\\vfill
+	$\Longrightarrow$ Netzwerke des Kleinwaffenhandels und Großwaffenhandels haben strukturelle Unterschiede
 \end{frame}
 \subsection{Vergleich mit Großwaffenhandel}
 \begin{frame}
 	\frametitle{Vergleich mit Großwaffenhandel}
+	\textcolor[rgb]{1,0,0}{\textbf{Unterschiede:}}
+	
+	\begin{table}[h]
+		\centering
+			\begin{tabular}{|l|c|c|}
+				\hline
+				Merkmal & Großwaffen & Kleinwaffen \\
+				\hline
+				Zeitraum & 1950 -2012 & 1992 -2011 \\
+				Anzahl Nationen & 218 & 239 \\
+				Anzahl Transaktionen &ca 300-400 pro Jahr & 4000-7000 pro Jahr\\
+				Dichte & 0.025 - 0.035& 0.045 - 0.065\\
+				\hline
+			\end{tabular}
+	\end{table}
+	\vfill
+	\textcolor[rgb]{0.2,0.8,0.2}{\textbf{Gemeinsamkeiten:}}
+	\begin{itemize}
+		\item Degree Verteilung
+		\item Zentrale Akteure
+		\item Ansteigender Trend
+	\end{itemize}
+	
 \end{frame}
 
 %%%%%%%%%%%%%%%%Fazit%%%%%%%%%%%%%%%%
@@ -348,5 +681,34 @@
 
 \begin{frame}
 	\frametitle{Fazit}
+	Netzwerkdaten über Handel mit Kleinwaffen von 1992 bis 2011\\[0.5cm]
+	\textbf{Fazit}:	
+	\begin{itemize}
+		\item Zentrale Akteure dominieren den Handel
+		\item Trend: mehr Handel, mehr beteiligte Nationen, größere Ausgaben
+		\item Modellierung mit ERGM schwierig
+	\end{itemize}
+	\vfill
+	\textbf{Mögliche Verbesserungen:}
+	\begin{itemize}
+		\item Einbeziehung zusätzlicher Kovariablen
+		\item Testen zusätzlicher Kombinationen von endogenen Statistiken und exogenen Kovariablen
+		\item Berücksichtigung der zeitlichen Struktur durch Temporal Exponential Random Graph Model (TERGM)
+		\item Modellierung von Teilnetzwerken
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Literatur}
+\nocite{lkr12}
+\nocite{hunter2008ergm}
+\nocite{kc14}
+\nocite{hunter2007curved}
+	\bibliography{literatur}
+\end{frame}
+\begin{frame}
+	\begin{center}
+		\huge \textcolor[rgb]{0,0.33,0}{Ende}
+	\end{center}
 \end{frame}
 \end{document}
