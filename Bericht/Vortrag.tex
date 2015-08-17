@@ -27,7 +27,8 @@
 %\logo{\pgfimage[width=2cm,height=2cm]{lmu_logo}}
 %\titlegraphic{\includegraphics[width=1cm,height=1cm]{lmu_logo}}			
 \date{\today}
-\usetheme{Madrid} %\usetheme{boadilla}
+\usetheme{Madrid} 
+%\usetheme{boadilla}
 \colorlet{beamer@blendedblue}{green!40!black}
 \bibliographystyle{plain}
 
@@ -552,13 +553,13 @@ Ziel: Zentrierung der Statistiken der simulierten Netzwerke über denen des beoba
 	\frametitle{Interpretation der Parameter 2}
 	\textbf{Parameterwerte:}
 	\begin{itemize}
-		\item \uncover<1->{\textbf{Edges $-6.111$}: Tendenz zu wenig Kanten}
-		\item \uncover<2->{\textbf{Mutual $2.120$}: Tendenz zu gegenseitigen Handel}
-		\item \uncover<3->{\textbf{Import CINC $3.071$}: "`mächtige"' Länder als Importland wahrscheinlich}
-		\item \uncover<4->{\textbf{Export CINC $-5.967$}: "`mächtige"' Länder als Exportland unwahrscheinlich}
-		\item \uncover<5->{\textbf{Export/Import GDP $> 0$}: wirtschaftsstarke Länderals Handelspartner wahrscheinlich}
-		\item \uncover<6->{\textbf{Export Conflict $-0.1398$}: In Konflikte verwickelte Länder als Exporteure unwahrscheinlich}
-		\item \uncover<7->{\textbf{Export Faktor Continent}: Europäische Länder als Exporteure am wahrscheinlichsten, Afrikanische Länder als Exporteure am unwahrscheinlichsten.}
+		\item \uncover<1->{\textbf{Edges $-6.111$}: Tendenz zu wenigen Kanten.}
+		\item \uncover<2->{\textbf{Mutual $2.120$}: Tendenz zu gegenseitigen Handel.}
+		\item \uncover<3->{\textbf{Import CINC $3.071$}: "`Mächtige"' Länder als Importland wahrscheinlich.}
+		\item \uncover<4->{\textbf{Export CINC $-5.967$}: "`Mächtige"' Länder als Exportland unwahrscheinlich.}
+		\item \uncover<5->{\textbf{Export/Import GDP $> 0$}: Wirtschaftsstarke Länder als Handelspartner wahrscheinlich.}
+		\item \uncover<6->{\textbf{Export Conflict $-0.1398$}: In Konflikte verwickelte Länder als Exporteure unwahrscheinlich.}
+		\item \uncover<7->{\textbf{Export Faktor Continent $> 0$}: Europäische Länder als Exporteure am wahrscheinlichsten, Afrikanische Länder als Exporteure am unwahrscheinlichsten.}
 		\item \uncover<8->{\textbf{Diff Polity $-0.00936$}: Handel zwischen Ländern mit geringem Unterschied im Demokratiescore wahrscheinlich.}
 	\end{itemize}
 \end{frame}
@@ -588,13 +589,14 @@ Ziel: Zentrierung der Statistiken der simulierten Netzwerke über denen des beoba
 \end{frame}
 
 \begin{frame}
+\setbeamercovered{dynamic}
 	\frametitle{Interpretation der Parameter 4}
 	\begin{itemize}
-		\item \textbf{GWIDEGREE $1.895$}: Tendenz zu vielen Importpartner
-		\item \textbf{GWODEEGREE $-1.211$}: Tendenz zu wenigen Exportpartnern
-		\item \textbf{GWESP $2.641$}: Tendenz zur Schließung von Deiecken
-		\item \textbf{GWDSP $-0.05686$}: Tendenz gegen Schließung von offenen Dreiecken\\\vspace{1cm}
-		\item \textbf{DECAY $0.2$}: Tendenz verschwindet schnell!
+		\item \uncover<1->{\textbf{GWIDEGREE $1.895$}: Tendenz zu vielen Importpartnern}
+		\item \uncover<2->{\textbf{GWODEEGREE $-1.211$}: Tendenz zu wenigen Exportpartnern}
+		\item \uncover<3->{\textbf{GWESP $2.641$}: Tendenz zur Schließung von Deiecken}
+		\item \uncover<4->{\textbf{GWDSP $-0.05686$}: Tendenz gegen Schließung von offenen Dreiecken}\\\vspace{1cm}
+		\item \uncover<5->{\textbf{DECAY $0.2$}: Tendenz verschwindet schnell!}
 	\end{itemize}
 \end{frame}
 \begin{frame}
@@ -693,7 +695,7 @@ Ziel: Zentrierung der Statistiken der simulierten Netzwerke über denen des beoba
 				\hline
 				Zeitraum & 1950 -2012 & 1992 -2011 \\
 				Anzahl Nationen & 218 & 239 \\
-				Anzahl Transaktionen &ca 300-400 pro Jahr & 4000-7000 pro Jahr\\
+				Anzahl Transaktionen &ca. 300-400 pro Jahr &ca. 4000-7000 pro Jahr\\
 				Dichte & 0.025 - 0.035& 0.045 - 0.065\\
 				\hline
 			\end{tabular}
