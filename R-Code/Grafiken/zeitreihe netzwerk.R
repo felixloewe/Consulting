@@ -1,5 +1,5 @@
 windows(height = 24, width = 36)
-par(mfrow = c(1,2), oma = c(0,0,0,0))
+par(mfrow = c(1,2), oma = c(0,0,0,0), mar = c (1,1,1,1))
 
 years<- c(1992, 2011)
 

@@ -1,4 +1,4 @@
-\documentclass[handout]{beamer}
+\documentclass{beamer}
 
 \usepackage[latin1]{inputenc}
 \usepackage[ngerman]{babel}
@@ -27,7 +27,8 @@
 %\logo{\pgfimage[width=2cm,height=2cm]{lmu_logo}}
 %\titlegraphic{\includegraphics[width=1cm,height=1cm]{lmu_logo}}			
 \date{\today}
-\usetheme{Madrid} %\usetheme{boadilla}
+\usetheme{Madrid} 
+%\usetheme{boadilla}
 \colorlet{beamer@blendedblue}{green!40!black}
 \bibliographystyle{plain}
 
@@ -81,8 +82,11 @@
 	\textbf{Notation:}
 	\begin{itemize}
 		\item \textbf{$G = (V,E)$} ... ein \emph{Graph}
+		\pause
 		\item \textbf{$V = \left\{1,...,N_V\right\}$} ... Menge der \emph{Knoten}
+		\pause
 		\item \textbf{$E = \left\{(i,j)|i,j \in V, i\neq j\right\}$} ... Menge der \emph{Kanten}
+		\pause
 		\item $A \in N_V \times N_V$ ... eine \emph{Nachbarschaftsmatrix} \\ \vspace{0.2cm}
 	$	a_{ij} =
 		\begin{cases}
@@ -92,10 +96,13 @@
 	$
 	\end{itemize}
 	\vfill
+	\pause
 	\textbf{Begriffe:}
 	\begin{itemize}
 		\item \emph{Gerichteter} vs. \emph{ungerichteter} Graph
+		\pause
 		\item (In-/Out-) \emph{Degree}
+		\pause
 		\item \emph{Dichte}: $den(G) = \frac{|E_G|}{N_V(N_V-1)/2}$
 	\end{itemize}
 
@@ -304,7 +311,18 @@
 
 \subsection{Visualisierungen}
 \begin{frame}
-	\frametitle{Visualisierungen}
+	\frametitle{Visualisierungen 1}
+	
+	\begin{figure}
+		\centering
+			\includegraphics[width=0.80\textwidth]{Grafiken/ts_network.png}
+		\caption{Netzwerk des Kleinwaffenhandels 1992 (li.) und 2011(re.) }
+		\label{fig:ts_network}
+	\end{figure}
+	
+\end{frame}
+\begin{frame}
+	\frametitle{Visualisierungen 2}
 	\begin{figure}[ht]
 \centering
 \animategraphics[scale=0.35, controls]{1}{Grafiken/Cont_Ani/cont}{1}{20}
@@ -332,7 +350,7 @@
 	mit
 	\begin{itemize}
 		\item $X$ zufällige Nachbarschaftsmatrix
-		\item $x \in \mathcal{X}$
+		\item $x \in \mathcal{X}$, Menge aller möglichen Netzwerke
 		\item $\theta \in \Omega \subset \mathbb{R}^q$ ... Vektor der Modellparameter
 		\item $g(x)$ ... q-Vektor aus Statistiken basierend auf der Nachbarschaftsmatrix $x$ \\\vspace{1cm}
 		\item \textcolor[rgb]{1,0,0}{\textbf{Problem:}}  $\kappa(\theta, \mathcal{X}) = \sum_{x \in \mathcal{X}}{exp			 \left\{\theta^T g(x)\right\}}$
@@ -345,13 +363,19 @@
 	\textbf{Simulation einer Sequenz von Graphen aus Zielverteilung $P_\theta(x)$ via Makrov Chain Monte Carlo Algorithmus:}
 	\vfill
 	\begin{enumerate}
+	\pause
 	\item Beliebiges Netzwerk mit fester Knotenzahl N als Startpunkt. 
+	\pause
 	\item Aus dem aktuellen Graphen $x^{(m-1)}$ wird ein zufälliges Knotenpaar $i,j$ ($i,j \in 1, ...,N$) ausgewählt.
+	\pause
 	\item Vorgeschlagener Graph: $x^* = x^{(m-1)}$ bis auf $x_{ij}^{(m-1)} = 1 - x_{ij}^{(m-1)}$.
+	\pause
 	\item Akzeptanz mit der Wahrscheinlichkeit $min\{1, \frac{P_{\theta}(x^*)}{P_{\theta}(x^{(m-1)})}\}$.
+	\pause
 	\item Bei Akzeptanz $x^{(m)} = x^*$ und $x^{(m)} = x^{(m-1)}$ sonst.
 	\item Iteration der Schritte 2 - 5.
 \end{enumerate}
+\pause
 \begin{itemize}
 	\item Algorithmus ist unabhängig vom Startpunkt bei ausreichendem \emph{Burn In}.
 	\item Algorithmus ermöglicht unabhängige Ziehungen aus gleicher Kette durch \emph{Thinning}.
@@ -365,18 +389,22 @@ Ziel: Zentrierung der Statistiken der simulierten Netzwerke über denen des beoba
 
 \begin{equation}
 \LARGE
-	E_\theta(z(X)) - z(x_{obs}) = 0
+	E_\theta(g(X)) - g(x_{obs}) = 0
 	\label{eq:1}
 \end{equation}
 
 \begin{itemize}
-	\item \textbf{\textcolor[rgb]{1,0,0}{Problem:}} $E_\theta(z(X)) = \sum_{x \in \mathcal{X}}{z(x)P_\theta(x)}$
+	\item \textbf{\textcolor[rgb]{1,0,0}{Problem:}} $E_\theta(g(X)) = \sum_{x \in \mathcal{X}}{g(x)P_\theta(x)}$
 	\vfill
 	\item \textbf{\textcolor[rgb]{0.2,0.8,0.2}{Lösung}}: \emph{Importance Sampling}
+	\pause
 	\begin{enumerate}
 		\item Ziehung einer großen Stichprobe von Graphen auf Basis eines vorläufigen Parametervektors $\tilde{\theta}$.
+		\pause
 		\item Benutzung gewichteter Stichprobendurchschnitte der Statistiken.
+		\pause
 		\item Erzeugen einer Sequenz von Parametern $\widetilde{\theta},\theta^{(1)}, \theta^{(2)},...,\theta^{(G)}$ durch \emph{Fisher Scoring}.
+		\pause
 		\item Neustart mit $\theta^{(G)}$ als $\tilde{\theta}$.
 	\end{enumerate}
 
@@ -387,7 +415,8 @@ Ziel: Zentrierung der Statistiken der simulierten Netzwerke über denen des beoba
 
 \begin{frame}
 	\frametitle{Degeneration}
-	\textcolor[rgb]{1,0,0}{\textbf{Problem :}} Hohe Wahrscheinlichkeit auf unrealistischen Netzwerken (volles oder leeres Netzwerk) führt zur Divergenz des Schätz-Algorithmus. \\ \vfill
+	\textcolor[rgb]{1,0,0}{\textbf{Problem :}} Hohe Wahrscheinlichkeit auf unrealistischen Netzwerken (z.B. volles oder leeres Netzwerk) führt zur Divergenz des Schätz-Algorithmus. \\ \vfill
+	\pause
 	\textbf{Ursachen:}
 	\begin{itemize}
 		\item Instabilität von einfachen Zählstatistiken
@@ -395,6 +424,7 @@ Ziel: Zentrierung der Statistiken der simulierten Netzwerke über denen des beoba
 		\item Beschränkung auf lineare Effekte der Statistiken unrealistisch
 	\end{itemize}
 	\vfill
+	\pause
 	\textcolor[rgb]{0,0.58,0}{\textbf{Lösungsansatz:}}
 	\begin{itemize}
 		\item Aufnahme von exogenen Kovariablen
@@ -410,6 +440,13 @@ Ziel: Zentrierung der Statistiken der simulierten Netzwerke über denen des beoba
 				u(x, \phi_s) = e^{\phi_s} \sum^{n-1}_{i=1}\left\{1-(1-e^{-\phi_s})^{i}\right\}D_i(x)
 			\label{eq:GWD}
 			\end{equation}
+						
+			\begin{itemize}
+				\item Kombination aus Zählstatistiken $D_i(x)$
+				\item Abhängig von zusätzlichen Decay-Parameter $\phi$
+			\end{itemize}
+			\pause
+			
 		\item \textbf{\textit{Geometrically Weighted Edgewise Shared Partners} (GWESP):}
 			\begin{equation}
 				v(x, \phi_t) = e^{\phi_t} \sum^{n-2}_{i=1}\left\{1-(1-e^{-\phi_t})^{i}\right\}EP_i(x)
@@ -459,11 +496,12 @@ Ziel: Zentrierung der Statistiken der simulierten Netzwerke über denen des beoba
 
 \begin{frame}
 	\frametitle{Interpretation der Parameter}
-	
+	\textbf{Annahme:}\\
 	$X^{(1)}$ und $X^{(2)}$ seien Netzwerke mit identischen Statistiken bis auf Statistik $g_i(X)$ und
 	$$\delta_i(X) = g_i(X^{(1)}) - g_i(X^{(2)})$$. \vfill
-	Dann gilt:
+	\textbf{Dann gilt:}
 	$$ \frac{P(X^{(1)})}{P(X^{(2)})} = exp(\theta_i \delta_i(X)) $$ \vfill
+	\pause
 	$\Longrightarrow$ für positives $\delta_i(X)$ gilt also:
 	\begin{itemize}
 		\item Ist $\theta_i > 0$, so ist $X^{(1)}$ plausibler als $X^{(2)}$.
@@ -515,13 +553,13 @@ Ziel: Zentrierung der Statistiken der simulierten Netzwerke über denen des beoba
 	\frametitle{Interpretation der Parameter 2}
 	\textbf{Parameterwerte:}
 	\begin{itemize}
-		\item \uncover<1->{\textbf{Edges $-6.111$}: Tendenz zu wenig Kanten}
-		\item \uncover<2->{\textbf{Mutual $2.120$}: Tendenz zu gegenseitigen Handel}
-		\item \uncover<3->{\textbf{Import CINC $3.071$}: "`mächtige"' Länder als Importland wahrscheinlich}
-		\item \uncover<4->{\textbf{Export CINC $-5.967$}: "`mächtige"' Länder als Exportland unwahrscheinlich}
-		\item \uncover<5->{\textbf{Export/Import GDP $> 0$}: wirtschaftsstarke Länderals Handelspartner wahrscheinlich}
-		\item \uncover<6->{\textbf{Export Conflict $-0.1398$}: In Konflikte verwickelte Länder als Exporteure unwahrscheinlich}
-		\item \uncover<7->{\textbf{Export Faktor Continent}: Europäische Länder als Exporteure am wahrscheinlichsten, Afrikanische Länder als Exporteure am unwahrscheinlichsten.}
+		\item \uncover<1->{\textbf{Edges $-6.111$}: Tendenz zu wenigen Kanten.}
+		\item \uncover<2->{\textbf{Mutual $2.120$}: Tendenz zu gegenseitigen Handel.}
+		\item \uncover<3->{\textbf{Import CINC $3.071$}: "`Mächtige"' Länder als Importland wahrscheinlich.}
+		\item \uncover<4->{\textbf{Export CINC $-5.967$}: "`Mächtige"' Länder als Exportland unwahrscheinlich.}
+		\item \uncover<5->{\textbf{Export/Import GDP $> 0$}: Wirtschaftsstarke Länder als Handelspartner wahrscheinlich.}
+		\item \uncover<6->{\textbf{Export Conflict $-0.1398$}: In Konflikte verwickelte Länder als Exporteure unwahrscheinlich.}
+		\item \uncover<7->{\textbf{Export Faktor Continent $> 0$}: Europäische Länder als Exporteure am wahrscheinlichsten, Afrikanische Länder als Exporteure am unwahrscheinlichsten.}
 		\item \uncover<8->{\textbf{Diff Polity $-0.00936$}: Handel zwischen Ländern mit geringem Unterschied im Demokratiescore wahrscheinlich.}
 	\end{itemize}
 \end{frame}
@@ -551,13 +589,14 @@ Ziel: Zentrierung der Statistiken der simulierten Netzwerke über denen des beoba
 \end{frame}
 
 \begin{frame}
+\setbeamercovered{dynamic}
 	\frametitle{Interpretation der Parameter 4}
 	\begin{itemize}
-		\item \textbf{GWIDEGREE $1.895$}: Tendenz zu vielen Importpartner
-		\item \textbf{GWODEEGREE $-1.211$}: Tendenz zu wenigen Exportpartnern
-		\item \textbf{GWESP $2.641$}: Tendenz zur Schließung von Deiecken
-		\item \textbf{GWDSP $-0.05686$}: Tendenz gegen Schließung von offenen Dreiecken\\\vspace{1cm}
-		\item \textbf{DECAY $0.2$}: Tendenz verschwindet schnell!
+		\item \uncover<1->{\textbf{GWIDEGREE $1.895$}: Tendenz zu vielen Importpartnern}
+		\item \uncover<2->{\textbf{GWODEEGREE $-1.211$}: Tendenz zu wenigen Exportpartnern}
+		\item \uncover<3->{\textbf{GWESP $2.641$}: Tendenz zur Schließung von Deiecken}
+		\item \uncover<4->{\textbf{GWDSP $-0.05686$}: Tendenz gegen Schließung von offenen Dreiecken}\\\vspace{1cm}
+		\item \uncover<5->{\textbf{DECAY $0.2$}: Tendenz verschwindet schnell!}
 	\end{itemize}
 \end{frame}
 \begin{frame}
@@ -656,7 +695,7 @@ Ziel: Zentrierung der Statistiken der simulierten Netzwerke über denen des beoba
 				\hline
 				Zeitraum & 1950 -2012 & 1992 -2011 \\
 				Anzahl Nationen & 218 & 239 \\
-				Anzahl Transaktionen &ca 300-400 pro Jahr & 4000-7000 pro Jahr\\
+				Anzahl Transaktionen &ca. 300-400 pro Jahr &ca. 4000-7000 pro Jahr\\
 				Dichte & 0.025 - 0.035& 0.045 - 0.065\\
 				\hline
 			\end{tabular}

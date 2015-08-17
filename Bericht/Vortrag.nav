@@ -1,4 +1,4 @@
-\beamer@endinputifotherversion {3.26pt}
+\beamer@endinputifotherversion {3.33pt}
 \headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
 \headcommand {\beamer@framepages {1}{1}}
 \headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
@@ -15,105 +15,107 @@
 \headcommand {\beamer@subsectionpages {3}{4}}
 \headcommand {\slideentry {2}{0}{5}{5/5}{}{0}}
 \headcommand {\beamer@framepages {5}{5}}
-\headcommand {\slideentry {2}{0}{6}{6/6}{}{0}}
-\headcommand {\beamer@framepages {6}{6}}
-\headcommand {\sectionentry {3}{Datensituation}{7}{Datensituation}{0}}
-\headcommand {\beamer@sectionpages {5}{6}}
-\headcommand {\beamer@subsectionpages {5}{6}}
-\headcommand {\slideentry {3}{0}{7}{7/7}{}{0}}
-\headcommand {\beamer@framepages {7}{7}}
-\headcommand {\slideentry {3}{0}{8}{8/8}{}{0}}
-\headcommand {\beamer@framepages {8}{8}}
-\headcommand {\sectionentry {4}{Deskriptive Analyse}{9}{Deskriptive Analyse}{0}}
-\headcommand {\beamer@sectionpages {7}{8}}
-\headcommand {\beamer@subsectionpages {7}{8}}
-\headcommand {\slideentry {4}{0}{9}{9/9}{}{0}}
-\headcommand {\beamer@framepages {9}{9}}
-\headcommand {\beamer@subsectionentry {0}{4}{1}{10}{Netzwerkma\IeC {\ss }zahlen}}\headcommand {\beamer@subsectionpages {9}{9}}
-\headcommand {\slideentry {4}{1}{1}{10/10}{Netzwerkma\IeC {\ss }zahlen}{0}}
-\headcommand {\beamer@framepages {10}{10}}
-\headcommand {\beamer@subsectionentry {0}{4}{2}{11}{Degree-Sequenz}}\headcommand {\beamer@subsectionpages {10}{10}}
-\headcommand {\slideentry {4}{2}{1}{11/11}{Degree-Sequenz}{0}}
-\headcommand {\beamer@framepages {11}{11}}
-\headcommand {\beamer@subsectionentry {0}{4}{3}{12}{Zentrale Akteure}}\headcommand {\beamer@subsectionpages {11}{11}}
-\headcommand {\slideentry {4}{3}{1}{12/12}{Zentrale Akteure}{0}}
-\headcommand {\beamer@framepages {12}{12}}
-\headcommand {\slideentry {4}{3}{1}{12/13}{Zentrale Akteure}{0}}
-\headcommand {\beamer@framepages {12}{13}}
-\headcommand {\slideentry {4}{3}{1}{12/14}{Zentrale Akteure}{0}}
-\headcommand {\beamer@framepages {12}{14}}
-\headcommand {\slideentry {4}{3}{1}{12/15}{Zentrale Akteure}{0}}
-\headcommand {\beamer@framepages {12}{15}}
-\headcommand {\slideentry {4}{3}{1}{12/16}{Zentrale Akteure}{0}}
-\headcommand {\beamer@framepages {12}{16}}
-\headcommand {\slideentry {4}{3}{1}{12/17}{Zentrale Akteure}{0}}
-\headcommand {\beamer@framepages {12}{17}}
-\headcommand {\beamer@subsectionentry {0}{4}{4}{18}{Visualisierungen}}\headcommand {\beamer@subsectionpages {12}{17}}
-\headcommand {\slideentry {4}{4}{1}{18/18}{Visualisierungen}{0}}
+\headcommand {\slideentry {2}{0}{6}{6/12}{}{0}}
+\headcommand {\beamer@framepages {6}{12}}
+\headcommand {\sectionentry {3}{Datensituation}{13}{Datensituation}{0}}
+\headcommand {\beamer@sectionpages {5}{12}}
+\headcommand {\beamer@subsectionpages {5}{12}}
+\headcommand {\slideentry {3}{0}{7}{13/13}{}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\slideentry {3}{0}{8}{14/14}{}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\sectionentry {4}{Deskriptive Analyse}{15}{Deskriptive Analyse}{0}}
+\headcommand {\beamer@sectionpages {13}{14}}
+\headcommand {\beamer@subsectionpages {13}{14}}
+\headcommand {\slideentry {4}{0}{9}{15/15}{}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{16}{Netzwerkma\IeC {\ss }zahlen}}\headcommand {\beamer@subsectionpages {15}{15}}
+\headcommand {\slideentry {4}{1}{1}{16/16}{Netzwerkma\IeC {\ss }zahlen}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{17}{Degree-Sequenz}}\headcommand {\beamer@subsectionpages {16}{16}}
+\headcommand {\slideentry {4}{2}{1}{17/17}{Degree-Sequenz}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\beamer@subsectionentry {0}{4}{3}{18}{Zentrale Akteure}}\headcommand {\beamer@subsectionpages {17}{17}}
+\headcommand {\slideentry {4}{3}{1}{18/18}{Zentrale Akteure}{0}}
 \headcommand {\beamer@framepages {18}{18}}
-\headcommand {\sectionentry {5}{Inferentielle Analyse}{19}{Inferentielle Analyse}{0}}
-\headcommand {\beamer@sectionpages {9}{18}}
-\headcommand {\beamer@subsectionpages {18}{18}}
-\headcommand {\slideentry {5}{0}{2}{19/19}{}{0}}
-\headcommand {\beamer@framepages {19}{19}}
-\headcommand {\beamer@subsectionentry {0}{5}{1}{20}{ERGM - Exponential Random Graph Model}}\headcommand {\beamer@subsectionpages {19}{19}}
-\headcommand {\slideentry {5}{1}{1}{20/20}{ERGM - Exponential Random Graph Model}{0}}
-\headcommand {\beamer@framepages {20}{20}}
-\headcommand {\beamer@subsubsectionentry {0}{5}{1}{1}{21}{Simulation von Zufallsgraphen}}
-\headcommand {\slideentry {5}{1}{2}{21/21}{ERGM - Exponential Random Graph Model}{0}}
-\headcommand {\beamer@framepages {21}{21}}
-\headcommand {\beamer@subsubsectionentry {0}{5}{1}{2}{22}{Sch\"atzung der Modellparameter}}
-\headcommand {\slideentry {5}{1}{3}{22/22}{ERGM - Exponential Random Graph Model}{0}}
-\headcommand {\beamer@framepages {22}{22}}
-\headcommand {\slideentry {5}{1}{4}{23/23}{ERGM - Exponential Random Graph Model}{0}}
-\headcommand {\beamer@framepages {23}{23}}
-\headcommand {\slideentry {5}{1}{5}{24/24}{ERGM - Exponential Random Graph Model}{0}}
+\headcommand {\slideentry {4}{3}{1}{18/19}{Zentrale Akteure}{0}}
+\headcommand {\beamer@framepages {18}{19}}
+\headcommand {\slideentry {4}{3}{1}{18/20}{Zentrale Akteure}{0}}
+\headcommand {\beamer@framepages {18}{20}}
+\headcommand {\slideentry {4}{3}{1}{18/21}{Zentrale Akteure}{0}}
+\headcommand {\beamer@framepages {18}{21}}
+\headcommand {\slideentry {4}{3}{1}{18/22}{Zentrale Akteure}{0}}
+\headcommand {\beamer@framepages {18}{22}}
+\headcommand {\slideentry {4}{3}{1}{18/23}{Zentrale Akteure}{0}}
+\headcommand {\beamer@framepages {18}{23}}
+\headcommand {\beamer@subsectionentry {0}{4}{4}{24}{Visualisierungen}}\headcommand {\beamer@subsectionpages {18}{23}}
+\headcommand {\slideentry {4}{4}{1}{24/24}{Visualisierungen}{0}}
 \headcommand {\beamer@framepages {24}{24}}
-\headcommand {\beamer@subsectionentry {0}{5}{2}{25}{Anwendung des ERGM}}\headcommand {\beamer@subsectionpages {20}{24}}
-\headcommand {\slideentry {5}{2}{1}{25/25}{Anwendung des ERGM}{0}}
+\headcommand {\slideentry {4}{4}{2}{25/25}{Visualisierungen}{0}}
 \headcommand {\beamer@framepages {25}{25}}
-\headcommand {\slideentry {5}{2}{2}{26/26}{Anwendung des ERGM}{0}}
+\headcommand {\sectionentry {5}{Inferentielle Analyse}{26}{Inferentielle Analyse}{0}}
+\headcommand {\beamer@sectionpages {15}{25}}
+\headcommand {\beamer@subsectionpages {24}{25}}
+\headcommand {\slideentry {5}{0}{3}{26/26}{}{0}}
 \headcommand {\beamer@framepages {26}{26}}
-\headcommand {\slideentry {5}{2}{3}{27/27}{Anwendung des ERGM}{0}}
+\headcommand {\beamer@subsectionentry {0}{5}{1}{27}{ERGM - Exponential Random Graph Model}}\headcommand {\beamer@subsectionpages {26}{26}}
+\headcommand {\slideentry {5}{1}{1}{27/27}{ERGM - Exponential Random Graph Model}{0}}
 \headcommand {\beamer@framepages {27}{27}}
-\headcommand {\slideentry {5}{2}{4}{28/28}{Anwendung des ERGM}{0}}
-\headcommand {\beamer@framepages {28}{28}}
-\headcommand {\slideentry {5}{2}{5}{29/29}{Anwendung des ERGM}{0}}
-\headcommand {\beamer@framepages {29}{29}}
-\headcommand {\slideentry {5}{2}{6}{30/30}{Anwendung des ERGM}{0}}
-\headcommand {\beamer@framepages {30}{30}}
-\headcommand {\slideentry {5}{2}{7}{31/31}{Anwendung des ERGM}{0}}
-\headcommand {\beamer@framepages {31}{31}}
-\headcommand {\slideentry {5}{2}{8}{32/32}{Anwendung des ERGM}{0}}
-\headcommand {\beamer@framepages {32}{32}}
-\headcommand {\slideentry {5}{2}{9}{33/33}{Anwendung des ERGM}{0}}
-\headcommand {\beamer@framepages {33}{33}}
-\headcommand {\slideentry {5}{2}{10}{34/34}{Anwendung des ERGM}{0}}
-\headcommand {\beamer@framepages {34}{34}}
-\headcommand {\slideentry {5}{2}{11}{35/35}{Anwendung des ERGM}{0}}
-\headcommand {\beamer@framepages {35}{35}}
-\headcommand {\slideentry {5}{2}{12}{36/36}{Anwendung des ERGM}{0}}
-\headcommand {\beamer@framepages {36}{36}}
-\headcommand {\slideentry {5}{2}{13}{37/37}{Anwendung des ERGM}{0}}
-\headcommand {\beamer@framepages {37}{37}}
-\headcommand {\slideentry {5}{2}{14}{38/38}{Anwendung des ERGM}{0}}
-\headcommand {\beamer@framepages {38}{38}}
-\headcommand {\beamer@subsectionentry {0}{5}{3}{39}{Vergleich mit Gro\IeC {\ss }waffenhandel}}\headcommand {\beamer@subsectionpages {25}{38}}
-\headcommand {\slideentry {5}{3}{1}{39/39}{Vergleich mit Gro\IeC {\ss }waffenhandel}{0}}
-\headcommand {\beamer@framepages {39}{39}}
-\headcommand {\sectionentry {6}{Fazit}{40}{Fazit}{0}}
-\headcommand {\beamer@sectionpages {19}{39}}
-\headcommand {\beamer@subsectionpages {39}{39}}
-\headcommand {\slideentry {6}{0}{2}{40/40}{}{0}}
-\headcommand {\beamer@framepages {40}{40}}
-\headcommand {\slideentry {6}{0}{3}{41/41}{}{0}}
-\headcommand {\beamer@framepages {41}{41}}
-\headcommand {\slideentry {6}{0}{4}{42/42}{}{0}}
-\headcommand {\beamer@framepages {42}{42}}
-\headcommand {\slideentry {6}{0}{5}{43/43}{}{0}}
-\headcommand {\beamer@framepages {43}{43}}
-\headcommand {\beamer@partpages {1}{43}}
-\headcommand {\beamer@subsectionpages {40}{43}}
-\headcommand {\beamer@sectionpages {40}{43}}
-\headcommand {\beamer@documentpages {43}}
-\headcommand {\def \inserttotalframenumber {43}}
+\headcommand {\beamer@subsubsectionentry {0}{5}{1}{1}{28}{Simulation von Zufallsgraphen}}
+\headcommand {\slideentry {5}{1}{2}{28/34}{ERGM - Exponential Random Graph Model}{0}}
+\headcommand {\beamer@framepages {28}{34}}
+\headcommand {\beamer@subsubsectionentry {0}{5}{1}{2}{35}{Sch\"atzung der Modellparameter}}
+\headcommand {\slideentry {5}{1}{3}{35/39}{ERGM - Exponential Random Graph Model}{0}}
+\headcommand {\beamer@framepages {35}{39}}
+\headcommand {\slideentry {5}{1}{4}{40/42}{ERGM - Exponential Random Graph Model}{0}}
+\headcommand {\beamer@framepages {40}{42}}
+\headcommand {\slideentry {5}{1}{5}{43/44}{ERGM - Exponential Random Graph Model}{0}}
+\headcommand {\beamer@framepages {43}{44}}
+\headcommand {\beamer@subsectionentry {0}{5}{2}{45}{Anwendung des ERGM}}\headcommand {\beamer@subsectionpages {27}{44}}
+\headcommand {\slideentry {5}{2}{1}{45/45}{Anwendung des ERGM}{0}}
+\headcommand {\beamer@framepages {45}{45}}
+\headcommand {\slideentry {5}{2}{2}{46/47}{Anwendung des ERGM}{0}}
+\headcommand {\beamer@framepages {46}{47}}
+\headcommand {\slideentry {5}{2}{3}{48/48}{Anwendung des ERGM}{0}}
+\headcommand {\beamer@framepages {48}{48}}
+\headcommand {\slideentry {5}{2}{4}{49/56}{Anwendung des ERGM}{0}}
+\headcommand {\beamer@framepages {49}{56}}
+\headcommand {\slideentry {5}{2}{5}{57/62}{Anwendung des ERGM}{0}}
+\headcommand {\beamer@framepages {57}{62}}
+\headcommand {\slideentry {5}{2}{6}{63/67}{Anwendung des ERGM}{0}}
+\headcommand {\beamer@framepages {63}{67}}
+\headcommand {\slideentry {5}{2}{7}{68/68}{Anwendung des ERGM}{0}}
+\headcommand {\beamer@framepages {68}{68}}
+\headcommand {\slideentry {5}{2}{8}{69/69}{Anwendung des ERGM}{0}}
+\headcommand {\beamer@framepages {69}{69}}
+\headcommand {\slideentry {5}{2}{9}{70/70}{Anwendung des ERGM}{0}}
+\headcommand {\beamer@framepages {70}{70}}
+\headcommand {\slideentry {5}{2}{10}{71/71}{Anwendung des ERGM}{0}}
+\headcommand {\beamer@framepages {71}{71}}
+\headcommand {\slideentry {5}{2}{11}{72/72}{Anwendung des ERGM}{0}}
+\headcommand {\beamer@framepages {72}{72}}
+\headcommand {\slideentry {5}{2}{12}{73/73}{Anwendung des ERGM}{0}}
+\headcommand {\beamer@framepages {73}{73}}
+\headcommand {\slideentry {5}{2}{13}{74/74}{Anwendung des ERGM}{0}}
+\headcommand {\beamer@framepages {74}{74}}
+\headcommand {\slideentry {5}{2}{14}{75/75}{Anwendung des ERGM}{0}}
+\headcommand {\beamer@framepages {75}{75}}
+\headcommand {\beamer@subsectionentry {0}{5}{3}{76}{Vergleich mit Gro\IeC {\ss }waffenhandel}}\headcommand {\beamer@subsectionpages {45}{75}}
+\headcommand {\slideentry {5}{3}{1}{76/76}{Vergleich mit Gro\IeC {\ss }waffenhandel}{0}}
+\headcommand {\beamer@framepages {76}{76}}
+\headcommand {\sectionentry {6}{Fazit}{77}{Fazit}{0}}
+\headcommand {\beamer@sectionpages {26}{76}}
+\headcommand {\beamer@subsectionpages {76}{76}}
+\headcommand {\slideentry {6}{0}{2}{77/77}{}{0}}
+\headcommand {\beamer@framepages {77}{77}}
+\headcommand {\slideentry {6}{0}{3}{78/78}{}{0}}
+\headcommand {\beamer@framepages {78}{78}}
+\headcommand {\slideentry {6}{0}{4}{79/79}{}{0}}
+\headcommand {\beamer@framepages {79}{79}}
+\headcommand {\slideentry {6}{0}{5}{80/80}{}{0}}
+\headcommand {\beamer@framepages {80}{80}}
+\headcommand {\beamer@partpages {1}{80}}
+\headcommand {\beamer@subsectionpages {77}{80}}
+\headcommand {\beamer@sectionpages {77}{80}}
+\headcommand {\beamer@documentpages {80}}
+\headcommand {\def \inserttotalframenumber {44}}
