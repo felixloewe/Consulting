@@ -103,7 +103,7 @@
 		\pause
 		\item (In-/Out-) \emph{Degree}
 		\pause
-		\item \emph{Dichte}: $den(G) = \frac{|E_G|}{N_V(N_V-1)/2}$
+		\item \emph{Dichte}: $den(G) = \frac{|E_G|}{N_V(N_V-1)(/2)}$
 	\end{itemize}
 
 \end{frame}
@@ -121,13 +121,15 @@
 	\begin{center}
 		\emph{NISAT}-Datenbank (Norwegian Initiative on Small Arms Transfers)\\ von \emph{PRIO} (Peace Research Institute Oslo)
 	\end{center}
-	\textbf{Kantenliste mit zusätzlichen Variablen:}
+	\textbf{Kantenliste mit den Variablen:}
 	\begin{itemize}
+		\item Ländernamen von Importeur und Exporteur
 		\item Correlates of War Code
+		\item Jahr
 		\item Monetärer Wert in US\$
 		\item Waffentyp
 		\item Datenquelle
-		\item Jahr
+
 	\end{itemize}
 	\textbf{Dimensionen:}
 	\begin{itemize}
@@ -290,21 +292,7 @@
 \label{tab:tops}
 \end{table}
 
-\framebreak
 
-\begin{figure}
-	\includegraphics[width=0.75\textwidth]{Grafiken/ts_topsexprel.png}
-	\caption{Zeitreihen der jährlichen Handelswerte der Top-Exporteure von 1992 bis 2011}
-	
-\end{figure}
-
-\framebreak
-
-\begin{figure}
-	\includegraphics[width=0.75\textwidth]{Grafiken/ts_topsimprel.png}
-	\caption{Zeitreihen der jährlichen Handelswerte der Top-Importeure von 1992 bis 2011}
-	\label{fig:ts_tops}
-\end{figure}
 
 \end{frame}
 
@@ -316,7 +304,7 @@
 	\begin{figure}
 		\centering
 			\includegraphics[width=0.80\textwidth]{Grafiken/ts_network.png}
-		\caption{Netzwerk des Kleinwaffenhandels 1992 (li.) und 2011(re.) }
+		\caption{Netzwerk des Kleinwaffenhandels 1992 (li.) und 2011(re.)\\ \textcolor[rgb]{0,0.58,0}{Indegree $> 30$}; \textcolor[rgb]{0,0,1}{ Outdegree $>30$},  \textcolor[rgb]{1,0,0}{Indegree \& Outdegree $> 30$} }
 		\label{fig:ts_network}
 	\end{figure}
 	
@@ -349,11 +337,14 @@
 	\end{equation}
 	mit
 	\begin{itemize}
-		\item $X$ zufällige Nachbarschaftsmatrix
+		\item $X$, Zufällige Nachbarschaftsmatrix
 		\item $x \in \mathcal{X}$, Menge aller möglichen Netzwerke
-		\item $\theta \in \Omega \subset \mathbb{R}^q$ ... Vektor der Modellparameter
-		\item $g(x)$ ... q-Vektor aus Statistiken basierend auf der Nachbarschaftsmatrix $x$ \\\vspace{1cm}
-		\item \textcolor[rgb]{1,0,0}{\textbf{Problem:}}  $\kappa(\theta, \mathcal{X}) = \sum_{x \in \mathcal{X}}{exp			 \left\{\theta^T g(x)\right\}}$
+		\item $\theta \in \Omega \subset \mathbb{R}^q$, Vektor der Modellparameter
+		\item $g(x)$, q-Vektor aus Statistiken basierend auf der Nachbarschaftsmatrix $x$ \\\vspace{1cm}
+		
+		\item \textcolor[rgb]{1,0,0}{\textbf{Problem:}}  $\kappa(\theta, \mathcal{X}) = \sum_{x \in \mathcal{X}}{exp			 \left\{\theta^T g(x)\right\}}$, \hspace{0.5cm}	$|\mathcal{X}| = 2^{n(n-1)}$\\
+		$\Longrightarrow$ Analytische Lösung nicht möglich. 
+		
 	\end{itemize}
 \end{frame}
 
@@ -473,10 +464,10 @@ Ziel: Zentrierung der Statistiken der simulierten Netzwerke über denen des beoba
 \begin{itemize}
 	\item edges
 	\item mutual
-	\item gwesp(0.2, fixed)
-	\item gwdsp(0.2, fixed)
-	\item gwidegree(0.2, fixed)
-	\item gwodegree(0.2, fixed)
+	\item gwesp
+	\item gwdsp
+	\item gwidegree
+	\item gwodegree
 \end{itemize}
 \end{minipage}	
 \hfill	
@@ -485,31 +476,14 @@ Ziel: Zentrierung der Statistiken der simulierten Netzwerke über denen des beoba
 \textbf{Exogene Statistiken}
 
 \begin{itemize}
-	\item CINC
-	\item GDP
-	\item Conflict
-	\item Polity
-	\item Continent
+	\item nodecov(CINC)
+	\item nodecov(GDP)
+	\item nodecov(Conflict)
+	\item absdiff(Polity)
+	\item nodefactor(Continent)
 \end{itemize}
 \end{minipage}
 \end{frame}
-
-\begin{frame}
-	\frametitle{Interpretation der Parameter}
-	\textbf{Annahme:}\\
-	$X^{(1)}$ und $X^{(2)}$ seien Netzwerke mit identischen Statistiken bis auf Statistik $g_i(X)$ und
-	$$\delta_i(X) = g_i(X^{(1)}) - g_i(X^{(2)})$$. \vfill
-	\textbf{Dann gilt:}
-	$$ \frac{P(X^{(1)})}{P(X^{(2)})} = exp(\theta_i \delta_i(X)) $$ \vfill
-	\pause
-	$\Longrightarrow$ für positives $\delta_i(X)$ gilt also:
-	\begin{itemize}
-		\item Ist $\theta_i > 0$, so ist $X^{(1)}$ plausibler als $X^{(2)}$.
-		\item Ist $\theta_i = 0$, so sind sie gleich plausibel.
-		\item Ist $\theta_i < 0$, so ist $X^{(1)}$ plausibler als $X^{(2)}$.
-	\end{itemize}
-\end{frame}
-
 
 \begin{frame}
 	\begin{table}[ht]
@@ -549,18 +523,38 @@ Ziel: Zentrierung der Statistiken der simulierten Netzwerke über denen des beoba
 \end{frame}
 
 \begin{frame}
+	\frametitle{Interpretation der Parameter}
+	\textbf{Annahme:}\\
+	$X^{(1)}$ und $X^{(2)}$ seien Netzwerke mit identischen Statistiken bis auf Statistik $g_i(X)$ und
+	$$\delta_i(X) = g_i(X^{(1)}) - g_i(X^{(2)})$$. \vfill
+	\textbf{Dann gilt:}
+	$$ \frac{P(X^{(1)})}{P(X^{(2)})} = exp(\theta_i \delta_i(X)) $$ \vfill
+	\pause
+	$\Longrightarrow$ Für positives $\delta_i(X)$ gilt also:
+	\begin{itemize}
+		\item Ist $\theta_i > 0$, so ist $X^{(1)}$ plausibler als $X^{(2)}$.
+		\item Ist $\theta_i = 0$, so sind sie gleich plausibel.
+		\item Ist $\theta_i < 0$, so ist $X^{(2)}$ plausibler als $X^{(1)}$.
+	\end{itemize}
+\end{frame}
+
+
+
+
+\begin{frame}
 \setbeamercovered{dynamic}
 	\frametitle{Interpretation der Parameter 2}
 	\textbf{Parameterwerte:}
 	\begin{itemize}
 		\item \uncover<1->{\textbf{Edges $-6.111$}: Tendenz zu wenigen Kanten.}
 		\item \uncover<2->{\textbf{Mutual $2.120$}: Tendenz zu gegenseitigen Handel.}
-		\item \uncover<3->{\textbf{Import CINC $3.071$}: "`Mächtige"' Länder als Importland wahrscheinlich.}
-		\item \uncover<4->{\textbf{Export CINC $-5.967$}: "`Mächtige"' Länder als Exportland unwahrscheinlich.}
-		\item \uncover<5->{\textbf{Export/Import GDP $> 0$}: Wirtschaftsstarke Länder als Handelspartner wahrscheinlich.}
-		\item \uncover<6->{\textbf{Export Conflict $-0.1398$}: In Konflikte verwickelte Länder als Exporteure unwahrscheinlich.}
-		\item \uncover<7->{\textbf{Export Faktor Continent $> 0$}: Europäische Länder als Exporteure am wahrscheinlichsten, Afrikanische Länder als Exporteure am unwahrscheinlichsten.}
-		\item \uncover<8->{\textbf{Diff Polity $-0.00936$}: Handel zwischen Ländern mit geringem Unterschied im Demokratiescore wahrscheinlich.}
+		\item \uncover<3->{\textbf{nodeicov(CINC) $3.071$}: "`Mächtige"' Länder als Importland wahrscheinlich.}
+		\item \uncover<4->{\textbf{nodeocov(CINC) $-5.967$}: "`Mächtige"' Länder als Exportland unwahrscheinlich.}
+		\item \uncover<5->{\textbf{nodeicov(GDP) \& nodeocov(GDP) $> 0$}: Wirtschaftsstarke Länder als Handelspartner wahrscheinlich.}
+		
+		\item \uncover<6->{\textbf{nodeocov(Conflict) $-0.1398$}: In Konflikte verwickelte Länder als Exporteure unwahrscheinlich.}
+		\item \uncover<7->{\textbf{nodeofactor(Continent) $> 0$}: Europäische Länder als Exporteure am wahrscheinlichsten, Afrikanische Länder als Exporteure am unwahrscheinlichsten.}
+		\item \uncover<8->{\textbf{absdiff(Polity) $-0.00936$}: Handel zwischen Ländern mit geringem Unterschied im Demokratiescore wahrscheinlich.}
 	\end{itemize}
 \end{frame}
 
@@ -570,7 +564,7 @@ Ziel: Zentrierung der Statistiken der simulierten Netzwerke über denen des beoba
 	\textbf{Curved ERGM Terms am Beispiel von Geometrically Weighted Degree (GWD):}
 	\pause
 	\begin{itemize}
-		\item Änderung der Degree Sequenz eines Knotens: \\
+		\item Annahme: Hinzufügen einer Kante ändert nur Degree k eines Knotens. \\
 		$(D_k, D_{k+1}) \rightarrow (D_k-1, D_{k+1}+1)$
 		\pause
 		\item $\frac{p_{after}}{p_{before}} = exp(\theta\rho^k)$ , $\rho = 1 - e^{-\phi}$
@@ -581,9 +575,9 @@ Ziel: Zentrierung der Statistiken der simulierten Netzwerke über denen des beoba
 	\begin{itemize}
 	\pause
 		\item $\theta > 0$: Tendenz zum Hinzufügen von Kanten
-		\item $\theta < 0$: Tendenz zum Löschen von Kanten Kanten
+		\item $\theta < 0$: Tendenz zum Löschen von Kanten
 		\pause
-		\item $\phi = 0$: Tendenz verschwindet komplett
+		\item $\phi \rightarrow 0$: Tendenz verschwindet schnell
 		\item $\phi \rightarrow \infty$: Tendenz bleibt konstant
 	\end{itemize}
 \end{frame}
@@ -592,11 +586,31 @@ Ziel: Zentrierung der Statistiken der simulierten Netzwerke über denen des beoba
 \setbeamercovered{dynamic}
 	\frametitle{Interpretation der Parameter 4}
 	\begin{itemize}
-		\item \uncover<1->{\textbf{GWIDEGREE $1.895$}: Tendenz zu vielen Importpartnern}
-		\item \uncover<2->{\textbf{GWODEEGREE $-1.211$}: Tendenz zu wenigen Exportpartnern}
-		\item \uncover<3->{\textbf{GWESP $2.641$}: Tendenz zur Schließung von Deiecken}
-		\item \uncover<4->{\textbf{GWDSP $-0.05686$}: Tendenz gegen Schließung von offenen Dreiecken}\\\vspace{1cm}
-		\item \uncover<5->{\textbf{DECAY $0.2$}: Tendenz verschwindet schnell!}
+		\item \uncover<1->{\textbf{GWIDEGREE $1.895$}: Tendenz zu vielen Importpartnern.}
+		\item \uncover<2->{\textbf{GWODEEGREE $-1.211$}: Tendenz zu wenigen Exportpartnern.}
+		\item \uncover<3->{\textbf{GWESP $2.641$}: Tendenz zur Schließung von Deiecken.}
+		\item \uncover<4->{\textbf{GWDSP $-0.05686$}: Tendenz gegen Schließung von offenen Dreiecken.}\\\vspace{1cm}
+		\item \uncover<5->{\textbf{DECAY $0.2$}: Tendenz verschwindet schnell.}
+	\end{itemize}
+	\uncover<6->{	Decay Parameter durch Ausprobieren festgelegt, da freie Schätzung sehr langsam.}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Überprüfung der Ergebnisse}
+	\begin{itemize}
+		\item \textbf{MCMC-Diagnose} zur Überprüfung der simulierten Netzwerke
+		\begin{itemize}
+			\item MCMC Algorithmus konvergiert
+			\item $\Rightarrow$ Statistiken schwanken um Mittelwert
+		\end{itemize}
+		\vspace{1cm}
+		\pause
+		\item \textbf{Goodness of Fit - Plot} zur Überprüfung der Güte des Modells
+		
+		\begin{itemize}
+			\item Simulation von Netzwerken aus geschätzten Modell
+			\item Stimmen die Statistiken der Simulierten Netzwerke mit den tatsächlich beobachteten Statistiken überein?
+		\end{itemize}
 	\end{itemize}
 \end{frame}
 \begin{frame}
@@ -693,10 +707,10 @@ Ziel: Zentrierung der Statistiken der simulierten Netzwerke über denen des beoba
 				\hline
 				Merkmal & Großwaffen & Kleinwaffen \\
 				\hline
-				Zeitraum & 1950 -2012 & 1992 -2011 \\
-				Anzahl Nationen & 218 & 239 \\
-				Anzahl Transaktionen &ca. 300-400 pro Jahr &ca. 4000-7000 pro Jahr\\
-				Dichte & 0.025 - 0.035& 0.045 - 0.065\\
+				\textbf{Zeitraum} & 1950 -2012 & 1992 -2011 \\
+				\textbf{Anzahl Nationen} & 218 & 239 \\
+				\textbf{Anzahl Transaktionen} &ca. 300-400 pro Jahr &ca. 4000-7000 pro Jahr\\
+				\textbf{Dichte} & 0.025 - 0.035& 0.045 - 0.065\\
 				\hline
 			\end{tabular}
 	\end{table}

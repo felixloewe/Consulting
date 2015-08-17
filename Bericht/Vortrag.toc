@@ -1,4 +1,4 @@
-\beamer@endinputifotherversion {3.33pt}
+\beamer@endinputifotherversion {3.26pt}
 \select@language {ngerman}
 \beamer@sectionintoc {1}{Einleitung}{3}{0}{1}
 \beamer@sectionintoc {2}{Einf\"uhrung in die Graphentheorie}{5}{0}{2}
@@ -7,11 +7,11 @@
 \beamer@subsectionintoc {4}{1}{Netzwerkma\IeC {\ss }zahlen}{16}{0}{4}
 \beamer@subsectionintoc {4}{2}{Degree-Sequenz}{17}{0}{4}
 \beamer@subsectionintoc {4}{3}{Zentrale Akteure}{18}{0}{4}
-\beamer@subsectionintoc {4}{4}{Visualisierungen}{24}{0}{4}
-\beamer@sectionintoc {5}{Inferentielle Analyse}{26}{0}{5}
-\beamer@subsectionintoc {5}{1}{ERGM - Exponential Random Graph Model}{27}{0}{5}
-\beamer@subsubsectionintoc {5}{1}{1}{Simulation von Zufallsgraphen}{28}{0}{5}
-\beamer@subsubsectionintoc {5}{1}{2}{Sch\"atzung der Modellparameter}{35}{0}{5}
-\beamer@subsectionintoc {5}{2}{Anwendung des ERGM}{45}{0}{5}
-\beamer@subsectionintoc {5}{3}{Vergleich mit Gro\IeC {\ss }waffenhandel}{76}{0}{5}
-\beamer@sectionintoc {6}{Fazit}{77}{0}{6}
+\beamer@subsectionintoc {4}{4}{Visualisierungen}{22}{0}{4}
+\beamer@sectionintoc {5}{Inferentielle Analyse}{24}{0}{5}
+\beamer@subsectionintoc {5}{1}{ERGM - Exponential Random Graph Model}{25}{0}{5}
+\beamer@subsubsectionintoc {5}{1}{1}{Simulation von Zufallsgraphen}{26}{0}{5}
+\beamer@subsubsectionintoc {5}{1}{2}{Sch\"atzung der Modellparameter}{33}{0}{5}
+\beamer@subsectionintoc {5}{2}{Anwendung des ERGM}{43}{0}{5}
+\beamer@subsectionintoc {5}{3}{Vergleich mit Gro\IeC {\ss }waffenhandel}{77}{0}{5}
+\beamer@sectionintoc {6}{Fazit}{78}{0}{6}
