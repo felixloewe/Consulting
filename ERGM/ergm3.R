@@ -3,6 +3,7 @@ load("Z:/myErgmWs3.RData")
 install.packages("latticeExtra")
 library(latticeExtra)
 summary(my.ergm.fit3)
+par(mfrow = c(1,1), cex = 1.5)
 mcmc.diagnostics(my.ergm.fit3, vars.per.page = 2)
 gof3 <- gof(my.ergm.fit3, GOF = ~distance + espartners + dspartners + idegree + odegree, verbose = T)
 

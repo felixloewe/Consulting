@@ -45,7 +45,7 @@ Year <- 1992:2011
  exp_names2 <- c("USA", "Italy", "Germany", "Brazil", "Austria")
 windows(width = 9, height = 6)
 
-par(mfrow = c(1,1), mar = c(2,5,3,1))
+par(mfrow = c(1,1), mar = c(2,5,1,1))
 
 matplot(export_ts5,
         type = "l",
@@ -56,7 +56,7 @@ matplot(export_ts5,
         cex.axis = 1.5,
         cex.lab = 1.5,
         ylab = "Mil. Dollar",
-        main = "Export-Zeitreihe der 5 Top-Exporteure",
+        main = "",
         cex.main = 1.5,
         xaxt = "n"    )        
 axis(1, at = 1:20, labels = Year, las = 1, cex.axis = 1.5)    
