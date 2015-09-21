@@ -1,1 +1,30 @@
-\BOOKMARK [0][-]{chapter.1}{Einf\374hrung}{}% 1
+\BOOKMARK [0][-]{chapter.1}{Einleitung}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Zusammenfassung der Graphentheorie}{}% 2
+\BOOKMARK [1][-]{section.2.1}{Graph - Grundlegende Begriffe}{chapter.2}% 3
+\BOOKMARK [1][-]{section.2.2}{Degree-Verteilung}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.3}{Nachbarschaftsmatrix}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.4}{Zentralit\344t}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.5}{Dichte}{chapter.2}% 7
+\BOOKMARK [0][-]{chapter.3}{Datengrundlage}{}% 8
+\BOOKMARK [0][-]{chapter.4}{Deskriptive Analyse}{}% 9
+\BOOKMARK [1][-]{section.4.1}{Netzwerkma\337zahlen}{chapter.4}% 10
+\BOOKMARK [1][-]{section.4.2}{Degree Sequenz}{chapter.4}% 11
+\BOOKMARK [1][-]{section.4.3}{Handelswerte}{chapter.4}% 12
+\BOOKMARK [1][-]{section.4.4}{Top-Akteure}{chapter.4}% 13
+\BOOKMARK [1][-]{section.4.5}{Visualisierungen}{chapter.4}% 14
+\BOOKMARK [0][-]{chapter.5}{Exponential Random Graph Model}{}% 15
+\BOOKMARK [1][-]{section.5.1}{Definition des Modells}{chapter.5}% 16
+\BOOKMARK [2][-]{subsection.5.1.1}{Simulation von Zufallsgraphen}{section.5.1}% 17
+\BOOKMARK [2][-]{subsection.5.1.2}{Sch\344tzung der Modell-Parameter}{section.5.1}% 18
+\BOOKMARK [1][-]{section.5.2}{endogene Statistiken}{chapter.5}% 19
+\BOOKMARK [1][-]{section.5.3}{Degeneration und alternative Modellierung}{chapter.5}% 20
+\BOOKMARK [1][-]{section.5.4}{exogene Kovariablen}{chapter.5}% 21
+\BOOKMARK [2][-]{subsection.5.4.1}{Formal Intersate Alliance Dataset}{section.5.4}% 22
+\BOOKMARK [2][-]{subsection.5.4.2}{Polity Score}{section.5.4}% 23
+\BOOKMARK [2][-]{subsection.5.4.3}{Direct Contiguity}{section.5.4}% 24
+\BOOKMARK [2][-]{subsection.5.4.4}{Composite Index of National Capability}{section.5.4}% 25
+\BOOKMARK [2][-]{subsection.5.4.5}{Intra-State Conflicts}{section.5.4}% 26
+\BOOKMARK [2][-]{subsection.5.4.6}{GDP}{section.5.4}% 27
+\BOOKMARK [1][-]{section.5.5}{gesch\344tzte Modelle}{chapter.5}% 28
+\BOOKMARK [1][-]{section.5.6}{Interpretation der Parameter}{chapter.5}% 29
+\BOOKMARK [0][-]{chapter*.15}{Literaturverzeichnis}{}% 30

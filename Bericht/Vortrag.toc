@@ -1,4 +1,4 @@
-\beamer@endinputifotherversion {3.26pt}
+\beamer@endinputifotherversion {3.33pt}
 \select@language {ngerman}
 \beamer@sectionintoc {1}{Einleitung}{3}{0}{1}
 \beamer@sectionintoc {2}{Einf\"uhrung in die Graphentheorie}{5}{0}{2}
@@ -13,5 +13,5 @@
 \beamer@subsubsectionintoc {5}{1}{1}{Simulation von Zufallsgraphen}{26}{0}{5}
 \beamer@subsubsectionintoc {5}{1}{2}{Sch\"atzung der Modellparameter}{33}{0}{5}
 \beamer@subsectionintoc {5}{2}{Anwendung des ERGM}{43}{0}{5}
-\beamer@subsectionintoc {5}{3}{Vergleich mit Gro\IeC {\ss }waffenhandel}{77}{0}{5}
-\beamer@sectionintoc {6}{Fazit}{78}{0}{6}
+\beamer@sectionintoc {6}{Vergleich mit Gro\IeC {\ss }waffenhandel}{77}{0}{6}
+\beamer@sectionintoc {7}{Fazit}{78}{0}{7}
