@@ -247,7 +247,7 @@ Betrachtet man die Gewichte der Kanten, in diesem Fall die monetären Handelswer
 
 \section{Top-Akteure}
 \label{sec:top-akteure}
-In Abschnitt \ref{sec:degree} wurde anhand der Degree-Verteilungen gezeigt, dass der Kleinwaffenhandel von einigen wenigen Nationen dominiert wird, die sich deutlich von der großen Masse der restlichen Akteure abheben. Diese sollen in diesem Abschnitt ermittelt werden. Hierzu werden in Tabelle \ref{tab:tops} diejenigen Nationen aufgelistet, die über den Zeitraum von 20 Jahren das größte Import- und Exportvolumen, gemessen am Geldwert der gehandelten Waffen, aufweisen. 
+In Abschnitt \ref{sec:degree} wurde anhand der Degree-Verteilungen gezeigt, dass der Kleinwaffenhandel von einigen wenigen Nationen dominiert wird, die sich deutlich von der großen Masse der restlichen Akteure abheben. Diese sollen in diesem Abschnitt ermittelt werden. Hierzu werden in Tabelle \ref{tab:tops1} diejenigen Nationen aufgelistet, die über den Zeitraum von 20 Jahren das größte Import- und Exportvolumen, gemessen am Geldwert der gehandelten Waffen, aufweisen. 
 
 \begin{table}[ht]
 
@@ -293,7 +293,7 @@ In Abschnitt \ref{sec:degree} wurde anhand der Degree-Verteilungen gezeigt, dass
 \end{tabular}
 \end{minipage}
 \caption{Summierte Handelswerte der Top-Importeure und Top-Exporteure des Netzwerkes von 1992 bis 2011}
-\label{tab:tops}
+\label{tab:tops1}
 \end{table}
 
 
@@ -302,28 +302,93 @@ Es ist ersichtlich, dass die Vereinigten Staaten von Amerika mit 9.2 Milliarden 
 		
 Auch bei den Importen steht die USA an erster Stelle. Die Nation gibt mit 16 Milliarden Dollar mehr für den Import von Kleinwaffen aus als die 9 nachfolgenden Länder zusammen. Deutschland und Frankreich teilen sich mit 2.3 Milliarden Dollar Importvolumen den zweiten Platz. Auf der vierten Stelle befindet sich Kanada mit einem Importvolumen von circa 2 Milliarden Dollar. Großbritannien verwendet 1.8 Milliarden Dollar, um Waffen zu exportieren, und Saudi Arabien 1.7 Milliarden Dollar. Auf dem siebten, achten, neunten und zehnten Platz sehen wir ähnliche Exportausgaben von circa 1.2 bis 1 Milliarde Dollar. Dies sind die Länder Belgien, Spanien, Australien und Türkei.
 
-Anschließend interessiert, ob sich die Zusammensetzung der Top-Exporteure/ Importeure über die Jahre verändert. Hierfür betrachten wir Abbildung \ref{fig:ts_tops}. 
-In der ersten Grafik sind die Handelsvolumen in Millionen US Dollar der fünf Top-Exporteure über den Zeitraum 1992-2011 dargestellt. Die USA ist in fast allen Jahren der Waffenexporteur mit den höchsten monetären Volumen. Sie wird nur in wenigen Jahren von Italien übertroffen. Deutschland, Brasilien und Österreich exportieren in allen Jahren deutlich weniger Waffenwert als die USA. Auffällig ist ein relativ konstanter Verlauf der Zeitreihen im Zeitraum von 1992 bis ca 2001, während danach bei allen Ländern ein kräftiger Anstieg der Handelswerte feststellbar ist. Deutschland, Brasilien und vor allem Italien zeigen allerdings ab circa 2008 wiederum einen abfallenden Trend.
-Die zweite und die dritte Grafik aus Abbildung \ref{fig:ts_tops} zeigt die Handelsvolumen der Top-Importeure. Die USA ist hier unangefochten an der Spitze. Sie importiert Kleinwaffen im Wert zwischen circa 400 und 1600 Millionen US Dollar pro Jahr während die restlichen Akteure höchstens Kleinwaffen im Wert von circa 250 Millionen Dollar pro Jahr importieren. Ähnlich wie bei den Exportzeitreihen ist auch hier ein relativ konstanter Verlauf bis circa 2001 zu beobachten während die Ausgaben in den nachfolgenden Jahren kontinuierlich ansteigen. Die USA verringerte ihre Importausgaben ab dem Jahr 2007 jedoch wieder deutlich. 
-
-\begin{figure}[ht]
-	\centering
-		\includegraphics[width= 0.8\textwidth]{Grafiken/ts_tops.png}
-	\caption{Zeitreihen der jährlichen Handelswerte der Top-Exporteure/Importeure von 1992 bis 2011}
-	\label{fig:ts_tops}
+\begin{figure}[h]
+\centering
+	\includegraphics[width=0.65\textwidth]{Grafiken/ts_topsexp.png}
+	\caption{Zeitreihen der jährlichen Handelswerte der Top-Exporteure von 1992 bis 2011}
+	\label{fig:ts_tops1}
 \end{figure}
-Eine andere Methode, um zentrale Akteure des Netzwerkes zu identifizieren ist sich die Degree-Sequenz der Netzwerkknoten zu betrachten. Welche Knoten (Länder) besitzen sowohl einen hohen In-Degree als auch einen hohen Out-Degree und können somit als zentrale Akteure des Handelsnetzwerkes identifiziert werden?
-\begin{figure}[ht]
+
+
+
+
+Anschließend interessiert, ob sich die Handelsvolumen der Top-Exporteure und Importeure über die Jahre verändert. Hierfür betrachten wir für die Exporte die Abbildung \ref{fig:ts_tops1}.
+In dieser Grafik sind die Handelsvolumen in Millionen US Dollar der fünf Top-Exporteure über den Zeitraum 1992-2011 dargestellt. Die USA ist in fast allen Jahren der Waffenexporteur mit den höchsten monetären Volumen. Sie wird nur in wenigen Jahren von Italien übertroffen. Deutschland, Brasilien und Österreich exportieren in allen Jahren deutlich weniger Waffenwert als die USA. Auffällig ist ein relativ konstanter Verlauf der Zeitreihen im Zeitraum von 1992 bis ca 2001, während danach bei allen Ländern ein kräftiger Anstieg der Handelswerte feststellbar ist. Deutschland, Brasilien und vor allem Italien zeigen allerdings ab circa 2008 wiederum einen abfallenden Trend.
+
+\begin{figure}[h]
+\centering
+	\includegraphics[width=0.65\textwidth]{Grafiken/ts_topsimp.png}
+	\caption{Zeitreihen der jährlichen Handelswerte der Top-Importeure von 1992 bis 2011}
+	\label{fig:ts_tops2}
+\end{figure}
+
+Die beiden Grafiken aus Abbildung \ref{fig:ts_tops2} zeigt die Handelsvolumen der Top-Importeure. Die USA ist hier unangefochten an der Spitze. Sie importiert Kleinwaffen im Wert zwischen circa 400 und 1600 Millionen US Dollar pro Jahr während die restlichen Akteure höchstens Kleinwaffen im Wert von circa 250 Millionen Dollar pro Jahr importieren. Ähnlich wie bei den Exportzeitreihen ist auch hier ein relativ konstanter Verlauf bis circa 2001 zu beobachten während die Ausgaben in den nachfolgenden Jahren kontinuierlich ansteigen. Die USA verringerte ihre Importausgaben ab dem Jahr 2007 jedoch wieder deutlich. 
+
+Bei den Top Akteuren des Waffenhandels handelt es sich also größtenteils um westliche Industrienationen. Diese bestimmen durch Wirtschaftskraft und großen Handelsvolumen sowohl den Export als auch den Import von Klein- und Leichtwaffen. Interessanter Weise bekommt man ein anderes Bild, wenn man die Handelswerte mit einem Maß der Wirtschaftskraft der Länder, hier dem Bruttoinlandsprodukt pro Kopf, skaliert. In Tabelle \ref{tab:tops2} sind diejenigen Länder aufgeführt, die relativ zu ihrem Bruttoinlandsprodukt pro Kopf im Zeitraum von 1992 - 2011 am meisten Geld für den Import beziehungsweise den Export von kleinen und leichten Waffen ausgegeben haben.
+
+	\begin{table}[ht]
+
+\centering
+
+\begin{minipage}[t]{0.45\textwidth}
+\footnotesize
+\centering
+\begin{tabular}{rlr}
+  \hline
+ Platz & Land & Exportvol. / BIP pro Kopf\\ 
+  \hline
+1 & China & 114735 \\
+2 & Brazil & 53225 \\
+3 & Italy & 48862 \\
+4 & Spain & 40822 \\
+5 & Germany & 38039 \\ 
+6 & Turkey & 36174 \\
+7 & South Korea & 29131 \\
+8 & United States & 26539 \\
+9 & India & 24615 \\
+10 & Austria & 23149 \\
+   \hline
+	\end{tabular}
+	\end{minipage}	
+\hfill	
+\begin{minipage}[t]{0.45\textwidth}	
+\centering
+\footnotesize
+\begin{tabular}{rlr}
+  \hline
+ Platz & Land & Importvol. / BIP pro kopf\\ 
+  \hline
+1 &Tanzania &54562 \\
+2 &Thailand &49636\\
+3 &India &32416\\
+4 &Pakistan &30290\\
+5 &South Korea &27208\\
+6 &China &25402\\
+7 &Indonesia &24268\\
+8 &Kenya &22907\\
+9 &Malaysia &22330\\
+10 &Bukina Faso &22183\\
+   \hline
+\end{tabular}
+\end{minipage}
+\caption{Summierte Handelswerte der Top-Exporteure und Top-Importeure relativ zum BIP pro Kopf des Netzwerkes von 1992 bis 2011}
+\label{tab:tops2}
+\end{table} 
+Bei den Exporten sind immer noch westliche Industrienationen unter den zehn führenden Ländern am häufigsten vertreten. Auffallend ist, dass die zuvor deutlich dominierenden Vereinigten Staaten von Amerika nur noch auf dem achten Platz liegen. Gemessen an der eigenen Wirtschaftskraft exportiert China nun am meisten Waffen. Neu unter den zehn Führenden sind mit Indien und Süd Korea auch zwei wirtschaftsstarke asiatische Länder.
+Im Gegensatz hierzu steht die Tabelle mir den zehn stärksten Importeuren von kleinen und leichten Waffen im Vergleich zu ihrer Wirtschaftskraft. Her nehmen nun vor allem asiatische und afrikanische Entwicklungsländer die vorderen Plätze ein. Alle westlichen Industrienationen hingegen tauchen in den zehn vorderen Plätzen nicht mehr auf. Führend sind hier die Länder Tanzania, Thailand, Indien, Pakistan und Süd Korea.
+
+Eine andere Methode, um zentrale Akteure des Netzwerkes zu identifizieren ist sich die Degree-Sequenz der Netzwerkknoten zu betrachten. Welche Knoten (Länder) besitzen sowohl einen hohen In-Degree als auch einen hohen Out-Degree und können demnach als zentrale Akteure des Handelsnetzwerkes identifiziert werden?
+\begin{figure}[h]
 	\centering
 		\includegraphics[width=0.90\textwidth]{Grafiken/ts_network.png}
 	\caption{Visualisierung des Netzwerkes 1992 (l.) und 2011(r)}
 	\label{fig:ts_network}
 \end{figure}
 
-Abbildung \ref{fig:ts_network} zeigt hierzu das Gesamte Netzwerk in den Jahren 1992 und 2011. Jeder Punkt stellt ein am Waffenhandel beteiligtes Land dar. Ein Pfeil zwischen den beiden Ländern symbolisiert einen Handel. Länder die aus mindestens 30 anderen Ländern Waffen beziehen sind grün, Länder die in mindestens 30 andere Länder Waffen liefern sind blau, und Akteure die beide Bedingungen erfüllen sind rot eingefärbt. Die beiden Tabellen in Tabelle \ref{tab:ZentrAkt} listen diese für das Jahr 1992 und das Jahr 2011 auf. Man erkennt, dass die Anzahl der "`großen Akteure"' auf dem Kleinwaffenmarkt über die Zeit deutlich zugenommen hat.
+Abbildung \ref{fig:ts_network} zeigt hierzu das gesamte Netzwerk in den Jahren 1992 und 2011. Jeder Punkt stellt ein am Waffenhandel beteiligtes Land dar. Ein Pfeil zwischen den beiden Ländern symbolisiert einen Handel. Länder mit einem In-Degree von größer als 30, die also aus mindestens 30 anderen Ländern Waffen beziehen sind grün. Länder mit einem Out-Degree von größer als 30, die also in mindestens 30 andere Länder Waffen liefern sind blau. Akteure die beide Bedingungen erfüllen sind rot eingefärbt. Übereinstimmend mit unseren einleitenden deskripitven Analysen scheint das Netzwerk aus dem Jahr 2011 auf den ersten Blick größer und dichter zu sein als das Netzwerk im Jahr 1992. Auch die Anzahl der farblich markierten Knoten ist im Jahr 2011 deutlich größer als im Jahr 1992. Man erkennt also, dass die Anzahl der "`großen Akteure"' auf dem Kleinwaffenmarkt gemessen an der Anzahl ihrer Importe und Exporte über die Zeit deutlich zugenommen hat. In Tabelle \ref{tab:ZentrAkt} werden die rot markierten Knoten für beide Jahre aufgelistet. 
 
 
-\begin{table}[ht]
+\begin{table}[h]
 \centering
 \footnotesize
 \begin{minipage}[t]{0.48\textwidth}
@@ -389,7 +454,9 @@ Abbildung \ref{fig:ts_network} zeigt hierzu das Gesamte Netzwerk in den Jahren 1
 
 
 
-In diesem Abschnitt wird versucht durch verschiedene Visualisierungen des Netzwerkes einen Überblick über mögliche Strukturen und Zusammenhänge des Kleinwaffenhandels zu erhalten. Da das Netzwerk recht groß ist erscheint es ratsam, die Länder in Gruppen aufzuteilen. Hierdurch erreicht man eine bessere Übersichtlichkeit der Grafiken. Dies geschieht mit Hilfe des R-Pakets \emph{countrycode} \citep{countrycode}. Mit Hilfe der im Datensatz gegeben Correlates of War Country Codes und Zuordnungen der Vereinten Nationen weist dieses Paket jedem Land einen Kontinent und eine Region zu. In den beiden Grafiken \ref{fig:cont} und \ref{fig:reg} ist die Größe der Knoten proportional zum jeweiligen Degree (In-Degree + Out-Degree) gewählt. Die Breite der Kanten wiederum ist proportional zum monetären Wert der Handelsströme zwischen zwei Kontinenten beziehungsweise Regionen gewählt. Die Positionierung der Knoten wurde zur besseren Vergleichbarkeit der Jahre untereinander fixiert.
+In diesem Abschnitt wird versucht durch verschiedene Visualisierungen des Netzwerkes einen Überblick über mögliche Strukturen und Zusammenhänge des Kleinwaffenhandels zu erhalten. Da das Netzwerk recht groß ist erzielt eine einfache Abbildung aller Knoten und Kanten, wie in Abbildung \ref{fig:ts_network} geschehen ein nicht zufriedenstellendes Ergebnis. Ein möglicher Ansatz um die Übersichtlichkeit der Visualisierung des Netzwerkes zu verbessern ist es daher, die Knoten in Gruppen einzuteilen. Eine naheliegende Kategorisierung von Ländern sind die Kontinente auf denen sie sich befinden. Die Einteilung geschieht mit Hilfe des R-Pakets \emph{countrycode} \citep{countrycode}. Mit Hilfe der im Datensatz gegeben Correlates of War Country Codes und der kontinentalen Zuordnungen der Vereinten Nationen (UNO) weist dieses Software Paket jedem Land einen Kontinent zu. 34 der im Datensatz vorkommenden Länder sind sogenannte Sonderverwaltungszonen und werden daher keinem Kontinent zugeordnet. Beispiele hierfür sind Französisch Guyana, Hong Kong und die Falkland Inseln. Eine vollständige Liste aller Länder und ihrer Zuweisung eines Kontinentes findet sich im elektronischem Anhang dieser Arbeit.
+Aus dieser Kategorisierung der Knoten resultiert die Grafik \ref{fig;cont}. 
+
 
 \begin{figure}[ht]
 \centering
@@ -397,29 +464,30 @@ In diesem Abschnitt wird versucht durch verschiedene Visualisierungen des Netzwe
 \caption{Handelsströme zwischen den Kontinenten von 1992-2011}
 \label{fig:cont}
 \end{figure}
-
-In Abbildung \ref{fig:cont} erkennt man, dass Europa durchgängig mit dem größten Kreis markiert ist, also an mehr Handelsaktionen als die anderen Kontinente beteiligt ist. Amerika und Asien folgen auf den nächsten beiden Plätzen. Die Dicke der Kanten und damit der Geldfluss zwischen den Kontinenten variiert stark zwischen den Jahren. Hier ist kein gleichbleibendes Muster zu erkennen.
-
-\begin{figure}[ht]
-\centering
-\animategraphics[scale=0.7, controls]{1}{Grafiken/Reg_Ani/reg}{1}{20}
-\caption{Handelsströme zwischen den Regionen von 1992-2011}
-\label{fig:reg}
-\end{figure}
-
-In Abbildung \ref{fig:reg} zeigt sich ein ähnliches Bild. Die europäischen Regionen und Nordamerika scheinen die aktivsten Handelspartner zu sein, während immer wieder auch zwischen eher weniger aktiven Regionen große Geldsummen fließen und hier auch wieder kein konstantes Muster zu erkennen ist.  
+In der Grafiken ist die Größe der Knoten jeweils proportional zum Degree (In-Degree + Out-Degree) also dem Anzahl der Handelsaktivitäten eines Knotens gewählt. Die Breite der Kanten wiederum ist proportional zum monetären Wert der Handelsströme zwischen zwei Kontinenten gewählt. Die Positionierung der Knoten wurde zur besseren Vergleichbarkeit der Jahre untereinander fixiert.
+In Abbildung \ref{fig:cont} erkennt man, dass Europa durchgängig mit dem größten Kreis markiert ist, also an mehr Handelsaktionen beteiligt ist, als die anderen Kontinente. Dies stimmt mit den vorhergehenden deskriptiven Analysen überein. Die Dicke der Kanten und damit der zwischen den Kontinenten gehandelte monetäre Wert, variiert stark zwischen den Jahren. Hier ist kein gleichbleibendes Muster zu erkennen.
 
 \chapter{Exponential Random Graph Model}
-Abschnitt \ref{sec:defmod} folgt \citep{hunter2008ergm}.
-Abschnitt \ref{sec:simzuf} folgt \citep[Kapitel 12.2]{lkr12}.
-Abschnitt \ref{sec:modpar} folgt \citep[Kapitel 12.3]{lkr12}.
+ Wie bereits in der Einleitung erläutert stellt die Abhängigkeitsstruktur der Beobachtungen in einem Netzwerk besondere Ansprüche an die statistische Modellierung eines Netzwerkes. Aus der deskriptiven Analyse unseres Datensatzes geht außerdem hervor, dass die Kantenbildung zwischen zwei Knoten in unserem Netzwerk nicht nur von der Struktur des restlichen Netzwerkes, sondern auch von exogenen Kovariablen wie zum Beispiel der Wirtschaftskraft und der geografischen Lage eines Landes abhängt.
+
+Üblicherweise verwendet man zur Modellierung von Netzwerken das \emph{Exponential Random Graph Model (ERGM)}, denn
+\begin{quote}
+"`The ERGM is a statistical model that can be used to estimate the effects of covariates on the ties in a network while simultaneously estimating parameters that provide a precise and parismonious description of the forms of dependence that can exist in relational data."' \citep{cranmer2011inferential}
+\end{quote}
+Das ERGM kann also sowohl den Einfluss exogener Kovariablen, als auch den strukturellen endogenen Einfluss eines Netzwerkes auf sich selbst modellieren. In den folgenden Abschnitten wird zunächst das Modell definiert um es danach auf den Datensatz zum Handel mit kleinen und leichten Waffen anzuwenden. Die Definition des Modells in Abschnitt \ref{sec:defmod} folgt im wesentlichen dem Artikel von \citet{hunter2008ergm}. Die darauf folgenden Abschnitte \ref{sec:simzuf} und \ref{sec:modpar} wurden aus den Kapiteln 12.2 und 12.3 des Buches von \citet{lkr12} erarbeitet.
+%Abschnitt \ref{sec:defmod} folgt \citep{hunter2008ergm}.
+%Abschnitt \ref{sec:simzuf} folgt \citep[Kapitel 12.2]{lkr12}.
+%Abschnitt \ref{sec:modpar} folgt \citep[Kapitel 12.3]{lkr12}.
 
 \section{Definition des Modells}
 \label{sec:defmod}
-Sie $X$ eine Zufallsmatrix und repräsentiere die Nachbarschaftsmatrix eines Netzwerkes und $\mathcal{X}$ die Menge aller möglichen binären Netzwerke. Typischerweise fixiert man die Anzahl der Knoten auf einen festen Wert $n$. Dann ist $\mathcal{X}$ die Menge aller $n \times n$ Matritzen deren Einträge entweder eins oder null sind und die auf ihrer Diagonalen nur Nuller besitzen. Da das $ij$-te Element von $X$ eine Kante zwischen Knoten $i$ und $j$ entspricht, garantiert die letzte Eigenschaft, dass das Netzwerk frei von Schleifen ist. Bei einem ungerichteten Netzwerk ist $X$ eine symmetrische Matrix.
-Die Verteilung von $X$ lässt sich in folgender Form ausdrücken:
+Vorab einige benötigte Notation:
+
+Sei $X$ eine matrixvertige Zufallsvariable und repräsentiere die Nachbarschaftsmatrix eines Netzwerkes. $\mathcal{X}$ soll die Menge aller möglichen Nachbarschaftsmatritzen von binären Netzwerken mit fester Knotenanzahl $n$ darstellen, die keine Schleifen oder multiple Kanten enthalten. Daher ist $\mathcal{X}$ die Menge aller $n \times n$ Matritzen deren Einträge entweder Eins oder Null sind und die auf ihrer Diagonalen nur Nuller besitzen. Das $ij$-te Element von $X$ repräsentiert eine Kante zwischen Knoten $i$ und $j$. Bei einem ungerichteten Netzwerk ist $X$ eine symmetrische Matrix. Bei einem gerichteten Netzwerk kann sich hingegen der Eintrag an der Stelle $ij$ von dem an der Stelle $ji$ unterscheiden.
+
+Die Wahrscheinlichkeitsverteilung der matrixwertigen Zufallsvariable $X$ lässt sich nun in folgender Form ausdrücken:
 \begin{equation}
-P_{\theta, \mathcal{X}}(X = x) = \frac{exp\left\{\theta^T g(x)\right\}}{\kappa(\theta, \mathcal{X})}
+P_{\theta, \mathcal{X}}(X = x) = \frac{exp\left\{\theta^T g(x)\right\}}{\kappa(\theta, \mathcal{X, Y})}
 \label{eq:ergm}
 \end{equation}
 mit
@@ -429,11 +497,11 @@ mit
 	\item $\theta \in \Omega \subset \mathbb{R}^q$ ... Vektor der Modellparameter
 	\item $g(x)$ ... q-Vektor aus Statistiken basierend auf der Nachbarschaftsmatrix $X$
 \end{itemize}
-Ersetzt man $g(x)$ aus Gleichung \ref{eq:ergm} durch $g(x,Y)$ so ermöglicht man die Aufnahme von zusätzlichen exogenen Informationen $Y$ über das Netzwerk (siehe Kapitel \ref{sec:exkov}). $\kappa(\theta, \mathcal{X}) = \sum_{x \in \mathcal{X}}{exp\left\{\theta^T g(x)\right\}}$ ist ein Normalisierungsfaktor, der sicherstellt, dass es sich bei Gleichung \ref{eq:ergm} um eine Wahrscheinlichkeitsverteilung handelt. Die genaue Spezifikation von $\mathcal{X}$ ist problematisch, da $\mathcal{X}$ alle möglichen Netzwerke enthalten muss. Da aber bei $n$ Knoten bereits $2^{n(n-1)}$ verschiedene Netzwerke denkbar sind erhält mal schnell unvorstellbar große Anzahlen von möglichen Netzwerken die den Umgang mit  $\kappa(\theta, \mathcal{X})$ zum entscheidenden Problem dieses Modells werden lassen. Da eine analytische Lösung des Modells hierdurch oft unmöglich ist, benötigt man Methoden um durch simulationgestütze Verfahren geeignete Schätzer entwickeln zu können. Hiermit beschäftigen sich die nächsten beiden Kapitel.
+Ersetzt man in Gleichung \ref{eq:ergm} $g(x)$ durch $g(x,Y)$ so ermöglicht man die Aufnahme von zusätzlichen exogenen Informationen $Y$ über das Netzwerk (siehe Kapitel \ref{sec:exkov}). $\kappa(\theta, \mathcal{X}) = \sum_{x \in \mathcal{X}}{exp\left\{\theta^T g(x)\right\}}$ ist ein Normalisierungsfaktor, der sicherstellt, dass sich bei der Gleichung \ref{eq:ergm} eine Wahrscheinlichkeitsverteilung mit Wertebereich $[0,1]$ ergibt. Die genaue Berechnung von $\kappa(\theta, \mathcal{X})$ ist problematisch, da die Summe über alle möglichen Ausprägungen der Zufallsvariable $\mathcal{X}$ summiert. Da aber bereits bei $n$ Knoten $2^{n(n-1)}$ verschiedene Netzwerke denkbar sind, erhält mal schnell unvorstellbar große Anzahlen von möglichen Netzwerken die den Umgang mit  $\kappa(\theta, \mathcal{X})$ zum entscheidenden Problem dieses Modells werden lassen. Eine analytische Lösung des Modells ist hierdurch oft unmöglich. Es werden Methoden benötigt, um durch simulationgestütze Verfahren geeignete Schätzer entwickeln zu können. Hiermit beschäftigen sich die nächsten beiden Kapitel.
 
 \subsection{Simulation von Zufallsgraphen}
 \label{sec:simzuf}
-Die Simulation von Zufallsgraphen aus einer Zielverteilung $P_\theta(x)$ basiert auf dem Makrov Chain Monte Carlo (MCMC) Algorithmus. Hierbei erstellt man eine Sequenz von M Graphen. Der letzte dieser Graphen entspringt dann der Zielverteilung, dem ERGM. Hierbei beginnt man mit einem beliebigen Netzwerk mit fester Knotenzahl $N$. Nun sucht man sich ein zufälliges Knotenpaar und fügt eine Verbindung hinzu, beziehungsweise entfernt eine bestehende Verbindung. Besitzt der so erhaltene Graph nun eine höhere Wahrscheinlichkeit als der vorherige wird er akzeptiert. Besitzt der Graph eine geringere Wahrscheinlichkeit, so wird er mit einer Wahrscheinlichkeit akzeptiert, die proportional zum Verhältnis aus den Wahrscheinlichkeiten von altem und neuem Graph ist. Wird dieser Vorgang häufig genug iteriert, so erhält man ein zufälliges Netzwerk, das aus der Zielverteilung gezogen wurde. Alle vorherigen Ziehungen nennt man \emph{Burn In}. Der Burn In wird benötigt, damit der Algorithmus den beliebig gewählten Anfangszustand "`vergessen"' kann. Bei ausreichend großem Burn In ist das gezogene Netzwerk unabhängig von Startpunkt und jedes nach ihm gezogene Netzwerk entspringt ebenfalls der Zielverteilung.
+Die Simulation von Zufallsgraphen aus einer Zielverteilung $P_\theta(x)$ basiert auf dem Makrov Chain Monte Carlo (MCMC) Algorithmus. Hierbei beginnt man mit einem beliebigen Netzwerk mit fester Knotenzahl $n$. Nun sucht man sich ein zufälliges Knotenpaar und fügt eine Verbindung hinzu, beziehungsweise entfernt eine bestehende Verbindung. Besitzt der so erhaltene Graph nun eine höhere Wahrscheinlichkeit als der vorherige wird er akzeptiert. Besitzt der Graph eine geringere Wahrscheinlichkeit, so wird er mit einer Wahrscheinlichkeit akzeptiert, die proportional zum Verhältnis aus den Wahrscheinlichkeiten von altem und neuem Graph ist. Nach ausreichend großer Anzahl von Iterationen erhält man ein zufälliges Netzwerk, das als Ziehung aus der Zielverteilung $P_\theta(x)$ gezogen wurde. Alle vorherigen Ziehungen nennt man \emph{Burn In}. Der Burn In wird benötigt, damit der Algorithmus den beliebig gewählten Anfangszustand "`vergessen"' kann. Bei ausreichend großem Burn In ist das gezogene Netzwerk unabhängig von Startpunkt und jedes der nach ihm gezogenen Netzwerke entspringt ebenfalls der Zielverteilung.
 Genauer gesagt benutzen wir einen Metropolis Algorithmus. Wir erstellen eine Sequenz von Graphen $X^{(0)}, X^{(1)}, ..., X^{(M-1)}, X^{(M)}$. Im $m$-ten Iterationsschritt wird hierbei folgendermaßen vorgegangen:
 
 \begin{enumerate}
@@ -452,7 +520,7 @@ log\{\frac{P_{\theta}(x^*)}{P_{\theta}(x^{m-1})}\} &= log\{P(X_{ij} = 1-x_{ij}^{
 
 Diese Methode kann computional optimiert werden, indem man zum Beispiel größere Update-Schritte oder Update-Schritte mit ungleichen Gewichten zulässt.
 
-Will man mehrere Graphen aus der selben Verteilung ziehen, so kann die gleiche Kette verwendet werden. Dafür lässt man zwischen den Beobachteten Graphen jeweils $k$ Iterationen aus. Den Wert von $k$ nennt man \emph{thinning}. Die gezogenen Graphen sind dann allerdings eine abhängige Stichprobe und man sollte sie auf Autokorrelation checken, die durch Erhöhen von $k$ reduziert werden kann.
+Will man mehrere Graphen aus der selben Verteilung ziehen, so kann die gleiche Kette verwendet werden. Allerdings sind zwei direkt nacheinander beobachtete Graphen einer Kette natürlich stark korreliert. Daher lässt man zwischen den beobachteten Graphen jeweils $k$ Iterationen aus. Den Wert von $k$ nennt man \emph{thinning}. Die Autokorrelation zwischen den gezogenen Graphen sollte durch ein möglichst großes $k$ gering gehalten werden.
 
 \subsection{Schätzung der Modell-Parameter}
 \label{sec:modpar}
@@ -461,22 +529,29 @@ Ziel der Schätzung der Parameter ist es die Verteilung der Statistiken der Simu
 	E_\theta(z(X)) - z(x_{obs}) = 0
 	\label{eq:1}
 \end{equation}
-Das Auflösen von Gleichung \ref{eq:1} liefert die Parameterwerte die die Daten am besten beschreiben.
-Analog hierzu funktioniert die Maximum Likelihood Theorie. Hiernach wird derjenige Parametervektor $\theta$ gesucht, der die Wahrscheinlichkeit $P_\theta(x_{obs})$ optimiert. Dieses vorgehen liefert das den gleichen $\theta$-Vektor wie die Lösung von Gleichung \ref{eq:1}, denn die partielle Ableitung nach $\theta$ liefert
+Das Auflösen von Gleichung \ref{eq:1} liefert die Parameterwerte $\theta$ die die beobachteten Daten $x_{obs}$ am besten beschreiben.
+Analog hierzu funktioniert die Maximum Likelihood Theorie. Hier wird derjenige Parametervektor $\theta$ gesucht, der die Wahrscheinlichkeit $P_\theta(x_{obs})$ optimiert. Dieses Vorgehen liefert den gleichen $\theta$-Vektor wie die Lösung von Gleichung \ref{eq:1}, denn die partielle Ableitung nach $\theta$ liefert
 \begin{align*}
 \frac{\partial}{\partial \theta} log(P_\theta(x_{obs})) &= z(x_{obs}) - \frac{\partial}{\partial \theta} log\{\sum_{x \in X}{exp(\theta_1z_1(x)+ ... + \theta_pz_p(x))}\}\\
 &=z(x_{obs}) - \sum_{x \in X}{z(x)P_\theta(x)}
 \end{align*}
 was Gleichung \ref{eq:1} entspricht. 
 
-Eine analytische Lösung dieser Gleichung ist auf Grund der großen Anzahl an möglichen Netzwerken nicht möglich. Im Prinzip funktioniert die Lösung der Gleichung durch einfaches Ausprobieren. Das bedeutet man wählt einen beliebigen Parametervektor, simuliert mit diesem auf oben erklärte Art und Wiese eine große Anzahl an Graphen und checkt im Anschluss ob Gleichung \ref{eq:1} erfüllt ist. Dieses Vorgehen ist aber natürlich computional ineffizient. Eine Möglichkeit zur effizienteren Implementierung dieses Vorgehens bietet das \emph{Importance Sampling} nach Geyer-Thompson was im \texttt{statnet}-Paket \citep{pack:statnet} in R  \citep{R} standardmäßig verwendet wird. Der Geyer-Thompson Algorithmus zieht eine große Stichprobe von Graphen, für einen vorläufigen Parametervektor $\widetilde{\theta}$. Diese Stichprobe wird nun als repräsentativ für alle Graphen angesehen. Die Stichprobe wird im nun immer weiter verwendet, selbst wenn sich der Parametervektor im Laufe des Algorithmus verändert. Um zu berücksichtigen, dass es sich nur um eine Stichprobe und keine vollständige Sammlung aller möglichen Graphen handelt, muss ein gewichteter Durchschnitt der Statistiken verwendet werde um $\bar{z}_\theta$ zu berechnen. Genauer gesagt, falls die Stichprobe aus der Verteilung $P_\theta(x)$ generiert wurde ist der Stichprobendurchschnitt $\bar{f}_\theta = w^1 f(x^1) + w^2 f(x^2) + ... + w^M f(x^M)$ der Funktion $f$ mit den Gewichten $w^{(m)} = \frac{e^{(\theta_1-\widetilde{\theta}_1)z_1(x^{(m)})+...+(\theta_p-\widetilde{\theta}_p)z_p(x^{(m)})}}{\sum_{k=1}^{M}{e^{(\theta_1-\widetilde{\theta}_1)z_1(x^{(k)})+...+(\theta_p-\widetilde{\theta}_p)z_p(x^{(k)})}}}$ 
-eine gute Approximation für den echten Erwartungswert $E_\theta(f(X))$ wenn M groß wird und $\widetilde{\theta}$ nahe am wahren $\theta$ liegt. umso näher $\widetilde{\theta}$ und $\theta$ zusammen liegen, desto näher kommen die Gewichte dem Wert $\frac{1}{M}$. Falls $\theta$ und $\widetilde{\theta}$ jedoch weiter auseinander liegen besitzen die Gewichte eine hohe Streuung und somit die Schätzung eine große Standartabweichung.
-Um die Likelihood nun zu lösen erzeugt man eine Sequenz von Parametern $\widetilde{\theta},\theta^{1}, \theta^{2},...,\theta^{G}$ mit Hilfe eines Verfahrens wie \emph{Newton-Raphson} oder \emph{Fisher Scoring}. Eine Aktualisierung der Sequenz erfolgt durch $\theta^{(g)} = \theta^{(g-1)} - {D(\theta^{(g-1)})}^{-1}\left\{\sum^{M}_{m = 1}{w^{(m)}z(x^{(m)})} - z(x_{obs})\right\}$. Da $\sum^{M}_{m = 1}{w^{(m)}z(x^{(m)})}$ eine Approximation von $E_\theta(z(X))$ ist, falls $\theta^{(g-1)}$ der wahre Parameter ist, ergibt sich dann $E_\theta(z(X)) - z(x_{obs}) = 0$ und $\theta^{(g)}$ bleibt unverändert zu $\theta^{(g-1)}$. Die Skalierungsmatrix $D(\theta)$ skaliert die Unterschiede zwischen den beobachteten und simulierten erwarteten Werten der Statistiken, da die Statistiken sich in ihrer Sensitivität gegenüber Parameteränderungen unterscheiden können und die Parameterwerte nicht nur ihre eigenen sondern auch fremde Statistiken beeinflussen können. $D$ ist die gewichtete Stichproben Kovarianzmatrix 
+Eine analytische Lösung dieser Gleichung ist auf Grund der großen Anzahl an möglichen Netzwerken nicht möglich. Im Prinzip funktioniert die Lösung der Gleichung durch einfaches Ausprobieren. Das bedeutet, man wählt einen beliebigen Parametervektor, simuliert mit diesem auf oben erklärte Art und Weise eine große Anzahl an Graphen und checkt im Anschluss ob Gleichung \ref{eq:1} erfüllt ist. Dieses Vorgehen ist aber natürlich computional ineffizient. Eine Möglichkeit zur effizienteren Implementierung dieses Vorgehens bietet das \emph{Importance Sampling} nach Geyer-Thompson was im \texttt{statnet}-Paket \citep{pack:statnet} in R  \citep{R} standardmäßig verwendet wird. Der Geyer-Thompson Algorithmus zieht eine große Stichprobe von Graphen, für einen vorläufigen Parametervektor $\widetilde{\theta}$. Diese Stichprobe wird nun als repräsentativ für alle Graphen angesehen. Die Stichprobe wird im nun immer weiter verwendet, selbst wenn sich der Parametervektor im Laufe des Algorithmus verändert. Um zu berücksichtigen, dass es sich nur um eine Stichprobe und keine vollständige Sammlung aller möglichen Graphen handelt, muss ein gewichteter Durchschnitt der Statistiken verwendet werde um $\bar{z}_\theta$ zu berechnen. Genauer gesagt, falls die Stichprobe aus der Verteilung $P_\theta(x)$ generiert wurde ist der Stichprobendurchschnitt $\bar{f}_\theta = w^1 f(x^1) + w^2 f(x^2) + ... + w^M f(x^M)$ der Funktion $f$ mit den Gewichten $w^{(m)} = \frac{e^{(\theta_1-\widetilde{\theta}_1)z_1(x^{(m)})+...+(\theta_p-\widetilde{\theta}_p)z_p(x^{(m)})}}{\sum_{k=1}^{M}{e^{(\theta_1-\widetilde{\theta}_1)z_1(x^{(k)})+...+(\theta_p-\widetilde{\theta}_p)z_p(x^{(k)})}}}$ 
+eine gute Approximation für den echten Erwartungswert $E_\theta(f(X))$ wenn M groß wird und $\widetilde{\theta}$ nahe am wahren $\theta$ liegt. Umso näher $\widetilde{\theta}$ und $\theta$ zusammen liegen, desto näher kommen die Gewichte dem Wert $\frac{1}{M}$. Falls $\theta$ und $\widetilde{\theta}$ jedoch weiter auseinander liegen besitzen die Gewichte eine hohe Streuung und somit die Schätzung eine große Standartabweichung.
+Um die Likelihood nun zu lösen, erzeugt man eine Sequenz von Parametern $\widetilde{\theta},\theta^{1}, \theta^{2},...,\theta^{G}$ mit Hilfe eines Verfahrens wie \emph{Newton-Raphson} oder \emph{Fisher Scoring}. Eine Aktualisierung der Sequenz erfolgt durch $\theta^{(g)} = \theta^{(g-1)} - {D(\theta^{(g-1)})}^{-1}\left\{\sum^{M}_{m = 1}{w^{(m)}z(x^{(m)})} - z(x_{obs})\right\}$. Da $\sum^{M}_{m = 1}{w^{(m)}z(x^{(m)})}$ eine Approximation von $E_\theta(z(X))$ ist, falls $\theta^{(g-1)}$ der wahre Parameter ist, ergibt sich dann $E_\theta(z(X)) - z(x_{obs}) = 0$ und $\theta^{(g)}$ bleibt unverändert zu $\theta^{(g-1)}$. Die Skalierungsmatrix $D(\theta)$ skaliert die Unterschiede zwischen den beobachteten und simulierten erwarteten Werten der Statistiken, da die Statistiken sich in ihrer Sensitivität gegenüber Parameteränderungen unterscheiden können und die Parameterwerte nicht nur ihre eigenen sondern auch fremde Statistiken beeinflussen können. $D$ ist die gewichtete Stichproben Kovarianzmatrix 
 $\Sigma_m w^{(m)} z(x^{(m)}) z(x^{(m)})^T - \left[\Sigma_m w^{(m)} z(x^{(m)}\right] \left[\Sigma_m w^{(m)} z(x^{(m)}\right]^T$.
-Typischer Weise startet man diesen Algorithmus einige Male und setzt den vorgeschlagenen Parameter $\widetilde{\theta}$ gleich $\theta^{(G)}$. Für diesen Algorithmus ist es sehr wichtig, dass man den Startpunkt $\widetilde{\theta}$ nicht zu weit entfernt vom richtigen ML-Schätzer wählt, was in der Praxis schwierig sein kann.
-%hier eventuell noch einen Abschnitt zu Stochastic Approximation?
+Typischer Weise startet man diesen Algorithmus einige Male und setzt den vorgeschlagenen Parameter $\widetilde{\theta}$ gleich $\theta^{(G)}$. Für diesen Algorithmus ist es sehr wichtig, dass man den Startpunkt $\widetilde{\theta}$ nicht zu weit entfernt vom richtigen ML-Schätzer wählt, was in der Praxis schwierig sein kann. Zusammengefasst lässt sich das Prinzip des Importance-Sampling schematisch folgendermaßen darstellen:
 
-\section{endogene Statistiken}
+	\begin{enumerate}
+		\item Ziehung einer großen Stichprobe von Graphen auf Basis eines vorläufigen Parametervektors $\tilde{\theta}$.
+		\item Benutzung gewichteter Stichprobendurchschnitte der Statistiken.
+		\item Erzeugen einer Sequenz von Parametern $\widetilde{\theta},\theta^{(1)}, \theta^{(2)},...,\theta^{(G)}$ durch \emph{Fisher Scoring}.
+		\item Neustart mit $\theta^{(G)}$ als $\tilde{\theta}$.
+	\end{enumerate}
+
+
+\section{Endogene Statistiken}
 Netzwerkdaten sind in der Regel relationale Daten. Das bedeutet sie beschränken sich nicht lediglich auf Variablen die einzelne Akteure betreffen, sondern zeichnen sich viel mehr dadurch aus, dass sie Beziehungen zwischen ihnen abbilden. Die Knoten(Akteure) eines Netzwerkes können daher genauso wenig wie die sie verbindenden Kanten als unabhängig voneinader betrachtet werden. Sie hängen explizit vom Zustand des restlichen Netzwerkes ab. Diese Eigenschaft erschwert die richtige Spezifizierung und Schätzung eines Modells im Vergleich zur gewöhnlichen statistischen Inferenz \citep{handcock2008statnet}. 
 Die Zielvariable in einem Exponential Random Graph Model ist die Existenz beziehungsweise Abwesenheit einer Kante. Als erklärende Kovariablen werden hierbei Statistiken verwendet, die aus Funktionen eben genau dieser Kanten hervorgehen . Man kann das Modell also in gewisser Weise als autoregressives Modell betrachten \citep{morris2008specification}. Welche Statistiken aufgenommen werden sollten um ein gutes Modell zu erhalten lässt sich nicht allgemeingültig beantworten. Abhängig von Struktur und Art des Netzwerkes sollten aus den im Folgenden vorgestellten Gruppen die jeweils passenden gewählt werden. Für eine (vollständige) Auflistung der im \texttt{ergm}-Paket \citep{pack:ergm} implementierten Statistiken verweise ich auf \citep{morris2008specification} und die entsprechende Hilfe Seite in R.
 
@@ -487,6 +562,7 @@ Die Degree-Verteilung wie in Abschnitt \ref{sec:degree} beschrieben, lässt sich
 Gruppenbildungen und Transitivitätseigenschaften lassen sich bei gerichteten Netzwerken durch Statistiken wie \textit{ctriple, ttriple} oder \textit{transitive} erfassen. Diese führen aber bekannter Weise zur Degenerierung des modellierten Netzwerkes (siehe zum Beispiel \citep{morris2008specification, hunter2008ergm, handcock2008statnet}) und werden deshalb gerne durch alternative neuere Statistiken ersetzt die im folgenden Abschnitt vorgestellt werden.
 
 \section{Degeneration und alternative Modellierung}
+\label{sec:degeneration}
 In diesem Absatz gebe ich die Erklärungen zur Degeneration aus \citep{handcock2008statnet}wieder, falls nicht anderst ausgewiesen.
 
 Ein häufig auftretendes Problem des Exponential Random Graph Modells ist, dass das simulierte Modell degneriert. Man spricht von einem degenerierten Modell, falls es einen Großteil seiner Wahrscheinlichkeitsmasse auf wenige extreme und unrealistische Netzwerkkonfigurationen wie zum Beispiel ein volles oder komplett leeres Netzwerk legt. Für eine genauere mathematische Erklärung verweise ich auf \citep{handcock2003assessing}. Ein degeneriertes Modell führt oft zur Divergenz des Schätzalgorithmus, wodurch der ML-Schätzer der Parameter im Modell nicht bestimmt werden kann. Teilweise kann mit einem degenerierten Modell zwar eine Likelihood-Schätzung durchgeführt werden, allerdings ist ihr Fit in der Regel schlecht .
@@ -497,7 +573,7 @@ Ein häufig auftretendes Problem des Exponential Random Graph Modells ist, dass 
 
 Der Grund, dass einfache Zählstatistiken wie \textit{ttriple} oder \textit{ctriple} zur Degeneration eines Netzwerkes führen ist, dass die Hinzunahme einer einzelnen Kante ihren Wert so stark verändern kann, dass der Einfluss des Parameterwerts auf das Netzwerk unrealistisch verstärkt wird. Das wird an einem einfachen Beispiel deutlich. Ein Knoten mit Degree vier besitzt sechs Two-Stars. Verbindet man ihn jedoch mit nur einem einzigen weiteren Knoten, so kommen bereits auf einem Schlag 4 weitere Two-Stars hinzu. Hierfür gibt es in der neueren Netzwerkforschung eine empfohlene Lösungsstrategie: die Aufnahme von nicht linearen Einflüssen durch sogenannte \emph{Curved Exponential Family Models(CEFM)} \citep{hunter2007curved}.
 
-Die Beschränkung auf lineare Effekte der Statistiken scheint intuitiv unrealistisch zu sein. Man denke sich ein Freundesnetzwerk. Zwei Akteure, mit null oder einem guten Freund werden sich deutlicher voneinander unterscheiden, als zwei Akteure mit 20 oder 21 guten Freunden. Der Einfluss der Veränderung der Degree-Statistik um eins sollte also mit der Höhe der Statistik abnehmen. Dies gewährleistet zum Beispiel die \textit{Geometrically Weighted Degree} (GWD) Statistik:
+Auch die Beschränkung auf lineare Effekte der Statistiken scheint intuitiv unrealistisch zu sein. Man denke sich ein Freundesnetzwerk. Zwei Akteure, mit null oder einem guten Freund werden sich deutlicher voneinander unterscheiden, als zwei Akteure mit 20 oder 21 guten Freunden. Der Einfluss der Veränderung der Degree-Statistik um eins sollte also mit der Höhe der Statistik abnehmen. Dies gewährleistet zum Beispiel die \textit{Geometrically Weighted Degree} (GWD) Statistik:
 \begin{equation}
 	u(x, \phi_s) = e^{\phi_s} \sum^{n-1}_{i=1}\left\{1-(1-e^{-\phi_s})^{i}\right\}D_i(x)
 	\label{eq:GWD}
@@ -516,19 +592,13 @@ $u(x,\phi_s)$ ist eine ist hierbei eine Funktion der Degreestatistiken $D_i(x)$ 
 $EP_i(x)$ zählt die Anzahl der Kanten in $x$ die genau $i$ gemeinsame Nachbarn haben. $EP_i(x)$ zählt die Anzahl der Knotenpaare $(k,l)$ in $x$ die genau $i$ gemeinsame Nachbarn haben unabhängig von $X_{kl}$.
 
 Die Parameter $\phi_s, \phi_t$ und $\phi_p$ sind sogenannte Decay-Parameter und bestimmen den Grad, in dem der Effekt der Statistiken für größere Werte abnimmt. Umso größer $\phi$, desto langsamer ist die Abnahme des Effekts.
-\section{exogene Kovariablen}
+\section{Exogene Kovariablen}
 \label{sec:exkov}
-Es stehen einige exogene Datensätze zur Verfügung die im folgenden verwendet werden.
-
-\subsection{Formal Intersate Alliance Dataset}
-Ein Datensatz entspringt aus dem \emph{Formal Intersate Alliance Dataset} \citep{alliance} der vom Correlates of War Projekt zur Verfügung gestellt wird. Aufgeführt sind hierin Verteidigungsbündnisse, Nicht-Angriffspakte und militärische Bündnisse anderer Art . 
-Im Folgenden wird  eine Nachbarschaftsmatrix verwendet, wobei zwei verbündete Länder durch eine eins gekennzeichnet sind, während eine null bedeutet, dass kein Bündnis besteht. Diese Daten liegen nur bis zum Jahr 2008 vor.
+Ein weiterer möglicher Grund für die Degeneration eines Modells ist das Fehlen von exogenen Unterscheidungsmerkmalen. In einem ERGM das nur mit endogenen Statistiken arbeitet werden zunächst alle Knoten als gleich angenommen und dadurch bekommen alle strukturgleichen Netzwerke die gleiche Wahrscheinlichkeit zugewiesen. Eigenschaften einzelner Knoten oder Kanten werden hier also nicht weiter berücksichtigt. Im deskriptiven Teil dieser Arbeit wurde aber gezeigt, dass die Teilnahme am Waffenhandelsnetzwerk durchaus von Eigenschaften  wie der Wirtschaftskraft oder der geographischen Lage eines Landes abhängig ist. Um also ein gutes Modell anzupassen werden exogene Kovariablen benötigt, die Informationen über diese Eigenschaften liefern.
+Bei der Analyse des SALW Datensatzes standen folgenden zusätzlichen exogenen Kovariablen zur Verfügung:
 
 \subsection{Polity Score}
 Der nächste verwendete Datensatz entspringt dem \emph{Polity IV Project} welches vom \emph{Center for Systemic Peace} (CSP) \citep{polity} betrieben wird. Dieser Datensatz weißt jedem Land abhängig von seinem Demokratiestatus einen Wert zwischen $-10$ und $10$ zu. $-10$ kennzeichnet hierbei den schlechtest möglichen Wert, wobei $10$ für bestmögliche demokratische Standarts steht. Verwendet wird eine gewichtete Nachbarschaftsmatrix deren $ij$-ter Eintrag dem Unterschied im Demokratiescore zwischen Land $i$ und Land $j$ entspricht.
-
-\subsection{Direct Contiguity}
-Der Datensatz \emph{Direct COntiguity} enthält für jedes Jahr eine eine Nachbarschaftsmatrix. Eine eins als $ij$-ten Eintrag weist hier auf eine gemeinsame Grenze der beiden beider Länder $i$ und $j$ hin, eine null auf das Gegenteil. Hierbei werden sowohl Land- als auch Seegrenzen in Betracht gezogen.
 
 \subsection{Composite Index of National Capability}
 Der \emph{Composite Index of National Capability} aus der neusten Version des \emph{National Material Capabilities Dataset}(Version 4.1)  \citep{CINC} ist ein Maß der nationalen Macht, dass vom Correlates of War Projekt erstellt wurde. Der Index berücksichtigt die Gesamtbevölkerungsanzahl, die Anzahl urbaner Bevölkerung, die Eisen- und Stahlproduktion, den Energieverbrauch  sowie die Militärausgaben und Militärgröße eines Landes. Diese Daten liegen nur bis zum Jahr 2007 vor und dienen hier als Knotenattribut.
@@ -537,32 +607,15 @@ Der \emph{Composite Index of National Capability} aus der neusten Version des \e
 Eine zustätzliche Kovariate in unserem Modell sammelt Informationen über internationale, civile, ethnische und (?genocidal) Gewalt und Kriege. Die Daten kommen vom \emph{Major Episodes of Political Violance} Projekt \citep{conflict}, dass wie auch das Polity IV Projekt von CSP bereitgestellt wird. Die Konflikte sind abhängig von der Stärke ihrer Auswirkung auf die betroffene Bevölkerung auf einer Skala von $1-10$ bewertet. Diese Informationen werden als Knotenattribut verwendet.
 
 \subsection{GDP}
-Zu guter letzt verwenden wir auch das Bruttoinlandsprodukt der Länder als Knotenattribut. Die Daten entstammen dem \emph{Maddison Project}\citep{GDP}. 
-
-
-\begin{itemize}
-  \item Polity: Demokratiescore zwischen 0 und 10. Die Differenz zweier Länder wird als Kantenattribut verwendet.
-  \item GDP: Bruttoinlandsprodukt der Länder in internationaler Dollar
-  \item Conflict: Interne und externe Konflikte. Knotenattribut mit Score zwischen 0-10
-  \item CINC: (Composite Index of National Capability) statistisches Maß für nationale Macht zwischen 0 und 1.
-  \item Alliance: binäres Kantenattribut; Besteht ein militärisches Bündnis (1:Ja, 0:Nein)
-  \item DirectCont: binäres Kantenattribut; Besteht ein direkte Grenze (1:Ja, 0:Nein)
-\end{itemize}
+Zu guter Letzt verwenden wir auch das Bruttoinlandsprodukt der Länder als Knotenattribut. Die Daten entstammen dem \emph{Maddison Project}\citep{GDP}. 
 
 \section{geschätzte Modelle}
 
-Aus den vorhergehenden theoretischen Überlegungen ergibt sich folgendes Modell:
-
-\emph{	Modell1: ~ edges + mutual + gwidegree() + gwodegree() + gwesp() + gwdesp() + exogene Kovariablen}
-
-Zwar kann der Decay Parameter im Modell frei geschätzt werde, jedoch erhöht das die Rechenzeit dramatisch. Der Parameterwert wird daher in allen Statistiken auf 0.2 fixiert  um Rechenzeit zu verkürzen wie zum Beispiel auch in \citet{goodreau2008statnet, pack:ergm, hunter2008goodness, goodreau2007advances}.
-
-Das Ergebnis der Schätzung von Modell 1 ist in Tabelle \ref{model1} festgehalten. Nahezu alle Parameter im Modell sind signifikant auf einem Level von mindestens 0.1. Lediglich der Faktor Kontinent und die Variable Conflict scheinen für den Import von Waffen nicht entscheident zu sein. 
-
+Nach den vorhergehenden theoretischen Überlegungen und ergibt sich nach einigem Ausprobieren ein Modell dessen Output in Tabelle \ref{tab:model1} wiedergegeben ist. Aufgenommen wurden die beiden einfachen Statistiken \emph{edges} und \emph{mutual} und die in Abschnitt \ref{sec:degeneration} eingeführten Statistiken \emph{gwdegree}, \emph{gwesp} und \emph{gwdsp}. Alle zur Verfügung stehenden exogenen Kovariablen werden in das Modell mit aufgenommen. Zusätzlich beinhaltet das Modell die Kontinente der Länder als faktorielle Einflussgröße.
 
 \begin{table}[ht]
 	\centering
-	\caption{Summary von Modell 1 }
+	\caption{Summary von Modell 1 im Jahr 1996}
 		\begin{tabular}{l|l|l|l}
 		
 		\hline
@@ -591,19 +644,83 @@ Das Ergebnis der Schätzung von Modell 1 ist in Tabelle \ref{model1} festgehalte
 		absdiff.ext\_polity            		& -9.360e-03  &3.249e-03      & 0.00397 **\\
 		\hline
 		\end{tabular}
-		\label{model1}
+		\label{tab:model1}
 \end{table}
+In Tabelle \ref{tab:model1} sind die Ergebnisse der Modellschätzung von Modell 1 im Jahr 1996 angegeben. Nahezu alle aufgenommenen Statistiken erweisen sich als Signifikant. Lediglich der Faktor Kontinent für den Export und die Kovariable Conflict für den Import habne keinen signifikanten Einfluss auf den Handel mit kleinen und leichten Waffen (p-Wert >0).
 
-Die MCMC Diagnose von Modell 1 fällt durchgehend zufriedenstellend aus. Beispielhaft abgebildet sind in Abbildung \ref{fig:mcmc.diag.model1} nur die ersten 4 Statistiken. Alle anderen weisen eine ähnlich gute Form auf.
+\subsection{Interpretation der Parameter}
+Zur anschaulichen Interpretation der Parameterwerte stelle man sich zwei Netzwerke $X^{(1)}$ und $X^{(2)}$ vor, die in allen Statistiken gleich sind, bis auf in der Statistik $g_i(X)$ mit
+$$\delta_i(X) = g_i(X^{(1)}) - g_i(X^{(2)}).$$
 
 
+Für eine einfache Interpretation der Modellparameter lässt sich Modellgleichung \ref{eq:ergm} nun umschreiben zu 
+\begin{equation}
+\frac{P(X^{(1)})}{P(X^{(2)})} = exp(\theta_i \delta_i(X))
+	\label{eq:interpretation}
+\end{equation}
+Das Verhältnis der Wahrscheinlichkeiten der beiden Netzwerke auf der linken Seite von Gleichung \ref{eq:interpretation} hängt nun also nur von dem Unterschied der beiden Netzwerke in der Statistik $g_i$ und dem dazugehörigen Parameter $\theta_i$ ab. Nehmen wir nun an die Statistik $g_i$ sei im Netwzerk $X^{(1)}$ größer als im Netzwerk $X^{(2)}$, somit ist $\delta_i(X) > 0$ und es ergibt sich eine einfache Interpretation des Parameters $\theta_i$:
+	\begin{itemize}
+		\item Ist $\theta_i > 0$, so ist $X^{(1)}$ plausibler als $X^{(2)}$.
+		\item Ist $\theta_i = 0$, so sind sie gleich plausibel.
+		\item Ist $\theta_i < 0$, so ist $X^{(2)}$ plausibler als $X^{(1)}$.
+	\end{itemize} 
+Der negative Wert der des zur Statistik \emph{edges} gehörenden Parameters lässt sich also so interpretieren, dass unser Modell Netzwerken mit einer eher geringen Dichte eine höhere Wahrscheinlichkeit zuordnet als Netzwerken mit einer eher hohen Dichte. Dies stimmt mit den Ergebnissen der deskriptiven Analyse überein.  
 
-\begin{figure}[ht]
+Die folgenden Aufzählung gibt zu jedem signifikanten Parameterwert eine kurze Interpretation die auf analogen Überlegungen basiert:
+
+	\begin{itemize}
+		\item {\textbf{Edges $-6.111$}: Tendenz zu wenigen Kanten.}
+		\item {\textbf{Mutual $2.120$}: Tendenz zu gegenseitigen Handel.}
+		\item {\textbf{nodeicov(CINC) $3.071$}: "`Mächtige"' Länder als Importland wahrscheinlich.}
+		\item {\textbf{nodeocov(CINC) $-5.967$}: "`Mächtige"' Länder als Exportland unwahrscheinlich.}
+		\item {\textbf{nodeicov(GDP) \& nodeocov(GDP) $> 0$}: Wirtschaftsstarke Länder als Handelspartner wahrscheinlich.}
+		\item {\textbf{nodeocov(Conflict) $-0.1398$}: In Konflikte verwickelte Länder als Exporteure unwahrscheinlich.}
+		\item {\textbf{nodeofactor(Continent) $> 0$}: Europäische Länder als Exporteure am wahrscheinlichsten, Afrikanische Länder als Exporteure am unwahrscheinlichsten.}
+		\item {\textbf{absdiff(Polity) $-0.00936$}: Handel zwischen Ländern mit geringem Unterschied im Demokratiescore wahrscheinlich.}
+	\end{itemize}
+
+Die Ergebnisse erscheinen einleuchtend bis auf der negative Parameterwert der Statistik \emph{nodeocov(CINC)}. Dieser bedeutet, dass das Modell 1 einem Knoten mit einem kleinen CINC-Wert eher als Exportpartner auswählt, als einen Knoten mit
+großem CINC-Wert. Das würde bedeuten, dass ein mächtiges Land eine geringere Wahrscheinlichkeit besitzt als Exporteur aufzutreten als ein Land mit geringer Macht, was in gewisser Weise kontraintuitiv wirkt. Möglicherweise liegt dies an Eigenschaften der CINC-Variable selbst. Durch eine deskriptive Betrachtung der Variable könnte eine alternative Modellierung (z.B quadratische Modellierung) gerechtfertigt werden. Dies ist im Rahmen dieser Arbeit allerdings nicht geschehen.
+
+Eine etwas andere Herangehensweise erfordert die Interpretation der gewichteten Statistiken. Dies wird nun beispielhaft anhand der Statistik \emph{gwdegree} erläutert:
+Dazu nimmt man an, dass das Hinzufügen einer Kante nur den Degree $k$ eines Knotens des Netzwerkes verändert. Daraus folgt eine Veränderung der Degreesequenz eines Netzwerkes von $(D_k, D_{k+1})$ zu $(D_k-1, D_{k+1}+1)$. Nun lässt sich das Verhältnis der Wahrscheinlichkeit des Netzwerkes vor Änderung der Sequenz zu der des Netzwerkes nach Änderung der Sequenz mithilfe von Gleichung \ref{eq:GWD} ausdrücken als:
+\begin{equation}
+\frac{P_{After}}{P_{Before}} = exp(\theta\rho^k) , \rho = 1 - e^{-\phi}
+\label{eq:interpretation2}
+\end{equation}
+Der Parameter $\theta$ lässt sich nun so Interpretieren, dass ein positiver Parameter für eine Tendenz zum Hinzufügen von Kanten spricht, da $\rho^k>0$ ist und dadurch $exp(\theta\rho^k)>1$. Ein negatives $\theta$ hingegen spricht gegen die Hinzunahme von zusätzlichen Kanten.
+Auch die Interpretation des Decay-Parameters $\phi$ wird aus Gleichung \ref{eq:interpretation2} für den Wertebereich $]0,\infty[$ anschaulich. Ein $\phi$ nahe Null resultiert in einem kleinen Wert von $\rho$. Hier verschwindet bei zunehmendem Degree $k$ der Einfluss des Parameters $\theta$ schnell, während ein großer Wert von $\phi$, also ein $\rho$ nahe Eins nur einen geringen Verfall des Einflusses des $\theta$ Parameters für wachsendes $k$ zufolge hat.
+
+Demnach lassen sich die Parameterwerte für die gewichteten Statistiken aus Modell 1 interpretieren. Der positive Wert des zur Statistik \emph{gwidegree} gehörenden Parameters begünstigt die Hinzunahme von Kanten die zu einem Knoten hinführen. Das Modell tendiert also dazu einem Land zusätzliche Importpartner zuzuweisen. Der Decay- Parameter von $0.2$ sorgt dafür, dass diese Tendenz bei steigendem In-Degree der Knoten rasch abnimmt. Die restlichen Parameterwerte lassen sich wie folgt interpretieren: 
+	\begin{itemize}
+		\item {\textbf{GWIDEGREE $1.895$}: Tendenz zur Hinzunahme von Importpartnern.}
+		\item {\textbf{GWODEEGREE $-1.211$}: Tendenz gegen Hinzunahme von Exportpartnern.}
+		\item {\textbf{GWESP $2.641$}: Tendenz zur Schließung von Deiecken.}
+		\item {\textbf{GWDSP $-0.05686$}: Tendenz gegen Schließung von offenen Dreiecken.}\\\vspace{1cm}
+		\item {\textbf{DECAY $0.2$}: Tendenz verschwindet schnell.}
+	\end{itemize}
+	Die Wahl des Decay-Parameters erfolgte im Rahmen dieser Arbeit durch ausprobieren. Eine freie Schätzung des Parameters ist zwar theoretisch möglich, führt aber in der Praxis häufig zu sehr langen Rechenzeiten und zur Divergenz des Schätzalgorithmus \citep{goodreau2008statnet}.
+	
+\subsection{Überprüfung der Ergebnisse}
+Das Modell 1 wurde nun geschätzt und interpretiert. Anschließend soll die Validität dieser Ergebnisse anhand zweier Kriterien überprüft werden. Zum einen wird Anhand einer MCMC-Diagnose überprüft ob der in Abschnitt \ref{sec:simzuf} eingeführte Algorithmus zur Simulation von Zufallsgraphen erfolgreich konvergiert ist. Zum anderen werden durch sogenannte Goodness of Fit Plots aus dem Modell gezogene Netzwerke hinsichtlich einiger Statistiken mit dem beobachteten Netzwerk verglichen, um sicherzustellen, dass das Modell das beobachtete Netzwerk realistisch abbildet.
+\subsubsection{MCMC-Diagnose}
+Anhand einer MCMC-Diagnose kann überprüft werden ob ein Makrov Chain Monte Carlo Algorithmus wie in Abschnitt \ref{sec:simzuf} konvergiert ist. Uns diente der Algorithmus um zufällige Graphen aus einer Zielverteilung $P_{\theta}$ zu ziehen. Bei gewünschter Funktionsweise und Konvergenz des Algorithmus erhält man nach dem Verwerfen des Burn-Ins und ausreichend großem Thinning zufällige Ziehungen. Die Konvergenz kann nun überprüft werden, indem man sich die Werte der Statistiken der gezogenen Graphen betrachtet. Stammen die Graphen tatsächlich aus der selben Zielverteilung so sollten die Statistiken um einen Mittelwert schwanken und keine Trends mehr aufweisen.
+
+	\begin{figure}[h]
 	\centering
-		\includegraphics[width=1\textwidth]{../ERGM/mcmcdiagergm3.png}
-	\caption{MCMC Diagnose von Modell 1}
-	\label{fig:mcmc.diag.model1}
-\end{figure}
+		\includegraphics[width=0.8\textwidth]{Grafiken/mcmc_diag1.png}
+	\caption{MCMC Diagnose von Modell 1 (1996) - edges und mutual}
+	\end{figure}
+	
+	\begin{figure}[h]
+	\centering
+		\includegraphics[width=0.8\textwidth]{Grafiken/mcmc_diag2.png}
+	\caption{MCMC Diagnose von Modell 1 (1996) - gwidegree und gwodegree}
+	\end{figure}
+Beispielhaft aufgeführt sind hier die MCMC-Diagnosen der Statistiken \emph{edges, mutual, gwidegree} und \emph{gwodegree}. Bei allen vier Statistiken fällt die Diagnose zufriedenstellend aus. Es ist kein klarer Trend über die Ziehungen zu erkennen und der Werte der Statistiken schwanken, wenn auch nicht perfekt, symmetrisch um ihre Mittelwerte. Die MCMC-Diagnosen der restlichen im Modell 1 enthaltenen Statistiken geben ein ähnliches Ergebnis und sind hier deswegen nicht komplett abgebildet.
+
+\subsubsection{Goodness of Fit}
+Nachdem die Funktion des Simulationsalgorithmus überprüft wurde stellt sich nun die Frage ob das Modell auch die richtige Zielverteilung spezifiziert. Zu überprüfen gilt also: Stimmen die gezogenen zufälligen Graphen mit dem beobachteten Graphen der die Grundlage der Modellierung bildet überein. Hierzu verwendet man sogenannte Goodness of Fit Plots. Den Statistiken aus vielen zufällig gezogenen Graphen wird jene des beobachteten Graphen gegenübergestellt. Idealerweise sollte die Statistiken der gezogenen Graphen im Mittelwert mit dem beobachteten Statistiken übereinstimmen oder diesen zumindest überdecken. 
 
 
 Bei den Goodness of Fit Plots in Abbildung \ref{fig:gof.model1} fällt auf: out degree und minimum geodesic distance sind sehr gut getroffen, aber die esp- Statistiken werden bei kleinen Werten stark überschätzt und danach unterschätzt. Der In-Degree wird vor allem bei den Werten 1 und 2 nicht getroffen. 
@@ -617,24 +734,7 @@ Mögliche Lösung: Variation des decay-Parameters? Leider tendeiert das Modell f
 \end{figure}
 
 
-\section{Interpretation der Parameter}
 
-Für den nachfolgenden wird der Begriff der \emph{Change Statistiken} benötigt: $\theta^T\delta_g(x)_{ij}$ ist der Vektor der sogenannten \emph{Change-Statistiken}
- 
-$$ \theta^T\delta_g(x)_{ij} = g(x^+_{ij}) - g(x^-_{ij}) $$
-
-wobei $x^+_{ij}$ und $x^-_{ij}$ die jeweiligen Netzwerke sind, die man erhält, wenn man in einem bestimmten Netzwerk $x$ die Kannte $x_{ij}$ als gegeben ($x_{ij} = 1$) oder abwesend ($x_{ij}= 0$) festlegt. $\theta^T\delta_g(x)_{ij}$ misst also den Wert der Veränderung der Statistiken $g(x)$ zwischen dem ansonsten gleichen Netzwerken mit und ohne der Kante $x_{ij}$.
-
-
-Für eine einfache Interpretation der Modellparameter lässt sich Modellgleichung \ref{eq:ergm} nun umschreiben zu 
-\begin{equation}
-	logit\left[P_{\theta, \mathcal{X}}(X_{ij} = 1 | X^c_{ij} = x^c_{ij})\right] = \theta^T\delta_g(x)_{ij}.
-	\label{eq:change}
-\end{equation}
-Die logit Funktion ist definiert als $logit(p) = log\left[p/(1-p)\right]$ und $X^c_{ij}$ repräsentiert das restliche Netzwerk ohne die einzelnen Variable $X_{ij}$. 
-
-Die Wahrscheinlichkeit auf der linken Seite von Gleichung \ref{eq:change} hängt nun nur noch von den Change Statistiken $\theta^T\delta_g(x)_{ij}$ ab und nicht mehr von den Netzwerkstatistiken $g(x^+_{ij})$ und $g(x^-_{ij})$ selbst.
-Hierdurch ergibt sich eine einfache Interpretation der Modellparameter $\theta$. Jedes Element aus $\theta$ lässt sich nun interpretieren als der Anstieg der bedingten log-odds des Netzwerkes, pro Anstieg des entsprechenden Elements aus $g(x)$, der aus dem Wechsel von $X_{ij}$ von $0$ zu $1$ resultiert \citep{hunter2008ergm}.
 
 \newpage
 
