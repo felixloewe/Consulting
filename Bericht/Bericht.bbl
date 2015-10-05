@@ -65,6 +65,12 @@ Hunter, D.~R., Handcock, M.~S., Butts, C.~T., Goodreau, S.~M. \harvardand\
 \newblock ergm: A package to fit, simulate and diagnose exponential-family
   models for networks, {\em Journal of statistical software} {\bf 24}(3).
 
+\harvarditem{Jansen \harvardand\ Schmid}{2014}{js14}
+Jansen, C. \harvardand\ Schmid, C.  \harvardyearleft 2014\harvardyearright .
+\newblock {Eine statistische Analyse des Netzwerks des internationalen
+  Waffenhandels von 1950-2012}, Fakultät für Mathematik, Informatik und
+  Statistik der Ludwig-Maximilians-Universität München.
+
 \harvarditem{Kolaczyk}{2009}{kol09}
 Kolaczyk, E.~D.  \harvardyearleft 2009\harvardyearright .
 \newblock {\em Statistical Analysis of Network Data}, Springer New York.
@@ -113,5 +119,12 @@ The Maddison-Project, .  \harvardyearleft n.d.\harvardyearright .
 \newblock Growth domestic product,
   \url{http://www.ggdc.net/maddison/maddison-project/home.htm}.
 \newblock Version 4.1.
+
+\harvarditem[Thurner et~al.]{Thurner, Schmidt, Cranmer \harvardand\
+  Kauermann}{2015}{armstransfer}
+Thurner, P.~W., Schmidt, C., Cranmer, S. \harvardand\ Kauermann, G.
+  \harvardyearleft 2015\harvardyearright .
+\newblock The network of arms transfers 1950-2013: An application of ergms and
+  tergms, Preliminary Version.
 
 \end{thebibliography}

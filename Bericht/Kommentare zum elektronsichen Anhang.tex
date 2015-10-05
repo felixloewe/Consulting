@@ -1,0 +1,47 @@
+\documentclass[a4paper,ngerman,oneside,titlepage,bibliography=totoc,11pt]{scrreprt}
+
+
+\pagestyle{headings}
+
+\usepackage{geometry}
+\geometry{left=31mm, top=34mm, right=31mm, bottom=34mm}
+
+\renewcommand{\ttdefault}{lmtt}
+\linespread{1.06} %font
+
+\usepackage[font=small,labelfont=bf]{caption} %caption, caption-font
+\usepackage{subcaption}
+\usepackage{amsmath, amsthm, amssymb, amsbsy}
+\usepackage{mathtools}
+\usepackage{color}
+\usepackage{booktabs}
+\usepackage{microtype}
+\usepackage{natbib}
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc} % für Umlaute (ansinew Editor, utf8 bei Texniccenter/Texmaker)
+\usepackage[T1]{fontenc} % korrekte Trennung von Umlauten
+
+\usepackage{lmodern}
+\usepackage[hyphens]{url}
+\usepackage{hyperref}
+\usepackage{animate}
+\usepackage{rotating}
+\usepackage{longtable}
+\usepackage{setspace}
+\onehalfspacing
+
+
+
+\begin{document}
+
+\chapter*{Kommentare zum elektronischen Anhang}
+Die Inhalte des elektronischen Anhangs werden hier kurz erklärt: Er ist in folgende Ordner unterteilt:
+\begin{itemize}
+	\item \textbf{Arbeiten zum Großwaffendatensatz:} Dieser Ordner enthält den Bericht und den Vortrag der im Rahmen der Vorgängerarbeit erstellt wurde. Außerdem findet sich hier auch eine Vorabversion des Artikels, der die weiterentwickelte Modellierung des Großwaffendatensatzes beschreibt.
+	\item \textbf{Bericht und Vortrag}: Dieser Ordner enthält den diesen Bericht und die dazugehörigen Vortragsfolien in elektronischer Form.
+	\item \textbf{Importdaten}: Dieser Ordner enthält den verwendeten Datensatz des PRIO Institutes sowie die verwendeten Datensätze der exogenen Kovariablen.
+	\item \textbf{R-Code}: Dieser Ordner enthält den lauffähigen und kommentierten R-Code mit dessen Hilfe die berichteten Analyse erstellt wurden. Zum Einlesen der Prio-Daten sollte die Datei \texttt{read-in.R} verwendet werden. Die Codes zum Einlesen der exogenen Kovariablen finden sich im Unterordner "`Kovariablen"'. Im Unterordner ERGM finden sich verschiedene ausprobierte Modelle, die durch die Datei \texttt{ergm-vorbereitung.R} lauffähig werden. Die anderen beiden Unterordner enthalten Code mit dessen Hilfe die im Bericht verwendeten Grafiken erstellt werden können und einige nützliche zusätzliche Funktionen die im Programmcode selbst ausreichend erklärt sind.
+	\item \textbf{Sonstiges}: Dieser Ordner enthält eine Liste der aus dem Datensatz gelöschten Schleifen und der COW country codes.
+\end{itemize} 
+
+\end{document}

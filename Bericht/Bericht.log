@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.25)  22 SEP 2015 16:58
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.25)  3 OCT 2015 22:46
 entering extended mode
 **Bericht.tex
 (C:\Users\Felix\Documents\Consulting\Bericht\Bericht.tex
@@ -932,11 +932,16 @@ Class scrreprt Warning: Usage of deprecated font command `\bf'!
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
 (scrreprt)              by `\normalfont \bfseries ' on input line 97.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--102
+
+ []
+
 [2
 
 
 ]
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 109.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 113.
  (D:\Latex\tex\latex\lm\t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -944,7 +949,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package tocbasic Info: character protrusion at toc deactivated on input line 109.
+Package tocbasic Info: character protrusion at toc deactivated on input line 113.
  (C:\Users\Felix\Documents\Consulting\Bericht\Bericht.toc
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 4.
 
@@ -982,139 +987,136 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (D:\Latex\tex\latex\microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-))
-\tf@toc=\write4
- [3
+) [3
 
-]
+])
+\tf@toc=\write4
+ [4]
 Kapitel 1.
-[4
+[5
 
 ]
 Kapitel 2.
-[5
+[6
 
-] [6] [7] [8]
+] [7] [8] [9]
 Kapitel 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 180.
+(Font)              <9> on input line 185.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 180.
+(Font)              <5> on input line 185.
 ! Undefined control sequence.
 <argument> ...\z@ \footnotesep \ignorespaces \URL 
                                                   {https://www.prio.org/}\@f...
-l.180 ..."' \footnote{\URL{https://www.prio.org/}}
-                                                   ermöglichen zu erforsche...
+l.185 ..."' \footnote{\URL{https://www.prio.org/}}
+                                                   ermöglichen, zu erforsch...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[9
+[10
 
 ]
 Kapitel 4.
-<Grafiken/ts_descriptives.png, id=211, 1156.32pt x 770.88pt>
+<Grafiken/ts_descriptives.png, id=230, 1156.32pt x 770.88pt>
 File: Grafiken/ts_descriptives.png Graphic file (type png)
  <use Grafiken/ts_descriptives.png>
-Package pdftex.def Info: Grafiken/ts_descriptives.png used on input line 196.
+Package pdftex.def Info: Grafiken/ts_descriptives.png used on input line 201.
 (pdftex.def)             Requested size: 378.98814pt x 252.65031pt.
- [10
+ [11
 
- <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/ts_descriptives.png>] <Grafiken/ts_degree.png, id=219, 842.14626p
+ <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/ts_descriptives.png>] <Grafiken/ts_degree.png, id=238, 842.14626p
 t x 655.44875pt>
 File: Grafiken/ts_degree.png Graphic file (type png)
 
 <use Grafiken/ts_degree.png>
-Package pdftex.def Info: Grafiken/ts_degree.png used on input line 212.
+Package pdftex.def Info: Grafiken/ts_degree.png used on input line 219.
 (pdftex.def)             Requested size: 421.1008pt x 327.74356pt.
- [11] <Grafiken/and.png, id=227, 578.16pt x 578.16pt>
+ [12] <Grafiken/and.png, id=246, 578.16pt x 578.16pt>
 File: Grafiken/and.png Graphic file (type png)
  <use Grafiken/and.png>
-Package pdftex.def Info: Grafiken/and.png used on input line 229.
+Package pdftex.def Info: Grafiken/and.png used on input line 235.
 (pdftex.def)             Requested size: 252.66304pt x 252.66206pt.
 
-<Grafiken/ts_value.png, id=230, 770.88pt x 385.44pt>
+<Grafiken/ts_value.png, id=249, 770.88pt x 385.44pt>
 File: Grafiken/ts_value.png Graphic file (type png)
  <use Grafiken/ts_value.png>
-Package pdftex.def Info: Grafiken/ts_value.png used on input line 243.
+Package pdftex.def Info: Grafiken/ts_value.png used on input line 249.
 (pdftex.def)             Requested size: 294.76927pt x 147.38033pt.
- [12 <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/ts_degree.png>] [13 <C:/Users/Felix/Documents/Consulting/Beri
+ [13 <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/ts_degree.png>] [14 <C:/Users/Felix/Documents/Consulting/Beri
 cht/Grafiken/and.png> <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/ts_value.png>] <Grafiken/ts_topsexp.png, id=
-247, 867.24pt x 578.16pt>
+266, 867.24pt x 578.16pt>
 File: Grafiken/ts_topsexp.png Graphic file (type png)
 
 <use Grafiken/ts_topsexp.png>
-Package pdftex.def Info: Grafiken/ts_topsexp.png used on input line 307.
+Package pdftex.def Info: Grafiken/ts_topsexp.png used on input line 313.
 (pdftex.def)             Requested size: 273.71294pt x 182.47424pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14] <Grafiken/ts_topsimp.png, id=255, 819.06pt x 655.44875pt>
+[15] <Grafiken/ts_topsimp.png, id=274, 819.06pt x 655.44875pt>
 File: Grafiken/ts_topsimp.png Graphic file (type png)
  <use Grafiken/ts_topsimp.png>
-Package pdftex.def Info: Grafiken/ts_topsimp.png used on input line 320.
+Package pdftex.def Info: Grafiken/ts_topsimp.png used on input line 326.
 (pdftex.def)             Requested size: 273.71294pt x 219.03911pt.
- [15 <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/ts_topsexp.png> <C:/Users/Felix/Documents/Consulting/Bericht/
+ [16 <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/ts_topsexp.png> <C:/Users/Felix/Documents/Consulting/Bericht/
 Grafiken/ts_topsimp.png>]
-Overfull \hbox (31.8555pt too wide) in paragraph at lines 336--352
+Overfull \hbox (31.8555pt too wide) in paragraph at lines 342--358
  [][] 
  []
 
 
-Overfull \hbox (24.75638pt too wide) in paragraph at lines 357--373
+Overfull \hbox (30.19914pt too wide) in paragraph at lines 363--379
  [][] 
  []
 
-<Grafiken/ts_network.png, id=265, 982.67125pt x 655.44875pt>
+<Grafiken/ts_network.png, id=284, 982.67125pt x 655.44875pt>
 File: Grafiken/ts_network.png Graphic file (type png)
  <use Grafiken/ts_network.png>
-Package pdftex.def Info: Grafiken/ts_network.png used on input line 383.
+Package pdftex.def Info: Grafiken/ts_network.png used on input line 389.
 (pdftex.def)             Requested size: 378.98814pt x 252.7836pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[16]
+[17]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17 <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/ts_network.png>]
-
-LaTeX Warning: Reference `fig;cont' on page 18 undefined on input line 458.
-
- <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/Cont_Ani/cont1.pdf> <C:/Users/Felix/Documents/Consulting/Bericht/
-Grafiken/Cont_Ani/cont2.pdf> <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/Cont_Ani/cont3.pdf> <C:/Users/Felix/D
-ocuments/Consulting/Bericht/Grafiken/Cont_Ani/cont4.pdf> <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/Cont_Ani/
-cont5.pdf> <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/Cont_Ani/cont6.pdf> <C:/Users/Felix/Documents/Consultin
-g/Bericht/Grafiken/Cont_Ani/cont7.pdf> <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/Cont_Ani/cont8.pdf> <C:/Use
-rs/Felix/Documents/Consulting/Bericht/Grafiken/Cont_Ani/cont9.pdf> <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken
-/Cont_Ani/cont10.pdf> <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/Cont_Ani/cont11.pdf> <C:/Users/Felix/Documen
-ts/Consulting/Bericht/Grafiken/Cont_Ani/cont12.pdf> <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/Cont_Ani/cont1
-3.pdf> <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/Cont_Ani/cont14.pdf> <C:/Users/Felix/Documents/Consulting/B
-ericht/Grafiken/Cont_Ani/cont15.pdf> <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/Cont_Ani/cont16.pdf> <C:/User
-s/Felix/Documents/Consulting/Bericht/Grafiken/Cont_Ani/cont17.pdf> <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken
-/Cont_Ani/cont18.pdf> <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/Cont_Ani/cont19.pdf> <C:/Users/Felix/Documen
-ts/Consulting/Bericht/Grafiken/Cont_Ani/cont20.pdf>
-Overfull \hbox (33.49559pt too wide) in paragraph at lines 463--464
+[18 <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/ts_network.png>] <C:/Users/Felix/Documents/Consulting/Bericht/
+Grafiken/Cont_Ani/cont1.pdf> <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/Cont_Ani/cont2.pdf> <C:/Users/Felix/D
+ocuments/Consulting/Bericht/Grafiken/Cont_Ani/cont3.pdf> <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/Cont_Ani/
+cont4.pdf> <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/Cont_Ani/cont5.pdf> <C:/Users/Felix/Documents/Consultin
+g/Bericht/Grafiken/Cont_Ani/cont6.pdf> <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/Cont_Ani/cont7.pdf> <C:/Use
+rs/Felix/Documents/Consulting/Bericht/Grafiken/Cont_Ani/cont8.pdf> <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken
+/Cont_Ani/cont9.pdf> <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/Cont_Ani/cont10.pdf> <C:/Users/Felix/Document
+s/Consulting/Bericht/Grafiken/Cont_Ani/cont11.pdf> <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/Cont_Ani/cont12
+.pdf> <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/Cont_Ani/cont13.pdf> <C:/Users/Felix/Documents/Consulting/Be
+richt/Grafiken/Cont_Ani/cont14.pdf> <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/Cont_Ani/cont15.pdf> <C:/Users
+/Felix/Documents/Consulting/Bericht/Grafiken/Cont_Ani/cont16.pdf> <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/
+Cont_Ani/cont17.pdf> <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/Cont_Ani/cont18.pdf> <C:/Users/Felix/Document
+s/Consulting/Bericht/Grafiken/Cont_Ani/cont19.pdf> <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/Cont_Ani/cont20
+.pdf>
+Overfull \hbox (33.49559pt too wide) in paragraph at lines 471--472
  [][] 
  []
 
-[18] [19]
+[19] [20]
 Kapitel 5.
-[20
+[21
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 496.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 503.
  (D:\Latex\tex\latex\lm\omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 496.
- [21] [22]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 540.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 503.
+ [22] [23]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 546.
  (D:\Latex\tex\latex\lm\t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1122,30 +1124,53 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [23] [24] [25] [26] [27] [28]
-[29] [30] <Grafiken/mcmc_diag1.png, id=668, 656.4525pt x 455.7025pt>
+ [24] [25] [26] [27] [28] [29]
+[30] [31] <Grafiken/mcmc_diag1.png, id=688, 656.4525pt x 455.7025pt>
 File: Grafiken/mcmc_diag1.png Graphic file (type png)
  <use Grafiken/mcmc_diag1.png>
-Package pdftex.def Info: Grafiken/mcmc_diag1.png used on input line 711.
+Package pdftex.def Info: Grafiken/mcmc_diag1.png used on input line 714.
 (pdftex.def)             Requested size: 336.88191pt x 233.85846pt.
 
-<Grafiken/mcmc_diag2.png, id=669, 751.80875pt x 494.84875pt>
+<Grafiken/mcmc_diag2.png, id=689, 751.80875pt x 494.84875pt>
 File: Grafiken/mcmc_diag2.png Graphic file (type png)
  <use Grafiken/mcmc_diag2.png>
-Package pdftex.def Info: Grafiken/mcmc_diag2.png used on input line 717.
+Package pdftex.def Info: Grafiken/mcmc_diag2.png used on input line 720.
 (pdftex.def)             Requested size: 336.88191pt x 221.74358pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[31 <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/mcmc_diag1.png>]
-<../ERGM/GOF3.png, id=681, 1092.08pt x 920.43875pt>
-File: ../ERGM/GOF3.png Graphic file (type png)
- <use ../ERGM/GOF3.png>
-Package pdftex.def Info: ../ERGM/GOF3.png used on input line 731.
-(pdftex.def)             Requested size: 421.1008pt x 354.91074pt.
- [32 <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/mcmc_diag2.png>] (C:\Users\Felix\Documents\Consulting\Bericht
-\Bericht.bbl [33 <C:/Users/Felix/Documents/Consulting/ERGM/GOF3.png>]
+[32 <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/mcmc_diag1.png>]
+<Grafiken/GOF.png, id=699, 1371.1225pt x 727.71875pt>
+File: Grafiken/GOF.png Graphic file (type png)
+ <use Grafiken/GOF.png>
+Package pdftex.def Info: Grafiken/GOF.png used on input line 730.
+(pdftex.def)             Requested size: 378.98814pt x 201.15039pt.
+ [33 <C:/Users/Felix/Documents/Consulting/Bericht/Grafiken/mcmc_diag2.png> <C:/Users/Felix/Documents/Consulting/Bericht/
+Grafiken/GOF.png>]
+
+Package caption Warning: \label without proper \caption on input line 758.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tab:unterschiede' on page 34 undefined on input line 744.
+
+! Undefined control sequence.
+<argument> ...\z@ \footnotesep \ignorespaces \URL 
+                                                  {http://www.sipri.org/}\@f...
+l.760 ...)} \footnote{\URL{http://www.sipri.org/}}
+                                                  . Er enthält den Zeitraum...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[34] [35]
+Kapitel 6.
+[36
+
+] [37] (C:\Users\Felix\Documents\Consulting\Bericht\Bericht.bbl
 
 Class scrreprt Warning: Usage of deprecated font command `\bf'!
 (scrreprt)              You should note, that in 1994 font command `\bf' has
@@ -1216,7 +1241,7 @@ Class scrreprt Warning: Usage of deprecated font command `\bf'!
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
 (scrreprt)              by `\normalfont \bfseries ' on input line 66.
 
-[34
+[38
 
 ]
 
@@ -1231,7 +1256,7 @@ Class scrreprt Warning: Usage of deprecated font command `\bf'!
 (scrreprt)              Note also, that KOMA-Script will remove the definition
 (scrreprt)              of `\bf' anytime until release of about version 3.20.
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 96.
+(scrreprt)              by `\normalfont \bfseries ' on input line 102.
 
 
 Class scrreprt Warning: Usage of deprecated font command `\bf'!
@@ -1245,57 +1270,58 @@ Class scrreprt Warning: Usage of deprecated font command `\bf'!
 (scrreprt)              Note also, that KOMA-Script will remove the definition
 (scrreprt)              of `\bf' anytime until release of about version 3.20.
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 108.
+(scrreprt)              by `\normalfont \bfseries ' on input line 114.
 
-) [35]
-Package tocbasic Info: character protrusion at lof deactivated on input line 750.
+) [39]
+Package tocbasic Info: character protrusion at lof deactivated on input line 795.
  (C:\Users\Felix\Documents\Consulting\Bericht\Bericht.lof)
 \tf@lof=\write5
- [36
+ [40
 
 ]
-Package tocbasic Info: character protrusion at lot deactivated on input line 752.
+Package tocbasic Info: character protrusion at lot deactivated on input line 797.
 
 (C:\Users\Felix\Documents\Consulting\Bericht\Bericht.lot)
 \tf@lot=\write6
- [37
+ [41
+
+] [42
 
 ]
-Underfull \vbox (badness 10000) detected at line 784
- []
-
-[38
-
-] [39] [40] [41]
-Underfull \hbox (badness 10000) in paragraph at lines 925--926
+Underfull \hbox (badness 10000) in paragraph at lines 815--816
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 947.
-Package atenddvi Info: Last page = 42.
-[42
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 837.
+Package atenddvi Info: Last page = 43.
+[43
 
 ]
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 947.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 837.
  (C:\Users\Felix\Documents\Consulting\Bericht\Bericht.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 947.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 947.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 837.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 837.
 Package rerunfilecheck Info: File `Bericht.out' has not changed.
-(rerunfilecheck)             Checksum: 3EDE2636879B182B5F6A6A6452A21035;1999.
+(rerunfilecheck)             Checksum: 52CEAAA6B40B72BE2CB21072726B38A9;2212.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 947.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 837.
  ) 
 Here is how much of TeX's memory you used:
- 14076 strings out of 493921
- 216455 string characters out of 3154901
- 421550 words of memory out of 3000000
- 16771 multiletter control sequences out of 15000+200000
- 92045 words of font info for 150 fonts, out of 3000000 for 9000
+ 14092 strings out of 493921
+ 216663 string characters out of 3154901
+ 409690 words of memory out of 3000000
+ 16777 multiletter control sequences out of 15000+200000
+ 92305 words of font info for 152 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 46i,10n,61p,1788b,527s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,10n,61p,1798b,537s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist, replaced by a fixed one
+
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 {D:/Latex/fonts/enc/dvips/lm/lm-ec.enc}{D:/Latex/fonts/enc/dvips/lm/lm-rm.enc}{D:/Latex/fonts/enc/dvips/lm/lm-mathsy.enc
@@ -1308,9 +1334,9 @@ x/fonts/type1/public/lm/lmri10.pfb><D:/Latex/fonts/type1/public/lm/lmri12.pfb><D
 ><D:/Latex/fonts/type1/public/lm/lmssbx10.pfb><D:/Latex/fonts/type1/public/lm/lmsy10.pfb><D:/Latex/fonts/type1/public/lm
 /lmsy6.pfb><D:/Latex/fonts/type1/public/lm/lmsy8.pfb><D:/Latex/fonts/type1/public/lm/lmtt10.pfb><D:/Latex/fonts/type1/pu
 blic/amsfonts/symbols/msbm10.pfb>
-Output written on Bericht.pdf (42 pages, 882131 bytes).
+Output written on Bericht.pdf (43 pages, 895789 bytes).
 PDF statistics:
- 867 PDF objects out of 1000 (max. 8388607)
- 128 named destinations out of 1000 (max. 500000)
- 28845 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 900 PDF objects out of 1000 (max. 8388607)
+ 135 named destinations out of 1000 (max. 500000)
+ 28869 words of extra memory for PDF output out of 29859 (max. 10000000)
 
