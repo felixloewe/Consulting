@@ -1,4 +1,4 @@
-\beamer@endinputifotherversion {3.26pt}
+\beamer@endinputifotherversion {3.33pt}
 \headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
 \headcommand {\beamer@framepages {1}{1}}
 \headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
@@ -98,19 +98,21 @@
 \headcommand {\beamer@framepages {75}{75}}
 \headcommand {\slideentry {5}{2}{15}{76/76}{Anwendung des ERGM}{0}}
 \headcommand {\beamer@framepages {76}{76}}
-\headcommand {\beamer@subsectionentry {0}{5}{3}{77}{Vergleich mit Gro\IeC {\ss }waffenhandel}}\headcommand {\beamer@subsectionpages {43}{76}}
-\headcommand {\slideentry {5}{3}{1}{77/77}{Vergleich mit Gro\IeC {\ss }waffenhandel}{0}}
+\headcommand {\sectionentry {6}{Vergleich mit Gro\IeC {\ss }waffenhandel}{77}{Vergleich mit Gro\IeC {\ss }waffenhandel}{0}}
+\headcommand {\beamer@sectionpages {24}{76}}
+\headcommand {\beamer@subsectionpages {43}{76}}
+\headcommand {\slideentry {6}{0}{16}{77/77}{}{0}}
 \headcommand {\beamer@framepages {77}{77}}
-\headcommand {\sectionentry {6}{Fazit}{78}{Fazit}{0}}
-\headcommand {\beamer@sectionpages {24}{77}}
+\headcommand {\sectionentry {7}{Fazit}{78}{Fazit}{0}}
+\headcommand {\beamer@sectionpages {77}{77}}
 \headcommand {\beamer@subsectionpages {77}{77}}
-\headcommand {\slideentry {6}{0}{2}{78/78}{}{0}}
+\headcommand {\slideentry {7}{0}{17}{78/78}{}{0}}
 \headcommand {\beamer@framepages {78}{78}}
-\headcommand {\slideentry {6}{0}{3}{79/79}{}{0}}
+\headcommand {\slideentry {7}{0}{18}{79/79}{}{0}}
 \headcommand {\beamer@framepages {79}{79}}
-\headcommand {\slideentry {6}{0}{4}{80/80}{}{0}}
+\headcommand {\slideentry {7}{0}{19}{80/80}{}{0}}
 \headcommand {\beamer@framepages {80}{80}}
-\headcommand {\slideentry {6}{0}{5}{81/81}{}{0}}
+\headcommand {\slideentry {7}{0}{20}{81/81}{}{0}}
 \headcommand {\beamer@framepages {81}{81}}
 \headcommand {\beamer@partpages {1}{81}}
 \headcommand {\beamer@subsectionpages {78}{81}}

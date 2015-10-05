@@ -6,15 +6,11 @@ Arel-Bundock, V.  \harvardyearleft 2014\harvardyearright .
 \newblock R package version 0.18.
 \newline\harvardurl{http://CRAN.R-project.org/package=countrycode}
 
-\harvarditem{Gibler}{n.d.}{alliance}
-Gibler, D.~M.  \harvardyearleft n.d.\harvardyearright .
-\newblock International military alliances , 1648-2008, CQ Press.
-\newblock Version 4.1.
-
-\harvarditem{Goodreau}{2007}{goodreau2007advances}
-Goodreau, S.~M.  \harvardyearleft 2007\harvardyearright .
-\newblock Advances in exponential random graph (p*) models applied to a large
-  social network, {\em Social Networks} {\bf 29}(2):~231--248.
+\harvarditem{Cranmer \harvardand\ Desmarais}{2011}{cranmer2011inferential}
+Cranmer, S.~J. \harvardand\ Desmarais, B.~A.  \harvardyearleft
+  2011\harvardyearright .
+\newblock Inferential network analysis with exponential random graph models,
+  {\em Political Analysis} {\bf 19}(1):~66--86.
 
 \harvarditem[Goodreau et~al.]{Goodreau, Handcock, Hunter, Butts \harvardand\
   Morris}{2008}{goodreau2008statnet}
@@ -62,18 +58,18 @@ Hunter, D.~R.  \harvardyearleft 2007\harvardyearright .
 \newblock Curved exponential family models for social networks, {\em Social
   networks} {\bf 29}(2):~216--230.
 
-\harvarditem{Hunter, Goodreau \harvardand\ Handcock}{2008}{hunter2008goodness}
-Hunter, D.~R., Goodreau, S.~M. \harvardand\ Handcock, M.~S.  \harvardyearleft
-  2008\harvardyearright .
-\newblock Goodness of fit of social network models, {\em Journal of the
-  American Statistical Association} {\bf 103}(481).
-
-\harvarditem{Hunter, Handcock, Butts, Goodreau \harvardand\
+\harvarditem[Hunter et~al.]{Hunter, Handcock, Butts, Goodreau \harvardand\
   Morris}{2008}{hunter2008ergm}
 Hunter, D.~R., Handcock, M.~S., Butts, C.~T., Goodreau, S.~M. \harvardand\
   Morris, M.  \harvardyearleft 2008\harvardyearright .
 \newblock ergm: A package to fit, simulate and diagnose exponential-family
   models for networks, {\em Journal of statistical software} {\bf 24}(3).
+
+\harvarditem{Jansen \harvardand\ Schmid}{2014}{js14}
+Jansen, C. \harvardand\ Schmid, C.  \harvardyearleft 2014\harvardyearright .
+\newblock {Eine statistische Analyse des Netzwerks des internationalen
+  Waffenhandels von 1950-2012}, Fakultät für Mathematik, Informatik und
+  Statistik der Ludwig-Maximilians-Universität München.
 
 \harvarditem{Kolaczyk}{2009}{kol09}
 Kolaczyk, E.~D.  \harvardyearleft 2009\harvardyearright .
@@ -123,5 +119,12 @@ The Maddison-Project, .  \harvardyearleft n.d.\harvardyearright .
 \newblock Growth domestic product,
   \url{http://www.ggdc.net/maddison/maddison-project/home.htm}.
 \newblock Version 4.1.
+
+\harvarditem[Thurner et~al.]{Thurner, Schmidt, Cranmer \harvardand\
+  Kauermann}{2015}{armstransfer}
+Thurner, P.~W., Schmidt, C., Cranmer, S. \harvardand\ Kauermann, G.
+  \harvardyearleft 2015\harvardyearright .
+\newblock The network of arms transfers 1950-2013: An application of ergms and
+  tergms, Preliminary Version.
 
 \end{thebibliography}
